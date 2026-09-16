@@ -1,0 +1,66 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import java.util.Spliterator;
+import java.util.Spliterators;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+   serializable = true,
+   emulated = true
+)
+class ORHIIROIHOHHHOROORIIROIOCRHHCR<E> extends COIRRRCIORROCHIROCHROCHICCICIC<E> {
+   static final COIRRRCIORROCHIROCHROCHICCICIC<Object> CRCCHCOOOOOCOORROHORRIOCCCRCRH = new ORHIIROIHOHHHOROORIIROIOCRHHCR<>(new Object[0]);
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH
+   final transient Object[] CROOICHIHRRIOICIRHHHCROICRIHIO;
+
+   ORHIIROIHOHHHOROORIIROIOCRHHCR(Object[] var1) {
+      this.CROOICHIHRRIOICIRHHHCROICRIHIO = var1;
+   }
+
+   @Override
+   public int size() {
+      return this.CROOICHIHRRIOICIRHHHCROICRIHIO.length;
+   }
+
+   @Override
+   boolean isPartialView() {
+      return false;
+   }
+
+   @Override
+   Object[] internalArray() {
+      return this.CROOICHIHRRIOICIRHHHCROICRIHIO;
+   }
+
+   @Override
+   int internalArrayStart() {
+      return 0;
+   }
+
+   @Override
+   int internalArrayEnd() {
+      return this.CROOICHIHRRIOICIRHHHCROICRIHIO.length;
+   }
+
+   @Override
+   int copyIntoArray(Object[] var1, int var2) {
+      System.arraycopy(this.CROOICHIHRRIOICIRHHHCROICRIHIO, 0, var1, var2, this.CROOICHIHRRIOICIRHHHCROICRIHIO.length);
+      return var2 + this.CROOICHIHRRIOICIRHHHCROICRIHIO.length;
+   }
+
+   @Override
+   public E get(int var1) {
+      return (E)this.CROOICHIHRRIOICIRHHHCROICRIHIO[var1];
+   }
+
+   @Override
+   public RRRIRIOCCHRHRIRHIRIIHCOHRHHIIC<E> OCCHCOCHHRORORHICHRRHCCICCIIIH(int var1) {
+      return HRCROCOHHHICRHIHHOOCIIRRRCCIRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         (E[])this.CROOICHIHRRIOICIRHHHCROICRIHIO, 0, this.CROOICHIHRRIOICIRHHHCROICRIHIO.length, var1
+      );
+   }
+
+   @Override
+   public Spliterator<E> spliterator() {
+      return Spliterators.spliterator(this.CROOICHIHRRIOICIRHHHCROICRIHIO, 1296);
+   }
+}

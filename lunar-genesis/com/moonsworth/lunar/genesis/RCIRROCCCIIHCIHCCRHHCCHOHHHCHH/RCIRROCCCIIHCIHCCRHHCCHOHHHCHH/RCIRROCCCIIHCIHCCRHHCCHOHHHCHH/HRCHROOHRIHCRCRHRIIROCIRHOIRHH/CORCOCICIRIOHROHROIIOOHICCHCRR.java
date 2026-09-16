@@ -1,0 +1,508 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.COIRRRCIORROCHIROCHROCHICCICIC;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HRCROCOHHHICRHIHHOOCIIRRRCCIRR;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRRCHIRICCIHCCIHOHRCHRHRHCRCOH;
+import java.util.AbstractSet;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.Map.Entry;
+import java.util.concurrent.atomic.AtomicBoolean;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+final class CORCOCICIRIOHROHROIIOOHICCHCRR<N, V> implements HICRRICCHCCROOHHCHOCOCCHOIHHOC<N, V> {
+   private static final Object RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO = new Object();
+   private final Map<N, Object> RROOHIHRHRROCIRCHCHRCHCRRHHHRI;
+   private final @Nullable List<CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N>> OCOHOHCCOCCOIORROIOHOCRHICHIHC;
+   private int predecessorCount;
+   private int successorCount;
+
+   private CORCOCICIRIOHROHROIIOOHICCHCRR(
+      Map<N, Object> var1, @Nullable List<CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N>> var2, int var3, int var4
+   ) {
+      this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      this.OCOHOHCCOCCOIORROIOHOCRHICHIHC = var2;
+      this.predecessorCount = IHIRRIIORRHORHRORIHOROIRCORCOO.checkNonNegative(var3);
+      this.successorCount = IHIRRIIORRHORHRORIHOROIRCORCOO.checkNonNegative(var4);
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkState(
+         var3 <= var1.size() && var4 <= var1.size()
+      );
+   }
+
+   static <N, V> CORCOCICIRIOHROHROIIOOHICCHCRR<N, V> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(OCOHORHCROHICRRIHCIHHRRCIHICRI<N> var0) {
+      byte var1 = 4;
+      ArrayList var2;
+      switch (var0.IROIICIHOCCHCRIRHRORRIIIHHRCCC()) {
+         case UNORDERED:
+            var2 = null;
+            break;
+         case STABLE:
+            var2 = new ArrayList();
+            break;
+         default:
+            throw new AssertionError(var0.IROIICIHOCCHCRIRHRORRIIIHHRCCC());
+      }
+
+      return new CORCOCICIRIOHROHROIIOOHICCHCRR<>(new HashMap<>(var1, 1.0F), var2, 0, 0);
+   }
+
+   static <N, V> CORCOCICIRIOHROHROIIOOHICCHCRR<N, V> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      N var0,
+      Iterable<CIOHHCORHRCCRICCCORIHCRHCCCRRR<N>> var1,
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<N, V> var2
+   ) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var2
+      );
+      HashMap var3 = new HashMap();
+      COIRRRCIORROCHIROCHROCHICCICIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var4 = COIRRRCIORROCHIROCHROCHICCICIC.HOOCHHHRHCRIRHCIHIRIRCOICCOIOR();
+      int var5 = 0;
+      int var6 = 0;
+
+      for (CIOHHCORHRCCRICCCORIHCRHCCCRRR var8 : var1) {
+         if (var8.RHICCHICCROOHCCCIRICICRCOIIIOO().equals(var0) && var8.HORHROCIIOHIICOIHOIOOIICCHHCCO().equals(var0)) {
+            var3.put(var0, new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2.apply(var0)));
+            var4.CCHHRHRHCRHIHIHRIOICROHCHIIIHI(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(var0));
+            var4.CCHHRHRHCRHIHIHRIOICROHCHIIIHI(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH<>(var0));
+            var5++;
+            var6++;
+         } else if (var8.HORHROCIIOHIICOIHOIOOIICCHHCCO().equals(var0)) {
+            Object var9 = var8.RHICCHICCROOHCCCIRICICRCOIIIOO();
+            Object var10 = var3.put(var9, RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO);
+            if (var10 != null) {
+               var3.put(var9, new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var10));
+            }
+
+            var4.CCHHRHRHCRHIHIHRIOICROHCHIIIHI(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(var9));
+            var5++;
+         } else {
+            com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+               var8.RHICCHICCROOHCCCIRICICRCOIIIOO().equals(var0)
+            );
+            Object var12 = var8.HORHROCIIOHIICOIHOIOOIICCHHCCO();
+            Object var13 = var2.apply(var12);
+            Object var11 = var3.put(var12, var13);
+            if (var11 != null) {
+               com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+                  var11 == RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO
+               );
+               var3.put(var12, new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var13));
+            }
+
+            var4.CCHHRHRHCRHIHIHRIOICROHCHIIIHI(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH<>(var12));
+            var6++;
+         }
+      }
+
+      return new CORCOCICIRIOHROHROIIOOHICCHCRR<>(var3, var4.IORRHROIIRHIIOOHCOOIRHOIHRHRHI(), var5, var6);
+   }
+
+   @Override
+   public Set<N> adjacentNodes() {
+      return this.OCOHOHCCOCCOIORROIOHOCRHICHIHC == null
+         ? Collections.unmodifiableSet(this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.keySet())
+         : new AbstractSet<N>() {
+            public IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<N> IOHOCICRRIRHHCCCRICOCOHOIIOCRH() {
+               final Iterator var1 = CORCOCICIRIOHROHROIIOOHICCHCRR.this.OCOHOHCCOCCOIORROIOHOCRHICHIHC.iterator();
+               final HashSet var2 = new HashSet();
+               return new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH<N>(
+                  
+               ) {
+                  @Override
+                  protected N computeNext() {
+                     while (var1.hasNext()) {
+                        CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1x = (CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1.next();
+                        boolean var2x = var2.add(var1x.IRIORCIIORIIOOOCOHCIIIOHHHICHI);
+                        if (var2x) {
+                           return var1x.IRIORCIIORIIOOOCOHCIIIOHHHICHI;
+                        }
+                     }
+
+                     return (N)this.ROCOROCOICRHOICORCIIRRRROCOHOC();
+                  }
+               };
+            }
+
+            @Override
+            public int size() {
+               return CORCOCICIRIOHROHROIIOOHICCHCRR.this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.size();
+            }
+
+            @Override
+            public boolean contains(@Nullable Object var1) {
+               return CORCOCICIRIOHROHROIIOOHICCHCRR.this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.containsKey(var1);
+            }
+         };
+   }
+
+   @Override
+   public Set<N> predecessors() {
+      return new AbstractSet<N>() {
+         public IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<N> IOHOCICRRIRHHCCCRICOCOHOIIOCRH() {
+            if (CORCOCICIRIOHROHROIIOOHICCHCRR.this.OCOHOHCCOCCOIORROIOHOCRHICHIHC == null) {
+               final Iterator var2 = CORCOCICIRIOHROHROIIOOHICCHCRR.this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.entrySet().iterator();
+               return new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH<N>(
+                  
+               ) {
+                  @Override
+                  protected N computeNext() {
+                     while (var2.hasNext()) {
+                        Entry var1 = (Entry)var2.next();
+                        if (CORCOCICIRIOHROHROIIOOHICCHCRR.isPredecessor(var1.getValue())) {
+                           return (N)var1.getKey();
+                        }
+                     }
+
+                     return (N)this.ROCOROCOICRHOICORCIIRRRROCOHOC();
+                  }
+               };
+            } else {
+               final Iterator var1 = CORCOCICIRIOHROHROIIOOHICCHCRR.this.OCOHOHCCOCCOIORROIOHOCRHICHIHC.iterator();
+               return new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH<N>(
+                  
+               ) {
+                  @Override
+                  protected N computeNext() {
+                     while (var1.hasNext()) {
+                        CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1x = (CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1.next();
+                        if (var1x instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH) {
+                           return var1x.IRIORCIIORIIOOOCOHCIIIOHHHICHI;
+                        }
+                     }
+
+                     return (N)this.ROCOROCOICRHOICORCIIRRRROCOHOC();
+                  }
+               };
+            }
+         }
+
+         @Override
+         public int size() {
+            return CORCOCICIRIOHROHROIIOOHICCHCRR.this.predecessorCount;
+         }
+
+         @Override
+         public boolean contains(@Nullable Object var1) {
+            return CORCOCICIRIOHROHROIIOOHICCHCRR.isPredecessor(CORCOCICIRIOHROHROIIOOHICCHCRR.this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.get(var1));
+         }
+      };
+   }
+
+   @Override
+   public Set<N> successors() {
+      return new AbstractSet<N>() {
+         public IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<N> IOHOCICRRIRHHCCCRICOCOHOIIOCRH() {
+            if (CORCOCICIRIOHROHROIIOOHICCHCRR.this.OCOHOHCCOCCOIORROIOHOCRHICHIHC == null) {
+               final Iterator var2 = CORCOCICIRIOHROHROIIOOHICCHCRR.this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.entrySet().iterator();
+               return new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH<N>(
+                  
+               ) {
+                  @Override
+                  protected N computeNext() {
+                     while (var2.hasNext()) {
+                        Entry var1 = (Entry)var2.next();
+                        if (CORCOCICIRIOHROHROIIOOHICCHCRR.isSuccessor(var1.getValue())) {
+                           return (N)var1.getKey();
+                        }
+                     }
+
+                     return (N)this.ROCOROCOICRHOICORCIIRRRROCOHOC();
+                  }
+               };
+            } else {
+               final Iterator var1 = CORCOCICIRIOHROHROIIOOHICCHCRR.this.OCOHOHCCOCCOIORROIOHOCRHICHIHC.iterator();
+               return new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH<N>(
+                  
+               ) {
+                  @Override
+                  protected N computeNext() {
+                     while (var1.hasNext()) {
+                        CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1x = (CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1.next();
+                        if (var1x instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH) {
+                           return var1x.IRIORCIIORIIOOOCOHCIIIOHHHICHI;
+                        }
+                     }
+
+                     return (N)this.ROCOROCOICRHOICORCIIRRRROCOHOC();
+                  }
+               };
+            }
+         }
+
+         @Override
+         public int size() {
+            return CORCOCICIRIOHROHROIIOOHICCHCRR.this.successorCount;
+         }
+
+         @Override
+         public boolean contains(@Nullable Object var1) {
+            return CORCOCICIRIOHROHROIIOOHICCHCRR.isSuccessor(CORCOCICIRIOHROHROIIOOHICCHCRR.this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.get(var1));
+         }
+      };
+   }
+
+   @Override
+   public Iterator<CIOHHCORHRCCRICCCORIHCRHCCCRRR<N>> incidentEdgeIterator(final N var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      final Iterator var2;
+      if (this.OCOHOHCCOCCOIORROIOHOCRHICHIHC == null) {
+         var2 = HRCROCOHHHICRHIHHOOCIIRRRCCIRR.concat(
+            HRCROCOHHHICRHIHHOOCIIRRRCCIRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               this.predecessors().iterator(),
+               new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<N, CIOHHCORHRCCRICCCORIHCRHCCCRRR<N>>(
+                  
+               ) {
+                  public CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> HIOHICORCIOOHORHORIHHRIOCRCCRR(N var1x) {
+                     return CIOHHCORHRCCRICCCORIHCRHCCCRRR.IHICORCROOROHCIHIHCOIHRRHICICO((N)var1x, (N)var1);
+                  }
+               }
+            ),
+            HRCROCOHHHICRHIHHOOCIIRRRCCIRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               this.successors().iterator(),
+               new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<N, CIOHHCORHRCCRICCCORIHCRHCCCRRR<N>>(
+                  
+               ) {
+                  public CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> HIOHICORCIOOHORHORIHHRIOCRCCRR(N var1x) {
+                     return CIOHHCORHRCCRICCCORIHCRHCCCRRR.IHICORCROOROHCIHIHCOIHRRHICICO((N)var1, (N)var1x);
+                  }
+               }
+            )
+         );
+      } else {
+         var2 = HRCROCOHHHICRHIHHOOCIIRRRCCIRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            this.OCOHOHCCOCCOIORROIOHOCRHICHIHC.iterator(),
+            new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N>, CIOHHCORHRCCRICCCORIHCRHCCCRRR<N>>(
+               
+            ) {
+               public CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N> var1x) {
+                  return var1x instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
+                     ? CIOHHCORHRCCRICCCORIHCRHCCCRRR.IHICORCROOROHCIHIHCOIHRRHICICO((N)var1, var1x.IRIORCIIORIIOOOCOHCIIIOHHHICHI)
+                     : CIOHHCORHRCCRICCCORIHCRHCCCRRR.IHICORCROOROHCIHIHCOIHRRHICICO(var1x.IRIORCIIORIIOOOCOHCIIIOHHHICHI, (N)var1);
+               }
+            }
+         );
+      }
+
+      final AtomicBoolean var3 = new AtomicBoolean(false);
+      return new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH<CIOHHCORHRCCRICCCORIHCRHCCCRRR<N>>(
+         
+      ) {
+         protected CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> COCOOIHCCRRRORRIRHCRCCRRRCIRHO() {
+            while (var2.hasNext()) {
+               CIOHHCORHRCCRICCCORIHCRHCCCRRR var1x = (CIOHHCORHRCCRICCCORIHCRHCCCRRR)var2.next();
+               if (var1x.RHICCHICCROOHCCCIRICICRCOIIIOO().equals(var1x.HORHROCIIOHIICOIHOIOOIICCHHCCO())) {
+                  if (var3.getAndSet(true)) {
+                     continue;
+                  }
+
+                  return var1x;
+               }
+
+               return var1x;
+            }
+
+            return this.ROCOROCOICRHOICORCIIRRRROCOHOC();
+         }
+      };
+   }
+
+   @Override
+   public V value(N var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      Object var2 = this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.get(var1);
+      if (var2 == RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO) {
+         return null;
+      } else {
+         return (V)(var2 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH
+            ? ((CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var2).ROORORHIRRROORORHRCOCHORCRHCIR
+            : var2);
+      }
+   }
+
+   @Override
+   public void removePredecessor(N var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      Object var2 = this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.get(var1);
+      boolean var3;
+      if (var2 == RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO) {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.remove(var1);
+         var3 = true;
+      } else if (var2 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH) {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, ((CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var2).ROORORHIRRROORORHRCOCHORCRHCIR);
+         var3 = true;
+      } else {
+         var3 = false;
+      }
+
+      if (var3) {
+         IHIRRIIORRHORHRORIHOROIRCORCOO.checkNonNegative(--this.predecessorCount);
+         if (this.OCOHOHCCOCCOIORROIOHOCRHICHIHC != null) {
+            this.OCOHOHCCOCCOIORROIOHOCRHICHIHC
+               .remove(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(var1));
+         }
+      }
+   }
+
+   @Override
+   public V removeSuccessor(Object var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      Object var2 = this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.get(var1);
+      Object var3;
+      if (var2 == null || var2 == RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO) {
+         var3 = null;
+      } else if (var2 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH) {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO);
+         var3 = ((CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var2).ROORORHIRRROORORHRCOCHORCRHCIR;
+      } else {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.remove(var1);
+         var3 = var2;
+      }
+
+      if (var3 != null) {
+         IHIRRIIORRHORHRORIHOROIRCORCOO.checkNonNegative(--this.successorCount);
+         if (this.OCOHOHCCOCCOIORROIOHOCRHICHIHC != null) {
+            this.OCOHOHCCOCCOIORROIOHOCRHICHIHC
+               .remove(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH<>(var1));
+         }
+      }
+
+      return (V)var3;
+   }
+
+   @Override
+   public void addPredecessor(N var1, V var2) {
+      Object var3 = this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO);
+      boolean var4;
+      if (var3 == null) {
+         var4 = true;
+      } else if (var3 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH) {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, var3);
+         var4 = false;
+      } else if (var3 != RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO) {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3));
+         var4 = true;
+      } else {
+         var4 = false;
+      }
+
+      if (var4) {
+         IHIRRIIORRHORHRORIHOROIRCORCOO.checkPositive(++this.predecessorCount);
+         if (this.OCOHOHCCOCCOIORROIOHOCRHICHIHC != null) {
+            this.OCOHOHCCOCCOIORROIOHOCRHICHIHC
+               .add(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>((N)var1));
+         }
+      }
+   }
+
+   @Override
+   public V addSuccessor(N var1, V var2) {
+      Object var3 = this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, var2);
+      Object var4;
+      if (var3 == null) {
+         var4 = null;
+      } else if (var3 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH) {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2));
+         var4 = ((CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var3).ROORORHIRRROORORHRCOCHORCRHCIR;
+      } else if (var3 == RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO) {
+         this.RROOHIHRHRROCIRCHCHRCHCRRHHHRI.put((N)var1, new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2));
+         var4 = null;
+      } else {
+         var4 = var3;
+      }
+
+      if (var4 == null) {
+         IHIRRIIORRHORHRORIHOROIRCORCOO.checkPositive(++this.successorCount);
+         if (this.OCOHOHCCOCCOIORROIOHOCRHICHIHC != null) {
+            this.OCOHOHCCOCCOIORROIOHOCRHICHIHC
+               .add(new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH<>((N)var1));
+         }
+      }
+
+      return (V)var4;
+   }
+
+   private static boolean isPredecessor(@Nullable Object var0) {
+      return var0 == RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO || var0 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+   }
+
+   private static boolean isSuccessor(@Nullable Object var0) {
+      return var0 != RIOIRCHHOOHCIIOCCCIOIHHRHRCCIO && var0 != null;
+   }
+
+   private static final class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+      private final Object ROORORHIRRROORORHRCOCHORCRHCIR;
+
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH(Object var1) {
+         this.ROORORHIRRROORORHRCOCHORCRHCIR = var1;
+      }
+   }
+
+   private abstract static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N> {
+      final N IRIORCIIORIIOOOCOHCIIIOHHHICHI;
+
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(N var1) {
+         this.IRIORCIIORIIOOOCOHCIIIOHHHICHI = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            (N)var1
+         );
+      }
+
+      static final class IRCIIHHICIHRCOCRROCOICRIHHCCHH<N> extends CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N> {
+         IRCIIHHICIHRCOCRROCOICRIHHCCHH(N var1) {
+            super((N)var1);
+         }
+
+         @Override
+         public boolean equals(Object var1) {
+            return var1 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
+               ? this.IRIORCIIORIIOOOCOHCIIIOHHHICHI
+                  .equals(((CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var1).IRIORCIIORIIOOOCOHCIIIOHHHICHI)
+               : false;
+         }
+
+         @Override
+         public int hashCode() {
+            return CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.class.hashCode()
+               + this.IRIORCIIORIIOOOCOHCIIIOHHHICHI.hashCode();
+         }
+      }
+
+      static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N> extends CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<N> {
+         RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(N var1) {
+            super((N)var1);
+         }
+
+         @Override
+         public boolean equals(Object var1) {
+            return var1 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+               ? this.IRIORCIIORIIOOOCOHCIIIOHHHICHI
+                  .equals(((CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1).IRIORCIIORIIOOOCOHCIIIOHHHICHI)
+               : false;
+         }
+
+         @Override
+         public int hashCode() {
+            return CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class.hashCode()
+               + this.IRIORCIIORIIOOOCOHCIIIOHHHICHI.hashCode();
+         }
+      }
+   }
+}

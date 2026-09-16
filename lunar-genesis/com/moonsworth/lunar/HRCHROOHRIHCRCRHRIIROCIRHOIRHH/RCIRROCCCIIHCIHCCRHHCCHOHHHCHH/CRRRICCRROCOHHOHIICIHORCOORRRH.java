@@ -1,0 +1,101 @@
+package com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import java.util.Objects;
+import java.util.function.Predicate;
+import javax.annotation.Nullable;
+
+public record CRRRICCRROCOHHOHIICIHORCOORRRH() {
+   private final String CRCORCRRCHIOROCIROCHCRCIOROIHR;
+   private final String IOIOHIIIRHHCRHOCRROCHOROHHHRCC;
+   @Nullable
+   private final String RCIROHIOHHCHHRORRRHORHRHICIIHC;
+   private final boolean HCRHHHHCOOCCCRIOIOIIICOCCHOIIH;
+   private final boolean CHIHHIROROIRHHIIHIRCIRHIRHIORI;
+   @Nullable
+   private final Predicate<RIOOCHICIHRHOHCCCCCHOCCCOHCRHI> HHICIHICHOHHOHCHCIOCHRIOIHCCIH;
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(String var1, String var2, String var3) {
+      this(var1, var2, var3, false, false);
+   }
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(String var1, String var2, String var3, boolean var4, boolean var5) {
+      this(var1, var2, var3, var4, var5, null);
+   }
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(
+      String var1, String var2, @Nullable String var3, boolean var4, boolean var5, @Nullable Predicate<RIOOCHICIHRHOHCCCCCHOCCCOHCRHI> var6
+   ) {
+      this.CRCORCRRCHIOROCIROCHCRCIOROIHR = var1;
+      this.IOIOHIIIRHHCRHOCRROCHOROHHHRCC = var2;
+      this.RCIROHIOHHCHHRORRRHORHRHICIIHC = var3;
+      this.HCRHHHHCOOCCCRIOIOIIICOCCHOIIH = var4;
+      this.CHIHHIROROIRHHIIHIRCIRHIRHIORI = var5;
+      this.HHICIHICHOHHOHCHCIOCHRIOIHCCIH = var6;
+   }
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH HHCCIRHCCCIIRHCROHIORHIRHHIORH(RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
+      String var2 = var1.CCRCRRIRHROHHCIHRCCIOCRCRCHHOH(this.IOIOHIIIRHHCRHOCRROCHOROHHHRCC);
+      String var3 = var1.CCRCRRIRHROHHCIHRCCIOCRCRCHHOH(this.RCIROHIOHHCHHRORRRHORHRHICIIHC);
+      return new CRRRICCRROCOHHOHIICIHORCOORRRH(
+         this.CRCORCRRCHIOROCIROCHCRCIOROIHR,
+         var2,
+         var3,
+         this.HCRHHHHCOOCCCRIOIOIIICOCCHOIIH,
+         this.CHIHHIROROIRHHIIHIRCIRHIRHIORI,
+         this.HHICIHICHOHHOHCHCIOCHRIOIHCCIH
+      );
+   }
+
+   public String CRRRICCRROCOHHOHIICIHORCOORRRH(RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
+      return this.CRCORCRRCHIOROCIROCHCRCIOROIHR + "/" + var1.CCRCRRIRHROHHCIHRCCIOCRCRCHHOH(this.IOIOHIIIRHHCRHOCRROCHOROHHHRCC);
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      if (this == var1) {
+         return true;
+      } else if (var1 != null && this.getClass() == var1.getClass()) {
+         CRRRICCRROCOHHOHIICIHORCOORRRH var2 = (CRRRICCRROCOHHOHIICIHORCOORRRH)var1;
+         return this.CRCORCRRCHIOROCIROCHCRCIOROIHR.equals(var2.CRCORCRRCHIOROCIROCHCRCIOROIHR)
+            && this.IOIOHIIIRHHCRHOCRROCHOROHHHRCC.equals(var2.IOIOHIIIRHHCRHOCRROCHOROHHHRCC)
+            && Objects.equals(this.RCIROHIOHHCHHRORRRHORHRHICIIHC, var2.RCIROHIOHHCHHRORRRHORHRHICIIHC);
+      } else {
+         return false;
+      }
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hash(this.CRCORCRRCHIOROCIROCHCRCIOROIHR, this.IOIOHIIIRHHCRHOCRROCHOROHHHRCC, this.RCIROHIOHHCHHRORRRHORHRHICIIHC);
+   }
+
+   public boolean IRCIIHHICIHRCOCRROCOICRIHHCCHH(RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1) {
+      return this.HHICIHICHOHHOHCHCIOCHRIOIHCCIH == null || this.HHICIHICHOHHOHCHCIOCHRIOIHCCIH.test(var1);
+   }
+
+   public String namespace() {
+      return this.CRCORCRRCHIOROCIROCHCRCIOROIHR;
+   }
+
+   public String OIHOOHOHHOICRIOOCICCHCHHOROCIH() {
+      return this.IOIOHIIIRHHCRHOCRROCHOROHHHRCC;
+   }
+
+   @Nullable
+   public String url() {
+      return this.RCIROHIOHHCHHRORRRHORHRHICIIHC;
+   }
+
+   public boolean ICCRCOHHIHCRIOCRHHRCROICORRHHR() {
+      return this.HCRHHHHCOOCCCRIOIOIIICOCCHOIIH;
+   }
+
+   public boolean optional() {
+      return this.CHIHHIROROIRHHIIHIRCIRHIRHIORI;
+   }
+
+   @Nullable
+   public Predicate<RIOOCHICIHRHOHCCCCCHOCCCOHCRHI> CIRRICRRRIROIHOOOIIOOCIHHOHORO() {
+      return this.HHICIHICHOHHOHCHCIOCHRIOIHCCIH;
+   }
+}

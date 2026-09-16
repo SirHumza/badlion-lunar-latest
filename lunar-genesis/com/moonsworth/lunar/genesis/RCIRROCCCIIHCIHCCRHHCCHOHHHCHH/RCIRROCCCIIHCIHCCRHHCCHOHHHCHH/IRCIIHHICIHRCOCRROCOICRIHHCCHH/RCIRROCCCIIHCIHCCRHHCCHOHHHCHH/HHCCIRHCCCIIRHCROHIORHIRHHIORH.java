@@ -1,0 +1,69 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.OOHRIIOOHROIOHCIRIHRHRRICRRHOI;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCHOIICIHOCIRCIOORIOHRCRHOCRCR;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IHIRRIIORRHORHRORIHOROIRCORCOO;
+import java.util.List;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
+final class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   private static final IHIRRIIORRHORHRORIHOROIRCORCOO CHHRHIRIIHHHORCHCCOCROOIHRROIO = IHIRRIIORRHORHRORIHOROIRCORCOO.COOOROIICHHICCCHCCIOIRRRRIIORO("");
+
+   static OOHRIIOOHROIOHCIRIHRHRRICRRHOI<String, IRCIIHHICIHRCOCRROCOICRIHHCCHH> IIHRRHORCRCROCHHOHORCHCROCIHRO(CharSequence var0) {
+      OOHRIIOOHROIOHCIRIHRHRRICRRHOI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1 = OOHRIIOOHROIOHCIRIHRHRRICRRHOI.OIRCICCCRCRHORRRCHHORCHRCRRIOH();
+      int var2 = var0.length();
+      int var3 = 0;
+
+      while (var3 < var2) {
+         var3 += RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCHOIICIHOCIRCIOORIOHRCRHOCRCR.newLinkedList(), var0, var3, var1);
+      }
+
+      return var1.CHRROORCHRCIIRRORRRIORRRRICIRI();
+   }
+
+   private static int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      List<CharSequence> var0,
+      CharSequence var1,
+      int var2,
+      OOHRIIOOHROIOHCIRIHRHRRICRRHOI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<String, IRCIIHHICIHRCOCRROCOICRIHHCCHH> var3
+   ) {
+      int var4 = var1.length();
+      int var5 = var2;
+      char var6 = 0;
+
+      while (var5 < var4) {
+         var6 = var1.charAt(var5);
+         if (var6 == '&' || var6 == '?' || var6 == '!' || var6 == ':' || var6 == ',') {
+            break;
+         }
+
+         var5++;
+      }
+
+      var0.add(0, IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1.subSequence(var2, var5)));
+      if (var6 == '!' || var6 == '?' || var6 == ':' || var6 == ',') {
+         String var7 = CHHRHIRIIHHHORCHCCOCROOIHRROIO.CRRRICCRROCOHHOHIICIHORCOORRRH(var0);
+         if (var7.length() > 0) {
+            var3.RICRIRRCOHRCOCRRHHCRHRROOIOHHR(var7, IRCIIHHICIHRCOCRROCOICRIHHCCHH.fromCode(var6));
+         }
+      }
+
+      var5++;
+      if (var6 != '?' && var6 != ',') {
+         while (var5 < var4) {
+            var5 += RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1, var5, var3);
+            if (var1.charAt(var5) == '?' || var1.charAt(var5) == ',') {
+               var5++;
+               break;
+            }
+         }
+      }
+
+      var0.remove(0);
+      return var5 - var2;
+   }
+
+   private static CharSequence IRCIIHHICIHRCOCRROCOICRIHHCCHH(CharSequence var0) {
+      return new StringBuilder(var0).reverse();
+   }
+}

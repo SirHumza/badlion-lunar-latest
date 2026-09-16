@@ -1,0 +1,557 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+import java.util.regex.Pattern;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+   emulated = true
+)
+public final class OIHCOHRCICCCRHRCROOCIOIRRHHHIH {
+   private OIHCOHRCICCCRHRCROOCIOIRRHHHIH() {
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      serializable = true
+   )
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> OOHHOIHIRHRCHIHHIIHCRRRICCHICO() {
+      return OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CORCOCICIRIOHROHROIIOOHICCHCRR.ALWAYS_TRUE.withNarrowedType();
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      serializable = true
+   )
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> IRHHCCCHHRCHIIHCRHOCOHRHCCIRHI() {
+      return OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CORCOCICIRIOHROHROIIOOHICCHCRR.ALWAYS_FALSE.withNarrowedType();
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      serializable = true
+   )
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> HHIIRHCHHCRCCRCIIHHCIHRCHRCRCR() {
+      return OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CORCOCICIRIOHROHROIIOOHICCHCRR.IS_NULL.withNarrowedType();
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      serializable = true
+   )
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> CCOORCICCRCRIRRHCRROHOHROCIRHI() {
+      return OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CORCOCICIRIOHROHROIIOOHICCHCRR.NOT_NULL.withNarrowedType();
+   }
+
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> HHCCIRHCCCIIRHCROHIORHIRHHIORH(RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR<>(var0);
+   }
+
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> RRCRRCORICCHOHHIRCHIROOHIIOHCO(Iterable<? extends RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>> var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(defensiveCopy(var0));
+   }
+
+   @SafeVarargs
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>... var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(defensiveCopy(var0));
+   }
+
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T> var0, RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T> var1
+   ) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(
+         HHCCIRHCCCIIRHCROHIORHIRHHIORH(IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var0), IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1))
+      );
+   }
+
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(Iterable<? extends RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>> var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRICCOOHHHCHOORCICOCOHIHOIRHOO<>(defensiveCopy(var0));
+   }
+
+   @SafeVarargs
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> IRCIIHHICIHRCOCRROCOICRIHHCCHH(RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>... var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRICCOOHHHCHOORCICOCOHIHOIRHOO<>(defensiveCopy(var0));
+   }
+
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T> var0, RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T> var1
+   ) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRICCOOHHHCHOORCICOCOHIHOIRHOO<>(
+         HHCCIRHCCCIIRHCROHIORHIRHHIORH(IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var0), IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1))
+      );
+   }
+
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> OOHRIIOOHROIOHCIRIHRHRRICRRHOI(@Nullable T var0) {
+      return var0 == null ? HHIIRHCHHCRCCRCIIHHCIHRCHRCRCR() : new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH<>(var0);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   public static RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<Object> RCCCROCHCICCROHCOCCRRROCIIHCCH(Class<?> var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var0);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<Class<?>> OOOOCCOOOHCHCIIHOIHCRIIOOROHRC(Class<?> var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI(var0);
+   }
+
+   public static <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> RHOCHHIRRCHHHOHOIRROIROHHHIHIO(Collection<? extends T> var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RRCRRCORICCHOHHIRCHIROOHIIOHCO<>(var0);
+   }
+
+   public static <A, B> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<A> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<B> var0, IRRCCOICORICIHCHRHIHIHROIRHOCR<A, ? extends B> var1
+   ) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH<>(var0, var1);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   public static RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<CharSequence> OOOIICCOIOROHOOORHOIIOIICRHIII(String var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      "java.util.regex.Pattern"
+   )
+   public static RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<CharSequence> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Pattern var0) {
+      return new OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRRRICCRROCOHHOHIICIHORCOORRRH(new RIROICHCRROROHCCROOCCCCOCHCCRI(var0));
+   }
+
+   private static String toStringHelper(String var0, Iterable<?> var1) {
+      StringBuilder var2 = new StringBuilder("Predicates.").append(var0).append('(');
+      boolean var3 = true;
+
+      for (Object var5 : var1) {
+         if (!var3) {
+            var2.append(',');
+         }
+
+         var2.append(var5);
+         var3 = false;
+      }
+
+      return var2.append(')').toString();
+   }
+
+   private static <T> List<RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>> HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T> var0, RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T> var1
+   ) {
+      return Arrays.asList(var0, var1);
+   }
+
+   private static <T> List<T> defensiveCopy(T... var0) {
+      return defensiveCopy(Arrays.asList((T[])var0));
+   }
+
+   static <T> List<T> defensiveCopy(Iterable<T> var0) {
+      ArrayList var1 = new ArrayList();
+
+      for (Object var3 : var0) {
+         var1.add(IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var3));
+      }
+
+      return var1;
+   }
+
+   enum CORCOCICIRIOHROHROIIOOHICCHCRR implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<Object> {
+      ALWAYS_TRUE {
+         @Override
+         public boolean apply(@Nullable Object var1) {
+            return true;
+         }
+
+         @Override
+         public String toString() {
+            return "Predicates.alwaysTrue()";
+         }
+      },
+      ALWAYS_FALSE {
+         @Override
+         public boolean apply(@Nullable Object var1) {
+            return false;
+         }
+
+         @Override
+         public String toString() {
+            return "Predicates.alwaysFalse()";
+         }
+      },
+      IS_NULL {
+         @Override
+         public boolean apply(@Nullable Object var1) {
+            return var1 == null;
+         }
+
+         @Override
+         public String toString() {
+            return "Predicates.isNull()";
+         }
+      },
+      NOT_NULL {
+         @Override
+         public boolean apply(@Nullable Object var1) {
+            return var1 != null;
+         }
+
+         @Override
+         public String toString() {
+            return "Predicates.notNull()";
+         }
+      };
+
+      CORCOCICIRIOHROHROIIOOHICCHCRR() {
+      }
+
+      <T> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> withNarrowedType() {
+         return this;
+      }
+   }
+
+   private static class CRICCOOHHHCHOORCICOCOHIHOIRHOO<T> implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T>, Serializable {
+      private final List<? extends RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>> HHHIOOCOOIOROOIRIOIORCOORHHOCR;
+      private static final long CIHHIHHIIRHHROIOOOHIRHICICOOHI = 0L;
+
+      private CRICCOOHHHCHOORCICOCOHIHOIRHOO(List<? extends RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>> var1) {
+         this.HHHIOOCOOIOROOIRIOIORCOORHHOCR = var1;
+      }
+
+      @Override
+      public boolean apply(@Nullable T var1) {
+         for (int var2 = 0; var2 < this.HHHIOOCOOIOROOIRIOIORCOORHHOCR.size(); var2++) {
+            if (this.HHHIOOCOOIOROOIRIOIORCOORHHOCR.get(var2).apply((T)var1)) {
+               return true;
+            }
+         }
+
+         return false;
+      }
+
+      @Override
+      public int hashCode() {
+         return this.HHHIOOCOOIOROOIRIOIORCOORHHOCR.hashCode() + 87855567;
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRICCOOHHHCHOORCICOCOHIHOIRHOO) {
+            OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRICCOOHHHCHOORCICOCOHIHOIRHOO var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRICCOOHHHCHOORCICOCOHIHOIRHOO)var1;
+            return this.HHHIOOCOOIOROOIRIOIORCOORHHOCR.equals(var2.HHHIOOCOOIOROOIRIOIORCOORHHOCR);
+         } else {
+            return false;
+         }
+      }
+
+      @Override
+      public String toString() {
+         return OIHCOHRCICCCRHRCROOCIOIRRHHHIH.toStringHelper("or", this.HHHIOOCOOIOROOIRIOIORCOORHHOCR);
+      }
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   private static class CRRRICCRROCOHHOHIICIHORCOORRRH implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<CharSequence>, Serializable {
+      final com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR CCOHHRHHCICHRORROCRCCRIOICCOIH;
+      private static final long HHCCHHHIHRHRIROHRIROIOCIHHRCRR = 0L;
+
+      CRRRICCRROCOHHOHIICIHORCOORRRH(
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1
+      ) {
+         this.CCOHHRHHCICHRORROCRCCRIOICCOIH = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      }
+
+      public boolean apply(CharSequence var1) {
+         return this.CCOHHRHHCICHRORROCRCCRIOICCOIH.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1).find();
+      }
+
+      @Override
+      public int hashCode() {
+         return HHRIICOIOORCHCOIICOOIHIRHHICRI.hashCode(this.CCOHHRHHCICHRORROCRCCRIOICCOIH.pattern(), this.CCOHHRHHCICHRORROCRCCRIOICCOIH.flags());
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (!(var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRRRICCRROCOHHOHIICIHORCOORRRH)) {
+            return false;
+         }
+
+         OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRRRICCRROCOHHOHIICIHORCOORRRH var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRRRICCRROCOHHOHIICIHORCOORRRH)var1;
+         return HHRIICOIOORCHCOIICOOIHIRHHICRI.equal(this.CCOHHRHHCICHRORROCRCCRIOICCOIH.pattern(), var2.CCOHHRHHCICHRORROCRCCRIOICCOIH.pattern())
+            && this.CCOHHRHHCICHRORROCRCCRIOICCOIH.flags() == var2.CCOHHRHHCICHRORROCRCCRIOICCOIH.flags();
+      }
+
+      @Override
+      public String toString() {
+         String var1 = IOIICIRIICICIIOORHCIIIIRRIHRHI.COIOORHCRHCRCOROOHCHIRRIIOIOHR(this.CCOHHRHHCICHRORROCRCCRIOICCOIH)
+            .RHOCHHIRRCHHHOHOIRROIROHHHIHIO("pattern", this.CCOHHRHHCICHRORROCRCCRIOICCOIH.pattern())
+            .RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("pattern.flags", this.CCOHHRHHCICHRORROCRCCRIOICCOIH.flags())
+            .toString();
+         return "Predicates.contains(" + var1 + ")";
+      }
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   private static class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends OIHCOHRCICCCRHRCROOCIOIRRHHHIH.CRRRICCRROCOHHOHIICIHORCOORRRH {
+      private static final long IOHCIRHORIOHRCROHCRRRHCIRCHCOC = 0L;
+
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var1) {
+         super(ICICIOCHHHIHOCHCOHORIHRCOHHOCR.IIHCOICHRCCCCOHHRHHIRIOICHCHHO(var1));
+      }
+
+      @Override
+      public String toString() {
+         return "Predicates.containsPattern(" + this.CCOHHRHHCICHRORROCRCCRIOICCOIH.pattern() + ")";
+      }
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   private static class HICHRCOHCCRHOHCICOOCHOIHCCHIRI implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<Class<?>>, Serializable {
+      private final Class<?> IHHOCOIICOCHIOIIOOCRIOIHHOHRRH;
+      private static final long RRHCOHCRCIHCRRCCICRICIHORCORRI = 0L;
+
+      private HICHRCOHCCRHOHCICOOCHOIHCCHIRI(Class<?> var1) {
+         this.IHHOCOIICOCHIOIIOOCRIOIHHOHRRH = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      }
+
+      public boolean apply(Class<?> var1) {
+         return this.IHHOCOIICOCHIOIIOOCRIOIHHOHRRH.isAssignableFrom(var1);
+      }
+
+      @Override
+      public int hashCode() {
+         return this.IHHOCOIICOCHIOIIOOCRIOIHHOHRRH.hashCode();
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI) {
+            OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI)var1;
+            return this.IHHOCOIICOCHIOIIOOCRIOIHHOHRRH == var2.IHHOCOIICOCHIOIIOOCRIOIHHOHRRH;
+         } else {
+            return false;
+         }
+      }
+
+      @Override
+      public String toString() {
+         return "Predicates.subtypeOf(" + this.IHHOCOIICOCHIOIIOOCRIOIHHOHRRH.getName() + ")";
+      }
+   }
+
+   private static class HRCHROOHRIHCRCRHRIIROCIRHOIRHH<T> implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T>, Serializable {
+      private final T IRRRCRHIIOICOIIHRCCCICCHCICIHO;
+      private static final long OHCRCHIIHHOHHOHCICHCCCRRHCHOCI = 0L;
+
+      private HRCHROOHRIHCRCRHRIIROCIRHOIRHH(T var1) {
+         this.IRRRCRHIIOICOIIHRCCCICCHCICIHO = (T)var1;
+      }
+
+      @Override
+      public boolean apply(T var1) {
+         return this.IRRRCRHIIOICOIIHRCCCICCHCICIHO.equals(var1);
+      }
+
+      @Override
+      public int hashCode() {
+         return this.IRRRCRHIIOICOIIHRCCCICCHCICIHO.hashCode();
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH) {
+            OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH)var1;
+            return this.IRRRCRHIIOICOIIHRCCCICCHCICIHO.equals(var2.IRRRCRHIIOICOIIHRCCCICCHCICIHO);
+         } else {
+            return false;
+         }
+      }
+
+      @Override
+      public String toString() {
+         return "Predicates.equalTo(" + this.IRRRCRHIIOICOIIHRCCCICCHCICIHO + ")";
+      }
+   }
+
+   private static class IRCIIHHICIHRCOCRROCOICRIHHCCHH<A, B> implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<A>, Serializable {
+      final RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<B> ICRCRRRHRCHCIHOOOOCHORCHROHHOH;
+      final IRRCCOICORICIHCHRHIHIHROIRHOCR<A, ? extends B> CHOHHCOHOOCRHOHIHICOHHROHOICCO;
+      private static final long RIOICRIHHCHHCHOIOICHHCIICIHICC = 0L;
+
+      private IRCIIHHICIHRCOCRROCOICRIHHCCHH(RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<B> var1, IRRCCOICORICIHCHRHIHIHROIRHOCR<A, ? extends B> var2) {
+         this.ICRCRRRHRCHCIHOOOOCHORCHROHHOH = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+         this.CHOHHCOHOOCRHOHIHICOHHROHOICCO = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var2);
+      }
+
+      @Override
+      public boolean apply(@Nullable A var1) {
+         return this.ICRCRRRHRCHCIHOOOOCHORCHROHHOH.apply((B)this.CHOHHCOHOOCRHOHIHICOHHROHOICCO.apply((A)var1));
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (!(var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH)) {
+            return false;
+         }
+
+         OIHCOHRCICCCRHRCROOCIOIRRHHHIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var1;
+         return this.CHOHHCOHOOCRHOHIHICOHHROHOICCO.equals(var2.CHOHHCOHOOCRHOHIHICOHHROHOICCO)
+            && this.ICRCRRRHRCHCIHOOOOCHORCHROHHOH.equals(var2.ICRCRRRHRCHCIHOOOOCHORCHROHHOH);
+      }
+
+      @Override
+      public int hashCode() {
+         return this.CHOHHCOHOOCRHOHIHICOHHROHOICCO.hashCode() ^ this.ICRCRRRHRCHCIHOOOOCHORCHROHHOH.hashCode();
+      }
+
+      @Override
+      public String toString() {
+         return this.ICRCRRRHRCHCIHOOOOCHORCHROHHOH + "(" + this.CHOHHCOHOOCRHOHIHICOHHROHOICCO + ")";
+      }
+   }
+
+   private static class OOROOCCIRCCRHOIOIORIHCHHOOCCOR<T> implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T>, Serializable {
+      final RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> COHICRCCCIIHHHCROHIOCIICOOOIOI;
+      private static final long HOHORROOOOOCHORIOIOCIIHHIRRIIR = 0L;
+
+      OOROOCCIRCCRHOIOIORIHCHHOOCCOR(RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T> var1) {
+         this.COHICRCCCIIHHHCROHIOCIICOOOIOI = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      }
+
+      @Override
+      public boolean apply(@Nullable T var1) {
+         return !this.COHICRCCCIIHHHCROHIOCIICOOOIOI.apply((T)var1);
+      }
+
+      @Override
+      public int hashCode() {
+         return ~this.COHICRCCCIIHHHCROHIOCIICOOOIOI.hashCode();
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR) {
+            OIHCOHRCICCCRHRCROOCIOIRRHHHIH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR)var1;
+            return this.COHICRCCCIIHHHCROHIOCIICOOOIOI.equals(var2.COHICRCCCIIHHHCROHIOCIICOOOIOI);
+         } else {
+            return false;
+         }
+      }
+
+      @Override
+      public String toString() {
+         return "Predicates.not(" + this.COHICRCCCIIHHHCROHIOCIICOOOIOI + ")";
+      }
+   }
+
+   private static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<T> implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T>, Serializable {
+      private final List<? extends RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>> IHCRHCROCOIHICRCIICHHOIOIIIHIH;
+      private static final long CRCCCOOOHRCCRHICIRCHORIHCORIHR = 0L;
+
+      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(List<? extends RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<? super T>> var1) {
+         this.IHCRHCROCOIHICRCIICHHOIOIIIHIH = var1;
+      }
+
+      @Override
+      public boolean apply(@Nullable T var1) {
+         for (int var2 = 0; var2 < this.IHCRHCROCOIHICRCIICHHOIOIIIHIH.size(); var2++) {
+            if (!this.IHCRHCROCOIHICRCIICHHOIOIIIHIH.get(var2).apply((T)var1)) {
+               return false;
+            }
+         }
+
+         return true;
+      }
+
+      @Override
+      public int hashCode() {
+         return this.IHCRHCROCOIHICRCIICHHOIOIIIHIH.hashCode() + 306654252;
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH) {
+            OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1;
+            return this.IHCRHCROCOIHICRCIICHHOIOIIIHIH.equals(var2.IHCRHCROCOIHICRCIICHHOIOIIIHIH);
+         } else {
+            return false;
+         }
+      }
+
+      @Override
+      public String toString() {
+         return OIHCOHRCICCCRHRCROOCIOIRRHHHIH.toStringHelper("and", this.IHCRHCROCOIHICRCIICHHOIOIIIHIH);
+      }
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   private static class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<Object>, Serializable {
+      private final Class<?> OIIRRCHCIORROHHIIOORIIHOHCOHOI;
+      private static final long HORCRIOHOHHRCOCCCIORIIIOOIOIIC = 0L;
+
+      private RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(Class<?> var1) {
+         this.OIIRRCHCIORROHHIIOORIIHOHCOHOI = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      }
+
+      @Override
+      public boolean apply(@Nullable Object var1) {
+         return this.OIIRRCHCIORROHHIIOORIIHOHCOHOI.isInstance(var1);
+      }
+
+      @Override
+      public int hashCode() {
+         return this.OIIRRCHCIORROHHIIOORIIHOHCOHOI.hashCode();
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI) {
+            OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI)var1;
+            return this.OIIRRCHCIORROHHIIOORIIHOHCOHOI == var2.OIIRRCHCIORROHHIIOORIIHOHCOHOI;
+         } else {
+            return false;
+         }
+      }
+
+      @Override
+      public String toString() {
+         return "Predicates.instanceOf(" + this.OIIRRCHCIORROHHIIOORIIHOHCOHOI.getName() + ")";
+      }
+   }
+
+   private static class RRCRRCORICCHOHHIRCHIROOHIIOHCO<T> implements RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<T>, Serializable {
+      private final Collection<?> RCOHOHCRHHIHRIOHHIIICRHRHOHCII;
+      private static final long HRROOOCRCIIICIRCORCOIHHIIICHIO = 0L;
+
+      private RRCRRCORICCHOHHIRCHIROOHIIOHCO(Collection<?> var1) {
+         this.RCOHOHCRHHIHRIOHHIIICRHRHOHCII = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      }
+
+      @Override
+      public boolean apply(@Nullable T var1) {
+         try {
+            return this.RCOHOHCRHHIHRIOHHIIICRHRHOHCII.contains(var1);
+         } catch (NullPointerException | ClassCastException var3) {
+            return false;
+         }
+      }
+
+      @Override
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RRCRRCORICCHOHHIRCHIROOHIIOHCO) {
+            OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var2 = (OIHCOHRCICCCRHRCROOCIOIRRHHHIH.RRCRRCORICCHOHHIRCHIROOHIIOHCO)var1;
+            return this.RCOHOHCRHHIHRIOHHIIICRHRHOHCII.equals(var2.RCOHOHCRHHIHRIOHHIIICRHRHOHCII);
+         } else {
+            return false;
+         }
+      }
+
+      @Override
+      public int hashCode() {
+         return this.RCOHOHCRHHIHRIOHHIIICRHRHOHCII.hashCode();
+      }
+
+      @Override
+      public String toString() {
+         return "Predicates.in(" + this.RCOHOHCRHHIHRIOHHIIICRHRHOHCII + ")";
+      }
+   }
+}

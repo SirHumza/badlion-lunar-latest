@@ -1,0 +1,37 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+import java.util.concurrent.AbstractExecutorService;
+import java.util.concurrent.Callable;
+import java.util.concurrent.RunnableFuture;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+@CanIgnoreReturnValue
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+public abstract class RRCRRCORICCHOHHIRCHIROOHIIOHCO extends AbstractExecutorService implements RHOORRIIOCHIRRHOHOOHIROHCRICRO {
+   @Override
+   protected final <T> RunnableFuture<T> newTaskFor(Runnable var1, T var2) {
+      return HIHHOCRHHRORRHHRORRRIIHHORIHOC.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, (T)var2);
+   }
+
+   @Override
+   protected final <T> RunnableFuture<T> newTaskFor(Callable<T> var1) {
+      return HIHHOCRHHRORRHHRORRRIIHHORIHOC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var1);
+   }
+
+   @Override
+   public RCCCROCHCICCROHCOCCRRROCIIHCCH<?> CCHHCIRHICHHHHRRIHIORCCORCCIHR(Runnable var1) {
+      return (RCCCROCHCICCROHCOCCRRROCIIHCCH<?>)super.submit(var1);
+   }
+
+   @Override
+   public <T> RCCCROCHCICCROHCOCCRRROCIIHCCH<T> HHCCIRHCCCIIRHCROHIORHIRHHIORH(Runnable var1, @Nullable T var2) {
+      return (RCCCROCHCICCROHCOCCRRROCIIHCCH<T>)super.<T>submit(var1, (T)var2);
+   }
+
+   @Override
+   public <T> RCCCROCHCICCROHCOCCRRROCIIHCCH<T> RRCRRCORICCHOHHIRCHIROOHIIOHCO(Callable<T> var1) {
+      return (RCCCROCHCICCROHCOCCRRROCIIHCCH<T>)super.<T>submit(var1);
+   }
+}

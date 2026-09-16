@@ -1,0 +1,44 @@
+package com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR;
+
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   public static final int HCICOHHRRRCCHIOCIIRIHHCCOIHCHI = 0;
+   public static final int HRHHORRCCOIICHOIICRRRHCCHRRRCC = 1;
+   public static final int RHROHOOCICOHHICOOHCHRIORHHRRCC = 2;
+   public static final int RHRHOICROIHRRRCHRHORICOOHIIROR = 3;
+   public static final int CHCIIROICOCHHOORHORRCHOCOCIHOI = 4;
+   public static final int CCRCRCRIRROIIOHOOOHOHOOIIRCIOC = 5;
+   public static final int ORCCOCRHOIICRHRRCCICCIOOCOHRCO = 6;
+   public static final int HOIHCCRRICCORCIIICIRCCHOHCHROH = 7;
+   public static final int HOCOIRCHCRICIOIRCOCCIHHIORCOIO = 8;
+   public static final int OIOOCHOOHOIICOCHRRHHCRIROHHCCC = 9;
+   public static final int IIOHIHRIIIIRHHCRRCORCCHHICRROC = 10;
+   public static final int IIHRIRCIORIHIIOOIRIHHIHHIOOOHH = 11;
+   public static final int HRIOCOHHCICHCCCHHHCRRHRRCCHCRO = 12;
+   public static final int RHOROOIHHIOIRCRHIORORCRICHCROH = 13;
+   public static final int RIIRHRHRRIIHRHCICICCCCHHIORIOR = 14;
+   public static final int HOOHCOROCHIRRHICOIHORRRRCOICOH = 15;
+   public static final int HCCIHCROCIRRHHHRCCOOHCHORCRHRR = 16;
+   public static final int IRIHCRHCIRIHOOCOOORIRHOHIICCIO = 17;
+   public static final int CIRCOCRRICHCHCHOOIRCIOICRRCRHH = 18;
+   public static final int HIHHICIOOOCCIOIOHCCHOCHOOHCRCC = 19;
+   public static final int OROCCHROHRIIRRHCCCCIIOHOOCICHH = 20;
+   public static final int IRICIRRHRIROIOHCHCRHHRIOROCOII = 21;
+   public static final int IIIHHORCRCROOIIOCIRCIIRHHOOHIH = 22;
+   public static final int CCHOHOOOOCHORCHRCRRHOROHHIHRHR = 23;
+   public static final int ICHORCORRRCCRRCHCIROIOHRIOHOCI = 24;
+   public static final int OOHORCCCIIIRROCRHORCHOIIIHORHO = 25;
+   public static final int OIIRRHOCIHHOOIOCOCICCOHOIRRHCH = 26;
+   public static final int OHIHIROOOIRHOCIRCRIIIRRIIHHCIH = 27;
+   public static final int HOHHHCRRIHOHCHHCOHOICHICRCIHCH = 28;
+   public static final int OOCIRRRIICRHHHHHCRCOIRIHCCOHOH = 29;
+   public static final int HOCCRHHHICIIOOIIHOOHHORCHRHICC = 30;
+   public static final int OOOOOCRCCOCCICCROCIICRRCICHRRI = 31;
+   public static final int CCOCHOHHHHHICIORIRHRIOCCHOOIHR = 32;
+   public static final int IHIHHOCOROCIRICCRCOOORIOHRCHIH = 33;
+   public static final int OHOORCRHIOOROCORRIOHHOHRIRCRIO = 34;
+   public static final int HCOROOORCIHHRICCRROOHRHCCHRIRI = 35;
+   public static final int RCROHRHCRHHOIOCIIIOHROCCCICHOH = 36;
+   public static final int RRRIOIOHHOCOICIIRHRIICOIIRRCRH = 37;
+   public static final int RIRHRHIORRHOIOCIIOCRCCOOCCOCCO = 38;
+   public static final int IRRORRRCOHIIRRRCCIRHCOHCCHIROI = 39;
+}

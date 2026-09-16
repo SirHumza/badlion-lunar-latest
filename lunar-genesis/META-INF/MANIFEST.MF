@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: com.moonsworth.lunar.genesis.Genesis
+Implementation-Version: 9.10.1
+Multi-Release: true
+

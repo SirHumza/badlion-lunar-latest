@@ -1,0 +1,99 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import java.util.Collection;
+import java.util.Map;
+
+public final class OCOHORHCROHICRRIHCIHHRRCIHICRI
+   extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private static final long ORORHHCCCCIIORRICHOOCOCOCOHIHR = 1L;
+   protected final String CHIOOOCOCHRRCIHIOOROROHHRCCRRO;
+   protected final boolean CCORCHCROIOOOIOOHCCIOROHCHRHRH;
+   protected final com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIROICHCRROROHCCROOCCCCOCHCCRI OOCCRIRHOOHHIOIOIORCIRCICCIHHR;
+
+   public OCOHORHCROHICRRIHCIHHRRCIHICRI(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIROICHCRROROHCCROOCCCCOCHCCRI var1,
+      String var2,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIROICHCRROROHCCROOCCCCOCHCCRI var3,
+      boolean var4
+   ) {
+      super(var1);
+      this.CHIOOOCOCHRRCIHIOOROROHHRCCRRO = var2;
+      this.OOCCRIRHOOHHIOIOIORCIRCICCIHHR = var3;
+      this.CCORCHCROIOOOIOOHCCIOROHCHRHRH = var4;
+   }
+
+   @Override
+   protected com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIROICHCRROROHCCROOCCCCOCHCCRI CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIROICHCRROROHCCROOCCCCOCHCCRI var1
+   ) {
+      throw new IllegalStateException("Should never try to reset delegate");
+   }
+
+   @Override
+   public void RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1
+   ) {
+      this.RHCOOCHCOOOICHHRIIOCIRCCCHICOC.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1);
+      this.OOCCRIRHOOHHIOIOIORCIRCICCIHHR.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1);
+   }
+
+   @Override
+   public void CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI var1,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      Object var3
+   ) {
+      this.set(var3, this.RHCOOCHCOOOICHHRIIOCIRCCCHICOC.ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(var1, var2));
+   }
+
+   @Override
+   public Object RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI var1,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      Object var3
+   ) {
+      return this.IIOCHOIICCIORCOROIROHICCHIOHIC(var3, this.ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(var1, var2));
+   }
+
+   @Override
+   public final void set(Object var1, Object var2) {
+      this.IIOCHOIICCIORCOROIROHICCHIOHIC(var1, var2);
+   }
+
+   @Override
+   public Object IIOCHOIICCIORCOROIROHICCHIOHIC(Object var1, Object var2) {
+      if (var2 != null) {
+         if (this.CCORCHCROIOOOIOOHCCIOROHCHRHRH) {
+            if (var2 instanceof Object[]) {
+               for (Object var6 : (Object[])var2) {
+                  if (var6 != null) {
+                     this.OOCCRIRHOOHHIOIOIORCIRCICCIHHR.set(var6, var1);
+                  }
+               }
+            } else if (var2 instanceof Collection) {
+               for (Object var9 : (Collection)var2) {
+                  if (var9 != null) {
+                     this.OOCCRIRHOOHHIOIOIORCIRCICCIHHR.set(var9, var1);
+                  }
+               }
+            } else {
+               if (!(var2 instanceof Map)) {
+                  throw new IllegalStateException(
+                     "Unsupported container type (" + var2.getClass().getName() + ") when resolving reference '" + this.CHIOOOCOCHRRCIHIOOROROHHRCCRRO + "'"
+                  );
+               }
+
+               for (Object var10 : ((Map)var2).values()) {
+                  if (var10 != null) {
+                     this.OOCCRIRHOOHHIOIOIORCIRCICCIHHR.set(var10, var1);
+                  }
+               }
+            }
+         } else {
+            this.OOCCRIRHOOHHIOIOIORCIRCICCIHHR.set(var2, var1);
+         }
+      }
+
+      return this.RHCOOCHCOOOICHHRIIOCIRCCCHICOC.IIOCHOIICCIORCOROIROHICCHIOHIC(var1, var2);
+   }
+}

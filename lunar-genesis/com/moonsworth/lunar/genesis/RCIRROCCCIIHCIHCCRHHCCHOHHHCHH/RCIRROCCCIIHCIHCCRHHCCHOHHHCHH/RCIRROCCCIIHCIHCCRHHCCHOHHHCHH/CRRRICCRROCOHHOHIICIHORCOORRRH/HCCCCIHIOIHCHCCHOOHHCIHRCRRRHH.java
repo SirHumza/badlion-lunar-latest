@@ -1,0 +1,457 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+import com.google.errorprone.annotations.concurrent.LazyInit;
+import java.io.InvalidObjectException;
+import java.io.ObjectInputStream;
+import java.io.Serializable;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.NavigableSet;
+import java.util.SortedSet;
+import java.util.Spliterator;
+import java.util.Spliterators.AbstractSpliterator;
+import java.util.function.Consumer;
+import java.util.stream.Collector;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+   serializable = true,
+   emulated = true
+)
+public abstract class HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> extends HHOIOCRIRIOCOIHHOOHICIOIIOHCOR<E> implements HRICIORORHCRHCCCIIIHRRHCICOHOR<E>, NavigableSet<E> {
+   static final int CCROOCCORCCHRHHHRHRRIIOIIHCRIH = 1301;
+   final transient Comparator<? super E> OCOOIHCCRRRHOCRIOOIRHICHOCHIIR;
+   @LazyInit
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   transient HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RRIHRRHCIIIOCROCCHCCROOIOIRIOO;
+
+   public static <E> Collector<E, ?, HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E>> toImmutableSortedSet(Comparator<? super E> var0) {
+      return IHCRORHRORIICHRHRCHRRIRRHHOCOO.toImmutableSortedSet(var0);
+   }
+
+   static <E> OHCIOCCCOHCCHHOCCHOIHRHOHCICOR<E> RIROICHCRROROHCCROOCCCCOCHCCRI(Comparator<? super E> var0) {
+      return (OHCIOCCCOHCCHHOCCHOIHRHOHCICOR<E>)(IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC().equals(var0)
+         ? OHCIOCCCOHCCHHOCCHOIHRHOHCICOR.IORCCRRIORCOIORORRRRRRRRIOROHC
+         : new OHCIOCCCOHCCHHOCCHOIHRHOHCICOR<>(COIRRRCIORROCHIROCHROCHICCICIC.HHOIROIHOHHRHIRRRHRIRHOOIRCIOH(), var0));
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HRIOOORIHCIHHOIICCOHOICCRCRICR() {
+      return (HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E>)OHCIOCCCOHCCHHOCCHOIHRHOHCICOR.IORCCRRIORCOIORORRRRRRRRIOROHC;
+   }
+
+   public static <E extends Comparable<? super E>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HRCHROOHRIHCRCRHRIIROCIRHOIRHH(E var0) {
+      return new OHCIOCCCOHCCHHOCCHOIHRHOHCICOR<>(
+         COIRRRCIORROCHIROCHROCHICCICIC.HOIIRIHOHCRIHOOHRCRCRCRRHIHRCO((E)var0), IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC()
+      );
+   }
+
+   public static <E extends Comparable<? super E>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> CRRRICCRROCOHHOHIICIHORCOORRRH(E var0, E var1) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC(), 2, (E[])(new Comparable[]{var0, var1}));
+   }
+
+   public static <E extends Comparable<? super E>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(E var0, E var1, E var2) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC(), 3, (E[])(new Comparable[]{var0, var1, var2}));
+   }
+
+   public static <E extends Comparable<? super E>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(E var0, E var1, E var2, E var3) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC(), 4, (E[])(new Comparable[]{var0, var1, var2, var3}));
+   }
+
+   public static <E extends Comparable<? super E>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(E var0, E var1, E var2, E var3, E var4) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC(), 5, (E[])(new Comparable[]{var0, var1, var2, var3, var4})
+      );
+   }
+
+   public static <E extends Comparable<? super E>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      E var0, E var1, E var2, E var3, E var4, E var5, E... var6
+   ) {
+      Comparable[] var7 = new Comparable[6 + var6.length];
+      var7[0] = var0;
+      var7[1] = var1;
+      var7[2] = var2;
+      var7[3] = var3;
+      var7[4] = var4;
+      var7[5] = var5;
+      System.arraycopy(var6, 0, var7, 6, var6.length);
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC(), var7.length, (E[])var7);
+   }
+
+   public static <E extends Comparable<? super E>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(E[] var0) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC(), var0.length, (E[])((Object[])var0.clone()));
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RORCHCIIICOHIRROOORHOCCCCIOCCI(Iterable<? extends E> var0) {
+      IOIHHIORCICCHIIHOIOIOHHRICRHIO var1 = IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC();
+      return HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1, var0);
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HHRIICOIOORCHCOIICOOIHIRHHICRI(Collection<? extends E> var0) {
+      IOIHHIORCICCHIIHOIOIOHHRICRHIO var1 = IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC();
+      return HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1, var0);
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IIHRRHORCRCROCHHOHORCHCROCIHRO(Iterator<? extends E> var0) {
+      IOIHHIORCICCHIIHOIOIOHHRICRHIO var1 = IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC();
+      return IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var0);
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(Comparator<? super E> var0, Iterator<? extends E> var1) {
+      return new HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E>(var0).OCOHORHCROHICRRIHCIHHRRCIHICRI(var1).HCIIOHOOOOCOCICOCOCRIRIRCCORRC();
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HHCCIRHCCCIIRHCROHIORHIRHHIORH(Comparator<? super E> var0, Iterable<? extends E> var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      boolean var2 = IHHCHIIHOOHRROCRRRHHHCOOHCOORC.hasSameComparator(var0, var1);
+      if (var2 && var1 instanceof HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH) {
+         HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH var3 = (HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH)var1;
+         if (!var3.isPartialView()) {
+            return var3;
+         }
+      }
+
+      Object[] var4 = IRIHOIRCHIRRCRIOORCOICORHHORHH.toArray(var1);
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var4.length, (E[])var4);
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HHCCIRHCCCIIRHCROHIORHIRHHIORH(Comparator<? super E> var0, Collection<? extends E> var1) {
+      return HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0, (Iterable<? extends E>)var1);
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(SortedSet<E> var0) {
+      Comparator var1 = IHHCHIIHOOHRROCRRRHHHCOOHCOORC.comparator(var0);
+      COIRRRCIORROCHIROCHROCHICCICIC var2 = COIRRRCIORROCHIROCHROCHICCICIC.RIROICHCRROROHCCROOCCCCOCHCCRI(var0);
+      return var2.isEmpty() ? RIROICHCRROROHCCROOCCCCOCHCCRI(var1) : new OHCIOCCCOHCCHHOCCHOIHRHOHCICOR<>(var2, var1);
+   }
+
+   static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Comparator<? super E> var0, int var1, E... var2) {
+      if (var1 == 0) {
+         return RIROICHCRROROHCCROOCCCCOCHCCRI(var0);
+      }
+
+      IOHCCIRCCICICHHHIOIOHCICICROIO.checkElementsNotNull(var2, var1);
+      Arrays.sort(var2, 0, var1, var0);
+      int var3 = 1;
+
+      for (int var4 = 1; var4 < var1; var4++) {
+         Object var5 = var2[var4];
+         Object var6 = var2[var3 - 1];
+         if (var0.compare(var5, var6) != 0) {
+            var2[var3++] = var5;
+         }
+      }
+
+      Arrays.fill(var2, var3, var1, null);
+      return new OHCIOCCCOHCCHHOCCHOIHRHOHCICOR<>(COIRRRCIORROCHIROCHROCHICCICIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2, var3), var0);
+   }
+
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> IHIRRIIORRHORHRORIHOROIRCORCOO(Comparator<E> var0) {
+      return new HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(var0);
+   }
+
+   public static <E extends Comparable<?>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> IOIOIHRHRIRCCHCOHHOCIHHOIHOOHC() {
+      return new HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(Collections.reverseOrder());
+   }
+
+   public static <E extends Comparable<?>> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> ROICRIHHIIHIORHRICIRIIOCCRCHHR() {
+      return new HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(IOIHHIORCICCHIIHOIOIOHHRICRHIO.OHOOIHRHCOIOIRHICHOOROHHIHOCRC());
+   }
+
+   int unsafeCompare(Object var1, Object var2) {
+      return unsafeCompare(this.OCOOIHCCRRRHOCRIOOIRHICHOCHIIR, var1, var2);
+   }
+
+   static int unsafeCompare(Comparator<?> var0, Object var1, Object var2) {
+      Comparator var3 = var0;
+      return var3.compare(var1, var2);
+   }
+
+   HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH(Comparator<? super E> var1) {
+      this.OCOOIHCCRRRHOCRIOOIRHICHOCHIIR = var1;
+   }
+
+   @Override
+   public Comparator<? super E> comparator() {
+      return this.OCOOIHCCRRRHOCRIOOIRHICHOCHIIR;
+   }
+
+   @Override
+   public abstract IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<E> IOHOCICRRIRHHCCCRICOCOHOIIOCRH();
+
+   public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HORHCHIIOCRROHOHRCORCCICCRCCHO(E var1) {
+      return this.CRICCOOHHHCHOORCICOCOHIHOIRHOO((E)var1, false);
+   }
+
+   public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> CRICCOOHHHCHOORCICOCOHIHOIRHOO(E var1, boolean var2) {
+      return this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            (E)var1
+         ),
+         var2
+      );
+   }
+
+   public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> OHHRIOHROOIHOROCIRHCHORIHRRRRI(E var1, E var2) {
+      return this.IRCIIHHICIHRCOCRROCOICRIHHCCHH((E)var1, true, (E)var2, false);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(E var1, boolean var2, E var3, boolean var4) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var3
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+         this.OCOOIHCCRRRHOCRIOOIRHICHOCHIIR.compare((E)var1, (E)var3) <= 0
+      );
+      return this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH((E)var1, var2, (E)var3, var4);
+   }
+
+   public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RHRCRCIOIOICRHRCCROIICCRRCOOOI(E var1) {
+      return this.CORCOCICIRIOHROHROIIOOHICCHCRR((E)var1, true);
+   }
+
+   public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> CORCOCICIRIOHROHROIIOOHICCHCRR(E var1, boolean var2) {
+      return this.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            (E)var1
+         ),
+         var2
+      );
+   }
+
+   abstract HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> OOROOCCIRCCRHOIOIORIHCHHOOCCOR(E var1, boolean var2);
+
+   abstract HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(E var1, boolean var2, E var3, boolean var4);
+
+   abstract HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HRCHROOHRIHCRCRHRIIROCIRHOIRHH(E var1, boolean var2);
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   @Override
+   public E lower(E var1) {
+      return HRCROCOHHHICRHIHHOOCIIRRRCCIRR.getNext(this.CRICCOOHHHCHOORCICOCOHIHOIRHOO((E)var1, false).ORRHCRICRICHOOIIIOORHRHCRRICOI(), null);
+   }
+
+   @Override
+   public E floor(E var1) {
+      return HRCROCOHHHICRHIHHOOCIIRRRCCIRR.getNext(this.CRICCOOHHHCHOORCICOCOHIHOIRHOO((E)var1, true).ORRHCRICRICHOOIIIOORHRHCRRICOI(), null);
+   }
+
+   @Override
+   public E ceiling(E var1) {
+      return IRIHOIRCHIRRCRIOORCOICORHHORHH.getFirst(this.CORCOCICIRIOHROHROIIOOHICCHCRR((E)var1, true), null);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   @Override
+   public E higher(E var1) {
+      return IRIHOIRCHIRRCRIOORCOICORHHORHH.getFirst(this.CORCOCICIRIOHROHROIIOOHICCHCRR((E)var1, false), null);
+   }
+
+   @Override
+   public E first() {
+      return this.IOHOCICRRIRHHCCCRICOCOHOIIOCRH().next();
+   }
+
+   @Override
+   public E last() {
+      return this.ORRHCRICRICHOOIIIOORHRHCRRICOI().next();
+   }
+
+   @Deprecated
+   @CanIgnoreReturnValue
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   @Override
+   public final E pollFirst() {
+      throw new UnsupportedOperationException();
+   }
+
+   @Deprecated
+   @CanIgnoreReturnValue
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   @Override
+   public final E pollLast() {
+      throw new UnsupportedOperationException();
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> CCCROROROOOCORRCRCORIIIHHOICHH() {
+      HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH var1 = this.RRIHRRHCIIIOCROCCHCCROOIOIRIOO;
+      if (var1 == null) {
+         var1 = this.RRIHRRHCIIIOCROCCHCCROOIOIRIOO = this.ICOHCHRICRIICHHOROCRIOCIHOCHIR();
+         var1.RRIHRRHCIIIOCROCCHCCROOIOIRIOO = this;
+      }
+
+      return var1;
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   abstract HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> ICOHCHRICRIICHHOROCRIOCIHOCHIR();
+
+   @Override
+   public Spliterator<E> spliterator() {
+      return new AbstractSpliterator<E>(this.size(), 1365) {
+         final IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<E> RHCOIRROCOICOHCRORHRCCRHIHORCC = HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.this.IOHOCICRRIRHHCCCRICOCOHOIIOCRH();
+
+         @Override
+         public boolean tryAdvance(Consumer<? super E> var1) {
+            if (this.RHCOIRROCOICOHCRORHRCCRHIHORCC.hasNext()) {
+               var1.accept(this.RHCOIRROCOICOHCRORHRCCRHIHORCC.next());
+               return true;
+            } else {
+               return false;
+            }
+         }
+
+         @Override
+         public Comparator<? super E> getComparator() {
+            return HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.this.OCOOIHCCRRRHOCRIOOIRHICHOCHIIR;
+         }
+      };
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   public abstract IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<E> ORRHCRICRICHOOIIIOORHRHCRRICOI();
+
+   abstract int indexOf(@Nullable Object var1);
+
+   private void readObject(ObjectInputStream var1) {
+      throw new InvalidObjectException("Use SerializedForm");
+   }
+
+   @Override
+   Object writeReplace() {
+      return new HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH<>(this.OCOOIHCCRRRHOCRIOOIRHICHOCHIIR, this.toArray());
+   }
+
+   private static class IRCIIHHICIHRCOCRROCOICRIHHCCHH<E> implements Serializable {
+      final Comparator<? super E> CRICCRROCOOOOHHCHCRRIRORRCOCCH;
+      final Object[] OOHCCCROORHIHIHIHHRIIHCCORHCCC;
+      private static final long COOROORROCHOHHRRIHROIIHOICOOIO = 0L;
+
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH(Comparator<? super E> var1, Object[] var2) {
+         this.CRICCRROCOOOOHHCHCRRIRORRCOCCH = var1;
+         this.OOHCCCROORHIHIHIHHRIIHCCORHCCC = var2;
+      }
+
+      Object readResolve() {
+         return new HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(this.CRICCRROCOOOOHHCHCRRIRORRCOCCH)
+            .IRCRRHRCIRHIHIHROHCRRHIIHHHHCH((E[])this.OOHCCCROORHIHIHIHHRIIHCCORHCCC)
+            .HCIIOHOOOOCOCICOCOCRIRIRCCORRC();
+      }
+   }
+
+   public static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> extends CICOIHIRIIHHCIOICHRHICRIRCIOHC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> {
+      private final Comparator<? super E> HORRRHICORCHHHRHIOCOIOIOCORHIC;
+      private E[] elements;
+      private int n;
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Comparator<? super E> var1) {
+         super(true);
+         this.HORRRHICORCHHHRHIOCOIOIOCORHIC = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            var1
+         );
+         this.elements = (E[])(new Object[4]);
+         this.n = 0;
+      }
+
+      @Override
+      void copy() {
+         this.elements = Arrays.copyOf(this.elements, this.elements.length);
+      }
+
+      private void sortAndDedup() {
+         if (this.n != 0) {
+            Arrays.sort(this.elements, 0, this.n, this.HORRRHICORCHHHRHIOCOIOIOCORHIC);
+            int var1 = 1;
+
+            for (int var2 = 1; var2 < this.n; var2++) {
+               int var3 = this.HORRRHICORCHHHRHIOCOIOIOCORHIC.compare(this.elements[var1 - 1], this.elements[var2]);
+               if (var3 < 0) {
+                  this.elements[var1++] = this.elements[var2];
+               } else if (var3 > 0) {
+                  throw new AssertionError("Comparator " + this.HORRRHICORCHHHRHIOCOIOIOCORHIC + " compare method violates its contract");
+               }
+            }
+
+            Arrays.fill(this.elements, var1, this.n, null);
+            this.n = var1;
+         }
+      }
+
+      @CanIgnoreReturnValue
+      public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> RICHHRCCHRIICHROOROCCICOIRRHCR(E var1) {
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            var1
+         );
+         this.RHOOOCCHIRCORRHORHRCROCROICROI();
+         if (this.n == this.elements.length) {
+            this.sortAndDedup();
+            int var2 = OIICIRRCOOCIHRHOIOIOOROCRHCHIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.expandedCapacity(this.n, this.n + 1);
+            if (var2 > this.elements.length) {
+               this.elements = Arrays.copyOf(this.elements, var2);
+            }
+         }
+
+         this.elements[this.n++] = (E)var1;
+         return this;
+      }
+
+      @CanIgnoreReturnValue
+      public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> IRCRRHRCIRHIHIHROHCRRHIIHHHHCH(E... var1) {
+         IOHCCIRCCICICHHHIOIOHCICICROIO.checkElementsNotNull(var1);
+
+         for (Object var5 : var1) {
+            this.RICHHRCCHRIICHROOROCCICOIRRHCR((E)var5);
+         }
+
+         return this;
+      }
+
+      @CanIgnoreReturnValue
+      public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> IOHHOIIOCRHCHHCRORICCOHOHROOIH(Iterable<? extends E> var1) {
+         super.RCIROOOOICRHCCRRCIORHHIRCOIIIC(var1);
+         return this;
+      }
+
+      @CanIgnoreReturnValue
+      public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> OCOHORHCROHICRRIHCIHHRRCIHICRI(Iterator<? extends E> var1) {
+         super.CORCOCICIRIOHROHROIIOOHICCHCRR(var1);
+         return this;
+      }
+
+      @CanIgnoreReturnValue
+      HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         CICOIHIRIIHHCIOICHRHICRIRCIOHC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> var1
+      ) {
+         this.RHOOOCCHIRCORRHORHRCROCROICROI();
+         HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2 = (HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1;
+
+         for (int var3 = 0; var3 < var2.n; var3++) {
+            this.RICHHRCCHRIICHROOROCCICOIRRHCR(var2.elements[var3]);
+         }
+
+         return this;
+      }
+
+      public HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HCIIOHOOOOCOCICOCOCRIRIRCCORRC() {
+         this.sortAndDedup();
+         if (this.n == 0) {
+            return HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RIROICHCRROROHCCROOCCCCOCHCCRI(this.HORRRHICORCHHHRHIOCOIOIOCORHIC);
+         }
+
+         this.forceCopy = true;
+         return new OHCIOCCCOHCCHHOCCHOIHRHOHCICOR<>(
+            COIRRRCIORROCHIROCHROCHICCICIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.elements, this.n), this.HORRRHICORCHHHRHIOCOIOIOCORHIC
+         );
+      }
+   }
+}

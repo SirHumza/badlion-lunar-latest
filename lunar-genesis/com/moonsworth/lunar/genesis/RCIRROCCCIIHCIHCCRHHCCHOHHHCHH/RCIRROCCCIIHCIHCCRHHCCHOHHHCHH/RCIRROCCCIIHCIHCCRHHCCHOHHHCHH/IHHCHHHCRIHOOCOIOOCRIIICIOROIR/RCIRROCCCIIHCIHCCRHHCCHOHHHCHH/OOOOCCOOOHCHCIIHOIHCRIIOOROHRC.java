@@ -1,0 +1,37 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.Executor;
+import java.util.concurrent.FutureTask;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+public class OOOOCCOOOHCHCIIHOIHCRIIOOROHRC<V> extends FutureTask<V> implements RCCCROCHCICCROHCOCCRRROCIIHCCH<V> {
+   private final IHIRRIIORRHORHRORIHOROIRCORCOO OHOCCRCICCRIOCHRHROHOIICIRIICC = new IHIRRIIORRHORHRORIHOROIRCORCOO();
+
+   public static <V> OOOOCCOOOHCHCIIHOIHCRIIOOROHRC<V> RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(Callable<V> var0) {
+      return new OOOOCCOOOHCHCIIHOIHCRIIOOROHRC<>(var0);
+   }
+
+   public static <V> OOOOCCOOOHCHCIIHOIHCRIIOOROHRC<V> CRRRICCRROCOHHOHIICIHORCOORRRH(Runnable var0, @Nullable V var1) {
+      return new OOOOCCOOOHCHCIIHOIHCRIIOOROHRC<>(var0, (V)var1);
+   }
+
+   OOOOCCOOOHCHCIIHOIHCRIIOOROHRC(Callable<V> var1) {
+      super(var1);
+   }
+
+   OOOOCCOOOHCHCIIHOIHCRIIOOROHRC(Runnable var1, @Nullable V var2) {
+      super(var1, (V)var2);
+   }
+
+   @Override
+   public void addListener(Runnable var1, Executor var2) {
+      this.OHOCCRCICCRIOCHRHROHOIICIRIICC.add(var1, var2);
+   }
+
+   @Override
+   protected void done() {
+      this.OHOCCRCICCRIOCHRHROHOIICIRIICC.execute();
+   }
+}

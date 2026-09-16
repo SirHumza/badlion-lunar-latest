@@ -1,0 +1,185 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.google.errorprone.annotations.ForOverride;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Future;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
+abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<V, X extends Throwable, F, T>
+   extends ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<V>
+   implements Runnable {
+   @Nullable RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> HCHOCIOIIHHIHCIOROOIOICHHCRHOC;
+   @Nullable Class<X> exceptionType;
+   @Nullable F fallback;
+
+   static <V, X extends Throwable> RCCCROCHCICCROHCOCCRRROCIIHCCH<V> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> var0,
+      Class<X> var1,
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<? super X, ? extends V> var2,
+      Executor var3
+   ) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var4 = new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         var0, var1, var2
+      );
+      var0.addListener(var4, OHCIIOCHHOHOHCOHHCRRHHCRHOIICC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, var4));
+      return var4;
+   }
+
+   static <X extends Throwable, V> RCCCROCHCICCROHCOCCRRROCIIHCCH<V> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> var0, Class<X> var1, IIHRRHORCRCROCHHOHORCHCROCIHRO<? super X, ? extends V> var2, Executor var3
+   ) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var4 = new com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var0, var1, var2
+      );
+      var0.addListener(var4, OHCIIOCHHOHOHCOHHCRRHHCRHOIICC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, var4));
+      return var4;
+   }
+
+   RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> var1, Class<X> var2, F var3) {
+      this.HCHOCIOIIHHIHCIOROOIOICHHCRHOC = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      this.exceptionType = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var2
+      );
+      this.fallback = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         (F)var3
+      );
+   }
+
+   @Override
+   public final void run() {
+      RCCCROCHCICCROHCOCCRRROCIIHCCH var1 = this.HCHOCIOIIHHIHCIOROOIOICHHCRHOC;
+      Class var2 = this.exceptionType;
+      Object var3 = this.fallback;
+      if (!(var1 == null | var2 == null | var3 == null) && !this.isCancelled()) {
+         this.HCHOCIOIIHHIHCIOROOIOICHHCRHOC = null;
+         Object var4 = null;
+         Throwable var5 = null;
+
+         try {
+            if (var1 instanceof com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+               )
+             {
+               var5 = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  (com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1
+               );
+            }
+
+            if (var5 == null) {
+               var4 = OHIIIOHIRIRCCRRIOIICCHHIORRHOH.getDone(var1);
+            }
+         } catch (ExecutionException var16) {
+            var5 = var16.getCause();
+            if (var5 == null) {
+               var5 = new NullPointerException("Future type " + var1.getClass() + " threw " + var16.getClass() + " without a cause");
+            }
+         } catch (Throwable var17) {
+            var5 = var17;
+         }
+
+         if (var5 == null) {
+            this.set((V)var4);
+         } else if (!IIOCHOIICCIORCOROIROHICCHIOHIC.isInstanceOfThrowableClass(var5, var2)) {
+            this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1);
+         } else {
+            Throwable var6 = var5;
+
+            Object var7;
+            label91: {
+               try {
+                  var7 = this.doFallback((F)var3, (X)var6);
+                  break label91;
+               } catch (Throwable var14) {
+                  this.setException(var14);
+               } finally {
+                  this.exceptionType = null;
+                  this.fallback = null;
+               }
+
+               return;
+            }
+
+            this.setResult((T)var7);
+         }
+      }
+   }
+
+   @Override
+   protected String pendingToString() {
+      RCCCROCHCICCROHCOCCRRROCIIHCCH var1 = this.HCHOCIOIIHHIHCIOROOIOICHHCRHOC;
+      Class var2 = this.exceptionType;
+      Object var3 = this.fallback;
+      String var4 = super.pendingToString();
+      String var5 = "";
+      if (var1 != null) {
+         var5 = "inputFuture=[" + var1 + "], ";
+      }
+
+      if (var2 != null && var3 != null) {
+         return var5 + "exceptionType=[" + var2 + "], fallback=[" + var3 + "]";
+      } else {
+         return var4 != null ? var5 + var4 : null;
+      }
+   }
+
+   @ForOverride
+   abstract @Nullable T doFallback(F var1, X var2);
+
+   @ForOverride
+   abstract void setResult(@Nullable T var1);
+
+   @Override
+   protected final void afterDone() {
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH((Future<?>)this.HCHOCIOIIHHIHCIOROOIOICHHCRHOC);
+      this.HCHOCIOIIHHIHCIOROOIOICHHCRHOC = null;
+      this.exceptionType = null;
+      this.fallback = null;
+   }
+
+   private static final class IRCIIHHICIHRCOCRROCOICRIHHCCHH<V, X extends Throwable>
+      extends com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<V, X, com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<? super X, ? extends V>, V> {
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> var1,
+         Class<X> var2,
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<? super X, ? extends V> var3
+      ) {
+         super(var1, var2, var3);
+      }
+
+      @Nullable V RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRCCOICORICIHCHRHIHIHROIRHOCR<? super X, ? extends V> var1,
+         X var2
+      ) {
+         return (V)var1.apply(var2);
+      }
+
+      @Override
+      void setResult(@Nullable V var1) {
+         this.set((V)var1);
+      }
+   }
+
+   private static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<V, X extends Throwable>
+      extends com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<V, X, IIHRRHORCRCROCHHOHORCHCROCIHRO<? super X, ? extends V>, RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V>> {
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> var1, Class<X> var2, IIHRRHORCRCROCHHOHORCHCROCIHRO<? super X, ? extends V> var3
+      ) {
+         super(var1, var2, var3);
+      }
+
+      RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IIHRRHORCRCROCHHOHORCHCROCIHRO<? super X, ? extends V> var1, X var2) {
+         RCCCROCHCICCROHCOCCRRROCIIHCCH var3 = var1.apply(var2);
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            var3, "AsyncFunction.apply returned null instead of a Future. Did you mean to return immediateFuture(null)? %s", var1
+         );
+         return var3;
+      }
+
+      void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCCCROCHCICCROHCOCCRRROCIIHCCH<? extends V> var1) {
+         this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1);
+      }
+   }
+}

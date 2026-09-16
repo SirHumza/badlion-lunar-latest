@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.6.3
+Built-By: travis
+Build-Jdk: 9.0.4
+Implementation-Title: JOML
+Implementation-Version: 1.9.25
+Implementation-Vendor-Id: org.joml
+Implementation-Vendor: JOML
+Implementation-URL: http://joml.org
+Bundle-ManifestVersion: 2
+Bundle-Name: JOML
+Bundle-SymbolicName: org.joml
+Bundle-Version: 1.9.25
+Export-Package: org.joml,org.joml.sampling
+Implementation-Build: ce573cdf5e9945bf3c65a9867f0a0fc9ddd95ad8
+

@@ -1,0 +1,21 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+public interface OIHCOHRCICCCRHRCROOCIOIRRHHHIH<N, E> extends IOHIHIIHCCCCCIHRORIOIOORCIOHII<N, E> {
+   @CanIgnoreReturnValue
+   boolean addNode(N var1);
+
+   @CanIgnoreReturnValue
+   boolean addEdge(N var1, N var2, E var3);
+
+   @CanIgnoreReturnValue
+   boolean CRRRICCRROCOHHOHIICIHORCOORRRH(CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> var1, E var2);
+
+   @CanIgnoreReturnValue
+   boolean removeNode(N var1);
+
+   @CanIgnoreReturnValue
+   boolean removeEdge(E var1);
+}

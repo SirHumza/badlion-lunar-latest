@@ -1,0 +1,157 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.COIRRRCIORROCHIROCHROCHICCICIC;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRRCHIRICCIHCCIHOHRCHRHRHCRCOH;
+
+final class HCHRIROHHHCORIOCROOCHRCIOROOCI<N, E> extends CRHROHHHCIHHCOHCOORCRIHHIICROR<N, E> implements OIHCOHRCICCCRHRCROOCIOIRRHHHIH<N, E> {
+   HCHRIROHHHCORIOCROOCHRCIOROOCI(RCIROOOOICRHCCRRCIORHHIRCOIIIC<? super N, ? super E> var1) {
+      super(var1);
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public boolean addNode(N var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "node"
+      );
+      if (this.IHHRRRRCOCHIIOIOHORHCIRRRCHCCR((N)var1)) {
+         return false;
+      }
+
+      this.CHRHCRCCIICRORCOHCORHRROIHRCHO((N)var1);
+      return true;
+   }
+
+   @CanIgnoreReturnValue
+   private OOCCRCRCOHIIORCCORCRCIRRROIOOR<N, E> CHRHCRCCIICRORCOHCORHRROIHRCHO(N var1) {
+      OOCCRCRCOHIIORCCORCRCIRRROIOOR var2 = this.ORRRHOCOOCOOHCOHRIIRRRCOHORROH();
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkState(
+         this.HHHRCIOICCOHRHRRRIRRORIOCROROC.CRHROHHHCIHHCOHCOORCRIHHIICROR((N)var1, var2) == null
+      );
+      return var2;
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public boolean addEdge(N var1, N var2, E var3) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "nodeU"
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var2, "nodeV"
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var3, "edge"
+      );
+      if (this.IICRCOCCHCORCRHHHOIHROCHIROIHH((E)var3)) {
+         CIOHHCORHRCCRICCCORIHCRHCCCRRR var7 = this.HIRIHCORIRIORCCHCOORIHIOIICOIH((E)var3);
+         CIOHHCORHRCCRICCCORIHCRHCCCRRR var8 = CIOHHCORHRCCRICCCORIHCRHCCCRRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this, var1, var2);
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+            var7.equals(var8),
+            "Edge %s already exists between the following nodes: %s, so it cannot be reused to connect the following nodes: %s.",
+            var3,
+            var7,
+            var8
+         );
+         return false;
+      }
+
+      OOCCRCRCOHIIORCCORCRCIRRROIOOR var4 = this.HHHRCIOICCOHRHRRRIRRORIOCROROC.get(var1);
+      if (!this.allowsParallelEdges()) {
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+            var4 == null || !var4.successors().contains(var2),
+            "Nodes %s and %s are already connected by a different edge. To construct a graph that allows parallel edges, call allowsParallelEdges(true) on the Builder.",
+            var1,
+            var2
+         );
+      }
+
+      boolean var5 = var1.equals(var2);
+      if (!this.allowsSelfLoops()) {
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+            !var5,
+            "Cannot add self-loop edge on node %s, as self-loops are not allowed. To construct a graph that allows self-loops, call allowsSelfLoops(true) on the Builder.",
+            var1
+         );
+      }
+
+      if (var4 == null) {
+         var4 = this.CHRHCRCCIICRORCOHCORHRROIHRCHO((N)var1);
+      }
+
+      var4.addOutEdge(var3, var2);
+      OOCCRCRCOHIIORCCORCRCIRRROIOOR var6 = this.HHHRCIOICCOHRHRRRIRRORIOCROROC.get(var2);
+      if (var6 == null) {
+         var6 = this.CHRHCRCCIICRORCOHCORHRROIHRCHO((N)var2);
+      }
+
+      var6.addInEdge(var3, var1, var5);
+      this.RIRHRRRICIHHRIIIRICRRIORRROHIC.CRHROHHHCIHHCOHCOORCRIHHIICROR((E)var3, (N)var1);
+      return true;
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public boolean CRRRICCRROCOHHOHIICIHORCOORRRH(CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> var1, E var2) {
+      this.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var1);
+      return this.addEdge((N)var1.RHICCHICCROOHCCCIRICICRCOIIIOO(), (N)var1.HORHROCIIOHIICOIHOIOOIICCHHCCO(), (E)var2);
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public boolean removeNode(N var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "node"
+      );
+      OOCCRCRCOHIIORCCORCRCIRRROIOOR var2 = this.HHHRCIOICCOHRHRRRIRRORIOCROROC.get(var1);
+      if (var2 == null) {
+         return false;
+      }
+
+      IRRCHIRICCIHCCIHOHRCHRHRHCRCOH var3 = COIRRRCIORROCHIROCHROCHICCICIC.RIROICHCRROROHCCROOCCCCOCHCCRI(var2.incidentEdges())
+         .IOHOCICRRIRHHCCCRICOCOHOIIOCRH();
+
+      while (var3.hasNext()) {
+         Object var4 = var3.next();
+         this.removeEdge((E)var4);
+      }
+
+      this.HHHRCIOICCOHRHRRRIRRORIOCROROC.IHHCCRIROCRCRROCCRIHCCHOOOOIRC(var1);
+      return true;
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public boolean removeEdge(E var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "edge"
+      );
+      Object var2 = this.RIRHRRRICIHHRIIIRICRRIORRROHIC.get(var1);
+      if (var2 == null) {
+         return false;
+      }
+
+      OOCCRCRCOHIIORCCORCRCIRRROIOOR var3 = this.HHHRCIOICCOHRHRRRIRRORIOCROROC.get(var2);
+      Object var4 = var3.adjacentNode(var1);
+      OOCCRCRCOHIIORCCORCRCIRRROIOOR var5 = this.HHHRCIOICCOHRHRRRIRRORIOCROROC.get(var4);
+      var3.removeOutEdge(var1);
+      var5.removeInEdge(var1, this.allowsSelfLoops() && var2.equals(var4));
+      this.RIRHRRRICIHHRIIIRICRRIORRROHIC.IHHCCRIROCRCRROCCRIHCCHOOOOIRC(var1);
+      return true;
+   }
+
+   private OOCCRCRCOHIIORCCORCRCIRRROIOOR<N, E> ORRRHOCOOCOOHCOHRIIRRRCOHORROH() {
+      return this.isDirected()
+         ? (
+            this.allowsParallelEdges()
+               ? CRICCOOHHHCHOORCICOCOHIHOIRHOO.OIHIHRHHIOHRRORHRHHROCIHIHOHOR()
+               : HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RHHHHROCRIORIOCRRIRRROHICRRHOI()
+         )
+         : (
+            this.allowsParallelEdges()
+               ? RCCCROCHCICCROHCOCCRRROCIIHCCH.OIHIRHROOOCRHHCCRICHRHIIHRIIHO()
+               : OOOOCCOOOHCHCIIHOIHCRIIOOROHRC.CRHHIHORRCOOOHHRRCCHOORIRHHRHC()
+         );
+   }
+}

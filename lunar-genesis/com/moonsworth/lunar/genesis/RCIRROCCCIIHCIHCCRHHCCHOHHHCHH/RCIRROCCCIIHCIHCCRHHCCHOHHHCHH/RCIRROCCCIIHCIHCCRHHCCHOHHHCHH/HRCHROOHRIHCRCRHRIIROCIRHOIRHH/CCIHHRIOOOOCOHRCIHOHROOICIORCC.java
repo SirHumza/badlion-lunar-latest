@@ -1,0 +1,158 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+
+final class CCIHHRIOOOOCOHRCIHOHROOICIORCC<N, V> extends RORCHCIIICOHIRROOORHOCCCCIOCCI<N, V> implements ROOCOCCCIRHHHIRIOIHHHHRHIICHHR<N, V> {
+   private final OCOHORHCROHICRRIHCIHHRRCIHICRI<N> CIHRICICHRCHHIHOHHCIIHOCOHCHOI;
+
+   CCIHHRIOOOOCOHRCIHOHROOICIORCC(CRRRICCRROCOHHOHIICIHORCOORRRH<? super N> var1) {
+      super(var1);
+      this.CIHRICICHRCHHIHOHHCIIHOCOHCHOI = var1.OCIROCCOHCRRHICHHCRCHIRHICRICH.OIRCOOCOIRIIHRCRRIOHIOROIHHHRR();
+   }
+
+   @Override
+   public OCOHORHCROHICRRIHCIHHRRCIHICRI<N> RHHOOIICORCROOHHHRIOIIHRCORRHO() {
+      return this.CIHRICICHRCHHIHOHHCIIHOCOHCHOI;
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public boolean addNode(N var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "node"
+      );
+      if (this.CRICCIRRRCIICCHOOIORCHIHIIROHO((N)var1)) {
+         return false;
+      }
+
+      this.IOHCCIRCCICICHHHIOIOHCICICROIO((N)var1);
+      return true;
+   }
+
+   @CanIgnoreReturnValue
+   private HICRRICCHCCROOHHCHOCOCCHOIHHOC<N, V> IOHCCIRCCICICHHHIOIOHCICICROIO(N var1) {
+      HICRRICCHCCROOHHCHOCOCCHOIHHOC var2 = this.IIHCIRRIOCOOROHCCROHROCOOCIHIO();
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkState(
+         this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.CRHROHHHCIHHCOHCOORCRIHHIICROR((N)var1, var2) == null
+      );
+      return var2;
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public V putEdgeValue(N var1, N var2, V var3) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "nodeU"
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var2, "nodeV"
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var3, "value"
+      );
+      if (!this.allowsSelfLoops()) {
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+            !var1.equals(var2),
+            "Cannot add self-loop edge on node %s, as self-loops are not allowed. To construct a graph that allows self-loops, call allowsSelfLoops(true) on the Builder.",
+            var1
+         );
+      }
+
+      HICRRICCHCCROOHHCHOCOCCHOIHHOC var4 = this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.get(var1);
+      if (var4 == null) {
+         var4 = this.IOHCCIRCCICICHHHIOIOHCICICROIO((N)var1);
+      }
+
+      Object var5 = var4.addSuccessor(var2, var3);
+      HICRRICCHCCROOHHCHOCOCCHOIHHOC var6 = this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.get(var2);
+      if (var6 == null) {
+         var6 = this.IOHCCIRCCICICHHHIOIOHCICICROIO((N)var2);
+      }
+
+      var6.addPredecessor(var1, var3);
+      if (var5 == null) {
+         IHIRRIIORRHORHRORIHOROIRCORCOO.checkPositive(++this.edgeCount);
+      }
+
+      return (V)var5;
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public V RRCRRCORICCHOHHIRCHIROOHIIOHCO(CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> var1, V var2) {
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1);
+      return this.putEdgeValue((N)var1.RHICCHICCROOHCCCIRICICRCOIIIOO(), (N)var1.HORHROCIIOHIICOIHOIOOIICCHHCCO(), (V)var2);
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public boolean removeNode(N var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "node"
+      );
+      HICRRICCHCCROOHHCHOCOCCHOIHHOC var2 = this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.get(var1);
+      if (var2 == null) {
+         return false;
+      }
+
+      if (this.allowsSelfLoops() && var2.removeSuccessor(var1) != null) {
+         var2.removePredecessor(var1);
+         this.edgeCount--;
+      }
+
+      for (Object var4 : var2.successors()) {
+         this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.RRCRRIIRHHRCCICHOCOIHROROCICHC(var4).removePredecessor((N)var1);
+         this.edgeCount--;
+      }
+
+      if (this.isDirected()) {
+         for (Object var6 : var2.predecessors()) {
+            com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkState(
+               this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.RRCRRIIRHHRCCICHOCOIHROROCICHC(var6).removeSuccessor((N)var1) != null
+            );
+            this.edgeCount--;
+         }
+      }
+
+      this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.IHHCCRIROCRCRROCCRIHCCHOOOOIRC(var1);
+      IHIRRIIORRHORHRORIHOROIRCORCOO.checkNonNegative(this.edgeCount);
+      return true;
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public V removeEdge(N var1, N var2) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1, "nodeU"
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var2, "nodeV"
+      );
+      HICRRICCHCCROOHHCHOCOCCHOIHHOC var3 = this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.get(var1);
+      HICRRICCHCCROOHHCHOCOCCHOIHHOC var4 = this.OCRIRIOHIIHHCCCOIRIOHCCICOCCCO.get(var2);
+      if (var3 != null && var4 != null) {
+         Object var5 = var3.removeSuccessor(var2);
+         if (var5 != null) {
+            var4.removePredecessor(var1);
+            IHIRRIIORRHORHRORIHOROIRCORCOO.checkNonNegative(--this.edgeCount);
+         }
+
+         return (V)var5;
+      } else {
+         return null;
+      }
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public V IIRHCHHOICHRICOOCRORCCIOOIHOIR(CIOHHCORHRCCRICCCORIHCRHCCCRRR<N> var1) {
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1);
+      return this.removeEdge((N)var1.RHICCHICCROOHCCCIRICICRCOIIIOO(), (N)var1.HORHROCIIOHIICOIHOIOOIICCHHCCO());
+   }
+
+   private HICRRICCHCCROOHHCHOCOCCHOIHHOC<N, V> IIHCIRRIOCOOROHCCROHROCOOCIHIO() {
+      return this.isDirected()
+         ? CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.CIHRICICHRCHHIHOHHCIIHOCOHCHOI)
+         : RHCHRCOCCOIIIHCHRHIRCORHRHRICR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(this.CIHRICICHRCHHIHOHHCIIHOCOHCHOI);
+   }
+}

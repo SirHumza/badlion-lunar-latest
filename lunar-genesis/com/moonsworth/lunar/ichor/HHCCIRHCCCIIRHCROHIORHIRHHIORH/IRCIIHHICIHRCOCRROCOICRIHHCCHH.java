@@ -1,0 +1,60 @@
+package com.moonsworth.lunar.ichor.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+
+public record IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
+   private final String ORORIIIIHCIOOOHRCORIHCIHHROOIR;
+   private final IRCIIHHICIHRCOCRROCOICRIHHCCHH ORCORIIIIOCRROCRROIHHRIRICCRHR;
+   private final List<IRCIIHHICIHRCOCRROCOICRIHHCCHH> interfaces;
+   public static final IRCIIHHICIHRCOCRROCOICRIHHCCHH OCIIRHHCIRRRICHCHHCOIOIHICOCIO = new IRCIIHHICIHRCOCRROCOICRIHHCCHH("java/lang/Object", null, List.of());
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(String var1, IRCIIHHICIHRCOCRROCOICRIHHCCHH var2, List<IRCIIHHICIHRCOCRROCOICRIHHCCHH> var3) {
+      this.ORORIIIIHCIOOOHRCORIHCIHHROOIR = var1;
+      this.ORCORIIIIOCRROCRROIHHRIRICCRHR = var2;
+      this.interfaces = var3;
+   }
+
+   public String name() {
+      return this.ORORIIIIHCIOOOHRCORIHCIHHROOIR.replace('.', '/');
+   }
+
+   public boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IRCIIHHICIHRCOCRROCOICRIHHCCHH var1) {
+      if (this.ORORIIIIHCIOOOHRCORIHCIHHROOIR.equals(var1.ORORIIIIHCIOOOHRCORIHCIHHROOIR)) {
+         return true;
+      }
+
+      LinkedHashSet var2 = new LinkedHashSet();
+
+      for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var3 = var1; var3 != null; var3 = var3.ORCORIIIIOCRROCRROIHHRIRICCRHR) {
+         var2.add(var3.ORORIIIIHCIOOOHRCORIHCIHHROOIR);
+      }
+
+      if (var2.contains(this.ORORIIIIHCIOOOHRCORIHCIHHROOIR)) {
+         return true;
+      }
+
+      Set var4 = IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1);
+      return var4.contains(this.ORORIIIIHCIOOOHRCORIHCIHHROOIR);
+   }
+
+   private static Set<String> IRCIIHHICIHRCOCRROCOICRIHHCCHH(IRCIIHHICIHRCOCRROCOICRIHHCCHH var0) {
+      LinkedHashSet var1 = new LinkedHashSet();
+
+      for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var3 : var0.interfaces) {
+         var1.add(var3.ORORIIIIHCIOOOHRCORIHCIHHROOIR);
+         var1.addAll(IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3));
+      }
+
+      return var1;
+   }
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH IRCHCICORRHHCROOROORHRHCOCIIHC() {
+      return this.ORCORIIIIOCRROCRROIHHRIRICCRHR;
+   }
+
+   public List<IRCIIHHICIHRCOCRROCOICRIHHCCHH> HRCCHORHCHCCROOIIIORRIOORIIIOR() {
+      return this.interfaces;
+   }
+}

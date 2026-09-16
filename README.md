@@ -1,0 +1,35 @@
+# Badlion + Lunar — latest source dumps
+
+Both clients, latest obtainable builds, decompiled with Vineflower 1.12.0.
+No launcher login or checks needed for any of this. Lunar acquired Badlion (Mar 2025);
+standalone Badlion is discontinued and Badlion mode now ships the same jars as Lunar.
+
+## Contents
+
+| Dir | What | Source | Files |
+|-----|------|--------|-------|
+| `lunar-genesis/` | Current Lunar/Badlion boot + platform code (Sept 2026 prod). Entry: `com/moonsworth/lunar/genesis/Genesis` | `multiver-releases.lunarclientprod.com`, OFFLINE launch API, `genesis-0.1.0-SNAPSHOT-all.jar` sha `ff87ae5c…` | 4,074 |
+| `lunar/` | Current `lunar.jar` full dump (62MB, 16,719 classes). **Still decompiling, lands here next.** | same API, `lunar.jar` sha `42970deb…` | — |
+| `badlion-4.4.0-libs/` | Last standalone Badlion 4.4.0 shipped Java. Only real Badlion class: `net/badlion/optifineinstallwrapper/InstallWrapper.java`. Rest is third-party (caffeine, disruptor, joml, lz4). | `Badlion Client Setup v4.4.0.exe` (Google Drive `1ghV00WOx8HJu_3OvNVbMTbAX5SA4iR0t`), NSIS → `app-64.7z` → `libs/` | ~850 |
+| `badlion-4.4.0-launcher/` | 4.4.0 Electron shell: `package.json` (v4.4.0) + `app/background.js`. Game logic lives in native `launcher.node` / `badlion_electron.dll`, not JS. | same exe → `resources/app.asar` | 2 |
+| `lunar-launch-1.8.9.json` | Raw OFFLINE launch API response (`module=badlion` returns byte-identical artifacts to `module=lunar`). | `api.lunarclientprod.com/launcher/launch` | 1 |
+
+Readable classic source (not mirrored here, link only): [NightSling/Badlion-3.0.0](https://github.com/NightSling/badlion-3.0.0) — last public Badlion leak (2021, 1.8.8, BAC stripped). Clone of it lives next to this repo as `badlion-src`.
+
+## Honest notes
+
+- Current builds are heavily obfuscated (`HHCCIRHCCCIIRHCROHIORHIRHHIORH`-style names). Decompiled syntax is readable, identifiers are not. No mappings exist publicly.
+- Badlion 4.x standalone game jars download at runtime from now-dead infra; only launcher shell + bundled libs are recoverable from the 4.4.0 exe.
+- `module=badlion` vs `module=lunar` on the launch API returns identical artifacts and `mainClass: com.moonsworth.lunar.genesis.Genesis`.
+
+## Reproduce
+
+```sh
+# needs: java 17+, curl, unzip, 7z
+./decompile.sh   # re-fetches current jars via OFFLINE launch API, decompiles with Vineflower
+```
+
+## How to read
+
+Open the folder in IntelliJ IDEA (Community is fine) as a plain directory, use Navigate → Class/Symbol.
+Start points: `com.moonsworth.lunar.genesis.Genesis` (current), `net.badlion.client` package (3.0.0 leak).

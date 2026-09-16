@@ -1,0 +1,69 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR;
+
+import java.util.ArrayList;
+
+public final class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   protected final HHCCIRHCCCIIRHCROHIORHIRHHIORH OOOCHICOOIOROOOCOIHCOCCCRCHIRO;
+   protected final Class<?> ICCOOHRIOOOICCIIRCROHOCIRIHIHR;
+   private ArrayList<IIHRRHORCRCROCHHOHORCHCROCIHRO> RCOHCOCRIHCCOHHHCCICRCHCROORHR;
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(Class<?> var1) {
+      this(null, var1);
+   }
+
+   private HHCCIRHCCCIIRHCROHIORHIRHHIORH(HHCCIRHCCCIIRHCROHIORHIRHHIORH var1, Class<?> var2) {
+      this.OOOCHICOOIOROOOCOIHCOCCCRCHIRO = var1;
+      this.ICCOOHRIOOOICCIIRCROHOCIRIHIHR = var2;
+   }
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH ORIHOCRRHHCCOIHICIOHCIOCIIHOOO(Class<?> var1) {
+      return new HHCCIRHCCCIIRHCROHIORHIRHHIORH(this, var1);
+   }
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IIHRRHORCRCROCHHOHORCHCROCIHRO var1) {
+      if (this.RCOHCOCRIHCCOHHHCCICRCHCROORHR == null) {
+         this.RCOHCOCRIHCCOHHHCCICRCHCROORHR = new ArrayList<>();
+      }
+
+      this.RCOHCOCRIHCCOHHHCCICRCHCROORHR.add(var1);
+   }
+
+   public void IHIIIRHOOCHRCCCCIORIROCOIRRHCC(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI var1
+   ) {
+      if (this.RCOHCOCRIHCCOHHHCCICRCHCROORHR != null) {
+         for (IIHRRHORCRCROCHHOHORCHCROCIHRO var3 : this.RCOHCOCRIHCCOHHHCCICRCHCROORHR) {
+            var3.RCOCRROHHROHHOCRCCCHCIROIIOORC(var1);
+         }
+      }
+   }
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH ORHIIROIHOHHHOROORIIROIOCRHHCR(Class<?> var1) {
+      if (this.ICCOOHRIOOOICCIIRCROHOCIRIHIHR == var1) {
+         return this;
+      }
+
+      for (HHCCIRHCCCIIRHCROHIORHIRHHIORH var2 = this.OOOCHICOOIOROOOCOIHCOCCCRCHIRO; var2 != null; var2 = var2.OOOCHICOOIOROOOCOIHCOCCCRCHIRO) {
+         if (var2.ICCOOHRIOOOICCIIRCROHOCIRIHIHR == var1) {
+            return var2;
+         }
+      }
+
+      return null;
+   }
+
+   @Override
+   public String toString() {
+      StringBuilder var1 = new StringBuilder();
+      var1.append("[ClassStack (self-refs: ")
+         .append(this.RCOHCOCRIHCCOHHHCCICRCHCROORHR == null ? "0" : String.valueOf(this.RCOHCOCRIHCCOHHHCCICRCHCROORHR.size()))
+         .append(')');
+
+      for (HHCCIRHCCCIIRHCROHIORHIRHHIORH var2 = this; var2 != null; var2 = var2.OOOCHICOOIOROOOCOIHCOCCCRCHIRO) {
+         var1.append(' ').append(var2.ICCOOHRIOOOICCIIRCROHOCIRIHIHR.getName());
+      }
+
+      var1.append(']');
+      return var1.toString();
+   }
+}

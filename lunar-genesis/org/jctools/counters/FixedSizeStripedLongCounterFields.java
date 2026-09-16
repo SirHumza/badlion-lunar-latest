@@ -1,0 +1,23 @@
+package org.jctools.counters;
+
+import org.jctools.util.PortableJvmInfo;
+import org.jctools.util.Pow2;
+import org.jctools.util.UnsafeAccess;
+
+abstract class FixedSizeStripedLongCounterFields extends FixedSizeStripedLongCounterPrePad {
+   protected static final int CACHE_LINE_IN_LONGS = PortableJvmInfo.CACHE_LINE_SIZE / 8;
+   protected static final long COUNTER_ARRAY_BASE = Math.max(UnsafeAccess.UNSAFE.arrayBaseOffset(long[].class), PortableJvmInfo.CACHE_LINE_SIZE - 8);
+   protected static final long ELEMENT_SHIFT = Integer.numberOfTrailingZeros(PortableJvmInfo.CACHE_LINE_SIZE);
+   protected final long[] cells;
+   protected final int mask;
+
+   protected FixedSizeStripedLongCounterFields(int var1) {
+      if (var1 <= 0) {
+         throw new IllegalArgumentException("Expecting a stripesCount that is larger than 0");
+      }
+
+      int var2 = Pow2.roundToPowerOfTwo(var1);
+      this.cells = new long[CACHE_LINE_IN_LONGS * var2];
+      this.mask = var2 - 1;
+   }
+}

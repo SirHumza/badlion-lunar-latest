@@ -1,0 +1,13 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR {
+   @Override
+   boolean enabledByDefault();
+
+   @Override
+   int getMask();
+
+   @Override
+   boolean enabledIn(int var1);
+}

@@ -1,0 +1,51 @@
+package com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+import com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import java.io.InputStream;
+import java.util.Optional;
+import lombok.Generated;
+
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH
+   extends com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private ClassLoader classLoader;
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1) {
+      this(var1, IRCIIHHICIHRCOCRROCOICRIHHCCHH.class.getClassLoader());
+   }
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1, ClassLoader var2) {
+      super(var1);
+      this.classLoader = var2;
+   }
+
+   @Override
+   public Optional<com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1,
+      com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH var2
+   ) {
+      try {
+         InputStream var3 = this.classLoader.getResourceAsStream(var2.CRRRICCRROCOHHOHIICIHORCOORRRH(var1));
+         return var3 == null
+            ? super.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2)
+            : Optional.of(
+               new com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  var2, CORCOCICIRIOHROHROIIOOHICCHCRR.toByteArray(var3)
+               )
+            );
+      } catch (Throwable var4) {
+         throw var4;
+      }
+   }
+
+   @Generated
+   public ClassLoader getClassLoader() {
+      return this.classLoader;
+   }
+
+   @Generated
+   public void setClassLoader(ClassLoader var1) {
+      this.classLoader = var1;
+   }
+}

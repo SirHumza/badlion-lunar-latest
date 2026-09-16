@@ -1,0 +1,37 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import java.util.Set;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+   serializable = true
+)
+final class CIROHHHIOIHIROHCHICORCCCRROHCC<E> extends RHCHROORRHOOORICIHIOCRCOORCIRI<E> {
+   private final Set<?> CIHHOICOHRIIORICRCIHOORCHORCOI;
+   private final COIRRRCIORROCHIROCHROCHICCICIC<E> RHOICHOHRRRRHCIOOCCHOIRIIHIIRC;
+
+   CIROHHHIOIHIROHCHICORCCCRROHCC(Set<?> var1, COIRRRCIORROCHIROCHROCHICCICIC<E> var2) {
+      this.CIHHOICOHRIIORICRCIHOORCHORCOI = var1;
+      this.RHOICHOHRRRRHCIOOCCHOIRIIHIIRC = var2;
+   }
+
+   @Override
+   E get(int var1) {
+      return this.RHOICHOHRRRRHCIOOCCHOIRIIHIIRC.get(var1);
+   }
+
+   @Override
+   public boolean contains(@Nullable Object var1) {
+      return this.CIHHOICOHRIIORICRCIHOORCHORCOI.contains(var1);
+   }
+
+   @Override
+   boolean isPartialView() {
+      return false;
+   }
+
+   @Override
+   public int size() {
+      return this.RHOICHOHRRRRHCIOOCCHOIRIIHIIRC.size();
+   }
+}

@@ -1,0 +1,30 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+public abstract class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI
+   extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR {
+   private static final long CRCIICHOIOROHCOOIRHIIIHCOHRHRH = 3L;
+
+   protected RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      String var1, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI var2, Throwable var3
+   ) {
+      super(var1, var2, var3);
+   }
+
+   protected RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(String var1) {
+      super(var1);
+   }
+
+   protected RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      String var1, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI var2
+   ) {
+      this(var1, var2, null);
+   }
+
+   protected RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(String var1, Throwable var2) {
+      this(var1, null, var2);
+   }
+
+   public abstract void CRICCOOHHHCHOORCICOCOHIHOIRHOO(Object var1, String var2);
+
+   public abstract void IRRCCOICORICIHCHRHIHIHROIRHOCR(Object var1, int var2);
+}

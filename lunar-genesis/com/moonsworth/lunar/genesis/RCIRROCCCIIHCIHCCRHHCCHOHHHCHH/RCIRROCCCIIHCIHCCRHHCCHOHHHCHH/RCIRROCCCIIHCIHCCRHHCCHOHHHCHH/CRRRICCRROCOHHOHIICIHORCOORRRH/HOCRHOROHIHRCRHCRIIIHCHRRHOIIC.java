@@ -1,0 +1,28 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import java.io.Serializable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+   serializable = true
+)
+final class HOCRHOROHIHRCRHCRIIIHCHRRHOIIC extends IOIHHIORCICCHIIHOIOIOHHRICRHIO<Object> implements Serializable {
+   static final HOCRHOROHIHRCRHCRIIIHCHRRHOIIC COOHHICCCCRRHOCCCHCCIHICICRIOC = new HOCRHOROHIHRCRHCRIIIHCHRRHOIIC();
+   private static final long RRCRCHIIHICIRRRCCCHIIRCROOCCHH = 0L;
+
+   @Override
+   public int compare(Object var1, Object var2) {
+      return var1.toString().compareTo(var2.toString());
+   }
+
+   private Object readResolve() {
+      return COOHHICCCCRRHOCCCHCCIHICICRIOC;
+   }
+
+   @Override
+   public String toString() {
+      return "Ordering.usingToString()";
+   }
+
+   private HOCRHOROHIHRCRHCRIIIHCHRRHOIIC() {
+   }
+}

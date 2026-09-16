@@ -1,0 +1,37 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
+
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+public abstract class CRICCOOHHHCHOORCICOCOHIHOIRHOO<T> extends CORCOCICIRIOHROHROIIOOHICCHCRR<T> {
+   final TypeVariable<?> RCIOHCIHRCOROCRCRRICIRORCIIIHH;
+
+   protected CRICCOOHHHCHOORCICOCOHIHOIRHOO() {
+      Type var1 = this.HRRCOCOCOOIRCOIORORHHRHOOORHOR();
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(var1 instanceof TypeVariable, "%s should be a type variable.", var1);
+      this.RCIOHCIHRCOROCRCRRICIRORCIIIHH = (TypeVariable<?>)var1;
+   }
+
+   @Override
+   public final int hashCode() {
+      return this.RCIOHCIHRCOROCRCRRICIRORCIIIHH.hashCode();
+   }
+
+   @Override
+   public final boolean equals(@Nullable Object var1) {
+      if (var1 instanceof CRICCOOHHHCHOORCICOCOHIHOIRHOO) {
+         CRICCOOHHHCHOORCICOCOHIHOIRHOO var2 = (CRICCOOHHHCHOORCICOCOHIHOIRHOO)var1;
+         return this.RCIOHCIHRCOROCRCRRICIRORCIIIHH.equals(var2.RCIOHCIHRCOROCRCRRICIRORCIIIHH);
+      } else {
+         return false;
+      }
+   }
+
+   @Override
+   public String toString() {
+      return this.RCIOHCIHRCOROCRCRRICIRORCIIIHH.toString();
+   }
+}

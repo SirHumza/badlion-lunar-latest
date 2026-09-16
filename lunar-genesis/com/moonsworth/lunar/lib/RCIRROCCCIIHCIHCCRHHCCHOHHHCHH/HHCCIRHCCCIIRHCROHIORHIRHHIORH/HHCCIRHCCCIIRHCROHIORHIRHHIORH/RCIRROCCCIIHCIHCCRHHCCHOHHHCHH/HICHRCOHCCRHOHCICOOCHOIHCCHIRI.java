@@ -1,0 +1,160 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public abstract class HICHRCOHCCRHOHCICOOCHOIHCCHIRI {
+   public static com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHRIICOIOORCHCOIICOOIHIRHHICRI CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var0, Class<?> var1
+   ) {
+      if (var1 == com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.class) {
+         return new com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO();
+      }
+
+      if (Collection.class.isAssignableFrom(var1)) {
+         if (var1 == ArrayList.class) {
+            return HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HCHCOOHCCHOHHCOOICOOOIORHIIRIH;
+         }
+
+         if (Collections.EMPTY_SET.getClass() == var1) {
+            return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(Collections.EMPTY_SET);
+         }
+
+         if (Collections.EMPTY_LIST.getClass() == var1) {
+            return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(Collections.EMPTY_LIST);
+         }
+      } else if (Map.class.isAssignableFrom(var1)) {
+         if (var1 == LinkedHashMap.class) {
+            return HICHRCOHCCRHOHCICOOCHOIHCCHIRI.CRRRICCRROCOHHOHIICIHORCOORRRH.HRRROOHHHIHCCCOIIHIOCRCIROIROC;
+         }
+
+         if (var1 == HashMap.class) {
+            return HICHRCOHCCRHOHCICOOCHOIHCCHIRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORRICIORCCCOHHIIRIOIOHCHHOHCH;
+         }
+
+         if (Collections.EMPTY_MAP.getClass() == var1) {
+            return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(Collections.EMPTY_MAP);
+         }
+      }
+
+      return null;
+   }
+
+   private static class CRRRICCRROCOHHOHIICIHORCOORRRH
+      extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHRIICOIOORCHCOIICOOIHIRHHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      implements Serializable {
+      private static final long CHIICORIIORIICHOCHOHHHCICHHORH = 2L;
+      public static final HICHRCOHCCRHOHCICOOCHOIHCCHIRI.CRRRICCRROCOHHOHIICIHORCOORRRH HRRROOHHHIHCCCOIIHIOCRCIROIROC = new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.CRRRICCRROCOHHOHIICIHORCOORRRH();
+
+      public CRRRICCRROCOHHOHIICIHORCOORRRH() {
+         super(LinkedHashMap.class);
+      }
+
+      @Override
+      public boolean IROIOCHOCIRROHRHHCRRCRCRICIORR() {
+         return true;
+      }
+
+      @Override
+      public boolean CIIOHRIOROOROOIIHOCHCRHCIRORCO() {
+         return true;
+      }
+
+      @Override
+      public Object RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1
+      ) {
+         return new LinkedHashMap();
+      }
+   }
+
+   private static class HHCCIRHCCCIIRHCROHIORHIRHHIORH
+      extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHRIICOIOORCHCOIICOOIHIRHHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      implements Serializable {
+      private static final long RORHIOOIORROCHRHIOORCOOIOHIOHI = 2L;
+      public static final HICHRCOHCCRHOHCICOOCHOIHCCHIRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH CORRICIORCCCOHHIIRIOIOHCHHOHCH = new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH();
+
+      public HHCCIRHCCCIIRHCROHIORHIRHHIORH() {
+         super(HashMap.class);
+      }
+
+      @Override
+      public boolean IROIOCHOCIRROHRHHCRRCRCRICIORR() {
+         return true;
+      }
+
+      @Override
+      public boolean CIIOHRIOROOROOIIHOCHCRHCIRORCO() {
+         return true;
+      }
+
+      @Override
+      public Object RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1
+      ) {
+         return new HashMap();
+      }
+   }
+
+   private static class IRCIIHHICIHRCOCRROCOICRIHHCCHH
+      extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHRIICOIOORCHCOIICOOIHIRHHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      implements Serializable {
+      private static final long ICHHOIOHOCRIHIRIHIOOIHHCIOHIIH = 2L;
+      protected final Object _value;
+
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH(Object var1) {
+         super(var1.getClass());
+         this._value = var1;
+      }
+
+      @Override
+      public boolean IROIOCHOCIRROHRHHCRRCRCRICIORR() {
+         return true;
+      }
+
+      @Override
+      public boolean CIIOHRIOROOROOIIHOCHCRHCIRORCO() {
+         return true;
+      }
+
+      @Override
+      public Object RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1
+      ) {
+         return this._value;
+      }
+   }
+
+   private static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHRIICOIOORCHCOIICOOIHIRHHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      implements Serializable {
+      private static final long HRHHICHCRCHHHCOHROHRIHHOCHCRII = 2L;
+      public static final HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH HCHCOOHCCHOHHCOOICOOOIORHIIRIH = new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH();
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+         super(ArrayList.class);
+      }
+
+      @Override
+      public boolean IROIOCHOCIRROHRHHCRRCRCRICIORR() {
+         return true;
+      }
+
+      @Override
+      public boolean CIIOHRIOROOROOIIHOCHCRHCIRORCO() {
+         return true;
+      }
+
+      @Override
+      public Object RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1
+      ) {
+         return new ArrayList();
+      }
+   }
+}

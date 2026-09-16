@@ -1,0 +1,16 @@
+package com.llamalad7.mixinextras.expression.impl.ast.expressions;
+
+import com.llamalad7.mixinextras.expression.impl.ExpressionSource;
+import com.llamalad7.mixinextras.expression.impl.flow.FlowValue;
+import com.llamalad7.mixinextras.expression.impl.point.ExpressionContext;
+
+public class WildcardExpression extends SimpleExpression {
+   public WildcardExpression(ExpressionSource var1) {
+      super(var1);
+   }
+
+   @Override
+   protected boolean matchesImpl(FlowValue var1, ExpressionContext var2) {
+      return true;
+   }
+}

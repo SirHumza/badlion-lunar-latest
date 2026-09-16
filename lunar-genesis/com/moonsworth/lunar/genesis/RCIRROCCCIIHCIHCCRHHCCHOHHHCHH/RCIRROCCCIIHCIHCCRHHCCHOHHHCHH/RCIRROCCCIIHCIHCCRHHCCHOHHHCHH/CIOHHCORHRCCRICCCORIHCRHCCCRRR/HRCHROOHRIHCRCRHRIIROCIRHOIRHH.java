@@ -1,0 +1,113 @@
+package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
+
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.COIRRRCIORROCHIROCHROCHICCICIC;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRRCHIRICCIHCCIHOHRCHRHRHCRCOH;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RRHOOOORORHHOOIHRCCHIIHHIIIIOH;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.AnnotatedElement;
+import java.lang.reflect.AnnotatedType;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+public final class HRCHROOHRIHCRCRHRIIROCIRHOIRHH implements AnnotatedElement {
+   private final RRCRRCORICCHOHHIRCHIROOHIIOHCO<?, ?> CCOHRHIIIHIRRIIRCICCIOROCIHORR;
+   private final int RIHRRHIOOHOOIIIIIIHHRIIHHHHOHI;
+   private final OCOHORHCROHICRRIHCIHHRRCIHICRI<?> OIHRRCHROROCOIOIHORHCRICHOCRIH;
+   private final COIRRRCIORROCHIROCHROCHICCICIC<Annotation> HCHROIIRCIIRICOIHIIHCIIRHRCOOR;
+   private final AnnotatedType RICRHROCORRIIHOORICICCCHCRROOC;
+
+   HRCHROOHRIHCRCRHRIIROCIRHOIRHH(
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO<?, ?> var1, int var2, OCOHORHCROHICRRIHCIHHRRCIHICRI<?> var3, Annotation[] var4, AnnotatedType var5
+   ) {
+      this.CCOHRHIIIHIRRIIRCICCIOROCIHORR = var1;
+      this.RIHRRHIOOHOOIIIIIIHHRIIHHHHOHI = var2;
+      this.OIHRRCHROROCOIOIHORHCRICHOCRIH = var3;
+      this.HCHROIIRCIIRICOIHIIHCIIRHRCOOR = COIRRRCIORROCHIROCHROCHICCICIC.IRRCCOICORICIHCHRHIHIHROIRHOCR(var4);
+      this.RICRHROCORRIIHOORICICCCHCRROOC = var5;
+   }
+
+   public OCOHORHCROHICRRIHCIHHRRCIHICRI<?> CIORHIROORRROIICOIRHOORIHCOIRI() {
+      return this.OIHRRCHROROCOIOIHORHCRICHOCRIH;
+   }
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO<?, ?> IIIHCORCHRIRCICCIIORROIICIIOCI() {
+      return this.CCOHRHIIIHIRRIIRCICCIOROCIHORR;
+   }
+
+   @Override
+   public boolean isAnnotationPresent(Class<? extends Annotation> var1) {
+      return this.getAnnotation(var1) != null;
+   }
+
+   @Override
+   public <A extends Annotation> @Nullable A getAnnotation(Class<A> var1) {
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      IRRCHIRICCIHCCIHOHRCHRHRHCRCOH var2 = this.HCHROIIRCIIRICOIHIIHCIIRHRCOOR.IOHOCICRRIRHHCCCRICOCOHOIIOCRH();
+
+      while (var2.hasNext()) {
+         Annotation var3 = (Annotation)var2.next();
+         if (var1.isInstance(var3)) {
+            return (A)var1.cast(var3);
+         }
+      }
+
+      return null;
+   }
+
+   @Override
+   public Annotation[] getAnnotations() {
+      return this.getDeclaredAnnotations();
+   }
+
+   @Override
+   public <A extends Annotation> A[] getAnnotationsByType(Class<A> var1) {
+      return (A[])this.getDeclaredAnnotationsByType(var1);
+   }
+
+   @Override
+   public Annotation[] getDeclaredAnnotations() {
+      return this.HCHROIIRCIIRICOIHIIHCIIRHRCOOR.toArray(new Annotation[0]);
+   }
+
+   @Override
+   public <A extends Annotation> @Nullable A getDeclaredAnnotation(Class<A> var1) {
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      return RRHOOOORORHHOOIHRCCHIIHHIIIIOH.IIHRRHORCRCROCHHOHORCHCROCIHRO(this.HCHROIIRCIIRICOIHIIHCIIRHRCOOR)
+         .<A>RHOORRIIOCHIRRHOHOOHIROHCRICRO(var1)
+         .CRHHHHHRCHORCRHCHRCRIROCCIIHRI()
+         .orNull();
+   }
+
+   @Override
+   public <A extends Annotation> A[] getDeclaredAnnotationsByType(Class<A> var1) {
+      return (A[])RRHOOOORORHHOOIHRCCHIIHHIIIIOH.IIHRRHORCRCROCHHOHORCHCROCIHRO(this.HCHROIIRCIIRICOIHIIHCIIRHRCOOR)
+         .RHOORRIIOCHIRRHOHOOHIROHCRICRO(var1)
+         .CCHHCIRHICHHHHRRIHIORCCORCCIHR(var1);
+   }
+
+   public AnnotatedType getAnnotatedType() {
+      return this.RICRHROCORRIIHOORICICCCHCRROOC;
+   }
+
+   @Override
+   public boolean equals(@Nullable Object var1) {
+      if (!(var1 instanceof HRCHROOHRIHCRCRHRIIROCIRHOIRHH)) {
+         return false;
+      }
+
+      HRCHROOHRIHCRCRHRIIROCIRHOIRHH var2 = (HRCHROOHRIHCRCRHRIIROCIRHOIRHH)var1;
+      return this.RIHRRHIOOHOOIIIIIIHHRIIHHHHOHI == var2.RIHRRHIOOHOOIIIIIIHHRIIHHHHOHI
+         && this.CCOHRHIIIHIRRIIRCICCIOROCIHORR.equals(var2.CCOHRHIIIHIRRIIRCICCIOROCIHORR);
+   }
+
+   @Override
+   public int hashCode() {
+      return this.RIHRRHIOOHOOIIIIIIHHRIIHHHHOHI;
+   }
+
+   @Override
+   public String toString() {
+      return this.OIHRRCHROROCOIOIHORHCRICHOCRIH + " arg" + this.RIHRRHIOOHOOIIIIIIHHRIIHHHHOHI;
+   }
+}

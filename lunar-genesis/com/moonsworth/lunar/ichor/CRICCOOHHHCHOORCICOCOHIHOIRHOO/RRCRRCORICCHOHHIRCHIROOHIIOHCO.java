@@ -1,0 +1,68 @@
+package com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
+
+import java.util.List;
+import java.util.Map;
+
+public record RRCRRCORICCHOHHIRCHIROOHIIOHCO() {
+   private final Map<String, HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH> HROIICIIHCIIRIOOORIORICRICROOH;
+   private final OOROOCCIRCCRHOIOIORIHCHHOOCCOR RIHROHIORHHRIHIROORCIRCIIOOCII;
+   private final List<OOROOCCIRCCRHOIOIORIHCHHOOCCOR> ORCHCRHOCOOORHHCICCIRHORCOHHOC;
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      Map<String, HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH> var1,
+      OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      List<OOROOCCIRCCRHOIOIORIHCHHOOCCOR> var3
+   ) {
+      this.HROIICIIHCIIRIOOORIORICRICROOH = var1;
+      this.RIHROHIORHHRIHIROORCIRCIIOOCII = var2;
+      this.ORCHCRHOCOOORHHCICCIRHORCOHHOC = var3;
+   }
+
+   @Override
+   public String toString() {
+      StringBuilder var1 = new StringBuilder();
+      if (!this.HROIICIIHCIIRIOOORIORICRICROOH.isEmpty()) {
+         var1.append("<");
+
+         for (HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var3 : this.HROIICIIHCIIRIOOORIORICRICROOH.values()) {
+            var1.append(var3.CIHOIIIOOIORRRORCOOCCHCIIHRCHI);
+            boolean var4 = var3.CRCCIIOHHICCROIRCICCCCOHCCRROC != null;
+            boolean var5 = !var3.IIROCHHIROOCCHCHRIIHCCCOORHRIH.isEmpty();
+            var1.append(":");
+            if (var4) {
+               var1.append(var3.CRCCIIOHHICCROIRCICCCCOHCCRROC);
+            }
+
+            if (var5) {
+               var1.append(":");
+
+               for (OOROOCCIRCCRHOIOIORIHCHHOOCCOR var7 : var3.IIROCHHIROOCCHCHRIIHCCCOORHRIH) {
+                  var1.append(var7.toString());
+               }
+            }
+         }
+
+         var1.append(">");
+      }
+
+      var1.append(this.RIHROHIORHHRIHIROORCIRCIIOOCII.toString());
+
+      for (OOROOCCIRCCRHOIOIORIHCHHOOCCOR var9 : this.ORCHCRHOCOOORHHCICCIRHORCOHHOC) {
+         var1.append(var9.toString());
+      }
+
+      return var1.toString();
+   }
+
+   public Map<String, HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH> OOCHHRORHIOIICIIHHROICORCICHHI() {
+      return this.HROIICIIHCIIRIOOORIORICRICROOH;
+   }
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR ROOCOOHROORIOOROIRHCIRHORHIHRC() {
+      return this.RIHROHIORHHRIHIROORCIRCIIOOCII;
+   }
+
+   public List<OOROOCCIRCCRHOIOIORIHCHHOOCCOR> HRCCHORHCHCCROOIIIORRIOORIIIOR() {
+      return this.ORCHCRHOCOOORHHCICCIRHORCOHHOC;
+   }
+}
