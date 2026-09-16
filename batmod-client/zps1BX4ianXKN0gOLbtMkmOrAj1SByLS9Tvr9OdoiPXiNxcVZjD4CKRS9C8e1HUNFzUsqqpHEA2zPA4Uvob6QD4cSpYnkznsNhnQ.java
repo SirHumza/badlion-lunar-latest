@@ -1,0 +1,11 @@
+final class zps1BX4ianXKN0gOLbtMkmOrAj1SByLS9Tvr9OdoiPXiNxcVZjD4CKRS9C8e1HUNFzUsqqpHEA2zPA4Uvob6QD4cSpYnkznsNhnQ
+   extends umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt {
+   zps1BX4ianXKN0gOLbtMkmOrAj1SByLS9Tvr9OdoiPXiNxcVZjD4CKRS9C8e1HUNFzUsqqpHEA2zPA4Uvob6QD4cSpYnkznsNhnQ(int var1, String var2) {
+      super(var1, var2);
+   }
+
+   @Override
+   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590() {
+      return PQv5Bfmc3YgYFvAC2dTnUn4Di1xPI6iL6HyB7PFNLFxAoip71NusUPE2c3nBlPseU8qI9uFV111SHY6yVG0uWx8HL7qy9GXeQgzJ.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa;
+   }
+}

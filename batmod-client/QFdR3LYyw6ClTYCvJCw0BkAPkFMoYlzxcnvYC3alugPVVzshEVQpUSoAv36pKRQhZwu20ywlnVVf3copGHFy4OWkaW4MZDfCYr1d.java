@@ -1,0 +1,5 @@
+public interface QFdR3LYyw6ClTYCvJCw0BkAPkFMoYlzxcnvYC3alugPVVzshEVQpUSoAv36pKRQhZwu20ywlnVVf3copGHFy4OWkaW4MZDfCYr1d {
+   int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+
+   Object BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+}

@@ -1,0 +1,11 @@
+public interface Hvt3tL5RewqdYe21NL5JbMSOs62hwKrSvdB7jl0uvAhzP6SJLwHAQD5Rt6Gsorexba6pVLP4VHYVgowlewCY0RJmGWjauTqDrepX {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      vVkHRxjKELiiRC84h0TR3thlCrs1mk7glLGAOUmkwnJ6TIiN9Foqgy6JxJUgwZ64nA4BnDHiO1v2echnpcesvEyAVlCQyHFpSEWp var1
+   );
+
+   void BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+      vVkHRxjKELiiRC84h0TR3thlCrs1mk7glLGAOUmkwnJ6TIiN9Foqgy6JxJUgwZ64nA4BnDHiO1v2echnpcesvEyAVlCQyHFpSEWp var1
+   );
+
+   boolean xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa();
+}

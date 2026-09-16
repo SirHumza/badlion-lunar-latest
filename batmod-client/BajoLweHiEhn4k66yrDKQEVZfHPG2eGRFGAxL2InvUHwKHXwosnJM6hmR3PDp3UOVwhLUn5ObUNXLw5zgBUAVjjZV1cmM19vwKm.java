@@ -1,0 +1,3 @@
+public interface BajoLweHiEhn4k66yrDKQEVZfHPG2eGRFGAxL2InvUHwKHXwosnJM6hmR3PDp3UOVwhLUn5ObUNXLw5zgBUAVjjZV1cmM19vwKm {
+   String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1, String var2, float var3);
+}

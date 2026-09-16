@@ -1,0 +1,3 @@
+public interface lhH2gvyUNXSqbitN8WFU4g5SlJe6kddU2hEXZYlRle3DU1mQCsHdgqf1XXpcxbYxr9jShoXq01exPx36TQWVctIQ97a7kU1k2MNU {
+   void BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+}

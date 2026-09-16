@@ -1,0 +1,3 @@
+public interface SrGQHmXNp82mh8v16IQ2kvrK6ZOiKqkFlIz7JxH81uTuo4UJGhG41xVqSEljq5yuF5t3ZTVAWvFxkGCEX7VV15ciOt5BDwTok72Y {
+   void call(p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD var1);
+}

@@ -1,0 +1,3 @@
+public interface oobbgPu04Z1a1Bb3M8CaBJMc3JhqB9IsHToXd2VsYpcbyuRQvcR4cFnKaSbUBRPYIvIN7rBiwDujZGA7wIJvkjJKmwKy5C3YMLVl {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+}

@@ -1,0 +1,3 @@
+public interface sy5C3QyPppsIEJzXaDkHD0QrWe5XeGnq8z4a40jxlbm5GKMznTY9NLBptOFhHyi0JEvON63B2oak917dPs2T2KZJEkYPtBhldxP {
+   boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+}

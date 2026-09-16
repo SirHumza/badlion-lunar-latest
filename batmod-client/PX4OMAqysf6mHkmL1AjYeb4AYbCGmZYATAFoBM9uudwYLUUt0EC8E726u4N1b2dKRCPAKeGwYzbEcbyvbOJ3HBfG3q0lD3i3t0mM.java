@@ -1,0 +1,19 @@
+import com.google.common.base.Predicate;
+
+class PX4OMAqysf6mHkmL1AjYeb4AYbCGmZYATAFoBM9uudwYLUUt0EC8E726u4N1b2dKRCPAKeGwYzbEcbyvbOJ3HBfG3q0lD3i3t0mM implements Predicate {
+   PX4OMAqysf6mHkmL1AjYeb4AYbCGmZYATAFoBM9uudwYLUUt0EC8E726u4N1b2dKRCPAKeGwYzbEcbyvbOJ3HBfG3q0lD3i3t0mM(
+      ZPFWhJSjluaQeVhR7ak6b2bRiKVACrCY7jUWj5tc0Ad9TxXDpqMlWVJZB5scsBl3tixJDGdTT2OWXWS8mTk1LnOnzESoCC9hDjuq var1
+   ) {
+      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+   }
+
+   public boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      Ibgu3NUIYBBc6s3EWu2hIRSSyI1fhkukbKq2Tcv51OCVAH6AapdNHEHyH4veH4voo2KdtG0Doz1K73vVFStW8OO0WPVe252N5epM var1
+   ) {
+      return var1.Cg2oCTxHXPp28ppSuJJV9GWg6aduGKf1avntN6JebEnu4gm3oT3O7gDbjvCTmsSkieYdMi9CVQz2TxvBZ5Bx07QxIz2MP7UVyFI()
+         && this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+            .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+            .OVft42XaDrpCid053XFq1EPZ8CkxDYortlwtRX4zTf4L5KT5wFCJrMIQs1I0or0K1OcKP82y3PpnybjZEMRPyyEezZIs1zuJDGFF()
+            .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var1);
+   }
+}

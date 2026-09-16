@@ -1,0 +1,7 @@
+import com.google.common.util.concurrent.ListenableFuture;
+
+public interface iu0gGneZbXFlHbJ73Ao4WqF1556ETdclpnBc8KaUaI4bJ1dNPsGTUrW3kOfqwR31aWenI64Hb4d3oxIh4uZ8L3jt8C948DusDpF {
+   ListenableFuture Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Runnable var1);
+
+   boolean sYnUURIAVBn5alv5OIWfx1VLlOfT3WWU56uCbgwb5jFQGu2Mx1vpkVOFNd6tNSVUTz961VTROqHcMITzDqQXPBvp6LdlJFJxhNQf();
+}

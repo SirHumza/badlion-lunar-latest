@@ -1,0 +1,8 @@
+final class gkKFTN8EOSufiLmXMII8BbssoRBqhDc0YLNVEdNvWweS37K1KjYvlm1NctBuLm7rTpfoV87QGe1zoORS4nhJfYfTrQY1Y69K5csn
+   implements pqNtz6tr7WA8Z2jHAvdvp08XN1cUS0o5oDK7FpWNrZb3UmqGe5LZSp0uKbZBjf2E5L1UrJ8hwrfrPhBjVCj0bAwyn7tiueznSRx {
+   @Override
+   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1) {
+      return nZD97IYJgoCkqbY3eqh9DzbiIdeSrgaDt8d60eJWRNZ4ABlWrdayktqdGI2Ixo40gAJoaj4h3ajzpqk3iGm8gJ5iuMiRLLpgY3en.Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ()
+         .format(var1);
+   }
+}

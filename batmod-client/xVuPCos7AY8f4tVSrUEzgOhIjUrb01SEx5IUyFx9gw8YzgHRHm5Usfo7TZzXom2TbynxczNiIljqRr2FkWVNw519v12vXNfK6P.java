@@ -1,0 +1,6 @@
+public interface xVuPCos7AY8f4tVSrUEzgOhIjUrb01SEx5IUyFx9gw8YzgHRHm5Usfo7TZzXom2TbynxczNiIljqRr2FkWVNw519v12vXNfK6P
+   extends UEFc3CYFG3NbXhtjyffKTuaYzRNORb0cixdiVE4Xz5YHqaMEu9wEBjiRP0Ems6qBE1RiXZSEWm7fI7d7hNnky9pHngLRvZz5E6dL {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      rsiXizXfdZgr0p7wr7bqtLfvddokwfFthsbxykRdVWvywzon5VhgSGoTTopuyIeuAUypAlGL1APvHDTIPU5P2IfhqOGdvEzoO7B5 var1
+   );
+}

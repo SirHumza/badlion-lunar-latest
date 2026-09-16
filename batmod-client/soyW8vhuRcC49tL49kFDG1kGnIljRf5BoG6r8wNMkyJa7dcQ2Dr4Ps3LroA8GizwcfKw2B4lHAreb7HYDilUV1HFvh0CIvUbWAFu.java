@@ -1,0 +1,29 @@
+public interface soyW8vhuRcC49tL49kFDG1kGnIljRf5BoG6r8wNMkyJa7dcQ2Dr4Ps3LroA8GizwcfKw2B4lHAreb7HYDilUV1HFvh0CIvUbWAFu {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      iL9DMubSJAcTZxqaOwpybtlSRVLtmD9ZvxkTuVp126kpYWECDLGjfieR0jHXh8lhKYz1pOKOXVv54oy1hzwdxFmcVWt5UJgpSRT var1, double var2
+   );
+
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      iL9DMubSJAcTZxqaOwpybtlSRVLtmD9ZvxkTuVp126kpYWECDLGjfieR0jHXh8lhKYz1pOKOXVv54oy1hzwdxFmcVWt5UJgpSRT var1, double var2, double var4, long var6
+   );
+
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      iL9DMubSJAcTZxqaOwpybtlSRVLtmD9ZvxkTuVp126kpYWECDLGjfieR0jHXh8lhKYz1pOKOXVv54oy1hzwdxFmcVWt5UJgpSRT var1, double var2, double var4
+   );
+
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      iL9DMubSJAcTZxqaOwpybtlSRVLtmD9ZvxkTuVp126kpYWECDLGjfieR0jHXh8lhKYz1pOKOXVv54oy1hzwdxFmcVWt5UJgpSRT var1, int var2
+   );
+
+   void BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+      iL9DMubSJAcTZxqaOwpybtlSRVLtmD9ZvxkTuVp126kpYWECDLGjfieR0jHXh8lhKYz1pOKOXVv54oy1hzwdxFmcVWt5UJgpSRT var1, int var2
+   );
+
+   void BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+      iL9DMubSJAcTZxqaOwpybtlSRVLtmD9ZvxkTuVp126kpYWECDLGjfieR0jHXh8lhKYz1pOKOXVv54oy1hzwdxFmcVWt5UJgpSRT var1, double var2
+   );
+
+   void vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+      iL9DMubSJAcTZxqaOwpybtlSRVLtmD9ZvxkTuVp126kpYWECDLGjfieR0jHXh8lhKYz1pOKOXVv54oy1hzwdxFmcVWt5UJgpSRT var1, double var2
+   );
+}

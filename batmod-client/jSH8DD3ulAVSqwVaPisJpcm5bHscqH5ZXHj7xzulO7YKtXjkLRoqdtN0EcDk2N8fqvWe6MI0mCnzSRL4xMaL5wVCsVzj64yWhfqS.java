@@ -1,0 +1,2 @@
+public class jSH8DD3ulAVSqwVaPisJpcm5bHscqH5ZXHj7xzulO7YKtXjkLRoqdtN0EcDk2N8fqvWe6MI0mCnzSRL4xMaL5wVCsVzj64yWhfqS extends RuntimeException {
+}

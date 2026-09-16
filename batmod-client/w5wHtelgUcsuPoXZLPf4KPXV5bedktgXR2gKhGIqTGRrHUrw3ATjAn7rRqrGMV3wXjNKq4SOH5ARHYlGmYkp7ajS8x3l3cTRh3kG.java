@@ -1,0 +1,3 @@
+public interface w5wHtelgUcsuPoXZLPf4KPXV5bedktgXR2gKhGIqTGRrHUrw3ATjAn7rRqrGMV3wXjNKq4SOH5ARHYlGmYkp7ajS8x3l3cTRh3kG {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(boolean var1, int var2);
+}

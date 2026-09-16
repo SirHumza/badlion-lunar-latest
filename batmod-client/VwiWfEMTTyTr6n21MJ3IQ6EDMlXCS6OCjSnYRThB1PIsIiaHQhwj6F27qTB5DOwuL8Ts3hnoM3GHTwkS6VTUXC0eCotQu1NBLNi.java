@@ -1,0 +1,13 @@
+import java.util.concurrent.Callable;
+
+class VwiWfEMTTyTr6n21MJ3IQ6EDMlXCS6OCjSnYRThB1PIsIiaHQhwj6F27qTB5DOwuL8Ts3hnoM3GHTwkS6VTUXC0eCotQu1NBLNi implements Callable {
+   VwiWfEMTTyTr6n21MJ3IQ6EDMlXCS6OCjSnYRThB1PIsIiaHQhwj6F27qTB5DOwuL8Ts3hnoM3GHTwkS6VTUXC0eCotQu1NBLNi(
+      NeL2bAxjAwfGZTtf81rHtx3YXycbuaXALIgSHDuTr33TWKQd3cVC30Jyw97m2WXDG7UMhkBpS8Lw1UUPhvscAuBCsFasKxL2BIeR var1
+   ) {
+      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+   }
+
+   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.C_();
+   }
+}

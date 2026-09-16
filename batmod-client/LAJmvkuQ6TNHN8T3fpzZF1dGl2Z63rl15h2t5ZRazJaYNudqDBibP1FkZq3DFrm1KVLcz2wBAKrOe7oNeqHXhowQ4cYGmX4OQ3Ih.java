@@ -1,0 +1,5 @@
+public interface LAJmvkuQ6TNHN8T3fpzZF1dGl2Z63rl15h2t5ZRazJaYNudqDBibP1FkZq3DFrm1KVLcz2wBAKrOe7oNeqHXhowQ4cYGmX4OQ3Ih {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      hWVPZSDslWqQWesrlQso4DZiY8MfJcZvqX9Qt6Yrqc5Gp3J349zpoquYZdiNXiuSdMbTKqay5QRSAygKb2QzRn6bLfBCWWYwRzoF var1
+   );
+}

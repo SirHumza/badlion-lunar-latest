@@ -1,0 +1,7 @@
+import java.util.Random;
+
+interface cCAPphS9Gxa4HOzgmhLbj2vMariQIC90PneB6GD0L8nQicpPz2PjhchMHiN2Hhqpy5Yvg0AwFv4mJDLZIYdm4UvRqQPYvoXi4rxw {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      GVX51fpjbceUJBfEmS1Yyc09umpkZU2gjbox0fg1TDgATJap1i8oEz9AloAoaiC6Uo4UaGRSgk7eUAVpUHHC201tTOtcLyeMCgYi var1, Random var2
+   );
+}

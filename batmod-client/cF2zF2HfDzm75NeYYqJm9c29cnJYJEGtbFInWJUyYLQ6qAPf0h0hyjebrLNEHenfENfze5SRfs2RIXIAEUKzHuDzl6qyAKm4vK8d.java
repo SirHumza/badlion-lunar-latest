@@ -1,0 +1,148 @@
+public class cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d {
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d[64];
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      0, 0
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      1, 8368696
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      2, 16247203
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      3, 13092807
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0 = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      4, 16711680
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      5, 10526975
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      6, 10987431
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      7, 31744
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      8, 16777215
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      9, 10791096
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      10, 9923917
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      11, 7368816
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      12, 4210943
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      13, 9402184
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d G0rcuynoQrTk4Mlm1W4cvUs7IiESq1BrFuSO7kHX35743ulZsGy0aD8sXKTYCemKzVH381ngFOLPu19GPJvmjFGptlFYSbCdIcvr = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      14, 16776437
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      15, 14188339
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      16, 11685080
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      17, 6724056
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40 = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      18, 15066419
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      19, 8375321
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      20, 15892389
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      21, 5000268
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      22, 10066329
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      23, 5013401
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      24, 8339378
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8 = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      25, 3361970
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      26, 6704179
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4 = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      27, 6717235
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d K3xIIKuansJDsNpUbxdGFQOW7ziqP9U19c78A63CpbBZjLSHxNriRDpAObixCLzkOrF62HK8YpIH3YDfQC1PdPMNAtRybku3jLjL = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      28, 10040115
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d sv3zyZxD3xWlWeYYLSruuAtLQlLVOZKZqSxLVzG6LIkZdnBFYCEMpWDCJcCIGmpZLZXeGEhykSNrDIB7ylGQaaBiJWzGovTp1Wyr = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      29, 1644825
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d GpDFKWkpAtoLQB0W2XCV5bHrfhV8v60U9eVAz8acb1obB7yclvZIoJJBby5GbawXebsAfQocYajpCi0D7X4qgixSfAmUGJnoMIBj = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      30, 16445005
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d OVft42XaDrpCid053XFq1EPZ8CkxDYortlwtRX4zTf4L5KT5wFCJrMIQs1I0or0K1OcKP82y3PpnybjZEMRPyyEezZIs1zuJDGFF = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      31, 6085589
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d f4NjjuH3UAaMkYDKg4JjKVIV1PiNsOM4T4HUFyWQ5CaEXleTtHn67zbCvMaD8qyMLvZeLv4QkzyMQOIJpmOQimLZV283D81hMfb = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      32, 4882687
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d fDoAJ9W9bXAT89550qV528PlQ3xBSnLnpyVbFpWqc5e8BN9pOqCYta3tS7TuKU1dJl7tt01b3fzVmBCmYvz5SizTFbmamdEnbpee = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      33, 55610
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      34, 8476209
+   );
+   public static final cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d N5r9mmyiJl9qupxUc6jnbCbAi8OipFTHPUatcuhJZKK1QroIswJzBmJGD2jp3T7EQQmX6UJR9N33K8bXoQt1sEEcM5TBuaKTmmHl = new cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(
+      35, 7340544
+   );
+   public int EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj;
+   public final int KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ;
+   private static final String WkHLtxh0OBE988n6Z0s69VckSEH7sjJ2sJEkoBxEnB9TRCVCnrzX8qoWr1JeSS1QxNVIPsIB8QiJnFqynvUoIajlh0Sg8n21w13o = "CL_00000544";
+
+   private cF2zF2HfDzm75NeYYqJm9c29cnJYJEGtbFInWJUyYLQ6qAPf0h0hyjebrLNEHenfENfze5SRfs2RIXIAEUKzHuDzl6qyAKm4vK8d(int var1, int var2) {
+      if (var1 >= 0 && var1 <= 63) {
+         this.KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ = var1;
+         this.EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj = var2;
+         Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I[var1] = this;
+      } else {
+         throw new IndexOutOfBoundsException("Map colour ID must be between 0 and 63 (inclusive)");
+      }
+   }
+
+   public int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1) {
+      short var2 = 220;
+      if (var1 == 3) {
+         var2 = 135;
+      }
+
+      if (var1 == 2) {
+         var2 = 255;
+      }
+
+      if (var1 == 1) {
+         var2 = 220;
+      }
+
+      if (var1 == 0) {
+         var2 = 180;
+      }
+
+      int var3 = (this.EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj >> 16 & 0xFF) * var2 / 255;
+      int var4 = (this.EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj >> 8 & 0xFF) * var2 / 255;
+      int var5 = (this.EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj & 0xFF) * var2 / 255;
+      return 0xFF000000 | var3 << 16 | var4 << 8 | var5;
+   }
+}

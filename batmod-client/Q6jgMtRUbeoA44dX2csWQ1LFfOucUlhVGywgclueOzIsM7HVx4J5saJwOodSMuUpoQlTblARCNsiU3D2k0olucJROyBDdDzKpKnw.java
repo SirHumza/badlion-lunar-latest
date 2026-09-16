@@ -1,0 +1,7 @@
+public class Q6jgMtRUbeoA44dX2csWQ1LFfOucUlhVGywgclueOzIsM7HVx4J5saJwOodSMuUpoQlTblARCNsiU3D2k0olucJROyBDdDzKpKnw extends RuntimeException {
+   public Q6jgMtRUbeoA44dX2csWQ1LFfOucUlhVGywgclueOzIsM7HVx4J5saJwOodSMuUpoQlTblARCNsiU3D2k0olucJROyBDdDzKpKnw(
+      NHmY67TZ9yaidO2OYen7B10KFqW5CCCuxldmi7Q2qCKwFygbNVSigGKjNM9U3wasEED3XL6nHOe6jhnl8qXWriP6dicRcnYI5bc0 var1
+   ) {
+      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+   }
+}

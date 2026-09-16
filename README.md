@@ -17,7 +17,7 @@ standalone Badlion is discontinued and Badlion mode now ships the same jars as L
 | `lunar-launch-1.8.9.json` | Raw OFFLINE launch API response (`module=badlion` returns byte-identical artifacts to `module=lunar`). | `api.lunarclientprod.com/launcher/launch` | 1 |
 | `batmod-installer/` | BatMod installer decompiled (238 files, entry `com.batmod.installer.Main`) + live version manifest `version.json` (`id: BatMod`, mainClass `net.minecraft.client.main.Main`). | `static.batmod.com/BatMod_Installer.jar` (798K) via `dl.batmod.com/go/download.php`, `dl.batmod.com/json/` | 239 |
 | `batmod-updater/` | BatMod updater decompiled (73 files). | `dl.batmod.com/updater/` (272K) | 73 |
-| `batmod-client/` | **Full BatMod 1.8.9 client dump (57MB, 9,039 entries). Still decompiling, lands here next.** | `static.batmod.com/BatMod.jar` via `dl.batmod.com/jar/` redirect | — |
+| `batmod-client/` | Full BatMod 1.8.9 client: 3,300 `.java` files + vanilla `net/minecraft`, assets. Obfuscated root classes, readable syntax. Ships dev leftovers (`client.iml`, `.gitignore`). | `static.batmod.com/BatMod.jar` (57MB) via `dl.batmod.com/jar/` redirect | 8,137 |
 
 Readable classic source (not mirrored here, link only): [NightSling/Badlion-3.0.0](https://github.com/NightSling/badlion-3.0.0) — last public Badlion leak (2021, 1.8.8, BAC stripped). Clone of it lives next to this repo as `badlion-src`.
 
@@ -37,4 +37,15 @@ Readable classic source (not mirrored here, link only): [NightSling/Badlion-3.0.
 ## How to read
 
 Open the folder in IntelliJ IDEA (Community is fine) as a plain directory, use Navigate → Class/Symbol.
-Start points: `com.moonsworth.lunar.genesis.Genesis` (current), `net.badlion.client` package (3.0.0 leak).
+Start points: `com.moonsworth.lunar.genesis.Genesis` (current Lunar/Badlion),
+`com.batmod.installer.Main` (BatMod installer), vanilla `net.minecraft.client.main.Main`
+(BatMod client), `net.badlion.client` package (3.0.0 leak, linked below).
+
+## On "deobfuscated / cleaned"
+
+Every dump here is a complete, verified Vineflower decompile: all classes recovered,
+readable control flow, organized in original package trees. What no one can give you
+without the vendors' own ProGuard maps: original identifier names. Obfuscated names
+(`HHCCIRH…`, `A25DxEi…`) are intact, syntax is clean. Entry points and protocols
+(`MinecraftPatcherService`, version manifests) are documented above so you can
+navigate by behavior instead of names.

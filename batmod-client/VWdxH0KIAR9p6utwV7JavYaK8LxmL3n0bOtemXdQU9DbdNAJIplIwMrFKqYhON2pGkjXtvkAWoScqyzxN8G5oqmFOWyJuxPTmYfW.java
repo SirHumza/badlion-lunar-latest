@@ -1,0 +1,5 @@
+import java.util.concurrent.CompletableFuture;
+
+public interface VWdxH0KIAR9p6utwV7JavYaK8LxmL3n0bOtemXdQU9DbdNAJIplIwMrFKqYhON2pGkjXtvkAWoScqyzxN8G5oqmFOWyJuxPTmYfW {
+   CompletableFuture Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Object var1);
+}

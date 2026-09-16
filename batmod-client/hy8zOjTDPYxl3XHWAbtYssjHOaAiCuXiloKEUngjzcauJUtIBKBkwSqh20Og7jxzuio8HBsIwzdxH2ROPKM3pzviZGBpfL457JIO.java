@@ -1,0 +1,14 @@
+import java.util.Collection;
+
+public class hy8zOjTDPYxl3XHWAbtYssjHOaAiCuXiloKEUngjzcauJUtIBKBkwSqh20Og7jxzuio8HBsIwzdxH2ROPKM3pzviZGBpfL457JIO
+   implements GKI8hVOzlNyTWBE7bhZIrn2kF90Q758qOVw6oCRRarchKn8TiaLdjZ9TCLbrOdHUcZMCBruBW4WnovdJZ15K1VWTYIon2hPtWlJr {
+   private final Collection Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+
+   public hy8zOjTDPYxl3XHWAbtYssjHOaAiCuXiloKEUngjzcauJUtIBKBkwSqh20Og7jxzuio8HBsIwzdxH2ROPKM3pzviZGBpfL457JIO(Collection var1) {
+      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+   }
+
+   public Collection Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   }
+}

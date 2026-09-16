@@ -1,0 +1,3 @@
+public interface iCGicgp0RFaHchuxbN99NHLxohuoQ9GAoCihdQnqA6tpQnyh5cNPzvzSmJLggdlInmt3YuvwVHbLVJEseRCNgC5wDR7gNRDX9fa {
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1, byte[] var2, Throwable var3);
+}

@@ -31,3 +31,16 @@
 4. `libs/*.jar` md5-identical to 4.4.0 (minus dropped `lz4`); new code is all in
    `Contents/Resources/app.asar` (`chat.js`, `child-process.js`, new bundles).
 5. `npx @electron/asar extract` → `badlion-4.5.4/app/` (node_modules excluded).
+
+## BatMod (installer → updater → full client)
+
+1. `GET https://batmod.com/download` → installer link `https://dl.batmod.com/go/download.php`
+   (+ `/js/download.js` reveals `https://api.batmod.com/changelog/`, `/dl-count/`).
+2. The `.php` 302-redirects to `https://static.batmod.com/BatMod_Installer.jar` (798K,
+   `Main-Class: com.batmod.installer.Main`, built by CoffeeBunny).
+3. Decompile installer → hardcoded endpoints `https://dl.batmod.com/jar`, `/json`, `/updater`.
+4. `GET https://dl.batmod.com/json/` → live version manifest (`id: BatMod`, 1.8,
+   37 libraries). `GET /updater/` → updater jar (272K). `GET /jar/` → 302 to
+   `https://static.batmod.com/BatMod.jar` (57MB, 9,039 entries) = the real client.
+5. Vineflower both jars. Client yields 3,300 `.java` + assets (obfuscated root
+   classes + vanilla tree + `client.iml`/`.gitignore` dev leftovers).

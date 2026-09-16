@@ -1,0 +1,14 @@
+enum T0Cgks3X71T2TXIZFH401w5BMiuN64rwkLmOo3tB2tOKHrgw6nN68BG2RoTFJYrRRQoqnhreunGcH2c5ezOG7jC93bqmmuqf2Khz {
+   T0Cgks3X71T2TXIZFH401w5BMiuN64rwkLmOo3tB2tOKHrgw6nN68BG2RoTFJYrRRQoqnhreunGcH2c5ezOG7jC93bqmmuqf2Khz(int var3, String var4) {
+   }
+
+   @Override
+   public jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
+      return fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW
+         .OXiHn4yUSlOUP4kAV8kog6OFjXxn0PRuO4COz26Lq0ilLnotGRRNuaBnh7uhZgmQElMCcIzA31DVhxqMomb5cN7KXGc0anrqbaJt()
+         .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            EP0LJApiZZpkDfIbIvVhh1x3bcPO8nQLlYx1na10IAMXQcrGOUkqRBqmM6okVdU2kNP3qByz4mP5u0xmAkk9TyirssE6sSW0lcg.EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj,
+            KS3ojN2EgnfyUymzzYhfJQw7JmughLqiCx3LOWGigw2HHJi4LGCMV3fRAK3Vhw0XLEcoodifFOrVGuAQhmYt1NwriLVg7aBiqQ5d.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+         );
+   }
+}

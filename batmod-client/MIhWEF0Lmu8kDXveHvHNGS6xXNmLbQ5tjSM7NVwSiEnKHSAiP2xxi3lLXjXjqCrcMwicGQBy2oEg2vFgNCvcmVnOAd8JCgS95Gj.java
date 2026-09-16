@@ -1,0 +1,5 @@
+public interface MIhWEF0Lmu8kDXveHvHNGS6xXNmLbQ5tjSM7NVwSiEnKHSAiP2xxi3lLXjXjqCrcMwicGQBy2oEg2vFgNCvcmVnOAd8JCgS95Gj extends Iterable {
+   Object Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Object var1);
+
+   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Object var1, Object var2);
+}

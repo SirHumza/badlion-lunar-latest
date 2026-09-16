@@ -1,0 +1,7 @@
+public class gLB2ow59dvwp01jTByeC0JVoNcvtfE0PqBPv4PcBZYuwUJcEQuo19YGJTMUTBUIyXfz8nEbs4BA1xiIuS3we41ntyutIYeCgZPSE {
+   protected int vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+
+   public gLB2ow59dvwp01jTByeC0JVoNcvtfE0PqBPv4PcBZYuwUJcEQuo19YGJTMUTBUIyXfz8nEbs4BA1xiIuS3we41ntyutIYeCgZPSE(int var1) {
+      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var1;
+   }
+}

@@ -1,0 +1,8 @@
+public abstract class nt2UND5gp1sW0YmIHw0sLtCbRppw9BTerIRibBTwYuS8YQYT1UR4Z21rIWYHV96G81DsrQlJ6RqApdmGyeMxtmnO4gehXHjAq93
+   extends Ibgu3NUIYBBc6s3EWu2hIRSSyI1fhkukbKq2Tcv51OCVAH6AapdNHEHyH4veH4voo2KdtG0Doz1K73vVFStW8OO0WPVe252N5epM {
+   public nt2UND5gp1sW0YmIHw0sLtCbRppw9BTerIRibBTwYuS8YQYT1UR4Z21rIWYHV96G81DsrQlJ6RqApdmGyeMxtmnO4gehXHjAq93(
+      xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1
+   ) {
+      super(var1);
+   }
+}

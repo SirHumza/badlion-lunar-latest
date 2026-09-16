@@ -1,0 +1,13 @@
+import java.util.concurrent.Callable;
+
+class EACc60iteI2GWhgbdVO1apycHajOEFq4COHz3WGYFSX3qmfG7cBNVf8BVNRLEDB0xlwbqrQXwmSMRJRgRRih73ryui6akdap3rox implements Callable {
+   EACc60iteI2GWhgbdVO1apycHajOEFq4COHz3WGYFSX3qmfG7cBNVf8BVNRLEDB0xlwbqrQXwmSMRJRgRRih73ryui6akdap3rox(
+      AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB var1
+   ) {
+      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+   }
+
+   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+      return net.minecraft.client.renderer.reBVl7yfwB6jG1tjPNyF5dLNOL952zqPCpbgvinOK5i60q4az9065mMTV6lTqaa7To8zXm5MC4ThCJhwvxhorIlHXClWOr1Ec3Hz.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5();
+   }
+}
