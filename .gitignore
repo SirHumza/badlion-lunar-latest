@@ -1,0 +1,8 @@
+*.jar
+*.zip
+*.exe
+*.dmg
+*.7z
+node_modules/
+.DS_Store
+*.log

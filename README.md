@@ -21,7 +21,7 @@ Readable classic source (not mirrored here, link only): [NightSling/Badlion-3.0.
 ## Honest notes
 
 - Current builds are heavily obfuscated (`HHCCIRHCCCIIRHCROHIORHIRHHIORH`-style names). Decompiled syntax is readable, identifiers are not. No mappings exist publicly.
-- Badlion 4.x standalone game jars download at runtime from now-dead infra; only launcher shell + bundled libs are recoverable from the 4.4.0 exe.
+- Badlion 4.x standalone game jars download at runtime via the launcher's native module (`launcher.node`); only launcher shell + bundled libs are recoverable from the installer. The update feed itself (`client-updates.badlion.net`) is still alive and served 4.5.4.
 - `module=badlion` vs `module=lunar` on the launch API returns identical artifacts and `mainClass: com.moonsworth.lunar.genesis.Genesis`.
 
 ## Reproduce
