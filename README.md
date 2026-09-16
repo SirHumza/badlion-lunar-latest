@@ -15,6 +15,9 @@ standalone Badlion is discontinued and Badlion mode now ships the same jars as L
 | `badlion-4.4.0-launcher/` | 4.4.0 Electron shell: `package.json` (v4.4.0) + `app/background.js`. Game logic lives in native `launcher.node` / `badlion_electron.dll`, not JS. | same exe → `resources/app.asar` | 2 |
 | `badlion-4.5.4/` | **Latest standalone Badlion (Mar 2025).** Full `app/` shell: new `chat.html`/`chat.js`, `child-process.js`, new bundles, changed `background.js`/`preload.js`. Update feed: `client-updates.badlion.net`, channel `latest`. | `Badlion Client-4.5.4-mac.zip` (178MB) direct from update feed | ~5,600 |
 | `lunar-launch-1.8.9.json` | Raw OFFLINE launch API response (`module=badlion` returns byte-identical artifacts to `module=lunar`). | `api.lunarclientprod.com/launcher/launch` | 1 |
+| `batmod-installer/` | BatMod installer decompiled (238 files, entry `com.batmod.installer.Main`) + live version manifest `version.json` (`id: BatMod`, mainClass `net.minecraft.client.main.Main`). | `static.batmod.com/BatMod_Installer.jar` (798K) via `dl.batmod.com/go/download.php`, `dl.batmod.com/json/` | 239 |
+| `batmod-updater/` | BatMod updater decompiled (73 files). | `dl.batmod.com/updater/` (272K) | 73 |
+| `batmod-client/` | **Full BatMod 1.8.9 client dump (57MB, 9,039 entries). Still decompiling, lands here next.** | `static.batmod.com/BatMod.jar` via `dl.batmod.com/jar/` redirect | — |
 
 Readable classic source (not mirrored here, link only): [NightSling/Badlion-3.0.0](https://github.com/NightSling/badlion-3.0.0) — last public Badlion leak (2021, 1.8.8, BAC stripped). Clone of it lives next to this repo as `badlion-src`.
 

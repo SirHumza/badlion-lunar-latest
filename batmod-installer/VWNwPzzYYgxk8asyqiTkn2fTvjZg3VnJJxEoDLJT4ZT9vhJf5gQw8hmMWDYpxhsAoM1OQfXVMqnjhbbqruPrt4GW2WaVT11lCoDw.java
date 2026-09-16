@@ -1,0 +1,14 @@
+class VWNwPzzYYgxk8asyqiTkn2fTvjZg3VnJJxEoDLJT4ZT9vhJf5gQw8hmMWDYpxhsAoM1OQfXVMqnjhbbqruPrt4GW2WaVT11lCoDw
+   extends jQWYRgcF7nzT5CIx7EVCKn1qaqsaq3mNMkMJNBs5aNRbZB91o1ZcuSPxb5ZY4n0xrzlK5X3C9daHtzKUhHrgXCts6FT2kQKMHIL6 {
+   VWNwPzzYYgxk8asyqiTkn2fTvjZg3VnJJxEoDLJT4ZT9vhJf5gQw8hmMWDYpxhsAoM1OQfXVMqnjhbbqruPrt4GW2WaVT11lCoDw(
+      hh6NfSOcvrJcohnkEYFQflfFbpj7L33fhItKozfbgYdXfIRjZT5LnHeONniSQQSVOlU9nEo0XOvcPkywU5SIuzgmxquzhmq3yTAz var1
+   ) {
+      super(var1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I);
+      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+   }
+
+   @Override
+   public Object next() {
+      return this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW().QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0;
+   }
+}

@@ -1,0 +1,12 @@
+class g9grDpgp9Q2L4fyYFWCzIBwHil9xF6vb7mzmmd03cP4YwRaNZn58LxrZPCtISHYOHFoge9IrFn06Wru29OLvzhbOMA4rf7o3nbza
+   implements G9TE2qID2CrD7fIK0uBLyYE9xKN19FMGiULTDdqjDFmDfGUMjvSjc9eeoEyh7VW7es8akQ9kZHkiD9JxwtJgPDRGtVkS2dITyPSk {
+   @Override
+   public AFZqwomB5IiIT5JcKtpFSLwJ0DUWrsDs2kcs3HqwmJXrB1Q2GCH2a6QYnXWLNJMRsyseQaZzgaog9wGINziifkVRBArINmlyLYF Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ var1,
+      bPwL3aEbl95jSMlgL9kzdAlYxrzMIG5B0sFN2ABFeNL9NISKwFSapxgylCRxTBsySMfGO0DHqy9wGRqvWRqeWVl0LGKnpVRtpDz6 var2
+   ) {
+      return var2.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() == Object.class
+         ? new WG5ncRD8g8g6NorTXxWQM402xSBZyMIxlkwYemdIYKsd88vmaVDD0pjYmiQzRLBia394jYSCDpju8uaXpZwxFfsaFRksE7wWOeGl(var1)
+         : null;
+   }
+}
