@@ -1,0 +1,86 @@
+package com.moonsworth.lunar.client.util;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import lombok.Generated;
+import org.jetbrains.annotations.NotNull;
+
+public final class HIHHOCRHHRORRHHRORRRIIHHORIHOC {
+   private static final Map<UUID, com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC> OICHCIOOROOROCRHRRHCRHRCOIOOHH = new HashMap<>();
+   private static final Map<UUID, com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC> COIHHHHCROOIRIRHRORIIIIHHHICCO = new HashMap<>();
+
+   public static com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC IOOCHIRHCRICHIHORCRCHCRHCICROH(
+      UUID var0
+   ) {
+      if (!OICHCIOOROOROCRHRRHCRHRCOIOOHH.containsKey(var0)) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC var1 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+            "lunar", "download/heads/" + var0 + ".png"
+         );
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IHIRRIIORRHORHRORIHOROIRCORCOO var2 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRIHROCORIOOCHHCHCHOHCIOHHRRI()
+            .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               null,
+               RIROICHCRROROHCCROOCCCCOCHCCRI.IICOOHORRRRHICOCRHCRCHCOHRHRHC() + "/face/" + var0.toString(),
+               var1,
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.create("lunar", "steve.png")
+            );
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getTextureManager().bridge$loadTexture(var1, var2);
+         OICHCIOOROOROCRHRRHCRHRCOIOOHH.put(var0, var1);
+         return var1;
+      } else {
+         return OICHCIOOROOROCRHRRHCRHRCOIOOHH.get(var0);
+      }
+   }
+
+   @NotNull
+   public static RCIROOOOICRHCCRRCIORHHIRCOIIIC RHCHROORRHOOORICIHIOCRCOORCIRI(UUID var0) {
+      if (!COIHHHHCROOIRIRHRORIIIIHHHICCO.containsKey(var0)) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC var1 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+            "lunar", "download/wrapped/" + var0 + ".png"
+         );
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IHIRRIIORRHORHRORIHOROIRCORCOO var2 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRIHROCORIOOCHHCHCHOHCIOHHRRI()
+            .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               null,
+               RIROICHCRROROHCCROOCCCCOCHCCRI.IICOOHORRRRHICOCRHCRCHCOHRHRHC() + "/body/front/" + var0.toString() + "?cropBottom=170&disableCosmeticType=all",
+               var1,
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+                  "lunar", "steve-bust.png"
+               )
+            );
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getTextureManager().bridge$loadTexture(var1, var2);
+         COIHHHHCROOIRIRHRORIIIIHHHICCO.put(var0, var1);
+         return var1;
+      } else {
+         return COIHHHHCROOIRIRHRORIIIIHHHICCO.get(var0);
+      }
+   }
+
+   public static boolean HIHCHCORCCRCOHCRROHOHOOCHOROCC(UUID var0) {
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC var1 = OICHCIOOROOROCRHRRHCRHRCOIOOHH.remove(
+         var0
+      );
+      if (var1 != null) {
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getTextureManager().bridge$deleteTexture(var1);
+         return true;
+      } else {
+         return false;
+      }
+   }
+
+   public static boolean OCIHRICRHRRHIOHIIHIROCRIRHCCIR(UUID var0) {
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC var1 = COIHHHHCROOIRIRHRORIIIIHHHICCO.remove(
+         var0
+      );
+      if (var1 != null) {
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getTextureManager().bridge$deleteTexture(var1);
+         return true;
+      } else {
+         return false;
+      }
+   }
+
+   @Generated
+   private HIHHOCRHHRORRHHRORRRIIHHORIHOC() {
+      throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
+   }
+}

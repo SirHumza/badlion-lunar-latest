@@ -1,0 +1,19 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+
+import java.util.List;
+import java.util.Map;
+import lombok.Generated;
+import org.joml.Vector3d;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private Map<String, List<Vector3d>> CICOCIHHCRHOHRIIOIIRCHRRHHIRRH;
+
+   public List<Vector3d> HHROCOOOHIICRHRICCOORIROHHCCRO(String var1) {
+      return this.CICOCIHHCRHOHRIIOIIRCHRRHHIRRH.get(var1);
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Map<String, List<Vector3d>> var1) {
+      this.CICOCIHHCRHOHRIIOIIRCHRRHHIRRH = var1;
+   }
+}

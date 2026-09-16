@@ -1,0 +1,128 @@
+package com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+public class RHCHRCOCCOIIIHCHRHIRCORHRHRICR<T>
+   extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR<com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.IOHIHIIHCCCCCIHRORIOIOORCIOHII<T>> {
+   private final ROOCOCCCIRHHHIRIOIHHHHRHIICHHR HHIHOIORIHOCHCIHHROOCIHCIRIHRO = new ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(
+      this,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+         "lunar", "icons/settings/arrow-left-18x18.png"
+      ),
+      4.5F
+   );
+   private final ROOCOCCCIRHHHIRIOIHHHHRHIICHHR COCOHHOOCHOICRCICHRCRRHCHHRHIR = new ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(
+      this,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+         "lunar", "icons/settings/arrow-right-18x18.png"
+      ),
+      4.5F
+   );
+
+   public RHCHRCOCCOIIIHCHRHIRCORHRHRICR(
+      com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.IOHIHIIHCCCCCIHRORIOIOORCIOHII<T> var1,
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      super(var1, var2);
+      this.HHIHOIORIHOCHCIHHROOCIHCIRIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH((var1x, var2x) -> {
+         int var3 = var1.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().indexOf(var1.get());
+         if (var3 - 1 >= 0) {
+            var1.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(var1.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().get(var3 - 1));
+            return true;
+         } else {
+            return false;
+         }
+      });
+      this.COCOHHOOCHOICRCICHRCRRHCHHRHIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH((var1x, var2x) -> {
+         int var3 = var1.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().indexOf(var1.get());
+         if (var3 + 1 < var1.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().size()) {
+            var1.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(var1.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().get(var3 + 1));
+            return true;
+         } else {
+            return false;
+         }
+      });
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         (var1x, var2x) -> {
+            if (this.HHIHOIORIHOCHCIHHROOCIHCIRIHRO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1x)) {
+               return this.HHIHOIORIHOCHCIHHROOCIHCIRIHRO.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1x, var2x);
+            } else {
+               return this.COCOHHOOCHOICRCICHRCRRHCHHRHIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1x)
+                  ? this.COCOHHOOCHOICRCICHRCRRHCHHRHIR.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1x, var2x)
+                  : false;
+            }
+         }
+      );
+   }
+
+   @Override
+   public void IRRCCOICORICIHCHRHIHIHROIRHOCR(float var1, float var2, float var3) {
+      super.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var1, var2, var3, this.getHeight());
+   }
+
+   @Override
+   public float getHeight() {
+      return this.getOption().isHidden() ? 0.0F : 14.0F;
+   }
+
+   @Override
+   public void update() {
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+      boolean var3
+   ) {
+      String var4 = "No Device Selected";
+      if (this.option.get() != null) {
+         var4 = this.option.get().toString();
+      }
+
+      if (var4.length() > 30) {
+         var4 = var4.substring(0, 30) + "...";
+      }
+
+      float var5 = com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR.IOIHCHOOHORCORHHHCHCORHORHCOOC()
+         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var1,
+            var4,
+            this.x
+               + this.width
+               - com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR.IOIHCHOOHORCORHHHCHCORHORHCOOC()
+                  .IOOOHRRHCHICHHHCRIRHIICORRCIRO(var4)
+               - 10.0F,
+            this.y + 2.5F,
+            -1346256706
+         );
+      this.HHIHOIORIHOCHCIHHROOCIHCIRIHRO
+         .IRCRRHRCIRHIHIHROHCRRHIIHHHHCH(
+            var5
+               - com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR.IOIHCHOOHORCORHHHCHCORHORHCOOC()
+                  .IOOOHRRHCHICHHHCRIRHIICORRCIRO(var4)
+               - 12.0F,
+            this.y
+         );
+      this.COCOHHOOCHOICRCICHRCRRHCHHRHIR.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH(var5, this.y);
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR.OHOIIIRRIHCRIRRCHHIRIOROHIIHIO()
+         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, this.option.getName(), this.x, this.y + 1.5F, -4079426);
+      this.HHIHOIORIHOCHCIHHROOCIHCIRIHRO
+         .OCRIHHORCRCHOCRRORHIIRHOCCCIIH(this.option.get() == null || this.option.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().indexOf(this.option.get()) == 0);
+      this.HHIHOIORIHOCHCIHHROOCIHCIRIHRO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3);
+      this.COCOHHOOCHOICRCICHRCRRHCHHRHIR
+         .OCRIHHORCRCHOCRRORHIIRHOCCCIIH(
+            this.option.get() == null
+               || this.option.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().indexOf(this.option.get()) == this.option.RCRIOCCCOOIRICRHHCCIRCIOHRRRIO().size() - 1
+         );
+      this.COCOHHOOCHOICRCICHRCRRHCHHRHIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3);
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      char var1, com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+   }
+
+   @Override
+   public void close() {
+   }
+}

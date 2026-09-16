@@ -1,0 +1,62 @@
+package com.moonsworth.lunar.client.IHIRRIIORRHORHRORIHOROIRCORCOO;
+
+import java.util.List;
+import lombok.Generated;
+
+public class OOROOCCIRCCRHOIOIORIHCHHOOCCOR {
+   private boolean HCRRHCHCHCRORIRRRIIORHHIHCICRO = true;
+   private boolean OIHOCIHCRRHCCIHIRICHHCRICOCOOC = true;
+   private boolean IHHHIRCRHIOORHROCIROCROIHOHORH = true;
+   private boolean ICOHORRHCHCCCHRCOOORIIHORIRCIC = true;
+   private List<String> HRCHICHIOHOROOHHHOHROHCICCROIO = null;
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR OIOROIIOROCRCRHROCOHOOIHCIIHOI(boolean var1) {
+      this.HCRRHCHCHCRORIRRRIIORHHIHCICRO = var1;
+      return this;
+   }
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR OICRCOIIRHIOHIOCOCOOIHRCORHOIO(boolean var1) {
+      this.OIHOCIHCRRHCCIHIRICHHCRICOCOOC = var1;
+      return this;
+   }
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR ICRIROCRHORHCHHOHRIORRIROCOOIR(boolean var1) {
+      this.IHHHIRCRHIOORHROCIROCROIHOHORH = var1;
+      return this;
+   }
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR RRIRHIRRCRIIHCCIOORCCIOCICOCHI(boolean var1) {
+      this.ICOHORRHCHCCCHRCOOORIIHORIRCIC = var1;
+      return this;
+   }
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR RCHHHORIRORROOHRRHHIIIOIROHHCC(List<String> var1) {
+      this.HRCHICHIOHOROOHHHOHROHCICCROIO = var1;
+      return this;
+   }
+
+   @Generated
+   public boolean HHROHOHOHHHHIIHHIHHHCCOOCCCRCH() {
+      return this.HCRRHCHCHCRORIRRRIIORHHIHCICRO;
+   }
+
+   @Generated
+   public boolean HHHICRHICOOCRICRIHCIICIICOCIOI() {
+      return this.OIHOCIHCRRHCCIHIRICHHCRICOCOOC;
+   }
+
+   @Generated
+   public boolean OIRCORCIHCOCCOCRCCHCCHROCCHHHC() {
+      return this.IHHHIRCRHIOORHROCIROCROIHOHORH;
+   }
+
+   @Generated
+   public boolean OOIOHHHOOOCIHIRCRHIOIRCCCIHIII() {
+      return this.ICOHORRHCHCCCHRCOOORIIHORIRCIC;
+   }
+
+   @Generated
+   public List<String> IIOOHICIHHICROCHIIORRRROOIHIOC() {
+      return this.HRCHICHIOHOROOHHHOHROHCICCROIO;
+   }
+}

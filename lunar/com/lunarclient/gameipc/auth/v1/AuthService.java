@@ -1,0 +1,226 @@
+package com.lunarclient.gameipc.auth.v1;
+
+import com.google.protobuf.BlockingRpcChannel;
+import com.google.protobuf.BlockingService;
+import com.google.protobuf.Descriptors;
+import com.google.protobuf.Message;
+import com.google.protobuf.RpcCallback;
+import com.google.protobuf.RpcChannel;
+import com.google.protobuf.RpcController;
+import com.google.protobuf.RpcUtil;
+import com.google.protobuf.Service;
+
+public abstract class AuthService implements Service {
+   protected AuthService() {
+   }
+
+   public static Service newReflectiveService(final AuthService.Interface var0) {
+      return new AuthService() {
+         @Override
+         public void refreshAccount(RpcController var1, RefreshAccountRequest var2, RpcCallback<RefreshAccountResponse> var3) {
+            var0.refreshAccount(var1, var2, var3);
+         }
+
+         @Override
+         public void addAccount(RpcController var1, AddAccountRequest var2, RpcCallback<AddAccountResponse> var3) {
+            var0.addAccount(var1, var2, var3);
+         }
+      };
+   }
+
+   public static BlockingService newReflectiveBlockingService(final AuthService.BlockingInterface var0) {
+      return new BlockingService() {
+         @Override
+         public final Descriptors.ServiceDescriptor getDescriptorForType() {
+            return AuthService.getDescriptor();
+         }
+
+         @Override
+         public final Message callBlockingMethod(Descriptors.MethodDescriptor var1, RpcController var2, Message var3) {
+            if (var1.getService() != AuthService.getDescriptor()) {
+               throw new IllegalArgumentException("Service.callBlockingMethod() given method descriptor for wrong service type.");
+            }
+
+            switch (var1.getIndex()) {
+               case 0:
+                  return var0.refreshAccount(var2, (RefreshAccountRequest)var3);
+               case 1:
+                  return var0.addAccount(var2, (AddAccountRequest)var3);
+               default:
+                  throw new AssertionError("Can't get here.");
+            }
+         }
+
+         @Override
+         public final Message getRequestPrototype(Descriptors.MethodDescriptor var1) {
+            if (var1.getService() != AuthService.getDescriptor()) {
+               throw new IllegalArgumentException("Service.getRequestPrototype() given method descriptor for wrong service type.");
+            }
+
+            switch (var1.getIndex()) {
+               case 0:
+                  return RefreshAccountRequest.getDefaultInstance();
+               case 1:
+                  return AddAccountRequest.getDefaultInstance();
+               default:
+                  throw new AssertionError("Can't get here.");
+            }
+         }
+
+         @Override
+         public final Message getResponsePrototype(Descriptors.MethodDescriptor var1) {
+            if (var1.getService() != AuthService.getDescriptor()) {
+               throw new IllegalArgumentException("Service.getResponsePrototype() given method descriptor for wrong service type.");
+            }
+
+            switch (var1.getIndex()) {
+               case 0:
+                  return RefreshAccountResponse.getDefaultInstance();
+               case 1:
+                  return AddAccountResponse.getDefaultInstance();
+               default:
+                  throw new AssertionError("Can't get here.");
+            }
+         }
+      };
+   }
+
+   public abstract void refreshAccount(RpcController var1, RefreshAccountRequest var2, RpcCallback<RefreshAccountResponse> var3);
+
+   public abstract void addAccount(RpcController var1, AddAccountRequest var2, RpcCallback<AddAccountResponse> var3);
+
+   public static final Descriptors.ServiceDescriptor getDescriptor() {
+      return ServiceProto.getDescriptor().getServices().get(0);
+   }
+
+   @Override
+   public final Descriptors.ServiceDescriptor getDescriptorForType() {
+      return getDescriptor();
+   }
+
+   @Override
+   public final void callMethod(Descriptors.MethodDescriptor var1, RpcController var2, Message var3, RpcCallback<Message> var4) {
+      if (var1.getService() != getDescriptor()) {
+         throw new IllegalArgumentException("Service.callMethod() given method descriptor for wrong service type.");
+      }
+
+      switch (var1.getIndex()) {
+         case 0:
+            this.refreshAccount(var2, (RefreshAccountRequest)var3, RpcUtil.specializeCallback(var4));
+            return;
+         case 1:
+            this.addAccount(var2, (AddAccountRequest)var3, RpcUtil.specializeCallback(var4));
+            return;
+         default:
+            throw new AssertionError("Can't get here.");
+      }
+   }
+
+   @Override
+   public final Message getRequestPrototype(Descriptors.MethodDescriptor var1) {
+      if (var1.getService() != getDescriptor()) {
+         throw new IllegalArgumentException("Service.getRequestPrototype() given method descriptor for wrong service type.");
+      }
+
+      switch (var1.getIndex()) {
+         case 0:
+            return RefreshAccountRequest.getDefaultInstance();
+         case 1:
+            return AddAccountRequest.getDefaultInstance();
+         default:
+            throw new AssertionError("Can't get here.");
+      }
+   }
+
+   @Override
+   public final Message getResponsePrototype(Descriptors.MethodDescriptor var1) {
+      if (var1.getService() != getDescriptor()) {
+         throw new IllegalArgumentException("Service.getResponsePrototype() given method descriptor for wrong service type.");
+      }
+
+      switch (var1.getIndex()) {
+         case 0:
+            return RefreshAccountResponse.getDefaultInstance();
+         case 1:
+            return AddAccountResponse.getDefaultInstance();
+         default:
+            throw new AssertionError("Can't get here.");
+      }
+   }
+
+   public static AuthService.Stub newStub(RpcChannel var0) {
+      return new AuthService.Stub(var0);
+   }
+
+   public static AuthService.BlockingInterface newBlockingStub(BlockingRpcChannel var0) {
+      return new AuthService.BlockingStub(var0);
+   }
+
+   public interface BlockingInterface {
+      RefreshAccountResponse refreshAccount(RpcController var1, RefreshAccountRequest var2);
+
+      AddAccountResponse addAccount(RpcController var1, AddAccountRequest var2);
+   }
+
+   private static final class BlockingStub implements AuthService.BlockingInterface {
+      private final BlockingRpcChannel channel;
+
+      private BlockingStub(BlockingRpcChannel var1) {
+         this.channel = var1;
+      }
+
+      @Override
+      public RefreshAccountResponse refreshAccount(RpcController var1, RefreshAccountRequest var2) {
+         return (RefreshAccountResponse)this.channel
+            .callBlockingMethod(AuthService.getDescriptor().getMethods().get(0), var1, var2, RefreshAccountResponse.getDefaultInstance());
+      }
+
+      @Override
+      public AddAccountResponse addAccount(RpcController var1, AddAccountRequest var2) {
+         return (AddAccountResponse)this.channel
+            .callBlockingMethod(AuthService.getDescriptor().getMethods().get(1), var1, var2, AddAccountResponse.getDefaultInstance());
+      }
+   }
+
+   public interface Interface {
+      void refreshAccount(RpcController var1, RefreshAccountRequest var2, RpcCallback<RefreshAccountResponse> var3);
+
+      void addAccount(RpcController var1, AddAccountRequest var2, RpcCallback<AddAccountResponse> var3);
+   }
+
+   public static final class Stub extends AuthService implements AuthService.Interface {
+      private final RpcChannel channel;
+
+      private Stub(RpcChannel var1) {
+         this.channel = var1;
+      }
+
+      public RpcChannel getChannel() {
+         return this.channel;
+      }
+
+      @Override
+      public void refreshAccount(RpcController var1, RefreshAccountRequest var2, RpcCallback<RefreshAccountResponse> var3) {
+         this.channel
+            .callMethod(
+               getDescriptor().getMethods().get(0),
+               var1,
+               var2,
+               RefreshAccountResponse.getDefaultInstance(),
+               RpcUtil.generalizeCallback(var3, RefreshAccountResponse.class, RefreshAccountResponse.getDefaultInstance())
+            );
+      }
+
+      @Override
+      public void addAccount(RpcController var1, AddAccountRequest var2, RpcCallback<AddAccountResponse> var3) {
+         this.channel
+            .callMethod(
+               getDescriptor().getMethods().get(1),
+               var1,
+               var2,
+               AddAccountResponse.getDefaultInstance(),
+               RpcUtil.generalizeCallback(var3, AddAccountResponse.class, AddAccountResponse.getDefaultInstance())
+            );
+      }
+   }
+}

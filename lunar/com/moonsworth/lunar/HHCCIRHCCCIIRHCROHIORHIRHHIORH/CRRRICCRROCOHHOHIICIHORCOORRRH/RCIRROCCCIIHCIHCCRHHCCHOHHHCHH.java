@@ -1,0 +1,148 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.CRHROHHHCIHHCOHCOORCRIHHIICROR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RORCHCIIICOHIRROOORHOCCCCIOCCI;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import java.util.List;
+import javax.annotation.Nullable;
+
+@com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+   OROORIICIOOOOIHIRHRHOIOCIHRRIO = {
+         @com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+            version = 0,
+            RIOOCHOIIRROHCORCROHCHCHIIIIOO = @com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+               "net/minecraft/block/Block"
+            )
+         ),
+         @com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+            version = 6,
+            RIOOCHOIIRROHCORCROHCHCHIIIIOO = @com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+               "net/minecraft/world/level/block/Block"
+            )
+         )
+   }
+)
+public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 1)
+   List<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> bridge$getValidStates();
+
+   boolean bridge$isSkull();
+
+   boolean bridge$isFoliage();
+
+   boolean bridge$isFlower();
+
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR bridge$getStack(
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var1
+   );
+
+   boolean bridge$isWater();
+
+   default boolean bridge$isBubbleColumn() {
+      return false;
+   }
+
+   boolean bridge$isAir();
+
+   boolean bridge$isFire();
+
+   boolean bridge$isPressurePlate();
+
+   boolean bridge$isCarpet();
+
+   boolean bridge$isSign();
+
+   boolean bridge$isSmallPot();
+
+   boolean bridge$isBanner();
+
+   boolean bridge$isHandOpenableTrapDoor();
+
+   boolean bridge$isFenceGate();
+
+   boolean bridge$isFlippedLever(int var1, int var2, int var3);
+
+   boolean bridge$isDepressedPlate(int var1, int var2, int var3);
+
+   boolean bridge$isCauldron();
+
+   boolean bridge$isCake();
+
+   boolean bridge$isAnyChest();
+
+   boolean bridge$isMushroom();
+
+   boolean bridge$isFlowerPot();
+
+   boolean bridge$isExcludedFromMinimap();
+
+   Component bridge$getName();
+
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$clip(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var2,
+      CRHROHHHCIHHCOHCOORCRIHHIICROR var3,
+      CRHROHHHCIHHCOHCOORCRIHHIICROR var4
+   );
+
+   @Nullable
+   default com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$isMultiBlock(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var2
+   ) {
+      return null;
+   }
+
+   @Nullable
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH bridge$getAABB(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var2
+   );
+
+   boolean bridge$hasCollision(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var2
+   );
+
+   default int bridge$getDamageValue(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var2
+   ) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   boolean bridge$entityCanStandOn(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var2,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var3
+   );
+
+   int bridge$getPreFlatteningID();
+
+   String bridge$getRegistryName();
+
+   float bridge$getDestroySpeed();
+
+   boolean bridge$breaksByPickaxe();
+
+   boolean bridge$breaksByAxe();
+
+   boolean bridge$breaksByShovel();
+
+   boolean bridge$breaksByHoe();
+
+   boolean bridge$breaksByShears();
+
+   boolean bridge$isCubeBlock();
+
+   boolean bridge$isSpawner();
+
+   boolean bridge$isGlass();
+
+   default void bridge$onStateChange(
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var3
+   ) {
+   }
+}

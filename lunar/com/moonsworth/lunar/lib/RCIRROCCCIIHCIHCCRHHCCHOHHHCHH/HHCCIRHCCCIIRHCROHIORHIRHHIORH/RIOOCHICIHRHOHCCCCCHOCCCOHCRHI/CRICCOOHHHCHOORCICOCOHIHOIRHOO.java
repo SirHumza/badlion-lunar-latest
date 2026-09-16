@@ -1,0 +1,75 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+import java.io.Serializable;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Member;
+import java.util.Collections;
+
+public abstract class CRICCOOHHHCHOORCICOCOHIHOIRHOO extends IRCIIHHICIHRCOCRROCOICRIHHCCHH implements Serializable {
+   private static final long IOICIRHRIHOHIRHRIHIICICICHHCRR = 1L;
+   protected final transient RCIROOOOICRHCCRRCIORHHIRCOIIIC IRIOIRIROIIOCRCIRHICCOCIOOHICO;
+   protected final transient RHOCHHIRRCHHHOHOIRROIROHHHIHIO IOCOHHCOHOCOIHOCHIIRORCIRCCCIC;
+
+   protected CRICCOOHHHCHOORCICOCOHIHOIRHOO(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, RHOCHHIRRCHHHOHOIRROIROHHHIHIO var2) {
+      this.IRIOIRIROIIOCRCIRHICCOCIOOHICO = var1;
+      this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC = var2;
+   }
+
+   protected CRICCOOHHHCHOORCICOCOHIHOIRHOO(CRICCOOHHHCHOORCICOCOHIHOIRHOO var1) {
+      this.IRIOIRIROIIOCRCIRHICCOCIOOHICO = var1.IRIOIRIROIIOCRCIRHICCOCIOOHICO;
+      this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC = var1.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC;
+   }
+
+   public abstract IRCIIHHICIHRCOCRROCOICRIHHCCHH IRCIIHHICIHRCOCRROCOICRIHHCCHH(RHOCHHIRRCHHHOHOIRROIROHHHIHIO var1);
+
+   public abstract Class<?> getDeclaringClass();
+
+   public abstract Member getMember();
+
+   public String getFullName() {
+      return this.getDeclaringClass().getName() + "#" + this.getName();
+   }
+
+   @Deprecated
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC HRCIOORIIIIORHICCHICRHOCOORIHO() {
+      return this.IRIOIRIROIIOCRCIRHICCOCIOOHICO;
+   }
+
+   @Override
+   public final <A extends Annotation> A getAnnotation(Class<A> var1) {
+      return this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC == null ? null : this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC.RORRCRCHIRCHHOOIHCCHRCHORHCICI(var1);
+   }
+
+   @Override
+   public final boolean hasAnnotation(Class<?> var1) {
+      return this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC == null ? false : this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC.ROCHRRCORRCOOOOOCOICOCROIIHIHH(var1);
+   }
+
+   @Override
+   public boolean RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(Class<? extends Annotation>[] var1) {
+      return this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC == null ? false : this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var1);
+   }
+
+   @Deprecated
+   @Override
+   public Iterable<Annotation> OIIOOORRHCOOHOORIOCIHOOCCHHROI() {
+      return this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC == null ? Collections.emptyList() : this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC.OIIOOORRHCOOHOORIOCIHOOCCHHROI();
+   }
+
+   public RHOCHHIRRCHHHOHOIRROIROHHHIHIO HIICROHOOHROHORIIHOICHRRHHIRCO() {
+      return this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC;
+   }
+
+   public final void HRRIIOOHRHHHOOOHCHRCIOCICRCRIH(boolean var1) {
+      Member var2 = this.getMember();
+      if (var2 != null) {
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var2, var1
+         );
+      }
+   }
+
+   public abstract void HHIRHRHHRHIHRHOHCHRHIORRHIIHOR(Object var1, Object var2);
+
+   public abstract Object getValue(Object var1);
+}

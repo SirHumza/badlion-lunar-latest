@@ -1,0 +1,120 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.CRHROHHHCIHHCOHCOORCRIHHIICROR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RORCHCIIICOHIRROOORHOCCCCIOCCI;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.util.concurrent.ThreadLocalRandom;
+import lombok.Generated;
+import org.joml.Vector2i;
+import org.joml.Vector3d;
+
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   implements RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH> {
+   private static final RCIROOOOICRHCCRRCIORHHIRCOIIIC OOIHIHIRHIRRRCHHHHRHRCCCHIRRIO = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+      IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION <= 1 ? "creeper.primed" : "entity.creeper.primed"
+   );
+   private static final int RHROIOROCCICOICHCHOROIRIOCCOCC = 20;
+   private int CCCCCIHICRRCCHHHOHICRCRCCHOORC = -1;
+
+   public boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var2,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var4
+   ) {
+      if (this.CCCCCIHICRRCCHHHOHICRCRCCHOORC == -1) {
+         this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2, var3, var4);
+      } else {
+         if (this.CCCCCIHICRRCCHHHOHICRCRCCHOORC == 0) {
+            return true;
+         }
+
+         this.CCCCCIHICRRCCHHHOHICRCRCCHOORC--;
+         com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var4, var3.bridge$getEyePosition(), false
+         );
+         if (var4 instanceof com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var5
+            )
+          {
+            int var6 = var5.bridge$getSwell();
+            var5.bridge$setOldSwell(var6);
+            var5.bridge$setSwell(var6 + 1);
+         }
+      }
+
+      return false;
+   }
+
+   private void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var3
+   ) {
+      Vector3d var4 = var2.RCRCIHCOCOOORIRCOHHOIOHROOOHOC().RCICCRIHIORCCCRCCORIROCOIIORHC().mul(-1.0);
+      CRHROHHHCIHHCOHCOORCRIHHIICROR var5 = var2.bridge$getEyePosition();
+      Vector3d var6 = new Vector3d(var5.bridge$xCoord(), var5.bridge$yCoord() - 1.0, var5.bridge$zCoord());
+      Vector2i var7 = new Vector2i((int)Math.floor(var6.x()), (int)Math.floor(var6.z()));
+      ((com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH)com.moonsworth.lunar.client.util.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               com.moonsworth.lunar.client.util.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OICIICOCOHRIOHIIHROIOICIIHRIOR
+            )
+            .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH((var0, var1x) -> var1x.bridge$isAir())
+            .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               (var1x, var2x, var3x, var4x) -> var3x.bridge$getX() == var7.x() && var3x.bridge$getZ() == var7.y()
+                  ? null
+                  : com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+                     var3x
+                  )
+            )
+            .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var6, var4, 2.0)
+            .OHCOIORHOCCRICIHIOIRHRIRROCHRR()
+            .CHRCRHHRCCOICCOOIIRIOHCOHCHHIC(var1))
+         .HRCHROOHRIHCRCRHRIIROCIRHOIRHH(
+            var4x -> {
+               RORCHCIIICOHIRROOORHOCCCCIOCCI var5x = var4x.HRICRCHIIHIIICIHCICRHOOCRCCHIO();
+               boolean var6x = com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  var1, var5x.bridge$getX(), var5x.bridge$getY(), var5x.bridge$getZ(), var3
+               );
+               if (var6x) {
+                  var3.bridge$setPosX(var5x.bridge$getX() + 0.5);
+                  var3.bridge$setPosY(var5x.bridge$getY() - (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION <= 0 ? 0.2F : 0.0F));
+                  var3.bridge$setPosZ(var5x.bridge$getZ() + 0.5);
+                  com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                     var3, var2.bridge$getEyePosition(), false
+                  );
+                  if (var3 instanceof com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var7x
+                     )
+                   {
+                     IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI()
+                        .bridge$getSoundHandler()
+                        .bridge$play(
+                           OOIHIHIRHIRRRCHHHHRHRCCCHIRRIO,
+                           com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HOSTILE,
+                           1.0F,
+                           1.0F,
+                           false,
+                           0,
+                           com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.NONE,
+                           var3.bridge$getPosX(),
+                           var3.bridge$getPosY(),
+                           var3.bridge$getPosZ()
+                        );
+                     IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+                        .OOCROCIOHHCIIROICOCRHCCCHRCIOI()
+                        .CIOHHCORHRCCRICCCORIHCRHCCCRRR("event:lunar.jumpscare", 1);
+                     this.CCCCCIHICRRCCHHHOHICRCRCCHOORC = var7x.bridge$getMaxSwell();
+                     if (ThreadLocalRandom.current().nextFloat() > 0.9) {
+                        var7x.bridge$setPowered(true);
+                     }
+
+                     var7x.bridge$setIgnited(true);
+                  } else {
+                     this.CCCCCIHICRRCCHHHOHICRCRCCHOORC = 20;
+                  }
+               }
+            }
+         );
+   }
+}

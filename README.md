@@ -9,7 +9,7 @@ standalone Badlion is discontinued and Badlion mode now ships the same jars as L
 | Dir | What | Source | Files |
 |-----|------|--------|-------|
 | `lunar-genesis/` | Current Lunar/Badlion boot + platform code (Sept 2026 prod). Entry: `com/moonsworth/lunar/genesis/Genesis` | `multiver-releases.lunarclientprod.com`, OFFLINE launch API, `genesis-0.1.0-SNAPSHOT-all.jar` sha `ff87ae5c…` | 4,074 |
-| `lunar/` | Current `lunar.jar` full dump (62MB, 16,719 classes). **Still decompiling, lands here next.** | same API, `lunar.jar` sha `42970deb…` | — |
+| `lunar/` | Current `lunar.jar` full dump: 10,296 `.java` (4,937 `com/moonsworth` incl. readable `com/lunarclient` API utils + obfuscated core) + bundled libs. Entry: `com.moonsworth.lunar.genesis.Genesis` (in `lunar-genesis/`). | same API, `lunar.jar` sha `42970deb…` | 10,322 |
 | `lunar-multiver/` | All other current 1.8.9 multiver jars decompiled: `common` (28), `legacy` (737), `optifine shim` (214), `OptiFine` (2,633), `lunar-lang` resources (34), `platform-mappings` (5) | same API response | 3,651 |
 | `badlion-4.4.0-libs/` | Last standalone Badlion 4.4.0 shipped Java. Only real Badlion class: `net/badlion/optifineinstallwrapper/InstallWrapper.java`. Rest is third-party (caffeine, disruptor, joml, lz4). | `Badlion Client Setup v4.4.0.exe` (Google Drive `1ghV00WOx8HJu_3OvNVbMTbAX5SA4iR0t`), NSIS → `app-64.7z` → `libs/` | ~850 |
 | `badlion-4.4.0-launcher/` | 4.4.0 Electron shell: `package.json` (v4.4.0) + `app/background.js`. Game logic lives in native `launcher.node` / `badlion_electron.dll`, not JS. | same exe → `resources/app.asar` | 2 |

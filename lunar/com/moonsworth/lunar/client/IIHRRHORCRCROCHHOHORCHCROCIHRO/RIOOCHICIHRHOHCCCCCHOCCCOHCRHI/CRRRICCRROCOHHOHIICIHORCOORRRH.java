@@ -1,0 +1,5 @@
+package com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+public interface CRRRICCRROCOHHOHIICIHORCOORRRH {
+   boolean isEditing();
+}

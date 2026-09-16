@@ -1,0 +1,46 @@
+package com.moonsworth.lunar.client.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.eliotlash.molang.utils.MolangUtils;
+import com.moonsworth.lunar.client.util.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH;
+import com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import org.joml.Vector3i;
+
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH
+   implements com.moonsworth.lunar.client.IHIRRIIORRHORHRORIHOROIRCORCOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   @Override
+   public boolean ICRCOOIHHHRCCROCCRIRCIOCIRIHIH(int var1) {
+      return var1 == 1;
+   }
+
+   @Override
+   public boolean HCCICIIIHORIIRRCIRRIHORHOHIHCH(int var1) {
+      return true;
+   }
+
+   @CORCOCICIRIOHROHROIIOOHICCHCRR
+   public static double call(double var0) {
+      if (var0 % 1.0 == 0.0
+         && com.moonsworth.lunar.client.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ORICRIHIRRHHHOCRHHCHOCHOCOROOC()
+            != null
+         && com.moonsworth.lunar.client.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ORICRIHIRRHHHOCRHHCHOCHOCOROOC()
+               .bridge$getWorld()
+            != null) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2 = com.moonsworth.lunar.client.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ORICRIHIRRHHHOCRHHCHOCHOCOROOC();
+         int var3 = RHRIIOOOCRHIIOORCOCRCHRCCRRCIH.IICCOOCHCHROORHHIIHROHCCRHRCOR(var2.bridge$getPosX());
+         int var4 = (int)var2.bridge$getBoundingBox().bridge$getMinY();
+         int var5 = RHRIIOOOCRHIIOORCOCRCHRCCRRCIH.IICCOOCHCHROORHHIIHROHCCRHRCOR(var2.bridge$getPosZ());
+         Vector3i var6 = new Vector3i(var3, var4, var5);
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var7 = var2.bridge$getWorld()
+            .bridge$getChunkFromBlockCoords(var6)
+            .bridge$getBiome(var6, var2.bridge$getWorld().bridge$getWorldChunkManager());
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var8 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.fromBiomeBridge(
+            var7
+         );
+         if (var8.getLegacyId().isPresent() && var8.getLegacyId().get() == (int)var0) {
+            return MolangUtils.booleanToFloat(true);
+         }
+      }
+
+      return MolangUtils.booleanToFloat(false);
+   }
+}

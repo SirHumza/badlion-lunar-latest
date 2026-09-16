@@ -1,0 +1,20 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
+public abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      JsonElement var1, com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      return this;
+   }
+
+   public JsonElement RCHIIHHHCCIOHHRORHOORICCCRHOOI() {
+      return new JsonObject();
+   }
+
+   public boolean OHICORCORHICCCCROROCOIRHROOROR() {
+      return false;
+   }
+}

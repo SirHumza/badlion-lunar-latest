@@ -1,0 +1,5 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+
+public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   void bridge$extendSize(int var1);
+}

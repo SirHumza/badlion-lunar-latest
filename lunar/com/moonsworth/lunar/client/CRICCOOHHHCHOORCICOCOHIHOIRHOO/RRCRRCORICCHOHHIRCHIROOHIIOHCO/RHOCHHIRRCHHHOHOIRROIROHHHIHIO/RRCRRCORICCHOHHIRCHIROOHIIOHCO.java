@@ -1,0 +1,21 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RHOCHHIRRCHHHOHOIRROIROHHHIHIO;
+
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.ORHIOICIOCRRHOOCOHRORIHICHRCRR;
+import com.moonsworth.lunar.client.util.ICOHIIIRCIORCORHRRROOOOCOOROIC;
+
+public enum RRCRRCORICCHOHHIRCHIROOHIIOHCO implements ORHIOICIOCRRHOOCOHRORIHICHRCRR {
+   ALL,
+   MOVEMENT_UI,
+   ASSET_SERVER,
+   IPC;
+
+   @Override
+   public String id() {
+      return ICOHIIIRCIORCORHRRROOOOCOOROIC.OOCCRCRCOHIIORCCORCRCIRRROIOOR(this.name(), false);
+   }
+
+   @Override
+   public String getLanguagePath() {
+      return "debug";
+   }
+}

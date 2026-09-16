@@ -1,0 +1,21 @@
+package com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import java.util.function.Consumer;
+
+public interface HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   default <T extends IRCIIHHICIHRCOCRROCOICRIHHCCHH> void handle(Class<T> var1, Consumer<T> var2) {
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH.HCCOIRHHOOHICHHIOOOIRORRCRIRRO().HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1, var2);
+   }
+
+   default <T extends IRCIIHHICIHRCOCRROCOICRIHHCCHH> void IRCIIHHICIHRCOCRROCOICRIHHCCHH(Class<T> var1, Runnable var2) {
+      this.handle(var1, var1x -> var2.run());
+   }
+
+   default <T extends IRCIIHHICIHRCOCRROCOICRIHHCCHH> void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Class<T> var1, Consumer<T> var2, int var3) {
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH.HCCOIRHHOOHICHHIOOOIRORRCRIRRO().IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3);
+   }
+
+   default <T extends IRCIIHHICIHRCOCRROCOICRIHHCCHH> void IRCIIHHICIHRCOCRROCOICRIHHCCHH(Class<T> var1, Runnable var2, int var3) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var1x -> var2.run(), var3);
+   }
+}

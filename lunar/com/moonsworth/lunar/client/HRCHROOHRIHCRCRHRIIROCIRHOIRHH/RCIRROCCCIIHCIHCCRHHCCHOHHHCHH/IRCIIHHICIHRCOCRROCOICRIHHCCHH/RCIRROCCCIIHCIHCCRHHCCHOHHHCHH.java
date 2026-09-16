@@ -1,0 +1,25 @@
+package com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import lombok.Generated;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private final Component CIHORCCRORHIICRIRORIOIOIHRIHIC;
+   private final String CICCRRIHRRIOIRCCIOOOCROCORIRHI;
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Component var1, String var2) {
+      this.CIHORCCRORHIICRIRORIOIOIHRIHIC = var1;
+      this.CICCRRIHRRIOIRCCIOOOCROCORIRHI = var2;
+   }
+
+   @Generated
+   public Component OIOORCCOCHRRIRRORRICOCOCROICII() {
+      return this.CIHORCCRORHIICRIRORIOIOIHRIHIC;
+   }
+
+   @Generated
+   public String ORCOHHRIOOCRCHIIHOIORRIHRRCICC() {
+      return this.CICCRRIHRRIOIRCCIOOOCROCORIRHI;
+   }
+}

@@ -1,0 +1,53 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.HCHRIROHHHCORIOCROOCHRCIOROOCI;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
+import java.util.function.Consumer;
+
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private final Map<String, Map<String, RCIRROCCCIIHCIHCCRHHCCHOHHHCHH>> CHHORHCRHIOCCIRIHHHCCHICOORRHC = new HashMap<>();
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, String var2, HCHRIROHHHCORIOCROOCHRCIOROOCI<?> var3) {
+      Map var4 = this.CHHORHCRHIOCCIRIHHHCCHICOORRHC.computeIfAbsent(var1, var0 -> new HashMap<>());
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var5 = (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var4.get(var2);
+      if (var5 == null || !Objects.equals(var5.getOption(), var3)) {
+         var4.put(var2, new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3));
+      }
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(String var1, String var2, HCHRIROHHHCORIOCROOCHRCIOROOCI<?> var3) {
+      Map var4 = this.CHHORHCRHIOCCIRIHHHCCHICOORRHC.get(var1);
+      if (var4 != null) {
+         var4.remove(var2, new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3));
+         if (var4.isEmpty()) {
+            this.CHHORHCRHIOCCIRIHHHCCHICOORRHC.remove(var1);
+         }
+      }
+   }
+
+   public <T extends HCHRIROHHHCORIOCROOCHRCIOROOCI<?>> void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      Consumer<T> var3
+   ) {
+      String var4;
+      if (var1 instanceof HRCHROOHRIHCRCRHRIIROCIRHOIRHH var5) {
+         var4 = var5.bridge$getUniqueID().toString();
+      } else {
+         var4 = String.valueOf(var1.bridge$getEntityId());
+      }
+
+      Map var7 = this.CHHORHCRHIOCCIRIHHHCCHICOORRHC.get(var4);
+      if (var7 != null) {
+         RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6 = (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var7.get(var2);
+         if (var6 != null) {
+            var6.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1.HOCRIORCCCIHIIHHHORIHOOCHOCORH());
+            var3.accept(var6.getOption());
+            var6.update();
+         }
+      }
+   }
+}

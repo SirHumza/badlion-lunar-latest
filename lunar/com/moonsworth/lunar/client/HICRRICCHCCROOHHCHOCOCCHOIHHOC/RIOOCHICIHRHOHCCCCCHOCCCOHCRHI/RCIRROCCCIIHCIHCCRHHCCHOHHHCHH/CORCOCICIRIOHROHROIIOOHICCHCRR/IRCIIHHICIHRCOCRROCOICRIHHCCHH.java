@@ -1,0 +1,64 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR;
+
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+import com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.IOIICIRIICICIIOORHCIIIIRRIHRHI;
+import it.unimi.dsi.fastutil.longs.Long2ObjectAVLTreeMap;
+import it.unimi.dsi.fastutil.longs.Long2ObjectSortedMap;
+import java.util.Collections;
+import java.util.EnumMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.WeakHashMap;
+import lombok.Generated;
+
+@com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private final Map<HHCCIRHCCCIIRHCROHIORHIRHHIORH, Long2ObjectSortedMap<Set<RCIRROCCCIIHCIHCCRHHCCHOHHHCHH>>> IRCCHHCRHRHHICOCIRIOCIRCIHOOCO = new EnumMap<>(
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH.class
+   );
+
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH var1,
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2
+   ) {
+      Long2ObjectSortedMap var3 = this.IRCCHHCRHRHHICOCIRIOCIRCIHOOCO.computeIfAbsent(var1, var0 -> new Long2ObjectAVLTreeMap());
+      Set var4 = (Set)var3.remove(IOIICIRIICICIIOORHCIIIIRRIHRHI.ROCHOOHIHIHCIRHCICIOHHCIOHHHRH);
+      if (var4 != null) {
+         for (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6 : var4) {
+            int var7 = var6.bridge$attemptTurbo();
+            if (var7 < 0) {
+               if (var7 == -1) {
+                  if (var2 instanceof com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var8
+                     )
+                   {
+                     var8.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var6.bridge$getId(), false);
+                  } else if (var2 instanceof RRCRRCORICCHOHHIRCHIROOHIIOHCO var9) {
+                     var9.HRHCHICIOHRIRRCIIRIIIIOOCHOIIH();
+                  }
+               }
+            } else {
+               ((Set)var3.computeIfAbsent(
+                     IOIICIRIICICIIOORHCIIIIRRIHRHI.ROCHOOHIHIHCIRHCICIOHHCIOHHHRH + var7, var0 -> Collections.newSetFromMap(new WeakHashMap())
+                  ))
+                  .add(var6);
+            }
+         }
+      }
+   }
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HHCCIRHCCCIIRHCROHIORHIRHHIORH var1, RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2, int var3) {
+      ((Set)this.IRCCHHCRHRHHICOCIRIOCIRCIHOOCO
+            .computeIfAbsent(var1, var0 -> new Long2ObjectAVLTreeMap())
+            .computeIfAbsent(IOIICIRIICICIIOORHCIIIIRRIHRHI.ROCHOOHIHIHCIRHCICIOHHCIOHHHRH + var3, var0 -> Collections.newSetFromMap(new WeakHashMap())))
+         .add(var2);
+   }
+
+   public void clear() {
+      this.IRCCHHCRHRHHICOCIRIOCIRCIHOOCO.clear();
+   }
+
+   public void CRRRICCRROCOHHOHIICIHORCOORRRH(HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      this.IRCCHHCRHRHHICOCIRIOCIRCIHOOCO.remove(var1);
+   }
+}

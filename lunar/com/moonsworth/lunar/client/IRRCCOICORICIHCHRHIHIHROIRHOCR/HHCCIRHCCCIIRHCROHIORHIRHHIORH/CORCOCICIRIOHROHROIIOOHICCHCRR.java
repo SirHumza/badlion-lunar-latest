@@ -1,0 +1,58 @@
+package com.moonsworth.lunar.client.IRRCCOICORICIHCHRHIHIHROIRHOCR.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.google.common.collect.ImmutableList;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
+import com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HHRIICOIOORCHCOIICOOIHIRHHICRI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import java.util.ArrayList;
+import java.util.List;
+import lombok.Generated;
+
+public class CORCOCICIRIOHROHROIIOOHICCHCRR extends com.moonsworth.lunar.client.IRRCCOICORICIHCHRHIHIHROIRHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private ImmutableList<Component> OIHRHOHOOIOHHOHHHICHORIHIOIHHI = ImmutableList.of();
+   private ImmutableList<String> HRRROHHHIRCHIIIHHCRIICHOHOOCOO = ImmutableList.of();
+
+   public CORCOCICIRIOHROHROIIOOHICCHCRR() {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HHRIICOIOORCHCOIICOOIHIRHHICRI.class, this::HHCCIRHCCCIIRHCROHIORHIRHHIORH, 200);
+   }
+
+   private void HHCCIRHCCCIIRHCROHIORHIRHHIORH(HHRIICOIOORCHCOIICOOIHIRHHICRI var1) {
+      List var2 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getGuiIngame().bridge$getPlayerInfoList();
+      ArrayList var3 = new ArrayList();
+      ArrayList var4 = new ArrayList();
+
+      for (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH var6 : var2) {
+         Component var7 = var6.bridge$getDisplayName();
+         if (!var7.equals(Component.empty())) {
+            var3.add(var7);
+         }
+      }
+
+      for (Component var9 : var3) {
+         var4.add(com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextContent(var9));
+      }
+
+      this.OIHRHOHOOIOHHOHHHICHORIHIOIHHI = ImmutableList.copyOf(var3);
+      this.HRRROHHHIRCHIIIHHCRIICHOHOOCOO = ImmutableList.copyOf(var4);
+   }
+
+   @Override
+   protected void onEnable() {
+      OHHRIOHROOIHOROCIRHCHORIHRRRRI var1 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getGuiIngame();
+      if (var1 != null) {
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HCCOIRHHOOHICHHIOOOIRORRCRIRRO()
+            .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HHRIICOIOORCHCOIICOOIHIRHHICRI.class, HHRIICOIOORCHCOIICOOIHIRHHICRI::new);
+      }
+   }
+
+   @Generated
+   public ImmutableList<Component> IORHOIRCHCRCCIOORRCCIROIRORROO() {
+      return this.OIHRHOHOOIOHHOHHHICHORIHIOIHHI;
+   }
+
+   @Generated
+   public ImmutableList<String> IRHHRCCHCIOOOIRHHCHROHROHOHCII() {
+      return this.HRRROHHHIRCHIIIHHCRIICHOHOOCOO;
+   }
+}

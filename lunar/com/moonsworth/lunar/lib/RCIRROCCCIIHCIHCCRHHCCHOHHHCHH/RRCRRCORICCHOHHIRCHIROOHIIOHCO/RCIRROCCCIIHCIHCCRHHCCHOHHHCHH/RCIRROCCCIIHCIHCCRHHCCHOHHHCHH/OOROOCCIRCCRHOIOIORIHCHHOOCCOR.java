@@ -1,0 +1,137 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
+import java.time.DateTimeException;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
+public class OOROOCCIRCCRHOIOIORIHCHHOOCCOR extends HHCCIRHCCCIIRHCROHIORHIRHHIORH<LocalTime> {
+   private static final long OORRRIRROIHIHRIOICIOIHCOIICHCI = 1L;
+   private static final DateTimeFormatter RCRHHHCCIIOCRHIOCHHRRRRCHOHOCH = DateTimeFormatter.ISO_LOCAL_TIME;
+   public static final OOROOCCIRCCRHOIOIORIHCHHOOCCOR ROHCHCCHROHCOHRIROCCHCHIOCRCCC = new OOROOCCIRCCRHOIOIORIHCHHOOCCOR();
+
+   protected OOROOCCIRCCRHOIOIORIHCHHOOCCOR() {
+      this(RCRHHHCCIIOCRHIOCHHRRRRCHOHOCH);
+   }
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR(DateTimeFormatter var1) {
+      super(LocalTime.class, var1);
+   }
+
+   protected OOROOCCIRCCRHOIOIORIHCHHOOCCOR(OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1, Boolean var2) {
+      super(var1, var2);
+   }
+
+   protected OOROOCCIRCCRHOIOIORIHCHHOOCCOR HICHRCOHCCRHOHCICOOCHOIHCCHIRI(DateTimeFormatter var1) {
+      return new OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var1);
+   }
+
+   protected OOROOCCIRCCRHOIOIORIHCHHOOCCOR COIRRRCIORROCHIROCHROCHICCICIC(Boolean var1) {
+      return new OOROOCCIRCCRHOIOIORIHCHHOOCCOR(this, var1);
+   }
+
+   protected OOROOCCIRCCRHOIOIORIHCHHOOCCOR HRCHROOHRIHCRCRHRIIROCIRHOIRHH(CIOHHCORHRCCRICCCORIHCRHCCCRRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      return this;
+   }
+
+   public LocalTime OCIOROHIHRROROOIRRHRRCCHHRRRHI(
+      OCOHORHCROHICRRIHCIHHRRCIHICRI var1,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2
+   ) {
+      if (var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING)) {
+         return this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var1, var2, var1.getText());
+      }
+
+      if (var1.OCHOCCOIOCOHOHOOIOHOCOHRRRCRCI()) {
+         return this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var1, var2, var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, this, this.handledType()));
+      }
+
+      if (var1.CHIOIROOIOCOCCORRHCIOOORHCRHHR()) {
+         OHHRIOHROOIHOROCIRHCHORIHRRRRI var3 = var1.OHHCRICRRCCHOHIRIRIHOIRHIROOIC();
+         if (var3 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_ARRAY) {
+            return null;
+         }
+
+         if (var2.CRRRICCRROCOHHOHIICIHORCOORRRH(
+               com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.UNWRAP_SINGLE_VALUE_ARRAYS
+            )
+            && (var3 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING || var3 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_EMBEDDED_OBJECT)) {
+            LocalTime var12 = this.OCIOROHIHRROROOIRRHRRCCHHRRRHI(var1, var2);
+            if (var1.OHHCRICRRCCHOHIRIRIHOIRHIROOIC() != OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_ARRAY) {
+               this.handleMissingEndArrayForSingle(var1, var2);
+            }
+
+            return var12;
+         }
+
+         if (var3 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_NUMBER_INT) {
+            int var4 = var1.HHHRCIIIIHOCHICIORORCCOCHOIHIO();
+            var1.OHHCRICRRCCHOHIRIRIHOIRHIROOIC();
+            int var5 = var1.HHHRCIIIIHOCHICIORORCCOCHOIHIO();
+            var3 = var1.OHHCRICRRCCHOHIRIRIHOIRHIROOIC();
+            LocalTime var6;
+            if (var3 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_ARRAY) {
+               var6 = LocalTime.of(var4, var5);
+            } else {
+               int var7 = var1.HHHRCIIIIHOCHICIORORCCOCHOIHIO();
+               var3 = var1.OHHCRICRRCCHOHIRIRIHOIRHIROOIC();
+               if (var3 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_ARRAY) {
+                  var6 = LocalTime.of(var4, var5, var7);
+               } else {
+                  int var8 = var1.HHHRCIIIIHOCHICIORORCCOCHOIHIO();
+                  if (var8 < 1000
+                     && !var2.CRRRICCRROCOHHOHIICIHORCOORRRH(
+                        com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.READ_DATE_TIMESTAMPS_AS_NANOSECONDS
+                     )) {
+                     var8 *= 1000000;
+                  }
+
+                  var3 = var1.OHHCRICRRCCHOHIRIRIHOIRHIROOIC();
+                  if (var3 != OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_ARRAY) {
+                     throw var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, this.handledType(), OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_ARRAY, "Expected array to end");
+                  }
+
+                  var6 = LocalTime.of(var4, var5, var7, var8);
+               }
+            }
+
+            return var6;
+         }
+
+         var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.handledType(), "Unexpected token (%s) within Array, expected VALUE_NUMBER_INT", new Object[]{var3});
+      }
+
+      if (var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_EMBEDDED_OBJECT)) {
+         return (LocalTime)var1.RRIHRHCOCCRROCCHIRHHHIIICHCRRR();
+      }
+
+      if (var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_NUMBER_INT)) {
+         this.HIHCCHCCOCOHRICOICHRCOIHIIRIHO(var1, var2);
+      }
+
+      return this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2, var1, "Expected array or string.");
+   }
+
+   protected LocalTime OOROOCCIRCCRHOIOIORIHCHHOOCCOR(
+      OCOHORHCROHICRRIHCIHHRRCIHICRI var1,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      String var3
+   ) {
+      String var4 = var3.trim();
+      if (var4.length() == 0) {
+         return this.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2, var4);
+      }
+
+      DateTimeFormatter var5 = this.RORIIOOOOHCRRIHIRICCRIHHROHRRI;
+
+      try {
+         return var5 == RCRHHHCCIIOCRHIOCHHRRRRCHOHOCH && var4.contains("T")
+            ? LocalTime.parse(var4, DateTimeFormatter.ISO_LOCAL_DATE_TIME)
+            : LocalTime.parse(var4, var5);
+      } catch (DateTimeException var7) {
+         return this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2, var7, var4);
+      }
+   }
+}

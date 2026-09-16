@@ -1,0 +1,21 @@
+package com.moonsworth.lunar.client.util.CORCOCICIRIOHROHROIIOOHICCHCRR;
+
+import org.joml.Vector3dc;
+
+public record RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   private final Vector3dc CCRICROIHORCCCICCOCHICRIOCOCCR;
+   private final Vector3dc IIIRHOHOCOOHOIROCHCOIRHOHHOOCH;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Vector3dc var1, Vector3dc var2) {
+      this.CCRICROIHORCCCICCOCHICRIOCOCCR = var1;
+      this.IIIRHOHOCOOHOIROCHCOIRHOHHOOCH = var2;
+   }
+
+   public Vector3dc IOCCOHIIORHRCIIIHCOIOIHRICICOC() {
+      return this.CCRICROIHORCCCICCOCHICRIOCOCCR;
+   }
+
+   public Vector3dc ORRICRRROIOROCIIICHOHORCOCCHOI() {
+      return this.IIIRHOHOCOOHOIROCHCOIRHOHHOOCH;
+   }
+}

@@ -1,0 +1,175 @@
+package com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRRCCOICORICIHCHRHIHIHROIRHOCR;
+import com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import lombok.Generated;
+import mchorse.emoticons.common.emotes.Emote;
+import mchorse.emoticons.common.emotes.Emotes;
+
+public abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements HRCHROOHRIHCRCRHRIIROCIRHOIRHH, IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   protected final String OCHOCHIRCHCROOCRRCHRROOOHRRIHO;
+   protected final String CHHIRRIOCHCHOHIRIIIIIIROORHHHR;
+   protected final com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH HRRHHHIOIHOIOROHROIRHCOIRCORIC;
+   private final com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH HRHCHHRIRCIHHHIICROIICRHRCCOCH;
+   private final int OHOOCCCOOROIRHHIHICORRIROOOCRH;
+   private final HHCCIRHCCCIIRHCROHIORHIRHHIORH HOOCICHHHCIHRHIROHIORCIROHCHRR;
+   private RCIROOOOICRHCCRRCIORHHIRCOIIIC CROCOCOOOIOIHOHHRHIOHOOCCOHOIO;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      int var1,
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH var2,
+      String var3,
+      String var4,
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var5,
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6
+   ) {
+      this.OHOOCCCOOROIRHHIHICORRIROOOCRH = var1;
+      this.HOOCICHHHCIHRHIROHIORCIROHCHRR = var2;
+      this.OCHOCHIRCHCROOCRRCHRROOOHRRIHO = var3;
+      this.CHHIRRIOCHCHOHIRIIIIIIROORHHHR = var4;
+      this.HRHCHHRIRCIHHHIICROIICRHRCCOCH = var6;
+      this.HRRHHHIOIHOIOROHROIRHCOIRCORIC = var5;
+      if (this.HRRHHHIOIHOIOROHROIRHCOIRCORIC != null) {
+         this.HRRHHHIOIHOIOROHROIRHCOIRCORIC.start();
+      }
+
+      try {
+         this.CROCOCOOOIOIHOHHRHIOHOOCCOHOIO = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create("lunar", "emotes/icons/" + var1 + ".webp");
+      } catch (Exception var8) {
+         var8.printStackTrace();
+         this.CROCOCOOOIOIHOHHRHIOHOOCCOHOIO = null;
+      }
+   }
+
+   public String RHCOHOHIRCRROHROCHIHROHIHHCROI() {
+      return this.OCHOCHIRCHCROOCRRCHRROOOHRRIHO.toLowerCase().replace(" ", "_");
+   }
+
+   public boolean IHIOHHHHIRHRHIHHHHRICRIHCHOOCO() {
+      return this.HRRHHHIOIHOIOROHROIRHCOIRCORIC.CCHRRRORHHCHCOIIORCCRICOHICOHI();
+   }
+
+   public void IIHRHCCOOHOOOOCHRRCOROOIOHCOOO(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1
+   ) {
+      if (var1 != null) {
+         if (var1 == IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH()
+            && com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR().COOCRCHRIOOCHCIHCIOCHHIOOIRHIC().IHCIRIOIIHRHOCCOOOHOCOCORCCCIC
+            )
+          {
+            if (!IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HHCCIRORCRCHOIOHRRIRRRIORRCRRR().CHICCHHHRCRROORCRCCCRHOICIOROC().isActive()) {
+               IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getGameSettings().bridge$setThirdPersonView(0);
+            }
+
+            com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR().COOCRCHRIOOCHCIHCIOCHHIOOIRHIC().IHCIRIOIIHRHOCCOOOHOCOCORCCCIC = false;
+         }
+      }
+   }
+
+   public boolean RROIRRCROOCOORHHICICOCHCRRCRIH() {
+      return false;
+   }
+
+   public int getMetadata() {
+      return Emotes.get(this.RHCOHOHIRCRROHROCHIHROHIHHCROI()).<Integer>map(Emote::getMetadata).orElse(-1);
+   }
+
+   private float RRRHHIRORHCHHCOOCIHOICORHHCHHO(long var1) {
+      return Math.round((float)var1 / 1000.0F * 100.0F) / 100.0F;
+   }
+
+   @Override
+   public JsonElement provide() {
+      JsonObject var1 = new JsonObject();
+      var1.addProperty("id", this.OHOOCCCOOROIRHHIHICORRIROOOCRH);
+      var1.addProperty("name", this.OCHOCHIRCHCROOCRRCHRROOOHRRIHO);
+      var1.addProperty("resource", this.CROCOCOOOIOIHOHHRHIOHOOCCOHOIO.bridge$getPath());
+      var1.addProperty("animator", this.CHHIRRIOCHCHOHIRIIIIIIROORHHHR);
+      IRRCCOICORICIHCHRHIHIHROIRHOCR var2 = com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR()
+         .CCHHHHCICRCCCIOOIOICOOCRCRHCCR();
+      if (this.HOOCICHHHCIHRHIROHIORCIROHCHRR != null) {
+         if (this.HOOCICHHHCIHRHIROHIORCIROHCHRR.IORCRHOCIHOCOROCROIICIRHRCOIRR() > 0L) {
+            String var3;
+            if (this.HOOCICHHHCIHRHIROHIORCIROHCHRR.IORCRHOCIHOCOROCROIICIRHRCOIRR() < System.currentTimeMillis()) {
+               var1.addProperty("expireTime", this.HOOCICHHHCIHRHIROHIORCIROHCHRR.IORCRHOCIHOCOROCROIICIRHRCOIRR());
+               int var4 = Math.max(1, (int)((System.currentTimeMillis() - this.HOOCICHHHCIHRHIROHIORCIROHCHRR.IORCRHOCIHOCOROCROIICIRHRCOIRR()) / 86400000L));
+               var3 = var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH("gui.emotes", var4 > 1 ? "expired_plural" : "expired_singular", var4);
+            } else {
+               var1.addProperty("expireTime", 0);
+               int var8 = Math.max(1, (int)((this.HOOCICHHHCIHRHIROHIORCIROHCHRR.IORCRHOCIHOCOROCROIICIRHRCOIRR() - System.currentTimeMillis()) / 86400000L));
+               var3 = var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH("gui.emotes", var8 > 1 ? "expires_in_plural" : "expires_in_singular", var8);
+            }
+
+            var1.addProperty("expiresIn", var3);
+         }
+
+         if (this.HOOCICHHHCIHRHIROHIORCIROHCHRR.IOOIIROIIOOICHOCICCICHHIHICIOO() != null) {
+            var1.addProperty("grantedAt", this.HOOCICHHHCIHRHIROHIORCIROHCHRR.IOOIIROIIOOICHOCICCICHHIHICIOO().getEpochSecond());
+            var1.addProperty("grantedAtReadable", this.HOOCICHHHCIHRHIROHIORCIROHCHRR.RIHOCCRCOCHHIRRIICCCHHROIHIHHR());
+         } else {
+            var1.addProperty("grantedAt", 0);
+            var1.addProperty("grantedAtReadable", "Unknown");
+         }
+
+         if (this.HOOCICHHHCIHRHIROHIORCIROHCHRR.HORHCRHORHCORCOCHOORHHIRORRIRO() != null) {
+            var1.add("gifter", this.HOOCICHHHCIHRHIROHIORCIROHCHRR.HORHCRHORHCORCOCHOORHHIRORRIRO().provide());
+         }
+
+         var1.add(
+            "recommendedJams",
+            IIRHCHHOICHRICOOCRORCCIOOIHOIR.ORHHIICRRIOIOHCHHCHHHRCIORCHRI.toJsonTree(this.HOOCICHHHCIHRHIROHIORCIROHCHRR.COIRCOHORRHROIIIHIOIHHHOOCIHHH())
+         );
+      }
+
+      Emote var7 = (Emote)Emotes.EMOTES.get(this.OCHOCHIRCHCROOCRRCHRROOOHRRIHO.toLowerCase().replace(" ", "_"));
+      if (var7 != null) {
+         String var9 = var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH("gui.emotes", var7.looping ? "yes" : "no");
+         String var5 = var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH("gui.emotes", "loops", var9);
+         String var6 = var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH("gui.emotes", "duration", this.RRRHHIRORHCHHCOOCIHOICORHHCHHO(var7.duration * 50L));
+         var1.addProperty("loops", var5);
+         var1.addProperty("duration", var6);
+      }
+
+      return var1;
+   }
+
+   @Generated
+   public String getName() {
+      return this.OCHOCHIRCHCROOCRRCHRROOOHRRIHO;
+   }
+
+   @Generated
+   public String CHHHRIIIIIRRHHICIRHCOCHIOHCRHR() {
+      return this.CHHIRRIOCHCHOHIRIIIIIIROORHHHR;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CIRIOICICOIIRCCHIOCCHHORCCHROI() {
+      return this.HRRHHHIOIHOIOROHROIRHCOIRCORIC;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RRICIHCCHCOHHCRHRHCHIHRROHIHIC() {
+      return this.HRHCHHRIRCIHHHIICROIICRHRCCOCH;
+   }
+
+   @Generated
+   public int getId() {
+      return this.OHOOCCCOOROIRHHIHICORRIROOOCRH;
+   }
+
+   @Generated
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH HCHROROOIIORIORRIOHOIROCHORCRO() {
+      return this.HOOCICHHHCIHRHIROHIORCIROHCHRR;
+   }
+
+   @Generated
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC getResource() {
+      return this.CROCOCOOOIOIHOHHRHIOHOOCCOHOIO;
+   }
+}

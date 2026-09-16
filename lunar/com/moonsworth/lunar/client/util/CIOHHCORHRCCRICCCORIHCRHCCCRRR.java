@@ -1,0 +1,25 @@
+package com.moonsworth.lunar.client.util;
+
+import org.jetbrains.annotations.NotNull;
+
+public record CIOHHCORHRCCRICCCORIHCRHCCCRRR<T>() implements Comparable<CIOHHCORHRCCRICCCORIHCRHCCCRRR<T>> {
+   private final T CICIOHRIHOHCCRRHOCIRHOOIROCRCR;
+   private final float IOIOOOOOROROIIRRCICIROOORHOCIO;
+
+   public CIOHHCORHRCCRICCCORIHCRHCCCRRR(T var1, float var2) {
+      this.CICIOHRIHOHCCRRHOCIRHOOIROCRCR = (T)var1;
+      this.IOIOOOOOROROIIRRCICIROOORHOCIO = var2;
+   }
+
+   public int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(@NotNull CIOHHCORHRCCRICCCORIHCRHCCCRRR<T> var1) {
+      return Float.compare(this.IOIOOOOOROROIIRRCICIROOORHOCIO, var1.IOIOOOOOROROIIRRCICIROOORHOCIO);
+   }
+
+   public T HRCCIIICOIIOORHIHHOOIOICOOIIII() {
+      return this.CICIOHRIHOHCCRRHOCIRHOOIROCRCR;
+   }
+
+   public float value() {
+      return this.IOIOOOOOROROIIRRCICIROOORHOCIO;
+   }
+}

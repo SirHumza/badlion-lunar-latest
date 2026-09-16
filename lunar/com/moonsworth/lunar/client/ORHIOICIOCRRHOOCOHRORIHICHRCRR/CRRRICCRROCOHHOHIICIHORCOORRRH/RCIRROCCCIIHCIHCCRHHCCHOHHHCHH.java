@@ -1,0 +1,36 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import org.jetbrains.annotations.Nullable;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   @Nullable
+   public static RRCRRCORICCHOHHIRCHIROOHIIOHCO HRHIHIRHRCHHRORRRCORHOCIRHRIOR(RCIROOOOICRHCCRRCIORHHIRCOIIIC var0) {
+      RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getResourceManager();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RRCRRCORICCHOHHIRCHIROOHIIOHCO var2 = var1.bridge$getResource(
+         var0
+      );
+      if (var2 == null) {
+         com.moonsworth.lunar.client.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+            "Couldn't find the bedrock scheme resource: " + var0
+         );
+         return null;
+      }
+
+      try (
+         InputStreamReader var3 = new InputStreamReader(var2.bridge$getInputStream(), StandardCharsets.UTF_8);
+         BufferedReader var4 = new BufferedReader(var3);
+      ) {
+         JsonObject var5 = IIRHCHHOICHRICOOCRORCCIOOIHOIR.ORHHIICRRIOIOHCHHCHHHRCIORCHRI.fromJson(var4, JsonObject.class);
+         return RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOIICIRIICICIIOORHCIIIIRRIHRHI(var5);
+      }
+   }
+}

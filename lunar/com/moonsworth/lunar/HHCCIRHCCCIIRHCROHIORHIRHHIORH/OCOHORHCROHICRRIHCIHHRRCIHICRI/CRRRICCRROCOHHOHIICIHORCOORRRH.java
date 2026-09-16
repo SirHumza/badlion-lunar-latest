@@ -1,0 +1,23 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+
+import java.awt.image.BufferedImage;
+import java.util.function.Supplier;
+
+public interface CRRRICCRROCOHHOHIICIHORCOORRRH {
+   boolean OIHCOHRCICCCRHRCROOCIOIRRHHHIH(int var1);
+
+   int getX();
+
+   int getY();
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(max = 5)
+   default void RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(int var1, int var2, int var3) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   Object RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1, Supplier<BufferedImage> var2, int var3, int var4);
+
+   void OOROOCCIRCCRHOIOIORIHCHHOOCCOR(Object var1);
+
+   void ORRIOIICRHIRHICIHHRRIHOICCHHCI();
+}

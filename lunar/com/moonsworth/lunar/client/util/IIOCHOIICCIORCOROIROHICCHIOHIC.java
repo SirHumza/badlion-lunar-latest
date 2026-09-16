@@ -1,0 +1,24 @@
+package com.moonsworth.lunar.client.util;
+
+public class IIOCHOIICCIORCOROIROHICCHIOHIC {
+   private static boolean dirty;
+
+   public static void IIHOCRCHOOCROHIICOCIROOORHIOIR() {
+      dirty = true;
+   }
+
+   public static void RHHROHORROHCRRIOOROIHHORRCCORI() {
+      if (dirty) {
+         dirty = false;
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.OIOORROOHCRRCOCOHICICRCIOCIIOH(null);
+      }
+   }
+
+   static {
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HCCOIRHHOOHICHHIOOOIRORRCRIRRO()
+         .HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+            com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.IOIICIRIICICIIOORHCIIIIRRIHRHI.class,
+            var0 -> RHHROHORROHCRRIOOROIHHORRCCORI()
+         );
+   }
+}

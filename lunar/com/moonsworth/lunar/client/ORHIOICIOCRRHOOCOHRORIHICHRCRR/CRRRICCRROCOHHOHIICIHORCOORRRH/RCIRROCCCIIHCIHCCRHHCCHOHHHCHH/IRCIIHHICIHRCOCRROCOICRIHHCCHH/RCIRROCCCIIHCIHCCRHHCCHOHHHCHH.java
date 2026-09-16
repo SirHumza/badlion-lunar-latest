@@ -1,0 +1,76 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.HICRRICCHCCROOHHCHOCOCCHOIHHOC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.IRRCCOICORICIHCHRHIHIHROIRHOCR;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.nio.ByteBuffer;
+import java.util.ArrayList;
+import java.util.List;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements IRRCCOICORICIHCHRHIHIHROIRHOCR {
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC texture;
+   public List<com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> elements = new ArrayList<>();
+   public int index;
+   public int duration;
+   public int width;
+   public int height;
+
+   public static void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var0, int var1, float var2) {
+      HICRRICCHCCROOHHCHOCOCCHOIHHOC var3 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getTextureManager();
+      if (var0.bridge$getPath().endsWith("gif")
+         && var3.bridge$getTexture(var0) instanceof com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var5
+         )
+       {
+         int var6 = var5.index;
+         if (var1 >= 0) {
+            var5.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2);
+         }
+
+         if (var1 >= 0) {
+            var5.index = var6;
+         }
+      }
+   }
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1) {
+      this.texture = var1;
+   }
+
+   public void RCCHHCIOIIRHRCRHOIRCRCRIORHHRC() {
+      this.duration = 0;
+
+      for (com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2 : this.elements) {
+         this.duration = this.duration + var2.delay;
+      }
+   }
+
+   public void RRCRRCORICCHOHHIRCHIROOHIIOHCO(int var1, float var2) {
+      int var3 = (int)((var1 + var2) * 5.0F % this.duration);
+      int var4 = 0;
+      int var5 = 0;
+      this.index = 0;
+
+      for (com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var7 : this.elements) {
+         var4 += var7.delay;
+         if (var3 < var4) {
+            this.index = var5 == 0 ? 0 : var5 - 1;
+            break;
+         }
+
+         var5++;
+      }
+   }
+
+   @Override
+   public void bridge$setFilter(boolean var1, boolean var2) {
+   }
+
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      public int delay;
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1, int var2, int var3, ByteBuffer var4) {
+         this.delay = var1;
+      }
+   }
+}

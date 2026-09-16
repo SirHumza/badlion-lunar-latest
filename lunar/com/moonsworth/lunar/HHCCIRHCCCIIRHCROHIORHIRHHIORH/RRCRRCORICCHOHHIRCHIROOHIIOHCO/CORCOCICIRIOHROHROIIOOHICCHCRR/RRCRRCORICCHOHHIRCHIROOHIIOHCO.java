@@ -1,0 +1,15 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR;
+
+import java.io.InputStream;
+
+public interface RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   InputStream bridge$getInputStream();
+
+   boolean bridge$hasMetadata();
+
+   <T extends com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH> T bridge$getMetadata(
+      String var1
+   );
+
+   String bridge$getResourcePackName();
+}

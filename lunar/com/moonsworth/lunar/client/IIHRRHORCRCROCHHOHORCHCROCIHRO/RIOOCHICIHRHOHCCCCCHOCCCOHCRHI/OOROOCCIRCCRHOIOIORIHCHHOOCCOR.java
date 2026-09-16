@@ -1,0 +1,112 @@
+package com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.ROOCOCCCIRHHHIRIOIHHHHRHIICHHR;
+import com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ICICIOCHHHIHOCHCOHORIHRCOHHOCR;
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class OOROOCCIRCCRHOIOIORIHCHHOOCCOR extends RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   protected final float OOOCOHHICHIRRRCOOHHOOOCHRHICHI;
+   protected final float IHCHORROOOOROHOHCRHROCROCORRRR;
+   protected float IOHCOOORROROCRICOCIICHIHCRHOCR;
+   protected float CHIICOCIOORRCIIHOHRRHHOIIIHRCR;
+   private List<ICICIOCHHHIHOCHCOHORIHRCOHHOCR<?>> CHHHIOOHHOIROCOCCCRICOCIRCOIIC;
+   protected float OHROCIHICIHHHCHHCCCOIOORIIIIOI = 20.0F;
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR(float var1, float var2) {
+      this.OOOCOHHICHIRRRCOOHHOOOCHRHICHI = var1;
+      this.IHCHORROOOOROHOHCRHROCROCORRRR = var2;
+   }
+
+   @Override
+   protected List<IRCIIHHICIHRCOCRROCOICRIHHCCHH> IOORRIICROOCRHOORCICRHRCRROCRI() {
+      List var1 = super.IOORRIICROOCRHOORCICRHRCRROCRI();
+      List var2 = this.HRRCHROCHCHORHCIRICRIHCIICCRHH();
+      ArrayList var3 = new ArrayList(var1);
+      this.CHHHIOOHHOIROCOCCCRICOCIRCOIIC = new ArrayList<>();
+      var2.stream().map(var0 -> var0.OCOHORHCROHICRRIHCIHHRRCIHICRI(null)).forEach(var2x -> {
+         this.CHHHIOOHHOIROCOCCCRICOCIRCOIIC.add((ICICIOCHHHIHOCHCOHORIHRCOHHOCR<?>)var2x);
+         var3.add(var2x);
+      });
+      return var3;
+   }
+
+   @Override
+   public void initGui() {
+      this.IOHCOOORROROCRICOCIICHIHCRHOCR = this.IHHOOHCOCCCHRRRCOHIHIOOIHRIHRH() / 2.0F - this.OOOCOHHICHIRRRCOOHHOOOCHRHICHI / 2.0F;
+      this.CHIICOCIOORRCIIHOHRRHHOIIIHRCR = this.CCOOCCIOHCRRIOCHOCICRROICHHCHI() / 2.0F - this.IHCHORROOOOROHOHCRHROCROCORRRR / 2.0F;
+      super.initGui();
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH var2,
+      float var3
+   ) {
+      float var4 = 0.0F;
+      int var5 = 0;
+      float var6 = this.CHIICOCIOORRCIIHOHRRHHOIIIHRCR + 27.0F;
+
+      for (ICICIOCHHHIHOCHCOHORIHRCOHHOCR var8 : this.CHHHIOOHHOIROCOCCCRICOCIRCOIIC) {
+         if (!var8.getOption().isHidden()) {
+            boolean var9 = var8.CRRIHOOHIRHRHHCROHIHHCICRICIIH();
+            boolean var10 = var8.getOption() instanceof ROOCOCCCIRHHHIRIOIHHHHRHIICHHR;
+            float var11 = this.OOOCOHHICHIRRRCOOHHOOOCHRHICHI - this.OHROCIHICIHHHCHHCCCOIOORIIIIOI;
+            float var12 = var9 ? var11 / 2.0F : var11;
+            if (var5 == 2) {
+               var5 = 0;
+               var6 += var4;
+               var4 = 0.0F;
+            }
+
+            if (!var9) {
+               var5 = 0;
+               var6 += var4;
+               var4 = 0.0F;
+            }
+
+            if (var8.getHeight() > var4) {
+               var4 = var8.getHeight() + 6.0F;
+            }
+
+            var8.IRRCCOICORICIHCHRHIHIHROIRHOCR(
+               this.IOHCOOORROROCRICOCIICHIHCRHOCR + (var10 ? 0.0F : 15.0F) + var5 * (this.OOOCOHHICHIRRRCOOHHOOOCHRHICHI / 2.0F), var6, var12
+            );
+            if (!var9) {
+               var6 += var4;
+               var4 = 0.0F;
+            } else {
+               if (this.CHHHIOOHHOIROCOCCCRICOCIRCOIIC.get(this.CHHHIOOHHOIROCOCCCRICOCIRCOIIC.size() - 1) == var8) {
+                  var6 += var4;
+               }
+
+               var5++;
+            }
+         }
+      }
+
+      super.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3);
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      var1.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0 -> var0.HHIIOHOORHHCCHRHHRCIORCROORCOI().RHHIIRORCOIORHIOHRHCIHRHHIRCRH());
+      var1.push();
+      var1.CRICCOOHHHCHOORCICOCOHIHOIRHOO(0.0F, 0.0F, 100.0F);
+
+      for (ICICIOCHHHIHOCHCOHORIHRCOHHOCR var4 : this.CHHHIOOHHOIROCOCCCRICOCIRCOIIC) {
+         ICICIOCHHHIHOCHCOHORIHRCOHHOCR var5 = var4.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var2);
+         if (var5 != null) {
+            var5.HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1, var2);
+            break;
+         }
+      }
+
+      var1.pop();
+   }
+}

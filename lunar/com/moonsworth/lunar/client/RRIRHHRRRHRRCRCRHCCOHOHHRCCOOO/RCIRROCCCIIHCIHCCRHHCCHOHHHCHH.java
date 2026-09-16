@@ -1,0 +1,21 @@
+package com.moonsworth.lunar.client.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private static final RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CRIHRHOCICHROCHRCOICRHHIOOORRH = new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH();
+   private boolean supported = false;
+
+   public void RCRICHOCHHHCRCORROOIHCROOIICOC(boolean var1) {
+      com.moonsworth.lunar.client.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         "Threaded Present Supported %b", var1
+      );
+      this.supported = var1;
+   }
+
+   public boolean OCOORRCCCIOOICROHICOOCIOHHRORR() {
+      return this.supported;
+   }
+
+   public static RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IRIRCRICIIOCCORCOIOCHRHORHRROH() {
+      return CRIHRHOCICHROCHRCOICRHHIOOORRH;
+   }
+}

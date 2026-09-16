@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import java.util.Optional;
+
+public interface CORCOCICIRIOHROHROIIOOHICCHCRR {
+   default Optional<String> RICCICOHIICIIORHCHCRCRHOOOCHIC() {
+      return Optional.empty();
+   }
+}

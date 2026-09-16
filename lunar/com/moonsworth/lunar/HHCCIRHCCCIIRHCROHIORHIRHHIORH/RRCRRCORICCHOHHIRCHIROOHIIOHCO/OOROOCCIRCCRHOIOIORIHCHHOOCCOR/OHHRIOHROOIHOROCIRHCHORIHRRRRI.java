@@ -1,0 +1,7 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+
+public interface OHHRIOHROOIHOROCIRHCHORIHRRRRI {
+   void bridge$setupState();
+
+   void bridge$clearState();
+}

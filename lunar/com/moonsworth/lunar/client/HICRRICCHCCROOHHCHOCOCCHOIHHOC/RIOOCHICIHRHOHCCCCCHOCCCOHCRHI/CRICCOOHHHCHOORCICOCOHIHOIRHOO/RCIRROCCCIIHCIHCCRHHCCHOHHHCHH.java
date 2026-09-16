@@ -1,0 +1,195 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import lombok.Generated;
+
+public abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private final String RRICHRICIHROOCOOCIICHOCORHOIRR;
+
+   public static com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH IIIHOOCOOHROCHOOCICHHCHROHIRIR(
+      String var0
+   ) {
+      return new com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         var0
+      );
+   }
+
+   public static com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH HRHIRIROOIHHCCCIHHRHIORHOIORCI(
+      String var0
+   ) {
+      int var1 = var0.indexOf(":");
+      return var1 != -1 && var1 + 1 < var0.length()
+         ? RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(RCIROOOOICRHCCRRCIORHHIRCOIIIC.create("lunar-jit", var0.substring(var1 + 1)))
+         : RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(RCIROOOOICRHCCRRCIORHHIRCOIIIC.create("lunar-jit", var0));
+   }
+
+   public static com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var0
+   ) {
+      return new com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         var0
+      );
+   }
+
+   public static com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CIRCIICRRHROHHIHCRCHHHIRHIHHIC(
+      String var0
+   ) {
+      return RRHOOOORORHHOOIHRCCHIIHHIIIIOH(RCIROOOOICRHCCRRCIORHHIRCOIIIC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0, "lunar"));
+   }
+
+   public abstract String HIIOOIIIHRORCRICHOHIHOHOCIRHHH();
+
+   public static com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RRHOOOORORHHOOIHRCCHIIHHIIIIOH(
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var0
+   ) {
+      return new com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var0
+      );
+   }
+
+   public boolean CRCRIICOOHHHOIRIIIRICIORHRCCOH() {
+      return false;
+   }
+
+   public boolean OCROIROOCHIRIICORRRRIIHCCHIORR() {
+      return false;
+   }
+
+   @Override
+   public String toString() {
+      return "CloakShaderKey(" + this.RRICHRICIHROOCOOCIICHOCORHOIRR + ")";
+   }
+
+   public static com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CCIRCRIOOIIICIIRIIIOOCOIHOORIC(
+      String var0
+   ) {
+      int var1 = var0.indexOf("_");
+      if (var1 == -1) {
+         throw new RuntimeException("Invalid Cloak Shader key: '" + var0 + "'!");
+      }
+
+      String var2 = var0.substring(0, var1);
+      String var3 = var0.substring(var1 + 1);
+
+      return switch (var2) {
+         case "static" -> IIIHOOCOOHROCHOOCICHHCHROHIRIR(var3);
+         case "dev" -> CIRCIICRRHROHHIHCRCHHHIRHIHHIC(var3);
+         case "jit" -> HRHIRIROOIHHCCCIHHRHIORHOIORCI(var3);
+         default -> throw new RuntimeException("Unknown Cloak Shader key type: '" + var2 + "'!");
+      };
+   }
+
+   @Generated
+   private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1) {
+      this.RRICHRICIHROOCOOCIICHOCORHOIRR = var1;
+   }
+
+   @Generated
+   @Override
+   public boolean equals(Object var1) {
+      if (var1 == this) {
+         return true;
+      } else if (!(
+         var1 instanceof com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2
+      )) {
+         return false;
+      } else {
+         if (!var2.canEqual(this)) {
+            return false;
+         }
+
+         String var3 = this.getKey();
+         String var4 = var2.getKey();
+         return var3 == null ? var4 == null : var3.equals(var4);
+      }
+   }
+
+   @Generated
+   protected boolean canEqual(Object var1) {
+      return var1 instanceof com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+   }
+
+   @Generated
+   @Override
+   public int hashCode() {
+      byte var1 = 59;
+      byte var2 = 1;
+      String var3 = this.getKey();
+      return var2 * 59 + (var3 == null ? 43 : var3.hashCode());
+   }
+
+   @Generated
+   public String getKey() {
+      return this.RRICHRICIHROOCOOCIICHOCORHOIRR;
+   }
+
+   public static class HHCCIRHCCCIIRHCROHIORHIRHHIORH
+      extends com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      private final String OIRCRCROOCOHRRCHIHROCHORRIIIRC;
+
+      private HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var1) {
+         super("static_" + var1);
+         this.OIRCRCROOCOHRRCHIHROCHORRIIIRC = var1;
+      }
+
+      @Override
+      public String HIIOOIIIHRORCRICHOHIHOHOCIRHHH() {
+         return this.OIRCRCROOCOHRRCHIHROCHORRIIIRC;
+      }
+
+      @Generated
+      public String IROOHCIRRRHHIRIOCHCCHROROIOOIR() {
+         return this.OIRCRCROOCOHRRCHIHROCHORRIIIRC;
+      }
+   }
+
+   public static class IRCIIHHICIHRCOCRROCOICRIHHCCHH
+      extends com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      private final RCIROOOOICRHCCRRCIORHHIRCOIIIC RIROOCRIOOCCROCOHOIHIRRHIRIOHI;
+
+      private IRCIIHHICIHRCOCRROCOICRIHHCCHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1) {
+         super("jit_" + var1.bridge$getPath());
+         this.RIROOCRIOOCCROCOHOIHIRRHIRIOHI = var1;
+      }
+
+      @Override
+      public String HIIOOIIIHRORCRICHOHIHOHOCIRHHH() {
+         return this.RIROOCRIOOCCROCOHOIHIRRHIRIOHI.bridge$getPath();
+      }
+
+      @Override
+      public boolean CRCRIICOOHHHOIRIIIRICIORHRCCOH() {
+         return true;
+      }
+
+      @Generated
+      public RCIROOOOICRHCCRRCIORHHIRCOIIIC getLocation() {
+         return this.RIROOCRIOOCCROCOHOIHIRRHIRIOHI;
+      }
+   }
+
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      extends com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      private final RCIROOOOICRHCCRRCIORHHIRCOIIIC RICOOCCIOOROCHHICHROOCRRCHIOHH;
+
+      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1) {
+         super("dev_" + var1.bridge$getPath());
+         this.RICOOCCIOOROCHHICHROOCRRCHIOHH = var1;
+      }
+
+      @Override
+      public String HIIOOIIIHRORCRICHOHIHOHOCIRHHH() {
+         return this.RICOOCCIOOROCHHICHROOCRRCHIOHH.bridge$getPath();
+      }
+
+      @Override
+      public boolean OCROIROOCHIRIICORRRRIIHCCHIORR() {
+         return true;
+      }
+
+      @Generated
+      public RCIROOOOICRHCCRRCIORHHIRCOIIIC getLocation() {
+         return this.RICOOCCIOOROCHHICHROOCRRCHIOHH;
+      }
+   }
+}

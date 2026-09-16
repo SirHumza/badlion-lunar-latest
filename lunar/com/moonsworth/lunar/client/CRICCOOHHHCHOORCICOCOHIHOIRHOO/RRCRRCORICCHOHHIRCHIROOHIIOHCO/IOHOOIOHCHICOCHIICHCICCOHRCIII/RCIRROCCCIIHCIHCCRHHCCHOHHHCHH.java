@@ -1,0 +1,894 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.CRHROHHHCIHHCOHCOORCRIHHIICROR;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.IIHRRHORCRCROCHHOHORCHCROCIHRO.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRHCCOOHOOOOCHRRCOROOIOHCOOO;
+import com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.RICRIRRCOHRCOCRRHHCRHRROOIOHHR;
+import javax.annotation.Nullable;
+import lombok.Generated;
+import lombok.NonNull;
+import org.apache.commons.lang3.text.WordUtils;
+import org.intellij.lang.annotations.Subst;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   private transient double distance;
+   @NonNull
+   private String name;
+   @NonNull
+   private CRHROHHHCIHHCOHCOORCRIHHIICROR COOOROIICHHICCCHCCIOIRRRRIIORO;
+   @NonNull
+   private String world;
+   private int dimension;
+   private com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH ICHRROCHRRICHHCICHHIHRIRCCRRHC;
+   private boolean HROOHOIIRICHHCCCIRHHICRHHRIIOH;
+   private boolean HCOOIHCOOCHCOOHRHHRIOROHOHOOIO;
+   @Nullable
+   private String COHOCIIORHORIIIHOCIOROHCIIOHRI;
+   private boolean visible;
+   private boolean RHHCCOORIRRHCORHHRIIRHRHHCIROH;
+   @NonNull
+   private String server;
+   private boolean HCIOOOHRICCIRRROCCOOHCOCRIHHRO;
+   private long COHIRRIHHIOOOIIORIOOHCRIHOIOIH;
+   private int RORRRHIIHIOHHIIRCICIHHORCHOIOH;
+   @Nullable
+   private IRCIIHHICIHRCOCRROCOICRIHHCCHH CCIRHOHOCORIIIIIORRIHHCOROOOCC;
+   private int CCCORRHRCHCCOICHHCOIROIICIOHOH;
+   private CRRRICCRROCOHHOHIICIHORCOORRRH OCHCCRIHCHCCHOCRIROIOOOOHOIOII;
+
+   public boolean shouldRender() {
+      return !com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR()
+            .HHCCIRORCRCHOIOHRRIRRRIORRCRRR()
+            .HOOHRIIRIHCIHIIHIOHHOHHORIOHOR()
+            .CIHCIHCORCICOHIRICHRRIORROOICH()
+         && IICCOOCHCHROORHHIIHROHCCRHRCOR.RIIOCICROIOIORIIRIICORCHHRIIRH() != null
+         && com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR().HRICIORORHCRHCCCIIIHRRHCICOHOR(this.world)
+         && (this.dimension == -999 || IICCOOCHCHROORHHIIHROHCCRHRCOR.RIIOCICROIOIORIIRIICORCHHRIIRH().bridge$getDimensionId() == this.dimension)
+         && (this.HROOHOIIRICHHCCCIRHHICRHHRIIOH || this.server.equals(IIHRHCCOOHOOOOCHRRCOROOIOHCOOO.HIRHRIOCOCCCORCRICIICOIIIOCOHI()))
+         && (
+            !this.HROOHOIIRICHHCCCIRHHICRHHRIIOH
+               || IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HHCCIRORCRCHOIOHRRIRRRIORRCRRR().IHIIROIOIHOHCHICOIIIHOHHCOIOCI().isEnabled()
+         )
+         && (!this.HROOHOIIRICHHCCCIRHHICRHHRIIOH || OCOHORHCROHICRRIHCIHHRRCIHICRI.HIOIORCICHOHCHCHRRIRHIIIOHICIH() == this.ICHRROCHRRICHHCICHHIHRIRCCRRHC)
+         && (
+            !this.HCOOIHCOOCHCOOHRHHRIOROHOHOOIO
+               || IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+                  .HHCCIRORCRCHOIOHRRIRRRIORRCRRR()
+                  .IHCOOOOCIIRCCCCCOCCHICRHCRICIO()
+                  .IORCRHHOIOHORRCOHORCCICOICICRI()
+                  .get()
+         );
+   }
+
+   public boolean HRICIORORHCRHCCCIIIHRRHCICOHOR(String var1) {
+      return var1.isEmpty()
+         || this.world.isEmpty()
+         || com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR().HRICIORORHCRHCCCIIIHRRHCICOHOR(var1);
+   }
+
+   public String getLabel() {
+      return this.name.isEmpty() ? "W" : this.name.substring(0, 1).toUpperCase();
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      this.name = var1.name;
+      this.COOOROIICHHICCCHCCIOIRRRRIIORO = var1.COOOROIICHHICCCHCCIOIRRRRIIORO;
+      this.dimension = var1.dimension;
+      this.COHOCIIORHORIIIHOCIOROHCIIOHRI = var1.COHOCIIORHORIIIHOCIOROHCIIOHRI;
+      this.ICHRROCHRRICHHCICHHIHRIRCCRRHC = var1.ICHRROCHRRICHHCICHHIHRIRCCRRHC;
+      this.HROOHOIIRICHHCCCIRHHICRHHRIIOH = var1.HROOHOIIRICHHCCCIRHHICRHHRIIOH;
+      this.CCIRHOHOCORIIIIIORRIHHCOROOOCC = var1.CCIRHOHOCORIIIIIORRIHHCOROOOCC;
+      this.OCHCCRIHCHCCHOCRIROIOOOOHOIOII.CRRRICCRROCOHHOHIICIHORCOORRRH(var1.OCHCCRIHCHCCHOCRIROIOOOOHOIOII);
+   }
+
+   @Override
+   public JsonElement HRRORHCRHHRROHIOROOOORRIRRCCIC() {
+      JsonObject var1 = new JsonObject();
+      var1.addProperty("name", this.name);
+      var1.addProperty("icon", this.OCHCCRIHCHCCHOCRIROIOOOOHOIOII.getIcon().name());
+      var1.addProperty("server", this.server);
+      var1.addProperty("isHandledByServer", this.OHOHROCCIROORCCCIOOOIOIIHORHOC());
+      var1.addProperty("isDeathWaypoint", this.HCOOIHCOOCHCOOHRHHRIOROHOHOOIO);
+      var1.addProperty("skyBlockLocation", this.ICHRROCHRRICHHCICHHIHRIRCCRRHC.name());
+      var1.addProperty("skyBlockLocationName", this.ICHRROCHRRICHHCICHHIHRIRCCRRHC.getMapValue());
+      JsonObject var2 = new JsonObject();
+      var2.addProperty("x", this.COOOROIICHHICCCHCCIOIRRRRIIORO.bridge$xCoord());
+      var2.addProperty("y", this.COOOROIICHHICCCHCCIOIRRRRIIORO.bridge$yCoord());
+      var2.addProperty("z", this.COOOROIICHHICCCHCCIOIRRRRIIORO.bridge$zCoord());
+      JsonObject var3 = new JsonObject();
+      var3.addProperty("name", this.world);
+      var2.add("world", var3);
+      var1.add("location", var2);
+      var1.addProperty("dimension", this.dimension);
+      if (this.OROOCROHOROOHHICIHIRHCOCRORIHR() != null && !this.OROOCROHOROOHHICIHIRHCOCRORIHR().isEmpty() && (this.dimension < -1 || this.dimension > 1)) {
+         var1.addProperty("dimensionKey", IIOCROIORHIICHOOCHCIRIRHICORCI(this.OROOCROHOROOHHICIHIRHCOCRORIHR()));
+      }
+
+      var1.addProperty("visible", this.visible);
+      var1.add("renderConfig", this.OCHCCRIHCHCCHOCRIROIOOOOHOIOII.HRRORHCRHHRROHIOROOOORRIRRCCIC());
+      var1.addProperty("sortIndex", this.RORRRHIIHIOHHIIRCICIHHORCHOIOH);
+      if (this.CCIRHOHOCORIIIIIORRIHHCOROOOCC != null) {
+         var1.addProperty("groupId", this.CCIRHOHOCORIIIIIORRIHHCOROOOCC.getId().toString());
+      }
+
+      var1.addProperty("addedAt", RICRIRRCOHRCOCRRHHCRHRROOIOHHR.HRHRORCIRICHCCCCCHICOOICIRHRIO(this.COHIRRIHHIOOOIIORIOOHCRIHOIOIH));
+      return var1;
+   }
+
+   @Subst("dimensionName")
+   public static String IIOCROIORHIICHOOCHCIRIRHICORCI(String var0) {
+      var0 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRIHROCORIOOCHHCHCHOHCIOHHRRI()
+         .RHIHRRICIHORIHHIHHOIIOHHRCIIIH(var0);
+      return var0.contains(":") ? WordUtils.capitalizeFully(var0.substring(var0.indexOf(58) + 1).replace('_', ' ')) : var0;
+   }
+
+   @Generated
+   private static double HOHRROROHRHOOHRIRIICOCHOIRHRHI() {
+      return -1.0;
+   }
+
+   @Generated
+   private static String CRRRIHORHHRRRIIOCCICORCICIRIHC() {
+      return "";
+   }
+
+   @Generated
+   private static int OCOOIIOHHCCIIIHROOHIOORRIICHHO() {
+      return -999;
+   }
+
+   @Generated
+   private static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH CRORCCCHOOOIRORIIHRIOIRHCHHHRC() {
+      return com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH.NONE;
+   }
+
+   @Generated
+   private static boolean CHOORIRORRRRRIIOROOHCOCIRROOIC() {
+      return false;
+   }
+
+   @Generated
+   private static boolean OOHOROIROCROHHOCIROIOCOROIHORH() {
+      return false;
+   }
+
+   @Generated
+   private static boolean HRROHIORCHICICCCHOCHHORRRHHICC() {
+      return true;
+   }
+
+   @Generated
+   private static boolean RIOHOCCHCHCOCHOHOHRRCIHHORCICI() {
+      return false;
+   }
+
+   @Generated
+   private static boolean CORRRIHCRRCIHRCRICOHIRRCICCOOO() {
+      return true;
+   }
+
+   @Generated
+   private static long IOHOCOIHHOHIHHIOIIHOHRHOCOHCOC() {
+      return System.currentTimeMillis();
+   }
+
+   @Generated
+   private static int OIIIIIROICIRIRHCRHORHOCRCRCCOC() {
+      return -1;
+   }
+
+   @Generated
+   private static int HHHOCCRHRHHHRCOOHOIRRCCCRICOCO() {
+      return -1;
+   }
+
+   @Generated
+   private static CRRRICCRROCOHHOHIICIHORCOORRRH ICHCCOCHROCRHHHRHCCCIHRRRIRHCC() {
+      return CRRRICCRROCOHHOHIICIHORCOORRRH.RIOICCHIORRRRCROIIHCRCOIIRIOOH;
+   }
+
+   @Generated
+   public static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CIROORIICIROCCOIROCRIRCCRHCIOI() {
+      return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH();
+   }
+
+   @Generated
+   public void IIOCHOIICCIORCOROIROHICCHIOHIC(double var1) {
+      this.distance = var1;
+   }
+
+   @Generated
+   public void setName(@NonNull String var1) {
+      if (var1 == null) {
+         throw new NullPointerException("name is marked non-null but is null");
+      }
+
+      this.name = var1;
+   }
+
+   @Generated
+   public void IIHRRHORCRCROCHHOHORCHCROCIHRO(@NonNull CRHROHHHCIHHCOHCOORCRIHHIICROR var1) {
+      if (var1 == null) {
+         throw new NullPointerException("location is marked non-null but is null");
+      }
+
+      this.COOOROIICHHICCCHCCIOIRRRRIIORO = var1;
+   }
+
+   @Generated
+   public void IHHCHIIHOOHRROCRRRHHHCOOHCOORC(@NonNull String var1) {
+      if (var1 == null) {
+         throw new NullPointerException("world is marked non-null but is null");
+      }
+
+      this.world = var1;
+   }
+
+   @Generated
+   public void OCICRRIRIIHROCCOOCOICRCRROOIOC(int var1) {
+      this.dimension = var1;
+   }
+
+   @Generated
+   public void CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH var1
+   ) {
+      this.ICHRROCHRRICHHCICHHIHRIRCCRRHC = var1;
+   }
+
+   @Generated
+   public void HICROROICOCOHOOHHCRCROOCCRCIHR(boolean var1) {
+      this.HROOHOIIRICHHCCCIRHHICRHHRIIOH = var1;
+   }
+
+   @Generated
+   public void OOHCHIOCOOORHOHOCRCOOIICCICIHI(boolean var1) {
+      this.HCOOIHCOOCHCOOHRHHRIOROHOHOOIO = var1;
+   }
+
+   @Generated
+   public void HCOIIHHORCOIHOICRIRICICHICOCCI(@Nullable String var1) {
+      this.COHOCIIORHORIIIHOCIOROHCIIOHRI = var1;
+   }
+
+   @Generated
+   public void setVisible(boolean var1) {
+      this.visible = var1;
+   }
+
+   @Generated
+   public void OCICRRIRIIHROCCOOCOICRCRROOIOC(boolean var1) {
+      this.RHHCCOORIRRHCORHHRIIRHRHHCIROH = var1;
+   }
+
+   @Generated
+   public void IOHHICHRIHCRCIIIROCCHICCIRCIII(@NonNull String var1) {
+      if (var1 == null) {
+         throw new NullPointerException("server is marked non-null but is null");
+      }
+
+      this.server = var1;
+   }
+
+   @Generated
+   public void OCRHORIRHHHIIOCOOCHICOOCIHORCC(boolean var1) {
+      this.HCIOOOHRICCIRRROCCOOHCOCRIHHRO = var1;
+   }
+
+   @Generated
+   public void IIOCHOIICCIORCOROIROHICCHIOHIC(long var1) {
+      this.COHIRRIHHIOOOIIORIOOHCRIHOIOIH = var1;
+   }
+
+   @Generated
+   public void OCRHORIRHHHIIOCOOCHICOOCIHORCC(int var1) {
+      this.RORRRHIIHIOHHIIRCICIHHORCHOIOH = var1;
+   }
+
+   @Generated
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(@Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var1) {
+      this.CCIRHOHOCORIIIIIORRIHHCOROOOCC = var1;
+   }
+
+   @Generated
+   public void RICCICOHIICIIORHCHCRCRHOOOCHIC(int var1) {
+      this.CCCORRHRCHCCOICHHCOIROIICIOHOH = var1;
+   }
+
+   @Generated
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(CRRRICCRROCOHHOHIICIHORCOORRRH var1) {
+      this.OCHCCRIHCHCCHOCRIROIOOOOHOIOII = var1;
+   }
+
+   @Generated
+   public double getDistance() {
+      return this.distance;
+   }
+
+   @NonNull
+   @Generated
+   public String getName() {
+      return this.name;
+   }
+
+   @NonNull
+   @Generated
+   public CRHROHHHCIHHCOHCOORCRIHHIICROR IIHOCOIHHIROCHIHHCCCORRCOHCHRC() {
+      return this.COOOROIICHHICCCHCCIOIRRRRIIORO;
+   }
+
+   @NonNull
+   @Generated
+   public String getWorld() {
+      return this.world;
+   }
+
+   @Generated
+   public int getDimension() {
+      return this.dimension;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH IICICROIHIRIHRIHROOCORROCCCHRH() {
+      return this.ICHRROCHRRICHHCICHHIHRIRCCRRHC;
+   }
+
+   @Generated
+   public boolean HOCHOIRIHHHIHIIICOHCOCCOIRCORH() {
+      return this.HROOHOIIRICHHCCCIRHHICRHHRIIOH;
+   }
+
+   @Generated
+   public boolean CIHCIHRCIHRORRRCHIHHOICIIRRCCC() {
+      return this.HCOOIHCOOCHCOOHRHHRIOROHOHOOIO;
+   }
+
+   @Nullable
+   @Generated
+   public String OROOCROHOROOHHICIHIRHCOCRORIHR() {
+      return this.COHOCIIORHORIIIHOCIOROHCIIOHRI;
+   }
+
+   @Generated
+   public boolean isVisible() {
+      return this.visible;
+   }
+
+   @Generated
+   public boolean COCHHHRROIHIRCRIOHHIIOCRIIROIR() {
+      return this.RHHCCOORIRRHCORHHRIIRHRHHCIROH;
+   }
+
+   @NonNull
+   @Generated
+   public String getServer() {
+      return this.server;
+   }
+
+   @Generated
+   public boolean OHOHROCCIROORCCCIOOOIOIIHORHOC() {
+      return this.HCIOOOHRICCIRRROCCOOHCOCRIHHRO;
+   }
+
+   @Generated
+   public long OHRCHRHOCOOOCOCOICIROHRHOOCOOR() {
+      return this.COHIRRIHHIOOOIIORIOOHCRIHOIOIH;
+   }
+
+   @Generated
+   public int IRIHRHCIRORRRHOHCOICRIOOIOIOIC() {
+      return this.RORRRHIIHIOHHIIRCICIHHORCHOIOH;
+   }
+
+   @Nullable
+   @Generated
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH OROCOOCORHHHRCOHRORIOORCHRHCRR() {
+      return this.CCIRHOHOCORIIIIIORRIHHCOROOOCC;
+   }
+
+   @Generated
+   public int ICOCHHRRHIIHCCOORIOIHCIOCRIICR() {
+      return this.CCCORRHRCHCCOICHHCOIROIICIOHOH;
+   }
+
+   @Generated
+   public CRRRICCRROCOHHOHIICIHORCOORRRH HOHOIICHHIRIOIIIOHRHOCCRRRRIHR() {
+      return this.OCHCCRIHCHCCHOCRIROIOOOOHOIOII;
+   }
+
+   @Generated
+   @Override
+   public String toString() {
+      return "Waypoint(distance="
+         + this.getDistance()
+         + ", name="
+         + this.getName()
+         + ", location="
+         + this.IIHOCOIHHIROCHIHHCCCORRCOHCHRC()
+         + ", world="
+         + this.getWorld()
+         + ", dimension="
+         + this.getDimension()
+         + ", skyBlockLocation="
+         + this.IICICROIHIRIHRIHROOCORROCCCHRH()
+         + ", isSkyBlockWaypoint="
+         + this.HOCHOIRIHHHIHIIICOHCOCCOIRCORH()
+         + ", isDeathWaypoint="
+         + this.CIHCIHRCIHRORRRCHIHHOICIIRRCCC()
+         + ", customDimensionKey="
+         + this.OROOCROHOROOHHICIHIRHCOCRORIHR()
+         + ", visible="
+         + this.isVisible()
+         + ", forced="
+         + this.COCHHHRROIHIRCRIOHHIIOCRIIROIR()
+         + ", server="
+         + this.getServer()
+         + ", handledByServer="
+         + this.OHOHROCCIROORCCCIOOOIOIIHORHOC()
+         + ", addedAtMs="
+         + this.OHRCHRHOCOOOCOCOICIROHRHOOCOOR()
+         + ", sortIndex="
+         + this.IRIHRHCIRORRRHOHCOICRIOOIOIOIC()
+         + ", group="
+         + this.OROCOOCORHHHRCOHRORIOORCHRHCRR()
+         + ", groupIndex="
+         + this.ICOCHHRRHIIHCCOORIOIHCIOCRIICR()
+         + ", renderConfig="
+         + this.HOHOIICHHIRIOIIIOHRHOCCRRRRIHR()
+         + ")";
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      double var1,
+      @NonNull String var3,
+      @NonNull CRHROHHHCIHHCOHCOORCRIHHIICROR var4,
+      @NonNull String var5,
+      int var6,
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH var7,
+      boolean var8,
+      boolean var9,
+      @Nullable String var10,
+      boolean var11,
+      boolean var12,
+      @NonNull String var13,
+      boolean var14,
+      long var15,
+      int var17,
+      @Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var18,
+      int var19,
+      CRRRICCRROCOHHOHIICIHORCOORRRH var20
+   ) {
+      if (var3 == null) {
+         throw new NullPointerException("name is marked non-null but is null");
+      }
+
+      if (var4 == null) {
+         throw new NullPointerException("location is marked non-null but is null");
+      }
+
+      if (var5 == null) {
+         throw new NullPointerException("world is marked non-null but is null");
+      }
+
+      if (var13 == null) {
+         throw new NullPointerException("server is marked non-null but is null");
+      }
+
+      this.distance = var1;
+      this.name = var3;
+      this.COOOROIICHHICCCHCCIOIRRRRIIORO = var4;
+      this.world = var5;
+      this.dimension = var6;
+      this.ICHRROCHRRICHHCICHHIHRIRCCRRHC = var7;
+      this.HROOHOIIRICHHCCCIRHHICRHHRIIOH = var8;
+      this.HCOOIHCOOCHCOOHRHHRIOROHOHOOIO = var9;
+      this.COHOCIIORHORIIIHOCIOROHCIIOHRI = var10;
+      this.visible = var11;
+      this.RHHCCOORIRRHCORHHRIIRHRHHCIROH = var12;
+      this.server = var13;
+      this.HCIOOOHRICCIRRROCCOOHCOCRIHHRO = var14;
+      this.COHIRRIHHIOOOIIORIOOHCRIHOIOIH = var15;
+      this.RORRRHIIHIOHHIIRCICIHHORCHOIOH = var17;
+      this.CCIRHOHOCORIIIIIORRIHHCOROOOCC = var18;
+      this.CCCORRHRCHCCOICHHCOIROIICIOHOH = var19;
+      this.OCHCCRIHCHCCHOCRIROIOOOOHOIOII = var20;
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+      this.distance = HOHRROROHRHOOHRIRIICOCHOIRHRHI();
+      this.name = CRRRIHORHHRRRIIOCCICORCICIRIHC();
+      this.dimension = OCOOIIOHHCCIIIHROOHIOORRIICHHO();
+      this.ICHRROCHRRICHHCICHHIHRIRCCRRHC = CRORCCCHOOOIRORIIHRIOIRHCHHHRC();
+      this.HROOHOIIRICHHCCCIRHHICRHHRIIOH = CHOORIRORRRRRIIOROOHCOCIRROOIC();
+      this.HCOOIHCOOCHCOOHRHHRIOROHOHOOIO = OOHOROIROCROHHOCIROIOCOROIHORH();
+      this.visible = HRROHIORCHICICCCHOCHHORRRHHICC();
+      this.RHHCCOORIRRHCORHHRIIRHRHHCIROH = RIOHOCCHCHCOCHOHOHRRCIHHORCICI();
+      this.HCIOOOHRICCIRRROCCOOHCOCRIHHRO = CORRRIHCRRCIHRCRICOHIRRCICCOOO();
+      this.COHIRRIHHIOOOIIORIOOHCRIHOIOIH = IOHOCOIHHOHIHHIOIIHOHRHOCOHCOC();
+      this.RORRRHIIHIOHHIIRCICIHHORCHOIOH = OIIIIIROICIRIRHCRHORHOCRCRCCOC();
+      this.CCCORRHRCHCCOICHHCOIROIICIOHOH = HHHOCCRHRHHHRCOOHOIRRCCCRICOCO();
+      this.OCHCCRIHCHCCHOCRIROIOOOOHOIOII = ICHCCOCHROCRHHHRHCCCIHRRRIRHCC();
+   }
+
+   @Generated
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      @Generated
+      private boolean HRRIIHICIRRCIRCRIHRRIIORIICOOH;
+      @Generated
+      private double CHIOCORRCRCHORHIOOHCOOICROIHRH;
+      @Generated
+      private boolean RRHRIHIRROOIOCRCIHRCIOOHRIRHRR;
+      @Generated
+      private String RCRORHCOCRIIOHICORIHOHRIIRIORH;
+      @Generated
+      private CRHROHHHCIHHCOHCOORCRIHHIICROR COOOROIICHHICCCHCCIOIRRRRIIORO;
+      @Generated
+      private String world;
+      @Generated
+      private boolean IIOCIRHCHHORROHHCHROIHCHHCIHCR;
+      @Generated
+      private int OROIRRRRHRIRIRIOHCRCCHROOOHORI;
+      @Generated
+      private boolean CRCCCCCCRCOHCHRCOOROIHCHCCCIOC;
+      @Generated
+      private com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH CCOCHOROIOICHHICOCIHCHHOCOOIII;
+      @Generated
+      private boolean RROCRRIOOIICIHOOHOIHIOIRRCIIOO;
+      @Generated
+      private boolean OOCIHIHRIIIHHHIHHHOCHORCRCHRHO;
+      @Generated
+      private boolean HHRCHOIOOCICHCRCORCHRCIRCCOHRI;
+      @Generated
+      private boolean RHHRIRRIOHCRCICRHHRIHOICRICOIC;
+      @Generated
+      private String COHOCIIORHORIIIHOCIOROHCIIOHRI;
+      @Generated
+      private boolean HIIOORCIRRRRCRRCHRORRRHOHOORCO;
+      @Generated
+      private boolean IHROCHRICRIOOORHCHHRCHHOOIHRHH;
+      @Generated
+      private boolean COCCOIHCHCIIRCIOOOHIIOIIRHIRHO;
+      @Generated
+      private boolean CRHOORROCRCHRIHRCCCHHOHIOICIRO;
+      @Generated
+      private String server;
+      @Generated
+      private boolean IIICIOIHIHICHHIHRICHCIRHHIIRII;
+      @Generated
+      private boolean ORIOICIOROCIIHHROHHCRRHHICIRRO;
+      @Generated
+      private boolean HHROCIIOCOHOOIHIROHHRRCORORHOI;
+      @Generated
+      private long HROCCHHCCOCHRHCIOROHRIORIRIRRI;
+      @Generated
+      private boolean IHICOOIOCRHRCHIIOHRHICRIOHHIOR;
+      @Generated
+      private int RCCIOIICIOCROOHHORRHROIRRIOCOC;
+      @Generated
+      private IRCIIHHICIHRCOCRROCOICRIHHCCHH CCIRHOHOCORIIIIIORRIHHCOROOOCC;
+      @Generated
+      private boolean RROHHIIHIOOOHHIRRROOCRORRCRCHI;
+      @Generated
+      private int HCROOCOICRIOROOIROIHCOROOCOIOI;
+      @Generated
+      private boolean RCHROORCIOOCHOIHRICIOROCHIRCIC;
+      @Generated
+      private CRRRICCRROCOHHOHIICIHORCOORRRH ROCRIIOHCCICHCOOCRRIICOCHRCHHR;
+
+      @Generated
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RICRIHOOHROHICCHHIIHRHCORHIOHR(
+         double var1
+      ) {
+         this.CHIOCORRCRCHORHIOOHCOOICROIHRH = var1;
+         this.HRRIIHICIRRCIRCRIHRRIIORIICOOH = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RRHCHIHOIRICOICHIHOIRIOHHRHOOI(
+         @NonNull String var1
+      ) {
+         if (var1 == null) {
+            throw new NullPointerException("name is marked non-null but is null");
+         }
+
+         this.RCRORHCOCRIIOHICORIHOHRIIRIORH = var1;
+         this.RRHRIHIRROOIOCRCIHRCIOOHRIRHRR = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OCOHORHCROHICRRIHCIHHRRCIHICRI(
+         @NonNull CRHROHHHCIHHCOHCOORCRIHHIICROR var1
+      ) {
+         if (var1 == null) {
+            throw new NullPointerException("location is marked non-null but is null");
+         }
+
+         this.COOOROIICHHICCCHCCIOIRRRRIIORO = var1;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH ICOHOCROHOHHHCCOCIHHRHOCOOCOCC(
+         @NonNull String var1
+      ) {
+         if (var1 == null) {
+            throw new NullPointerException("world is marked non-null but is null");
+         }
+
+         this.world = var1;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RCOROOHHCORIRCRHOHRCCIHRCORCHH(
+         int var1
+      ) {
+         this.OROIRRRRHRIRIRIOHCRCCHROOOHORI = var1;
+         this.IIOCIRHCHHORROHHCHROIHCHHCIHCR = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH var1
+      ) {
+         this.CCOCHOROIOICHHICOCIHCHHOCOOIII = var1;
+         this.CRCCCCCCRCOHCHRCOOROIHCHCCCIOC = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RICCICOHIICIIORHCHCRCRHOOOCHIC(
+         boolean var1
+      ) {
+         this.OOCIHIHRIIIHHHIHHHOCHORCRCHRHO = var1;
+         this.RROCRRIOOIICIHOOHOIHIOIRRCIIOO = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RCOROOHHCORIRCRHOHRCCIHRCORCHH(
+         boolean var1
+      ) {
+         this.RHHRIRRIOHCRCICRHHRIHOICRICOIC = var1;
+         this.HHRCHOIOOCICHCRCORCHRCIRCCOHRI = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IRRIROIHICHIOCIHOORIOIICIOHHIC(
+         @Nullable String var1
+      ) {
+         this.COHOCIIORHORIIIHOCIOROHCIIOHRI = var1;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RRROCCOIROROHIRRHOHIRRIHOCIIRO(
+         boolean var1
+      ) {
+         this.IHROCHRICRIOOORHCHHRCHHOOIHRHH = var1;
+         this.HIIOORCIRRRRCRRCHRORRRHOHOORCO = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OHRCIORHOCHOORCRHHOHRRRCCOICCO(
+         boolean var1
+      ) {
+         this.CRHOORROCRCHRIHRCCCHHOHIOICIRO = var1;
+         this.COCCOIHCHCIIRCIOOOHIIOIIRHIRHO = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH HRIOHRORCHIICCICIHRIIHHCHHOHHO(
+         @NonNull String var1
+      ) {
+         if (var1 == null) {
+            throw new NullPointerException("server is marked non-null but is null");
+         }
+
+         this.server = var1;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OOCHIIROORIOCCCCCOORRIRIOHOORH(
+         boolean var1
+      ) {
+         this.ORIOICIOROCIIHHROHHCRRHHICIRRO = var1;
+         this.IIICIOIHIHICHHIHRICHCIRHHIIRII = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RICRIHOOHROHICCHHIIHRHCORHIOHR(
+         long var1
+      ) {
+         this.HROCCHHCCOCHRHCIOROHRIORIRIRRI = var1;
+         this.HHROCIIOCOHOOIHIROHHRRCORORHOI = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RRROCCOIROROHIRRHOHIRRIHOCIIRO(
+         int var1
+      ) {
+         this.RCCIOIICIOCROOHHORRHROIRRIOCOC = var1;
+         this.IHICOOIOCRHRCHIIOHRHICRIOHHIOR = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         @Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+      ) {
+         this.CCIRHOHOCORIIIIIORRIHHCOROOOCC = var1;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OHRCIORHOCHOORCRHHOHRRRCCOICCO(
+         int var1
+      ) {
+         this.HCROOCOICRIOROOIROIHCOROOCOIOI = var1;
+         this.RROHHIIHIOOOHHIRRROOCRORRCRCHI = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         CRRRICCRROCOHHOHIICIHORCOORRRH var1
+      ) {
+         this.ROCRIIOHCCICHCOOCRRIICOCHRCHHR = var1;
+         this.RCHROORCIOOCHOIHRICIOROCHIRCIC = true;
+         return this;
+      }
+
+      @Generated
+      public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OIHHRHHICRCHRIORRIHHOICCHCCRRR() {
+         double var1 = this.CHIOCORRCRCHORHIOOHCOOICROIHRH;
+         if (!this.HRRIIHICIRRCIRCRIHRRIIORIICOOH) {
+            var1 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HOHRROROHRHOOHRIRIICOCHOIRHRHI();
+         }
+
+         String var3 = this.RCRORHCOCRIIOHICORIHOHRIIRIORH;
+         if (!this.RRHRIHIRROOIOCRCIHRCIOOHRIRHRR) {
+            var3 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRIHORHHRRRIIOCCICORCICIRIHC();
+         }
+
+         int var4 = this.OROIRRRRHRIRIRIOHCRCCHROOOHORI;
+         if (!this.IIOCIRHCHHORROHHCHROIHCHHCIHCR) {
+            var4 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OCOOIIOHHCCIIIHROOHIOORRIICHHO();
+         }
+
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH var5 = this.CCOCHOROIOICHHICOCIHCHHOCOOIII;
+         if (!this.CRCCCCCCRCOHCHRCOOROIHCHCCCIOC) {
+            var5 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRORCCCHOOOIRORIIHRIOIRHCHHHRC();
+         }
+
+         boolean var6 = this.OOCIHIHRIIIHHHIHHHOCHORCRCHRHO;
+         if (!this.RROCRRIOOIICIHOOHOIHIOIRRCIIOO) {
+            var6 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CHOORIRORRRRRIIOROOHCOCIRROOIC();
+         }
+
+         boolean var7 = this.RHHRIRRIOHCRCICRHHRIHOICRICOIC;
+         if (!this.HHRCHOIOOCICHCRCORCHRCIRCCOHRI) {
+            var7 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOHOROIROCROHHOCIROIOCOROIHORH();
+         }
+
+         boolean var8 = this.IHROCHRICRIOOORHCHHRCHHOOIHRHH;
+         if (!this.HIIOORCIRRRRCRRCHRORRRHOHOORCO) {
+            var8 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRROHIORCHICICCCHOCHHORRRHHICC();
+         }
+
+         boolean var9 = this.CRHOORROCRCHRIHRCCCHHOHIOICIRO;
+         if (!this.COCCOIHCHCIIRCIOOOHIIOIIRHIRHO) {
+            var9 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOHOCCHCHCOCHOHOHRRCIHHORCICI();
+         }
+
+         boolean var10 = this.ORIOICIOROCIIHHROHHCRRHHICIRRO;
+         if (!this.IIICIOIHIHICHHIHRICHCIRHHIIRII) {
+            var10 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORRRIHCRRCIHRCRICOHIRRCICCOOO();
+         }
+
+         long var11 = this.HROCCHHCCOCHRHCIOROHRIORIRIRRI;
+         if (!this.HHROCIIOCOHOOIHIROHHRRCORORHOI) {
+            var11 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IOHOCOIHHOHIHHIOIIHOHRHOCOHCOC();
+         }
+
+         int var13 = this.RCCIOIICIOCROOHHORRHROIRRIOCOC;
+         if (!this.IHICOOIOCRHRCHIIOHRHICRIOHHIOR) {
+            var13 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OIIIIIROICIRIRHCRHORHOCRCRCCOC();
+         }
+
+         int var14 = this.HCROOCOICRIOROOIROIHCOROOCOIOI;
+         if (!this.RROHHIIHIOOOHHIRRROOCRORRCRCHI) {
+            var14 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHHOCCRHRHHHRCOOHOIRRCCCRICOCO();
+         }
+
+         CRRRICCRROCOHHOHIICIHORCOORRRH var15 = this.ROCRIIOHCCICHCOOCRRIICOCHRCHHR;
+         if (!this.RCHROORCIOOCHOIHRICIOROCHIRCIC) {
+            var15 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ICHCCOCHROCRHHHRHCCCIHRRRIRHCC();
+         }
+
+         return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHOOIOHCHICOCHIICHCICCOHRCIII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var1,
+            var3,
+            this.COOOROIICHHICCCHCCIOIRRRRIIORO,
+            this.world,
+            var4,
+            var5,
+            var6,
+            var7,
+            this.COHOCIIORHORIIIHOCIOROHCIIOHRI,
+            var8,
+            var9,
+            this.server,
+            var10,
+            var11,
+            var13,
+            this.CCIRHOHOCORIIIIIORRIHHCOROOOCC,
+            var14,
+            var15
+         );
+      }
+
+      @Generated
+      @Override
+      public String toString() {
+         return "Waypoint.WaypointBuilder(distance$value="
+            + this.CHIOCORRCRCHORHIOOHCOOICROIHRH
+            + ", name$value="
+            + this.RCRORHCOCRIIOHICORIHOHRIIRIORH
+            + ", location="
+            + this.COOOROIICHHICCCHCCIOIRRRRIIORO
+            + ", world="
+            + this.world
+            + ", dimension$value="
+            + this.OROIRRRRHRIRIRIOHCRCCHROOOHORI
+            + ", skyBlockLocation$value="
+            + this.CCOCHOROIOICHHICOCIHCHHOCOOIII
+            + ", isSkyBlockWaypoint$value="
+            + this.OOCIHIHRIIIHHHIHHHOCHORCRCHRHO
+            + ", isDeathWaypoint$value="
+            + this.RHHRIRRIOHCRCICRHHRIHOICRICOIC
+            + ", customDimensionKey="
+            + this.COHOCIIORHORIIIHOCIOROHCIIOHRI
+            + ", visible$value="
+            + this.IHROCHRICRIOOORHCHHRCHHOOIHRHH
+            + ", forced$value="
+            + this.CRHOORROCRCHRIHRCCCHHOHIOICIRO
+            + ", server="
+            + this.server
+            + ", handledByServer$value="
+            + this.ORIOICIOROCIIHHROHHCRRHHICIRRO
+            + ", addedAtMs$value="
+            + this.HROCCHHCCOCHRHCIOROHRIORIRIRRI
+            + ", sortIndex$value="
+            + this.RCCIOIICIOCROOHHORRHROIRRIOCOC
+            + ", group="
+            + this.CCIRHOHOCORIIIIIORRIHHCOROOOCC
+            + ", groupIndex$value="
+            + this.HCROOCOICRIOROOIROIHCOROOCOIOI
+            + ", renderConfig$value="
+            + this.ROCRIIOHCCICHCOOCRRIICOCHRCHHR
+            + ")";
+      }
+   }
+}

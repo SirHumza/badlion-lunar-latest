@@ -1,0 +1,72 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import lombok.Generated;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   extends com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private List<String> packs;
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(CORCOCICIRIOHROHROIIOOHICCHCRR var1) {
+      int var2 = var1.readVarInt();
+      this.packs = new ArrayList<>();
+
+      for (int var3 = 0; var3 < var2; var3++) {
+         this.packs.add(var1.readString());
+      }
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(CORCOCICIRIOHROHROIIOOHICCHCRR var1) {
+      var1.IIOORRCRHCRIORIOCOHHIROOIIHROC(this.packs.size());
+
+      for (String var3 : this.packs) {
+         var1.RCRICHOCHHHCRCORROOIHCROOIICOC(var3);
+      }
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(CRRRICCRROCOHHOHIICIHORCOORRRH var1) {
+      if (!var1.HCORRRCRCIOOIOOOROIIICIRIIORHH().isEmpty() || !this.packs.isEmpty()) {
+         ArrayList var2 = new ArrayList<>(this.packs);
+         File var3 = new File(IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getMcDataDir(), "resourcepacks");
+         ArrayList var4 = new ArrayList();
+
+         for (String var6 : this.packs) {
+            File var7 = var3.toPath().resolve(var6).toFile();
+
+            try {
+               var4.add(
+                  com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRIHROCORIOOCHHCHCHOHCIOHHRRI()
+                     .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var7, false)
+               );
+            } catch (Exception var9) {
+               var2.remove(var6);
+            }
+         }
+
+         for (OOROOCCIRCCRHOIOIORIHCHHOOCCOR var11 : var1.HCORRRCRCIOOIOOOROIIICIRIIORHH()) {
+            var11.bridge$close();
+         }
+
+         var1.RICRIHOOHROHICCHHIIHRHCORHIOHR(var4);
+         var1.RIIHIHHCRHCHRCICHOROHCHIIHCICH(var2);
+      }
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(List<String> var1) {
+      this.packs = var1;
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   }
+}

@@ -1,0 +1,131 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH
+   extends com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   implements RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   public boolean IRHCORRIHCOHIICOOOIROCRIRCCRCO;
+   public boolean CRCHHOOCROIHCIHRCOOCICRROOHIHR;
+   public boolean HIIRHOIRORRCRHCHHCCCCOOOORICCI = true;
+   public boolean IRRHOCCCCCOIORIRHCIRHHCCOCCIOO = true;
+   public boolean HIOICCIIRHIRIHOOICIORIIHRICRRC;
+   public boolean OCIROIHHHHIOORHRROROCICRHCOORI;
+   public boolean HCRRCIRRIHCRCOCHOOOIHHHCIOCCRI;
+   public float RICIOIOORCOCCOHRRCOIIRCCHOIHCH;
+   public float COIOIHIOHHRIIIOCHIHHCOHCHCCCRI;
+
+   @Override
+   public com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      JsonElement var1, com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      if (!var1.isJsonObject()) {
+         return super.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2);
+      }
+
+      JsonObject var3 = var1.getAsJsonObject();
+      if (var3.has("position")) {
+         this.IRHCORRIHCOHIICOOOIROCRIRCCRCO = var3.get("position").getAsBoolean();
+      }
+
+      if (var3.has("rotation")) {
+         this.CRCHHOOCROIHCIHRCOOCICRROOHIHR = var3.get("rotation").getAsBoolean();
+      }
+
+      if (var3.has("scale")) {
+         this.HIIRHOIRORRCRHCHHCCCCOOOORICCI = var3.get("scale").getAsBoolean();
+      }
+
+      if (var3.has("scale_billboard")) {
+         this.IRRHOCCCCCOIORIRHCIRHHCCOCCIOO = var3.get("scale_billboard").getAsBoolean();
+      }
+
+      if (var3.has("direction")) {
+         this.HIOICCIIRHIRIHOOICIORIIHRICRRC = var3.get("direction").getAsBoolean();
+      }
+
+      if (var3.has("acceleration")) {
+         this.OCIROIHHHHIOORHRROROCICRHCOORI = var3.get("acceleration").getAsBoolean();
+      }
+
+      if (var3.has("gravity")) {
+         this.HCRRCIRRIHCRCOCHOOOIHHHCIOCCRI = var3.get("gravity").getAsBoolean();
+      }
+
+      if (var3.has("linear_velocity")) {
+         this.RICIOIOORCOCCOHRRCOIIRCCHOIHCH = var3.get("linear_velocity").getAsFloat();
+      }
+
+      if (var3.has("angular_velocity")) {
+         this.COIOIHIOHHRIIIOCHIHHCOHCHCCCRI = var3.get("angular_velocity").getAsFloat();
+      }
+
+      return super.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, var2);
+   }
+
+   @Override
+   public JsonElement RCHIIHHHCCIOHHRORHOORICCCRHOOI() {
+      JsonObject var1 = new JsonObject();
+      if (this.IRHCORRIHCOHIICOOOIROCRIRCCRCO) {
+         var1.addProperty("position", true);
+      }
+
+      if (this.CRCHHOOCROIHCIHRCOOCICRROOHIHR) {
+         var1.addProperty("rotation", true);
+      }
+
+      if (this.HIIRHOIRORRCRHCHHCCCCOOOORICCI) {
+         var1.addProperty("scale", true);
+      }
+
+      if (this.IRRHOCCCCCOIORIRHCIRHHCCOCCIOO) {
+         var1.addProperty("scale_billboard", true);
+      }
+
+      if (this.HIOICCIIRHIRIHOOICIORIIHRICRRC) {
+         var1.addProperty("direction", true);
+      }
+
+      if (this.OCIROIHHHHIOORHRROROCICRHCOORI) {
+         var1.addProperty("acceleration", true);
+      }
+
+      if (this.HCRRCIRRIHCRCOCHOOOIHHHCIOCCRI) {
+         var1.addProperty("gravity", true);
+      }
+
+      if (this.RICIOIOORCOCCOHRRCOIIRCCHOIHCH != 0.0F) {
+         var1.addProperty("linear_velocity", this.RICIOIOORCOCCOHRRCOIIRCCHOIHCH);
+      }
+
+      if (this.COIOIHIOHHRIIIOCHIHHCOHCHCCCRI != 0.0F) {
+         var1.addProperty("angular_velocity", this.COIOIHIOHHRIIIOCHIHHCOHCHCCCRI);
+      }
+
+      return var1;
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1,
+      com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      var2.RCORIICHOOIHHCROOOHRCOCOOROOIO = this.IRHCORRIHCOHIICOOOIROCRIRCCRCO;
+      var2.IOOICROCOCRCIROCCOCHOROOCHHCHC = this.CRCHHOOCROIHCIHRCOOCICRROOHIHR;
+      var2.OIOHRICIIIOIRIOIOOOIOORHHCOHOI = this.HIIRHOIRORRCRHCHHCCCCOOOORICCI;
+      var2.IROOIHORRCIORCOCORHORIOCICHCOI = this.IRRHOCCCCCOIORIRHCIRHHCCOCCIOO;
+      var2.OCCRROIHCIIRHICIHOOROICHOOOCHR = this.HIOICCIIRHIRIHOOICIORIIHRICRRC;
+      var2.RRHROCCHOOIOOCIIROHRHHIHHCHORR = this.OCIROIHHHHIOORHRROROCICRHCOORI;
+      var2.HCRRCIRRIHCRCOCHOOOIHHHCIOCCRI = this.HCRRCIRRIHCRCOCHOOOIHHHCIOCCRI;
+      var2.RICIOIOORCOCCOHRRCOIIRCCHOIHCH = this.RICIOIOORCOCCOHRRCOIIRCCHOIHCH;
+      var2.COIOIHIOHHRIIIOCHIHHCOHCHCCCRI = this.COIOIHIOHHRIIIOCHIHHCOHCHCCCRI;
+      var2.CRRRICCRROCOHHOHIICIHORCOORRRH(var1);
+   }
+
+   @Override
+   public int IHHCCIORHRCORORHHIOICIRCHCHOHH() {
+      return 1000;
+   }
+}

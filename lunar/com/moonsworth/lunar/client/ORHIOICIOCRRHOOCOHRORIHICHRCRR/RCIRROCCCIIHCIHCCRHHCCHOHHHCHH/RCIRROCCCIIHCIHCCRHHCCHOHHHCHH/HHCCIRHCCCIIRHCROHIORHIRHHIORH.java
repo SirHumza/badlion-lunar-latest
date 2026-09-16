@@ -1,0 +1,17 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   HHCCIRHCCCIIRHCROHIORHIRHHIORH HHORHRRICIIRIRRCRIORRCIHIOICIR();
+
+   boolean isNumber();
+
+   void set(double var1);
+
+   void set(String var1);
+
+   double doubleValue();
+
+   boolean ICRRRCOCRCCHCIIOHHORHORHRCOCIC();
+
+   String stringValue();
+}

@@ -1,0 +1,62 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RHOCHHIRRCHHHOHOIRROIROHHHIHIO;
+
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HICRRICCHCCROOHHCHOCOCCHOIHHOC;
+import com.moonsworth.lunar.client.util.CRHHOOCRCOHHRHOOOCHCROOHIOOCOH;
+import java.util.List;
+
+public class CORCOCICIRIOHROHROIIOOHICCHCRR extends com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public CORCOCICIRIOHROHROIIOOHICCHCRR() {
+      super(false);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         HICRRICCHCCROOHHCHOCOCCHOIHHOC.HRRICIHOCORIIHCHROCROCICOIRIIO,
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            0.0F,
+            0.0F,
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.BOTTOM_RIGHT,
+            true,
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+               1, 100, 500, 1, 360, 1000
+            ),
+            (var1, var2) -> List.of(
+               String.format("AbsX: %.2f - AbsY: %.2f", var1.CRHOHORRIRRORCCCCRICOICIRRRCRI(), var1.HCOHOIRCIOIOCCRCRIHCOHOHIHHCHO()),
+               String.format(
+                  "X: %.2f - Y: %,2f - Scale: %.2f - MC_Scale: %d",
+                  var1.getX(),
+                  var1.getY(),
+                  var1.getScale(),
+                  new CRHHOOCRCOHHRHOOOCHCROOHIOOCOH(this.mc).IOCIOIHIOOCRHHORHHCOOHIIHICOCH()
+               ),
+               String.format(
+                  "Width: %.2f - Height: %.2f - ScaledWidth: %.2f - ScaledHeight: %.2f",
+                  var1.getWidth(),
+                  var1.getHeight(),
+                  var1.COICOOCCOIRIRICIIOHRIHORIRHIHH(),
+                  var1.HIRHHRHCRCCOICHOOOCIHCCRCHCIIC()
+               ),
+               String.format(
+                  "LCUI_ScaleFactor: %d - LCUI_ScaledHeight: %d - LCUI_Scale: %.2f",
+                  com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.ROHHOOHOHCHRIICCCHCOHCORROHRIH()
+                     .IOCIOIHIOOCRHHORHHCOOHIIHICOCH(),
+                  com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.ROHHOOHOHCHRIICCCHCOHCORROHRIH()
+                     .getScaledHeight(),
+                  com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.getScale()
+               )
+            )
+         )
+      );
+   }
+
+   @Override
+   public String getId() {
+      return "HUD_DEBUG";
+   }
+
+   @Override
+   protected com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI ORIRHOHRHHROCHHRRIOOCRIHRIIIOC() {
+      return com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIICCCRRHHCHRRHRIRCHOICCHROHCR()
+         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CCCIRORHIRRORROOOOCCHCRIORHOIC
+         )
+         .RRCRRCORICCHOHHIRCHIROOHIIOHCO(this);
+   }
+}

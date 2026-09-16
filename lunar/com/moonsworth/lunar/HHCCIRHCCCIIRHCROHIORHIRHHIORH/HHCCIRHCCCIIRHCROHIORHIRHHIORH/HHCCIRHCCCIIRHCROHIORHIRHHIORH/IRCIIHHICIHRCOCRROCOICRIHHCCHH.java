@@ -1,0 +1,126 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import java.util.List;
+import java.util.function.Supplier;
+import org.jetbrains.annotations.Nullable;
+
+public interface IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   RCIROOOOICRHCCRRCIORHHIRCOIIIC bridge$location();
+
+   RCIROOOOICRHCCRRCIORHHIRCOIIIC bridge$vertexShader();
+
+   RCIROOOOICRHCCRRCIORHHIRCOIIIC bridge$fragmentShader();
+
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH bridge$shaderDefines();
+
+   List<String> bridge$samplers();
+
+   List<HHCCIRHCCCIIRHCROHIORHIRHHIORH> bridge$uniforms();
+
+   @Nullable
+   RCIRROCCCIIHCIHCCRHHCCHOHHHCHH bridge$blendFunction();
+
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$depthTestFunction();
+
+   CRRRICCRROCOHHOHIICIHORCOORRRH bridge$polygonMode();
+
+   boolean bridge$cull();
+
+   boolean bridge$writeColor();
+
+   boolean bridge$writeAlpha();
+
+   boolean bridge$writeDepth();
+
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OHHRIOHROOIHOROCIRHCHORIHRRRRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$vertexFormat();
+
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$vertexFormatMode();
+
+   float bridge$getDepthBiasScaleFactor();
+
+   float bridge$getDepthBiasConstant();
+
+   default void bridge$cleanup() {
+   }
+
+   default void bridge$cleanShaders() {
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8, max = 25)
+   default void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      Supplier<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OCOHORHCROHICRRIHCIHHRRCIHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> var1
+   ) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH(
+         "Shader supplier is not available on the current version"
+      );
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8, max = 25)
+   default void IHHRRRRCOCHIIOIOHORHCIRRRCHCCR(String var1) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH(
+         "Shader supplier is not available on the current version"
+      );
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8, max = 25)
+   default Supplier<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OCOHORHCROHICRRIHCIHHRRCIHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> OCRHCRHICOCOOOHIROIHCIHIRICRCI() {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH(
+         "Shader supplier is not available on the current version"
+      );
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 30)
+   default void bridge$setLunarUniforms(List<HHCCIRHCCCIIRHCROHIORHIRHHIORH> var1) {
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 30)
+   default List<HHCCIRHCCCIIRHCROHIORHIRHHIORH> bridge$getLunarUniforms() {
+      return null;
+   }
+
+   interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      @Nullable
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC bridge$vertexShader();
+
+      @Nullable
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC bridge$fragmentShader();
+
+      @Nullable
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH bridge$shaderDefines();
+
+      @Nullable
+      List<String> bridge$samplers();
+
+      @Nullable
+      List<HHCCIRHCCCIIRHCROHIORHIRHHIORH> bridge$uniforms();
+
+      @Nullable
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH bridge$blendFunction();
+
+      @Nullable
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$depthTestFunction();
+
+      @Nullable
+      CRRRICCRROCOHHOHIICIHORCOORRRH bridge$polygonMode();
+
+      @Nullable
+      Boolean bridge$cull();
+
+      @Nullable
+      Boolean bridge$writeColor();
+
+      @Nullable
+      Boolean bridge$writeAlpha();
+
+      @Nullable
+      Boolean bridge$writeDepth();
+
+      @Nullable
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$vertexFormat();
+
+      @Nullable
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$vertexFormatMode();
+   }
+}

@@ -1,0 +1,36 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOCIIROIRCOHIRHHHROHCOOHIICIHI;
+
+import lombok.Generated;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public static final RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RHHRIHHIHORHCRHHRCOOOOHOIOIOHI = new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH("Xray", 1);
+   private final String CCCIRRICOHOICIOCCCHCIIROHHHCCC;
+   private final int IHCRHRRCIIHRIRIIOOORHHIOCCIOOO;
+   private boolean RRCRCIRHCRRIIOOORRCIOOICOCHIRC = false;
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, int var2) {
+      this.CCCIRRICOHOICIOCCCHCIIROHHHCCC = var1;
+      this.IHCRHRRCIIHRIRIIOOORHHIOCCIOOO = var2;
+   }
+
+   @Generated
+   public String getName() {
+      return this.CCCIRRICOHOICIOCCCHCIIROHHHCCC;
+   }
+
+   @Generated
+   public int getOrdinal() {
+      return this.IHCRHRRCIIHRIRIIOOORHHIOCCIOOO;
+   }
+
+   @Generated
+   public boolean IIROOCCIORCICOOOIRIROCICICOCOR() {
+      return this.RRCRCIRHCRRIIOOORRCIOOICOCHIRC;
+   }
+
+   @Generated
+   public void ORHHIRCCIHCRCHHRHORICCIORRHHCO(boolean var1) {
+      this.RRCRCIRHCRRIIOOORRCIOOICOCHIRC = var1;
+   }
+}

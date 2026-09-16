@@ -1,0 +1,24 @@
+package com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import lombok.Generated;
+
+public class RHOCHHIRRCHHHOHOIRROIROHHHIHIO extends com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private final int HIIOHOROHRCIOCRRIICOIOCOOROIIC;
+   private final int OOCCHORROHRRIIIHCHHHRHIOOCCOII;
+
+   @Generated
+   public int getScaledWidth() {
+      return this.HIIOHOROHRCIOCRRIICOIOCOOROIIC;
+   }
+
+   @Generated
+   public int getScaledHeight() {
+      return this.OOCCHORROHRRIIIHCHHHRHIOOCCOII;
+   }
+
+   @Generated
+   public RHOCHHIRRCHHHOHOIRROIROHHHIHIO(int var1, int var2) {
+      this.HIIOHOROHRCIOCRRIICOIOCOOROIIC = var1;
+      this.OOCCHORROHRRIIIHCHHHRHIOOCCOII = var2;
+   }
+}

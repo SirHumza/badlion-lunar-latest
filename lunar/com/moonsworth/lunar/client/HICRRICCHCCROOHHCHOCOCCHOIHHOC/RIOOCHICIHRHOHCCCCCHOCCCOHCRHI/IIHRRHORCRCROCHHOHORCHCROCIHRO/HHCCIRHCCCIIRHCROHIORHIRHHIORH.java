@@ -1,0 +1,150 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OOCCRCRCOHIIORCCORCRCIRRROIOOR;
+import com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.util.List;
+import lombok.Generated;
+
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH implements HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   private final int CHRICICRORHORHRHCOCCOOOCRRIRRI;
+   private final String HRIOOIOOOIHHIHRICRIRHROCIHOCOR;
+   private final RCIROOOOICRHCCRRCIORHHIRCOIIIC OHIOROROORIHROIIOICHICCICIICCC;
+   private final int OHCRCHCOIHIHOHICICIICIOORHOCIH;
+   private final float HRRRRIOCORIRRCIROOCROCOCCHIICH;
+   private final float OHIOCCRORCOOHCOCIOCCROOHIOHCHC;
+   private final float ORHROOHHRHROCICICIOCIHRCIOOOOH;
+   private final float RHOIIRHORIHCROCRIOICHHRORIIRCR;
+   private final boolean RCROCCHIICROCCHHOCRCRIIIICIRHO;
+   private final boolean OCORCHOCOHCHCOCCOICCRHCOCCORCC;
+   private final boolean COCHOIHHCICORRCCCCICHROHIORROC;
+   private final int OORIOIIIIRHHCIIHOOHHOOOHOHOCCO;
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      int var1,
+      String var2,
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var3,
+      int var4,
+      float var5,
+      float var6,
+      float var7,
+      float var8,
+      boolean var9,
+      boolean var10,
+      boolean var11,
+      int var12
+   ) {
+      this.CHRICICRORHORHRHCOCCOOOCRRIRRI = var1;
+      this.HRIOOIOOOIHHIHRICRIRHROCIHOCOR = var2;
+      this.OHIOROROORIHROIIOICHICCICIICCC = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create("lunar-jit", var3.bridge$getPath());
+      this.OHCRCHCOIHIHOHICICIICIOORHOCIH = var4;
+      this.HRRRRIOCORIRRCIROOCROCOCCHIICH = var5;
+      this.OHIOCCRORCOOHCOCIOCCROOHIOHCHC = var6;
+      this.ORHROOHHRHROCICICIOCIHRCIOOOOH = var7;
+      this.RHOIIRHORIHCROCRIOICHHRORIIRCR = var8;
+      this.RCROCCHIICROCCHHOCRCRIIIICIRHO = var9;
+      this.OCORCHOCOHCHCOCCOICCRHCOCCORCC = var10;
+      this.COCHOIHHCICORRCCCCICHROHIORROC = var11;
+      this.OORIOIIIIRHHCIIHOOHHOOOHOHOCCO = var12;
+   }
+
+   public boolean CCRHOHHOHIROCRCIHOHOHRIOHCRCOH() {
+      return this.HRRRRIOCORIRRCIROOCROCOCCHIICH <= 1.0F && this.OHIOCCRORCOOHCOCIOCCROOHIOHCHC <= 1.0F;
+   }
+
+   public boolean CHIIHHCRCOCIRIRCRCIRIOIHOOIIOO() {
+      return this.ORHROOHHRHROCICICIOCIHRCIOOOOH != 1.0F && this.RHOIIRHORIHCROCRIOICHHRORIIRCR != 0.0F;
+   }
+
+   @Override
+   public String toString() {
+      return "SprayEntry{id=" + this.CHRICICRORHORHRHCOCCOOOCRRIRRI + ", name=" + this.HRIOOIOOOIHHIHRICRIRHROCIHOCOR + "}";
+   }
+
+   @Override
+   public JsonElement provide() {
+      JsonObject var1 = new JsonObject();
+      var1.addProperty("id", this.CHRICICRORHORHRHCOCCOOOCRRIRRI);
+      var1.addProperty("name", this.HRIOOIOOOIHHIHRICRIRHROCIHOCOR);
+      var1.addProperty("texture", this.OHIOROROORIHROIIOICHICCICIICCC.bridge$getPath());
+      var1.addProperty("width", this.HRRRRIOCORIRRCIROOCROCOCCHIICH);
+      var1.addProperty("height", this.OHIOCCRORCOOHCOCIOCCROOHIOHCHC);
+      var1.addProperty("offsetX", this.ORHROOHHRHROCICICIOCIHRCIOOOOH);
+      var1.addProperty("offsetY", this.RHOIIRHORIHCROCRIOICHHRORIIRCR);
+      var1.addProperty("particleColor", this.OHCRCHCOIHIHOHICICIICIOORHOCIH);
+      var1.addProperty("animated", this.OCORCHOCOHCHCOCCOICCRHCOCCORCC);
+      var1.addProperty("emissive", this.RCROCCHIICROCCHHOCRCRIIIICIRHO);
+      var1.addProperty("canCover", this.COCHOIHHCICORRCCCCICHROHIORROC);
+      var1.addProperty("duration", this.OORIOIIIIRHHCIIHOOHHOOOHOHOCCO);
+      OOCCRCRCOHIIORCCORCRCIRRROIOOR var2 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().RHOOIIHCIOORCHHHRCHORROICICIHO();
+      List var3 = var2.CIOHRCIHROIRCHHHCRIOOHHOCHRCCH();
+      boolean var4 = var3 != null
+         && var3.contains(this.CHRICICRORHORHRHCOCCOOOCRRIRRI)
+         && IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().IHIHCOIRIHIRHICORCCHCOOICIIOIC().HIRROCORCHCHRORRHRIHCIHIHCCHIC();
+      var1.addProperty("isFreeLunarPlus", var4);
+      return var1;
+   }
+
+   @Generated
+   public int getId() {
+      return this.CHRICICRORHORHRHCOCCOOOCRRIRRI;
+   }
+
+   @Generated
+   public String getName() {
+      return this.HRIOOIOOOIHHIHRICRIRHROCIHOCOR;
+   }
+
+   @Generated
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC CHIHHIRCHIHIHCOIIRIOOHHORRIHOC() {
+      return this.OHIOROROORIHROIIOICHICCICIICCC;
+   }
+
+   @Generated
+   public int HCORCORIIIIOOHOOCRROOCIOCRCCII() {
+      return this.OHCRCHCOIHIHOHICICIICIOORHOCIH;
+   }
+
+   @Generated
+   public float getWidth() {
+      return this.HRRRRIOCORIRRCIROOCROCOCCHIICH;
+   }
+
+   @Generated
+   public float getHeight() {
+      return this.OHIOCCRORCOOHCOCIOCCROOHIOHCHC;
+   }
+
+   @Generated
+   public float HHHHCIICCHHICIOIHCHOROHOCIHIRI() {
+      return this.ORHROOHHRHROCICICIOCIHRCIOOOOH;
+   }
+
+   @Generated
+   public float ROIRICOHOICIIHRCROHICOOHIOIHCI() {
+      return this.RHOIIRHORIHCROCRIOICHHRORIIRCR;
+   }
+
+   @Generated
+   public boolean ROCOCOCHIORRRCIRIRCRRORRIIIIHO() {
+      return this.RCROCCHIICROCCHHOCRCRIIIICIRHO;
+   }
+
+   @Generated
+   public boolean ICCRCOIRIROHCRHCCCCHCOIIRHHHOC() {
+      return this.OCORCHOCOHCHCOCCOICCRHCOCCORCC;
+   }
+
+   @Generated
+   public boolean CCHHCICCHHOORCRICIIIRRRRCCIRRI() {
+      return this.COCHOIHHCICORRCCCCICHROHIORROC;
+   }
+
+   @Generated
+   public int getDuration() {
+      return this.OORIOIIIIRHHCIIHOOHHOOOHOHOCCO;
+   }
+}

@@ -1,0 +1,27 @@
+package com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import org.jspecify.annotations.Nullable;
+
+public record IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
+   private final @Nullable Integer CORHHCCRIIIIHORRROIORCIRCCRHCO;
+   private final double HICRCIRHRCIHCOORRCIIHHOIICICCI;
+   private final Double OCRHRIHRRHCOHICCCCCIHHROOIIHRI;
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(@Nullable Integer var1, double var2, Double var4) {
+      this.CORHHCCRIIIIHORRROIORCIRCCRHCO = var1;
+      this.HICRCIRHRCIHCOORRCIIHHOIICICCI = var2;
+      this.OCRHRIHRRHCOHICCCCCIHHROOIIHRI = var4;
+   }
+
+   public @Nullable Integer HRHRHRRIRCHCHHIRRCICCRRIIHHIHC() {
+      return this.CORHHCCRIIIIHORRROIORCIRCCRHCO;
+   }
+
+   public double value() {
+      return this.HICRCIRHRCIHCOORRCIIHHOIICICCI;
+   }
+
+   public Double IROCHHHRCHIHHIOIRRIRCRHHOCIHHO() {
+      return this.OCRHRIHRRHCOHICCCCCIHHROOIIHRI;
+   }
+}

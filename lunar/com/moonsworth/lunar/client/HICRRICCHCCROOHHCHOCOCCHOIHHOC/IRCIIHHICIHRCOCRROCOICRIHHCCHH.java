@@ -1,0 +1,52 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC;
+
+import java.util.Set;
+import lombok.Generated;
+
+public abstract class IRCIIHHICIHRCOCRROCOICRIHHCCHH<T> implements RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   protected final Set<T> CCCORCRCCRHOIRHRCHCCOHORIHOHIH;
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
+      com.moonsworth.lunar.client.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         "Loading " + this.getClass().getSimpleName() + "..."
+      );
+      this.CCCORCRCCRHOIRHRCHCCOHORIHOHIH = this.ORRHHOHHRICCROHHICIOOHOOCRRRCC();
+   }
+
+   protected abstract Set<T> ORRHHOHHRICCROHHICIOOHOOCRRRCC();
+
+   @Override
+   public void init() {
+      if (this instanceof com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH) {
+         com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HIOHRHOOOOIHHRROOHCIRRHHORRRHR()
+            .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               (com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)this
+            );
+         ((com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)this)
+            .HIHCHCHCHROIIHCIHCOCIORCHCOCRC()
+            .forEach(var0 -> {
+               try {
+                  var0.HICCORIOHCOHCRRHHCIOIIIRCCROOC();
+                  var0.IIIICHHCICRICOCHRIHHHORICICOOC();
+               } catch (Exception var2) {
+                  var2.printStackTrace();
+               }
+            });
+         ((com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)this)
+            .CHRCORCHOCIOCIIIOCRIIOICHRHOCR();
+      }
+
+      com.moonsworth.lunar.client.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         this.getClass().getSimpleName() + " loaded " + this.CCCORCRCCRHOIRHRCHCCOHORIHOHIH.size() + " items."
+      );
+   }
+
+   @Override
+   public void close() {
+   }
+
+   @Generated
+   public Set<T> OHHRCRIOOCIORORHIOHRICRHHORCIH() {
+      return this.CCCORCRCCRHOIRHRCHCCOHORIHOHIH;
+   }
+}

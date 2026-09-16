@@ -1,0 +1,78 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+public class OOROOCCIRCCRHOIOIORIHCHHOOCCOR implements HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   public static boolean DEBUG = false;
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH RICHOIOCCCCOCHHRIHIOIICCRCOORI;
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH RHIRIHCRHOIRCRHORICOICHIRHORCR;
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH CRRRCIORIRORRCHCCRRCRRRICHHCII;
+   private HHCCIRHCCCIIRHCROHIORHIRHHIORH HIHIRCICHRCIROHOOICCHOCCCHOCCR = new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(0.0);
+
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR(HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1, HHCCIRHCCCIIRHCROHIORHIRHHIORH var2, HHCCIRHCCCIIRHCROHIORHIRHHIORH var3) {
+      this.RICHOIOCCCCOCHHRIHIOIICCRCOORI = var1;
+      this.RHIRIHCRHOIRCRHORICOICHIRHORCR = var2;
+      this.CRRRCIORIRORRCHCCRRCRRRICHHCII = var3;
+   }
+
+   @Override
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH HHORHRRICIIRIRRCRIORRCIHIOICIR() {
+      if (!this.isNumber() && this.RICHOIOCCCCOCHHRIHIOIICCRCOORI == HRCHROOHRIHCRCRHRIIROCIRHOIRHH.ADD) {
+         this.HIHIRCICHRCIROHOOICCHOCCCHOCCR.set(this.stringValue());
+      } else {
+         this.HIHIRCICHRCIROHOOICCHOCCCHOCCR.set(this.doubleValue());
+      }
+
+      return this.HIHIRCICHRCIROHOOICCHOCCCHOCCR;
+   }
+
+   @Override
+   public boolean isNumber() {
+      return this.RHIRIHCRHOIRCRHORICOICHIRHORCR.isNumber() || this.CRRRCIORIRORRCHCCRRCRRRICHHCII.isNumber();
+   }
+
+   @Override
+   public void set(double var1) {
+   }
+
+   @Override
+   public void set(String var1) {
+   }
+
+   @Override
+   public double doubleValue() {
+      if (!this.isNumber() && this.RICHOIOCCCCOCHHRIHIOIICCRCOORI == HRCHROOHRIHCRCRHRIIROCIRHOIRHH.EQUALS) {
+         return this.RHIRIHCRHOIRCRHORICOICHIRHORCR.stringValue().equals(this.CRRRCIORIRORRCHCCRRCRRRICHHCII.stringValue()) ? 1.0 : 0.0;
+      } else {
+         return this.RICHOIOCCCCOCHHRIHIOIICCRCOORI
+            .calculate(this.RHIRIHCRHOIRCRHORICOICHIRHORCR.doubleValue(), this.CRRRCIORIRORRCHCCRRCRRRICHHCII.doubleValue());
+      }
+   }
+
+   @Override
+   public boolean ICRRRCOCRCCHCIIOHHORHORHRCOCIC() {
+      return HRCHROOHRIHCRCRHRIIROCIRHOIRHH.isTrue(this.doubleValue());
+   }
+
+   @Override
+   public String stringValue() {
+      return this.RICHOIOCCCCOCHHRIHIOIICCRCOORI == HRCHROOHRIHCRCRHRIIROCIRHOIRHH.ADD
+         ? this.RHIRIHCRHOIRCRHORICOICHIRHORCR.stringValue() + this.CRRRCIORIRORRCHCCRRCRRRICHHCII.stringValue()
+         : this.RHIRIHCRHOIRCRHORICOICHIRHORCR.stringValue();
+   }
+
+   @Override
+   public String toString() {
+      return DEBUG
+         ? "("
+            + this.RHIRIHCRHOIRCRHORICOICHIRHORCR.toString()
+            + " "
+            + this.RICHOIOCCCCOCHHRIHIOIICCRCOORI.sign
+            + " "
+            + this.CRRRCIORIRORRCHCCRRCRRRICHHCII.toString()
+            + ")"
+         : this.RHIRIHCRHOIRCRHORICOICHIRHORCR.toString()
+            + " "
+            + this.RICHOIOCCCCOCHHRIHIOIICCRCOORI.sign
+            + " "
+            + this.CRRRCIORIRORRCHCCRRCRRRICHHCII.toString();
+   }
+}

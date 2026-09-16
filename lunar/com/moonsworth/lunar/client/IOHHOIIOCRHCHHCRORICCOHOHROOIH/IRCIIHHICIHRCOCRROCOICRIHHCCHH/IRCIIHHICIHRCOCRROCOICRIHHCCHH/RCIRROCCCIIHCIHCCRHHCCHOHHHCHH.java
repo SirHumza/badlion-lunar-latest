@@ -1,0 +1,78 @@
+package com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.client.util.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import com.moonsworth.webosr.config.BrowserConfig;
+import com.moonsworth.webosr.config.EngineConfig;
+import com.moonsworth.webosr.javascript.FunctionBus;
+import com.moonsworth.webosr.wrappers.Browser;
+import lombok.Generated;
+
+public abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<T extends EngineConfig> {
+   private final String ICOIIOOOIIIHOOHOCOCOOIRHIIROHR;
+   private final FunctionBus OIOHOIOIIOOCHIIIHHCHHICHORIHRI;
+   private final boolean RRROIHOHCRIRRHCOORCORRRRRRRCRC;
+   private T CROHRHROIIIRICHIIHRCRIHIIIOCCR;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, boolean var2) {
+      this.ICOIIOOOIIIHOOHOCOCOOIRHIIROHR = var1;
+      this.RRROIHOHCRIRRHCOORCORRRRRRRCRC = var2;
+      this.OIOHOIOIIOOCHIIIHHCHHICHORIHRI = new com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH();
+   }
+
+   protected abstract T HHRRRCOOOIHHRCHHIOOIRCCOOCHOHC();
+
+   public final T HICOIOICHICHCRIRRHRIIIOCOIHHIC() {
+      if (this.CROHRHROIIIRICHIIHRCRIHIIIOCCR == null) {
+         this.CROHRHROIIIRICHIIHRCRIHIIIOCCR = this.HHRRRCOOOIHHRCHHIOOIRCCOOCHOHC();
+         this.CROHRHROIIIRICHIIHRCRIHIIIOCCR.textureHandler = com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCHHIOIOIRCHOHCCICCOICICIORHRC();
+         this.CROHRHROIIIRICHIIHRCRIHIIIOCCR.clipboard = new com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH();
+         this.CROHRHROIIIRICHIIHRCRIHIIIOCCR.fileSystem = new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(this.RRROIHOHCRIRRHCOORCORRRRRRRCRC);
+         if (!com.moonsworth.lunar.client.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHRRICCIOIHROCCOIIORROIROCIIOR) {
+            this.CROHRHROIIIRICHIIHRCRIHIIIOCCR.remoteDebugPort = 9222;
+         }
+      }
+
+      return this.CROHRHROIIIRICHIIHRCRIHIIIOCCR;
+   }
+
+   public final Browser RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1, int var2, double var3, Browser.Listener var5) {
+      try {
+         BrowserConfig var6 = new BrowserConfig();
+         var6.accelerated = false;
+         var6.width = var1;
+         var6.height = var2;
+         var6.initialScale = var3;
+         var6.eventHandler = var5;
+         var6.transparent = true;
+         Browser var7 = com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HICOIOCHIOHOHCOCOHICOOHIRRIROO()
+            .createBrowser(var6);
+         var7.bindFunction("lunarInternalInvoke", this.OIOHOIOIIOOCHIIIHHCHHICHORIHRI);
+         return var7;
+      } catch (Exception var8) {
+         throw new RuntimeException(var8);
+      }
+   }
+
+   public final String getUserAgent() {
+      return "LunarClient "
+         + com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CROIHRIIRROCHORIIRIOCROOORRCCH()
+         + " ("
+         + IIRHCHHOICHRICOOCRORCCIOOIHOIR.OCOIIIHIRRCCCCCHCHRIOCHHRHIICI
+         + "; "
+         + com.moonsworth.lunar.client.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOCRRHCRORRCCCIRHOIORIHRIIHOOC
+         + "; "
+         + this.ICOIIOOOIIIHOOHOCOCOOIRHIIROHR
+         + ")";
+   }
+
+   @Generated
+   public String CRRROHICIRIHOIIROIHCCRRCIIRCHO() {
+      return this.ICOIIOOOIIIHOOHOCOCOOIRHIIROHR;
+   }
+
+   @Generated
+   public FunctionBus COHRROOORCRIRHROIRIHHRORCOCCRH() {
+      return this.OIOHOIOIIOOCHIIIHHCHHICHORIHRI;
+   }
+}

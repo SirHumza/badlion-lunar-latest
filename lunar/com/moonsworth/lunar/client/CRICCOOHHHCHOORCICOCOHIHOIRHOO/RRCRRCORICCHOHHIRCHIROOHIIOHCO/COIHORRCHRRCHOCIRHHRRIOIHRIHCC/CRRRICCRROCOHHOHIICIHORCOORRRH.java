@@ -1,0 +1,679 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.COIHORRCHRRCHOCIRHHRRIOIHRIHCC;
+
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.UnmodifiableIterator;
+import com.google.common.util.concurrent.UncheckedExecutionException;
+import com.google.gson.JsonObject;
+import com.mojang.authlib.GameProfile;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.IHICORCROOROHCIHIHCOIHRRHICICO;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.IIHRRHORCRCROCHHOHORCHCROCIHRO.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.IOHHOIIOCRHCHHCRORICCOHOHROOIH;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.RHRRHOHCRCHCCRRHOHHIRCCHOCICHC;
+import com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Locale;
+import java.util.Optional;
+import java.util.UUID;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.BiConsumer;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import lombok.Generated;
+import org.jetbrains.annotations.Nullable;
+
+public class CRRRICCRROCOHHOHIICIHORCOORRRH extends com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private static final RCIROOOOICRHCCRRCIORHHIRCOIIIC HCICHIHIIIOCRIORRRHHHHCRRRIOCH = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+      "minecraft", "textures/skins/wide/steve.png"
+   );
+   private static final RCIROOOOICRHCCRRCIORHHIRCOIIIC RHCCOHICOORCOCCIRHRHOROHIOIHRO = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+      "minecraft", "textures/skins/slim/alex.png"
+   );
+   private static final Pattern HCRCIOIRCHCIRHICIRCIHOIHOROCRC = Pattern.compile("Sending to server (?<lobbyName>([a-zA-Z0-9])+)(...|!)");
+   private static final Pattern IHOHORIRRIHHRCCCRRHROHRRRRROOO = Pattern.compile("Request join for Hub (\\#[0-9]+ \\()?(mini|mega)[0-9]+[A-Z]\\)?(...|!)");
+   private static final Pattern OCCHICCRRRICRCOIHOHOROOOCCCRIR = Pattern.compile("Sending you to (mini|mega)[0-9]+[A-Z](...|!)");
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI ICRIIRIORCHCCRHCOIRICOROOICRIC = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC("hideName")
+      .RICIORHICRROHOCHRRCRIHCROOCIIC(true)
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI CORRHIOHRRROICIHHRORCIHOHOHIIO = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC("hideRealName")
+      .RICIORHICRROHOCHRRCRIHCROOCIIC(true)
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI HCHHOHCHRROROHRCHORORRIICOORRR = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC(
+         "hideOthersNames"
+      )
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI CICCHIHHRHOOICOIHIORCOHRORCOCI = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC("hideOwnSkin")
+      .RICIORHICRROHOCHRRCRIHCROOCIIC(true)
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI HORCRCOICOCORCIIHCOROHCIHOICCH = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC("useRealSkin")
+      .RICIORHICRROHOCHRRCRIHCROOCIIC(true)
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI RRRICIROHHRCCICRHORCCHRCRRIIOO = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC("hideOthersSkin")
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI HRHCRORHCICHRHIICICHIOIHICOOHC = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC("hideLobbyID")
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private String RHCOHIIOHCRCROIRIHHOCOICHOIIRH;
+   private String ORIRICIICIRHOIIOROOOOORICOHIIO;
+   private String HRCIHORICRROIOIIIHCCIIHICOCHRR;
+   private final RHRRHOHCRCHCCRRHOHHIRCCHOCICHC IIIHHOIRCOIOHIHCRIRIIIHHICOIRR = IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRIIRCCHICHCORCCCHIHCCRRORIHCI("ownName")
+      .ORIOHRCIHRCOOHICCCRIIIHCRHHIHI("You")
+      .RICRIHOOHROHICCHHIIHRHCORHIOHR(this::RRIIRIHICIRHHCCRCHIHICOCRRORHI)
+      .RIIHIHHCRHCHRCICHOROHCHIIHCICH(var1 -> {
+         if (this.IHCRORHRORIICHRHRCHRRIRRHHOCOO(var1, "Nickname")) {
+            this.IRRRRIOCCHICCHIRCIOCHCOCIORCOI();
+         } else {
+            this.IIIHHOIRCOIOHIHCRIRIIIHHICOIRR.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(this.RHCOHIIOHCRCROIRIHHOCOICHOIIRH);
+         }
+      })
+      .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1 -> {
+         if (this.IIIHHOIRCOIOHIHCRIRIIIHHICOIRR.get().length() >= 16 && !RHRRHOHCRCHCCRRHOHHIRCCHOCICHC.CORCOCICIRIOHROHROIIOOHICCHCRR(var1)) {
+            return null;
+         } else if (var1 == ' ') {
+            return '_';
+         } else {
+            return !"abcdefghijklmnopqrstuvwxyz0123456789_\b".contains(String.valueOf(var1).toLowerCase(Locale.ROOT)) ? null : var1;
+         }
+      })
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final RHRRHOHCRCHCCRRHOHHIRCCHOCICHC RRHHHROROOHCRHROIHRCOCHIOIICOI = IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRIIRCCHICHCORCCCHIHCCRRORIHCI("hiddenPrefix")
+      .ORIOHRCIHRCOOHICCCRIIIHCRHHIHI("Player")
+      .RICRIHOOHROHICCHHIIHRHCORHIOHR(this::HHIHIIOICHCCHIIRRCCRHHHOOCOOCO)
+      .RIIHIHHCRHCHRCICHOROHCHIIHCICH(var1 -> {
+         if (this.IHCRORHRORIICHRHRCHRRIRRHHOCOO(var1, "Prefix")) {
+            this.RHCRIHROHOHIHCOCCHCROIRCOOHHIR();
+         } else {
+            this.RRHHHROROOHCRHROIHRCOCHIOIICOI.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(this.ORIRICIICIRHOIIOROOOOORICOHIIO);
+         }
+      })
+      .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1 -> {
+         if (this.RRHHHROROOHCRHROIHRCOCHIOIICOI.get().length() >= 16 && var1 != '\b') {
+            return null;
+         } else if (var1 == ' ') {
+            return '_';
+         } else {
+            return !"abcdefghijklmnopqrstuvwxyz0123456789_\b".contains(String.valueOf(var1).toLowerCase(Locale.ROOT)) ? null : var1;
+         }
+      })
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final HICHRCOHCCRHOHCICOOCHOIHCCHIRI HCOOOCOIRCRIRHHRCCIIOCRCOOHRCH = IOHHOIIOCRHCHHCRORICCOHOHROOIH.CHCHHCCOHHIIHICCHCCICHIOCHOCOC("customSuffix")
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final RHRRHOHCRCHCCRRHOHHIRCCHOCICHC IHIHRHIOCOHHIRRIICRHRHRHROIIHI = IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRIIRCCHICHCORCCCHIHCCRRORIHCI("hiddenSuffix")
+      .RICRIHOOHROHICCHHIIHRHCORHIOHR(this::HROOORICCCOROOORORCORRHRHORIRC)
+      .RIIHIHHCRHCHRCICHOROHCHIIHCICH(var1 -> {
+         if (this.IHCRORHRORIICHRHRCHRRIRRHHOCOO(var1, "Suffix")) {
+            this.RHCRIHROHOHIHCOCCHCROIRCOOHHIR();
+         } else {
+            this.IHIHRHIOCOHHIRRIICRHRHRHROIIHI.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(this.HRCIHORICRROIOIIIHCCIIHICOCHRR);
+         }
+      })
+      .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1 -> {
+         if (this.IHIHRHIOCOHHIRRIICRHRHRHROIIHI.get().length() >= 16 && var1 != '\b') {
+            return null;
+         } else if (var1 == ' ') {
+            return '_';
+         } else {
+            return !"abcdefghijklmnopqrstuvwxyz0123456789_\b".contains(String.valueOf(var1).toLowerCase(Locale.ROOT)) ? null : var1;
+         }
+      })
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+   private final Pattern RRHIOHCICOIOHIHOOCIIHIIOCROCHH = Pattern.compile("([a-zA-Z0-9_]{3,16})");
+   private ImmutableList<RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> OIIOROCHCCRHCCIOHCRIIHHRROHIOH = ImmutableList.of();
+   private final AtomicInteger HRRHCRHCRRCCIIROIRHHHRICOHHHCH = new AtomicInteger();
+   private final RRCRRCORICCHOHHIRCHIROOHIIOHCO<String, String> ICRIRCOCRROCRRIHOHHHIOORCIRHIH = new RRCRRCORICCHOHHIRCHIROOHIIOHCO<String, String>() {
+      protected RIOOCHICIHRHOHCCCCCHOCCCOHCRHI HRCOHHCIOHCHRHHCOCHOCIHROOIRIH(String var1) {
+         return RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IOICICOROHHHOHROOOHCRCCOIRIOHO(var1);
+      }
+
+      protected String RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1) {
+         return var1.OCRHCCOCICIHHHOHICIRRRRIROIRHC();
+      }
+   };
+   private final LoadingCache<Component, Component> HCCHICHIRCRHOCCCRHRIHIRRROOCCC = CacheBuilder.newBuilder()
+      .maximumSize(5000L)
+      .build(new CacheLoader<Component, Component>() {
+         public Component IIRHCHHOICHRICOOCRORCCIOOIHOIR(Component var1) {
+            return CRRRICCRROCOHHOHIICIHORCOORRRH.this.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1);
+         }
+      });
+   public static String OICICOOOHCRHIOCRHHCHRROCIHHCOO;
+   private final IRCIIHHICIHRCOCRROCOICRIHHCCHH OICRROOOIOCRCIIRORRRRRHCCRROIO;
+   private String RIIHHCRIOOOIOHOOHIHICORHROCRHI = "";
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH() {
+      super(false);
+      this.OICRROOOIOCRCIIRORRRRRHCCRROIO = new IRCIIHHICIHRCOCRROCOICRIHHCCHH(this);
+      this.handle(OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class, this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH);
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.class,
+         this::OCOHORHCROHICRRIHCIHHRRCIHICRI
+      );
+   }
+
+   @Override
+   public String getId() {
+      return "NICK_HIDER";
+   }
+
+   private boolean IHCRORHRORIICHRHRCHRRIRRHHOCOO(String var1, String var2) {
+      if (var1.isBlank() && !"Suffix".equals(var2)) {
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+            .IHCHHRRIIIORORCHIICIIOORCOIOIO()
+            .CIICCRHHHOHOIOHCHRHOORCICRCORC(var2 + " cannot be empty!");
+         return false;
+      } else {
+         return !this.RCIICICHIIRIIRHHROCOOOHRROOIIC(var1);
+      }
+   }
+
+   private boolean RCIICICHIIRIIRHHROCOOOHRROOIIC(String var1) {
+      ArrayList var2 = new ArrayList<>(
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HHRIHOIIOIRRCHRHRIHIRICOIHRHRO().OIIHIIHCCCHOOICHROHOIOROORCIII()
+      );
+      var2.add(IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HHRIHOIIOIRRCHRHRIHIRICOIHRHRO().ORCIRORHHRHCCOCCHHIIHCCOHRHHHO());
+
+      for (Pattern var4 : var2) {
+         if (var4.matcher(var1).find()) {
+            return true;
+         }
+      }
+
+      return false;
+   }
+
+   @Override
+   public void COIHORRCHRRCHOCIRHHRRIOIHRIHCC(boolean var1) {
+      if (this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH != null) {
+         this.clean();
+         if (IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH() != null
+            && IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH().bridge$getSendQueue() != null
+            && var1) {
+            this.IRRRRIOCCHICCHIRCIOCHCOCIORCOI();
+            this.HCIOCORCHRROOCHRCOIHCRCRHCIICH();
+         }
+
+         if (!this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty()) {
+            this.RIOCORROOICICHHCHICOOCCIHCOIHO();
+         }
+      }
+   }
+
+   private void IRCIIHHICIHRCOCRROCOICRIHHCCHH(GameProfile var1) {
+      if (!IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+         .HHCCIRORCRCHOIOHRRIRRRIORRCRRR()
+         .HOOHRIIRIHCIHIIHIOHHOHHORIOHOR()
+         .CIHCIHCORCICOHIRICHRRIORROOICH()) {
+         if (var1 != null && this.OCIHRIRRIIHIHORCOOROCHICIRHHHI.RROHIIOHORHICRHIHCCRRRHIHCHRCC() != null) {
+            String var2 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextWithoutFormattingCodes(
+               var1.getName()
+            );
+            boolean var3 = var2.equals(this.mc.bridge$getSession().bridge$getUsername());
+            boolean var4 = var2.equals(this.OICRROOOIOCRCIIRORRRRRHCCRROIO.OHICOIIOOHIOHROIHCCCCIOHHRHIRH())
+               || !this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty() && var2.equals(this.RIIHHCRIOOOIOHOOHIHICORHROCRHI);
+            boolean var5 = !var3 && !var4 && this.HCHHOHCHRROROHRCHORORRIICOORRR.get();
+            boolean var6 = !this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty();
+            if (var3 && (this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() || var6) || var4 && (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get() || var6) || var5) {
+               this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var2, var3 || var4);
+            }
+         }
+      }
+   }
+
+   public void RIORIIRCCCOCIHCHOIICORIOROOHRC(String var1) {
+      if (var1 != null && !var1.isEmpty()) {
+         this.RIIHHCRIOOOIOHOOHIHICORHROCRHI = var1;
+         this.RIOCORROOICICHHCHICOOCCIHCOIHO();
+      } else {
+         this.IHHIRCCOHROOHRRICRHOIOHIRHCOOH();
+      }
+   }
+
+   public void IHHIRCCOHROOHRRICRHOIOHIRHCOOH() {
+      if (!this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty()) {
+         this.RIIHHCRIOOOIOHOOHIHICORHROCRHI = "";
+         this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH = this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH
+            .stream()
+            .filter(var0 -> !var0.IICIRRRRRRRCCRICCRCRRROHRIIHHR())
+            .collect(Collectors.collectingAndThen(Collectors.toList(), ImmutableList::copyOf));
+         this.OIHCROCIIHHRCHHRHOCHOCIICOHHHR();
+         if (this.isEnabled()) {
+            this.IRRRRIOCCHICCHIRCIOCHCOCIORCOI();
+         }
+      }
+   }
+
+   private void RIOCORROOICICHHCHICOOCCIHCOIHO() {
+      this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH = this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH
+         .stream()
+         .filter(var0 -> !var0.IICIRRRRRRRCCRICCRCRRROHRIIHHR())
+         .collect(Collectors.collectingAndThen(Collectors.toList(), ImmutableList::copyOf));
+      IHICORCROOROHCIHIHCOIHRRHICICO var1 = this.mc.bridge$getSession();
+      if (var1 != null) {
+         this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var1.bridge$getUsername(), true);
+      }
+
+      if (!this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty()) {
+         this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(this.RIIHHCRIOOOIOHOOHIHICORHROCRHI, true);
+      }
+
+      if (!this.OICRROOOIOCRCIIRORRRRRHCCRROIO.OHICOIIOOHIOHROIHCCCCIOHHRHIRH().isEmpty()) {
+         this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(this.OICRROOOIOCRCIIRORRRRRHCCRROIO.OHICOIIOOHIOHROIHCCCCIOHHRHIRH(), true);
+      }
+
+      this.OIHCROCIIHHRCHHRHOCHOCIICOHHHR();
+   }
+
+   public void CIRRHHHIRCHOHHCRCIHROHHRIOCOHO(String var1) {
+      this.RORHHOOCRCHHCORIROOIRRCORIRRCO(var1)
+         .ifPresent(
+            var1x -> {
+               this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH = this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH
+                  .stream()
+                  .filter(var1xx -> !var1xx.equals(var1x))
+                  .collect(Collectors.collectingAndThen(Collectors.toList(), ImmutableList::copyOf));
+               this.OIHCROCIIHHRCHHRHOCHOCIICOHHHR();
+            }
+         );
+   }
+
+   public String ROORRRORCHHOOHIIORIHCORHCIOIHR(String var1) {
+      if (var1 == null) {
+         return null;
+      } else {
+         return !this.isEnabled() && this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty()
+            ? var1
+            : this.ICRIRCOCRROCRRIHOHHHIOORCIRHIH.ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(var1);
+      }
+   }
+
+   public Component CIOHHCORHRCCRICCCORIHCRHCCCRRR(Component var1) {
+      if (var1 == null) {
+         return null;
+      }
+
+      if (!this.isEnabled() && this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty()) {
+         return var1;
+      }
+
+      try {
+         return (Component)this.HCCHICHIRCRHOCCCRHRIHIRRROOCCC.get(var1);
+      } catch (ExecutionException | UncheckedExecutionException var3) {
+         return var1;
+      }
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      var1.HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+         "nameOptions",
+         var1x -> {
+            var1x.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               this.ICRIIRIORCHCCRHCOIRICOROOICRIC, var1xx -> var1xx.CRRRICCRROCOHHOHIICIHORCOORRRH(this.IIIHHOIRCOIOHIHCRIRIIIHHICOIRR)
+            );
+            var1x.CRRRICCRROCOHHOHIICIHORCOORRRH(this.CORRHIOHRRROICIHHRORCIHOHOHIIO);
+            var1x.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               this.HCHHOHCHRROROHRCHORORRIICOORRR,
+               var1xx -> {
+                  var1xx.CRRRICCRROCOHHOHIICIHORCOORRRH(this.RRHHHROROOHCRHROIHRCOCHIOIICOI);
+                  var1xx.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                     this.HCOOOCOIRCRIRHHRCCIIOCRCOOHRCH, var1xxx -> var1xxx.CRRRICCRROCOHHOHIICIHORCOORRRH(this.IHIHRHIOCOHHIRRIICRHRHRHROIIHI)
+                  );
+               }
+            );
+            var1x.CRRRICCRROCOHHOHIICIHORCOORRRH(this.HRHCRORHCICHRHIICICHIOIHICOOHC);
+         }
+      );
+      var1.HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+         "skinOptions",
+         var1x -> var1x.CRRRICCRROCOHHOHIICIHORCOORRRH(
+            this.CICCHIHHRHOOICOIHIORCOHRORCOCI, this.HORCRCOICOCORCIIHCOROHCIHOICCH, this.RRRICIROHHRCCICRHORCCHRCRRIIOO
+         )
+      );
+      this.ICRIIRIORCHCCRHCOIRICOROOICRIC.IIOCHOIICCIORCOROIROHICCHIOHIC(var1x -> {
+         if (var1x) {
+            this.IRRRRIOCCHICCHIRCIOCHCOCIORCOI();
+         } else {
+            this.OICRROOOIOCRCIIRORRRRRHCCRROIO.HIHCCHCCOCOHRICOICHRCOIHIIRIHO(false);
+         }
+      });
+      this.CORRHIOHRRROICIHHRORCIHOHOHIIO.IIOCHOIICCIORCOROIROHICCHIOHIC(var1x -> {
+         if (var1x) {
+            this.OICRROOOIOCRCIIRORRRRRHCCRROIO.HIHCCHCCOCOHRICOICHRCOIHIIRIHO(false);
+            this.IRRRRIOCCHICCHIRCIOCHCOCIORCOI();
+         } else {
+            this.CRRCOIOORCCOHOCICOORRCOOIHIROH();
+            if (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get()) {
+               this.OICRROOOIOCRCIIRORRRRRHCCRROIO.HCOOCHOICIHRICIICHCHHIIHHRRRIC();
+            }
+         }
+      });
+      this.HCHHOHCHRROROHRCHORORRIICOORRR
+         .IIOCHOIICCIORCOROIROHICCHIOHIC(
+            var1x -> {
+               if (var1x) {
+                  this.HCIOCORCHRROOCHRCOIHCRCRHCIICH();
+               } else {
+                  this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH = this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH
+                     .stream()
+                     .filter(var0 -> !var0.IICIRRRRRRRCCRICCRCRRROHRIIHHR())
+                     .collect(Collectors.collectingAndThen(Collectors.toList(), ImmutableList::copyOf));
+                  this.OIHCROCIIHHRCHHRHOCHOCIICOHHHR();
+               }
+            }
+         );
+      this.HCOOOCOIRCRIRHHRCCIIOCRCOOHRCH.IIOCHOIICCIORCOROIROHICCHIOHIC(var1x -> this.RHCRIHROHOHIHCOCCHCROIRCOOHHIR());
+   }
+
+   private void RHCRIHROHOHIHCOCCHCROIRCOOHHIR() {
+      this.clean();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1 = IICCOOCHCHROORHHIIHROHCCRHRCOR.RIIOCICROIOIORIIRIICORCHHRIIRH();
+      if (var1 != null) {
+         var1.bridge$getPlayerEntities().forEach(var1x -> this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1x.bridge$getGameProfile()));
+      }
+   }
+
+   @Override
+   protected com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI ORIRHOHRHHROCHHRRIOOCRIHRIIIOC() {
+      return com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIICCCRRHHCHRRHRIRCHOICCHROHCR()
+         .OOROOCCIRCCRHOIOIORIHCHHOOCCOR("Sk1er")
+         .HRCHROOHRIHCRCRHRIIROCIRHOIRHH("nick hider", "nickhider")
+         .RRCRRCORICCHOHHIRCHIROOHIIOHCO(this);
+   }
+
+   public boolean RHIRIIORHCHHOIOROHORCOHIIIOOCH(String var1) {
+      return this.RRHIOHCICOIOHIHOOCIIHIIOCROCHH.matcher(var1).matches() && var1.length() >= 3 && var1.length() <= 16;
+   }
+
+   private Optional<RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> RORHHOOCRCHHCORIROOIRRCORIRRCO(String var1) {
+      return this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH.stream().filter(var1x -> var1x.OHIOIOHHICHCOCIIOORCOCIIORCRIR().equalsIgnoreCase(var1)).findFirst();
+   }
+
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(UUID var1, String var2, RCIROOOOICRHCCRRCIORHHIRCOIIIC var3) {
+      if (this.isEnabled() && IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH() != null) {
+         boolean var4 = IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH().bridge$getUniqueID().equals(var1);
+         if (var4) {
+            if (this.HORCRCOICOCORCIIHCOROHCIHOICCH.get()
+               && com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRRRICIIOORRCHCOORHOOHCRORIHCO()
+                  != null) {
+               return com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRRRICIIOORRCHCOORHOOHCRORIHCO();
+            }
+
+            if (this.CICCHIHHRHOOICOIHIORCOHRORCOCI.get()) {
+               return this.ICCIRICOHOCCCICROHCRCIOHOIRIIC(var2);
+            }
+         } else if (this.RRRICIROHHRCCICRHORCCHRCRRIIOO.get()) {
+            return this.ICCIRICOHOCCCICROHCRCIOHOIRIIC(var2);
+         }
+
+         return var3;
+      } else {
+         return var3;
+      }
+   }
+
+   @Nullable
+   public String RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(UUID var1, String var2) {
+      if (this.isEnabled() && IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH() != null) {
+         boolean var3 = IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH().bridge$getUniqueID().equals(var1);
+         return var3 && this.HORCRCOICOCORCIIHCOROHCIHOICCH.get() ? OICICOOOHCRHIOCRHHCHRROCIHHCOO : var2;
+      } else {
+         return var2;
+      }
+   }
+
+   public static boolean CCIHHRIOOOOCOHRCIHOHROOICIORCC(RCIROOOOICRHCCRRCIORHHIRCOIIIC var0) {
+      return HCICHIHIIIOCRIORRRHHHHCRRRIOCH.equals(var0) || RHCCOHICOORCOCCIRHRHOROHIOIHRO.equals(var0);
+   }
+
+   private RCIROOOOICRHCCRRCIORHHIRCOIIIC ICCIRICOHOCCCICROHCRCIOHOIRIIC(String var1) {
+      return var1 != null && !var1.equals("default") ? RHCCOHICOORCOCCIRHRHOROHIOIHRO : HCICHIHIIIOCRIORRRHHHHCRRRIOCH;
+   }
+
+   private String OOHRIIOOHROIOHCIRIHRHRRICRRHOI(boolean var1) {
+      if (var1) {
+         if (!this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty()) {
+            return this.RIIHHCRIOOOIOHOOHIHICORHROCRHI;
+         } else {
+            return this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() ? this.IIIHHOIRCOIOHIHCRIRIIIHHICOIRR.get() : this.mc.bridge$getSession().bridge$getUsername();
+         }
+      } else {
+         return this.HCOOOCOIRCRIRHHRCCIIOCRCOOHRCH.get()
+            ? this.RRHHHROROOHCRHROIHRCOCHIOIICOI.get() + this.IHIHRHIOCOHHIRRIICRHRHRHROIIHI.get()
+            : this.RRHHHROROOHCRHROIHRCOCHIOIICOI.get() + "-" + this.HRRHCRHCRRCCIIROIRHHHRICOHHHCH.incrementAndGet();
+      }
+   }
+
+   public void OOROOCCIRCCRHOIOIORIHCHHOOCCOR(String var1, boolean var2) {
+      boolean var3 = this.isEnabled() || var2 && !this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty();
+      if (var3 && var1 != null && !this.RORHHOOCRCHHCORIROOIRRCORIRRCO(var1).isPresent() && this.RHIRIIORHCHHOIOROHORCOHIIIOOCH(var1)) {
+         String var4 = this.OOHRIIOOHROIOHCIRIHRHRRICRRHOI(var2);
+         RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var5 = new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Pattern.compile(Pattern.quote(var1), 2), var1, var4, var2);
+         ArrayList var6 = new ArrayList(this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH);
+         var6.add(var5);
+         Comparator var7 = Comparator.comparingInt(var0 -> var0.OHIOIOHHICHCOCIIOORCOCIIORCRIR().length());
+         var6.sort(var7.reversed());
+         this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH = ImmutableList.copyOf(var6);
+         this.OIHCROCIIHHRCHHRHOCHOCIICOHHHR();
+      }
+   }
+
+   private void OCOHORHCROHICRRIHCIHHRRCIHICRI(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      String var2 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextWithoutFormattingCodes(
+         var1.HOHOCHHHOIHRRHOCRRRIRRRCOIHOCO()
+      );
+      if (this.HRHCRORHCICHRHIICICHIOIHICOOHC.get()
+         && (
+            HCRCIOIRCHCIRHICIRCIHOIHOROCRC.matcher(var2).matches()
+               || OCCHICCRRRICRCOIHOHOROOOCCCRIR.matcher(var2).matches()
+               || IHOHORIRRIHHRCCCRRHROHRRRRROOO.matcher(var2).matches()
+         )) {
+         var1.setCancelled(true);
+      }
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      this.RIIHHCRIOOOIOHOOHIHICORHROCRHI = "";
+      this.clean();
+      this.IRRRRIOCCHICCHIRCIOCHCOCIORCOI();
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1.OORHCIORORHOHHROIRROHIIOIHRCHH().bridge$getGameProfile());
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1.getGameProfile());
+   }
+
+   private void IRRRRIOCCHICCHIRCIOCHCOCIORCOI() {
+      IHICORCROOROHCIHIHCOIHRRHICICO var1 = this.mc.bridge$getSession();
+      if (var1 != null) {
+         String var2 = var1.bridge$getUsername();
+         if (this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get()) {
+            this.CIRRHHHIRCHOHHCRCIHROHHRIOCOHO(var2);
+            this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var2, true);
+         }
+
+         if (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get()) {
+            this.OICRROOOIOCRCIIRORRRRRHCCRROIO.HCOOCHOICIHRICIICHCHHIIHHRRRIC();
+         }
+      }
+   }
+
+   private void CRRCOIOORCCOHOCICOORRCOOIHIROH() {
+      this.CIRRHHHIRCHOHHCRCIHROHHRIOCOHO(this.mc.bridge$getSession().bridge$getUsername());
+      this.OICRROOOIOCRCIIRORRRRRHCCRROIO.HIHCCHCCOCOHRICOICHRCOIHIIRIHO(false);
+   }
+
+   private void HCIOCORCHRROOCHRCOIHCRCRHCIICH() {
+      if (this.HCHHOHCHRROROHRCHORORRIICOORRR.get() && IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH() != null) {
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH()
+            .bridge$getSendQueue()
+            .bridge$getPlayerInfoMap()
+            .stream()
+            .map(
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH::bridge$getGameProfile
+            )
+            .filter(
+               var1 -> var1 != null
+                  && !var1.getName().equals(this.mc.bridge$getSession().bridge$getUsername())
+                  && !var1.getName().equals(this.OICRROOOIOCRCIIRORRRRRHCCRROIO.OHICOIIOOHIOHROIHCCCCIOHHRHIRH())
+            )
+            .forEach(this::IRCIIHHICIHRCOCRROCOICRIHHCCHH);
+      }
+   }
+
+   private void clean() {
+      this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH = ImmutableList.of();
+      this.HRRHCRHCRRCCIIROIRHHHRICOHHHCH.set(0);
+      this.OIHCROCIIHHRCHHRHOCHOCIICOHHHR();
+   }
+
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(BiConsumer<Pattern, String> var1) {
+      boolean var2 = !this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty();
+      if (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get() || this.HCHHOHCHRROROHRCHORORRIICOORRR.get() || this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() || var2) {
+         UnmodifiableIterator var3 = this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH.iterator();
+
+         while (var3.hasNext()) {
+            RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var4 = (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var3.next();
+            boolean var5 = var4.IICIRRRRRRRCCRICCRCRRROHRIIHHR()
+                  && (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get() || this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() || var2)
+               || !var4.IICIRRRRRRRCCRICCRCRRROHRIIHHR() && this.HCHHOHCHRROROHRCHORORRIICOORRR.get();
+            if (var5) {
+               var1.accept(var4.getPattern(), var4.OHRHRHCIOOIRRIHHORHHRRRIOCOOCR());
+            }
+         }
+      }
+   }
+
+   public String RIHCIRRIOICHROIOROIIIRIHORRRIR(String var1) {
+      String var2 = var1;
+      boolean var3 = !this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty();
+      if (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get() || this.HCHHOHCHRROROHRCHORORRIICOORRR.get() || this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() || var3) {
+         UnmodifiableIterator var4 = this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH.iterator();
+
+         while (var4.hasNext()) {
+            RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var5 = (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var4.next();
+            boolean var6 = var5.IICIRRRRRRRCCRICCRCRRROHRIIHHR()
+                  && (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get() || this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() || var3)
+               || !var5.IICIRRRRRRRCCRICCRCRRROHRIIHHR() && this.HCHHOHCHRROROHRCHORORRIICOORRR.get();
+            if (var6) {
+               var2 = var5.getPattern().matcher(var2).replaceAll(var5.OHRHRHCIOOIRRIHHORHHRRRIOCOOCR());
+            }
+         }
+      }
+
+      return var2;
+   }
+
+   public Component IHHCHHHCRIHOOCOIOOCRIIICIOROIR(Component var1) {
+      Component var2 = var1;
+      boolean var3 = !this.RIIHHCRIOOOIOHOOHIHICORHROCRHI.isEmpty();
+      if (this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get() || this.HCHHOHCHRROROHRCHORORRIICOORRR.get() || this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() || var3) {
+         boolean var4 = this.ICRIIRIORCHCCRHCOIRICOROOICRIC.get() || this.CORRHIOHRRROICIHHRORCIHOHOHIIO.get() || var3;
+         UnmodifiableIterator var5 = this.OIIOROCHCCRHCCIOHCRIIHHRROHIOH.iterator();
+
+         while (var5.hasNext()) {
+            RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6 = (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var5.next();
+            if (var6.IICIRRRRRRRCCRICCRCRRROHRIIHHR() ? var4 : this.HCHHOHCHRROROHRCHORORRIICOORRR.get()) {
+               var2 = var6.CIHIRORCIROORCOCIIOCROCCHICIRR().transform(var2);
+            }
+         }
+      }
+
+      return var2;
+   }
+
+   public void OIHCROCIIHHRCHHRHOCHOCIICOHHHR() {
+      this.ICRIRCOCRROCRRIHOHHHIOORCIRHIH.invalidateAll();
+      this.HCCHICHIRCRHOCCCRHRIHIRRROOCCC.invalidateAll();
+      this.OCIHRIRRIIHIHORCOOROCHICIRHHHI.OHRIHHCHRIORCOCCCOOIOOHIIRIOII().ifPresent(HHCCIRHCCCIIRHCROHIORHIRHHIORH::OIHCROCIIHHRCHHRHOCHOCIICOHHHR);
+   }
+
+   @Override
+   public void load(JsonObject var1) {
+      super.load(var1);
+      this.OIHCROCIIHHRCHHRHOCHOCIICOHHHR();
+      if (IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH() != null
+         && IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH().bridge$getSendQueue() != null
+         && this.isEnabled()) {
+         this.IRRRRIOCCHICCHIRCIOCHCOCIORCOI();
+         this.HCIOCORCHRROOCHRCOIHCRCRHCIICH();
+      }
+
+      if (var1.has("lastKnownHypixelNick")) {
+         this.OICRROOOIOCRCIIRORRRRRHCCRROIO.IRHOOCHROIOHRROIOIIIHORCICOOCH(var1.get("lastKnownHypixelNick").getAsString());
+      }
+   }
+
+   @Override
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(JsonObject var1) {
+      super.HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1);
+      if (!this.OICRROOOIOCRCIIRORRRRRHCCRROIO.OHICOIIOOHIOHROIHCCCCIOHHRHIRH().isEmpty()) {
+         var1.addProperty("lastKnownHypixelNick", this.OICRROOOIOCRCIIRORRRRRHCCRROIO.OHICOIIOOHIOHROIHCCCCIOHHRHIRH());
+      }
+   }
+
+   public boolean HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH var1
+   ) {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.RRRCCHIOCICOIOIRRCOOIRHHCORCIH()
+         && com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextContent(
+               var1.bridge$formatName()
+            )
+            .contains("Server: ");
+   }
+
+   @Generated
+   public HICHRCOHCCRHOHCICOOCHOIHCCHIRI OOCIIHROHCHOIRIRIOHOHIORCRRIOO() {
+      return this.HRHCRORHCICHRHIICICHIOIHICOOHC;
+   }
+
+   @Generated
+   public void RRIIRIHICIRHHCCRCHIHICOCRRORHI(String var1) {
+      this.RHCOHIIOHCRCROIRIHHOCOICHOIIRH = var1;
+   }
+
+   @Generated
+   public void HHIHIIOICHCCHIIRRCCRHHHOOCOOCO(String var1) {
+      this.ORIRICIICIRHOIIOROOOOORICOHIIO = var1;
+   }
+
+   @Generated
+   public void HROOORICCCOROOORORCORRHRHORIRC(String var1) {
+      this.HRCIHORICRROIOIIIHCCIIHICOCHRR = var1;
+   }
+
+   @Generated
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH IRHORHHRRRIRIRORCIHIORHRRHHRCC() {
+      return this.OICRROOOIOCRCIIRORRRRRHCCRROIO;
+   }
+
+   @Generated
+   public String RIOCORCHIHHOCIRIIIICOIRRORHCHH() {
+      return this.RIIHHCRIOOOIOHOOHIHICORHROCRHI;
+   }
+}

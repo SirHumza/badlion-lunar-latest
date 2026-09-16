@@ -1,0 +1,34 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OHHRIOHROOIHOROCIRHCHORIHRRRRI.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+
+import java.nio.ByteBuffer;
+import java.util.List;
+
+public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   Object RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, int var2, int var3, int var4);
+
+   void CRICCOOHHHCHOORCICOCOHIHOIRHOO(Object var1);
+
+   int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Object var1, int var2);
+
+   String IRCIIHHICIHRCOCRROCOICRIHHCCHH(Object var1, int var2);
+
+   List<String> HHCCIRHCCCIIRHCROHIORHIRHHIORH(Object var1, int var2);
+
+   void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Object var1, ByteBuffer var2, int var3);
+
+   void HICHRCOHCCRHOHCICOOCHOIHCCHIRI(Object var1);
+
+   void IIHRRHORCRCROCHHOHORCHCROCIHRO(Object var1);
+
+   Object RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Object var1, int[] var2);
+
+   void OCOHORHCROHICRRIHCIHHRRCIHICRI(Object var1);
+
+   Object CROHHORHOOORICOCHCOOHIROIOCIRO(String var1);
+
+   boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Object var1, int var2, int var3, int var4);
+
+   void IRCIIHHICIHRCOCRROCOICRIHHCCHH(Object var1, ByteBuffer var2, int var3);
+
+   boolean IRCIIHHICIHRCOCRROCOICRIHHCCHH(Object var1, String var2);
+}

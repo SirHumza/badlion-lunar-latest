@@ -1,0 +1,107 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import java.util.Objects;
+import lombok.Generated;
+
+@com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+public class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   public static final RIOOCHICIHRHOHCCCCCHOCCCOHCRHI NONE = new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      false,
+      false,
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.NONE,
+      false
+   );
+   private final boolean aote;
+   private final boolean etherwarp;
+   private final com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH pickaxeTier;
+   private final boolean pearls;
+
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(boolean var1, boolean var2, boolean var3) {
+      this(
+         var1,
+         var2,
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.NONE,
+         var3
+      );
+   }
+
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI max(RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var0, RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1) {
+      if (var0.pearls != var1.pearls) {
+         return var0.pearls ? var0 : var1;
+      } else if (var0.etherwarp != var1.etherwarp) {
+         return var0.etherwarp ? var0 : var1;
+      } else if (var0.aote != var1.aote) {
+         return var0.aote ? var0 : var1;
+      } else if (var0.getPickaxeTier().ordinal() != var1.getPickaxeTier().ordinal()) {
+         return var0.getPickaxeTier().ordinal() > var1.getPickaxeTier().ordinal() ? var0 : var1;
+      } else {
+         return var0;
+      }
+   }
+
+   public boolean isSubsetOf(RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1) {
+      if (this.pearls && !var1.pearls) {
+         return false;
+      } else {
+         return this.aote && !var1.aote ? false : !this.etherwarp || var1.etherwarp;
+      }
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      return !(var1 instanceof RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var2)
+         ? false
+         : var2.etherwarp == this.etherwarp && var2.aote == this.aote && var2.getPickaxeTier() == this.getPickaxeTier();
+   }
+
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI setPickaxeTier(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(this.aote, this.etherwarp, var1, this.pearls);
+   }
+
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI setEtherwarpNeeded(boolean var1) {
+      return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(this.aote, var1, this.getPickaxeTier(), this.pearls);
+   }
+
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI setAoteNeeded(boolean var1) {
+      return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var1, this.etherwarp, this.getPickaxeTier(), this.pearls);
+   }
+
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI setPearls(boolean var1) {
+      return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(this.aote, this.etherwarp, this.getPickaxeTier(), var1);
+   }
+
+   public boolean needsEtherwarp() {
+      return this.etherwarp;
+   }
+
+   public boolean needsAote() {
+      return this.aote;
+   }
+
+   public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH getPickaxeTier() {
+      return Objects.requireNonNullElse(
+         this.pickaxeTier,
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DUNGEONBREAKER
+      );
+   }
+
+   @Generated
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      boolean var1,
+      boolean var2,
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var3,
+      boolean var4
+   ) {
+      this.aote = var1;
+      this.etherwarp = var2;
+      this.pickaxeTier = var3;
+      this.pearls = var4;
+   }
+
+   @Generated
+   public boolean isPearls() {
+      return this.pearls;
+   }
+}

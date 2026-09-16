@@ -1,0 +1,5 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.ICICIOCHHHIHOCHCOHORIHRCOHHOCR;
+
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   boolean bridge$isVisuallyOpen();
+}

@@ -1,0 +1,32 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RICRIRRCOHRCOCRRHHCRHRROOIOHHR;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.RHOCHHIRRCHHHOHOIRROIROHHHIHIO;
+import java.util.Optional;
+
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   CRRRICCRROCOHHOHIICIHORCOORRRH getConfig();
+
+   CORCOCICIRIOHROHROIIOOHICCHCRR getShaders();
+
+   Optional<HRCHROOHRIHCRCRHRIIROCIRHOIRHH> getCustomItems();
+
+   RRCRRCORICCHOHHIRCHIROOHIIOHCO getConnectedTextures();
+
+   default Optional<RIOOCHICIHRHOHCCCCCHOCCCOHCRHI> getCustomColors() {
+      return Optional.empty();
+   }
+
+   default int getBossTextColor(int var1) {
+      return var1;
+   }
+
+   void setReloading(boolean var1);
+
+   boolean isReloading();
+
+   void waitOnAllChunksRendering(com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1);
+
+   void callSpriteUpdate(RHOCHHIRRCHHHOHOIRROIROHHHIHIO var1);
+
+   void updateMultiTextureSprite(RHOCHHIRRCHHHOHOIRROIROHHHIHIO var1);
+}

@@ -1,0 +1,67 @@
+package com.moonsworth.lunar.client.IRRCCOICORICIHCHRHIHIHROIRHOCR.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.mojang.authlib.GameProfile;
+import com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIROICHCRROROHCCROOCCCCOCHCCRI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import lombok.Generated;
+import org.jetbrains.annotations.Nullable;
+
+public class CRRRICCRROCOHHOHIICIHORCOORRRH extends com.moonsworth.lunar.client.IRRCCOICORICIHCHRHIHIHROIRHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   @Nullable
+   private String ORCRCOCRHOCCRCOIHHHCIIRRIRHRII;
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH() {
+      this.handle(RIROICHCRROROHCCROOCCCCOCHCCRI.class, this::RIOOCHICIHRHOHCCCCCHOCCCOHCRHI);
+   }
+
+   @Override
+   protected boolean isEnabled() {
+      return com.moonsworth.lunar.client.HCHRIROHHHCORIOCROOCHRCIOROOCI.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         com.moonsworth.lunar.client.HCHRIROHHHCORIOCROOCHRCIOROOCI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HYPIXEL
+      );
+   }
+
+   private void RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(RIROICHCRROROHCCROOCCCCOCHCCRI var1) {
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI()
+         .bridge$getPlayer();
+      com.moonsworth.lunar.client.IIHRHCCOOHOOOOCHRRCOROOIOHCOOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var3 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+         .RROHIIOHORHICRHIHCCRRRHIHCHRCC();
+      if (var2 != null && var3 != null) {
+         String var4 = null;
+         String var5 = var3.HRIOHCCIOOIORHRHCIRCRRIIOHCHHI().toString();
+
+         for (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH var7 : var2.bridge$getSendQueue()
+            .bridge$getPlayerInfoMap()) {
+            GameProfile var8 = var7.bridge$getGameProfile();
+            if (var8.getId().toString().equals(var5)) {
+               String var9 = var8.getName();
+               if (var9.equals(var3.getName())) {
+                  break;
+               }
+
+               var4 = var9;
+            }
+         }
+
+         this.ORCRCOCRHOCCRCOIHHHCIIRRIRHRII = var4;
+      } else {
+         this.ORCRCOCRHOCCRCOIHHHCIIRRIRHRII = null;
+      }
+   }
+
+   public String OICHROCIHCORIHRIOIIOCCHORIIHIH() {
+      if (this.ORCRCOCRHOCCRCOIHHHCIIRRIRHRII != null) {
+         return this.ORCRCOCRHOCCRCOIHHHCIIRRIRHRII;
+      }
+
+      com.moonsworth.lunar.client.IIHRHCCOOHOOOOCHRRCOROOIOHCOOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+         .RROHIIOHORHICRHIHCCRRRHIHCHRCC();
+      return var1 == null ? "" : var1.getName();
+   }
+
+   @Nullable
+   @Generated
+   public String IIIOCIORIICIRHOROIICHROORRCROC() {
+      return this.ORCRCOCRHOCCRCOIHHHCIIRRIRHRII;
+   }
+}

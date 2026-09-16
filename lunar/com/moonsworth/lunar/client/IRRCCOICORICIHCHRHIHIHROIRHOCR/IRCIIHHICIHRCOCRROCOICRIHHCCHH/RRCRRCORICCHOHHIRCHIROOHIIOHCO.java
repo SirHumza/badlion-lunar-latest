@@ -1,0 +1,109 @@
+package com.moonsworth.lunar.client.IRRCCOICORICIHCHRHIHIHROIRHOCR.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.OIHCOHRCICCCRHRCROOCIOIRRHHHIH;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.CRRRICCRROCOHHOHIICIHORCOORRRH.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import it.unimi.dsi.fastutil.booleans.BooleanConsumer;
+import java.util.ArrayList;
+import java.util.List;
+
+public class RRCRRCORICCHOHHIRCHIROOHIIOHCO implements com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   private static final List<OIHCOHRCICCCRHRCROOCIOIRRHHHIH<?>> RRIHROCOHOIHORRORCOCHOROHRROIH = new ArrayList<>();
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO() {
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.class,
+         this::RIOOCHICIHRHOHCCCCCHOCCCOHCRHI
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.class,
+         this::RRCRRCORICCHOHHIRCHIROOHIIOHCO
+      );
+   }
+
+   public static void IRCIIHHICIHRCOCRROCOICRIHHCCHH(OIHCOHRCICCCRHRCROOCIOIRRHHHIH<?> var0) {
+      RRIHROCOHOIHORRORCOCHOROHRROIH.add(var0);
+   }
+
+   public static void HHCCIRHCCCIIRHCROHIORHIRHHIORH(OIHCOHRCICCCRHRCROOCIOIRRHHHIH<?> var0) {
+      RRIHROCOHOIHORRORCOCHOROHRROIH.remove(var0);
+   }
+
+   public void RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1
+   ) {
+      if (var1.ROIHIHCOHOIRHORHOROHHOICOIOHRC() >= 0) {
+         for (OIHCOHRCICCCRHRCROOCIOIRRHHHIH var3 : RRIHROCOHOIHORRORCOCHOROHRROIH) {
+            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var4 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.valueOf(
+               "KEY_MOUSE" + (var1.ROIHIHCOHOIRHORHOROHHOICOIOHRC() + 1)
+            );
+            this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               var4,
+               var3,
+               var1.COCHHOHRHIHICIHOHHHHICHRIIHCRI()
+                  == com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.DOWN
+            );
+         }
+      }
+   }
+
+   public void RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      for (OIHCOHRCICCCRHRCROOCIOIRRHHHIH var3 : RRIHROCOHOIHORRORCOCHOROHRROIH) {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var1.CCICCIOCIHOOIHCIRCHHHRROHIHHIH(),
+            var3,
+            var1.COCHHOHRHIHICIHOHHHHICHRIIHCRI()
+               == com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.DOWN
+         );
+      }
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      OIHCOHRCICCCRHRCROOCIOIRRHHHIH<?> var2,
+      boolean var3
+   ) {
+      if (var2.CCICCIOCIHOOIHCIRCHHHRROHIHHIH().equals(var1)) {
+         com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.CRRRICCRROCOHHOHIICIHORCOORRRH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var4 = var2.IHCRORHRORIICHRHRCHRRIRRHHOCOO(
+            CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRRIRICROIIHIICICIRCOHCCHROIRI
+         );
+         if (var4 == null || var4.isEnabled()) {
+            if (!var2.OIROCCCHRIOHOHIIIICRCRCHIHOCRI() || IICCOOCHCHROORHHIIHROHCCRHRCOR.RRHHORCCRCHCROOIOCOHOHCOOIOIOH() == null) {
+               if (!var2.RIHOOHHICRCCIHCOIRHIHIIIROIICH() || !HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRROHORHICRCRCCCRCCOOICCCCICOI()) {
+                  if (var2.isKeyDown() && var2.ROOCCRIHOICIHCCRRRROHICCROHCCO() && var3) {
+                     var2.COOCCHICCCIIICRHIOCOCIOOORCOCC(System.currentTimeMillis());
+                     var2.OICIOHIRRIIOIHOOHOCHIIOHHIRCCO(true);
+
+                     for (Object var11 : var2.OCOICRICIHOCOHCHRHCHIRCRROOOHH()) {
+                        if (var11 instanceof Runnable var13) {
+                           var13.run();
+                        }
+                     }
+                  } else {
+                     if (var2.isDown() && var2.ROOCCRIHOICIHCCRRRROHICCROHCCO() && !var3) {
+                        var2.OICIOHIRRIIOIHOOHOCHIIOHHIRCCO(false);
+                        if (System.currentTimeMillis() - var2.OIRHHHIRRRHRHRICRCHCRCRCRHHHHH() <= var2.RRRCHCOORIRHHORORHOIOOICRHCCHC()) {
+                           for (Object var10 : var2.HOIOIRCRHCCHCHICOIOHHCICOIOCRR()) {
+                              if (var10 instanceof BooleanConsumer var12) {
+                                 var12.accept(true);
+                              }
+                           }
+
+                           return;
+                        }
+
+                        for (Object var6 : var2.HOIOIRCRHCCHCHICOIOHHCICOIOCRR()) {
+                           if (var6 instanceof BooleanConsumer var7) {
+                              var7.accept(false);
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

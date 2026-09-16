@@ -1,0 +1,66 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.IIHRRHORCRCROCHHOHORCHCROCIHRO.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.util.List;
+import org.jetbrains.annotations.Nullable;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   extends com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private static final List<String> HROORICIIROHOCCOHHROICIOCIHIOH = List.of("all", "party", "guild", "officer", "coop");
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+      super(
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCRHORIRHHHIIOCOOCHICOOCIHORCC(
+               "sendcoords"
+            )
+            .HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0 -> IOOHHIIIHHCRHCCCIIIROROOHIIIOR(null))
+            .HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+               com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                     "mode", HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CICHOCRIRRRRIHOIHRHIIRHHHHRCRH
+                  )
+                  .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HROORICIIROHOCCOHHROICIOCIHIOH)
+                  .IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0 -> IOOHHIIIHHCRHCCCIIIROROOHIIIOR(var0.getString("mode")))
+            )
+      );
+   }
+
+   @Override
+   public boolean isEnabled() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.RRRCCHIOCICOIOIRRCOOIRHHCORCIH();
+   }
+
+   private static void IOOHHIIIHHCRHCCCIIIROROOHIIIOR(@Nullable String var0) {
+      String var10000;
+      if (var0 == null) {
+         var10000 = "";
+      } else {
+         switch (var0) {
+            case "all":
+               var10000 = "/ac ";
+               break;
+            case "party":
+               var10000 = "/pc ";
+               break;
+            case "guild":
+               var10000 = "/gc ";
+               break;
+            case "officer":
+               var10000 = "/oc ";
+               break;
+            case "coop":
+               var10000 = "/cc ";
+               break;
+            default:
+               var10000 = "";
+         }
+      }
+
+      String var1 = var10000;
+      IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH()
+         .bridge$sendChatMessage(
+            var1 + OCOHORHCROHICRRIHCIHHRRCIHICRI.RICRIRRCOHRCOCRRHHCRHRROOIOHHR(IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH())
+         );
+   }
+}

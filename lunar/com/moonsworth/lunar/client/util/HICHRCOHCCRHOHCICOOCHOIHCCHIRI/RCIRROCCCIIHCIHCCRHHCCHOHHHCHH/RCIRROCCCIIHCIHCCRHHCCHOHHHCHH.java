@@ -1,0 +1,17 @@
+package com.moonsworth.lunar.client.util.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import lombok.Generated;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private final boolean RORICRRHOOIHRRIIROOOIHHOOICCRH;
+
+   @Generated
+   public boolean COORRCRRRHICHOCHCHORHHIRIIHOHI() {
+      return this.RORICRRHOOIHRRIIROOOIHHOOICCRH;
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(boolean var1) {
+      this.RORICRRHOOIHRRIIROOOIHHOOICCRH = var1;
+   }
+}

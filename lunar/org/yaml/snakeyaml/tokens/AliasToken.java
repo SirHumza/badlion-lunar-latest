@@ -1,0 +1,25 @@
+package org.yaml.snakeyaml.tokens;
+
+import org.yaml.snakeyaml.error.Mark;
+
+public final class AliasToken extends Token {
+   private final String value;
+
+   public AliasToken(String var1, Mark var2, Mark var3) {
+      super(var2, var3);
+      if (var1 == null) {
+         throw new NullPointerException("alias is expected");
+      }
+
+      this.value = var1;
+   }
+
+   public String getValue() {
+      return this.value;
+   }
+
+   @Override
+   public Token.ID getTokenId() {
+      return Token.ID.Alias;
+   }
+}

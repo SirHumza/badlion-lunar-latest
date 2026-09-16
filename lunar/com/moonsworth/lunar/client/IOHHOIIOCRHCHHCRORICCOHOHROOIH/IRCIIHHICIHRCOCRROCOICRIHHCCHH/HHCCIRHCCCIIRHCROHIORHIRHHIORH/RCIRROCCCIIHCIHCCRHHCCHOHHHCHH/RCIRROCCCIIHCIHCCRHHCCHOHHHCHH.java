@@ -1,0 +1,78 @@
+package com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.IRRCCOICORICIHCHRHIHIHROIRHOCR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.RICRIRRCOHRCOCRRHHCRHRROOIOHHR;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.webosr.TextureHandler;
+import java.nio.ByteBuffer;
+import java.util.HashMap;
+import java.util.Map;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements TextureHandler {
+   private static final RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CIRCRRIOOICIICRHHCHCCICIIHOHRH = new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH();
+   private final Map<Integer, IRRCCOICORICIHCHRHIHIHROIRHOCR> OCIIHIIIOCIHRRRIIRORCCOORHCRRO = new HashMap<>();
+   private int CIOHHHHCRHHIICOCOIHCIICOICCHRC = 1;
+
+   @Override
+   public int createTexture(int var1, int var2, int var3) {
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var4 = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create("webosr", "texture-" + this.CIOHHHHCRHHIICOCOIHCIICOICCHRC);
+      RICRIRRCOHRCOCRRHHCRHRROOIOHHR var5 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI()
+         .bridge$getTextureManager()
+         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var4, new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI());
+      int var6 = this.CIOHHHHCRHHIICOCOIHCIICOICCHRC++;
+      this.OCIIHIIIOCIHRRRIIRORCCOORHCRRO.put(var6, var5);
+      var5.bridge$allocate(
+         false,
+         false,
+         var1,
+         var2,
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RGBA8,
+         false,
+         false
+      );
+      return var6;
+   }
+
+   @Override
+   public void resizeTexture(int var1, int var2, int var3, int var4) {
+      IRRCCOICORICIHCHRHIHIHROIRHOCR var5 = this.OCIIHIIIOCIHRRRIIRORCCOORHCRRO.get(var1);
+      var5.bridge$allocate(
+         false,
+         false,
+         var2,
+         var3,
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RGBA8,
+         false,
+         false
+      );
+   }
+
+   @Override
+   public void uploadTexture(int var1, ByteBuffer var2, int var3, int var4, int var5, int var6, int var7) {
+      if (var5 != 0 && var6 != 0) {
+         IRRCCOICORICIHCHRHIHIHROIRHOCR var8 = this.OCIIHIIIOCIHRRRIIRORCCOORHCRRO.get(var1);
+         var8.bridge$uploadBgra(var3, var4, var5, var6, var2, var3, var4, var7);
+      }
+   }
+
+   @Override
+   public void deleteTexture(int var1) {
+      IRRCCOICORICIHCHRHIHIHROIRHOCR var2 = this.OCIIHIIIOCIHRRRIIRORCCOORHCRRO.remove(var1);
+      var2.IRCCCOIIORORHIRCIROHHRCRROORRO();
+   }
+
+   @Override
+   public void readTexture(int var1, ByteBuffer var2, int var3, int var4, int var5) {
+      throw new UnsupportedOperationException();
+   }
+
+   public IRRCCOICORICIHCHRHIHIHROIRHOCR RRIRHIRRCRIIHCCIOORCCIOCICOCHI(int var1) {
+      return this.OCIIHIIIOCIHRRRIIRORCCOORHCRRO.get(var1);
+   }
+
+   public static RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RCHHIOIOIRCHOHCCICCOICICIORHRC() {
+      return CIRCRRIOOICIICRHHCHCCICIIHOHRH;
+   }
+}

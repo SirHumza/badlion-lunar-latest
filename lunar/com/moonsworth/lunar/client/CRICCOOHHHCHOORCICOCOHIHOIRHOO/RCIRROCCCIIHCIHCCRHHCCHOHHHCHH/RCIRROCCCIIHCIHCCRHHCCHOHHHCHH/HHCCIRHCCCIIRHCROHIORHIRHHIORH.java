@@ -1,0 +1,24 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.client.util.RCOCOHHCOOICCICCRCCORORROHRCCC;
+import org.jetbrains.annotations.Nullable;
+
+public final class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<String> {
+   public static final HHCCIRHCCCIIRHCROHIORHIRHHIORH RRIRCHROCIIIIIOROOOCCIIIICHHOR = new HHCCIRHCCCIIRHCROHIORHIRHHIORH();
+
+   @Nullable
+   public String HHCCIRHCCCIIRHCROHIORHIRHHIORH(RCOCOHHCOOICCICCRCCORORROHRCCC var1) {
+      if (!var1.ICRRHCIHROICCROIIRHRCRRIHRRCCC()) {
+         return null;
+      }
+
+      String var2 = var1.CIHCOIIRIOOCOCRHHHHRCCIOHCRCCH();
+      var1.RIRCCRRRCOROICICCOORORHCHICRCC(var1.getString().length());
+      return var2;
+   }
+
+   @Override
+   public boolean HOIROHHIROCIRRIOORRIOHCIHOCHCC() {
+      return true;
+   }
+}

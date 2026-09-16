@@ -1,0 +1,277 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.IOIICIRIICICIIOORHCIIIIRRIHRHI;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRRRICCRROCOHHOHIICIHORCOORRRH;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+import java.lang.reflect.Method;
+import java.util.Collections;
+import java.util.List;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public static String[] HIOHICORCIOOHORHORIHHRIOCRCCRR(Class<?> var0) {
+      return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CHCOOCIRIROIRCCCICCIORHRHIIOIH()
+         .HIOHICORCIOOHORHORIHHRIOCRCCRR(var0);
+   }
+
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      OOROOCCIRCCRHOIOIORIHCHHOOCCOR var0,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1,
+      List<String> var2
+   ) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1.OHCIIOIHROOORHCCRIORCOOHCHRHHH(), var0.RCRORHCOCRIIOHICORIHOHRIIRIORH(), var0.IIICIOIHIHICHHIHRICHCIRHHIIRII(), var2
+      );
+   }
+
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      CRRRICCRROCOHHOHIICIHORCOORRRH var0,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var2,
+      List<String> var3
+   ) {
+      return new com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var0, var1, var2
+         )
+         .RCRCCORIIOICRIIRHCCIIOCICRHIOC(var3);
+   }
+
+   static class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+      private final Method IHOCCRCHRCCHIOIOHROCHIIORRCROC;
+      private final Method RHOCIOCICIOCRCOOOHCIIOCCHHCCRI;
+      private final Method OCCICRHCCORHIRCHIOOIOICRCICRHC;
+      private static final com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH HHCROHOIOHHHCCOCOCCRCHIHORICOC;
+      private static final RuntimeException RHHHOORRCHRHRHIIHCHCIRORICCICR;
+
+      private HHCCIRHCCCIIRHCROHIORHIRHHIORH() {
+         try {
+            this.IHOCCRCHRCCHIOIOHROCHIIORRCROC = Class.class.getMethod("getRecordComponents");
+            Class var1 = Class.forName("java.lang.reflect.RecordComponent");
+            this.RHOCIOCICIOCRCOOOHCIIOCCHHCCRI = var1.getMethod("getName");
+            this.OCCICRHCCORHIRCHIOOIOICRCICRHC = var1.getMethod("getType");
+         } catch (Exception var2) {
+            throw new RuntimeException(
+               String.format("Failed to access Methods needed to support `java.lang.Record`: (%s) %s", var2.getClass().getName(), var2.getMessage()), var2
+            );
+         }
+      }
+
+      public static com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH CHCOOCIRIROIRCCCICCIORHRHIIOIH() {
+         if (RHHHOORRCHRHRHIIHCHCIRORICCICR != null) {
+            throw RHHHOORRCHRHRHIIHCHCIRORICCICR;
+         } else {
+            return HHCROHOIOHHHCCOCOCCRCHIHORICOC;
+         }
+      }
+
+      public String[] HIOHICORCIOOHORHORIHHRIOCRCCRR(Class<?> var1) {
+         Object[] var2 = this.HIRIHCORIRIORCCHCOORIHIOIICOIH(var1);
+         if (var2 == null) {
+            return null;
+         }
+
+         String[] var3 = new String[var2.length];
+
+         for (int var4 = 0; var4 < var2.length; var4++) {
+            try {
+               var3[var4] = (String)this.RHOCIOCICIOCRCOOOHCIIOCCHHCCRI.invoke(var2[var4]);
+            } catch (Exception var6) {
+               throw new IllegalArgumentException(
+                  String.format(
+                     "Failed to access name of field #%d (of %d) of Record type %s",
+                     var4,
+                     var2.length,
+                     com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.ROIHROCROORRCCOIRRIHHORCROOORO(
+                        var1
+                     )
+                  ),
+                  var6
+               );
+            }
+         }
+
+         return var3;
+      }
+
+      public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH[] CRIHRCICOICHCHCHIHRHROCCHCCCII(
+         Class<?> var1
+      ) {
+         Object[] var2 = this.HIRIHCORIRIORCCHCOORIHIOIICOIH(var1);
+         if (var2 == null) {
+            return null;
+         }
+
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH[] var3 = new com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH[var2.length];
+
+         for (int var4 = 0; var4 < var2.length; var4++) {
+            String var5;
+            try {
+               var5 = (String)this.RHOCIOCICIOCRCOOOHCIIOCCHHCCRI.invoke(var2[var4]);
+            } catch (Exception var9) {
+               throw new IllegalArgumentException(
+                  String.format(
+                     "Failed to access name of field #%d (of %d) of Record type %s",
+                     var4,
+                     var2.length,
+                     com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.ROIHROCROORRCCOIRRIHHORCROOORO(
+                        var1
+                     )
+                  ),
+                  var9
+               );
+            }
+
+            Class var6;
+            try {
+               var6 = (Class)this.OCCICRHCCORHIRCHIOOIOICRCICRHC.invoke(var2[var4]);
+            } catch (Exception var8) {
+               throw new IllegalArgumentException(
+                  String.format(
+                     "Failed to access type of field #%d (of %d) of Record type %s",
+                     var4,
+                     var2.length,
+                     com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.ROIHROCROORRCCOIRRIHHORCROOORO(
+                        var1
+                     )
+                  ),
+                  var8
+               );
+            }
+
+            var3[var4] = new com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+               var6, var5
+            );
+         }
+
+         return var3;
+      }
+
+      protected Object[] HIRIHCORIRIORCCHCOORIHIOIICOIH(Class<?> var1) {
+         try {
+            return (Object[])this.IHOCCRCHRCCHIOIOHROCHIIORRCROC.invoke(var1);
+         } catch (Exception var3) {
+            if (IOIICIRIICICIIOORHCIIIIRRIHRHI.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO(var3)) {
+               return null;
+            } else {
+               throw new IllegalArgumentException(
+                  "Failed to access RecordComponents of type "
+                     + com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.ROIHROCROORRCCOIRRIHHORCROOORO(
+                        var1
+                     )
+               );
+            }
+         }
+      }
+
+      static {
+         RuntimeException var0 = null;
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1 = null;
+
+         try {
+            var1 = new com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH();
+         } catch (RuntimeException var3) {
+            var0 = var3;
+         }
+
+         HHCROHOIOHHHCCOCOCCRCHIHORICOC = var1;
+         RHHHOORRCHRHRHIIHCHCIRORICCICR = var0;
+      }
+   }
+
+   static class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+      public final Class<?> IIIIRORORRRRHHIIOCRICHCCCCHIRO;
+      public final String CIORRCHCOOROIOCHHOCOORCORHRCCR;
+
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH(Class<?> var1, String var2) {
+         this.IIIIRORORRRRHHIIOCRICHCCCCHIRO = var1;
+         this.CIORRCHCOOROIOCHHOCOORCORHRCCR = var2;
+      }
+   }
+
+   static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      protected final CRRRICCRROCOHHOHIICIHORCOORRRH OOHCORHCICHHHHCHCRRRHOCHCCOICR;
+      protected final RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> HIIOCICCOIHCORHHIROIHROIHIIRCO;
+      protected final com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH CHCOHHCOHCIHHCIOHOOOOHOOHHICRO;
+      protected final List<RIOOCHICIHRHOHCCCCCHOCCCOHCRHI> CHRROOICRIIROHICROHROCOHOIIROO;
+      protected final RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OIHRHIIRHHOHHRCIOROIHOHHHHICCH;
+      protected final com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH[] IOIHOIOCRRROIOIRRIIICCHOCHOROH;
+
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         CRRRICCRROCOHHOHIICIHORCOORRRH var1,
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+         RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var3
+      ) {
+         this.OOHCORHCICHHHHCHCRRRHOCHCCOICR = var1;
+         this.CHCOHHCOHCIHHCIOHOOOOHOOHHICRO = var2;
+         this.HIIOCICCOIHCORHHIROIHROIHIIRCO = var3;
+         this.IOIHOIOCRRROIOIRRIIICCHOCHOROH = com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CHCOOCIRIROIRCCCICCIORHRHIIOIH()
+            .CRIHRCICOICHCHCHIHRHROCCHCCCII(var1.getRawType());
+         if (this.IOIHOIOCRRROIOIRRIIICCHOCHOROH == null) {
+            this.CHRROOICRIIROHICROHROCOHOIIROO = var1.getConstructors();
+            this.OIHRHIIRHHOHHRCIOROIHOHHHHICCH = null;
+         } else {
+            int var4 = this.IOIHOIOCRRROIOIRRIIICCHOCHOROH.length;
+            RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var5 = null;
+            if (var4 == 0) {
+               var5 = var1.IIOHIHIIOOROOIRHRCCCICHIRRIHRR();
+               this.CHRROOICRIIROHICROHROCOHOIIROO = Collections.singletonList(var5);
+            } else {
+               this.CHRROOICRIIROHICROHROCOHOIIROO = var1.getConstructors();
+
+               label40:
+               for (RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var7 : this.CHRROOICRIIROHICROHROCOHOIIROO) {
+                  if (var7.CICHIHICOCHIIOCICRICIRRRIOCROO() == var4) {
+                     for (int var8 = 0; var8 < var4; var8++) {
+                        if (!var7.OICOOCHOORCCCIIIORHCRIRHOIIORI(var8).equals(this.IOIHOIOCRRROIOIRRIIICCHOCHOROH[var8].IIIIRORORRRRHHIIOCRICHCCCCHIRO)) {
+                           continue label40;
+                        }
+                     }
+
+                     var5 = var7;
+                     break;
+                  }
+               }
+            }
+
+            if (var5 == null) {
+               throw new IllegalArgumentException(
+                  "Failed to find the canonical Record constructor of type "
+                     + com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RRORCOIRRIICOOICOIOCORHORCHCOC(
+                        this.OOHCORHCICHHHHCHCRRRHOCHCCOICR.getType()
+                     )
+               );
+            }
+
+            this.OIHRHIIRHHOHHRCIOROIHOHHHHICCH = var5;
+         }
+      }
+
+      public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI RCRCCORIIOICRIIRHCCIIOCICRHIOC(List<String> var1) {
+         for (RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var3 : this.CHRROOICRIIROHICROHROCOHOIIROO) {
+            HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var4 = this.CHCOHHCOHCIHHCIOHOOOOHOOHHICRO
+               .CRRRICCRROCOHHOHIICIHORCOORRRH(this.HIIOCICCOIHCORHHIROIHROIHIIRCO, var3);
+            if (null != var4 && HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DISABLED != var4) {
+               if (HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DELEGATING == var4) {
+                  return null;
+               }
+
+               if (var3 != this.OIHRHIIRHHOHHRCIOROIHOHHHHICCH) {
+                  return null;
+               }
+            }
+         }
+
+         if (this.IOIHOIOCRRROIOIRRIIICCHOCHOROH == null) {
+            return null;
+         }
+
+         for (com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var5 : this.IOIHOIOCRRROIOIRRIIICCHOCHOROH) {
+            var1.add(var5.CIORRCHCOOROIOCHHOCOORCORHRCCR);
+         }
+
+         return this.OIHRHIIRHHOHHRCIOROIHOHHHHICCH;
+      }
+   }
+}

@@ -1,0 +1,6 @@
+package com.moonsworth.lunar.client.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+public enum RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   PARTICLE,
+   BLOCK;
+}

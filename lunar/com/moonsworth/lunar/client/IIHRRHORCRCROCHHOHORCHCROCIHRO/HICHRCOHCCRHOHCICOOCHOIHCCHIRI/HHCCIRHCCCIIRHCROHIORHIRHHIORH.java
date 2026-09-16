@@ -1,0 +1,84 @@
+package com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
+
+public abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   protected String RRHIRIOROORIORRCRRROCRICROHICO;
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var1, String var2) {
+      super(var1);
+      this.RRHIRIOROORIORRCRRROCRICROHICO = var2;
+      this.updateWidth();
+   }
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var1, String var2, String var3) {
+      super(var1, var2);
+      this.RRHIRIOROORIORRCRRROCRICROHICO = var3;
+      this.updateWidth();
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(OCOHORHCROHICRRIHCIHHRRCIHICRI var1, float var2, float var3) {
+      super.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3);
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         var1, var2 + 5.0F, var3 + this.getHeight() - 13.0F, this.getWidth() - 12.0F, 0.5F, 1090519039
+      );
+      this.CRRRICCRROCOHHOHIICIHORCOORRRH(var1, var2, var3);
+   }
+
+   protected void CRRRICCRROCOHHOHIICIHORCOORRRH(OCOHORHCROHICRRIHCIHHRRCIHICRI var1, float var2, float var3) {
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1,
+         this.RRHIRIOROORIORRCRRROCRICROHICO,
+         this,
+         com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR()
+            .HHHIHROORHHOOCCOOCHRIRHRHCRHIH()
+            .IICHHHOHHCOHRCHHRICRHRHCCCIHCR()
+            .CHHRRRHRCOHIICOHRRHCHCIROHRCCO()
+            .get(),
+         CIOHHCORHRCCRICCCORIHCRHCCCRRR.HRRROHCOIORCIOHRRIRHCCRRRCCORC(),
+         var2 + 5.0F,
+         var3 + this.getHeight() - 11.0F,
+         false,
+         1979711487,
+         -1090519040,
+         -1241513985
+      );
+   }
+
+   @Override
+   protected void RRCRRCORICCHOHHIRCHIROOHIIOHCO(OCOHORHCROHICRRIHCIHHRRCIHICRI var1, float var2, float var3) {
+      super.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2, var3 - 5.0F);
+   }
+
+   @Override
+   protected void updateWidth() {
+      super.updateWidth();
+      this.width = Math.max(
+         this.width,
+         CIOHHCORHRCCRICCCORIHCRHCCCRRR.HRRROHCOIORCIOHRRIRHCCRRRCCORC()
+               .IOOOHRRHCHICHHHCRIRHIICORRCIRO(
+                  this.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+                     this.RRHIRIOROORIORRCRRROCRICROHICO,
+                     "  "
+                        + com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                           com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR()
+                              .HHHIHROORHHOOCCOOCHRIRHRHCRHIH()
+                              .IICHHHOHHCOHRCHHRICRHRHCCCIHCR()
+                              .CHHRRRHRCOHIICOHRRHCHCIROHRCCO()
+                              .get()
+                        )
+                        + "  "
+                  )
+               )
+            + 12.0F
+      );
+   }
+
+   @Override
+   protected void RRCOICHRIOHRICOOHOROCRROHOIROI() {
+      super.RRCOICHRIOHRICOOHOROCRROHOIROI();
+      this.height = Math.max(20.0F, this.height + 14.0F);
+   }
+}

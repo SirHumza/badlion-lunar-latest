@@ -1,0 +1,51 @@
+package org.slf4j.helpers;
+
+import java.util.Deque;
+import java.util.Map;
+import org.slf4j.spi.MDCAdapter;
+
+public class NOPMDCAdapter implements MDCAdapter {
+   @Override
+   public void clear() {
+   }
+
+   @Override
+   public String get(String var1) {
+      return null;
+   }
+
+   @Override
+   public void put(String var1, String var2) {
+   }
+
+   @Override
+   public void remove(String var1) {
+   }
+
+   @Override
+   public Map<String, String> getCopyOfContextMap() {
+      return null;
+   }
+
+   @Override
+   public void setContextMap(Map<String, String> var1) {
+   }
+
+   @Override
+   public void pushByKey(String var1, String var2) {
+   }
+
+   @Override
+   public String popByKey(String var1) {
+      return null;
+   }
+
+   @Override
+   public Deque<String> getCopyOfDequeByKey(String var1) {
+      return null;
+   }
+
+   @Override
+   public void clearDequeByKey(String var1) {
+   }
+}

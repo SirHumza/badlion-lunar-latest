@@ -1,0 +1,23 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+import org.jetbrains.annotations.NotNull;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   @NotNull
+   @Override
+   public String HHRCHCCOOIIOHHHHOOIOICCRCRCORH() {
+      return this.COIORRRORHCHCOHCHCIHHIROOHRIOC("blit");
+   }
+
+   @Override
+   public void CIOHHCORHRCCRICCCORIHCRHCCCRRR(Consumer<String> var1) {
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      BiConsumer<String, com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH> var1
+   ) {
+   }
+}

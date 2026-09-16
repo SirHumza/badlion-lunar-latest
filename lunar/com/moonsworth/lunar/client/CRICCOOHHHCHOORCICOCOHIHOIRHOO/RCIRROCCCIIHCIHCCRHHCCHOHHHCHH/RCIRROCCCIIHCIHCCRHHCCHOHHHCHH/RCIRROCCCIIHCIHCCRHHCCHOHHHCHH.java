@@ -1,0 +1,18 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.client.util.RCOCOHHCOOICCICCRCCORORROHRCCC;
+import org.jetbrains.annotations.Nullable;
+
+public abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<T> {
+   @Nullable
+   public abstract T RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCOCOHHCOOICCICCRCCORORROHRCCC var1);
+
+   public boolean HOIROHHIROCIRRIOORRIOHCIHOCHCC() {
+      return false;
+   }
+
+   @Nullable
+   public CRRRICCRROCOHHOHIICIHORCOORRRH ROROORRHRIIOOIIIOIOCCORHORRRII() {
+      return null;
+   }
+}

@@ -1,0 +1,48 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CORCOCICIRIOHROHROIIOOHICCHCRR;
+
+import com.lunarclient.election.ElectionResponse;
+import com.lunarclient.election.mayor.Mayor;
+import com.lunarclient.election.perk.Perk;
+import com.lunarclient.minecraft.hypixel.skyblock.SkyBlockElectionUtil;
+import com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIROICHCRROROHCCROOCCCCOCHCCRI;
+import com.moonsworth.lunar.client.util.ORCOCORROHIROCCIORORRRRCHIOOCH;
+
+public class HRCHROOHRIHCRCRHRIIROCIRHOIRHH extends com.moonsworth.lunar.client.IRRCCOICORICIHCHRHIHIHROIRHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private volatile ElectionResponse COOHIROHHCIORRHRRHHCRRHROCCCIO;
+   private long CHOHRIIOROOOOIRIORHRCCHRIOCHRC = -1L;
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH() {
+      this.handle(RIROICHCRROROHCCROOCCCCOCHCCRI.class, this::HICHRCOHCCRHOHCICOOCHOIHCCHIRI);
+   }
+
+   private void HICHRCOHCCRHOHCICOOCHOIHCCHIRI(RIROICHCRROROHCCROOCCCCOCHCCRI var1) {
+      long var2 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.IIHRRHORCRCROCHHOHORCHCROCIHRO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.COROCHCHHOORCHCCOOIIHOOORCHIIC();
+      if (this.CHOHRIIOROOOOIRIORHRCCHRIOCHRC < 0L || this.CHOHRIIOROOOOIRIORHRCCHRIOCHRC < 105900L && var2 >= 105900L) {
+         ORCOCORROHIROCCIORORRRRCHIOOCH.RHOHHCCOOIHIIRCORRRIORCRIIOHHI()
+            .execute(() -> this.COOHIROHHCIORRHRRHHCRRHROCCCIO = SkyBlockElectionUtil.getElectionSync());
+      }
+
+      this.CHOHRIIOROOOOIRIORHRCCHRIOCHRC = var2;
+   }
+
+   public boolean IICIIHIHHRCIIRHCRROHIHHOICROIR(String var1) {
+      if (this.COOHIROHHCIORRHRRHHCRRHROCCCIO == null) {
+         return false;
+      }
+
+      Mayor var2 = this.COOHIROHHCIORRHRRHHCRRHROCCCIO.mayor();
+
+      for (Perk var6 : var2.perks()) {
+         if (var6.name().equals(var1)) {
+            return true;
+         }
+      }
+
+      return var2.minister() != null ? var2.minister().perk().name().equals(var1) : false;
+   }
+
+   @Override
+   protected void onEnable() {
+      this.HICHRCOHCCRHOHCICOOCHOIHCCHIRI(null);
+   }
+}

@@ -1,0 +1,180 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import com.moonsworth.lunar.lib.adventure.text.TextComponent;
+import com.moonsworth.lunar.lib.adventure.text.serializer.legacy.LegacyComponentSerializer;
+import java.util.Optional;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   extends HHCCIRHCCCIIRHCROHIORHIRHHIORH<com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH, CRRRICCRROCOHHOHIICIHORCOORRRH> {
+   @Override
+   protected void initMappings() {
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ThrownEnderpearl", "minecraft:ender_pearl");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("LavaSlime", "minecraft:magma_cube");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ThrownPotion", "minecraft:potion");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Item", "minecraft:item");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("AreaEffectCloud", "minecraft:area_effect_cloud");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ElderGuardian", "minecraft:elder_guardian");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("WitherSkeleton", "minecraft:wither_skeleton");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Stray", "minecraft:stray");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("LeashKnot", "minecraft:leash_knot");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Painting", "minecraft:painting");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Arrow", "minecraft:arrow");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Snowball", "minecraft:snowball");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Fireball", "minecraft:fireball");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("SmallFireball", "minecraft:small_fireball");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ItemFrame", "minecraft:item_frame");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("WitherSkull", "minecraft:wither_skull");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Husk", "minecraft:husk");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("SpectralArrow", "minecraft:spectral_arrow");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ShulkerBullet", "minecraft:shulker_bullet");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("DragonFireball", "minecraft:dragon_fireball");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ZombieVillager", "minecraft:zombie_villager");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("SkeletonHorse", "minecraft:skeleton_horse");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ZombieHorse", "minecraft:zombie_horse");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ArmorStand", "minecraft:armor_stand");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Donkey", "minecraft:donkey");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Mule", "minecraft:mule");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Vex", "minecraft:vex");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Creeper", "minecraft:creeper");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Skeleton", "minecraft:skeleton");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Spider", "minecraft:spider");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Giant", "minecraft:giant");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Zombie", "minecraft:zombie");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Slime", "minecraft:slime");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Ghast", "minecraft:ghast");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Enderman", "minecraft:enderman");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("CaveSpider", "minecraft:cave_spider");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Silverfish", "minecraft:silverfish");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Blaze", "minecraft:blaze");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("EnderDragon", "minecraft:ender_dragon");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Bat", "minecraft:bat");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Witch", "minecraft:witch");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Endermite", "minecraft:endermite");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Guardian", "minecraft:guardian");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Shulker", "minecraft:shulker");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Pig", "minecraft:pig");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Sheep", "minecraft:sheep");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MushroomCow", "minecraft:mooshroom");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Cow", "minecraft:cow");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Chicken", "minecraft:chicken");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Squid", "minecraft:squid");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Wolf", "minecraft:wolf");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Horse", "minecraft:horse");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Rabbit", "minecraft:rabbit");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("PolarBear", "minecraft:polar_bear");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Llama", "minecraft:llama");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("LlamaSpit", "minecraft:llama_spit");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Parrot", "minecraft:parrot");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Villager", "minecraft:villager");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("PigZombie", "minecraft:zombified_piglin");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MinecartSpawner", "minecraft:spawner_minecart");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("FireworksRocketEntity", "minecraft:firework_rocket");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ThrownExpBottle", "minecraft:experience_bottle");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("VillagerGolem", "minecraft:iron_golem");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MinecartHopper", "minecraft:hopper_minecart");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("XPOrb", "minecraft:experience_orb");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("FallingSand", "minecraft:falling_block");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MinecartChest", "minecraft:chest_minecart");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("WitherBoss", "minecraft:wither");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("SnowMan", "minecraft:snow_golem");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("EyeOfEnderSignal", "minecraft:eye_of_ender");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MinecartRideable", "minecraft:minecart");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("EnderCrystal", "minecraft:end_crystal");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MinecartFurnace", "minecraft:furnace_minecart");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("EvocationFangs", "minecraft:evoker_fangs");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MinecartCommandBlock", "minecraft:command_block_minecart");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("PrimedTnt", "minecraft:tnt");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("MinecartTNT", "minecraft:tnt_minecart");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("ThrownEgg", "minecraft:egg");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("Ozelot", "minecraft:ocelot");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("EvocationIllager", "minecraft:evoker");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("VindicationIllager", "minecraft:vindicator");
+      this.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO("IllusionIllager", "minecraft:illusioner");
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH()
+      );
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH()
+      );
+   }
+
+   public boolean IHIRRIIORRHORHRORIHOROIRCORCOO(@NotNull CRRRICCRROCOHHOHIICIHORCOORRRH var1) {
+      return IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION > 5 ? var1.bridge$getEntityString().startsWith("minecraft:") : true;
+   }
+
+   public boolean IRCIIHHICIHRCOCRROCOICRIHHCCHH(@NotNull RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+      return var1.value().startsWith("minecraft:");
+   }
+
+   public Optional<RRCRRCORICCHOHHIRCHIROOHIIOHCO> IOIICIRIICICIIOORHCIIIIRRIHRHI(@NotNull CRRRICCRROCOHHOHIICIHORCOORRRH var1) {
+      String var2 = var1.bridge$getEntityString();
+      return var2 != null && !var2.trim().isEmpty()
+         ? Optional.of(new RRCRRCORICCHOHHIRCHIROOHIIOHCO(var2, HHRIICOIOORCHCOIICOOIHIRHHICRI(var1)))
+         : Optional.empty();
+   }
+
+   public Optional<com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      @NotNull RRCRRCORICCHOHHIRCHIROOHIIOHCO var1
+   ) {
+      return com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH(
+         var1
+      );
+   }
+
+   public static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH HHRIICOIOORCHCOIICOOIHIRHHICRI(
+      @NotNull CRRRICCRROCOHHOHIICIHORCOORRRH var0
+   ) {
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH var1 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.OORIOHCICHIHCIRRIIOHCCHCIHCOIH();
+      Component var2 = var0.bridge$getCustomName();
+      if (var2 != null) {
+         var1 = com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.OOIHOHCIIRORIOHIRRRORHHHIIIHCH(
+            LegacyComponentSerializer.legacySection().serialize(var2)
+         );
+      }
+
+      return var1;
+   }
+
+   public record RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+      private final String CCRRRHROORIOHCHHHORORICIHHOHRH;
+      @Nullable
+      private final Component OIHRCOOCHRIIIHHCOORCRORIRCCRHC;
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, @Nullable Component var2) {
+         this.CCRRRHROORIOHCHHHORORICIHHOHRH = var1;
+         this.OIHRCOOCHRIIIHHCOORCRORIRCCRHC = var2;
+      }
+
+      public static Optional<com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> CRRRICCRROCOHHOHIICIHORCOORRRH(
+         RRCRRCORICCHOHHIRCHIROOHIIOHCO var0
+      ) {
+         String var1 = var0.value();
+         TextComponent var2 = null;
+         if (!var0.OCORHORCCCCRHORIOHIROOHIOHCCCC().isEmpty()) {
+            var2 = LegacyComponentSerializer.legacySection().deserialize(var0.OCORHORCCCCRHORIOHIROOHIOHCCCC().value());
+         }
+
+         return Optional.of(
+            new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               var1, var2
+            )
+         );
+      }
+
+      public String ICRHROHOOHOCCCHRORCRCHCCCHORHC() {
+         return this.CCRRRHROORIOHCHHHORORICIHHOHRH;
+      }
+
+      @Nullable
+      public Component ORHCRIHORIRCICORROOIRHIOCORRIR() {
+         return this.OIHRCOOCHRIIIHHCOORCRORIRCCRHC;
+      }
+   }
+}

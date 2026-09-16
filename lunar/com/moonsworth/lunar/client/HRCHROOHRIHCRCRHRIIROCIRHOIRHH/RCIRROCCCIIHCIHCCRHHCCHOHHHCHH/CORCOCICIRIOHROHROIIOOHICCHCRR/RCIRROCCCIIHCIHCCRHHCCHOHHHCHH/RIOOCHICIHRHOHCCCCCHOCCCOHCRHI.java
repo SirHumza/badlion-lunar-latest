@@ -1,0 +1,181 @@
+package com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import lombok.Generated;
+
+public abstract class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI extends com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private final RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO CHRCRICCOHOOHCOHHHHHOIROCOOHCO;
+
+   @Generated
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO RCICHOOCICHRIIIHHROHCRHHROOHIO() {
+      return this.CHRCRICCOHOOHCOHHHHHOIROCOOHCO;
+   }
+
+   @Generated
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+      this.CHRCRICCOHOOHCOHHHHHOIROCOOHCO = var1;
+   }
+
+   public enum CRRRICCRROCOHHOHIICIHORCOORRRH {
+      DENSITY,
+      START,
+      END;
+   }
+
+   public static class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      private final float CCCRICOROORIORCCCRIHHICIRIIRHH;
+      private final boolean CRORRHCIOIIHHROOIICCHCCRCOCHRO;
+      private float ROICIHCRRIOCCIIHROCORCCHCHCIRO;
+      private float RICCIOOCHORHROOORORCCICICHOIHC;
+
+      public HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1, float var2, boolean var3, float var4, float var5
+      ) {
+         super(var1);
+         this.CCCRICOROORIORCCCRIHHICIRIIRHH = var2;
+         this.CRORRHCIOIIHHROOIICCHCCRCOCHRO = var3;
+         this.ROICIHCRRIOCCIIHROCORCCHCHCIRO = var4;
+         this.RICCIOOCHORHROOORORCCICICHOIHC = var5;
+      }
+
+      public void CORCOCICIRIOHROHROIIOOHICCHCRR(float var1, float var2) {
+         this.ROICIHCRRIOCCIIHROCORCCHCHCIRO = var1;
+         this.RICCIOOCHORHROOORORCCICICHOIHC = var2;
+      }
+
+      @Generated
+      public float HIHIROOIICRIICOROCRCRCCIHCICIC() {
+         return this.CCCRICOROORIORCCCRIHHICIRIIRHH;
+      }
+
+      @Generated
+      public boolean CIIIRRRCOIORIHIORIOIROHHICRHOH() {
+         return this.CRORRHCIOIIHHROOIICCHCCRCOCHRO;
+      }
+
+      @Generated
+      public float IROCICCOOCCRCRHIIHHRHHHHIICCII() {
+         return this.ROICIHCRRIOCCIIHROCORCCHCHCIRO;
+      }
+
+      @Generated
+      public float RCOCRCCROHHHRIIORIOHHHHORIIORR() {
+         return this.RICCIOOCHORHROOORORCCICICHOIHC;
+      }
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(max = 25)
+   public static class IRCIIHHICIHRCOCRROCOICRIHHCCHH extends RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      private final float IIOHORRHHOHRIOORCHRHOIHHHRIHRC;
+      private final boolean HCROHOIHORHOIORHOIROICHOHHRIHI;
+      private final RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRRRICCRROCOHHOHIICIHORCOORRRH HHIRCOHHHICIOOICICICIIHOORROCI;
+      private final float CRCRRCORHHHCRHHOCOCICOROCOOOCH;
+
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+         float var2,
+         boolean var3,
+         RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRRRICCRROCOHHOHIICIHORCOORRRH var4,
+         float var5
+      ) {
+         super(var1);
+         this.IIOHORRHHOHRIOORCHRHOIHHHRIHRC = var2;
+         this.HCROHOIHORHOIORHOIROICHOHHRIHI = var3;
+         this.HHIRCOHHHICIOOICICICIIHOORROCI = var4;
+         this.CRCRRCORHHHCRHHOCOCICOROCOOOCH = var5;
+      }
+
+      public void OOCCRCRCOHIIORCCORCRCIRRROIOOR(float var1) {
+         switch (this.HHIRCOHHHICIOOICICICIIHOORROCI) {
+            case START:
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
+                  .RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1);
+               break;
+            case END:
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
+                  .RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var1);
+               break;
+            case DENSITY:
+               if (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION <= 7) {
+                  com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
+                     .CRRRICCRROCOHHOHIICIHORCOORRRH(var1);
+               }
+         }
+
+         this.setCancelled(true);
+      }
+
+      @Generated
+      public float HIHIROOIICRIICOROCRCRCCIHCICIC() {
+         return this.IIOHORRHHOHRIOORCHRHOIHHHRIHRC;
+      }
+
+      @Generated
+      public boolean CIIIRRRCOIORIHIORIOIROHHICRHOH() {
+         return this.HCROHOIHORHOIORHOIROICHOHHRIHI;
+      }
+
+      @Generated
+      public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRRRICCRROCOHHOHIICIHORCOORRRH HROOIHORIROHIROHCCROIIRCRCCCCH() {
+         return this.HHIRCOHHHICIOOICICICIIHOORROCI;
+      }
+
+      @Generated
+      public float RCOHORRHIIHHOHHOORIHCHRIHOICIO() {
+         return this.CRCRRCORHHHCRHHOCOCICOROCOOOCH;
+      }
+   }
+
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      private final double OICCCCHHRRIIHIHCOHROOCRCOOCORC;
+      private float red;
+      private float green;
+      private float blue;
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1, double var2, float var4, float var5, float var6) {
+         super(var1);
+         this.OICCCCHHRRIIHIHCOHROOCRCOOCORC = var2;
+         this.red = var4;
+         this.green = var5;
+         this.blue = var6;
+      }
+
+      public void RRCRRCORICCHOHHIRCHIROOHIIOHCO(float var1, float var2, float var3) {
+         this.red = var1;
+         this.green = var2;
+         this.blue = var3;
+      }
+
+      @Generated
+      public double HHRRICCIOIHROCCOIIORROIROCIIOR() {
+         return this.OICCCCHHRRIIHIHCOHROOCRCOOCORC;
+      }
+
+      @Generated
+      public float COCRROCCIRHOIOHIOHRCRIIHRHRHOO() {
+         return this.red;
+      }
+
+      @Generated
+      public float ORORCHIOOOCIOHHOROHICHOHHCCHIO() {
+         return this.green;
+      }
+
+      @Generated
+      public float OOHOROHRCOHIIRCHHOHOCIRHROOOHR() {
+         return this.blue;
+      }
+   }
+
+   public enum RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+      LAVA,
+      WATER,
+      POWDER_SNOW,
+      RENDER_DISTANCE,
+      BLINDNESS,
+      DARKNESS,
+      DIMENSION,
+      BOSS,
+      ATMOSPHERIC;
+   }
+}

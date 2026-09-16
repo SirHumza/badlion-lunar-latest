@@ -1,0 +1,52 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH implements RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   private final String CHRRROOICHHIHCROOCHOICRIICOCOR;
+   private final int ORHROOCROIHOROCRHOCIOHIIICIRII;
+   private final List<String> CORIROCIORHIRCIOHCHICCOICRROOR;
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var1) {
+      this(var1, 0, new ArrayList<>());
+   }
+
+   private HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var1, int var2, List<String> var3) {
+      this.CHRRROOICHHIHCROOCHOICRIICOCOR = var1;
+      this.ORHROOCROIHOROCRHOCIOHIIICIRII = var2;
+      this.CORIROCIORHIRCIOHCHICCOICRROOR = var3;
+   }
+
+   @Override
+   public String CIHCOIIRIOOCOCRHHHHRCCIOHCRCCH() {
+      return this.ORHROOCROIHOROCRHOCIOHIIICIRII <= this.CHRRROOICHHIHCROOCHOICRIICOCOR.length()
+         ? this.CHRRROOICHHIHCROOCHOICRIICOCOR.substring(this.ORHROOCROIHOROCRHOCIOHIIICIRII)
+         : "";
+   }
+
+   @Override
+   public int getStart() {
+      return this.ORHROOCROIHOROCRHOCIOHIIICIRII;
+   }
+
+   @Override
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO OHRCIORHOCHOORCRHHOHRRRCCOICCO(String var1) {
+      if (var1.equals(this.CIHCOIIRIOOCOCRHHHHRCCIOHCRCCH())) {
+         return this;
+      }
+
+      this.CORIROCIORHIRCIOHCHICCOICRROOR.add(var1);
+      return this;
+   }
+
+   @Override
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO RRORCOIRRIICOOICOIOCORHORCHCOC(int var1) {
+      return new HHCCIRHCCCIIRHCROHIORHIRHHIORH(this.CHRRROOICHHIHCROOCHOICRIICOCOR, var1, this.CORIROCIORHIRCIOHCHICCOICRROOR);
+   }
+
+   public List<String> CIICICORRHHRHOIHOHHHHRCHHICOCO() {
+      return Collections.unmodifiableList(this.CORIROCIORHIRCIOHCHICCOICRROOR);
+   }
+}

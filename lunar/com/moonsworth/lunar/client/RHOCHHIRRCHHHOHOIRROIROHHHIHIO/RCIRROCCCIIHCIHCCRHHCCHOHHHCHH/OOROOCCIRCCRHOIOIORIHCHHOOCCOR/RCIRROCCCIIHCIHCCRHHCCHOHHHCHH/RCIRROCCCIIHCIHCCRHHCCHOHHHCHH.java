@@ -1,0 +1,61 @@
+package com.moonsworth.lunar.client.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.eliotlash.molang.ast.Evaluatable;
+import com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ORHIOICIOCRRHOOCOHRORIHICHRCRR;
+import lombok.Generated;
+import org.jspecify.annotations.Nullable;
+import software.bernie.geckolib3.core.builder.AnimationBuilder;
+import software.bernie.geckolib3.core.easing.EasingType;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   @ORHIOICIOCRRHOOCOHRORIHICHRCRR("anim")
+   private AnimationBuilder RIIICROHHRRROHCOIHIICIHCHIOHHR;
+   @ORHIOICIOCRRHOOCOHRORIHICHRCRR("transition_ticks")
+   private @Nullable Evaluatable RRROOHRCHOCCRCHCCIHICOCIHOIHCR = null;
+   @ORHIOICIOCRRHOOCOHRORIHICHRCRR("transition_args")
+   private Double @Nullable [] IORCCRHIHCOCRHIOHRRIRHCCCCRIOC = null;
+   @ORHIOICIOCRRHOOCOHRORIHICHRCRR("transition_easing")
+   private EasingType OIOICRCHRIHOOROOHOROCROOOCCIHI = EasingType.NONE;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(AnimationBuilder var1) {
+      this.RIIICROHHRRROHCOIHIICIHCHIOHHR = var1;
+   }
+
+   @Override
+   public @Nullable RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IRCIIHHICIHRCOCRROCOICRIHHCCHH(RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+      return this;
+   }
+
+   @Generated
+   public AnimationBuilder HCCIHRRCRCICHRCCCIRCRRHCCRHIIR() {
+      return this.RIIICROHHRRROHCOIHIICIHCHIOHHR;
+   }
+
+   @Generated
+   public @Nullable Evaluatable IOIIICHRRIOHCCIROOIOCIIOIRICRO() {
+      return this.RRROOHRCHOCCRCHCCIHICOCIHOIHCR;
+   }
+
+   @Generated
+   public Double @Nullable [] COIOOIICHHOCCIHRIIRIIIHOROCCRR() {
+      return this.IORCCRHIHCOCRHIOHRRIRHCCCCRIOC;
+   }
+
+   @Generated
+   public EasingType RROHROCRRRIOICIRCICCIIHHOHCRIC() {
+      return this.OIOICRCHRIHOOROOHOROCROOOCCIHI;
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   }
+
+   @Generated
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(AnimationBuilder var1, @Nullable Evaluatable var2, Double @Nullable [] var3, EasingType var4) {
+      this.RIIICROHHRRROHCOIHIICIHCHIOHHR = var1;
+      this.RRROOHRCHOCCRCHCCIHICOCIHOIHCR = var2;
+      this.IORCCRHIHCOCRHIOHRRIRHCCCCRIOC = var3;
+      this.OIOICRCHRIHOOROOHOROCROOOCCIHI = var4;
+   }
+}

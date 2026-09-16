@@ -1,0 +1,95 @@
+package com.moonsworth.lunar.client.util;
+
+import lombok.Generated;
+
+public class RIROICHCRROROHCCROOCCCCOCHCCRI {
+   public static final String ORRHOHRHRCOIHRRIRHCCIRRORHCROR = "https://textures.lunarclientcdn.com/file/";
+   public static final String HOCOOCHOHROOHORRIIROCOICIOICRI = "https://store.lunarclient.com/";
+   public static final String RIHCHIIOIOCHHIRRCORCHROCCHOIIC;
+   private static final String HOHICCROCRRICOICIHRHHHCOCOIIHI;
+   private static final String CHHORORIRRHOICOIICOIOORIROOCHR;
+   private static final String RORIHIORIORRORHHRIOIIRRORROCCR;
+   private static final String RHRHICROOCOIIOOHRRRIOCCCCROROI;
+   private static final String IRHCIICOCCCOCOIHOOHRORCHOCRRII;
+   private static final String HCHHCIICRIHIOOHRCRHIHHIRHOOCCI;
+   private static final boolean ICOIHICHIHHRHOROOCCIORCRHRCCIR;
+   private static final com.moonsworth.lunar.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH HOIHCHRHOICHOOOICOROHHOCOIRIOH;
+
+   private static String CHRCRHHRCCOICCOOIIRIOHCOHCHHIC(String var0, String var1) {
+      if (com.moonsworth.lunar.client.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHRRICCIOIHROCCOIIORROIROCIIOR) {
+         return var1;
+      }
+
+      String var2 = System.getenv("serviceOverride" + var0);
+      return var2 != null ? var2 : System.getProperty("serviceOverride" + var0, var1);
+   }
+
+   @Generated
+   public static String HCOHOCCHRHOCCOIOOCIIHRHOHHRROC() {
+      return HOHICCROCRRICOICIHRHHHCOCOIIHI;
+   }
+
+   @Generated
+   public static String IICOOHORRRRHICOCRHCRCHCOHRHRHC() {
+      return CHHORORIRRHOICOIICOIOORIROOCHR;
+   }
+
+   @Generated
+   public static String RCOCHHICCIRHIRORROCIRHRIHOIHIC() {
+      return RORIHIORIORRORHHRIOIIRRORROCCR;
+   }
+
+   @Generated
+   public static String HHIICHRCCIOCIOIOHOOHIRRHCOOHCC() {
+      return RHRHICROOCOIIOOHRRRIOCCCCROROI;
+   }
+
+   @Generated
+   public static String HCRCHIOHOIROOCIROROHIRRIIRRHHO() {
+      return IRHCIICOCCCOCOIHOOHRORCHOCRRII;
+   }
+
+   @Generated
+   public static String RHCCCIOHCRHIICRCHIOCHICHOHRCCR() {
+      return HCHHCIICRIHIOOHRCRHIHHIRHOOCCI;
+   }
+
+   @Generated
+   public static boolean OHOHHCIHHOCICHOORCRRHHCCRORIIO() {
+      return ICOIHICHIHHRHOROOCCIORCRHRCCIR;
+   }
+
+   @Generated
+   public static com.moonsworth.lunar.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OOHIORCOCHIIHHCCIHHIRICROCCROR() {
+      return HOIHCHRHOICHOOOICOROHHOCOIRIOH;
+   }
+
+   static {
+      String var0 = System.getenv("devServices");
+      var0 = var0 == null ? "no" : var0;
+      if ((com.moonsworth.lunar.client.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHRRICCIOIHROCCOIIORROIROCIIOR || !var0.equals("yes"))
+         && !System.getProperty("devServices", "no").equals("yes")) {
+         String var3 = "lunarclientprod.com";
+         RIHCHIIOIOCHHIRRCORCHROCCHOIIC = "mcstats.com";
+         HOHICCROCRRICOICIHRHHHCOCOIIHI = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Styngr", "https://api.styngr.com/api");
+         CHHORORIRRHOICOIICOIOORIROOCHR = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Skins", "https://skins." + RIHCHIIOIOCHHIRRCORCHROCCHOIIC);
+         RORIHIORIORRORHHRIOIIRRORROCCR = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("ThirdPartyCache", "https://thirdpartycache." + var3);
+         RHRHICROOCOIIOOHRRRIOCCCCROROI = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Authenticator", "wss://authenticator." + var3);
+         IRHCIICOCCCOCOIHOOHRORCHOCRRII = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("AssetServer", "wss://websocket." + var3);
+         HCHHCIICRIHIOOHRCRHIHHIRHOOCCI = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Api", "https://api." + var3);
+         HOIHCHRHOICHOOOICOROHHOCOIRIOH = com.moonsworth.lunar.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.PRODUCTION;
+         ICOIHICHIHHRHOROOCCIORCRHRCCIR = false;
+      } else {
+         String var1 = "lunarclientdev.com";
+         RIHCHIIOIOCHHIRRCORCHROCCHOIIC = "mcstats.cloud";
+         HOHICCROCRRICOICIHRHHHCOCOIIHI = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Styngr", "https://stg.api.styngr.com/api");
+         CHHORORIRRHOICOIICOIOORIROOCHR = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Skins", "https://skins." + RIHCHIIOIOCHHIRRCORCHROCCHOIIC);
+         RORIHIORIORRORHHRIOIIRRORROCCR = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("ThirdPartyCache", "https://thirdpartycache." + var1);
+         RHRHICROOCOIIOOHRRRIOCCCCROROI = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Authenticator", "wss://authenticator." + var1);
+         IRHCIICOCCCOCOIHOOHRORCHOCRRII = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("AssetServer", "wss://websocket." + var1);
+         HCHHCIICRIHIOOHRCRHIHHIRHOOCCI = CHRCRHHRCCOICCOOIIRIOHCOHCHHIC("Api", "https://api." + var1);
+         HOIHCHRHOICHOOOICOROHHOCOIRIOH = com.moonsworth.lunar.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DEVELOPMENT;
+         ICOIHICHIHHRHOROOCCIORCRHRCCIR = true;
+      }
+   }
+}

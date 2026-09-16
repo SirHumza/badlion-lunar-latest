@@ -1,0 +1,49 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.client.util.RCOCOHHCOOICCICCRCCORORROHRCCC;
+
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   public static boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var0,
+      String var1
+   ) {
+      RCOCOHHCOOICCICCRCCORORROHRCCC var2 = new RCOCOHHCOOICCICCRCCORORROHRCCC(var1.startsWith("/") ? var1.substring(1) : var1);
+      CRRRICCRROCOHHOHIICIHORCOORRRH var3 = new CRRRICCRROCOHHOHIICIHORCOORRRH();
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var2, var3);
+   }
+
+   private static boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var0,
+      RCOCOHHCOOICCICCRCCORORROHRCCC var1,
+      CRRRICCRROCOHHOHIICIHORCOORRRH var2
+   ) {
+      int var3 = var1.getCursor();
+      if (!var0.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2)) {
+         var1.RIRCCRRRCOROICICCOORORHCHICRCC(var3);
+         return false;
+      }
+
+      if (var1.ICRRHCIHROICCROIIRHRCRRIHRRCCC() && var1.peek() == ' ') {
+         int var4 = var1.getCursor();
+         var1.skipWhitespace();
+         int var5 = var1.getCursor();
+
+         for (com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var7 : var0.getChildren()) {
+            if (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var7, var1, var2)) {
+               return true;
+            }
+
+            var1.RIRCCRRRCOROICICCOORORHCHICRCC(var5);
+         }
+
+         var1.RIRCCRRRCOROICICCOORORHCHICRCC(var4);
+      }
+
+      if (!var1.ICRRHCIHROICCROIIRHRCRRIHRRCCC() && var0.IOHOHCCHOCHRHCORIORCCOHIROROHO() != null) {
+         var0.IOHOHCCHOCHRHCORIORCCOHIROROHO().execute(var2);
+         return true;
+      } else {
+         return false;
+      }
+   }
+}

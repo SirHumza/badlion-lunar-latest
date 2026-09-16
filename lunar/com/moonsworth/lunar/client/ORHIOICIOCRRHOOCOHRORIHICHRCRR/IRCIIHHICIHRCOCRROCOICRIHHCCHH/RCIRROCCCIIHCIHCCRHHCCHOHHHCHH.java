@@ -1,0 +1,7 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends Exception {
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1) {
+      super(var1);
+   }
+}

@@ -1,0 +1,151 @@
+package com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IHIRRIIORRHORHRORIHOROIRCORCOO;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.IHHCHHHCRIHOOCOIOOCRIIICIOROIR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.IRRCCOICORICIHCHRHIHIHROIRHOCR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.client.util.HOIHOROOIOOCOIHCRIRIRIRRICIIHC;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.util.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Optional;
+import java.util.concurrent.Callable;
+import javax.annotation.Nullable;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   @Nullable
+   private File CCHIOCCCOOCICOHIHIIOIICOOORROC = null;
+   @Nullable
+   private com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH RHHOHIROHHCRRRCIICOHRIROORIORC;
+   private BufferedImage COHIRCIROOCOHCCIRHIRORRCRRRHRO;
+   private RCIROOOOICRHCCRRCIORHHIRCOIIIC ROOCOCCICRIIIHORIHOCORCORCOIHH;
+   private RCIROOOOICRHCCRRCIORHHIRCOIIIC CRRRCHRHHIRIHOOCOOCICHCIHRRIOR;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, RCIROOOOICRHCCRRCIORHHIRCOIIIC var2, RCIROOOOICRHCCRRCIORHHIRCOIIIC var3, IHHCHHHCRIHOOCOIOOCRIIICIOROIR var4
+   ) {
+      super(var1, var4);
+      this.ROOCOCCICRIIIHORIHOCORCORCOIHH = var2;
+      this.CRRRCHRHHIRIHOOCOOCICHCIHRRIOR = var3;
+      IRRCCOICORICIHCHRHIHIHROIRHOCR var5 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI()
+         .bridge$getTextureManager()
+         .bridge$getTexture(this.CRRRCHRHHIRIHOOCOOCICHCIHRRIOR);
+      if (var5 instanceof IHIRRIIORRHORHRORIHOROIRCORCOO var6) {
+         this.CCHIOCCCOOCICOHIHIIOIICOOORROC = var6.bridge$getFile();
+      }
+
+      if (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 6 && var5 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR var7) {
+         this.RHHOHIROHHCRRRCIICOHRIROORIORC = var7.bridge$getNativeImage();
+      }
+   }
+
+   @Override
+   protected Callable<Optional<RIOOCHICIHRHOHCCCCCHOCCCOHCRHI>> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2
+   ) {
+      return new com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1, this.ROOCOCCICRIIIHORIHOCORCORCOIHH, var2, this.CHHIHOHRROHIHCHORRHCCHIRIOHCIH
+      );
+   }
+
+   @Override
+   protected void IIORCROOIHRCIRCROOROHOHOORCRRR() {
+      if (this.COHIRCIROOCOHCCIRHIRORRCRRRHRO != null) {
+         this.COHIRCIROOCOHCCIRHIRORRCRRRHRO.flush();
+         this.COHIRCIROOCOHCCIRHIRORRCRRRHRO = null;
+      }
+   }
+
+   private class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends com.moonsworth.lunar.client.util.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.CORCOCICIRIOHROHROIIOOHICCHCRR {
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var2,
+         RCIROOOOICRHCCRRCIORHHIRCOIIIC var3,
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH var4,
+         IHHCHHHCRIHOOCOIOOCRIIICIOROIR var5
+      ) {
+         super(var2, var3, var4, var5, RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.this.CCHIOORHCORRIHRRHIOHHCHCOIRHOR);
+      }
+
+      @Override
+      protected BufferedImage RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(BufferedImage var1, IHHCHHHCRIHOOCOIOOCRIIICIOROIR var2) {
+         BufferedImage var3 = new BufferedImage(var1.getWidth(), var1.getHeight(), 2);
+
+         try {
+            boolean var4 = false;
+            BufferedImage var5 = null;
+            if (RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.this.CCHIOCCCOOCICOHIHIIOIICOOORROC != null) {
+               FileInputStream var6 = new FileInputStream(RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.this.CCHIOCCCOOCICOHIHIIOIICOOORROC);
+               var5 = HOIHOROOIOOCOIHCRIRIRIRRICIIHC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var6, null);
+            } else if (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 28 && RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.this.RHHOHIROHHCRRRCIICOHRIROORIORC != null) {
+               var5 = IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHHIRCIIIRRCORHHRICIRCOORORCH()
+                  .IRCIIHHICIHRCOCRROCOICRIHHCCHH(RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.this.RHHOHIROHHCRRRCIICOHRIROORIORC);
+               var4 = true;
+            }
+
+            if (var5 == null) {
+               return var3;
+            }
+
+            for (int var10 = 0; var10 < var1.getWidth(); var10++) {
+               for (int var7 = 0; var7 < var1.getHeight(); var7++) {
+                  int var8 = var1.getRGB(var10, var7);
+                  var3.setRGB(var10, var7, var8);
+               }
+            }
+
+            for (int var11 = 0; var11 < 64; var11++) {
+               for (int var16 = 0; var16 < 64; var16++) {
+                  var3.setRGB(var11, var16, 0);
+               }
+            }
+
+            if (var5.getHeight() == 64) {
+               for (int var12 = 0; var12 < var5.getWidth(); var12++) {
+                  for (int var17 = 0; var17 < var5.getHeight(); var17++) {
+                     if ((var17 >= 8 || var12 >= 8) && (var12 < 56 || var17 < 16 || var17 >= 48)) {
+                        int var21 = var5.getRGB(var12, var17);
+                        var3.setRGB(var12, var17, var4 ? OCOHORHCROHICRRIHCIHHRRCIHICRI.OCOHIOCHOCHRCCROORRIIIHIOHOIIR(var21) : var21);
+                     }
+                  }
+               }
+            } else if (var5.getHeight() == 32) {
+               for (int var13 = 0; var13 < var5.getWidth(); var13++) {
+                  for (int var18 = 0; var18 < var5.getHeight(); var18++) {
+                     if ((var18 >= 16 || var13 < 32) && (var18 >= 8 || var13 >= 8) && var13 < 56) {
+                        int var22 = var5.getRGB(var13, var18);
+                        var3.setRGB(var13, var18, var4 ? OCOHORHCROHICRRIHCIHHRRCIHICRI.OCOHIOCHOCHRCCROORRIIIHIOHOIIR(var22) : var22);
+                     }
+                  }
+               }
+
+               for (int var14 = 0; var14 < 16; var14++) {
+                  for (int var19 = 16; var19 < 32; var19++) {
+                     int var23 = var5.getRGB(var14, var19);
+                     var3.setRGB(var14 + 16, var19 + 32, var4 ? OCOHORHCROHICRRIHCIHHRRCIHICRI.OCOHIOCHOCHRCCROORRIIIHIOHOIIR(var23) : var23);
+                  }
+               }
+
+               for (int var15 = 40; var15 < 56; var15++) {
+                  for (int var20 = 16; var20 < 32; var20++) {
+                     int var24 = var5.getRGB(var15, var20);
+                     var3.setRGB(var15 - 8, var20 + 32, var4 ? OCOHORHCROHICRRIHCIHHRRCIHICRI.OCOHIOCHOCHRCCROORRIIIHIOHOIIR(var24) : var24);
+                  }
+               }
+            }
+
+            RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.this.COHIRCIROOCOHCCIRHIRORRCRRRHRO = var3;
+            return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.this.COHIRCIROOCOHCCIRHIRORRCRRRHRO;
+         } catch (IOException var9) {
+            throw new RuntimeException(var9);
+         }
+      }
+   }
+}

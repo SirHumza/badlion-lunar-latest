@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR;
+
+import java.util.function.Consumer;
+
+public interface HICHRCOHCCRHOHCICOOCHOIHCCHIRI {
+   void bridge$setPacketsConsumer(
+      Consumer<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH> var1
+   );
+}

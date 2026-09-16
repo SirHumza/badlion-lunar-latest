@@ -1,0 +1,17 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   void bridge$setPlayingSoundVolume(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, float var2);
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(max = 5)
+   void bridge$setReloadingBlocking(boolean var1);
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(max = 5)
+   boolean bridge$isReloadingBlocking();
+
+   void bridge$pause();
+
+   void bridge$resume();
+}

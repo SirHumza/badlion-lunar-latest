@@ -1,0 +1,630 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IHIRRIIORRHORHRORIHOROIRCORCOO;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RICRIRRCOHRCOCRRHHCRHRROOIOHHR;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import java.io.OutputStream;
+import java.io.Writer;
+
+public abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   extends com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   protected static final int RRCCRCCHHOHIROIHORRCHCCCICCHOI = 0;
+   protected static final int CCHOCCROIHORIOCRCOOHICHORHCHCH = 1;
+   protected static final int CCIOHOIICIIIIHCIOIORICIHOHOHIH = 2;
+   protected static final int RRCOCICHCCOIROHIHCOOOHOCCOHORH = 3;
+   protected static final int IHOHOIIIHIIIOHOIHRHHOIRIHOICRI = 4;
+   protected static final int HCHCIICCROCROOIRHHIIORRORCIROR = 5;
+   protected static final int CRCCCOORCRHHOCRCOIRROIORIRIHOI = 6;
+   protected static final int OIOCCOHCCHHRROHRRROHRRROROIRRC = 7;
+   protected static final int HCOOOIIIRCCCHOCCHHIRHRIICHIIHR = 1;
+   protected static final int RROHIHOICCOIRRIOOHOHOROORRORHI = 2;
+   protected static final int CCHCOICCRRIIRCHOHIRHHRROOICCOH = 3;
+   protected static final int OROIHRRHRIICRHRHCRIROOROCRIOHR = 4;
+   protected static final int OIHIIOICCIOIORIHCOIIRORIIOIOHR = 5;
+   protected static final int IIHCHCICHCIOHROHRCHCOCCCHIIRHO = 7;
+   protected static final int CCORHIRCOHRCHIOCCROICOCROORHIH = 8;
+   protected static final int ICOOCOIIOIOCICIHROHRHCRCCOHRHO = 9;
+   protected static final int OHHRCCHIHRHIRCOHOORIOHICHORRIO = 10;
+   protected static final int OIHOOHHIHHHCRCOHRRIRCCCCCIICHR = 12;
+   protected static final int IIICHCCOOHROOHHCHCHIHOHORHORCI = 13;
+   protected static final int HHOHHIRCOHRCRCHRHHICRICRHORHHH = 14;
+   protected static final int CRCHCCIIRIROHIRRCIHHCRORHOHCIO = 15;
+   protected static final int ROIHRRCCOORHRIRHCRIIIIHRORIHHO = 16;
+   protected static final int HCHCCOOROOCCHCIOHHIIOHRRCCHHCC = 17;
+   protected static final int IIHCRCCHIRRIIOORIORRHCRRROIOIO = 18;
+   protected static final int HICORRCOHHROCIOIICIRRHCCRIOHHO = 19;
+   protected static final int RRCOCORIOOIORICHCCHRRROIOORRIR = 22;
+   protected static final int CRCHCOCICIIOOOCIHRCHOHCHCCRICO = 23;
+   protected static final int COHHIOORRHRHOCIOHHRIOIRIRRHICR = 24;
+   protected static final int CCOCIIHORCOCHCIIHIIOICHRRRHCOH = 25;
+   protected static final int IIROIICHORICOOCROHHOOICHIRCRHO = 26;
+   protected static final int OIRCHRHICCHOOOIORCHHOOCCRRHCCH = 30;
+   protected static final int HICHHICRHICOHRIROOIHOOCIRCRHCC = 31;
+   protected static final int ICHHRRRHICROOIOHIRIHRORRRRCCHH = 32;
+   protected static final int HCRICHHIROOOHRRCRCOIORORHOICRH = 40;
+   protected static final int CRIHHOCOHCIORCIRHOHHHCRHIIHCRH = 41;
+   protected static final int IIHHOHCHRHOICHRCCOROORCHHICHIH = 42;
+   protected static final int RCORCOCORICIOCCRCRRHOIOOHCHHCO = 43;
+   protected static final int IICROOCORCIRCHOOIRIHICOHOCCICO = 44;
+   protected static final int IRCIHHRRCRHRHIHRIHRHCRIHCHRRCI = 45;
+   protected static final int ICIHRHICCOOCCHOIOCRIRRRCCHOCRI = 50;
+   protected static final int HOROORHRCOCIRIHIICRHIROHHOCRHR = 51;
+   protected static final int OOCOIIORRIORRICIOROHHRHHOCRHHH = 52;
+   protected static final int HRCIOCIRCRROIHHCCHCIOCIRHCOHHR = 53;
+   protected static final int IOIHHCCRHHRCHHHCHIHOIIRRCHIHOC = 54;
+   protected static final int COIHIHOHIORIIRHOHCOHOORRORHOCO = 55;
+   protected final com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RROCRRRORCOIROIROICIOCCOIOCRCI;
+   protected int[] COHOHRRIIICIROORCHRCCHIROHRCOC = new int[8];
+   protected int CIROIRHRHHHROIOORICHIIRHRIOIHR;
+   protected int RRCCHCRCHROICRCOHHHCIROIHIIICR;
+   protected int CIRHIRCHIRIIRHHOIOORCIOHOHRIOI;
+   protected int ICOHIROHIRIIHRICOHRIROCROOCHHH;
+   protected int IHCCROIROIOICIIHOOOHRCRICOIIRO;
+   protected int RCORHICRICHRIOHRCIIHICORCCOOII;
+   protected int HOCHIIROCROROIROCIHHROICRIOROR;
+   protected int OIIROCCRHCRORIRCCROHRRCHIHHCII;
+   protected int RCRCCOCRRCOHIIRHHRHIICOOCIROHH;
+   protected int RRHIORHCCOHCCHOCHICHOORHHRHIRI;
+   protected boolean HORRORICHRHIOHICOHORIHRHRCIIIO = false;
+   protected static final int ROHOIHIIIHHHHROHCICROIROOCHHCR = 0;
+   protected static final int CIOHHCIRRROCRCRIIHICHHHOIHRCOC = 1;
+   protected static final int COOCHICICCCCHOOIHIRRCHORHOHCRO = 2;
+   protected static final int IIOHHCCRRHIIRHRROCOHRHICHORCCI = 3;
+   protected static final String[] RIROIIRCHIHCRCHROIOOHRCCOHOHOO = new String[]{"NaN", "Infinity", "+Infinity", "-Infinity"};
+   protected static final double[] CRIHOHCIICRROHRHOHRHOIHIOOORCH = new double[]{
+      Double.NaN, Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY
+   };
+   protected int RRHRCOCIIOCOHRHIORIIORROCCOCHI;
+   protected int RHICCCHRORORRRICOOIHCHIOIORHIC = 0;
+   protected int RHOHHIIHHCRORROCHICHHORIHRIIHO = 1;
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+      int var2,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var3
+   ) {
+      super(var1, var2);
+      this.RROCRRRORCOIROIROICIOCCOIOCRCI = var3;
+      this.IIOIRORORIIIRHCHHIOCIICOCIHICH = null;
+      this.HOCHIIROCROROIROCIHHROICRIOROR = 0;
+      this.OIIROCCRHCRORIRCCROHRRCHIHHCII = 1;
+   }
+
+   @Override
+   public RICRIRRCOHRCOCRRHHCRHRROOIOHHR IRRIHOORCIHROCIHRIIRRHOCORIIRO() {
+      return null;
+   }
+
+   @Override
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(RICRIRRCOHRCOCRRHHCRHRROOIOHHR var1) {
+      throw new UnsupportedOperationException("Can not use ObjectMapper with non-blocking parser");
+   }
+
+   @Override
+   public boolean HROIHRHHHIHICCHHICIHIORRHIRORO() {
+      return true;
+   }
+
+   @Override
+   public CORCOCICIRIOHROHROIIOOHICCHCRR<IHIRRIIORRHORHRORIHOROIRCORCOO> CHOHIIROCRHHOCCCOCORCOCOHCHOCH() {
+      return RHHHCOHOIRCOIICCOIIORCORROOCOI;
+   }
+
+   protected com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IIOROOHIRIRRRHRIORROOROROHRCOR() {
+      return this.RROCRRRORCOIROIROICIOCCOIOCRCI;
+   }
+
+   @Override
+   public abstract int HHRIICOIOORCHCOIICOOIHIRHHICRI(OutputStream var1);
+
+   @Override
+   protected void RHIICHCRROCRHCRHIRHRRROOCOOCRO() {
+      super.RHIICHCRROCRHCRHIRHRRROOCOOCRO();
+      this.RROCRRRORCOIROIROICIOCCOIOCRCI.release();
+   }
+
+   @Override
+   public Object RORRCOCHIHIHICOIRHIOHCOIRIRCOC() {
+      return null;
+   }
+
+   @Override
+   protected void HICCHORRCORCORCORIIOHCOCHIICIR() {
+      this.RHICCCHRORORRRICOOIHCHIOIORHIC = 0;
+      this.HHOHOICCHOHCRCHIOOHHIRRCRCIIOC = 0;
+   }
+
+   @Override
+   public boolean RROICOIOIIIHRHRCIIOOCIRICOIHHO() {
+      if (this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING) {
+         return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.RCIRRIOOICOHCRIHHOOOOOIRORIOHH();
+      } else {
+         return this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.FIELD_NAME ? this.ICRHHRCIRORHOHHHHIIIRORHHRCOHR : false;
+      }
+   }
+
+   @Override
+   public HICHRCOHCCRHOHCICOOCHOIHCCHIRI COIIOIOCCIOCOOIROHCCHHRHCICIHI() {
+      int var1 = this.OOCCRCRROCIOCHHIHHCORIOHORRCCH - this.OIIOOIICOOROCHCIRIRRIICIIRCROO + 1;
+      int var2 = Math.max(this.IOIRCCCCOCIRHRCIRIIOOCOCCRCOOC, this.RHOHHIIHHCRORROCHICHHORIHRIIHO);
+      return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+         this.OIIOOIHIRCIROORRCIHRCCIIORHIIC(),
+         this.IOCHIOORCHCICCOORORORRIICRHHCI + (this.OOCCRCRROCIOCHHIHHCORIOHORRCCH - this.RHICCCHRORORRRICOOIHCHIOIORHIC),
+         -1L,
+         var2,
+         var1
+      );
+   }
+
+   @Override
+   public HICHRCOHCCRHOHCICOOCHOIHCCHIRI RRIRORCHCICHIOHOHORHRIROHHRHOC() {
+      return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+         this.OIIOOIHIRCIROORRCIHRCCIIORHIIC(),
+         this.HOOOHRIRORCIIIHIOHCRICHIICCHOR,
+         -1L,
+         this.COHIRIICOIOICICIHCCRHRHCICCOOI,
+         this.ICIIROIIOOOIHHICOHHOHOIRRHRHHO
+      );
+   }
+
+   @Override
+   public String getText() {
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING
+         ? this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.ICHCCOIRHIIHRORHOIROIORCHIIICI()
+         : this.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(this.IIOIRORORIIIRHCHHIOCIICOCIHICH);
+   }
+
+   protected final String RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(OHHRIOHROOIHOROCIRHCHORIHRRRRI var1) {
+      if (var1 == null) {
+         return null;
+      }
+
+      switch (var1.id()) {
+         case -1:
+            return null;
+         case 0:
+         case 1:
+         case 2:
+         case 3:
+         case 4:
+         default:
+            return var1.asString();
+         case 5:
+            return this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.CIOOORCHHCOOOOIIOOCIOICCRRORCH();
+         case 6:
+         case 7:
+         case 8:
+            return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+      }
+   }
+
+   @Override
+   public int CRRRICCRROCOHHOHIICIHORCOORRRH(Writer var1) {
+      OHHRIOHROOIHOROCIRHCHORIHRRRRI var2 = this.IIOIRORORIIIRHCHHIOCIICOCIHICH;
+      if (var2 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING) {
+         return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1);
+      }
+
+      if (var2 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.FIELD_NAME) {
+         String var4 = this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.CIOOORCHHCOOOOIIOOCIOICCRRORCH();
+         var1.write(var4);
+         return var4.length();
+      }
+
+      if (var2 != null) {
+         if (var2.isNumeric()) {
+            return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1);
+         }
+
+         if (var2 == OHHRIOHROOIHOROCIRHCHORIHRRRRI.NOT_AVAILABLE) {
+            this.ROHCIRRIRIRRHHCOOHHIRORRIHOORR("Current token not available: can not call this method");
+         }
+
+         char[] var3 = var2.asCharArray();
+         var1.write(var3);
+         return var3.length;
+      } else {
+         return 0;
+      }
+   }
+
+   @Override
+   public String getValueAsString() {
+      if (this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING) {
+         return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+      } else {
+         return this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.FIELD_NAME
+            ? this.CIOOORCHHCOOOOIIOOCIOICCRRORCH()
+            : super.RRCCCRRROOIIRHCROOROOIHHHRIRCH(null);
+      }
+   }
+
+   @Override
+   public String RRCCCRRROOIIRHCROOROOIHHHRIRCH(String var1) {
+      if (this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING) {
+         return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+      } else {
+         return this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.FIELD_NAME
+            ? this.CIOOORCHHCOOOOIIOOCIOICCRRORCH()
+            : super.RRCCCRRROOIIRHCROOROOIHHHRIRCH(var1);
+      }
+   }
+
+   @Override
+   public char[] IOOHRCCROHHOICCCCOOOICRIIHOROO() {
+      if (this.IIOIRORORIIIRHCHHIOCIICOCIHICH != null) {
+         switch (this.IIOIRORORIIIRHCHHIOCIICOCIHICH.id()) {
+            case 5:
+               if (!this.ICRHHRCIRORHOHHHHIIIRORHHRCOHR) {
+                  String var1 = this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.CIOOORCHHCOOOOIIOOCIOICCRRORCH();
+                  int var2 = var1.length();
+                  if (this.OCHHRIHCROICOHICRCOOHHHRCIRIHO == null) {
+                     this.OCHHRIHCROICOHICRCOOHHHRCIRIHO = this.HHCIIIIIROIOHHIROOICOHRCOHCORH.RIHRHORCOOCIICRRICHOOORCOHICRO(var2);
+                  } else if (this.OCHHRIHCROICOHICRCOOHHHRCIRIHO.length < var2) {
+                     this.OCHHRIHCROICOHICRCOOHHHRCIRIHO = new char[var2];
+                  }
+
+                  var1.getChars(0, var2, this.OCHHRIHCROICOHICRCOOHHHRCIRIHO, 0);
+                  this.ICRHHRCIRORHOHHHHIIIRORHHRCOHR = true;
+               }
+
+               return this.OCHHRIHCROICOHICRCOOHHHRCIRIHO;
+            case 6:
+            case 7:
+            case 8:
+               return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.IIHOCROIOIRCHCCRORHCOOROROOHCC();
+            default:
+               return this.IIOIRORORIIIRHCHHIOCIICOCIHICH.asCharArray();
+         }
+      } else {
+         return null;
+      }
+   }
+
+   @Override
+   public int IIOOCRIHICIIHIHICHCCHIICIORRIH() {
+      if (this.IIOIRORORIIIRHCHHIOCIICOCIHICH != null) {
+         switch (this.IIOIRORORIIIRHCHHIOCIICOCIHICH.id()) {
+            case 5:
+               return this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.CIOOORCHHCOOOOIIOOCIOICCRRORCH().length();
+            case 6:
+            case 7:
+            case 8:
+               return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.size();
+            default:
+               return this.IIOIRORORIIIRHCHHIOCIICOCIHICH.asCharArray().length;
+         }
+      } else {
+         return 0;
+      }
+   }
+
+   @Override
+   public int RCIOOOIHROIRCROOIICOHHCORROHHR() {
+      if (this.IIOIRORORIIIRHCHHIOCIICOCIHICH != null) {
+         switch (this.IIOIRORORIIIRHCHHIOCIICOCIHICH.id()) {
+            case 5:
+               return 0;
+            case 6:
+            case 7:
+            case 8:
+               return this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.RCIOOOIHROIRCROOIICOHHCORROHHR();
+         }
+      }
+
+      return 0;
+   }
+
+   @Override
+   public byte[] RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      if (this.IIOIRORORIIIRHCHHIOCIICOCIHICH != OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_STRING) {
+         this.HHRIICOIOORCHCOIICOOIHIRHHICRI(
+            "Current token (%s) not VALUE_STRING or VALUE_EMBEDDED_OBJECT, can not access as binary", this.IIOIRORORIIIRHCHHIOCIICOCIHICH
+         );
+      }
+
+      if (this.HIOHHORIRCCIIIORHHOORCHCRROICO == null) {
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2 = this.RIIIOIHORICCHHIHRRRHOHRORRIHIC();
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.getText(), var2, var1);
+         this.HIOHHORIRCCIIIORHHOORCHCRROICO = var2.toByteArray();
+      }
+
+      return this.HIOHHORIRCCIIIORHHOORCHCRROICO;
+   }
+
+   @Override
+   public int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1, OutputStream var2
+   ) {
+      byte[] var3 = this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1);
+      var2.write(var3);
+      return var3.length;
+   }
+
+   @Override
+   public Object RRIHRHCOCCRROCCHIRHHHIIICHCRRR() {
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH == OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_EMBEDDED_OBJECT ? this.HIOHHORIRCCIIIORHHOORCHCRROICO : null;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI HOOOORCIRRCOORHOHOOORHOIHIOIIO() {
+      this.HORCRRHOCRRICHROCIOOIORIOHCIHH(-1, -1);
+      this.HOCHIIROCROROIROCIHHROICRIOROR = 5;
+      this.OIIROCCRHCRORIRCCROHRRCHIHHCII = 6;
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH = OHHRIOHROOIHOROCIRHCHORIHRRRRI.START_ARRAY;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI CORRIIORIRORCOHIHIRIIRORRHOCII() {
+      this.CRIIOOIHIOHHRRRHIOROOCHCHHCCCI(-1, -1);
+      this.HOCHIIROCROROIROCIHHROICRIOROR = 2;
+      this.OIIROCCRHCRORIRCCROHRRCHIHHCII = 3;
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH = OHHRIOHROOIHOROCIRHCHORIHRRRRI.START_OBJECT;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI OCHHHOCHOCROHOHHOOIOIHHRHCIHCI() {
+      if (!this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.IICRICHRCOOHHCCOCIOOIIHROCRRRH()) {
+         this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(93, '}');
+      }
+
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH var1 = this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI
+         .HICOOHCROCCIICRHRHRROORIROHHCR();
+      this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI = var1;
+      byte var2;
+      if (var1.HROOCOCOCIRRHOCCOIHIIHOOOICOHO()) {
+         var2 = 3;
+      } else if (var1.IICRICHRCOOHHCCOCIOOIIHROCRRRH()) {
+         var2 = 6;
+      } else {
+         var2 = 1;
+      }
+
+      this.HOCHIIROCROROIROCIHHROICRIOROR = var2;
+      this.OIIROCCRHCRORIRCCROHRRCHIHHCII = var2;
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH = OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_ARRAY;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI OIOOCCOIHIOHIIOHIIHCHICICCHICC() {
+      if (!this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.HROOCOCOCIRRHOCCOIHIIHOOOICOHO()) {
+         this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(125, ']');
+      }
+
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH var1 = this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI
+         .HICOOHCROCCIICRHRHRROORIROHHCR();
+      this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI = var1;
+      byte var2;
+      if (var1.HROOCOCOCIRRHOCCOIHIIHOOOICOHO()) {
+         var2 = 3;
+      } else if (var1.IICRICHRCOOHHCCOCIOOIIHROCRRRH()) {
+         var2 = 6;
+      } else {
+         var2 = 1;
+      }
+
+      this.HOCHIIROCROROIROCIHHROICRIOROR = var2;
+      this.OIIROCCRHCRORIRCCROHRRCHIHHCII = var2;
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH = OHHRIOHROOIHOROCIRHCHORIHRRRRI.END_OBJECT;
+   }
+
+   protected final String ORHIIROIHOHHHOROORIIROIOCRHHCR(int var1, int var2) {
+      var1 = CIIRCHOCCHCHOOHIIICOCIIRCCCCOH(var1, var2);
+      String var3 = this.RROCRRRORCOIROIROICIOCCOIOCRCI.IOORHRRIIHRCORHOOHOOOHCOOROCHO(var1);
+      if (var3 != null) {
+         return var3;
+      }
+
+      this.COHOHRRIIICIROORCHRCCHIROHRCOC[0] = var1;
+      return this.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(this.COHOHRRIIICIROORCHRCCHIROHRCOC, 1, var2);
+   }
+
+   protected final String HOIHOROOIOOCOIHCRIRIRIRRICIIHC(int var1, int var2, int var3) {
+      var2 = CIIRCHOCCHCHOOHIIICOCIIRCCCCOH(var2, var3);
+      String var4 = this.RROCRRRORCOIROIROICIOCCOIOCRCI.IOIHHIORCICCHIIHOIOIOHHRICRHIO(var1, var2);
+      if (var4 != null) {
+         return var4;
+      }
+
+      this.COHOHRRIIICIROORCHRCCHIROHRCOC[0] = var1;
+      this.COHOHRRIIICIROORCHRCCHIROHRCOC[1] = var2;
+      return this.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(this.COHOHRRIIICIROORCHRCCHIROHRCOC, 2, var3);
+   }
+
+   protected final String RORCHCIIICOHIRROOORHOCCCCIOCCI(int var1, int var2, int var3, int var4) {
+      var3 = CIIRCHOCCHCHOOHIIICOCIIRCCCCOH(var3, var4);
+      String var5 = this.RROCRRRORCOIROIROICIOCCOIOCRCI.HRRHRCCOOIOIIIRORIOOORORHOORIH(var1, var2, var3);
+      if (var5 != null) {
+         return var5;
+      }
+
+      int[] var6 = this.COHOHRRIIICIROORCHRCCHIROHRCOC;
+      var6[0] = var1;
+      var6[1] = var2;
+      var6[2] = CIIRCHOCCHCHOOHIIICOCIIRCCCCOH(var3, var4);
+      return this.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var6, 3, var4);
+   }
+
+   protected final String HRCHROOHRIHCRCRHRIIROCIRHOIRHH(int[] var1, int var2, int var3) {
+      int var4 = (var2 << 2) - 4 + var3;
+      int var5;
+      if (var3 < 4) {
+         var5 = var1[var2 - 1];
+         var1[var2 - 1] = var5 << (4 - var3 << 3);
+      } else {
+         var5 = 0;
+      }
+
+      char[] var6 = this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.CICHCOHCHROHRCHORHRCHHROROIHIO();
+      int var7 = 0;
+      int var8 = 0;
+
+      while (var8 < var4) {
+         int var9 = var1[var8 >> 2];
+         int var10 = var8 & 3;
+         var9 = var9 >> (3 - var10 << 3) & 0xFF;
+         var8++;
+         if (var9 > 127) {
+            byte var11;
+            if ((var9 & 224) == 192) {
+               var9 &= 31;
+               var11 = 1;
+            } else if ((var9 & 240) == 224) {
+               var9 &= 15;
+               var11 = 2;
+            } else if ((var9 & 248) == 240) {
+               var9 &= 7;
+               var11 = 3;
+            } else {
+               this.OCIICROHRICIICCHOOCHORCRCCIHIC(var9);
+               var9 = 1;
+               var11 = 1;
+            }
+
+            if (var8 + var11 > var4) {
+               this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(" in field name", OHHRIOHROOIHOROCIRHCHORIHRRRRI.FIELD_NAME);
+            }
+
+            int var12 = var1[var8 >> 2];
+            var10 = var8 & 3;
+            var12 >>= 3 - var10 << 3;
+            var8++;
+            if ((var12 & 192) != 128) {
+               this.HIHOIHIOHOOIIHHRCOCOOOCOHOHOHI(var12);
+            }
+
+            var9 = var9 << 6 | var12 & 63;
+            if (var11 > 1) {
+               var12 = var1[var8 >> 2];
+               var10 = var8 & 3;
+               var12 >>= 3 - var10 << 3;
+               var8++;
+               if ((var12 & 192) != 128) {
+                  this.HIHOIHIOHOOIIHHRCOCOOOCOHOHOHI(var12);
+               }
+
+               var9 = var9 << 6 | var12 & 63;
+               if (var11 > 2) {
+                  var12 = var1[var8 >> 2];
+                  var10 = var8 & 3;
+                  var12 >>= 3 - var10 << 3;
+                  var8++;
+                  if ((var12 & 192) != 128) {
+                     this.HIHOIHIOHOOIIHHRCOCOOOCOHOHOHI(var12 & 0xFF);
+                  }
+
+                  var9 = var9 << 6 | var12 & 63;
+               }
+            }
+
+            if (var11 > 2) {
+               var9 -= 65536;
+               if (var7 >= var6.length) {
+                  var6 = this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.OHCOIHOOHRIOCRIRHCIHOOROCCHCRC();
+               }
+
+               var6[var7++] = (char)(55296 + (var9 >> 10));
+               var9 = 56320 | var9 & 1023;
+            }
+         }
+
+         if (var7 >= var6.length) {
+            var6 = this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.OHCOIHOOHRIOCRIRHCIHOOROCCHCRC();
+         }
+
+         var6[var7++] = (char)var9;
+      }
+
+      String var13 = new String(var6, 0, var7);
+      if (var3 < 4) {
+         var1[var2 - 1] = var5;
+      }
+
+      return this.RROCRRRORCOIROIROICIOCCOIOCRCI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var13, var1, var2);
+   }
+
+   protected static final int CIIRCHOCCHCHOOHIIICOCIIRCCCCOH(int var0, int var1) {
+      return var1 == 4 ? var0 : var0 | -1 << (var1 << 3);
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI OIRHORHHOHOOCHCCHIHHCCROROCIII() {
+      this.HOCHIIROCROROIROCIHHROICRIOROR = 7;
+      if (!this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.IHIOORIIHRCOOIHCOORICORRCOOOIO()) {
+         this.CRRHOCRCCCCRIRORRICHRIIHIORIOO();
+      }
+
+      this.close();
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH = null;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI HOHOCHHHOIHRRHOCRRRIRRRCOIHOCO(String var1) {
+      this.HOCHIIROCROROIROCIHHROICRIOROR = 4;
+      this.ORIRIHCOHHOCHICCHIOOOHCOIIRHCI.RIIOIOHHOCOROCRROOOCRRCIICORIC(var1);
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH = OHHRIOHROOIHOROCIRHCHORIHRRRRI.FIELD_NAME;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI HRCHROOHRIHCRCRHRIIROCIRHOIRHH(OHHRIOHROOIHOROCIRHCHORIHRRRRI var1) {
+      this.HOCHIIROCROROIROCIHHROICRIOROR = this.OIIROCCRHCRORIRCCROHRRCHIHHCII;
+      this.IIOIRORORIIIRHCHHIOCIICOCIHICH = var1;
+      return var1;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI IHHCHHHCRIHOOCOIOOCRIIICIOROIR(int var1, String var2) {
+      this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.RCHRROROIOHCRRRCRCRHORHICHRCHO(var2);
+      this.OROHRRIROHHICIRCHCCRORICIIORRI = var2.length();
+      this.ICHRRIRCOHIIIRHHCRCHHCHIIOOICR = 1;
+      this.HCRHOIRIROHHCCHRCCROCCCRCCCOIO = var1;
+      this.HOCHIIROCROROIROCIHHROICRIOROR = this.OIIROCCRHCRORIRCCROHRRCHIHHCII;
+      OHHRIOHROOIHOROCIRHCHORIHRRRRI var3 = OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_NUMBER_INT;
+      this.IIOIRORORIIIRHCHHIOCIICOCIHICH = var3;
+      return var3;
+   }
+
+   protected final OHHRIOHROOIHOROCIRHCHORIHRRRRI RIHIRCIOIHIRRICIHHROORCOOHRICC(int var1) {
+      String var2 = RIROIIRCHIHCRCHROIOOHRCCOHOHOO[var1];
+      this.ORORCCRCCOIIOIHRHCIIOICHHIHHCR.RCHRROROIOHCRRRCRCRHORHICHRCHO(var2);
+      if (!this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(OCOHORHCROHICRRIHCIHHRRCIHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ALLOW_NON_NUMERIC_NUMBERS)) {
+         this.HHRIICOIOORCHCOIICOOIHIRHHICRI("Non-standard token '%s': enable `JsonReadFeature.ALLOW_NON_NUMERIC_NUMBERS` to allow", var2);
+      }
+
+      this.OROHRRIROHHICIRCHCCRORICIIORRI = 0;
+      this.ICHRRIRCOHIIIRHHCRCHHCHIIOOICR = 8;
+      this.HHORRHIOCHOHCROHIOHOHIOCCCCHCI = CRIHOHCIICRROHRHOHRHOIHIOOORCH[var1];
+      this.HOCHIIROCROROIROCIHHROICRIOROR = this.OIIROCCRHCRORIRCCROHRRCHIHHCII;
+      return this.IIOIRORORIIIRHCHHIOCIICOCIHICH = OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_NUMBER_FLOAT;
+   }
+
+   protected final String OHOOIIIHRRIOOIOIRRHCRROHRHOHRI(int var1) {
+      return RIROIIRCHIHCRCHROIOOHRCCOHOHOO[var1];
+   }
+
+   protected final void IHOCHHRHHHOIICIOHCRHIHRRCOOICI() {
+      this.COHIRIICOIOICICIHCCRHRHCICCOOI = Math.max(this.IOIRCCCCOCIRHRCIRIIOOCOCCRCOOC, this.RHOHHIIHHCRORROCHICHHORIHRIIHO);
+      int var1 = this.OOCCRCRROCIOCHHIHHCORIOHORRCCH;
+      this.ICIIROIIOOOIHHICOHHOHOIRRHRHHO = var1 - this.OIIOOIICOOROCHCIRIRRIICIIRCROO;
+      this.HOOOHRIRORCIIIHIOHCRICHIICCHOR = this.IOCHIOORCHCICCOORORORRIICRHHCI + (var1 - this.RHICCCHRORORRRICOOIHCHIOIORHIC);
+   }
+
+   protected void RRHCHIHOCHROHCRRIIIIORIHRICIRC(int var1) {
+      if (var1 < 32) {
+         this.HROCROICOIHCCHOHCORORCIORCCOCC(var1);
+      }
+
+      this.OCIICROHRICIICCHOOCHORCRCCIHIC(var1);
+   }
+
+   protected void OCIICROHRICIICCHOOCHORCRCCIHIC(int var1) {
+      this.ROHCIRRIRIRRHHCOOHHIRORRIHOORR("Invalid UTF-8 start byte 0x" + Integer.toHexString(var1));
+   }
+
+   protected void IHHOICIRHRHHRRCROIOROOCCCOROIR(int var1, int var2) {
+      this.OOCCRCRROCIOCHHIHHCORIOHORRCCH = var2;
+      this.HIHOIHIOHOOIIHHRCOCOOOCOHOHOHI(var1);
+   }
+
+   protected void HIHOIHIOHOOIIHHRCOCOOOCOHOHOHI(int var1) {
+      this.ROHCIRRIRIRRHHCOOHHIRORRIHOORR("Invalid UTF-8 middle byte 0x" + Integer.toHexString(var1));
+   }
+}

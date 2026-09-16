@@ -1,0 +1,326 @@
+package com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.util.List;
+import lombok.Generated;
+
+public class HRCHROOHRIHCRCRHRIIROCIRHOIRHH
+   implements com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH,
+   com.moonsworth.lunar.client.OHHRIOHROOIHOROCIRHCHORIHRRRRI.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   public static final float CHHRIRHHRRIHOROOHRORORRHCCRHRC = 200.0F;
+   public static final float CICICCHORIHCORHCICIOOCCORCRIHC = 125.0F;
+   public static final float HIOIHORCICCRCRCCICOHIOCCHHOCII = 20.0F;
+   protected static final long RIRORCIRHIHIHCHOCHRRIOCIRIIRIH = 2500L;
+   protected com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RIRCHCHICOOHCIOIHIRROOOOIIOICH = com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.TOP_RIGHT;
+   private final com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO RHRCRICIOHIIHRRIOCIOIHIHCCRICH;
+   protected long IRRCRIOHOHIROOCOROHCCORIROCIHI;
+   protected long durationMs;
+   private final RCIROOOOICRHCCRRCIORHHIRCOIIIC ROIOHIIHHHOOOHHIOOIIRIHCOCCIIH;
+   private final CORCOCICIRIOHROHROIIOOHICCHCRR CHRCHORCCRCHCIIIOCORHIHIIOORIR;
+   private boolean IHCHHRIHIOHOHOHOCOROOOHHOCCRHH;
+   private final String OROCOOHROHICOIROICOCOCIRCCRHIH;
+   protected final List<String> RIROROHROHIHIICHOHOHICHIOHIHHR;
+   private final String CCROHHORHOHHCIHORCOIIIHIRRRCRI;
+   protected float width;
+   protected float height;
+   private int textColor = -1;
+   private int IRROHRCCCHCIRHCOICHHROIHICCORO = -1358954496;
+   private int HRHRRRROIRRCHRICIOIIOCRHCICOHC = 1076176165;
+   private int IICRORRCHIHHOIHCOIOHCCOHRCOOOC = 553648127;
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(String var1) {
+      this(null, null, null, var1);
+   }
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(String var1, String var2) {
+      this(null, null, var1, var2);
+   }
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, String var2) {
+      this(null, var1, null, var2);
+   }
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(CORCOCICIRIOHROHROIIOOHICCHCRR var1, String var2) {
+      this(var1, var1.getIcon(), null, var2);
+   }
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, String var2, String var3) {
+      this(null, var1, var2, var3);
+   }
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(CORCOCICIRIOHROHROIIOOHICCHCRR var1, RCIROOOOICRHCCRRCIORHHIRCOIIIC var2, String var3, String var4) {
+      this.CHRCHORCCRCHCIIIOCORHIHIIOORIR = var1;
+      this.OROCOOHROHICOIROICOCOCIRCCRHIH = var3;
+      this.ROIOHIIHHHOOOHHIOOIIRIHCOCCIIH = var2;
+      this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH = new com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+         250L
+      );
+      this.durationMs = 2500L;
+      float var5 = this.hasIcon() ? 22.0F : 6.0F;
+      float var6 = 200.0F - var5 - 8.0F;
+      this.CCROHHORHOHHCIHORCOIIIHIRRRCRI = var4;
+      this.RIROROHROHIHIICHOHOHICHIOHIHHR = CIOHHCORHRCCRICCCORIHCRHCCCRRR.IIICHRHOOCHCOROCHHOIIOCRCRIHOO().HHCCIRHCCCIIRHCROHIORHIRHHIORH(var4, var6);
+      if (IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HHHIHROORHHOOCCOOCHRIRHRHCRHIH() != null) {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+               .HHHIHROORHHOOCCOOCHRIRHRHCRHIH()
+               .OHOHCHORHIIHCCOIHOHCCICRHHICIR()
+               .OOHRRRICHHHOHIRCHIICHOHHICCIHC()
+               .get()
+         );
+      }
+
+      this.updateWidth();
+      this.RRCOICHRIOHRICOOHOROCRROHOIROI();
+   }
+
+   public boolean hasIcon() {
+      return this.ROIOHIIHHHOOOHHIOOIIRIHCOCCIIH != null;
+   }
+
+   public boolean CRIICHHIIIHIOCRRRIROIRHHCICCIC() {
+      return this.OROCOOHROHICOIROICOCOCIRCCRHIH != null && !this.OROCOOHROHICOIROICOCOCIRCCRHIH.isEmpty();
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(OCOHORHCROHICRRIHCIHHRRCIHICRI var1, float var2, float var3) {
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1,
+         var2,
+         var3,
+         this.getWidth(),
+         this.getHeight(),
+         4.0F,
+         this.HRHRRRROIRRCHRICIOIIOCRHCICOHC,
+         this.IICRORRCHIHHOIHCOIOHCCOHRCOOOC,
+         this.IRROHRCCCHCIRHCOICHHROIHICCORO
+      );
+      this.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2, var3);
+      this.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var1, var2, var3);
+      byte var4 = 0;
+
+      for (String var6 : this.RIROROHROHIHIICHOHOHICHIOHIHHR) {
+         float var7 = var2 + (this.hasIcon() ? 22.0F : 6.0F);
+         float var8 = var3 + 6.0F + (this.CRIICHHIIIHIOCRRRIROIRHHCICCIC() ? 8 : 0) + var4;
+         CIOHHCORHRCCRICCCORIHCRHCCCRRR.IIICHRHOOCHCOROCHHOIIOCRCRIHOO().RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var6, var7, var8, this.textColor);
+         var4 += 8;
+      }
+   }
+
+   protected float HHHHRROROOICCIOCRCOOHROIROIOCH() {
+      if (this.IRRCRIOHOHIROOCOROHCCORIROCIHI == 0L) {
+         this.IRRCRIOHOHIROOCOROHCCORIROCIHI = System.currentTimeMillis();
+      }
+
+      if (this.IROIOROIHIRIOIRRIIHRROROHIRCOI() <= 250L && !this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH.RCICROORIIICORORIRRCRHHCRICIOI()) {
+         this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH.start();
+      } else if (this.RCOCRRHOOOOHOIIOIORHIHHOCHICIO() <= 250L && !this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH.HROOIHCCIIORCIHIORHCOROHIROICH() && !this.isDead()) {
+         this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH.start();
+      }
+
+      if (this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH.HROOIHCCIIORCIHIORHCOROHIROICH()) {
+         return this.RCOCRRHOOOOHOIIOIORHIHHOCHICIO() <= 250L
+            ? this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH.OICICHCIIHCIHHRRROIIIIHIIICCRI() * (10.0F + this.width)
+            : 10.0F + this.width - this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH.OICICHCIIHCIHHRRROIIIIHIIICCRI() * (10.0F + this.width);
+      } else {
+         return 0.0F;
+      }
+   }
+
+   private void RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(OCOHORHCROHICRRIHCIHHRRCIHICRI var1, float var2, float var3) {
+      if (this.CRIICHHIIIHIOCRRRIROIRHHCICCIC()) {
+         float var4 = var2 + (this.hasIcon() ? 22.0F : 6.0F);
+         CIOHHCORHRCCRICCCORIHCRHCCCRRR.HRRROHCOIORCIOHRRIRHCCRRRCCORC()
+            .RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, this.OROCOOHROHICOIROICOCOCIRCCRHIH, var4, var3 + 6.0F, -1);
+      }
+   }
+
+   protected void RRCRRCORICCHOHHIRCHIROOHIIOHCO(OCOHORHCROHICRRIHCIHHRRCIHICRI var1, float var2, float var3) {
+      if (this.hasIcon()) {
+         float var4 = this.height / 2.0F - 8.0F;
+         com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var1, this.getIcon(), 8.0F, var2 + 4.0F, var3 + var4, -1
+         );
+         if (this.IHCHHRIHIOHOHOHOCOROOOHHOCCRHH) {
+            com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+               var1, var2 + 4.0F, var3 + var4, 16.0F, 16.0F, 4.0F, -4210753
+            );
+         }
+      }
+   }
+
+   protected void updateWidth() {
+      float var1 = this.hasIcon() ? 22.0F : 6.0F;
+      float var2 = 125.0F;
+
+      for (String var4 : this.RIROROHROHIHIICHOHOHICHIOHIHHR) {
+         float var5 = CIOHHCORHRCCRICCCORIHCRHCCCRRR.IIICHRHOOCHCOROCHHOIIOCRCRIHOO().IOOOHRRHCHICHHHCRIRHIICORRCIRO(var4) + var1 + 6.0F;
+         if (var5 > var2) {
+            var2 = var5;
+         }
+      }
+
+      this.width = var2;
+   }
+
+   protected void RRCOICHRIOHRICOOHOROCRROHOIROI() {
+      float var1 = this.RIROROHROHIHIICHOHOHICHIOHIHHR.size() * 8 + 10 + (this.CRIICHHIIIHIOCRRRIROIRHHCICCIC() ? 8 : 0);
+      this.height = Math.max(20.0F, var1);
+   }
+
+   public long RCOCRRHOOOOHOIIOIORHIHHOCHICIO() {
+      return this.IRRCRIOHOHIROOCOROHCCORIROCIHI + this.durationMs - System.currentTimeMillis();
+   }
+
+   public long IROIOROIHIRIOIRRIIHRROROHIRCOI() {
+      return System.currentTimeMillis() - this.IRRCRIOHOHIROOCOROHCCORIROCIHI;
+   }
+
+   public boolean isDead() {
+      return this.IRRCRIOHOHIROOCOROHCCORIROCIHI != 0L && this.IROIOROIHIRIOIRRIIHRROROHIRCOI() >= this.durationMs;
+   }
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      this.RIRCHCHICOOHCIOIHIRROOOOIIOICH = var1;
+      return this;
+   }
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH ORCOCORROHIROCCIORORRRRCHIOOCH(long var1) {
+      this.durationMs = var1;
+      return this;
+   }
+
+   @Override
+   public String getLanguagePath() {
+      return "popups";
+   }
+
+   @Override
+   public JsonElement provide() {
+      JsonObject var1 = new JsonObject();
+      if (this.CHRCHORCCRCHCIIIOCORHIHIIOORIR != null) {
+         var1.addProperty("type", this.CHRCHORCCRCHCIIIOCORHIHIIOORIR.name());
+      }
+
+      var1.addProperty("anchor", this.RIRCHCHICOOHCIOIHIRROOOOIIOICH.id());
+      var1.addProperty("durationMs", this.durationMs);
+      var1.addProperty("title", this.OROCOOHROHICOIROICOCOCIRCCRHIH);
+      var1.addProperty("message", this.CCROHHORHOHHCIHORCOIIIHIRRRCRI);
+      if (this.ROIOHIIHHHOOOHHIOOIIRIHCOCCIIH != null) {
+         var1.addProperty("icon", this.ROIOHIIHHHOOOHHIOOIIRIHCOCCIIH.bridge$getPath());
+      }
+
+      return var1;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IHIOOOORIHOIHIHHICOHROIOIIIHIR() {
+      return this.RIRCHCHICOOHCIOIHIRROOOOIIOICH;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO ICCIRROCIOHOHOROCRCIRHRRHRIHCI() {
+      return this.RHRCRICIOHIIHRRIOCIOIHIHCCRICH;
+   }
+
+   @Generated
+   public long RRRRHHRCCCCRCHIHCIRICORCOHCOOO() {
+      return this.IRRCRIOHOHIROOCOROHCCORIROCIHI;
+   }
+
+   @Generated
+   public long getDurationMs() {
+      return this.durationMs;
+   }
+
+   @Generated
+   public boolean HCHOCRCRCOCRICRHHOIOCOHHOOOCOC() {
+      return this.IHCHHRIHIOHOHOHOCOROOOHHOCCRHH;
+   }
+
+   @Generated
+   public String getTitle() {
+      return this.OROCOOHROHICOIROICOCOCIRCCRHIH;
+   }
+
+   @Generated
+   public List<String> CCIROHOIRCCRIRRCHICIHIRCIRHHIC() {
+      return this.RIROROHROHIHIICHOHOHICHIOHIHHR;
+   }
+
+   @Generated
+   public String CCICROICICRHHIORRIHRIOIHHRHRHI() {
+      return this.CCROHHORHOHHCIHORCOIIIHIRRRCRI;
+   }
+
+   @Generated
+   public int OCRHRRCOCCRHOHROIHOIIHCHHHOHOI() {
+      return this.textColor;
+   }
+
+   @Generated
+   public int CIHHIRIORROHRCORCRCRHIOCOOHOIC() {
+      return this.IRROHRCCCHCIRHCOICHHROIHICCORO;
+   }
+
+   @Generated
+   public int OIOIORRIOROIOHRRCOCHORORCIIOIR() {
+      return this.HRHRRRROIRRCHRICIOIIOCRHCICOHC;
+   }
+
+   @Generated
+   public int CHHRIHHIOORRRORROOCRHRCRHRCOIR() {
+      return this.IICRORRCHIHHOIHCOIOHCCOHRCOOOC;
+   }
+
+   @Generated
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC getIcon() {
+      return this.ROIOHIIHHHOOOHHIOOIIRIHCOCCIIH;
+   }
+
+   @Generated
+   public CORCOCICIRIOHROHROIIOOHICCHCRR IIHCCHORIOOOCCOCIIIHHOCIHHIORC() {
+      return this.CHRCHORCCRCHCIIIOCORHIHIIOORIR;
+   }
+
+   @Generated
+   public void CCHICICOOHRCORIRRRHRIRHCCIIHOR(boolean var1) {
+      this.IHCHHRIHIOHOHOHOCOROOOHHOCCRHH = var1;
+   }
+
+   @Generated
+   public float getWidth() {
+      return this.width;
+   }
+
+   @Generated
+   public float getHeight() {
+      return this.height;
+   }
+
+   @Generated
+   public void HCRCROOHOHOHOHCOCRCCHRIHCORRIO(int var1) {
+      this.textColor = var1;
+   }
+
+   @Generated
+   public void ICRICIRRROOICOCHOHICCOHIRCHIOR(int var1) {
+      this.IRROHRCCCHCIRHCOICHHROIHICCORO = var1;
+   }
+
+   @Generated
+   public void COCCHRIOCIHRCRRHICICHIIRCCHIHO(int var1) {
+      this.HRHRRRROIRRCHRICIOIIOCRHCICOHC = var1;
+   }
+
+   @Generated
+   public void ORRICCOCRHRHRHOOIROHRHIHROOROH(int var1) {
+      this.IICRORRCHIHHOIHCOIOHCCOHRCOOOC = var1;
+   }
+}

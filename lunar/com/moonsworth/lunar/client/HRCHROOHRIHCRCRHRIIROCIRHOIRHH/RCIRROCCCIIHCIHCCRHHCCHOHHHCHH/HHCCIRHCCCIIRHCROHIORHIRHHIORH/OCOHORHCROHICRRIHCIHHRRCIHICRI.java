@@ -1,0 +1,45 @@
+package com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import lombok.Generated;
+
+public class OCOHORHCROHICRRIHCIHHRRCIHICRI extends com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private final com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH CHRHIHHORHROOCCIRRHORICOCRHOHI;
+   private final Component CHOOCCORROORHCCOHOIORROICHCCOR;
+   private Component component;
+   private boolean changed;
+
+   public OCOHORHCROHICRRIHCIHHRRCIHICRI(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      Component var2
+   ) {
+      this.CHRHIHHORHROOCCIRRHORICOCRHOHI = var1;
+      this.CHOOCCORROORHCCOHOIORROICHCCOR = var2;
+      this.component = var2;
+   }
+
+   public void HRCHROOHRIHCRCRHRIIROCIRHOIRHH(Component var1) {
+      this.component = var1;
+      this.changed = true;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH HCHCRHIHOIHCOHIIRRHCRCROCIOIHH() {
+      return this.CHRHIHHORHROOCCIRRHORICOCRHOHI;
+   }
+
+   @Generated
+   public Component HCCROIRRROOCIIIOOCCCHOCCRCRCHO() {
+      return this.CHOOCCORROORHCCOHOIORROICHCCOR;
+   }
+
+   @Generated
+   public Component getComponent() {
+      return this.component;
+   }
+
+   @Generated
+   public boolean isChanged() {
+      return this.changed;
+   }
+}

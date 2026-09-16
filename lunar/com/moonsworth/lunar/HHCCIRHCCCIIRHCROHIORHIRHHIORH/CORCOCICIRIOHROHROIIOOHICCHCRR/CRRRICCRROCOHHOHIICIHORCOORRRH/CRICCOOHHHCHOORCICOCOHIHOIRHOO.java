@@ -1,0 +1,8 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+public interface CRICCOOHHHCHOORCICOCOHIHOIRHOO {
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(max = 1)
+   default boolean bridge$isWitherSkeleton() {
+      return false;
+   }
+}

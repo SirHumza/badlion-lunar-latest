@@ -1,0 +1,14 @@
+package com.moonsworth.lunar.client.IHIRRIIORRHORHRORIHOROIRCORCOO;
+
+public class CRRRICCRROCOHHOHIICIHORCOORRRH implements CORCOCICIRIOHROHROIIOOHICCHCRR {
+   private final double IRRORRHHOROCCOROCRIOIIIRCCCCIO;
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(double var1) {
+      this.IRRORRHHOROCCOROCRIOIIIRCCCCIO = var1;
+   }
+
+   @Override
+   public double run() {
+      return this.IRRORRHHOROCCOROCRIOIIIRCCCCIO;
+   }
+}

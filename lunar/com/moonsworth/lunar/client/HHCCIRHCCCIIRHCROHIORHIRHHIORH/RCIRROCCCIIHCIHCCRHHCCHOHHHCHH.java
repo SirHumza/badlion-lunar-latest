@@ -1,0 +1,79 @@
+package com.moonsworth.lunar.client.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import java.time.Instant;
+
+public record RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() implements HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   private final int CROCHRCHHIOCRHRHOOIRIHIHCIHORI;
+   private final String OCCIIHIOCOICOCCCHHHCHCIHHIIIRH;
+   private final String RHHOIOCRHIRCORRHIIHHOHHHOICCCO;
+   private final RCIROOOOICRHCCRRCIORHHIRCOIIIC CORIHHHICHCCCIRIOOIRHRHHOHHIIC;
+   private final RCIROOOOICRHCCRRCIORHHIRCOIIIC RCRCCRIHRRRRICHHIHRIIOCIHRCIHR;
+   private final Instant IIRHCICIOIIROIOHHRHHHHRHCCCHOC;
+   private final boolean HHIOIIRCOORORORIRRICRHIRROHIRR;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      int var1, String var2, String var3, RCIROOOOICRHCCRRCIORHHIRCOIIIC var4, RCIROOOOICRHCCRRCIORHHIRCOIIIC var5, Instant var6, boolean var7
+   ) {
+      this.CROCHRCHHIOCRHRHOOIRIHIHCIHORI = var1;
+      this.OCCIIHIOCOICOCCCHHHCHCIHHIIIRH = var2;
+      this.RHHOIOCRHIRCORRHIIHHOHHHOICCCO = var3;
+      this.CORIHHHICHCCCIRIOOIRHRHHOHHIIC = var4;
+      this.RCRCCRIHRRRRICHHIHRIIOCIHRCIHR = var5;
+      this.IIRHCICIOIIROIOHHRHHHHRHCCCHOC = var6;
+      this.HHIOIIRCOORORORIRRICRHIRROHIRR = var7;
+   }
+
+   @Override
+   public JsonElement provide() {
+      JsonObject var1 = new JsonObject();
+      var1.addProperty("id", this.CROCHRCHHIOCRHRHOOIRIHIHCIHORI);
+      var1.addProperty("name", this.OCCIIHIOCOICOCCCHHHCHCIHHIIIRH);
+      var1.addProperty("resource", this.CORIHHHICHCCCIRIOOIRHRHHOHHIIC.bridge$getPath());
+      var1.addProperty("resourceUi", this.RCRCCRIHRRRRICHHIHRIIOCIHRCIHR.bridge$getPath());
+      var1.addProperty("animated", this.HHIOIIRCOORORORIRRICRHIRROHIRR);
+      if (this.RHHOIOCRHIRCORRHIIHHOHHHOICCCO != null && !this.RHHOIOCRHIRCORRHIIHHOHHHOICCCO.isEmpty()) {
+         var1.addProperty("description", this.RHHOIOCRHIRCORRHIIHHOHHHOICCCO);
+      }
+
+      return var1;
+   }
+
+   public JsonElement RHRRROIHCRIICHOORRIHCOCHCHCHCR() {
+      JsonObject var1 = new JsonObject();
+      var1.addProperty("name", this.OCCIIHIOCOICOCCCHHHCHCIHHIIIRH);
+      var1.addProperty("resourceUi", this.RCRCCRIHRRRRICHHIHRIIOCIHRCIHR.bridge$getPath());
+      return var1;
+   }
+
+   public int id() {
+      return this.CROCHRCHHIOCRHRHOOIRIHIHCIHORI;
+   }
+
+   public String name() {
+      return this.OCCIIHIOCOICOCCCHHHCHCIHHIIIRH;
+   }
+
+   public String description() {
+      return this.RHHOIOCRHIRCORRHIIHHOHHHOICCCO;
+   }
+
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC RRCCCRRROOIIRHCROOROOIHHHRIRCH() {
+      return this.CORIHHHICHCCCIRIOOIRHRHHOHHIIC;
+   }
+
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC RCIIHOCRHIIIRHHCHCORHIOHHROIOR() {
+      return this.RCRCCRIHRRRRICHHIHRIIOCIHRCIHR;
+   }
+
+   public Instant CCOHIHCOIHIRORIOOIOROHOHRRIROH() {
+      return this.IIRHCICIOIIROIOHHRHHHHRHCCCHOC;
+   }
+
+   public boolean RROOOHCORRIIHHCOOOCOCORRRRRHCO() {
+      return this.HHIOIIRCOORORORIRRICRHIRROHIRR;
+   }
+}

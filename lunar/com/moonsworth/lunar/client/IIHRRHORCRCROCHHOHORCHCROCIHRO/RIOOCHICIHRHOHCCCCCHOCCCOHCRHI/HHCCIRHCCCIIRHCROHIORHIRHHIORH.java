@@ -1,0 +1,197 @@
+package com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+import com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
+import com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IOIICIRIICICIIOORHCIIIIRRIHRHI;
+import com.moonsworth.lunar.client.util.CRHHOOCRCOHHRHOOOCHCROOHIOOCOH;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import lombok.Generated;
+
+public abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends CRICCOOHHHCHOORCICOCOHIHOIRHOO {
+   protected List<IRCIIHHICIHRCOCRROCOICRIHHCCHH> HRCCOHCRHCHHOOHRICOHHIROROOROI = Collections.synchronizedList(this.IOIICCCROHCHHCHOCHHRHICIOCHIIC());
+   protected IOIICIRIICICIIOORHCIIIIRRIHRHI IRHOHRHCCHROOICCRHHHROROHIOHOH;
+
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(IRCIIHHICIHRCOCRROCOICRIHHCCHH var1) {
+      super(var1);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         (var1x, var2) -> {
+            for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var4 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+               if (var4.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1x)
+                  && this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var4, var1x)
+                  && var4.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1x, var2)) {
+                  RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OIOOICHIIHICCRCOOIOIOCIRRIIIRC();
+                  return true;
+               }
+            }
+
+            if (this.IRHOHRHCCHROOICCRHHHROROHIOHOH != null
+               && this.IRHOHRHCCHROOICCRHHHROROHIOHOH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1x)
+               && this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.IRHOHRHCCHROOICCRHHHROROHIOHOH, var1x)
+               && this.IRHOHRHCCHROOICCRHHHROROHIOHOH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1x, var2)) {
+               RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OIOOICHIIHICCRCOOIOIOCIRRIIIRC();
+               return true;
+            } else {
+               return true;
+            }
+         }
+      );
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         (var1x, var2) -> {
+            if (this.IRHOHRHCCHROOICCRHHHROROHIOHOH != null && !this.IRHOHRHCCHROOICCRHHHROROHIOHOH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1x)) {
+               this.IRHOHRHCCHROOICCRHHHROROHIOHOH = null;
+            }
+
+            for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var4 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+               if ((!var4.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1x) || !this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var4, var1x))
+                  && var4.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var1x, var2)) {
+                  return true;
+               }
+            }
+
+            return false;
+         }
+      );
+   }
+
+   protected abstract List<IRCIIHHICIHRCOCRROCOICRIHHCCHH> IOIICCCROHCHHCHOCHHRHICIOCHIIC();
+
+   @Override
+   protected void CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      if (this.HRHRIHRCOCOHIHRCCHOCHCHHRIIRRR.get()) {
+         if (!com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HIORIIIIOCCCRCHCOROROCCOIOOIIR()
+            .OIHCOHRCICCCRHRCROOCIOIRRHHHIH(0)) {
+            this.HRHRIHRCOCOHIHRCCHOCHCHHRIIRRR.set(false);
+            return;
+         }
+
+         float var2 = var1.COCCOIROHORRRHIHICORRHRRORIIIH() - this.RICCOHHCOCOHHRIOORRRRHHCHHROHC.x;
+         float var3 = var1.RHIIOORHHCCOCIORHIRCICHCHRRIII() - this.RICCOHHCOCOHHRIOORRRRHHCHHROHC.y;
+         CRHHOOCRCOHHRHOOOCHCROOHIOOCOH var4 = RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.ROHHOOHOHCHRIICCCHCOHCORROHRIH();
+         if (var2 >= var4.OORIRCRHIRCCRRRHOHOCHIRHCHRHHR() - this.width / 2.0F) {
+            var2 = (float)var4.OORIRCRHIRCCRRRHOHOCHIRHCHRHHR() - this.width / 2.0F;
+         } else if (var2 <= -this.width / 2.0F) {
+            var2 = -this.width / 2.0F;
+         }
+
+         if (var3 >= var4.OIRIIHRORRRRIRRIORRIRRIIHCIOOH() - this.height / 2.0F) {
+            var3 = (float)var4.OIRIIHRORRRRIRRIORRIRRIIHCIOOH() - this.height / 2.0F;
+         } else if (var3 <= -this.height / 2.0F) {
+            var3 = -this.height / 2.0F;
+         }
+
+         float var5 = this.x - var2;
+         float var6 = this.y - var3;
+         this.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var2, var3, this.width, this.height);
+
+         for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var8 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+            var8.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var8.getX() - var5, var8.getY() - var6, var8.getWidth(), var8.getHeight());
+         }
+      }
+   }
+
+   @Override
+   public void update() {
+      for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var2 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+         var2.update();
+      }
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+      boolean var3
+   ) {
+      for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var5 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+         var5.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3 && this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var5, var2));
+      }
+
+      if (this.IRHOHRHCCHROOICCRHHHROROHIOHOH != null) {
+         this.IRHOHRHCCHROOICCRHHHROROHIOHOH
+            .IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3 && this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.IRHOHRHCCHROOICCRHHHROROHIOHOH, var2));
+      }
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      char var1, com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var4 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+         var4.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2);
+      }
+   }
+
+   @Override
+   public boolean COCCOIROHORRRHIHICORRHRRORIIIH(int var1) {
+      if (super.COCCOIROHORRRHIHICORRHRRORIIIH(var1)) {
+         return true;
+      }
+
+      for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var3 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+         if (var3.COCCOIROHORRRHIHICORRHRRORIIIH(var1)) {
+            return true;
+         }
+      }
+
+      return false;
+   }
+
+   @Override
+   public void close() {
+      for (IRCIIHHICIHRCOCRROCOICRIHHCCHH var2 : this.HRCCOHCRHCHHOOHRICOHHIROROOROI) {
+         var2.close();
+      }
+   }
+
+   protected boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH... var3
+   ) {
+      List var4 = Arrays.asList(var3);
+      if (var1 == this.IRHOHRHCCHROOICCRHHHROROHIOHOH) {
+         return true;
+      }
+
+      boolean var5 = true;
+
+      for (int var6 = this.HRCCOHCRHCHHOOHRICOHHIROROOROI.size() - 1; var6 >= 0; var6--) {
+         IRCIIHHICIHRCOCRROCOICRIHHCCHH var7 = this.HRCCOHCRHCHHOOHRICOHHIROROOROI.get(var6);
+         if (var7 == var1) {
+            break;
+         }
+
+         if (!var4.contains(var7)) {
+            if (this.IRHOHRHCCHROOICCRHHHROROHIOHOH != null && this.IRHOHRHCCHROOICCRHHHROROHIOHOH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2)) {
+               var5 = false;
+               break;
+            }
+
+            if (var7.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2)) {
+               var5 = false;
+               break;
+            }
+         }
+      }
+
+      return var5;
+   }
+
+   @Generated
+   public List<IRCIIHHICIHRCOCRROCOICRIHHCCHH> ORCRIORCRRCOIOHOIRRHIRHCCRRIII() {
+      return this.HRCCOHCRHCHHOOHRICOHHIROROOROI;
+   }
+
+   @Generated
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IOIICIRIICICIIOORHCIIIIRRIHRHI var1) {
+      this.IRHOHRHCCHROOICCRHHHROROHIOHOH = var1;
+   }
+
+   @Generated
+   public IOIICIRIICICIIOORHCIIIIRRIHRHI OHCHOOIHIOCIRRHRHOIRCOIHIICROH() {
+      return this.IRHOHRHCCHROOICCRHHHROROHIOHOH;
+   }
+}

@@ -1,0 +1,209 @@
+package com.moonsworth.lunar.client.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.annotations.SerializedName;
+import com.lunarclient.websocket.hostedworld.v1.HostedWorldStatusPush;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import com.moonsworth.lunar.client.util.CCHORHIOORICCIRIHRIIHIICORIORO;
+import com.moonsworth.lunar.client.util.CIIHHCHIRCRRIHOIOCCCROHOIOCCII;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import java.util.ArrayList;
+import java.util.UUID;
+import lombok.Generated;
+
+public final class CRRRICCRROCOHHOHIICIHORCOORRRH
+   implements com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   @SerializedName("username")
+   private final String RCHOCCIRCHHHICCHIIORIHHRICRHOH;
+   @SerializedName("uuid")
+   private final UUID OCOOIICOHRRICHRCHCIHIIRIIROIIC;
+   @SerializedName("lastOnlineMillis")
+   private long OIIOIRHOIHRCCROOORIICHCORICCRR;
+   @SerializedName("isOnline")
+   private boolean RROCIIHIHIIICOCIHICIOHCRIRCRCI;
+   @SerializedName("logoColor")
+   private final int CHOOCIIOIOCICCHHOHOHRIICCRICOO;
+   @SerializedName("plusColor")
+   private final int HICICHIICICRRIHIHCOHCRORORORHO;
+
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(String var1, UUID var2, long var3, boolean var5) {
+      this.RCHOCCIRCHHHICCHIIORIHHRICRHOH = var1;
+      this.OCOOIICOHRRICHRCHCIHIIRIIROIIC = var2;
+      this.OIIOIRHOIHRCCROOORIICHCORICCRR = var3;
+      this.RROCIIHIHIIICOCIHICIOHCRIRCRCI = var5;
+      CORCOCICIRIOHROHROIIOOHICCHCRR var6 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HCCICHCRRIICICCHCIRCRRIIRROHHC();
+      if (var6.CIIIIHORRORIHCCOOOOCIIRORCIOOH().containsKey(var2)) {
+         CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var7 = var6.CIIIIHORRORIHCCOOOOCIIRORCIOOH().get(var2);
+         this.CHOOCIIOIOCICCHHOHOHRIICCRICOO = OCOHORHCROHICRRIHCIHHRRCIHICRI.IHIRRIIORRHORHRORIHOROIRCORCOO(
+            var7.HIIORICOHRICICIHHHHOIOIIRIIRCO(), var7.HCHCICROIICOIOCCOCIHHCHCIOIROR(), var7.CRCHRIRHHRIICORCOHRCCOHRROIRRO(), 1.0F
+         );
+         this.HICICHIICICRRIHIHCOHCRORORORHO = var7.COHORRCHIRRRCHICOCRHOOCHIRIIRC();
+      } else {
+         this.CHOOCIIOIOCICCHHOHOHRIICCRICOO = 0;
+         this.HICICHIICICRRIHIHCOHCRORORORHO = 0;
+      }
+   }
+
+   public boolean CIIRCROIRCROCCIIHCOIHOIHOCHRCI() {
+      if (IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().CCRHICOCOHIIRIHCOCIRCHHROHCCRR().OOIRIHORHICIIOIIIRCOROROICCICR()) {
+         return this.RROCIIHIHIIICOCIHICIOHCRIRCRCI;
+      } else {
+         return IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getIntegratedServer() == null
+            ? false
+            : new ArrayList<>(IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getIntegratedServer().bridge$getPlayers())
+               .stream()
+               .anyMatch(var1 -> var1.bridge$getUniqueID().equals(this.OCOOIICOHRRICHRCHCIHIIRIIROIIC));
+      }
+   }
+
+   public static CRRRICCRROCOHHOHIICIHORCOORRRH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HostedWorldStatusPush.OnlinePlayer var0, long var1) {
+      return new CRRRICCRROCOHHOHIICIHORCOORRRH(
+         var0.getPlayer().getUsername(),
+         CCHORHIOORICCIRIHRIIHIICORIORO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0.getPlayer().getUuid()),
+         var1,
+         true,
+         var0.getLogoColor().getColor(),
+         var0.getPlusColor().getColor()
+      );
+   }
+
+   public static CRRRICCRROCOHHOHIICIHORCOORRRH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HostedWorldStatusPush.OfflinePlayer var0) {
+      return new CRRRICCRROCOHHOHIICIHORCOORRRH(
+         var0.getPlayer().getUsername(),
+         CCHORHIOORICCIRIHRIIHIICORIORO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0.getPlayer().getUuid()),
+         CCHORHIOORICCIRIHRIIHIICORIORO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0.getLastOnline()),
+         false,
+         -1,
+         0
+      );
+   }
+
+   public boolean RHOICCHIHHRCOOHORRRCOOICCHRCCC() {
+      return IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+         .CCRHICOCOHIIRIHCOCIRCHHROHCCRR()
+         .RRRIROIHCCICHIIOIIOHHHRHCHOICH()
+         .contains(this.OCOOIICOHRRICHRCHCIHIIRIIROIIC);
+   }
+
+   @Override
+   public JsonElement provide() {
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH var1 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().CCRHICOCOHIIRIHCOCIRCHHROHCCRR();
+      boolean var2 = var1.RRRIROIHCCICHIIOIIOHHHRHCHOICH().contains(this.OCOOIICOHRRICHRCHCIHIIRIIROIIC);
+      String var3 = com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCIHHCIOHIHIRHICIHROCOOCCCCCCR()
+         .CCHHHHCICRCCCIOOIOICOOCRCRHCCR()
+         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            "gui.components",
+            "hostedWorldLastSeenText",
+            CIIHHCHIRCRRIHOIOCCCROHOIOCCII.IHRHHHORORIROOCORCIORRCOCHHHRI(System.currentTimeMillis() - this.OIIOIRHOIHRCCROOORIICHCORICCRR)
+         );
+      int var4;
+      if (var1.OOOIIOOHHRRRORIHROOCHHCICOIIOC()) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var5 = IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH();
+         if (var5 != null && this.RCHOCCIRCHHHICCHIIORIHHRICRHOH.equals(var5.bridge$getName())) {
+            var4 = CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IOCIHHHCCICRHCIIRIOHOHHRROCCRH;
+         } else if (this.RROCIIHIHIIICOCIHICIOHCRIRCRCI) {
+            var4 = var2
+               ? CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IOIRCORHCORCIHHCOHIHIHHIHIRIII
+               : CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HCOIRHOIOHCICOHOICHHHRHIRCRORO;
+         } else {
+            var4 = CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIHIHRRCCIIOIOCIHOCIHRHHOHIIOI;
+         }
+      } else if (var1.HCCCOOOCHRCRRRORROHRCHCCCCCIHC() != null && this.RCHOCCIRCHHHICCHIIORIHHRICRHOH.equals(var1.HCCCOOOCHRCRRRORROHRCHCCCCCIHC().username())) {
+         var4 = CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IOCIHHHCCICRHCIIRIOHOHHRROCCRH;
+      } else if (this.RROCIIHIHIIICOCIHICIOHCRIRCRCI) {
+         var4 = CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IOIRCORHCORCIHHCOHIHIHHIHIRIII;
+      } else {
+         var4 = CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIHIHRRCCIIOIOCIHOCIHRHHOHIIOI;
+      }
+
+      JsonObject var7 = new JsonObject();
+      var7.addProperty("username", this.RCHOCCIRCHHHICCHIIORIHHRICRHOH);
+      var7.addProperty("uuid", this.OCOOIICOHRRICHRCHCIHIIRIIROIIC.toString());
+      var7.addProperty("lastSeen", var3);
+      var7.addProperty("isOnline", this.RROCIIHIHIIICOCIHICIOHCRIRCRCI);
+      var7.addProperty("status", var4);
+      JsonObject var6 = new JsonObject();
+      var6.addProperty("isLunarPlus", this.HICICHIICICRRIHIHCOHCRORORORHO != 0);
+      var6.addProperty("plusColor", String.format("#%06X", 16777215 & this.HICICHIICICRRIHIHCOHCRORORORHO));
+      var6.addProperty("logoColor", String.format("#%06X", 16777215 & this.CHOOCIIOIOCICCHHOHOHRIICCRICOO));
+      var7.add("lunarPlus", var6);
+      return var7;
+   }
+
+   @Generated
+   public String getUsername() {
+      return this.RCHOCCIRCHHHICCHIIORIHHRICRHOH;
+   }
+
+   @Generated
+   public UUID HRIOHCCIOOIORHRHCIRCRRIIOHCHHI() {
+      return this.OCOOIICOHRRICHRCHCIHIIRIIROIIC;
+   }
+
+   @Generated
+   public long ORHHIRRICROCIOHHHHICCIOIRHRROC() {
+      return this.OIIOIRHOIHRCCROOORIICHCORICCRR;
+   }
+
+   @Generated
+   public int IIRORHHOIHCICOROIIIRRIHHRHIHOC() {
+      return this.CHOOCIIOIOCICCHHOHOHRIICCRICOO;
+   }
+
+   @Generated
+   public int CIHCCOCICROCOOCOCCOCRHOCIHRCRO() {
+      return this.HICICHIICICRRIHIHCOHCRORORORHO;
+   }
+
+   @Generated
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(String var1, UUID var2, long var3, boolean var5, int var6, int var7) {
+      this.RCHOCCIRCHHHICCHIIORIHHRICRHOH = var1;
+      this.OCOOIICOHRRICHRCHCIHIIRIIROIIC = var2;
+      this.OIIOIRHOIHRCCROOORIICHCORICCRR = var3;
+      this.RROCIIHIHIIICOCIHICIOHCRIRCRCI = var5;
+      this.CHOOCIIOIOCICCHHOHOHRIICCRICOO = var6;
+      this.HICICHIICICRRIHIHCOHCRORORORHO = var7;
+   }
+
+   @Generated
+   @Override
+   public boolean equals(Object var1) {
+      if (var1 == this) {
+         return true;
+      } else if (!(var1 instanceof CRRRICCRROCOHHOHIICIHORCOORRRH var2)) {
+         return false;
+      } else {
+         UUID var3 = this.HRIOHCCIOOIORHRHCIRCRRIIOHCHHI();
+         UUID var4 = var2.HRIOHCCIOOIORHRHCIRCRRIIOHCHHI();
+         return var3 == null ? var4 == null : var3.equals(var4);
+      }
+   }
+
+   @Generated
+   @Override
+   public int hashCode() {
+      byte var1 = 59;
+      byte var2 = 1;
+      UUID var3 = this.HRIOHCCIOOIORHRHCIRCRRIIOHCHHI();
+      return var2 * 59 + (var3 == null ? 43 : var3.hashCode());
+   }
+
+   @Generated
+   public void HOIHOROOIOOCOIHCRIRIRIRRICIIHC(long var1) {
+      this.OIIOIRHOIHRCCROOORIICHCORICCRR = var1;
+   }
+
+   @Generated
+   public void IHCCOOCIIIIIIHIOHRICIIHCCIIIIH(boolean var1) {
+      this.RROCIIHIHIIICOCIHICIOHCRIRCRCI = var1;
+   }
+
+   static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      static int IOCIHHHCCICRHCIIRIOHOHHRROCCRH = 1;
+      static int IOIRCORHCORCIHHCOHIHIHHIHIRIII = 2;
+      static int HCOIRHOIOHCICOHOICHHHRHIRCRORO = 3;
+      static int RIHIHRRCCIIOIOCIHOCIHRHHOHIIOI = 4;
+   }
+}

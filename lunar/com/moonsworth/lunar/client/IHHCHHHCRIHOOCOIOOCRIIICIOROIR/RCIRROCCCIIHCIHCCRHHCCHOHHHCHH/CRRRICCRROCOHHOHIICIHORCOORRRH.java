@@ -1,0 +1,20 @@
+package com.moonsworth.lunar.client.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import java.util.Optional;
+import java.util.function.Predicate;
+import org.jetbrains.annotations.Nullable;
+
+public interface CRRRICCRROCOHHOHIICIHORCOORRRH<O, T> {
+   boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(O var1, IRCIIHHICIHRCOCRROCOICRIHHCCHH var2, @Nullable T var3);
+
+   @Nullable
+   IRCIIHHICIHRCOCRROCOICRIHHCCHH CCHHHHIHIRHHICOIORIIIOIICHHICH();
+
+   Optional<T> RROOOOIIOCRRHIOHCHRIOIIIHCHCCH();
+
+   void CRRRICCRROCOHHOHIICIHORCOORRRH(O var1, @Nullable String var2);
+
+   void RIROICHCRROROHCCROOCCCCOCHCCRI(O var1);
+
+   void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Predicate<String> var1, T var2);
+}

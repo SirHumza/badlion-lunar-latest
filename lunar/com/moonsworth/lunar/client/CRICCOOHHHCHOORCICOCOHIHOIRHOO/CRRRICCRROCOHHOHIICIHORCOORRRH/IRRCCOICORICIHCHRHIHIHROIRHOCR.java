@@ -1,0 +1,48 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import lombok.Generated;
+import org.jetbrains.annotations.Nullable;
+
+public class IRRCCOICORICIHCHRHIHIHROIRHOCR implements com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRRCCOICORICIHCHRHIHIHROIRHOCR {
+   private final boolean RIRHCHOHIHCOIICHHRIIRRCHOHRICC;
+   @Nullable
+   private final RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OOCRORCHHRCHCCCROIIHIHOCHIRRRI;
+   private boolean OIIOOCORHCCCHOCCOHIHRIHIOIIIHI;
+
+   @Override
+   public boolean RROCRHIIHORCOCIRICHOCCICORCCCO() {
+      return this.RIRHCHOHIHCOIICHHRIIRRCHOHRICC;
+   }
+
+   @Override
+   public boolean HHROHRHRRCORIHOCRCOHRRORHIHCCH() {
+      return this.OOCRORCHHRCHCCCROIIHIHOCHIRRRI != null;
+   }
+
+   @Override
+   public boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(com.moonsworth.lunar.client.HCHRIROHHHCORIOCROOCHRCIOROOCI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
+      return this.OOCRORCHHRCHCCCROIIHIHOCHIRRRI == var1;
+   }
+
+   public static IRRCCOICORICIHCHRHIHIHROIRHOCR RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(boolean var0, @Nullable RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
+      return new IRRCCOICORICIHCHRHIHIHROIRHOCR(var0, var1);
+   }
+
+   @Generated
+   public IRRCCOICORICIHCHRHIHIHROIRHOCR(boolean var1, @Nullable RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2) {
+      this.RIRHCHOHIHCOIICHHRIIRRCHOHRICC = var1;
+      this.OOCRORCHHRCHCCCROIIHIHOCHIRRRI = var2;
+   }
+
+   @Generated
+   @Override
+   public boolean HCICCOORCOCCRORHCCIIOROCCOOORR() {
+      return this.OIIOOCORHCCCHOCCOHIHRIHIOIIIHI;
+   }
+
+   @Generated
+   @Override
+   public void setFlipped(boolean var1) {
+      this.OIIOOCORHCCCHOCCOHIHRIHIOIIIHI = var1;
+   }
+}

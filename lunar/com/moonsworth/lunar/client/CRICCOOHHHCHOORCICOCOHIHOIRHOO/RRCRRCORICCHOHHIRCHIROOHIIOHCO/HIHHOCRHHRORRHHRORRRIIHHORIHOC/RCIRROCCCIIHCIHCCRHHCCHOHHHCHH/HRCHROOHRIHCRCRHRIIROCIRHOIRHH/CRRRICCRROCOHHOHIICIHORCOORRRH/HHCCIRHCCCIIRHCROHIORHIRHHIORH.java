@@ -1,0 +1,47 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import java.util.LinkedHashSet;
+import lombok.Generated;
+
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH<E> extends LinkedHashSet<E> implements RRCRRCORICCHOHHIRCHIROOHIIOHCO<E> {
+   private final HRCHROOHRIHCRCRHRIIROCIRHOIRHH HCORRCHICOIIHCOICCHOHHOCRCIRRH;
+
+   public void CIOHHCORHRCCRICCCORIHCRHCCCRRR(Runnable var1) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.HCORRCHICOIIHCOICCHOHHOCRCIRRH, var1);
+   }
+
+   @Override
+   public boolean add(E var1) {
+      return this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.HCORRCHICOIIHCOICCHOHHOCRCIRRH, this, (E)var1);
+   }
+
+   @Override
+   public boolean OHIIIOHIRIRCCRRIOIICCHHIORRHOH(E var1) {
+      return super.add((E)var1);
+   }
+
+   @Override
+   public boolean remove(Object var1) {
+      return this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(this.HCORRCHICOIIHCOICCHOHHOCRCIRRH, this, (E)var1);
+   }
+
+   @Override
+   public boolean IHICORCROOROHCIHIHCOIHRRHICICO(Object var1) {
+      return super.remove(var1);
+   }
+
+   @Override
+   public void clear() {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.HCORRCHICOIIHCOICCHOHHOCRCIRRH, this);
+   }
+
+   @Override
+   public void OROCHCHOCCICHCCCIICORHOOOROOCH() {
+      super.clear();
+   }
+
+   @Generated
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1) {
+      this.HCORRCHICOIIHCOICCHOHHOCRCIRRH = var1;
+   }
+}

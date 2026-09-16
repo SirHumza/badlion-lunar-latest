@@ -1,0 +1,8 @@
+package com.moonsworth.lunar.client.util.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+public enum RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   PUBLIC,
+   PROTECTED,
+   PRIVATE,
+   PACKAGE;
+}

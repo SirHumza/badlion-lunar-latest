@@ -1,0 +1,132 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
+public class HRCHROOHRIHCRCRHRIIROCIRHOIRHH extends RICRIRRCOHRCOCRRHHCRHRROOIOHHR {
+   public static final HRCHROOHRIHCRCRHRIIROCIRHOIRHH RROOOIRRRROHICIOHRICCOIIOCRCRH = new HRCHROOHRIHCRCRHRIIROCIRHOIRHH(BigDecimal.ZERO);
+   private static final BigDecimal RCRIOHRCHCOCOHHIHIOIOHIOIOHHRH = BigDecimal.valueOf(-2147483648L);
+   private static final BigDecimal RHCHIRHHHOHRIROROCOOHICCOCRHCO = BigDecimal.valueOf(2147483647L);
+   private static final BigDecimal IROHHCIOHRHHROIHORIORCOROHHHII = BigDecimal.valueOf(Long.MIN_VALUE);
+   private static final BigDecimal CRHHCRRCCHHRCHOIOICRCIOOOIRCIR = BigDecimal.valueOf(Long.MAX_VALUE);
+   protected final BigDecimal OIRHOHHHCRHCIORHOHHHOIHIRRCORC;
+
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(BigDecimal var1) {
+      this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC = var1;
+   }
+
+   public static HRCHROOHRIHCRCRHRIIROCIRHOIRHH HHRIICOIOORCHCOIICOOIHIRHHICRI(BigDecimal var0) {
+      return new HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0);
+   }
+
+   @Override
+   public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHRIOHROOIHOROCIRHCHORIHRRRRI CORCIHIIIHCCCRORIHHIRHHIORCHOI() {
+      return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_NUMBER_FLOAT;
+   }
+
+   @Override
+   public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH OICCRIOHCCICRROOOIRIROOCCRRCRR() {
+      return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.BIG_DECIMAL;
+   }
+
+   @Override
+   public boolean ICHICHHIIIHORRCICIROHIORORIIOH() {
+      return true;
+   }
+
+   @Override
+   public boolean ROOHCRHOCCHIHOIHRRIHCRIHOIOICH() {
+      return true;
+   }
+
+   @Override
+   public boolean IRHCRRORRCICOOHCIHRRHIIICOCRRO() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.compareTo(RCRIOHRCHCOCOHHIHIOIOHIOIOHHRH) >= 0
+         && this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.compareTo(RHCHIRHHHOHRIROROCOOHICCOCRHCO) <= 0;
+   }
+
+   @Override
+   public boolean CCRROCOCHRICHHRHOICHOCHOIRCHOR() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.compareTo(IROHHCIOHRHHROIHORIORCOROHHHII) >= 0
+         && this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.compareTo(CRHHCRRCCHHRCHOIOICRCIOOOIRCIR) <= 0;
+   }
+
+   @Override
+   public boolean OCIHICCHCORORHHHHICCRHICICOOHH() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.signum() == 0
+         || this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.scale() <= 0
+         || this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.stripTrailingZeros().scale() <= 0;
+   }
+
+   @Override
+   public Number OICIOHIRICIRRICHIROHHOHHOOCCOO() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC;
+   }
+
+   @Override
+   public short CIORIIIOCCHOOHCICRHHOROCHRRRIO() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.shortValue();
+   }
+
+   @Override
+   public int intValue() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.intValue();
+   }
+
+   @Override
+   public long longValue() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.longValue();
+   }
+
+   @Override
+   public BigInteger bigIntegerValue() {
+      return this.IHIRRIIORRHORHRORIHOROIRCORCOO(this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC);
+   }
+
+   @Override
+   public float floatValue() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.floatValue();
+   }
+
+   @Override
+   public double doubleValue() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.doubleValue();
+   }
+
+   @Override
+   public BigDecimal RCHCOORCCIHHRHCHHCHHRRRIHIOHCO() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC;
+   }
+
+   @Override
+   public String HICIIICICHHHRCORHRHHCCHOHHIROR() {
+      return this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC.toString();
+   }
+
+   @Override
+   public final void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO var1,
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var2
+   ) {
+      var1.OHHRIOHROOIHOROCIRHCHORIHRRRRI(this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC);
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      if (var1 == this) {
+         return true;
+      } else if (var1 == null) {
+         return false;
+      } else {
+         return var1 instanceof HRCHROOHRIHCRCRHRIIROCIRHOIRHH
+            ? ((HRCHROOHRIHCRCRHRIIROCIRHOIRHH)var1).OIRHOHHHCRHCIORHOHHHOIHIRRCORC.compareTo(this.OIRHOHHHCRHCIORHOHHHOIHIRRCORC) == 0
+            : false;
+      }
+   }
+
+   @Override
+   public int hashCode() {
+      return Double.valueOf(this.doubleValue()).hashCode();
+   }
+}

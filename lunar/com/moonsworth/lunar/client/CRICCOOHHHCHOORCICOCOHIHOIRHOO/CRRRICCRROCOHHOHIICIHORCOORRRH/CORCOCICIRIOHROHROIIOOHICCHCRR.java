@@ -1,0 +1,47 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.HCHRIROHHHCORIOCROOCHRCIOROOCI;
+import java.util.Optional;
+import org.jetbrains.annotations.NotNull;
+
+public class CORCOCICIRIOHROHROIIOOHICCHCRR implements com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.CORCOCICIRIOHROHROIIOOHICCHCRR {
+   @NotNull
+   protected final HCHRIROHHHCORIOCROOCHRCIOROOCI<Boolean> HOCIRCIHOOOOHCROHRCIROCIHCHRRH;
+   private boolean CICHHOHOCIRCHCCHIHOOCHOCOOHIRI = false;
+
+   public CORCOCICIRIOHROHROIIOOHICCHCRR(@NotNull HCHRIROHHHCORIOCROOCHRCIOROOCI<Boolean> var1) {
+      this.HOCIRCIHOOOOHCROHRCIROCIHCHRRH = var1;
+   }
+
+   @NotNull
+   @Override
+   public Optional<HCHRIROHHHCORIOCROOCHRCIOROOCI<Boolean>> OCIOICIOHHHIRIOCIHCHHCCHRRRIHI() {
+      return Optional.of(this.HOCIRCIHOOOOHCROHRCIROCIHCHRRH);
+   }
+
+   @Override
+   public void HIORHORHOICHRHORRRCOORHIIICIIR() {
+      this.HOCIRCIHOOOOHCROHRCIROCIHCHRRH.reset();
+      this.CICHHOHOCIRCHCCHIHOOCHOCOOHIRI = false;
+   }
+
+   @Override
+   public boolean isEnabled() {
+      return this.HOCIRCIHOOOOHCROHRCIROCIHCHRRH.get();
+   }
+
+   @Override
+   public void setEnabled(boolean var1) {
+      this.HOCIRCIHOOOOHCROHRCIROCIHCHRRH.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH(var1);
+   }
+
+   @Override
+   public boolean RHIHIHIRHIHIHHCCICRCHROIIHHRII() {
+      return this.CICHHOHOCIRCHCCHIHOOCHOCOOHIRI;
+   }
+
+   @Override
+   public void RIIHIHHCRHCHRCICHOROHCHIIHCICH(boolean var1) {
+      this.CICHHOHOCIRCHCCHIHOOCHOCOOHIRI = var1;
+   }
+}

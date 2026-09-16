@@ -1,0 +1,118 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import java.util.List;
+import org.cadixdev.bombe.provider.ClassProvider;
+import org.objectweb.asm.tree.InsnList;
+
+public class RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   private final List<CRRRICCRROCOHHOHIICIHORCOORRRH> CRHOORCOCOIOHCRCOCHIRCHORCHHRR;
+   private final List<CRRRICCRROCOHHOHIICIHORCOORRRH> HHRHHIOOOCOHHHHHRROHCHCROCRROC;
+   private final com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.HHCCIRHCCCIIRHCROHIORHIRHHIORH HOHCHRCIROCCOHORCRIHRIRCOIOOCH;
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1,
+      com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+      ClassProvider var3
+   ) {
+      this(
+         var1,
+         List.of(
+            new HRCHROOHRIHCRCRHRIIROCIRHOIRHH(),
+            new HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1, var2),
+            new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2),
+            new IRCIIHHICIHRCOCRROCOICRIHHCCHH(),
+            new OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3),
+            new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var3)
+         )
+      );
+   }
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1,
+      List<CRRRICCRROCOHHOHIICIHORCOORRRH> var2
+   ) {
+      this(var1, var2, var2);
+   }
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1,
+      List<CRRRICCRROCOHHOHIICIHORCOORRRH> var2,
+      List<CRRRICCRROCOHHOHIICIHORCOORRRH> var3
+   ) {
+      this.CRHOORCOCOIOHCRCOCHIRCHORCHHRR = var2;
+      this.HHRHHIOOOCOHHHHHRROHCHCROCRROC = var3;
+      this.HOHCHRCIROCCOHORCRIHRIRCOIOOCH = var1;
+   }
+
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1,
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      InsnList var3
+   ) {
+      if (!this.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2, var3)) {
+         throw new IllegalStateException("Failed to coerce param type %s to %s. Functors: %s".formatted(var1, var2, this.CRHOORCOCOIOHCRCOCHIRCHORCHHRR));
+      }
+   }
+
+   public void CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1,
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      InsnList var3
+   ) {
+      if (!this.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var1, var2, var3)) {
+         throw new IllegalStateException("Failed to coerce return type %s to %s. Functors: %s".formatted(var1, var2, this.HHRHHIOOOCOHHHHHRROHCHCROCRROC));
+      }
+   }
+
+   public boolean RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1,
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      InsnList var3
+   ) {
+      if (var1.equals(var2)) {
+         return true;
+      }
+
+      InsnList var4 = new InsnList();
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var5 = var1;
+
+      for (CRRRICCRROCOHHOHIICIHORCOORRRH var7 : this.CRHOORCOCOIOHCRCOCHIRCHORCHHRR) {
+         var5 = var7.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var5, var2, var4);
+      }
+
+      this.HOHCHRCIROCCOHORCRIHRIRCOIOOCH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var5);
+      if (!var5.equals(var2)) {
+         return false;
+      }
+
+      var3.add(var4);
+      return true;
+   }
+
+   public boolean RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1,
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+      InsnList var3
+   ) {
+      if (var1.equals(var2)) {
+         return true;
+      }
+
+      InsnList var4 = new InsnList();
+      com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var5 = var2;
+
+      for (CRRRICCRROCOHHOHIICIHORCOORRRH var7 : this.HHRHHIOOOCOHHHHHRROHCHCROCRROC) {
+         InsnList var8 = new InsnList();
+         var5 = var7.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var5, var8);
+         var4.insert(var8);
+      }
+
+      this.HOHCHRCIROCCOHORCRIHRIRCOIOOCH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var5);
+      if (!var1.equals(var5)) {
+         return false;
+      }
+
+      var3.add(var4);
+      return true;
+   }
+}

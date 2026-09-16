@@ -1,0 +1,200 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import java.io.Serializable;
+
+public abstract class ICICIOCHHHIHOCHCOHORIHRCOHHOCR implements Serializable {
+   private static final long ORIIIIRRHIICORIIORCHRHIHHHRORC = 2L;
+   public static final IRCRRHRCIRHIHIHROHCRRHIIHHHHCH OORIOIOICHHCHCCHORHCOCHRHROHOH = ICICIOCHHHIHOCHCOHORIHRCOHHOCR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCCHHCIOHCCRCIRROOOOOORIHORICC;
+   public static final IRCRRHRCIRHIHIHROHCRRHIIHHHHCH CIHCHRICRIRICCHOIIRCHCOHRCRRIO = ICICIOCHHHIHOCHCOHORIHRCOHHOCR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IHRHHCIIHIROIHOCCRHRICIIORIOHH;
+   public static final IRCRRHRCIRHIHIHROHCRRHIIHHHHCH HCHRCOHCORORCIRCCRRHHHIHIOCOOO = ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.ICHIHOHIOOIOORHHHCOICIOOICHICI;
+   public static final IRCRRHRCIRHIHIHROHCRRHIIHHHHCH OHROOIHCHCRCHHIHORHRIHROIHRICH = ICICIOCHHHIHOCHCOHORIHRCOHHOCR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HHRIHCCRCCORCRIHIIRHROROOROCII;
+   public static final IRCRRHRCIRHIHIHROHCRRHIIHHHHCH IIHRHICOHCOHIORCHICRIOHHHIHCCR = ICICIOCHHHIHOCHCOHORIHRCOHHOCR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CIHOHHRHOCORICHOHHOORHCHOIOIIR;
+   public static final IRCRRHRCIRHIHIHROHCRRHIIHHHHCH OCHOHOCORCHOIICRIROCIOHROIRIHR = ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CIROHHOIRHORHIHORIIOCOCHICCORR;
+   public static final IRCRRHRCIRHIHIHROHCRRHIIHHHHCH CCIRORIOORCCOOOOHROCIOCRIOOCIO = ICICIOCHHHIHOCHCOHORIHRCOHHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH.CRHRRHICRCIRICRHHOCCOIIHORHHCC;
+
+   public static class CRRRICCRROCOHHOHIICIHORCOORRRH extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+      private static final long IRHHIRRIRCIRICICOIICORHIOROROH = 2L;
+      public static final ICICIOCHHHIHOCHCOHORIHRCOHHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH CRHRRHICRCIRICRHHOCCOIIHORHHCC = new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH();
+
+      @Override
+      public String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1) {
+         return this.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, '.');
+      }
+   }
+
+   public static class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+      private static final long RRRORIOCIIOIROOIOHIICCCHIIHORC = 2L;
+      public static final ICICIOCHHHIHOCHCOHORIHRCOHHOCR.HHCCIRHCCCIIRHCROHIORHIRHHIORH CIHOHHRHOCORICHOHHOORHCHOIOIIR = new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.HHCCIRHCCCIIRHCROHIORHIRHHIORH();
+
+      @Override
+      public String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1) {
+         return var1 != null && !var1.isEmpty() ? var1.toLowerCase() : var1;
+      }
+   }
+
+   public static class HRCHROOHRIHCRCRHRIIROCIRHOIRHH extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+      private static final long HCIIRHHRORRRHHRIOHRRHROIRRHORI = 2L;
+      public static final ICICIOCHHHIHOCHCOHORIHRCOHHOCR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH IHRHHCIIHIROIHOCCRHRICIIORIOHH = new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH();
+
+      @Override
+      public String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1) {
+         if (var1 != null && !var1.isEmpty()) {
+            char var2 = var1.charAt(0);
+            char var3 = Character.toUpperCase(var2);
+            if (var2 == var3) {
+               return var1;
+            }
+
+            StringBuilder var4 = new StringBuilder(var1);
+            var4.setCharAt(0, var3);
+            return var4.toString();
+         } else {
+            return var1;
+         }
+      }
+   }
+
+   public static class IRCIIHHICIHRCOCRROCOICRIHHCCHH extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+      private static final long IRRRRIHHHCHOCHRCOOOCIIHHHCRHCR = 2L;
+      public static final ICICIOCHHHIHOCHCOHORIHRCOHHOCR.IRCIIHHICIHRCOCRROCOICRIHHCCHH RCCHHCIOHCCRCIRROOOOOORIHORICC = new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.IRCIIHHICIHRCOCRROCOICRIHHCCHH();
+
+      @Override
+      public String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1) {
+         return var1;
+      }
+   }
+
+   public static class OOROOCCIRCCRHOIOIORIHCHHOOCCOR extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      private static final long RROCHRIOOCRORCOCRIOCCIOOCCHHHH = 2L;
+      public static final ICICIOCHHHIHOCHCOHORIHRCOHHOCR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR HHRIHCCRCCORCRIHIIRHROROOROCII = new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR();
+
+      @Override
+      public String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1) {
+         String var2 = super.IRRIHROCIHHORORROIRHICHHCOIHOI(var1);
+         return var2 == null ? null : var2.toUpperCase();
+      }
+   }
+
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+      private static final long IRCHCHIRRHHRCOCRCRHCOHHRRHIIOH = 2L;
+      public static final ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CIROHHOIRHORHIHORIIOCOCHICCORR = new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH();
+
+      @Override
+      public String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1) {
+         return this.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, '-');
+      }
+   }
+
+   public static class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+      private static final long OHOIHRRIIRCRCHHCHCHCOOCROHRHOH = 2L;
+      public static final ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI ICHIHOHIOOIOORHHHCOICIOOICHICI = new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI();
+
+      @Override
+      public String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1) {
+         if (var1 == null) {
+            return var1;
+         }
+
+         int var2 = var1.length();
+         StringBuilder var3 = new StringBuilder(var2 * 2);
+         int var4 = 0;
+         boolean var5 = false;
+
+         for (int var6 = 0; var6 < var2; var6++) {
+            char var7 = var1.charAt(var6);
+            if (var6 > 0 || var7 != '_') {
+               if (Character.isUpperCase(var7)) {
+                  if (!var5 && var4 > 0 && var3.charAt(var4 - 1) != '_') {
+                     var3.append('_');
+                     var4++;
+                  }
+
+                  var7 = Character.toLowerCase(var7);
+                  var5 = true;
+               } else {
+                  var5 = false;
+               }
+
+               var3.append(var7);
+               var4++;
+            }
+         }
+
+         return var4 > 0 ? var3.toString() : var1;
+      }
+   }
+
+   public abstract static class RRCRRCORICCHOHHIRCHIROOHIIOHCO extends IRCRRHRCIRHIHIHROHCRRHIIHHHHCH {
+      private static final long ROIIROHRROCOCIIIIHOHRCCCIOROHR = 2L;
+
+      @Override
+      public String RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var1,
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2,
+         String var3
+      ) {
+         return this.IRRIHROCIHHORORROIRHICHHCOIHOI(var3);
+      }
+
+      @Override
+      public String RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var1,
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HICHRCOHCCRHOHCICOOCHOIHCCHIRI var2,
+         String var3
+      ) {
+         return this.IRRIHROCIHHORORROIRHICHHCOIHOI(var3);
+      }
+
+      @Override
+      public String IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var1,
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HICHRCOHCCRHOHCICOOCHOIHCCHIRI var2,
+         String var3
+      ) {
+         return this.IRRIHROCIHHORORROIRHICHHCOIHOI(var3);
+      }
+
+      @Override
+      public String RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var1,
+         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR var2,
+         String var3
+      ) {
+         return this.IRRIHROCIHHORORROIRHICHHCOIHOI(var3);
+      }
+
+      public abstract String IRRIHROCIHHORORROIRHICHHCOIHOI(String var1);
+
+      protected String RRCRRCORICCHOHHIRCHIROOHIIOHCO(String var1, char var2) {
+         if (var1 != null && !var1.isEmpty()) {
+            int var3 = var1.length();
+            StringBuilder var4 = new StringBuilder(var3 + (var3 >> 1));
+            int var5 = 0;
+
+            for (int var6 = 0; var6 < var3; var6++) {
+               char var7 = var1.charAt(var6);
+               char var8 = Character.toLowerCase(var7);
+               if (var8 == var7) {
+                  if (var5 > 1) {
+                     var4.insert(var4.length() - 1, var2);
+                  }
+
+                  var5 = 0;
+               } else {
+                  if (var5 == 0 && var6 > 0) {
+                     var4.append(var2);
+                  }
+
+                  var5++;
+               }
+
+               var4.append(var8);
+            }
+
+            return var4.toString();
+         } else {
+            return var1;
+         }
+      }
+   }
+}

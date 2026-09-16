@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import java.nio.file.Path;
+import java.util.List;
+
+@FunctionalInterface
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH<T extends com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<?>> {
+   boolean accept(T var1, List<Path> var2);
+}

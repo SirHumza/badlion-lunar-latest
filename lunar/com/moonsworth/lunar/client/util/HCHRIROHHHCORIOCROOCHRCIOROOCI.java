@@ -1,0 +1,19 @@
+package com.moonsworth.lunar.client.util;
+
+public record HCHRIROHHHCORIOCROOCHRCIOROOCI() {
+   private final int OIIORRIIOOHCHCICOIHIIIRRHICICO;
+   private final float HIORIOIICOIHIHIIIRCIHRHIOCICHO;
+
+   public HCHRIROHHHCORIOCROOCHRCIOROOCI(int var1, float var2) {
+      this.OIIORRIIOOHCHCICOIHIIIRRHICICO = var1;
+      this.HIORIOIICOIHIHIIIRCIHRHIOCICHO = var2;
+   }
+
+   public int IRORCORIRRHCHRHCOORCHCOHICOCRI() {
+      return this.OIIORRIIOOHCHCICOIHIIIRRHICICO;
+   }
+
+   public float RICRHIRROHIIHHOOCOHIRROROCICOR() {
+      return this.HIORIOIICOIHIHIIIRCIHRHIOCICHO;
+   }
+}

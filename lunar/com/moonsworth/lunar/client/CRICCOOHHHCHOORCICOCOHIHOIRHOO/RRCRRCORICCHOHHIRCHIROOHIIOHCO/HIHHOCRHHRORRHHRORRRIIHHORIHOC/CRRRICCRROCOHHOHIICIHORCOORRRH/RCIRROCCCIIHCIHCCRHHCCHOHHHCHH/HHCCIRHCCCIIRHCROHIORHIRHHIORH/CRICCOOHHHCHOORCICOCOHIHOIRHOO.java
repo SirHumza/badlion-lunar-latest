@@ -1,0 +1,140 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IHIRRIIORRHORHRORIHOROIRCORCOO;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import lombok.Generated;
+
+public class CRICCOOHHHCHOORCICOCOHIHOIRHOO
+   extends com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private String OIIIOCCOHROOHCHORRRCIHOCHOROHH;
+   private String key;
+   private CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OHRRIRCHRRHOCICRCCCCHCOIHCRRRC;
+   private Object value;
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CORCOCICIRIOHROHROIIOOHICCHCRR var1
+   ) {
+      this.OIIIOCCOHROOHCHORRRCIHOCHOROHH = var1.readString();
+      this.key = var1.readString();
+      this.OHRRIRCHRRHOCICRCCCCHCOIHCRRRC = var1.IRRCCOICORICIHCHRHIHIHROIRHOCR(CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class);
+      switch (this.OHRRIRCHRRHOCICRCCCCHCOIHCRRRC) {
+         case STRING:
+            this.value = var1.readString();
+            break;
+         case INTEGER:
+            this.value = var1.readVarInt();
+            break;
+         case FLOAT:
+            this.value = var1.readFloat();
+            break;
+         case DOUBLE:
+            this.value = var1.readDouble();
+            break;
+         case LONG:
+            this.value = var1.readLong();
+            break;
+         case BOOLEAN:
+            this.value = var1.readBoolean();
+      }
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CORCOCICIRIOHROHROIIOOHICCHCRR var1
+   ) {
+      var1.RCRICHOCHHHCRCORROOIHCROOIICOC(this.OIIIOCCOHROOHCHORRRCIHOCHOROHH);
+      var1.RCRICHOCHHHCRCORROOIHCROOIICOC(this.key);
+      var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.OHRRIRCHRRHOCICRCCCCHCOIHCRRRC);
+      switch (this.OHRRIRCHRRHOCICRCCCCHCOIHCRRRC) {
+         case STRING:
+            var1.RCRICHOCHHHCRCORROOIHCROOIICOC((String)this.value);
+            break;
+         case INTEGER:
+            var1.IIOORRCRHCRIORIOCOHHIROOIIHROC((Integer)this.value);
+            break;
+         case FLOAT:
+            var1.writeFloat((Float)this.value);
+            break;
+         case DOUBLE:
+            var1.writeDouble((Double)this.value);
+            break;
+         case LONG:
+            var1.writeLong((Long)this.value);
+            break;
+         case BOOLEAN:
+            var1.writeBoolean((Boolean)this.value);
+      }
+   }
+
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CCIHHRIOOOOCOHRCIHOHROOICIORCC(Object var0) {
+      if (var0 instanceof String) {
+         return CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.STRING;
+      } else if (var0 instanceof Integer) {
+         return CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.INTEGER;
+      } else if (var0 instanceof Float) {
+         return CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.FLOAT;
+      } else if (var0 instanceof Double) {
+         return CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DOUBLE;
+      } else if (var0 instanceof Long) {
+         return CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.LONG;
+      } else if (var0 instanceof Boolean) {
+         return CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.BOOLEAN;
+      } else {
+         throw new IllegalArgumentException("Unsupported value type: " + var0.getClass());
+      }
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH.CRRRICCRROCOHHOHIICIHORCOORRRH var1
+   ) {
+      IHIRRIIORRHORHRORIHOROIRCORCOO var2 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HHCCIRORCRCHOIOHRRIRRRIORRCRRR();
+      if (var2.COCOCRIOIHOCHHRIOICCICIOIHHOHH(this.OIIIOCCOHROOHCHORRRCIHOCHOROHH) instanceof com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var4
+         )
+       {
+         var4.HRHOCRICHORRROCRRCIHROHRRCOCRH().set(this.key, this.value);
+      }
+   }
+
+   @Generated
+   public CRICCOOHHHCHOORCICOCOHIHOIRHOO(String var1, String var2, CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var3, Object var4) {
+      this.OIIIOCCOHROOHCHORRRCIHOCHOROHH = var1;
+      this.key = var2;
+      this.OHRRIRCHRRHOCICRCCCCHCOIHCRRRC = var3;
+      this.value = var4;
+   }
+
+   @Generated
+   public CRICCOOHHHCHOORCICOCOHIHOIRHOO() {
+   }
+
+   @Generated
+   public String HCHCCOORROHRRIICCHCROIOORRIHIC() {
+      return this.OIIIOCCOHROOHCHORRRCIHOCHOROHH;
+   }
+
+   @Generated
+   public String getKey() {
+      return this.key;
+   }
+
+   @Generated
+   public CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OOHCOCRIHHRRIOORHCIOICRCRHHCOI() {
+      return this.OHRRIRCHRRHOCICRCCCCHCOIHCRRRC;
+   }
+
+   @Generated
+   public Object getValue() {
+      return this.value;
+   }
+
+   public enum RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      STRING,
+      INTEGER,
+      FLOAT,
+      DOUBLE,
+      LONG,
+      BOOLEAN;
+   }
+}

@@ -1,0 +1,234 @@
+package com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.lunarclient.apollo.module.serverrule.ServerRuleModule;
+import com.lunarclient.apollo.option.ListOption;
+import com.lunarclient.apollo.option.NumberOption;
+import com.lunarclient.apollo.option.Option;
+import com.lunarclient.apollo.option.Options;
+import com.lunarclient.apollo.option.SimpleOption;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.util.Collection;
+import java.util.List;
+
+public class IOIICIRIICICIIOORHCIIIIRRIHRHI
+   extends com.moonsworth.lunar.client.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private boolean OICIIIIHOCRRHCOOHOOCOCCRIIOCHH;
+
+   public IOIICIRIICICIIOORHCIIIIRRIHRHI() {
+      super("server_rule", "Server Rule");
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRRRICCRROCOHHOHIICIHORCOORRRH.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.class,
+         this::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIROICHCRROROHCCROOCCCCOCHCCRI.class,
+         var1 -> this.IIHCIHRRRCCRHOOCCORIIRIICHHIRC()
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.class,
+         var1 -> this.IIHCIHRRRCCRHOOCCORIIRIICHHIRC()
+      );
+   }
+
+   @Override
+   protected void onEnable() {
+      this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH = false;
+   }
+
+   @Override
+   protected void onDisable() {
+      this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH = false;
+   }
+
+   @Override
+   public Collection<Option<?, ?, ?>> IOHHOCRCCCIRHRCORCRCCCOCIOCCRH() {
+      return List.of(
+         ServerRuleModule.COMPETITIVE_GAME,
+         ServerRuleModule.COMPETITIVE_COMMANDS,
+         ServerRuleModule.DISABLE_SHADERS,
+         ServerRuleModule.DISABLE_CHUNK_RELOADING,
+         ServerRuleModule.DISABLE_BROADCASTING,
+         ServerRuleModule.ANTI_PORTAL_TRAPS,
+         ServerRuleModule.OVERRIDE_BRIGHTNESS,
+         ServerRuleModule.BRIGHTNESS,
+         ServerRuleModule.OVERRIDE_NAMETAG_RENDER_DISTANCE,
+         ServerRuleModule.NAMETAG_RENDER_DISTANCE,
+         ServerRuleModule.OVERRIDE_MAX_CHAT_LENGTH,
+         ServerRuleModule.MAX_CHAT_LENGTH,
+         ServerRuleModule.CRYSTAL_OPTIMIZER
+      );
+   }
+
+   public int HRHCHIHCCIIOIIOCRCHCIHCICCCCIR() {
+      return this.getOptions().<Integer, NumberOption<Integer>>get(ServerRuleModule.NAMETAG_RENDER_DISTANCE).intValue();
+   }
+
+   private com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      Runnable var1
+   ) {
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2 = new com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getCurrentScreen(), var1
+      );
+      return com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRIHROCORIOOCHHCHCHOHCIOHHRRI()
+         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2);
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      Option var2 = var1.getOption();
+      Object var3 = var1.getValue();
+      if (var2.equals(ServerRuleModule.OVERRIDE_BRIGHTNESS)) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var4 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI()
+            .bridge$getGameSettings();
+         if ((Boolean)var3) {
+            int var5 = this.getOptions().<Integer, NumberOption<Integer>>get(ServerRuleModule.BRIGHTNESS).intValue();
+            var4.bridge$setGammaOverride(var5 / 100.0F);
+         } else {
+            var4.bridge$removeGammaOverride();
+         }
+      }
+
+      if (var2.equals(ServerRuleModule.BRIGHTNESS) && this.getOptions().<Boolean, SimpleOption<Boolean>>get(ServerRuleModule.OVERRIDE_BRIGHTNESS)) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI()
+            .bridge$getGameSettings();
+         var6.bridge$setGammaOverride(((Number)var3).intValue() / 100.0F);
+      }
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRRRICCRROCOHHOHIICIHORCOORRRH var1
+   ) {
+      if (this.getOptions().<Boolean, SimpleOption<Boolean>>get(ServerRuleModule.OVERRIDE_BRIGHTNESS)) {
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getGameSettings().bridge$removeGammaOverride();
+      }
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR var1
+   ) {
+      if (this.getOptions().<Boolean, SimpleOption<Boolean>>get(ServerRuleModule.COMPETITIVE_GAME)) {
+         boolean var2 = var1.RCORHIHICHCOORRRHCHCRICCHICOOO() instanceof com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH var3
+            && var3.RRIOOIOROCIRHRORIRHIRHIHOCHICH() instanceof com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+         if (this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH && !var2) {
+            this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH = false;
+         }
+      }
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH var1
+   ) {
+      Options var2 = this.getOptions();
+      if (var2.<Boolean, SimpleOption<Boolean>>get(ServerRuleModule.COMPETITIVE_GAME)) {
+         String var3 = var1.HRRROCOCCRCHHIIRROCRICIICCOOHC().toLowerCase();
+         if (var2.<List<String>, ListOption<String>>get(ServerRuleModule.COMPETITIVE_COMMANDS).contains(var3)) {
+            if (this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH) {
+               this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH = false;
+            } else {
+               var1.cancel();
+               this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH = true;
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO var4 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI();
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH var5 = this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+                  () -> {
+                     var4.bridge$displayScreen(null);
+                     this.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH = true;
+                     IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH().bridge$sendCommand(var1.getCommand());
+                  }
+               );
+               IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$submit(() -> var4.bridge$displayScreen(var5));
+            }
+         }
+      }
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RHOCHHIRRCHHHOHOIRROIROHHHIHIO var1
+   ) {
+      if (this.getOptions().<Boolean, SimpleOption<Boolean>>get(ServerRuleModule.COMPETITIVE_GAME)) {
+         var1.cancel();
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO var2 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI();
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH var3 = this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+            var1::ICROIRICORRHRCRRIOOCCRRIIOHICI
+         );
+         var2.bridge$displayScreen(var3);
+      }
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      if (this.getOptions().<Boolean, SimpleOption<Boolean>>get(ServerRuleModule.DISABLE_BROADCASTING)) {
+         if (IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getGameSettings().bridge$isStreamKey(var1.CCICCIOCIHOOIHCIRCHHHRROHIHHIH())
+            )
+          {
+            var1.cancel();
+         }
+      }
+   }
+
+   private void IIHCIHRRRCCRHOOCCORIIRIICHHIRC() {
+      if (this.getOptions().<Boolean, SimpleOption<Boolean>>get(ServerRuleModule.DISABLE_SHADERS)) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HRICIORORHCRHCCCIIIHRRHCICOHOR().ifPresent(var0 -> {
+            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.CORCOCICIRIOHROHROIIOOHICCHCRR var1 = var0.getShaders();
+            String var2 = var1.getShaderPack();
+            if (var2 != null && !var2.equalsIgnoreCase(var1.getPackNone()) && !var2.equalsIgnoreCase(var1.getPackDefault())) {
+               var1.setShaderPack(var1.getPackNone());
+            }
+         });
+      }
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 6)
+   public boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR var2
+   ) {
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICRRICCHCCROOHHCHOCOCCHOIHHOC.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCICHHOCCHOROIORCOHOHIRRHCIIOR();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var4 = var3.CIOIIRRRORRRIOCROROHORCRHCOHHO();
+      if (!var1.bridge$isPotionActive(var4)) {
+         return true;
+      }
+
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICRRICCHCCROOHHCHOCOCCHOIHHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH var5 = var1.bridge$getActivePotionEffect(
+         var4
+      );
+      double var6 = 4.0 * (var5.bridge$getAmplifier() + 1);
+      double var8 = var1.bridge$getAttackDamageAttribute();
+      if (var8 > var6 + 5.0) {
+         return true;
+      }
+
+      double var10 = 0.0;
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var12 = var3.CHCHICIOCOORRIHRRIHICORCHIIIOR();
+      if (var1.bridge$isPotionActive(var12)) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICRRICCHCCROOHHCHOCOCCHOIHHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH var13 = var1.bridge$getActivePotionEffect(
+            var12
+         );
+         var10 = 3.0 * (var13.bridge$getAmplifier() + 1);
+      }
+
+      double var15 = var2.bridge$getAttackDamage();
+      return var8 + var15 + var10 - var6 > 0.0;
+   }
+}

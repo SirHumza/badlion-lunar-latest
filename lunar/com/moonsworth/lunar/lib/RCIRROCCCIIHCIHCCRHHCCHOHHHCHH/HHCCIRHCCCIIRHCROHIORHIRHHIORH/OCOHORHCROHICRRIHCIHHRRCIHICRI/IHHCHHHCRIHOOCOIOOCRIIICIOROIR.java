@@ -1,0 +1,125 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
+public class IHHCHHHCRIHOOCOIOOCRIIICIOROIR extends RICRIRRCOHRCOCRRHHCRHRROOIOHHR {
+   protected final long CHRCICIIOCICICCHIIRICRRCRIROOR;
+
+   public IHHCHHHCRIHOOCOIOOCRIIICIOROIR(long var1) {
+      this.CHRCICIIOCICICCHIIRICRRCRIROOR = var1;
+   }
+
+   public static IHHCHHHCRIHOOCOIOOCRIIICIOROIR IOIHHIORCICCHIIHOIOIOHHRICRHIO(long var0) {
+      return new IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var0);
+   }
+
+   @Override
+   public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHRIOHROOIHOROCIRHCHORIHRRRRI CORCIHIIIHCCCRORIHHIRHHIORCHOI() {
+      return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OHHRIOHROOIHOROCIRHCHORIHRRRRI.VALUE_NUMBER_INT;
+   }
+
+   @Override
+   public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH OICCRIOHCCICRROOOIRIROOCCRRCRR() {
+      return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.LONG;
+   }
+
+   @Override
+   public boolean RRICIRORIOOHOCRHCIHCCIHCRHCCOO() {
+      return true;
+   }
+
+   @Override
+   public boolean COCRICICCOOROIIOOHRHHHRCCRCIHC() {
+      return true;
+   }
+
+   @Override
+   public boolean IRHCRRORRCICOOHCIHRRHIIICOCRRO() {
+      return this.CHRCICIIOCICICCHIIRICRRCRIROOR >= -2147483648L && this.CHRCICIIOCICICCHIIRICRRCRIROOR <= 2147483647L;
+   }
+
+   @Override
+   public boolean CCRROCOCHRICHHRHOICHOCHOIRCHOR() {
+      return true;
+   }
+
+   @Override
+   public Number OICIOHIRICIRRICHIROHHOHHOOCCOO() {
+      return this.CHRCICIIOCICICCHIIRICRRCRIROOR;
+   }
+
+   @Override
+   public short CIORIIIOCCHOOHCICRHHOROCHRRRIO() {
+      return (short)this.CHRCICIIOCICICCHIIRICRRCRIROOR;
+   }
+
+   @Override
+   public int intValue() {
+      return (int)this.CHRCICIIOCICICCHIIRICRRCRIROOR;
+   }
+
+   @Override
+   public long longValue() {
+      return this.CHRCICIIOCICICCHIIRICRRCRIROOR;
+   }
+
+   @Override
+   public float floatValue() {
+      return (float)this.CHRCICIIOCICICCHIIRICRRCRIROOR;
+   }
+
+   @Override
+   public double doubleValue() {
+      return this.CHRCICIIOCICICCHIIRICRRCRIROOR;
+   }
+
+   @Override
+   public BigDecimal RCHCOORCCIHHRHCHHCHHRRRIHIOHCO() {
+      return BigDecimal.valueOf(this.CHRCICIIOCICICCHIIRICRRCRIROOR);
+   }
+
+   @Override
+   public BigInteger bigIntegerValue() {
+      return BigInteger.valueOf(this.CHRCICIIOCICICCHIIRICRRCRIROOR);
+   }
+
+   @Override
+   public String HICIIICICHHHRCORHRHHCCHOHHIROR() {
+      return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OCOHORHCROHICRRIHCIHHRRCIHICRI.toString(
+         this.CHRCICIIOCICICCHIIRICRRCRIROOR
+      );
+   }
+
+   @Override
+   public boolean asBoolean(boolean var1) {
+      return this.CHRCICIIOCICICCHIIRICRRCRIROOR != 0L;
+   }
+
+   @Override
+   public final void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO var1,
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var2
+   ) {
+      var1.IOHCRRIIHCIHORROOCHCCORIHRHCII(this.CHRCICIIOCICICCHIIRICRRCRIROOR);
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      if (var1 == this) {
+         return true;
+      } else if (var1 == null) {
+         return false;
+      } else {
+         return var1 instanceof IHHCHHHCRIHOOCOIOOCRIIICIOROIR
+            ? ((IHHCHHHCRIHOOCOIOOCRIIICIOROIR)var1).CHRCICIIOCICICCHIIRICRRCRIROOR == this.CHRCICIIOCICICCHIIRICRRCRIROOR
+            : false;
+      }
+   }
+
+   @Override
+   public int hashCode() {
+      return (int)this.CHRCICIIOCICICCHIIRICRRCRIROOR ^ (int)(this.CHRCICIIOCICICCHIIRICRRCRIROOR >> 32);
+   }
+}

@@ -1,0 +1,5 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH;
+
+public interface ORHIOICIOCRRHOOCOHRORIHICHRCRR {
+   char bridge$formattingCode();
+}

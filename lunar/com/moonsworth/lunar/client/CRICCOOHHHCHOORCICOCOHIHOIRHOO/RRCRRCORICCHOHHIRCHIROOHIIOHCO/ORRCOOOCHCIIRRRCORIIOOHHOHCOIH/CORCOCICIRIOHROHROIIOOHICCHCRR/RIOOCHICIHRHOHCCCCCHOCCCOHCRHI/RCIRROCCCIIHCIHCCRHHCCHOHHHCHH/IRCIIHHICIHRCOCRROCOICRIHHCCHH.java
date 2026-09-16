@@ -1,0 +1,144 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RORCHCIIICOHIRROOORHOCCCCIOCCI;
+import java.util.ArrayList;
+import java.util.Collections;
+import lombok.Generated;
+import org.jetbrains.annotations.Nullable;
+
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   @com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+   private final com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI type;
+   @com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+   private final RORCHCIIICOHIRROOORHOCCCCIOCCI pos;
+   @Nullable
+   @com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+   private final RORCHCIIICOHIRROOORHOCCCCIOCCI entrance;
+   @Nullable
+   @com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+   private final ArrayList<RORCHCIIICOHIRROOORHOCCCCIOCCI> levers;
+   @Nullable
+   @com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+   private final RORCHCIIICOHIRROOORHOCCCCIOCCI superboom;
+   @com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+   private final ArrayList<RORCHCIIICOHIRROOORHOCCCCIOCCI> redstoneKey;
+   @Nullable
+   @com.moonsworth.lunar.ichor.util.CORCOCICIRIOHROHROIIOOHICCHCRR
+   private final RORCHCIIICOHIRROOORHOCCCCIOCCI redstoneKeyPlacement;
+   private transient boolean found;
+   private transient ArrayList<Boolean> CIIIOCIHIHRHORCIHHICCIOOCHOICI;
+   private transient boolean RORHOHHHIICOCCOHRRHOCCIIHCOIOH;
+   private transient boolean HCROCHCORRHRHRRIOROCCCIHOHCRHC;
+   private transient boolean RROIRCCCOOHRIHIORICCRHRIRROIOH;
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var1,
+      RORCHCIIICOHIRROOORHOCCCCIOCCI var2,
+      @Nullable RORCHCIIICOHIRROOORHOCCCCIOCCI var3,
+      @Nullable ArrayList<RORCHCIIICOHIRROOORHOCCCCIOCCI> var4,
+      @Nullable RORCHCIIICOHIRROOORHOCCCCIOCCI var5,
+      ArrayList<RORCHCIIICOHIRROOORHOCCCCIOCCI> var6,
+      @Nullable RORCHCIIICOHIRROOORHOCCCCIOCCI var7
+   ) {
+      this.type = var1;
+      this.pos = var2;
+      this.entrance = var3;
+      this.levers = var4;
+      this.superboom = var5;
+      this.redstoneKey = var6;
+      this.redstoneKeyPlacement = var7;
+      if (var4 != null) {
+         this.CIIIOCIHIHRHORCIHHICCIOOCHOICI = new ArrayList<>(Collections.nCopies(var4.size(), false));
+      } else {
+         this.CIIIOCIHIHRHORCIHHICCIOOCHOICI = new ArrayList<>();
+      }
+   }
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH IORCRCCCRCHORCIOIOCRHOHROOCIIC() {
+      return new IRCIIHHICIHRCOCRROCOICRIHHCCHH(this.type, this.pos, this.entrance, this.levers, this.superboom, this.redstoneKey, this.redstoneKeyPlacement);
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OICCRORRORICOIIHOHOIIIICROHRIR() {
+      return this.type;
+   }
+
+   @Generated
+   public RORCHCIIICOHIRROOORHOCCCCIOCCI HHOORCCOIICCRIROHCIHIORIOIHIRH() {
+      return this.pos;
+   }
+
+   @Nullable
+   @Generated
+   public RORCHCIIICOHIRROOORHOCCCCIOCCI ORHCRHRORCRICCHIIIROIIIRROHCOH() {
+      return this.entrance;
+   }
+
+   @Nullable
+   @Generated
+   public ArrayList<RORCHCIIICOHIRROOORHOCCCCIOCCI> CROIOOICCIHOOCOHCIRCRIHCRHCIHR() {
+      return this.levers;
+   }
+
+   @Nullable
+   @Generated
+   public RORCHCIIICOHIRROOORHOCCCCIOCCI HRIHRORHORIOIOORIRRIOROIOCIOCI() {
+      return this.superboom;
+   }
+
+   @Generated
+   public ArrayList<RORCHCIIICOHIRROOORHOCCCCIOCCI> CICIIIRIORIOCOCIIIHOOORCCIIRRC() {
+      return this.redstoneKey;
+   }
+
+   @Nullable
+   @Generated
+   public RORCHCIIICOHIRROOORHOCCCCIOCCI RCICCHICOOCORORIOCRROCCCRCHHHO() {
+      return this.redstoneKeyPlacement;
+   }
+
+   @Generated
+   public boolean ORRHCHCIHIRIOROOHHHHRCHRCRCRIR() {
+      return this.found;
+   }
+
+   @Generated
+   public ArrayList<Boolean> IRROICCHCCHORIHHOIOOCIOHIHHOHC() {
+      return this.CIIIOCIHIHRHORCIHHICCIOOCHOICI;
+   }
+
+   @Generated
+   public boolean HOOOHIOOICCHIRCICICORIORRRHROI() {
+      return this.RORHOHHHIICOCCOHRRHOCCIIHCOIOH;
+   }
+
+   @Generated
+   public boolean OIRCORRRROCRCCCOOHIIIOOIHIRICO() {
+      return this.HCROCHCORRHRHRRIOROCCCIHOHCRHC;
+   }
+
+   @Generated
+   public boolean OHIIICCOIHRHCOIHCCRRHOOCCRIHRR() {
+      return this.RROIRCCCOOHRIHIORICCRHRIRROIOH;
+   }
+
+   @Generated
+   public void RCICHHOCCHOROIORCOHOHIRRHCIIOR(boolean var1) {
+      this.found = var1;
+   }
+
+   @Generated
+   public void RHCHRCCRRHORIOCIOHHCRHCHICRIHH(boolean var1) {
+      this.RORHOHHHIICOCCOHRRHOCCIIHCOIOH = var1;
+   }
+
+   @Generated
+   public void RCOCHOROICROOIRHRCRIOHIHCOCIII(boolean var1) {
+      this.HCROCHCORRHRHRRIOROCCCIHOHCRHC = var1;
+   }
+
+   @Generated
+   public void HCIHORIHHCOOORRIOHIHIICCRHHOHC(boolean var1) {
+      this.RROIRCCCOOHRIHIORICCRHRIRROIOH = var1;
+   }
+}

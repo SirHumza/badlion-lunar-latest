@@ -1,0 +1,7 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   float bridge$getSaturationLevel();
+
+   float bridge$getFoodLevel();
+}

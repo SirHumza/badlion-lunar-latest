@@ -1,0 +1,214 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.google.gson.annotations.SerializedName;
+import com.moonsworth.lunar.client.util.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO;
+import java.util.Map;
+import java.util.UUID;
+import lombok.Generated;
+
+@RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   String name;
+   @SerializedName("projectVersion")
+   int CHOCIIOCOHOIHOHRIHCCCCHHIHCOCO = 0;
+   @SerializedName("minecraftVersion")
+   String CRIIOOIHIOHHRRRHIOROOCHCHHCCCI;
+   @SerializedName("minecraftProtocolVersion")
+   int RCCOORIRRRIIOCICOIRHHORIHHRHHC;
+   @SerializedName("timeline")
+   UUID ICIIIOICCCOOICIHRHRHIHRCCCIOCI = null;
+   @SerializedName("mediaPool")
+   com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH CRIOCORROHRCRRCCIIHCIIOOIHCIOO = new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH();
+   @SerializedName("repository")
+   com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH ICRHOHIHRIORCIIRIHOCCHOCOHOCRO = new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH();
+   @SerializedName("externalMods")
+   Map<String, String> HRRHICCIIIOCOOCIOCRIOICROORIRI;
+
+   @Generated
+   public String getName() {
+      return this.name;
+   }
+
+   @Generated
+   public int ICRIROICOOCHIIHHOCROHRICCOCOII() {
+      return this.CHOCIIOCOHOIHOHRIHCCCCHHIHCOCO;
+   }
+
+   @Generated
+   public String OCOROCROIRCHIHIHHOOIRIIIRRCRHI() {
+      return this.CRIIOOIHIOHHRRRHIOROOCHCHHCCCI;
+   }
+
+   @Generated
+   public int HRIORHIHOOIHHOHRCOCHHRROOHRIHO() {
+      return this.RCCOORIRRRIIOCICOIRHHORIHHRHHC;
+   }
+
+   @Generated
+   public UUID HOIHIOHCORCCCROCHIHIORIHOHCRHR() {
+      return this.ICIIIOICCCOOICIHRHRHIHRCCCIOCI;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH HRCHIOCHOCOHHHHHIRHIHICOIIOROC() {
+      return this.CRIOCORROHRCRRCCIIHCIIOOIHCIOO;
+   }
+
+   @Generated
+   public com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH IHIIICICOOIOIHRRRRCRCOCCOCOOIH() {
+      return this.ICRHOHIHRIORCIIRIHOCCHOCOHOCRO;
+   }
+
+   @Generated
+   public Map<String, String> IHCRRRCCIIROIOCCOOHIIROOOIHICO() {
+      return this.HRRHICCIIIOCOOCIOCRIOICROORIRI;
+   }
+
+   @Generated
+   public void setName(String var1) {
+      this.name = var1;
+   }
+
+   @Generated
+   public void RHCHROORRHOOORICIHIOCRCOORCIRI(int var1) {
+      this.CHOCIIOCOHOIHOHRIHCCCCHHIHCOCO = var1;
+   }
+
+   @Generated
+   public void ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(String var1) {
+      this.CRIIOOIHIOHHRRRHIOROOCHCHHCCCI = var1;
+   }
+
+   @Generated
+   public void HIHCHCORCCRCOHCRROHOHOOCHOROCC(int var1) {
+      this.RCCOORIRRRIIOCICOIRHHORIHHRHHC = var1;
+   }
+
+   @Generated
+   public void RIROICHCRROROHCCROOCCCCOCHCCRI(UUID var1) {
+      this.ICIIIOICCCOOICIHRHRHIHRCCCIOCI = var1;
+   }
+
+   @Generated
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      this.CRIOCORROHRCRRCCIIHCIIOOIHCIOO = var1;
+   }
+
+   @Generated
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      this.ICRHOHIHRIORCIIRIHOCCHOCOHOCRO = var1;
+   }
+
+   @Generated
+   public void RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(Map<String, String> var1) {
+      this.HRRHICCIIIOCOOCIOCRIOICROORIRI = var1;
+   }
+
+   @Generated
+   @Override
+   public boolean equals(Object var1) {
+      if (var1 == this) {
+         return true;
+      } else if (!(var1 instanceof HHCCIRHCCCIIRHCROHIORHIRHHIORH var2)) {
+         return false;
+      } else {
+         if (!var2.canEqual(this)) {
+            return false;
+         }
+
+         if (this.ICRIROICOOCHIIHHOCROHRICCOCOII() != var2.ICRIROICOOCHIIHHOCROHRICCOCOII()) {
+            return false;
+         }
+
+         if (this.HRIORHIHOOIHHOHRCOCHHRROOHRIHO() != var2.HRIORHIHOOIHHOHRCOCHHRROOHRIHO()) {
+            return false;
+         }
+
+         String var3 = this.getName();
+         String var4 = var2.getName();
+         if (var3 == null ? var4 == null : var3.equals(var4)) {
+            String var5 = this.OCOROCROIRCHIHIHHOOIRIIIRRCRHI();
+            String var6 = var2.OCOROCROIRCHIHIHHOOIRIIIRRCRHI();
+            if (var5 == null ? var6 == null : var5.equals(var6)) {
+               UUID var7 = this.HOIHIOHCORCCCROCHIHIORIHOHCRHR();
+               UUID var8 = var2.HOIHIOHCORCCCROCHIHIORIHOHCRHR();
+               if (var7 == null ? var8 == null : var7.equals(var8)) {
+                  com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var9 = this.HRCHIOCHOCOHHHHHIRHIHICOIIOROC();
+                  com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var10 = var2.HRCHIOCHOCOHHHHHIRHIHICOIIOROC();
+                  if (var9 == null ? var10 == null : var9.equals(var10)) {
+                     com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var11 = this.IHIIICICOOIOIHRRRRCRCOCCOCOOIH();
+                     com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var12 = var2.IHIIICICOOIOIHRRRRCRCOCCOCOOIH();
+                     if (var11 == null ? var12 == null : var11.equals(var12)) {
+                        Map var13 = this.IHCRRRCCIIROIOCCOOHIIROOOIHICO();
+                        Map var14 = var2.IHCRRRCCIIROIOCCOOHIIROOOIHICO();
+                        return var13 == null ? var14 == null : var13.equals(var14);
+                     } else {
+                        return false;
+                     }
+                  } else {
+                     return false;
+                  }
+               } else {
+                  return false;
+               }
+            } else {
+               return false;
+            }
+         } else {
+            return false;
+         }
+      }
+   }
+
+   @Generated
+   protected boolean canEqual(Object var1) {
+      return var1 instanceof HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+   }
+
+   @Generated
+   @Override
+   public int hashCode() {
+      byte var1 = 59;
+      int var2 = 1;
+      var2 = var2 * 59 + this.ICRIROICOOCHIIHHOCROHRICCOCOII();
+      var2 = var2 * 59 + this.HRIORHIHOOIHHOHRCOCHHRROOHRIHO();
+      String var3 = this.getName();
+      var2 = var2 * 59 + (var3 == null ? 43 : var3.hashCode());
+      String var4 = this.OCOROCROIRCHIHIHHOOIRIIIRRCRHI();
+      var2 = var2 * 59 + (var4 == null ? 43 : var4.hashCode());
+      UUID var5 = this.HOIHIOHCORCCCROCHIHIORIHOHCRHR();
+      var2 = var2 * 59 + (var5 == null ? 43 : var5.hashCode());
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var6 = this.HRCHIOCHOCOHHHHHIRHIHICOIIOROC();
+      var2 = var2 * 59 + (var6 == null ? 43 : var6.hashCode());
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var7 = this.IHIIICICOOIOIHRRRRCRCOCCOCOOIH();
+      var2 = var2 * 59 + (var7 == null ? 43 : var7.hashCode());
+      Map var8 = this.IHCRRRCCIIROIOCCOOHIIROOOIHICO();
+      return var2 * 59 + (var8 == null ? 43 : var8.hashCode());
+   }
+
+   @Generated
+   @Override
+   public String toString() {
+      return "RewindProject(name="
+         + this.getName()
+         + ", projectVersion="
+         + this.ICRIROICOOCHIIHHOCROHRICCOCOII()
+         + ", minecraftVersion="
+         + this.OCOROCROIRCHIHIHHOOIRIIIRRCRHI()
+         + ", minecraftProtocolVersion="
+         + this.HRIORHIHOOIHHOHRCOCHHRROOHRIHO()
+         + ", selectedTimeline="
+         + this.HOIHIOHCORCCCROCHIHIORIHOHCRHR()
+         + ", mediaPool="
+         + this.HRCHIOCHOCOHHHHHIRHIHICOIIOROC()
+         + ", repository="
+         + this.IHIIICICOOIOIHRRRRCRCOCCOCOOIH()
+         + ", externalMods="
+         + this.IHCRRRCCIIROIOCCOOHIIROOOIHICO()
+         + ")";
+   }
+}

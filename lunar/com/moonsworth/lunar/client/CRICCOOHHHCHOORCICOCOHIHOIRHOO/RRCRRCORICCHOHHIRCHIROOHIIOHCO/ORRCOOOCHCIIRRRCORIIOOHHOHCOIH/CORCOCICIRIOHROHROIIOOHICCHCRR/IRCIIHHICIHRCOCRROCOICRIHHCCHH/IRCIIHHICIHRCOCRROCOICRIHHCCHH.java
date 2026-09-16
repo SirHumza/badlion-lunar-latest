@@ -1,0 +1,39 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import java.util.HashMap;
+import lombok.Generated;
+import org.joml.Vector3i;
+
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private HashMap<String, HashMap<String, IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH>> IHRHCRICHCIROIICCRCRCCHIORIRIR;
+
+   @Generated
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(HashMap<String, HashMap<String, IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH>> var1) {
+      this.IHRHCRICHCIROIICCRCRCCHIORIRIR = var1;
+   }
+
+   @Generated
+   public HashMap<String, HashMap<String, IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH>> RRRRCIIHORIRCIHCRORHCOCOIIRRIO() {
+      return this.IHRHCRICHCIROIICCRCRCCHIORIRIR;
+   }
+
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      private Vector3i IIOOHRRCIHOHCIHCOOIRRHHICORIRO;
+      private String message;
+
+      public String getMessage() {
+         return " Egg " + this.message + "!";
+      }
+
+      @Generated
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Vector3i var1, String var2) {
+         this.IIOOHRRCIHOHCIHCOOIRRHHICORIRO = var1;
+         this.message = var2;
+      }
+
+      @Generated
+      public Vector3i OICOOOCHCRRIRCCOOCCCOICHRCHHHO() {
+         return this.IIOOHRRCIHOHCIHCOOIRRHHICORIRO;
+      }
+   }
+}

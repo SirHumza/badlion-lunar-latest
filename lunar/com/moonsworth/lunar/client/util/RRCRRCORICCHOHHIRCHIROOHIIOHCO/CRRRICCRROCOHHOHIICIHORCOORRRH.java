@@ -1,0 +1,386 @@
+package com.moonsworth.lunar.client.util.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import com.moonsworth.lunar.lib.adventure.text.format.TextColor;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.Range;
+
+public interface CRRRICCRROCOHHOHIICIHORCOORRRH
+   extends com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   default boolean OOCOOIIHCHIHOIIOHOHHHHRHCIRHIR() {
+      return true;
+   }
+
+   @Override
+   default boolean RCRHHRIIHHRCRCIHHHCCRIIOCHCRCH() {
+      return false;
+   }
+
+   @Override
+   int getColor();
+
+   @Override
+   int OCOHORHCROHICRRIHCIHHRRCIHICRI(float var1);
+
+   default @Range(from = 0L, to = 255L) int getRed() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.OICIOHIRRIIOIHOOHOCHIIOHHIRCCO(this.getColor());
+   }
+
+   default @Range(from = 0L, to = 255L) int getGreen() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.IHHOOOHOIIOHRROCHCOOIIHHCOIHII(this.getColor());
+   }
+
+   default @Range(from = 0L, to = 255L) int getBlue() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.IHCOIHIICIIHOOIICCHHCRORHORHCI(this.getColor());
+   }
+
+   default @Range(from = 0L, to = 255L) int getAlpha() {
+      return this.OOCOOIIHCHIHOIIOHOHHHHRHCIRHIR() ? OCOHORHCROHICRRIHCIHHRRCIHICRI.HOHROOIORCHOIIOOIIHHIHRCOCHIRO(this.getColor()) : 255;
+   }
+
+   default @Range(from = 0L, to = 1L) float HCHICIRCOIRHRCROHIRCRRHIOICRIO() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.ROIOORIOHOHIOIHRHCOCCCCORROIRH(this.getColor());
+   }
+
+   default @Range(from = 0L, to = 1L) float RCCCCCCOOIIOOOORRHIHHRCHICIHRH() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.ORHRIOIOHHHCHOOCCHOICOCRIRICRR(this.getColor());
+   }
+
+   default @Range(from = 0L, to = 1L) float COHCIHHHOIHOCROIIRCIHHIHICRCHI() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.HRHRIHRROHHORROCHCOHICRROHRRIO(this.getColor());
+   }
+
+   default float[] IIRCRHRICROIRIIHRCICICIIORIOOH() {
+      return OCOHORHCROHICRRIHCIHHRRCIHICRI.ICOIOIRCHCIOCHCOHOHIOOCORIICRO(this.getColor());
+   }
+
+   default float IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4
+   ) {
+      float var5 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var2);
+      return this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3 - var5 / 2.0F, var4, true);
+   }
+
+   default float HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4
+   ) {
+      return this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, var4, false);
+   }
+
+   default float RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4,
+      boolean var5
+   ) {
+      float var6 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var2);
+      return this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3 - var6 / 2.0F, var4, var5);
+   }
+
+   default void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4,
+      boolean var5,
+      @Nullable OHHRIOHROOIHOROCIRHCHORIHRRRRI var6
+   ) {
+      if (var6 == null) {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, var4, var5);
+      } else {
+         float var7 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var2);
+         this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3 - var7 / 2.0F, var4, var5, var6);
+      }
+   }
+
+   default float CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4
+   ) {
+      return this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3, var4, false);
+   }
+
+   default float RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+      String var3,
+      float var4,
+      float var5
+   ) {
+      return this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, var4, var5, false);
+   }
+
+   default float IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4,
+      boolean var5
+   ) {
+      if (var2 == null) {
+         return var3;
+      }
+
+      var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+         var2,
+         var3,
+         var4,
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0 -> OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(var0, 4)),
+         var5
+      );
+      return var3 + IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var2);
+   }
+
+   default float RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      Component var2,
+      float var3,
+      float var4,
+      boolean var5
+   ) {
+      if (var2 == null) {
+         return var3;
+      }
+
+      var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+         var2,
+         var3,
+         var4,
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0 -> OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(var0, 4)),
+         var5
+      );
+      return var3 + IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var2);
+   }
+
+   default void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4,
+      boolean var5,
+      @Nullable OHHRIOHROOIHOROCIRHCHORIHRRRRI var6
+   ) {
+      if (var2 != null) {
+         if (var6 == null) {
+            this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1, var2, var3, var4, var5);
+         } else {
+            boolean var7 = this.RCRHHRIIHHRCRCIHHHCCRIIOCHCRCH();
+            if (this != var6) {
+               float var8 = var3;
+               char[] var9 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextWithoutFormattingCodes(
+                     var2
+                  )
+                  .toCharArray();
+
+               for (int var10 = 0; var10 < var9.length; var10++) {
+                  char var11 = var9[var10];
+                  String var12 = String.valueOf(var11);
+                  if (var10 == 0 || var10 == var9.length - 1) {
+                     var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                        IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+                        var12,
+                        var8,
+                        var4,
+                        OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(var6.CRHRHRIOIHRCHRIORHRRCHHIHCOCCC(var8 + var4), 4),
+                        var5
+                     );
+                     var8 += IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var12);
+                  } else if (var7) {
+                     var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                        IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+                        var12,
+                        var8,
+                        var4,
+                        OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(this.OCOHORHCROHICRRIHCIHHRRCIHICRI(var8 + var4), 4),
+                        var5
+                     );
+                     var8 += IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var12);
+                  } else {
+                     String var13 = var2.substring(1, var2.length() - 1);
+                     var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                        IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+                        var13,
+                        var8,
+                        var4,
+                        OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(this.OCOHORHCROHICRRIHCIHHRRCIHICRI(var8 + var4), 4),
+                        var5
+                     );
+                     var8 += IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var13);
+                     var10 += var9.length - 3;
+                  }
+               }
+            } else {
+               var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+                  var2,
+                  var3,
+                  var4,
+                  OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(this.OCOHORHCROHICRRIHCIHHRRCIHICRI(var3 + var4), 4),
+                  var5
+               );
+            }
+         }
+      }
+   }
+
+   default void HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      String var2,
+      float var3,
+      float var4,
+      boolean var5
+   ) {
+      if (var2 != null) {
+         if (this.RCRHHRIIHHRCRCIHHHCCRIIOCHCRCH()) {
+            float var6 = var3;
+
+            for (char var10 : com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextWithoutFormattingCodes(
+                  var2
+               )
+               .toCharArray()) {
+               String var11 = String.valueOf(var10);
+               var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+                  var11,
+                  var6,
+                  var4,
+                  this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0 -> OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(var0, 4)),
+                  var5
+               );
+               var6 += IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var11);
+            }
+         } else {
+            var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+               var2,
+               var3,
+               var4,
+               this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0 -> OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(var0, 4)),
+               var5
+            );
+         }
+      }
+   }
+
+   default float RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+      String var3,
+      float var4,
+      float var5,
+      boolean var6
+   ) {
+      if (var3 == null) {
+         return var4;
+      }
+
+      if (this.RCRHHRIIHHRCRCIHHHCCRIIOCHCRCH()) {
+         float var7 = var4;
+
+         for (char var11 : com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextWithoutFormattingCodes(
+               var3
+            )
+            .toCharArray()) {
+            var7 = var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, String.valueOf(var11), var7, var5, this.OCOHORHCROHICRRIHCIHHRRCIHICRI(var7 + var5), var6) + 1.0F;
+            if (var6) {
+               var7--;
+            }
+         }
+
+         return var7;
+      } else {
+         return var2.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var3, var4, var5, this.OCOHORHCROHICRRIHCIHHRRCIHICRI(var4 + var5), var6);
+      }
+   }
+
+   default float RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      float var3,
+      float var4,
+      boolean var5
+   ) {
+      var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR(),
+         var2,
+         var3,
+         var4,
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0 -> OCOHORHCROHICRRIHCIHHRRCIHICRI.IOCIIROIRCOHIRHHHROHCOOHIICIHI(var0, 4)),
+         var5
+      );
+      return var3 + IICCOOCHCHROORHHIIHROHCCRHRCOR.HRRIOIRCCHIICOOHHRCIHCCHCORICR().bridge$getStringWidth(var2);
+   }
+
+   default void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      float var2,
+      float var3,
+      float var4,
+      float var5,
+      boolean var6
+   ) {
+      if (var6) {
+         com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var1, var2 + 1.0F, var3 + 1.0F, var4, var5, this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(OCOHORHCROHICRRIHCIHHRRCIHICRI::RCRICHOCHHHCRCORROOIHCROOIICOC)
+         );
+      }
+
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1, var2, var3, var4, var5, this
+      );
+   }
+
+   default void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      float var2,
+      float var3,
+      float var4,
+      float var5
+   ) {
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1, var2, var3, var4, var5, this
+      );
+   }
+
+   default void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      float var3,
+      float var4,
+      float var5,
+      float var6,
+      float var7
+   ) {
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1, var3, var4, var5, var6, var7, this
+      );
+   }
+
+   static CRRRICCRROCOHHOHIICIHORCOORRRH OOHHOHICHIOCRRORCIHCRHRIOCHOOO(int var0) {
+      return new HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0);
+   }
+
+   static CRRRICCRROCOHHOHIICIHORCOORRRH CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var0
+   ) {
+      return HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0.getAdventureColor());
+   }
+
+   static CRRRICCRROCOHHOHIICIHORCOORRRH HRCHROOHRIHCRCRHRIIROCIRHOIRHH(TextColor var0) {
+      return OOHHOHICHIOCRRORCIHCRHRIOCHOOO(OCOHORHCROHICRRIHCIHHRRCIHICRI.HRHRORCIRICHCCCCCHICOOICIRHRIO(var0.value(), 255));
+   }
+}

@@ -1,0 +1,413 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IRRCCOICORICIHCHRHIHIHROIRHOCR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import java.util.Optional;
+import java.util.function.Consumer;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public abstract class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1, int var2, int var3, int var4, int var5);
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(float var1, float var2, float var3, float var4, int var5) {
+      if (var3 < var1) {
+         float var6 = var1;
+         var1 = var3;
+         var3 = var6;
+      }
+
+      if (var4 < var2) {
+         float var7 = var2;
+         var2 = var4;
+         var4 = var7;
+      }
+
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var1, var2);
+      this.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var3 - var1, var4 - var2);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(0, 0, 1, 1, var5);
+      this.pop();
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(int var1, int var2, int var3, int var4, int var5) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var1 + var3, var2 + var4, var5);
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(float var1, float var2, float var3, float var4, int var5) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var1 + var3, var2 + var4, var5);
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1, int var2, int var3, int var4, int var5, int var6);
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(float var1, float var2, float var3, float var4, int var5, int var6) {
+      if (var5 == var6) {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, var4, var5);
+      } else {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OCHRHCOIIRIOOCCRCROHOIHHIHIROI,
+            null,
+            var1,
+            var2,
+            var3 - var1,
+            var4 - var2,
+            var6x -> {
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var3, var2, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var5).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var5).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var4, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var6).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var3, var2, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var5).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var4, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var6).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var3, var4, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var6).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+            }
+         );
+      }
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(int var1, int var2, int var3, int var4, int var5, int var6) {
+      if (var5 == var6) {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, var4, var5);
+      } else {
+         this.IRCIIHHICIHRCOCRROCOICRIHHCCHH((float)var1, (float)var2, (float)var3, (float)var4, var5, var6);
+      }
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(float var1, float var2, float var3, float var4, int var5, int var6) {
+      if (var5 == var6) {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, var4, var5);
+      } else {
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OCHRHCOIIRIOOCCRCROHOIHHIHIROI,
+            null,
+            var1,
+            var2,
+            var3 - var1,
+            var4 - var2,
+            var6x -> {
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var3, var2, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var6).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var5).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var4, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var5).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var3, var2, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var6).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var4, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var5).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+               var6x.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var3, var4, 0.0).IHIRRIIORRHORHRORIHOROIRCORCOO(var6).RHCRHHIIOHCIRCIIHCHCHRHRRHRHCC();
+            }
+         );
+      }
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      IRRCCOICORICIHCHRHIHIHROIRHOCR var1,
+      @Nullable RCIROOOOICRHCCRRCIORHHIRCOIIIC var2,
+      double var3,
+      double var5,
+      double var7,
+      double var9,
+      Consumer<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.CRRRICCRROCOHHOHIICIHORCOORRRH> var11
+   );
+
+   public abstract void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      Component var2,
+      int var3,
+      int var4,
+      int var5,
+      boolean var6
+   );
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      Component var2,
+      float var3,
+      float var4,
+      int var5,
+      boolean var6
+   ) {
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3, var4);
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, 0, 0, var5, var6);
+      this.pop();
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      int var3,
+      int var4,
+      int var5,
+      boolean var6
+   );
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      float var3,
+      float var4,
+      int var5,
+      boolean var6
+   ) {
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3, var4);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, 0, 0, var5, var6);
+      this.pop();
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      Component var2,
+      int var3,
+      int var4,
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var5,
+      boolean var6
+   );
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      Component var2,
+      float var3,
+      float var4,
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var5,
+      boolean var6
+   ) {
+      int var7 = (int)var3;
+      int var8 = (int)var4;
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3 - var7, var4 - var8);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var7, var8, var5, var6);
+      this.pop();
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      int var3,
+      int var4,
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var5,
+      boolean var6
+   );
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      float var3,
+      float var4,
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var5,
+      boolean var6
+   ) {
+      int var7 = (int)var3;
+      int var8 = (int)var4;
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3 - var7, var4 - var8);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var7, var8, var5, var6);
+      this.pop();
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      int var3,
+      int var4,
+      int var5,
+      boolean var6
+   );
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      float var3,
+      float var4,
+      int var5,
+      boolean var6
+   ) {
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3, var4);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, 0, 0, var5, var6);
+      this.pop();
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      int var3,
+      int var4,
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var5,
+      boolean var6
+   );
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      float var3,
+      float var4,
+      RRCRRCORICCHOHHIRCHIROOHIIOHCO var5,
+      boolean var6
+   ) {
+      int var7 = (int)var3;
+      int var8 = (int)var4;
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3 - var7, var4 - var8);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var7, var8, var5, var6);
+      this.pop();
+   }
+
+   public abstract void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      int var3,
+      int var4,
+      int var5,
+      boolean var6
+   );
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      float var3,
+      float var4,
+      int var5,
+      boolean var6
+   ) {
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var3, var4);
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, 0, 0, var5, var6);
+      this.pop();
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, int var2, int var3, int var4, int var5, int var6);
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      @NotNull RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, float var2, float var3, float var4, float var5, float var6, float var7, float var8, float var9, int var10
+   );
+
+   public abstract void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      @NotNull RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, float var2, float var3, float var4, float var5, float var6, float var7, float var8, float var9, int var10
+   );
+
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      Component var2,
+      int var3,
+      int var4,
+      int var5,
+      boolean var6
+   ) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3 - var1.bridge$getStringWidth(var2) / 2.0F, var4, var5, var6);
+   }
+
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      int var3,
+      int var4,
+      int var5,
+      boolean var6
+   ) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3 - var1.bridge$getStringWidth(var2) / 2.0F, var4, var5, var6);
+   }
+
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      float var3,
+      float var4,
+      int var5,
+      boolean var6
+   ) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3 - var1.bridge$getStringWidth(var2) / 2.0F, var4, var5, var6);
+   }
+
+   public void CRRRICCRROCOHHOHIICIHORCOORRRH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var1,
+      String var2,
+      int var3,
+      int var4,
+      int var5,
+      boolean var6
+   ) {
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3 - var1.bridge$getStringWidth(var2) / 2.0F, var4, var5, var6);
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(float var1, float var2, float var3, float var4, float var5, int var6);
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(float var1, int var2, Consumer<RIOOCHICIHRHOHCCCCCHOCCCOHCRHI> var3);
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(float var1, float var2, int var3, int var4, int var5, int[] var6, int var7);
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      IIRHCHHOICHRICOOCRORCCIOOIHOIR var1,
+      int var2,
+      int var3,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO var4
+   ) {
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, false);
+   }
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IIRHCHHOICHRICOOCRORCCIOOIHOIR var1, int var2, int var3, boolean var4);
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      IIRHCHHOICHRICOOCRORCCIOOIHOIR var1,
+      int var2,
+      int var3,
+      boolean var4,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO var5
+   );
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      IIRHCHHOICHRICOOCRORCCIOOIHOIR var1,
+      float var2,
+      float var3,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RRCRRCORICCHOHHIRCHIROOHIIOHCO var4
+   ) {
+      this.push();
+      this.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var2, var3);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, 0, 0, var4);
+      this.pop();
+   }
+
+   public abstract void push();
+
+   public abstract void pop();
+
+   public abstract void CRICCOOHHHCHOORCICOCOHIHOIRHOO(float var1, float var2, float var3);
+
+   public void OOROOCCIRCCRHOIOIORIHCHHOOCCOR(float var1, float var2) {
+      this.CRICCOOHHHCHOORCICOCOHIHOIRHOO(var1, var2, 0.0F);
+   }
+
+   public abstract void scale(float var1, float var2, float var3);
+
+   public void HRCHROOHRIHCRCRHRIIROCIRHOIRHH(float var1, float var2) {
+      this.scale(var1, var2, 1.0F);
+   }
+
+   public abstract void HICHRCOHCCRHOHCICOOCHOIHCCHIRI(float var1);
+
+   public void IIHRRHORCRCROCHHOHORCHCROCIHRO(float var1) {
+      this.HICHRCOHCCRHOHCICOOCHOIHCCHIRI((float)Math.toRadians(var1));
+   }
+
+   public float HOHIHCIHIHRCOOIOCOHIOHROHHIOHR() {
+      return com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IHRCROHROHOCCHIHOHRROHOCOIRHIO()
+         .bridge$getTimer()
+         .RIRIOIIHRIRRHRROHRORICOHOIOHHH();
+   }
+
+   public abstract void IRCIIHHICIHRCOCRROCOICRIHHCCHH(Consumer<HHCCIRHCCCIIRHCROHIORHIRHHIORH> var1);
+
+   public abstract void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 30) Consumer<CRRRICCRROCOHHOHIICIHORCOORRRH> var1
+   );
+
+   public abstract HHCCIRHCCCIIRHCROHIORHIRHHIORH IOOHRICRRRCHOIROCOIORIHCRHIHRH();
+
+   public abstract CRRRICCRROCOHHOHIICIHORCOORRRH HRROHICIHHOORRCHCOROORHCHRRHRO();
+
+   public abstract OCOHORHCROHICRRIHCIHHRRCIHICRI RHCCOIHOHRIHRRIIRHICRRROCICORR();
+
+   public abstract Optional<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IIRHCHHOICHRICOOCRORCCIOOIHOIR> OHIROCOCCHORRCCHIOICOCOHRHORCC();
+
+   public boolean OCICRRCHRIRORHIRHIHOIRCCIHCHRH() {
+      return this instanceof HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+   }
+}

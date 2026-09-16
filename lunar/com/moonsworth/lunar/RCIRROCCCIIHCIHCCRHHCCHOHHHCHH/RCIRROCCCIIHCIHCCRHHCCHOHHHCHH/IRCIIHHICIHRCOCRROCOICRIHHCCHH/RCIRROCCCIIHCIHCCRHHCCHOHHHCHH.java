@@ -1,0 +1,64 @@
+package com.moonsworth.lunar.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+import java.net.URI;
+import java.util.List;
+import java.util.Map;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private final String HHOIOCRIRIOCOIHHOOHICIOIIOHCOR;
+   private final String IOOCHIRHCRICHIHORCRCHCRHCICROH;
+   private String RHCHROORRHOOORICIHIOCRCOORCIRI;
+   private String HIHCHCORCCRCOHCRROHOHOOCHOROCC;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, String var2) {
+      this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR = var1;
+      this.IOOCHIRHCRICHIHORCRCHCRHCICROH = var2;
+   }
+
+   public String getLocation() {
+      return this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR;
+   }
+
+   public String RHRIIOOOCRHIIOORCOCRCHRCCRRCIH() {
+      return this.IOOCHIRHCRICHIHORCRCHCRHCICROH;
+   }
+
+   public String RRHOOOORORHHOOIHRCCHIIHHIIIIOH() {
+      return this.RHCHROORRHOOORICIHIOCRCOORCIRI;
+   }
+
+   public void CRICCOOHHHCHOORCICOCOHIHOIRHOO(String var1) {
+      this.RHCHROORRHOOORICIHIOCRCOORCIRI = var1;
+   }
+
+   public String HIHHOCRHHRORRHHRORRRIIHHORIHOC() {
+      return this.HIHCHCORCCRCOHCRROHOHOOCHOROCC;
+   }
+
+   public void HICHRCOHCCRHOHCICOOCHOIHCCHIRI(String var1) {
+      this.HIHCHCORCCRCOHCRROHOHOOCHOROCC = var1;
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      List<OOROOCCIRCCRHOIOIORIHCHHOOCCOR> var1, Map<String, String> var2, Map<String, String> var3, String var4, String var5, URI var6
+   ) {
+      if (this.RHCHROORRHOOORICIHIOCRCOORCIRI != null) {
+         String var7;
+         if (this.HIHCHCORCCRCOHCRROHOHOOCHOROCC != null) {
+            var7 = this.HIHCHCORCCRCOHCRROHOHOOCHOROCC + " " + this.RHCHROORRHOOORICIHIOCRCOORCIRI;
+         } else {
+            var7 = this.RHCHROORRHOOORICIHIOCRCOORCIRI;
+         }
+
+         if ("query".equals(this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR)) {
+            var1.add(new OOROOCCIRCCRHOIOIORIHCHHOOCCOR(this.IOOCHIRHCRICHIHORCRCHCRHCICROH, var7));
+         } else if ("header".equals(this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR)) {
+            var2.put(this.IOOCHIRHCRICHIHORCRCHCRHCICROH, var7);
+         } else if ("cookie".equals(this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR)) {
+            var3.put(this.IOOCHIRHCRICHIHORCRCHCRHCICROH, var7);
+         }
+      }
+   }
+}

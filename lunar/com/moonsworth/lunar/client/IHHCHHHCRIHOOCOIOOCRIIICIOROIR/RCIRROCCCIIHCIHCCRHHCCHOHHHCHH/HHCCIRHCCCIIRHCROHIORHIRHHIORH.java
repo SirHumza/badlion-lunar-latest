@@ -1,0 +1,56 @@
+package com.moonsworth.lunar.client.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import java.util.Optional;
+import java.util.function.Predicate;
+import lombok.Generated;
+import org.jetbrains.annotations.Nullable;
+
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH<T> {
+   private IRCIIHHICIHRCOCRROCOICRIHHCCHH CIRRHOHICCHRORRHCRIIHHHRIIIRII;
+   @Nullable
+   private T HOCIHRRRCOORHOROCHCRRCCORHCOIH;
+   @Nullable
+   private Predicate<String> OCCRCHOCCHOORRRHHIOROHROOCCIIC;
+   @Nullable
+   private T OCICHHIIHCICRICROCIHHOCHOCIIHH = (T)null;
+
+   public Optional<T> RROOOOIIOCRRHIOHCHRIOIIIHCHCCH() {
+      return Optional.ofNullable(this.HOCIHRRRCOORHOROCHCRRCCORHCOIH);
+   }
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, T var2) {
+      this.CIRRHOHICCHRORRHCRIIHHHRIIIRII = var1;
+      this.HOCIHRRRCOORHOROCHCRRCCORHCOIH = (T)var2;
+   }
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(@Nullable Predicate<String> var1, T var2) {
+      if (var1 == null) {
+         this.OCCRCHOCCHOORRRHHIOROHROOCCIIC = null;
+         this.OCICHHIIHCICRICROCIHHOCHOCIIHH = (T)var2;
+      } else {
+         this.OCCRCHOCCHOORRRHHIOROHROOCCIIC = this.OCCRCHOCCHOORRRHHIOROHROOCCIIC == null ? var1 : this.OCCRCHOCCHOORRRHHIOROHROOCCIIC.or(var1);
+         this.OCICHHIIHCICRICROCIHHOCHOCIIHH = (T)var2;
+      }
+   }
+
+   public boolean test(@Nullable String var1) {
+      return this.OCCRCHOCCHOORRRHHIOROHROOCCIIC != null && this.OCCRCHOCCHOORRRHHIOROHROOCCIIC.test(var1);
+   }
+
+   public boolean CHRRHOORROCHRCRHOCOHOCRHRHHHCO() {
+      this.HOCIHRRRCOORHOROCHCRRCCORHCOIH = null;
+      this.CIRRHOHICCHRORRHCRIIHHHRIIIRII = null;
+      return this.OCCRCHOCCHOORRRHHIOROHROOCCIIC == null;
+   }
+
+   @Generated
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH CCHHHHIHIRHHICOIORIIIOIICHHICH() {
+      return this.CIRRHOHICCHRORRHCRIIHHHRIIIRII;
+   }
+
+   @Nullable
+   @Generated
+   public T ICIIIHCHIRORRHIHHHIHRRCOICHROO() {
+      return this.OCICHHIIHCICRICROCIHHOCHOCIIHH;
+   }
+}

@@ -1,0 +1,115 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HICRRICCHCCROOHHCHOCOCCHOIHHOC;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.IOHHOIIOCRHCHHCRORICCOHOHROOIH;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO;
+import com.moonsworth.lunar.client.util.OIHCOHRCICCCRHRCROOCIOIRRHHHIH;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import com.moonsworth.lunar.lib.adventure.text.TextComponent;
+import com.moonsworth.lunar.lib.adventure.text.format.NamedTextColor;
+import java.util.List;
+import java.util.Random;
+
+public class IIHRRHORCRCROCHHOHORCHCROCIHRO extends com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private static final String[] OHIICCIHHIROIICCCCOOICHIHHCCOO = new String[]{
+      "Ancient",
+      "Cursed",
+      "Mythic",
+      "Glistening",
+      "Forgotten",
+      "Echoing",
+      "Stoic",
+      "Ravenous",
+      "Soulbound",
+      "Eldritch",
+      "Resplendent",
+      "Ironclad",
+      "Slumbering",
+      "Voidtouched",
+      "Verdant"
+   };
+   private static final String[] HOOIOIORCRRIRRIIHIROROIORRIRIH = new String[]{
+      "Strength", "Crit Damage", "Ability Damage", "Magic Find", "Pet Luck", "Sea Creature Chance", "Intelligence", "Speed", "Mining Speed", "Foraging Fortune"
+   };
+   private static final NamedTextColor[] IOICICICICOHHIOIHCCCCHRRRIOOOO = new NamedTextColor[]{
+      NamedTextColor.GRAY, NamedTextColor.DARK_GRAY, NamedTextColor.GOLD, NamedTextColor.AQUA, NamedTextColor.LIGHT_PURPLE
+   };
+   private final RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO IHCIHRCIIOHORCRCROCCRHOCRIIHRC = IOHHOIIOCRHCHHCRORICCOHOHROOIH.ICHOCHHROIHCROICCIRIHHCHRHROCO(
+         "debugRandomLoreLineCount"
+      )
+      .RCIICICHIIRIIRHHROCOOOHRROOIIC(3)
+      .OCIROOIHIHRHOCCHIIIROOCRIIOCRR(1, 10)
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+
+   public IIHRRHORCRCROCHHOHORCHCROCIHRO(
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      super(false);
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         HICRRICCHCCROOHHCHOCOCCHOIHHOC.CORCICHOCCRIHORROHIOCRROCCIICO,
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.CRRRICCRROCOHHOHIICIHORCOORRRH.CRRRICCRROCOHHOHIICIHORCOORRRH(var1)
+      );
+      this.handle(
+         com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class,
+         this::RRCRRCORICCHOHHIRCHIROOHIIOHCO
+      );
+   }
+
+   @OIHCOHRCICCCRHRCROOCIOIRRHHHIH
+   @Override
+   public String getId() {
+      return "SKYBLOCK_DEBUG_RANDOM_LORE";
+   }
+
+   @Override
+   protected com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI ORIRHOHRHHROCHHRRIOOCRIHRIIIOC() {
+      return com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIICCCRRHHCHRRHRIRCHOICCHROHCR()
+         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCOCHOCIRORHHORHCROHOIOCRCHIO,
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CCCIRORHIRRORROOOOCCHCRIORHOIC
+         )
+         .COOOROCOHIRRRRIOORRCRCHOCIHRIR()
+         .RRCRRCORICCHOHHIRCHIROOHIIOHCO(this);
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      var1.CRRRICCRROCOHHOHIICIHORCOORRRH(this.IHCIHRCIIOHORCRCROCCRHOCRIIHRC);
+   }
+
+   private void RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR var2 = var1.IIIOOICOHRRCRCCCROHHOOIORICICH()
+         .orElse(null);
+      long var3 = var2 == null ? 0L : var2.bridge$getDisplayName().hashCode();
+      Random var5 = new Random(var3);
+      int var6 = this.IHCIHRCIIOHORCRCROCCRHOCRIIHRC.get();
+      List var7 = var1.ORCRIORCRRCOIOHOIRRHIRHCCRRIII();
+
+      for (int var8 = 0; var8 < var6; var8++) {
+         Component var9 = this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var5);
+         var7.add(
+            (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRRIHROCORIOOCHHCHCHOHCIOHHRRI()
+               .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var9)
+         );
+      }
+
+      var1.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO(var7);
+   }
+
+   private Component IRCIIHHICIHRCOCRROCOICRIHHCCHH(Random var1) {
+      String var2 = OHIICCIHHIROIICCCCOOICHIHHCCOO[var1.nextInt(OHIICCIHHIROIICCCCOOICHIHHCCOO.length)];
+      String var3 = HOOIOIORCRRIRRIIHIROROIORRIRIH[var1.nextInt(HOOIOIORCRRIRRIIHIROROIORRIRIH.length)];
+      int var4 = var1.nextInt(100) + 1;
+      NamedTextColor var5 = IOICICICICOHHIOIHCCCCHRRRIOOOO[var1.nextInt(IOICICICICOHHIOIHCCCCHRRRIOOOO.length)];
+      return ((TextComponent)((TextComponent)((TextComponent)((TextComponent)Component.text("[debug] ", NamedTextColor.DARK_GRAY)
+                     .append(Component.text(var2, var5)))
+                  .append(Component.text(" ", NamedTextColor.GRAY)))
+               .append(Component.text(var3, NamedTextColor.GRAY)))
+            .append(Component.text(": ", NamedTextColor.GRAY)))
+         .append(Component.text("+" + var4, NamedTextColor.GREEN));
+   }
+}

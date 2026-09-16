@@ -1,0 +1,30 @@
+package com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+
+import lombok.Generated;
+
+public class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI extends com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private int CRHOHORRIRRORCCCCRICOICIRRRCRI;
+
+   public int RRROCHOCCHHOICRCHIHHHHOOHOCHHR() {
+      int var1 = this.CRHOHORRIRRORCCCCRICOICIRRRCRI + 1;
+      if (var1 > 2) {
+         var1 = 0;
+      }
+
+      return var1;
+   }
+
+   @Generated
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(int var1) {
+      this.CRHOHORRIRRORCCCCRICOICIRRRCRI = var1;
+   }
+
+   @Generated
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI() {
+   }
+
+   @Generated
+   public int OICICCOOCCCHROORIHCCHHRCIOICHC() {
+      return this.CRHOHORRIRRORCCCCRICOICIRRRCRI;
+   }
+}

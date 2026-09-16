@@ -1,0 +1,53 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.google.gson.annotations.SerializedName;
+import java.util.Set;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public record RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   @SerializedName("teams")
+   @NotNull
+   private final Set<IRCIIHHICIHRCOCRROCOICRIHHCCHH> HHIOIHICICCOROICCHRCIIRCRCIICR;
+   @SerializedName("game_version")
+   private final int IHHIIRCORIICCIIHOHRRHCCIHOCHHC;
+   @SerializedName("dimension")
+   private final int dimension;
+   @SerializedName("server")
+   @Nullable
+   private final String RORROOCIRRIIRHRICOCIOIIRIIRHRI;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(@NotNull Set<IRCIIHHICIHRCOCRROCOICRIHHCCHH> var1, int var2, int var3, @Nullable String var4) {
+      this.HHIOIHICICCOROICCHRCIIRCRCIICR = var1;
+      this.IHHIIRCORIICCIIHOHRRHCCIHOCHHC = var2;
+      this.dimension = var3;
+      this.RORROOCIRRIIRHRICOCIOIIRIIRHRI = var4;
+   }
+
+   public String IOHOOIOHCHICOCHIICHCICCOHRCIII() {
+      return com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICIRHOHCHICCRORCIRIICOOORHRC
+         .toJson(this);
+   }
+
+   public static RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RRICRRCHRHCCOOHCHHCRCCIRRICRHO(String var0) {
+      return com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IOHHOIIOCRHCHHCRORICCOHOHROOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICIRHOHCHICCRORCIRIICOOORHRC
+         .fromJson(var0, RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class);
+   }
+
+   @SerializedName("teams")
+   @NotNull
+   public Set<IRCIIHHICIHRCOCRROCOICRIHHCCHH> CHRRHRHRIROHIHRRCCHRIHHCIHIIRO() {
+      return this.HHIOIHICICCOROICCHRCIIRCRCIICR;
+   }
+
+   @SerializedName("game_version")
+   public int HOHIIROCCIIOOIOCHRHROIOICOIHCH() {
+      return this.IHHIIRCORIICCIIHOHRRHCCIHOCHHC;
+   }
+
+   @SerializedName("server")
+   @Nullable
+   public String IIOHHORCHRCRCHIICIORICHIHRRHIC() {
+      return this.RORROOCIRRIIRHRICOCIOIIRIIRHRI;
+   }
+}

@@ -1,0 +1,179 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+import com.mojang.authlib.GameProfile;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import java.util.Optional;
+import org.jetbrains.annotations.Nullable;
+
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   extends CORCOCICIRIOHROHROIIOOHICCHCRR,
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   @Nullable
+   RCIROOOOICRHCCRRCIORHHIRCOIIIC bridge$getServerSkinTexture();
+
+   GameProfile bridge$getGameProfile();
+
+   CRRRICCRROCOHHOHIICIHORCOORRRH bridge$getPlayerCapabilities();
+
+   void bridge$addChatMessage(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   );
+
+   default void HHCCIRHCCCIIRHCROHIORHIRHHIORH(Component var1) {
+      this.bridge$addChatMessage(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.asBridge(var1)
+      );
+   }
+
+   boolean bridge$isBlocking();
+
+   IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$getInventory();
+
+   void bridge$openInventory();
+
+   IIRHCHHOICHRICOOCRORCCIOOIHOIR bridge$getCurrentEquippedItem();
+
+   int bridge$getCurrentEquippedItemIndex();
+
+   void bridge$setCurrentEquippedItemIndex(int var1);
+
+   boolean bridge$isSprinting();
+
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH bridge$getFoodStats();
+
+   void bridge$preparePlayerToSpawn();
+
+   @Override
+   default com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$getHeadItem() {
+      return this.bridge$getArmor(IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HEAD);
+   }
+
+   @Override
+   default IIRHCHHOICHRICOOCRORCCIOOIHOIR bridge$getChestItem() {
+      return (IIRHCHHOICHRICOOCRORCCIOOIHOIR)this.bridge$getArmor(IHHCHHHCRIHOOCOIOOCRIIICIOROIR.CHEST);
+   }
+
+   @Override
+   default IIRHCHHOICHRICOOCRORCCIOOIHOIR bridge$getLegsItem() {
+      return (IIRHCHHOICHRICOOCRORCCIOOIHOIR)this.bridge$getArmor(IHHCHHHCRIHOOCOIOOCRIIICIOROIR.LEGS);
+   }
+
+   @Override
+   default IIRHCHHOICHRICOOCRORCCIOOIHOIR bridge$getFeetItem() {
+      return (IIRHCHHOICHRICOOCRORCCIOOIHOIR)this.bridge$getArmor(IHHCHHHCRIHOOCOIOOCRIIICIOROIR.FEET);
+   }
+
+   default boolean bridge$isModelPartShown(RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+      return true;
+   }
+
+   @Override
+   default boolean bridge$showHat() {
+      return this.bridge$isModelPartShown(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOOOCHIHOOCHCCIHHRRICIRIOHOCRO().RICCIICHROHORRRHRRRORICOIIRIHO()
+      );
+   }
+
+   @Override
+   default boolean bridge$showJacket() {
+      return this.bridge$isModelPartShown(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOOOCHIHOOCHCCIHHRRICIRIOHOCRO().OCRIIICORRROHHHROCRRORCCRHIICC()
+      );
+   }
+
+   @Override
+   default boolean bridge$showLeftPants() {
+      return this.bridge$isModelPartShown(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOOOCHIHOOCHCCIHHRRICIRIOHOCRO().CHHCOORRHCIOHROHIHRHOCOHOHCRIH()
+      );
+   }
+
+   @Override
+   default boolean bridge$showRightPants() {
+      return this.bridge$isModelPartShown(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOOOCHIHOOCHCCIHHRRICIRIOHOCRO().RIOOHRIICCHHHIOCHHRCCHIRHHHORC()
+      );
+   }
+
+   @Override
+   default boolean bridge$showLeftSleeve() {
+      return this.bridge$isModelPartShown(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOOOCHIHOOCHCCIHHRRICIRIOHOCRO().IIRHHRRRCOHHOOHIIOOIOICROORORC()
+      );
+   }
+
+   @Override
+   default boolean bridge$showRightSleeve() {
+      return this.bridge$isModelPartShown(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOOOCHIHOOCHCCIHHRRICIRIOHOCRO().OHCCRIOOIICRHRIRROOOORROCRHIHR()
+      );
+   }
+
+   @Override
+   default boolean bridge$showCape() {
+      return this.bridge$isModelPartShown(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOOOCHIHOOCHCCIHHRRICIRIOHOCRO().IHICIORCCHIOORROOIROHHCIRCCIIC()
+      );
+   }
+
+   float bridge$getItemProgress();
+
+   int bridge$getItemInUseCount();
+
+   int bridge$getTicksUsingItem();
+
+   float bridge$getBedOrientationInDegrees();
+
+   void bridge$setFlyToggleTimer(int var1);
+
+   double bridge$getMovementSpeedAttribute();
+
+   double bridge$getAttackDamageAttribute();
+
+   Optional<IIRHCHHOICHRICOOCRORCCIOOIHOIR> bridge$getItemInUse();
+
+   int bridge$getItemInUseDuration();
+
+   boolean bridge$canEat(boolean var1);
+
+   boolean bridge$isFlying();
+
+   boolean bridge$isJumping();
+
+   double bridge$blockInteractionRange();
+
+   double bridge$entityInteractionRange();
+
+   default double bridge$entityAttackRange() {
+      return this.bridge$entityInteractionRange();
+   }
+
+   @Override
+   default com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH bridge$getPlayerType() {
+      if (this.bridge$isDummyMannequin()) {
+         return com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DUMMY_MANNEQUIN;
+      } else if (this.bridge$isDummySelf()) {
+         return com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DUMMY_SELF;
+      } else {
+         return this.bridge$isSelf()
+            ? com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.SELF
+            : com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OTHER;
+      }
+   }
+
+   void bridge$setUseItem(IIRHCHHOICHRICOOCRORCCIOOIHOIR var1);
+
+   void bridge$setUseItemRemaining(int var1);
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 5)
+   @Override
+   boolean bridge$isMainHandSwapped();
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 28)
+   default void bridge$setClientLoaded(boolean var1) {
+   }
+}

@@ -1,0 +1,63 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRHHOOCRCOHHRHOOOCHCROOHIOOCOH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRHHOOCRCOHHRHOOOCHCROOHIOOCOH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import org.joml.Vector3d;
+import org.joml.Vector3dc;
+
+public final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      OCOHORHCROHICRRIHCIHHRRCIHICRI var1,
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRHHOOCRCOHHRHOOOCHCROOHIOOCOH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2
+   ) {
+      if (var2.RCHOIRHRCOOCIOCROHRCCRIIHCHRHI().ORCOCHRRIORRRCCROHIRIHHCCROCHO() instanceof RRCRRCORICCHOHHIRCHIROOHIIOHCO var4) {
+         int var5 = var4.getPoints().size();
+         if (var5 >= 2) {
+            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6 = IICCOOCHCHROORHHIIHROHCCRHRCOR.IHRHHIOIIICOROOORIOHCIROIRCOHH();
+            if (var6 != null) {
+               var1.push();
+               var1.translate(-var6.bridge$renderPosX(), -var6.bridge$renderPosY(), -var6.bridge$renderPosZ());
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var7;
+               if (var1.OOICHHIHHIHROCCRRRIIIIRIRICCIH()) {
+                  var7 = var1.OCRIHHORCRCHOCRRORHIIRHOCCCIIH().RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(1.0F, true);
+               } else {
+                  var7 = var1.IRCIIHHICIHRCOCRROCOICRIHHCCHH(1.0F);
+               }
+
+               var1.HHCCIRHCCCIIRHCROHIORHIRHHIORH(1.0F, 1.0F, 1.0F, 1.0F);
+               Vector3dc var8 = var4.getPoints().get(0);
+               Vector3dc var9 = var4.getPoints().get(1);
+               Vector3d var10 = var8.min(var9, new Vector3d());
+               Vector3d var11 = var8.max(var9, new Vector3d()).add(1.0, 1.0, 1.0);
+               RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var7, var2.OOCRCOCHORIOIOCOIHOCOHIOIIHROC(), var10, var11);
+               var7.end();
+               var1.pop();
+            }
+         }
+      }
+   }
+
+   public static void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var0,
+      OHHRIOHROOIHOROCIRHCHORIHRRRRI var1,
+      Vector3dc var2,
+      Vector3dc var3
+   ) {
+      var0.CORCOCICIRIOHROHROIIOOHICCHCRR(var1.OCOHORHCROHICRRIHCIHHRRCIHICRI(0.0F));
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2.x(), var2.y(), var2.z(), var3.x(), var2.y(), var2.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3.x(), var2.y(), var2.z(), var3.x(), var2.y(), var3.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2.x(), var2.y(), var3.z(), var2.x(), var2.y(), var2.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3.x(), var2.y(), var3.z(), var2.x(), var2.y(), var3.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2.x(), var3.y(), var2.z(), var3.x(), var3.y(), var2.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3.x(), var3.y(), var2.z(), var3.x(), var3.y(), var3.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2.x(), var3.y(), var3.z(), var2.x(), var3.y(), var2.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3.x(), var3.y(), var3.z(), var2.x(), var3.y(), var3.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2.x(), var2.y(), var2.z(), var2.x(), var3.y(), var2.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3.x(), var2.y(), var2.z(), var3.x(), var3.y(), var2.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3.x(), var2.y(), var3.z(), var3.x(), var3.y(), var3.z());
+      var0.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2.x(), var2.y(), var3.z(), var2.x(), var3.y(), var3.z());
+   }
+}

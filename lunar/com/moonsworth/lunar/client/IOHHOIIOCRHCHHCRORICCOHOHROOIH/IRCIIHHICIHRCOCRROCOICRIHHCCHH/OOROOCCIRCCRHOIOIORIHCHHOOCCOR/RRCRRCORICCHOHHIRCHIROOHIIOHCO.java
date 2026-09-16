@@ -1,0 +1,49 @@
+package com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import java.util.Set;
+import lombok.Generated;
+import org.jetbrains.annotations.Nullable;
+
+class RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   private final Set<Object> COCHOICCRHCCHHHHHRCIHIHHOHHCOC;
+
+   @Nullable
+   JsonElement HORCRCOHHCOHIOOHIHROROICHOOIRO() {
+      JsonArray var1 = new JsonArray();
+
+      for (Object var3 : this.COCHOICCRHCCHHHHHRCIHIHHOHHCOC) {
+         var1.add(HHCCIRHCCCIIRHCROHIORHIRHHIORH.CCRHOICIRORRHOOOCIHHHHCHCICHOH(var3));
+      }
+
+      return var1;
+   }
+
+   static HRCHROOHRIHCRCRHRIIROCIRHOIRHH ORHIOICIOCRRHOOCOHRORIHICHRCRR(final Set<Object> var0) {
+      return new HRCHROOHRIHCRCRHRIIROCIRHOIRHH() {
+         private final RRCRRCORICCHOHHIRCHIROOHIIOHCO OCCOCHCHROCCCRHIHCORCHROCHRIRR = new RRCRRCORICCHOHHIRCHIROOHIIOHCO(var0);
+
+         @Override
+         public JsonElement provide() {
+            return this.OCCOCHCHROCCCRHIHCORCHROCHRIRR.HORCRCOHHCOHIOOHIHROROICHOOIRO();
+         }
+      };
+   }
+
+   static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO(final Set<Object> var0) {
+      return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI() {
+         private final RRCRRCORICCHOHHIRCHIROOHIIOHCO IICIROOHRIOIRIIIIHOOCHICHIOCHR = new RRCRRCORICCHOHHIRCHIROOHIIOHCO(var0);
+
+         @Override
+         public JsonElement HRRORHCRHHRROHIOROOOORRIRRCCIC() {
+            return this.IICIROOHRIOIRIIIIHOOCHICHIOCHR.HORCRCOHHCOHIOOHIHROROICHOOIRO();
+         }
+      };
+   }
+
+   @Generated
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(Set<Object> var1) {
+      this.COCHOICCRHCCHHHHHRCIHIHHOHHCOC = var1;
+   }
+}

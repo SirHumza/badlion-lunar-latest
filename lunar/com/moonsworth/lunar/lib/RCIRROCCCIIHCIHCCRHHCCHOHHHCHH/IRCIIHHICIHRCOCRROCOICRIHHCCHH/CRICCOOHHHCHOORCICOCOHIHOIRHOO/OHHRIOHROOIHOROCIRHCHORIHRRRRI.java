@@ -1,0 +1,691 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
+
+import java.io.IOException;
+import java.io.Writer;
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class OHHRIOHROOIHOROCIRHCHORIHRRRRI {
+   static final char[] CRORORRRCIIHCCCRRIICHCHHHHIHHR = new char[0];
+   static final int CHOICIHORIHHRHOCORCCCHCRCCOROI = 500;
+   static final int CORHRHCOOIOIICCROHICCOCHHCHOCH = 65536;
+   private final RCIRROCCCIIHCIHCCRHHCCHOHHHCHH COCROHIRRIORIRRIHCROHRRIIRHOCO;
+   private char[] ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI;
+   private int IIHCIRHCOCIHIORICIHRRCIHRIHIRC;
+   private int ROHHCCHRIRICCRRHCRHIROIOHIOCIR;
+   private ArrayList<char[]> HHCHROOIHCRCORICHHIRICOICORRRI;
+   private boolean IHHHCOCCOHCOOHICHHIRRCOHHOOORR;
+   private int ICIHOIORIHIOHOOCOIIROHHIRCHIRC;
+   private char[] HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+   private int HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+   private String RICHCRHRORIOOOIRCIHOHCIHROHHIH;
+   private char[] HIOOHCRHCHOHHORIHCHHCHCCOHIIOH;
+
+   public OHHRIOHROOIHOROCIRHCHORIHRRRRI(RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
+      this.COCROHIRRIORIRRIHCROHRRIIRHOCO = var1;
+   }
+
+   protected OHHRIOHROOIHOROCIRHCHORIHRRRRI(RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1, char[] var2) {
+      this(var1);
+      this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = var2;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = var2.length;
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+   }
+
+   public static OHHRIOHROOIHOROCIRHCHORIHRRRRI OOROOCCIRCCRHOIOIORIHCHHOOCCOR(char[] var0) {
+      return new OHHRIOHROOIHOROCIRHCHORIHRRRRI(null, var0);
+   }
+
+   public void RRIRRRHIHRRRRCCOCCROIOIIOOIOCO() {
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = 0;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      }
+
+      if (this.COCROHIRRIORIRRIHCROHRRIIRHOCO != null && this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI != null) {
+         char[] var1 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+         this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = null;
+         this.COCROHIRRIORIRRIHCROHRRIIRHOCO.HHCCIRHCCCIIRHCROHIORHIRHHIORH(2, var1);
+      }
+   }
+
+   public void HCIHRCCCRHRRCOOHCIOOIOIRIICIII() {
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = 0;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = null;
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      }
+   }
+
+   public void ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(char var1) {
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      } else if (this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI == null) {
+         this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = this.HCICOHCCOOHOIICCOIIROCRRRHHCHH(1);
+      }
+
+      this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI[0] = var1;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC = 1;
+   }
+
+   public void ORHIOICIOCRRHOOCOHRORIHICHRCRR(char[] var1, int var2, int var3) {
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = var1;
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = var2;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = var3;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      }
+   }
+
+   public void RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO(char[] var1, int var2, int var3) {
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = null;
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      } else if (this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI == null) {
+         this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = this.HCICOHCCOOHOIICCOIIROCRRRHHCHH(var3);
+      }
+
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC = 0;
+      this.IHCRORHRORIICHRHRCHRRIRRHHOCOO(var1, var2, var3);
+   }
+
+   public void IIRHCHHOICHRICOOCRORCCIOOIHOIR(String var1, int var2, int var3) {
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = null;
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      } else if (this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI == null) {
+         this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = this.HCICOHCCOOHOIICCOIIROCRRRHHCHH(var3);
+      }
+
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC = 0;
+      this.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var1, var2, var3);
+   }
+
+   public void RCHRROROIOHCRRRCRCRHORHICHRCHO(String var1) {
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = null;
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var1.length());
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = var1;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      }
+
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = 0;
+   }
+
+   public char[] CRHIICIOOIOHCHIOCORCROCROOHIHH() {
+      return this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+   }
+
+   private char[] HCICOHCCOOHOIICCOIIROCRRRHHCHH(int var1) {
+      return this.COCROHIRRIORIRRIHCROHRRIIRHOCO != null
+         ? this.COCROHIRRIORIRRIHCROHRRIIRHOCO.RCRCCORIIOICRIIRHCCIIOCICRHIOC(2, var1)
+         : new char[Math.max(var1, 500)];
+   }
+
+   private void RCOHOIRCORHCORCCHCOCORHOOOCHOR() {
+      this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR = false;
+      this.HHCHROOIHCRCORICHHIRICOICORRRI.clear();
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC = 0;
+   }
+
+   public int size() {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         return this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR;
+      } else if (this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH != null) {
+         return this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH.length;
+      } else {
+         return this.RICHCRHRORIOOOIRCIHOHCIHROHHIH != null
+            ? this.RICHCRHRORIOOOIRCIHOHCIHROHHIH.length()
+            : this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC + this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+      }
+   }
+
+   public int RCIOOOIHROIRCROOIICOHHCORROHHR() {
+      return this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0 ? this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC : 0;
+   }
+
+   public boolean RCIRRIOOICOHCRIHHOOOOOIRORIOHH() {
+      return this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0 || this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH != null ? true : this.RICHCRHRORIOOOIRCIHOHCIHROHHIH == null;
+   }
+
+   public char[] IIHOCROIOIRCHCCRORHCOOROROOHCC() {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         return this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI;
+      } else if (this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH != null) {
+         return this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH;
+      } else if (this.RICHCRHRORIOOOIRCIHOHCIHROHHIH != null) {
+         return this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = this.RICHCRHRORIOOOIRCIHOHCIHROHHIH.toCharArray();
+      } else if (!this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         return this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI == null ? CRORORRRCIIHCCCRRIICHCHHHHIHHR : this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      } else {
+         return this.CIHOIOIRRRIICRROIHIOIOORHCCOOI();
+      }
+   }
+
+   public String ICHCCOIRHIIHRORHOIROIORCHIIICI() {
+      if (this.RICHCRHRORIOOOIRCIHOHCIHROHHIH == null) {
+         if (this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH != null) {
+            this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = new String(this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH);
+         } else if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+            if (this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR < 1) {
+               return this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = "";
+            }
+
+            this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR);
+            this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = new String(
+               this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC, this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR
+            );
+         } else {
+            int var1 = this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC;
+            int var2 = this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+            if (var1 == 0) {
+               if (var2 == 0) {
+                  this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = "";
+               } else {
+                  this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var2);
+                  this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = new String(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, var2);
+               }
+            } else {
+               this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var1 + var2);
+               StringBuilder var3 = new StringBuilder(var1 + var2);
+               if (this.HHCHROOIHCRCORICHHIRICOICORRRI != null) {
+                  int var4 = 0;
+
+                  for (int var5 = this.HHCHROOIHCRCORICHHIRICOICORRRI.size(); var4 < var5; var4++) {
+                     char[] var6 = this.HHCHROOIHCRCORICHHIRICOICORRRI.get(var4);
+                     var3.append(var6, 0, var6.length);
+                  }
+               }
+
+               var3.append(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI);
+               this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = var3.toString();
+            }
+         }
+      }
+
+      return this.RICHCRHRORIOOOIRCIHOHCIHROHHIH;
+   }
+
+   public char[] CIHOIOIRRRIICRROIHIOIOORHCCOOI() {
+      char[] var1 = this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH;
+      if (var1 == null) {
+         this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = var1 = this.RHRCOIROOHICHHHOCOOCORRCOHOICO();
+      }
+
+      return var1;
+   }
+
+   public double RICCIICHROHORRRHRRRORICOIIRIHO(boolean var1) {
+      try {
+         return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.IIHRHCCOOHOOOOCHRRCOROOIOHCOOO(
+            this.ICHCCOIRHIIHRORHOIROIORCHIIICI(), var1
+         );
+      } catch (IOException var3) {
+         throw new NumberFormatException(var3.getMessage());
+      }
+   }
+
+   @Deprecated
+   public double IHHIOIRIRRHOCCHICOHIHOORIIOOHC() {
+      return this.RICCIICHROHORRRHRRRORICOIIRIHO(false);
+   }
+
+   @Deprecated
+   public float IHIHORCOIICRRHIHHOIIRCHOROHHIH() {
+      return this.OROORIICIOOOOIHIRHRHOIOCIHRRIO(false);
+   }
+
+   public float OROORIICIOOOOIHIRHRHOIOCIHRRIO(boolean var1) {
+      try {
+         return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.RHCHRCOCCOIIIHCHRHIRCORHRHRICR(
+            this.ICHCCOIRHIIHRORHOIROIORCHIIICI(), var1
+         );
+      } catch (IOException var3) {
+         throw new NumberFormatException(var3.getMessage());
+      }
+   }
+
+   @Deprecated
+   public BigDecimal RHHCHCIOCOICOCOROOICIIIIHCOCOC() {
+      try {
+         return com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.parseBigDecimal(
+            this.CIHOIOIRRRIICRROIHIOIOORHCCOOI()
+         );
+      } catch (IOException var2) {
+         throw new NumberFormatException(var2.getMessage());
+      }
+   }
+
+   public int OCCIHCOCHOHOOHIHCRCORCCCOCCOCH(boolean var1) {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0 && this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI != null) {
+         return var1
+            ? -com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR(
+               this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC + 1, this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR - 1
+            )
+            : com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR(
+               this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC, this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR
+            );
+      } else {
+         return var1
+            ? -com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR(
+               this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 1, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI - 1
+            )
+            : com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR(
+               this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI
+            );
+      }
+   }
+
+   public long RICHICIRHOHRCOCHCOIIRHICOCIHHH(boolean var1) {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0 && this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI != null) {
+         return var1
+            ? -com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CRICCOOHHHCHOORCICOCOHIHOIRHOO(
+               this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC + 1, this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR - 1
+            )
+            : com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CRICCOOHHHCHOORCICOCOHIHOIRHOO(
+               this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC, this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR
+            );
+      } else {
+         return var1
+            ? -com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CRICCOOHHHCHOORCICOCOHIHOIRHOO(
+               this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 1, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI - 1
+            )
+            : com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IIHRRHORCRCROCHHOHORCHCROCIHRO.CRICCOOHHHCHOORCICOCOHIHOIRHOO(
+               this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI
+            );
+      }
+   }
+
+   public int RRCRRCORICCHOHHIRCHIROOHIIOHCO(Writer var1) {
+      if (this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH != null) {
+         var1.write(this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH);
+         return this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH.length;
+      }
+
+      if (this.RICHCRHRORIOOOIRCIHOHCIHROHHIH != null) {
+         var1.write(this.RICHCRHRORIOOOIRCIHOHCIHROHHIH);
+         return this.RICHCRHRORIOOOIRCIHOHCIHROHHIH.length();
+      }
+
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         int var7 = this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR;
+         if (var7 > 0) {
+            var1.write(this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC, var7);
+         }
+
+         return var7;
+      } else {
+         int var2 = 0;
+         if (this.HHCHROOIHCRCORICHHIRICOICORRRI != null) {
+            int var3 = 0;
+
+            for (int var4 = this.HHCHROOIHCRCORICHHIRICOICORRRI.size(); var3 < var4; var3++) {
+               char[] var5 = this.HHCHROOIHCRCORICHHIRICOICORRRI.get(var3);
+               int var6 = var5.length;
+               var2 += var6;
+               var1.write(var5, 0, var6);
+            }
+         }
+
+         int var8 = this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+         if (var8 > 0) {
+            var2 += var8;
+            var1.write(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, var8);
+         }
+
+         return var2;
+      }
+   }
+
+   public void IIRHIOIIIRCRHOHCCRRHOCOOOOHOOH() {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         this.IRORRIIHRCOHRHCHCOCORRIIHIIOOR(16);
+      }
+   }
+
+   public void IOHIHIIHCCCCCIHRORIOIOORCIOHII(char var1) {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         this.IRORRIIHRCOHRHCHCOCORRIIHIIOOR(16);
+      }
+
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      char[] var2 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      if (this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI >= var2.length) {
+         this.COCIOIOORORRHHRIHIHCCHIICCOORI(1);
+         this.expand();
+         var2 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      }
+
+      var2[this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI++] = var1;
+   }
+
+   public void IHCRORHRORIICHRHRCHRRIRRHHOCOO(char[] var1, int var2, int var3) {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         this.IRORRIIHRCOHRHCHCOCORRIIHIIOOR(var3);
+      }
+
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      char[] var4 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      int var5 = var4.length - this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+      if (var5 >= var3) {
+         System.arraycopy(var1, var2, var4, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI, var3);
+         this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI += var3;
+      } else {
+         this.COCIOIOORORRHHRIHIHCCHIICCOORI(var3);
+         if (var5 > 0) {
+            System.arraycopy(var1, var2, var4, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI, var5);
+            var2 += var5;
+            var3 -= var5;
+         }
+
+         do {
+            this.expand();
+            int var6 = Math.min(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI.length, var3);
+            System.arraycopy(var1, var2, this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, var6);
+            this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI += var6;
+            var2 += var6;
+            var3 -= var6;
+         } while (var3 > 0);
+      }
+   }
+
+   public void OHHRIOHROOIHOROCIRHCHORIHRRRRI(String var1, int var2, int var3) {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         this.IRORRIIHRCOHRHCHCOCORRIIHIIOOR(var3);
+      }
+
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      char[] var4 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      int var5 = var4.length - this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+      if (var5 >= var3) {
+         var1.getChars(var2, var2 + var3, var4, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI);
+         this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI += var3;
+      } else {
+         this.COCIOIOORORRHHRIHIHCCHIICCOORI(var3);
+         if (var5 > 0) {
+            var1.getChars(var2, var2 + var5, var4, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI);
+            var3 -= var5;
+            var2 += var5;
+         }
+
+         do {
+            this.expand();
+            int var6 = Math.min(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI.length, var3);
+            var1.getChars(var2, var2 + var6, this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0);
+            this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI += var6;
+            var2 += var6;
+            var3 -= var6;
+         } while (var3 > 0);
+      }
+   }
+
+   private void COCIOIOORORRHHRIHIHCCHIICCOORI(int var1) {
+      int var2 = this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC + this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI + var1;
+      if (var2 < 0) {
+         var2 = Integer.MAX_VALUE;
+      }
+
+      this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var2);
+   }
+
+   public char[] CCOOIOIIIOROHIIRIRCHHROOIOIORH() {
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         this.IRORRIIHRCOHRHCHCOCORRIIHIIOOR(1);
+      } else {
+         char[] var1 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+         if (var1 == null) {
+            this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = this.HCICOHCCOOHOIICCOIIROCRRRHHCHH(0);
+         } else if (this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI >= var1.length) {
+            this.expand();
+         }
+      }
+
+      return this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+   }
+
+   public char[] CICHCOHCHROHRCHORHRCHHROROIHIO() {
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = 0;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = null;
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = null;
+      this.HIOOHCRHCHOHHORIHCHHCHCCOHIIOH = null;
+      if (this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR) {
+         this.RCOHOIRCORHCORCCHCOCORHOOOCHOR();
+      }
+
+      char[] var1 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      if (var1 == null) {
+         this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = var1 = this.HCICOHCCOOHOIICCOIIROCRRRHHCHH(0);
+      }
+
+      return var1;
+   }
+
+   public int IIHIROCRHOIRCHRHHCHICHHOCIOOCC() {
+      return this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+   }
+
+   public void ICOCCCOCHIHIOOCOORRRICIOCOICRR(int var1) {
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = var1;
+   }
+
+   public String CIOIIRRRORRRIOCROROHORCRHCOHHO(int var1) {
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = var1;
+      if (this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC > 0) {
+         return this.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+      }
+
+      int var2 = this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI;
+      this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var2);
+      String var3 = var2 == 0 ? "" : new String(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, var2);
+      this.RICHCRHRORIOOOIRCIHOHCIHROHHIH = var3;
+      return var3;
+   }
+
+   public char[] CRROICHHIOIHORHRHROHRCCOROHICO() {
+      if (this.HHCHROOIHCRCORICHHIRICOICORRRI == null) {
+         this.HHCHROOIHCRCORICHHIRICOICORRRI = new ArrayList<>();
+      }
+
+      this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR = true;
+      this.HHCHROOIHCRCORICHHIRICOICORRRI.add(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI);
+      int var1 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI.length;
+      this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC += var1;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = 0;
+      this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC);
+      int var2 = var1 + (var1 >> 1);
+      if (var2 < 500) {
+         var2 = 500;
+      } else if (var2 > 65536) {
+         var2 = 65536;
+      }
+
+      char[] var3 = this.CHHOHOOOIHHHHIHCCOIRRRCCRHRIRI(var2);
+      this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = var3;
+      return var3;
+   }
+
+   public String IHIRRIIORRHORHRORIHOROIRCORCOO(int var1, boolean var2) {
+      if (var2) {
+         int var3 = var1 - 1;
+         if (var3 < 0 || this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI[var3] <= ' ') {
+            return this.CHCHICIOCOORRIHRRIHICORCHIIIOR(var3);
+         }
+      }
+
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = var1;
+      return this.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+   }
+
+   private String CHCHICIOCOORRIHRRIHICORCHIIIOR(int var1) {
+      while (true) {
+         char[] var2 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+
+         while (--var1 >= 0) {
+            if (var2[var1] > ' ') {
+               this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = var1 + 1;
+               return this.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+            }
+         }
+
+         if (this.HHCHROOIHCRCORICHHIRICOICORRRI == null || this.HHCHROOIHCRCORICHHIRICOICORRRI.isEmpty()) {
+            this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = 0;
+            this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR = false;
+            return this.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+         }
+
+         this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = this.HHCHROOIHCRCORICHHIRICOICORRRI.remove(this.HHCHROOIHCRCORICHHIRICOICORRRI.size() - 1);
+         var1 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI.length;
+      }
+   }
+
+   public char[] OHCOIHOOHRIOCRIRHCIHOOROCCHCRC() {
+      char[] var1 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      int var2 = var1.length;
+      int var3 = var2 + (var2 >> 1);
+      if (var3 > 65536) {
+         var3 = var2 + (var2 >> 2);
+      }
+
+      return this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = Arrays.copyOf(var1, var3);
+   }
+
+   public char[] CHCHIHHHOOHIHHHCCCICOHICRCRIRI(int var1) {
+      char[] var2 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      if (var2.length >= var1) {
+         return var2;
+      }
+
+      char[] var3;
+      this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = var3 = Arrays.copyOf(var2, var1);
+      return var3;
+   }
+
+   @Override
+   public String toString() {
+      try {
+         return this.ICHCCOIRHIIHRORHOIROIORCHIIICI();
+      } catch (IOException var2) {
+         return "TextBuffer: Exception when reading contents";
+      }
+   }
+
+   private void IRORRIIHRCOHRHCHCOCORRIIHIIOOR(int var1) {
+      int var2 = this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR;
+      this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR = 0;
+      char[] var3 = this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI;
+      this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI = null;
+      int var4 = this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC;
+      this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC = -1;
+      int var5 = var2 + var1;
+      if (this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI == null || var5 > this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI.length) {
+         this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = this.HCICOHCCOOHOIICCOIIROCRRRHHCHH(var5);
+      }
+
+      if (var2 > 0) {
+         System.arraycopy(var3, var4, this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, var2);
+      }
+
+      this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC = 0;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = var2;
+   }
+
+   private void expand() {
+      if (this.HHCHROOIHCRCORICHHIRICOICORRRI == null) {
+         this.HHCHROOIHCRCORICHHIRICOICORRRI = new ArrayList<>();
+      }
+
+      char[] var1 = this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI;
+      this.IHHHCOCCOHCOOHICHHIRRCOHHOOORR = true;
+      this.HHCHROOIHCRCORICHHIRICOICORRRI.add(var1);
+      this.ICIHOIORIHIOHOOCOIIROHHIRCHIRC += var1.length;
+      this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI = 0;
+      int var2 = var1.length;
+      int var3 = var2 + (var2 >> 1);
+      if (var3 < 500) {
+         var3 = 500;
+      } else if (var3 > 65536) {
+         var3 = 65536;
+      }
+
+      this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI = this.CHHOHOOOIHHHHIHCCOIRRRCCRHRIRI(var3);
+   }
+
+   private char[] RHRCOIROOHICHHHOCOOCORRCOHOICO() {
+      if (this.RICHCRHRORIOOOIRCIHOHCIHROHHIH != null) {
+         return this.RICHCRHRORIOOOIRCIHOHCIHROHHIH.toCharArray();
+      }
+
+      if (this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC >= 0) {
+         int var8 = this.ROHHCCHRIRICCRRHCRHIROIOHIOCIR;
+         if (var8 < 1) {
+            return CRORORRRCIIHCCCRRIICHCHHHHIHHR;
+         }
+
+         this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var8);
+         int var9 = this.IIHCIRHCOCIHIORICIHRRCIHRIHIRC;
+         return var9 == 0
+            ? Arrays.copyOf(this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, var8)
+            : Arrays.copyOfRange(this.ORCHHCHIOOCIOOHOOIHHCRCHHOOIOI, var9, var9 + var8);
+      } else {
+         int var1 = this.size();
+         if (var1 < 1) {
+            return CRORORRRCIIHCCCRRIICHCHHHHIHHR;
+         }
+
+         this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var1);
+         int var2 = 0;
+         char[] var3 = this.CHHOHOOOIHHHHIHCCOIRRRCCRHRIRI(var1);
+         if (this.HHCHROOIHCRCORICHHIRICOICORRRI != null) {
+            int var4 = 0;
+
+            for (int var5 = this.HHCHROOIHCRCORICHHIRICOICORRRI.size(); var4 < var5; var4++) {
+               char[] var6 = this.HHCHROOIHCRCORICHHIRICOICORRRI.get(var4);
+               int var7 = var6.length;
+               System.arraycopy(var6, 0, var3, var2, var7);
+               var2 += var7;
+            }
+         }
+
+         System.arraycopy(this.HHHHHHCHOOIOCCRHCHHRCHIORIHHOI, 0, var3, var2, this.HHIRHHHHHOHHOHRCOHIHCIOOIRHRCI);
+         return var3;
+      }
+   }
+
+   private char[] CHHOHOOOIHHHHIHCCOIRRRCCRHRIRI(int var1) {
+      return new char[var1];
+   }
+
+   protected void OCHRHCOIIRIOOCCRCROHOIHHIHIROI(int var1) {
+   }
+}

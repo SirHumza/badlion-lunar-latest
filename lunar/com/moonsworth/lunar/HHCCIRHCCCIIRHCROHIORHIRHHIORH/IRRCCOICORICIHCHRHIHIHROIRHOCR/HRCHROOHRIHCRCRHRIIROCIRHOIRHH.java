@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR;
+
+public interface HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   default void bridge$readPayload(RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+   }
+
+   default void bridge$writePayload(RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+   }
+}

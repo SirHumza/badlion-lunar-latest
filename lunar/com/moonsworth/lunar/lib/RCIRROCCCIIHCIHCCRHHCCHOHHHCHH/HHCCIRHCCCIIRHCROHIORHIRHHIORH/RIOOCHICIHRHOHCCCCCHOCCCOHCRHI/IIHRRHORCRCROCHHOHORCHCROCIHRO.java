@@ -1,0 +1,200 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class IIHRRHORCRCROCHHOHORCHCROCIHRO extends IHIRRIIORRHORHRORIHOROIRCORCOO {
+   private final RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CRRCOICHCRCHOIHRHOIORCRCCHICHO;
+   private final boolean OHOROHHHIOIOHHORHOIOOHCORRIOHI;
+
+   IIHRRHORCRCROCHHOHORCHCROCIHRO(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      boolean var3
+   ) {
+      super(var1);
+      this.CRRCOICHCRCHOIHRHOIORCRCCHICHO = var1 == null ? null : var2;
+      this.OHOROHHHIOIOHHORHOIOOHCORRIOHI = var3;
+   }
+
+   public static OCOHORHCROHICRRIHCIHHRRCIHICRI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var0,
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var1,
+      RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR var3,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI var4,
+      List<com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI> var5,
+      Class<?> var6,
+      boolean var7
+   ) {
+      return new IIHRRHORCRCROCHHOHORCHCROCIHRO(var0, var2, var7).RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, var1, var4, var5, var6);
+   }
+
+   OCOHORHCROHICRRIHCIHHRRCIHICRI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR var1,
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var2,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI var3,
+      List<com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI> var4,
+      Class<?> var5
+   ) {
+      LinkedHashMap var6 = new LinkedHashMap();
+      this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2, var3.RRICIOOORRIORHHICIRCIOCHRHRCHH(), var6, var5);
+
+      for (com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI var8 : var4) {
+         Class var9 = this.CRRCOICHCRCHOIHRHOIORCRCCHICHO == null
+            ? null
+            : this.CRRCOICHCRCHOIHRHOIORCRCCHICHO.IOHOOIOHCHICOCHIICHCICCOHRCIII(var8.RRICIOOORRIORHHICIRCIOCHRHRCHH());
+         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            new RCIROOOOICRHCCRRCIORHHIRCOIIIC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var8.HOHCHIIHCCCCHCOORROOHHOIIRIHRH()),
+            var8.RRICIOOORRIORHHICIRCIOCHRHRCHH(),
+            var6,
+            var9
+         );
+      }
+
+      boolean var14 = false;
+      if (this.CRRCOICHCRCHOIHRHOIORCRCCHICHO != null) {
+         Class var15 = this.CRRCOICHCRCHOIHRHOIORCRCCHICHO.IOHOOIOHCHICOCHIICHCICCOHRCIII(Object.class);
+         if (var15 != null) {
+            this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2, var3.RRICIOOORRIORHHICIRCIOCHRHRCHH(), var6, var15);
+            var14 = true;
+         }
+      }
+
+      if (var14 && this.OICORRIIOHOCCIHIOCCCOHOICROOOR != null && !var6.isEmpty()) {
+         for (Entry var18 : var6.entrySet()) {
+            IHCRORHRORIICHRHRCHRRIRRHHOCOO var10 = (IHCRORHRORIICHRHRCHRRIRRHHOCOO)var18.getKey();
+            if ("hashCode".equals(var10.getName()) && 0 == var10.RRHIIIRCHRHHOOICIOCRROCCOOCIIC()) {
+               try {
+                  Method var11 = Object.class.getDeclaredMethod(var10.getName());
+                  if (var11 != null) {
+                     IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var12 = (IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var18.getValue();
+                     var12.HCIHHCICOOHRRHCOCRRICRRORORIHC = this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+                        var12.HCIHHCICOOHRRHCOCRRICRRORORIHC, var11.getDeclaredAnnotations()
+                     );
+                     var12.method = var11;
+                  }
+               } catch (Exception var13) {
+               }
+            }
+         }
+      }
+
+      if (var6.isEmpty()) {
+         return new OCOHORHCROHICRRIHCIHHRRCIHICRI();
+      }
+
+      LinkedHashMap var17 = new LinkedHashMap(var6.size());
+
+      for (Entry var20 : var6.entrySet()) {
+         HICHRCOHCCRHOHCICOOCHOIHCCHIRI var21 = ((IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var20.getValue())
+            .CCOIROHRRRCHHCICIRCHOOCROCHORC();
+         if (var21 != null) {
+            var17.put(var20.getKey(), var21);
+         }
+      }
+
+      return new OCOHORHCROHICRRIHCIHHRRCIHICRI(var17);
+   }
+
+   private void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var1,
+      Class<?> var2,
+      Map<IHCRORHRORIICHRHRCHRRIRRHHOCOO, IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> var3,
+      Class<?> var4
+   ) {
+      if (var4 != null) {
+         this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, var3, var4);
+      }
+
+      if (var2 != null) {
+         for (Method var8 : com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCICHHOCCHOROIORCOHOHIRRHCIIOR(
+            var2
+         )) {
+            if (RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var8)) {
+               IHCRORHRORIICHRHRCHRRIRRHHOCOO var9 = new IHCRORHRORIICHRHRCHRRIRRHHOCOO(var8);
+               IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var10 = (IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var3.get(
+                  var9
+               );
+               if (var10 == null) {
+                  IIRHCHHOICHRICOOCRORCCIOOIHOIR var11 = this.OICORRIIOHOCCIHIOCCCOHOICROOOR == null
+                     ? IIRHCHHOICHRICOOCRORCCIOOIHOIR.HRRROIOROCICHHRROOHRHHOIOHRCRC()
+                     : this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var8.getDeclaredAnnotations());
+                  var3.put(var9, new IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var8, var11));
+               } else {
+                  if (this.OHOROHHHIOIOHHORHOIOOHCORRIOHI) {
+                     var10.HCIHHCICOOHRRHCOCRRICRRORORIHC = this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+                        var10.HCIHHCICOOHRRHCOCRRICRRORORIHC, var8.getDeclaredAnnotations()
+                     );
+                  }
+
+                  Method var12 = var10.method;
+                  if (var12 == null) {
+                     var10.method = var8;
+                  } else if (Modifier.isAbstract(var12.getModifiers()) && !Modifier.isAbstract(var8.getModifiers())) {
+                     var10.method = var8;
+                     var10.HCICOIIOOIRCOHCIHHOCHRHHCHOCOO = var1;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   protected void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var1,
+      Class<?> var2,
+      Map<IHCRORHRORIICHRHRCHRRIRRHHOCOO, IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH> var3,
+      Class<?> var4
+   ) {
+      if (this.OICORRIIOHOCCIHIOCCCOHOICROOOR != null) {
+         for (Class var6 : com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var4, var2, true
+         )) {
+            for (Method var10 : var6.getDeclaredMethods()) {
+               if (RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var10)) {
+                  IHCRORHRORIICHRHRCHRRIRRHHOCOO var11 = new IHCRORHRORIICHRHRCHRRIRRHHOCOO(var10);
+                  IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var12 = (IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var3.get(
+                     var11
+                  );
+                  Annotation[] var13 = var10.getDeclaredAnnotations();
+                  if (var12 == null) {
+                     var3.put(var11, new IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, null, this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var13)));
+                  } else {
+                     var12.HCIHHCICOOHRRHCOCRRICRRORORIHC = this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(var12.HCIHHCICOOHRRHCOCRRICRRORORIHC, var13);
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   private static boolean RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(Method var0) {
+      return !Modifier.isStatic(var0.getModifiers()) && !var0.isSynthetic() && !var0.isBridge() ? var0.getParameterCount() <= 2 : false;
+   }
+
+   private static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      public RCIROOOOICRHCCRRCIORHHIRCOIIIC HCICOIIOOIRCOHCIHHOCHRHHCHOCOO;
+      public Method method;
+      public IIRHCHHOICHRICOOCRORCCIOOIHOIR HCIHHCICOOHRRHCOCRRICRRORORIHC;
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, Method var2, IIRHCHHOICHRICOOCRORCCIOOIHOIR var3) {
+         this.HCICOIIOOIRCOHCIHHOCHRHHCHOCOO = var1;
+         this.method = var2;
+         this.HCIHHCICOOHRRHCOCRRICRRORORIHC = var3;
+      }
+
+      public HICHRCOHCCRHOHCICOOCHOIHCCHIRI CCOIROHRRRCHHCICIRCHOOCROCHORC() {
+         return this.method == null
+            ? null
+            : new HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+               this.HCICOIIOOIRCOHCIHHOCHRHHCHOCOO, this.method, this.HCIHHCICOOHRRHCOCRRICRRORORIHC.COIRCRCCOHRRROIRIRHROIROIHCRII(), null
+            );
+      }
+   }
+}

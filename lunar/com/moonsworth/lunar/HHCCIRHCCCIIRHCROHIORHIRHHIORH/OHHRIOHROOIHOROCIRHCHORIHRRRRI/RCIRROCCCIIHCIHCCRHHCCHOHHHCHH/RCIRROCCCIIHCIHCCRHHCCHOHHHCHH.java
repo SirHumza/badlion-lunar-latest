@@ -1,0 +1,48 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RORCHCIIICOHIRROOORHOCCCCIOCCI;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+
+public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
+   default boolean lunar$supportsTurbo() {
+      return false;
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
+   default float bridge$minimumTurboDistance() {
+      return 0.0F;
+   }
+
+   Component bridge$getTypeName();
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
+   default boolean bridge$isTurbo() {
+      throw new CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
+   default void bridge$setTurbo(boolean var1) {
+      throw new CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
+   default void bridge$stopTurbo() {
+      this.bridge$setTurbo(false);
+   }
+
+   double bridge$getPosX();
+
+   double bridge$getPosY();
+
+   double bridge$getPosZ();
+
+   default RORCHCIIICOHIRROOORHOCCCCIOCCI bridge$getBlockPos() {
+      return RORCHCIIICOHIRROOORHOCCCCIOCCI.HCHIOICHRIRIRIIOCICIORRHOCHIHH;
+   }
+
+   default com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH bridge$getBoundingBox() {
+      return com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CHIROICRORCCHHIIHRCCCICCIOCOHI();
+   }
+}

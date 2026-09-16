@@ -1,0 +1,274 @@
+package com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.lunarclient.websocket.conversation.v1.ConversationSender;
+import com.lunarclient.websocket.conversation.v1.SystemMessage;
+import com.moonsworth.lunar.client.util.CCHORHIOORICCIRIHRIIHIICORIORO;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+import org.jetbrains.annotations.Nullable;
+
+public abstract class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI
+   implements com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+   @Nullable
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(SystemMessage var0) {
+      com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1 = null;
+      if (var0.hasActor() && var0.getActor().getSenderCase() == ConversationSender.SenderCase.PLAYER) {
+         var1 = com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var0.getActor()
+         );
+      }
+
+      switch (var0.getEventCase()) {
+         case PINNED:
+            return new com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+               var1, CCHORHIOORICCIRIHRIIHIICORIORO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0.getPinned().getPinnedMessageId())
+            );
+         case INVITE:
+            ArrayList var2 = new ArrayList();
+            var0.getInvite()
+               .getInviteesList()
+               .forEach(
+                  var1x -> var2.add(
+                     com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                        var1x
+                     )
+                  )
+               );
+            return new com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+               var1, var2
+            );
+         case LEAVE:
+            return new com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+               var1,
+               com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  var0.getLeave().getPlayer()
+               )
+            );
+         case NAME_CHANGE:
+            return new com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRRRICCRROCOHHOHIICIHORCOORRRH(
+               var1, var0.getNameChange().getNewName()
+            );
+         case ICON_CHANGE:
+            return new com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               var1, var0.getIconChange().getNewIconUrl()
+            );
+         case EVENT_NOT_SET:
+         default:
+            return null;
+      }
+   }
+
+   public abstract com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OCRIOOOIRCOHORROIRRIOOOOCHIRIC();
+
+   @Nullable
+   public abstract IRCIIHHICIHRCOCRROCOICRIHHCCHH IRICICHCRCCRRCOHCCCIOCOCCRORCH();
+
+   public abstract String HCCROHRCRIIRCHRRORORCRRHOIIOHH();
+
+   @Override
+   public JsonElement provide() {
+      JsonObject var1 = new JsonObject();
+      var1.addProperty("type", this.OCRIOOOIRCOHORROIRRIOOOOCHIRIC().name());
+      var1.addProperty("plainText", this.HCCROHRCRIIRCHRRORORCRRHOIIOHH());
+      if (this.IRICICHCRCCRRCOHCCCIOCOCCRORCH() != null) {
+         var1.add("actor", this.IRICICHCRCCRRCOHCCCIOCOCCRORCH().provide());
+      }
+
+      return var1;
+   }
+
+   public static class CRRRICCRROCOHHOHIICIHORCOORRRH
+      extends com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      @Nullable
+      private final IRCIIHHICIHRCOCRROCOICRIHHCCHH RCHRRICRHHIHHCCIHCHROHRRHORROO;
+      private final String RRRHIOHHIHCIIROROHRHIOIRIOHHRI;
+
+      public CRRRICCRROCOHHOHIICIHORCOORRRH(@Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, String var2) {
+         this.RCHRRICRHHIHHCCIHCHROHRRHORROO = var1;
+         this.RRRHIOHHIHCIIROROHRHIOIRIOHHRI = var2;
+      }
+
+      @Override
+      public com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OCRIOOOIRCOHORROIRRIOOOOCHIRIC() {
+         return com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.NAME_CHANGE;
+      }
+
+      @Nullable
+      @Override
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH IRICICHCRCCRRCOHCCCIOCOCCRORCH() {
+         return this.RCHRRICRHHIHHCCIHCHROHRRHORROO;
+      }
+
+      @Override
+      public String HCCROHRCRIIRCHRRORORCRRHOIIOHH() {
+         return "changed conversation name";
+      }
+
+      @Override
+      public JsonElement provide() {
+         JsonObject var1 = super.provide().getAsJsonObject();
+         var1.addProperty("newName", this.RRRHIOHHIHCIIROROHRHIOIRIOHHRI);
+         return var1;
+      }
+   }
+
+   public static class HHCCIRHCCCIIRHCROHIORHIRHHIORH
+      extends com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      @Nullable
+      private final IRCIIHHICIHRCOCRROCOICRIHHCCHH COCIICHIIICICIHCIOORRCIIORCOII;
+      private final com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH OOORORIRICHOIOCCOOIOIIRRIHHCHR;
+
+      public HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         @Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+         com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+      ) {
+         this.COCIICHIIICICIHCIOORRCIIORCOII = var1;
+         this.OOORORIRICHOIOCCOOIOIIRRIHHCHR = var2;
+      }
+
+      @Override
+      public com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OCRIOOOIRCOHORROIRRIOOOOCHIRIC() {
+         return com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.LEAVE;
+      }
+
+      @Nullable
+      @Override
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH IRICICHCRCCRRCOHCCCIOCOCCRORCH() {
+         return this.COCIICHIIICICIHCIOORRCIIORCOII;
+      }
+
+      @Override
+      public String HCCROHRCRIIRCHRRORORCRRHOIIOHH() {
+         return "left the conversation";
+      }
+
+      @Override
+      public JsonElement provide() {
+         JsonObject var1 = super.provide().getAsJsonObject();
+         var1.add("leftMember", this.OOORORIRICHOIOCCOOIOIIRRIHHCHR.provide());
+         return var1;
+      }
+   }
+
+   public static class IRCIIHHICIHRCOCRROCOICRIHHCCHH
+      extends com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      @Nullable
+      private final IRCIIHHICIHRCOCRROCOICRIHHCCHH IIIROIHRRRRCHHHOHCHRICIHCIORHH;
+      private final List<com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH> OHIHHIOHCHOIIIHRHRHCOCOIHOIHHR;
+
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         @Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+         List<com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH> var2
+      ) {
+         this.IIIROIHRRRRCHHHOHCHRICIHCIORHH = var1;
+         this.OHIHHIOHCHOIIIHRHRHCOCOIHOIHHR = List.copyOf(var2);
+      }
+
+      @Override
+      public com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OCRIOOOIRCOHORROIRRIOOOOCHIRIC() {
+         return com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.INVITE;
+      }
+
+      @Nullable
+      @Override
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH IRICICHCRCCRRCOHCCCIOCOCCRORCH() {
+         return this.IIIROIHRRRRCHHHOHCHRICIHCIORHH;
+      }
+
+      @Override
+      public String HCCROHRCRIIRCHRRORORCRRHOIIOHH() {
+         return "invited";
+      }
+
+      @Override
+      public JsonElement provide() {
+         JsonObject var1 = super.provide().getAsJsonObject();
+         JsonArray var2 = new JsonArray();
+         this.OHIHHIOHCHOIIIHRHRHCOCOIHOIHHR.forEach(var1x -> var2.add(var1x.provide()));
+         var1.add("invitees", var2);
+         return var1;
+      }
+   }
+
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      extends com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      @Nullable
+      private final IRCIIHHICIHRCOCRROCOICRIHHCCHH HCORHRROCCHIOCCHHCCIOIIOICOHIC;
+      private final String CIIHOOCHOHRHRRIICROOCIOCRHIHCR;
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(@Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, String var2) {
+         this.HCORHRROCCHIOCCHHCCIOIIOICOHIC = var1;
+         this.CIIHOOCHOHRHRRIICROOCIOCRHIHCR = var2;
+      }
+
+      @Override
+      public com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OCRIOOOIRCOHORROIRRIOOOOCHIRIC() {
+         return com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.ICON_CHANGE;
+      }
+
+      @Nullable
+      @Override
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH IRICICHCRCCRRCOHCCCIOCOCCRORCH() {
+         return this.HCORHRROCCHIOCCHHCCIOIIOICOHIC;
+      }
+
+      @Override
+      public String HCCROHRCRIIRCHRRORORCRRHOIIOHH() {
+         return "changed conversation icon to";
+      }
+
+      @Override
+      public JsonElement provide() {
+         JsonObject var1 = super.provide().getAsJsonObject();
+         var1.addProperty("newIconUrl", this.CIIHOOCHOHRHRRIICROOCIOCRHIHCR);
+         return var1;
+      }
+   }
+
+   public enum RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      PINNED,
+      INVITE,
+      LEAVE,
+      NAME_CHANGE,
+      ICON_CHANGE;
+   }
+
+   public static class RRCRRCORICCHOHHIRCHIROOHIIOHCO
+      extends com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      @Nullable
+      private final IRCIIHHICIHRCOCRROCOICRIHHCCHH HHCRHHRHHHRCOICIROCOOHIIRIOORO;
+      private final UUID RHRHHIIIORCIIRIRCICOCHOIRCCRIR;
+
+      public RRCRRCORICCHOHHIRCHIROOHIIOHCO(@Nullable IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, UUID var2) {
+         this.HHCRHHRHHHRCOICIROCOOHIIRIOORO = var1;
+         this.RHRHHIIIORCIIRIRCICOCHOIRCCRIR = var2;
+      }
+
+      @Override
+      public com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI OCRIOOOIRCOHORROIRRIOOOOCHIRIC() {
+         return com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.PINNED;
+      }
+
+      @Nullable
+      @Override
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH IRICICHCRCCRRCOHCCCIOCOCCRORCH() {
+         return this.HHCRHHRHHHRCOICIROCOOHIIRIOORO;
+      }
+
+      @Override
+      public String HCCROHRCRIIRCHRRORORCRRHOIIOHH() {
+         return "pinned a message";
+      }
+
+      @Override
+      public JsonElement provide() {
+         JsonObject var1 = super.provide().getAsJsonObject();
+         var1.addProperty("pinnedMessageId", this.RHRHHIIIORCIIRIRCICOCHOIRCCRIR.toString());
+         return var1;
+      }
+   }
+}

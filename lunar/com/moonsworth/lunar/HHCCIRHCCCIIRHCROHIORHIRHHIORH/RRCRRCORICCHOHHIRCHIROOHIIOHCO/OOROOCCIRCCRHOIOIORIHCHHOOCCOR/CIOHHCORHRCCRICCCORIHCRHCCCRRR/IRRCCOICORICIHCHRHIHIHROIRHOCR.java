@@ -1,0 +1,42 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
+
+import java.nio.ByteBuffer;
+import org.jetbrains.annotations.Nullable;
+
+public interface IRRCCOICORICIHCHRHIHIHROIRHOCR extends IIRHCHHOICHRICOOCRORCCIOOIHOIR {
+   default void bridge$allocate(
+      boolean var1,
+      boolean var2,
+      int var3,
+      int var4,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var5,
+      boolean var6,
+      boolean var7
+   ) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   default void bridge$upload(int var1, int var2, int var3, int var4, int[] var5) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   default void bridge$uploadBgra(int var1, int var2, int var3, int var4, ByteBuffer var5, int var6, int var7, int var8) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   default void bridge$setFilter(boolean var1, boolean var2) {
+      throw new com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CRRRICCRROCOHHOHIICIHORCOORRRH();
+   }
+
+   default void IRCCCOIIORORHIRCIROHHRCRROORRO() {
+   }
+
+   @Nullable
+   default CRRRICCRROCOHHOHIICIHORCOORRRH OOIIHHIHCIROIOOCOCHHROIRCROOHI() {
+      if (this instanceof CRRRICCRROCOHHOHIICIHORCOORRRH var3) {
+         return var3;
+      } else {
+         return this instanceof RICRIRRCOHRCOCRRHHCRHRROOIOHHR var1 ? var1.ICIOCCCCCCHRRHIRHOORHROOIROHOR() : null;
+      }
+   }
+}

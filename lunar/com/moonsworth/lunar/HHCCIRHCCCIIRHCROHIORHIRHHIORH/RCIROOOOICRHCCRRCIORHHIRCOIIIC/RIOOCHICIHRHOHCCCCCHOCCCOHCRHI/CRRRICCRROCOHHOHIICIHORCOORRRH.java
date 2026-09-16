@@ -1,0 +1,7 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+import java.io.File;
+
+public interface CRRRICCRROCOHHOHIICIHORCOORRRH {
+   File bridge$getWorldDirectory();
+}

@@ -1,0 +1,260 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
+
+import com.google.gson.JsonObject;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HICRRICCHCCROOHHCHOCOCCHOIHHOC;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.lunar.client.util.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.function.Supplier;
+import org.jetbrains.annotations.Nullable;
+
+public class HRCHROOHRIHCRCRHRIIROCIRHOIRHH implements com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   public static final String OCHIHCOCOOIIHRIOORCRHRRCOIHRHO = "lunar-shaders";
+   public static final String CHRCHIROHHORICOOCOIROIOHIOIROH = "lunar/shader-inject/";
+   private static final String HHHROCHCHHICCRRCOHHCOOHROCOCIC = "#define LUNAR_HUD_SHADER_COMPAT";
+   private static final String RCOHCCRCCIHIHHRIOCHIHCRIRHIRIR = "#define MH_VERSION ";
+   private final Map<String, com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH> HCHOHOIROCIRIOOIHOOCIRCHORCOCH = new HashMap<>();
+   private Set<RRCRRCORICCHOHHIRCHIROOHIIOHCO> HIRORORIIOHICOICIIRIRHICHOIHCI = EnumSet.noneOf(RRCRRCORICCHOHHIRCHIROOHIIOHCO.class);
+   private com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH CCHOHIRRCOOHHIOIROHCCRHHIRICRC = null;
+
+   @Nullable
+   public HHCCIRHCCCIIRHCROHIORHIRHHIORH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      String var1,
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      if (this.HCHOHOIROCIRIOOIHOOCIRCHORCOCH.containsKey(var1)) {
+         return null;
+      }
+
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3 = com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         var1, var2
+      );
+      this.HCHOHOIROCIRIOOIHOOCIRCHORCOCH.put(var1, var3);
+      var3.CHCCHROICRIIROCCOOHOHRIRRIOOHR();
+      return var3;
+   }
+
+   public com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      String var1,
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2
+   ) {
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3 = this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var1,
+         (com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var2
+      );
+      if (var3 == null) {
+         throw new RuntimeException("Tried to register Post Effect but a shader inject under that ID already exists! (" + var1 + ")");
+      } else {
+         return new com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+            var1, var3
+         );
+      }
+   }
+
+   public void HHOHHHOICCCOOHHIOOHHORHOROIHOH(String var1) {
+      this.HCHOHOIROCIRIOOIHOOCIRCHORCOCH.remove(var1);
+   }
+
+   public com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH OCHRHCOIIRIOOCCRCROHOIHHIHIROI(
+      String var1
+   ) {
+      return this.HCHOHOIROCIRIOOIHOOCIRCHORCOCH.get(var1);
+   }
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      OCOHORHCROHICRRIHCIHHRRCIHICRI var1,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2,
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3
+   ) {
+      if (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 6) {
+         var2.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3, false);
+      } else {
+         if (this.CCHOHIRRCOOHHIOIROHCCRHHIRICRC == null) {
+            this.CCHOHIRRCOOHHIOIROHCCRHHIRICRC = this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               "blit",
+               new com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH()
+            );
+         }
+
+         this.CCHOHIRRCOOHHIOIROHCCRHHIRICRC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, var3, var0 -> {});
+      }
+   }
+
+   public boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+      return this.HIRORORIIOHICOICIIRIRHICHOIHCI.contains(var1);
+   }
+
+   public void OCOCRRIRIORIROOICHRIROHOIHIOHH(String var1) {
+      Set var2 = this.HIRORORIIOHICOICIIRIRHICHOIHCI;
+      this.HIRORORIIOHICOICIIRIRHICHOIHCI = this.HRRIRRHHOHRCICHHOCOCHIIRIRCCRH(var1);
+
+      for (RRCRRCORICCHOHHIRCHIROOHIIOHCO var6 : RRCRRCORICCHOHHIRCHIROOHIIOHCO.values()) {
+         boolean var7 = this.HIRORORIIOHICOICIIRIRHICHOIHCI.contains(var6);
+         if (var2.contains(var6) != var7) {
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var8 = var6.getFeature();
+            if (var8 != null) {
+               com.moonsworth.lunar.client.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH var9 = var8.IHCRORHRORIICHRHRCHRRIRRHHOCOO(
+                  HICRRICCHCCROOHHCHOCOCCHOIHHOC.IOCHHHIIRIHOIRHHICHICCRIHOIOHC
+               );
+               if (var9 != null) {
+                  if (var7) {
+                     var9.CRRRICCRROCOHHOHIICIHORCOORRRH(var8, null);
+                  } else {
+                     var9.RIROICHCRROROHCCROOCCCCOCHCCRI(var8);
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   private Set<RRCRRCORICCHOHHIRCHIROOHIIOHCO> HRRIRRHHOHRCICHHOCOCHIIRIRCCRH(String var1) {
+      EnumSet var2 = EnumSet.noneOf(RRCRRCORICCHOHHIRCHIROOHIIOHCO.class);
+      if (var1.contains("#define MH_VERSION ")) {
+         var2.add(RRCRRCORICCHOHHIRCHIROOHIIOHCO.BOSSBAR_MOD);
+      }
+
+      int var3 = var1.indexOf("#define LUNAR_HUD_SHADER_COMPAT");
+
+      while (var3 != -1) {
+         int var4 = var3 + "#define LUNAR_HUD_SHADER_COMPAT".length();
+         String var5 = this.IIRHCHHOICHRICOOCRORCCIOOIHOIR(var1, var4);
+         RRCRRCORICCHOHHIRCHIROOHIIOHCO var6 = var5.isEmpty() ? null : RRCRRCORICCHOHHIRCHIROOHIIOHCO.fromDefineSuffix(var5);
+         if (var6 != null) {
+            var2.add(var6);
+         } else {
+            var2.addAll(EnumSet.allOf(RRCRRCORICCHOHHIRCHIROOHIIOHCO.class));
+         }
+
+         var3 = var1.indexOf("#define LUNAR_HUD_SHADER_COMPAT", var4);
+      }
+
+      return var2;
+   }
+
+   private String IIRHCHHOICHRICOOCRORCCIOOIHOIR(String var1, int var2) {
+      int var3;
+      for (var3 = var2; var3 < var1.length(); var3++) {
+         char var4 = var1.charAt(var3);
+         if (var4 != '_' && !Character.isLetterOrDigit(var4)) {
+            break;
+         }
+      }
+
+      return var1.substring(var2, var3);
+   }
+
+   @Override
+   public void close() {
+   }
+
+   @Override
+   public void init() {
+   }
+
+   public String OOCHRIIIRIHRRCRIORHCROIIHCRRIC(RCIROOOOICRHCCRRCIORHHIRCOIIIC var1) {
+      if (!HRCOCHHHCCIORCORCHIOOOCCCCHICH(var1)) {
+         return null;
+      }
+
+      String var2 = CHROCCCHHHORIHCRICIHROHHIROCIR(var1.bridge$getPath());
+      if (var2 == null) {
+         return null;
+      }
+
+      boolean var3 = var2.startsWith("vsh/");
+      String var4 = var2.substring(4);
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var5 = this.OCHRHCOIIRIOOCCRCROHOIHHIHIROI(
+         var4
+      );
+      return var5 == null ? null : var5.RIHCIRRIOICHROIOROIIIRIHORRRIR(var3);
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      for (com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3 : this.HCHOHOIROCIRIOOIHOOCIRCHORCOCH
+         .values()) {
+         var3.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1);
+      }
+   }
+
+   public static boolean OCIROOIHIHRHOCCHIIIROOCRIIOCRR(RCIROOOOICRHCCRRCIORHHIRCOIIIC var0) {
+      return CHHIOCRRHIICCIOOORRRHRRROIRHRR(var0.bridge$getPath());
+   }
+
+   public static boolean CHHIOCRRHIICCIOOORRRHRRROIRHRR(String var0) {
+      return var0.startsWith("lunar/shader-inject/");
+   }
+
+   public static boolean HRCOCHHHCCIORCORCHIOOOCCCCHICH(RCIROOOOICRHCCRRCIORHHIRCOIIIC var0) {
+      return "lunar-shaders".equals(var0.bridge$getDomain());
+   }
+
+   public static JsonObject RRCRRCORICCHOHHIRCHIROOHIIOHCO(RCIROOOOICRHCCRRCIORHHIRCOIIIC var0, boolean var1) {
+      String var2 = CHROCCCHHHORIHCRICIHROHHIROCIR(var0.bridge$getPath());
+      if (var2 == null) {
+         return null;
+      }
+
+      boolean var3 = var2.endsWith(".json");
+      if (!var3 && !var1) {
+         return null;
+      }
+
+      String var4 = var2;
+      if (var3) {
+         var4 = var4.substring(0, var4.length() - 5);
+      }
+
+      com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var5 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+         .IIORRHCROCRRCCIIOHOICORIROIOCH()
+         .OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var4);
+      return var5 != null ? var5.RRIORCIIOICRCRRCOHHRICOOHIHRIC() : null;
+   }
+
+   public static Supplier<InputStream> IIHHICHCCCOHCHROIRIHICCHHOROCR(RCIROOOOICRHCCRRCIORHHIRCOIIIC var0) {
+      return () -> {
+         if (IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR() == null) {
+            return InputStream.nullInputStream();
+         }
+
+         JsonObject var1 = RRCRRCORICCHOHHIRCHIROOHIIOHCO(var0, false);
+         if (var1 != null) {
+            return new ByteArrayInputStream(IIRHCHHOICHRICOOCRORCCIOOIHOIR.ORHHIICRRIOIOHCHHCHHHRCIORCHRI.toJson(var1).getBytes(StandardCharsets.UTF_8));
+         }
+
+         String var2 = var0.bridge$getPath();
+         if (!var2.endsWith(".vsh") && !var2.endsWith(".fsh")) {
+            return InputStream.nullInputStream();
+         }
+
+         boolean var3 = var2.endsWith(".vsh");
+         String var4 = CHROCCCHHHORIHCRICIHROHHIROCIR(var2);
+         if (var4 == null) {
+            return InputStream.nullInputStream();
+         }
+
+         var4 = var4.substring(4, var4.length() - 4);
+         com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var5 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+            .IIORRHCROCRRCCIIOHOICORIROIOCH()
+            .OCHRHCOIIRIOOCCRCROHOIHHIHIROI(var4);
+         return var5 != null
+            ? new ByteArrayInputStream(var5.RIHCIRRIOICHROIOROIIIRIHORRRIR(var3).getBytes(StandardCharsets.UTF_8))
+            : InputStream.nullInputStream();
+      };
+   }
+
+   private static String CHROCCCHHHORIHCRICIHROHHIROCIR(String var0) {
+      int var1 = var0.lastIndexOf("lunar/shader-inject/");
+      return var1 == -1 ? null : var0.substring(var1 + "lunar/shader-inject/".length());
+   }
+}

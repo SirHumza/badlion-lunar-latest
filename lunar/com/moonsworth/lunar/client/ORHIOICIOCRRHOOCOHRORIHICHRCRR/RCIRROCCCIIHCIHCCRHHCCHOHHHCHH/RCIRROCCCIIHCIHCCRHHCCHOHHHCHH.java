@@ -1,0 +1,7 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public boolean CCIIOOIIORCHOCOHCOIROOICHHOHCI() {
+      return true;
+   }
+}

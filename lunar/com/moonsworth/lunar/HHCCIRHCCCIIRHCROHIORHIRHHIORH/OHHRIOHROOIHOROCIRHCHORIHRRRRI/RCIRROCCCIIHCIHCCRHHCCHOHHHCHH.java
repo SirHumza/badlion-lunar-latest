@@ -1,0 +1,74 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
+
+import lombok.Generated;
+
+public final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private final com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH IIIOHRRCOOORCCICORHROCCHCRRRIR;
+   private final int HCHRCOICHOOIOROORHRIIIOIIHIHOC;
+   private final boolean HOHCOIRRHIICOCOORHHRRRCRIOOIHR;
+   private final int HHCCIRORCRCHOIOHRRIRRRIORRCRRR;
+   private long lastUpdated;
+   private int HHHIHROORHHOOCCOOCHRIRHRHCRHIH = 0;
+   private int frameCount;
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      this.IIIOHRRCOOORCCICORHROCCHCRRRIR = var1;
+      this.HCHRCOICHOOIOROORHRIIIOIIHIHOC = var1.bridge$getFrameTime();
+      this.HOHCOIRRHIICOCOORHHRRRCRIOOIHR = var1.bridge$getFrameCount() > 0;
+      if (this.HOHCOIRRHIICOCOORHHRRRCRIOOIHR) {
+         this.HHCCIRORCRCHOIOHRRIRRRIORRCRRR = var1.bridge$getFrameCount();
+      } else {
+         this.HHCCIRORCRCHOIOHRRIRRRIORRCRRR = 0;
+      }
+   }
+
+   public int getFrame() {
+      return this.HOHCOIRRHIICOCOORHHRRRCRIOOIHR
+         ? this.IIIOHRRCOOORCCICORHROCCHCRRRIR.bridge$getFrameIndex(this.HHHIHROORHHOOCCOOCHRIRHRHCRHIH)
+         : this.HHHIHROORHHOOCCOOCHRIRHRHCRHIH;
+   }
+
+   public void updateAnimation() {
+      int var1;
+      int var2;
+      if (this.HOHCOIRRHIICOCOORHHRRRCRIOOIHR && this.IIIOHRRCOOORCCICORHROCCHCRRRIR.bridge$hasTime(var2 = this.getFrame())) {
+         var1 = this.IIIOHRRCOOORCCICORHROCCHCRRRIR.bridge$getFrameTimeSingle(var2);
+      } else {
+         var1 = this.HCHRCOICHOOIOROORHRIIIOIIHIHOC;
+      }
+
+      var1 *= 50;
+      if (System.currentTimeMillis() - this.lastUpdated >= var1) {
+         if (++this.HHHIHROORHHOOCCOOCHRIRHRHCRHIH >= (this.HOHCOIRRHIICOCOORHHRRRCRIOOIHR ? this.HHCCIRORCRCHOIOHRRIRRRIORRCRRR : this.frameCount)) {
+            this.HHHIHROORHHOOCCOOCHRIRHRHCRHIH = 0;
+         }
+
+         this.lastUpdated = System.currentTimeMillis();
+      }
+   }
+
+   public void setFrameCount(int var1) {
+      if (this.HOHCOIRRHIICOCOORHHRRRCRIOOIHR) {
+         this.frameCount = this.IIIOHRRCOOORCCICORHROCCHCRRRIR.bridge$getFrameCount();
+      } else {
+         this.frameCount = var1 / this.IIIOHRRCOOORCCICORHROCCHCRRRIR.bridge$getFrameHeight();
+      }
+   }
+
+   @Generated
+   public com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH RIHIRICHOCOICIORCRIRIIROCCCIRC() {
+      return this.IIIOHRRCOOORCCICORHROCCHCRRRIR;
+   }
+
+   @Generated
+   public int HRCHROCCOHHCCHRHORRIICIHRRCRHC() {
+      return this.HHHIHROORHHOOCCOOCHRIRHRHCRHIH;
+   }
+
+   @Generated
+   public int getFrameCount() {
+      return this.frameCount;
+   }
+}

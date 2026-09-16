@@ -1,0 +1,199 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.client.util.HOIHOROOIOOCOIHCRIRIRIRRICIIHC;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.util.Arrays;
+import java.util.EnumMap;
+import java.util.Map;
+import org.jetbrains.annotations.Nullable;
+
+class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private static final int ICRIOOCICRHOIRORHHHROHRIOHCOHC = 9066288;
+   private static final Map<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH, Integer> IRRHIHORRHHRHIIOCCRCIIHHCRCCIC = new EnumMap<>(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class
+   );
+   private static final IHHCHHHCRIHOOCOIOOCRIIICIOROIR[] OHRHCCOHROOORCOHRCOIHIRIROIICO = new IHHCHHHCRIHOOCOIOOCRIIICIOROIR[]{
+      IHHCHHHCRIHOOCOIOOCRIIICIOROIR.CHEST, IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HEAD, IHHCHHHCRIHOOCOIOOCRIIICIOROIR.LEGS, IHHCHHHCRIHOOCOIOOCRIIICIOROIR.FEET
+   };
+   private final Map<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH, Integer> OORHIRCHHHCCOIIOHOIRIHRHCHICIC = new EnumMap<>(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class
+   );
+
+   public int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1,
+      boolean var2
+   ) {
+      Integer var3 = this.OORHIRCHHHCCOIIOHOIRIHRHCHICIC.get(var1);
+      if (var3 != null) {
+         return var3;
+      }
+
+      int var4 = var2 ? this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1) : IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.getOrDefault(var1, 0);
+      this.OORHIRCHHHCCOIIOHOIRIHRHCHICIC.put(var1, var4);
+      return var4;
+   }
+
+   public void reset() {
+      this.OORHIRCHHHCCOIIOHOIRIHRHCHICIC.clear();
+   }
+
+   private int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      for (IHHCHHHCRIHOOCOIOOCRIIICIOROIR var5 : OHRHCCOHROOORCOHRCOIHIRIROIICO) {
+         BufferedImage var6 = this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var5);
+         if (var6 != null) {
+            int var7 = this.CRRRICCRROCOHHOHIICIHORCOORRRH(var6);
+            if (var7 != 0) {
+               if (var1
+                  == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.LEATHER
+                  )
+                {
+                  var7 = 0xFF000000 | (var7 >> 16 & 0xFF) * 138 / 255 << 16 | (var7 >> 8 & 0xFF) * 87 / 255 << 8 | (var7 & 0xFF) * 48 / 255;
+               }
+
+               int var8 = IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.getOrDefault(var1, 0);
+               if (var8 == 0) {
+                  return var7;
+               }
+
+               int var9 = var8 >> 16 & 0xFF;
+               int var10 = var8 >> 8 & 0xFF;
+               int var11 = var8 & 0xFF;
+               float var12 = Math.max(var9, Math.max(var10, var11)) / 255.0F;
+               float[] var13 = Color.RGBtoHSB(var7 >> 16 & 0xFF, var7 >> 8 & 0xFF, var7 & 0xFF, null);
+               return Color.HSBtoRGB(var13[0], var13[1], var12);
+            }
+         }
+      }
+
+      return IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.getOrDefault(var1, 0);
+   }
+
+   @Nullable
+   private BufferedImage RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1,
+      IHHCHHHCRIHOOCOIOOCRIIICIOROIR var2
+   ) {
+      if (var1
+            != com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ARMADILLO
+         && var1
+            != com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.UNKNOWN
+         )
+       {
+         String var3 = var1.getMaterial();
+         if (var1
+            == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.GOLD
+            )
+          {
+            var3 = IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION > 5 ? "golden" : "gold";
+         }
+
+         if (var3 == null) {
+            return null;
+         }
+
+         String var4 = switch (var2) {
+            case HEAD -> "helmet";
+            case CHEST -> "chestplate";
+            case LEGS -> "leggings";
+            case FEET -> "boots";
+            default -> null;
+         };
+         return var4 == null
+            ? null
+            : HOIHOROOIOOCOIHCRIRIRIRRICIIHC.IOCIIROIRCOHIRHHHROHCOOHIICIHI(
+               RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+                  "minecraft", "textures/" + (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION > 5 ? "item" : "items") + "/" + var3 + "_" + var4 + ".png"
+               )
+            );
+      } else {
+         return null;
+      }
+   }
+
+   private int CRRRICCRROCOHHOHIICIHORCOORRRH(BufferedImage var1) {
+      int var2 = var1.getWidth();
+      int var3 = var1.getHeight();
+      float[] var4 = new float[var2 * var3];
+      long var5 = 0L;
+      long var7 = 0L;
+      long var9 = 0L;
+      long var11 = 0L;
+      int var13 = 0;
+
+      for (int var14 = 0; var14 < var2; var14++) {
+         for (int var15 = 0; var15 < var3; var15++) {
+            int var16 = var1.getRGB(var14, var15);
+            if ((var16 >> 24 & 0xFF) >= 128) {
+               int var17 = var16 >> 16 & 0xFF;
+               int var18 = var16 >> 8 & 0xFF;
+               int var19 = var16 & 0xFF;
+               int var20 = Math.max(var17, Math.max(var18, var19));
+               var4[var13++] = var20 / 255.0F;
+               int var21 = 1 + var20 - Math.min(var17, Math.min(var18, var19));
+               var5 += (long)var17 * var21;
+               var7 += (long)var18 * var21;
+               var9 += (long)var19 * var21;
+               var11 += var21;
+            }
+         }
+      }
+
+      if (var11 == 0L) {
+         return 0;
+      }
+
+      float[] var22 = Color.RGBtoHSB((int)(var5 / var11), (int)(var7 / var11), (int)(var9 / var11), null);
+      Arrays.sort(var4, 0, var13);
+      float var23 = var4[Math.round((var13 - 1) * 0.8F)];
+      return Color.HSBtoRGB(var22[0], Math.min(1.0F, var22[1] * 1.25F), var23);
+   }
+
+   static {
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.LEATHER,
+         -7644629
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CHAIN,
+         -9079435
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRON,
+         -2565928
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.GOLD,
+         -1062853
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.DIAMOND,
+         -11608621
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.NETHERITE,
+         -10925746
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.COPPER,
+         -4102851
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.TURTLE,
+         -10704801
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.TURTLE_SCUTE,
+         -10704801
+      );
+      IRRHIHORRHHRHIIOCCRCIIHHCRCCIC.put(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.UNKNOWN,
+         -1
+      );
+   }
+}

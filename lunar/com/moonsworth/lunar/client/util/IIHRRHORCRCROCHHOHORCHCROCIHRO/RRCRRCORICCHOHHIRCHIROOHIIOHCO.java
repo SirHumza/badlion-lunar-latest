@@ -1,0 +1,5 @@
+package com.moonsworth.lunar.client.util.IIHRRHORCRCROCHHOHORCHCROCIHRO;
+
+public interface RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   CRRRICCRROCOHHOHIICIHORCOORRRH lunar$getCache();
+}

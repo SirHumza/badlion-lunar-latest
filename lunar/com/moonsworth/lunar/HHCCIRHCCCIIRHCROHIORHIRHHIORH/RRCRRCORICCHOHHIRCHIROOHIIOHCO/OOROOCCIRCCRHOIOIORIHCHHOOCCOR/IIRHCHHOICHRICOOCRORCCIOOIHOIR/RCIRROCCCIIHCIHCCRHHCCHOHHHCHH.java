@@ -1,0 +1,113 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+
+import java.nio.FloatBuffer;
+import java.util.ArrayList;
+import java.util.List;
+import javax.vecmath.AxisAngle4f;
+import javax.vecmath.Matrix4f;
+import javax.vecmath.Vector3f;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private final List<Matrix4f> HOOCOICCCRRCIRIIRCCIIRRIICHRHI;
+   private Matrix4f IRCROOOORIRIHOORHRHCIHICIIRROO;
+   private final Matrix4f CHIHCHORCIRIROHIRIICIHCRCCHHRH = new Matrix4f();
+   private final AxisAngle4f IOORHRRIIHRCORHOOHOOOHCOOROCHO = new AxisAngle4f();
+   private final Vector3f RCRCCIHHHCCIRIIOCORORIIRCRIHCI = new Vector3f();
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+      this.HOOCOICCCRRCIRIIRCCIIRRIICHRHI = new ArrayList<>();
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO = new Matrix4f();
+      this.HIHROCOCCHRHHRROHCRCCHOIRCHIHI();
+   }
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Matrix4f var1) {
+      this.HOOCOICCCRRCIRIIRCCIIRRIICHRHI = new ArrayList<>();
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO = var1;
+   }
+
+   public Matrix4f getMatrix() {
+      return this.IRCROOOORIRIHOORHRHCIHICIIRROO;
+   }
+
+   public void HIHROCOCCHRHHRROHCRCCHOIRCHIHI() {
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO.setIdentity();
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(Matrix4f var1) {
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO = var1;
+   }
+
+   public void CCICHRCORROHIOCIOIRHOICHRRIRHO() {
+      this.HOOCOICCCRRCIRIIRCCIIRRIICHRHI.add((Matrix4f)this.IRCROOOORIRIHOORHRHCIHICIIRROO.clone());
+   }
+
+   public void ORHHRHCOIOCOHIIHIROCIRCOIRIHHI() {
+      if (this.HOOCOICCCRRCIRIIRCCIIRRIICHRHI.isEmpty()) {
+         this.HIHROCOCCHRHHRROHCRCCHOIRCHIHI();
+      } else {
+         this.IRCROOOORIRIHOORHRHCIHICIIRROO = this.HOOCOICCCRRCIRIIRCCIIRRIICHRHI.remove(this.HOOCOICCCRRCIRIIRCCIIRRIICHRHI.size() - 1);
+      }
+   }
+
+   public void HHCCIRHCCCIIRHCROHIORHIRHHIORH(double var1, double var3, double var5, double var7, double var9, double var11) {
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.setIdentity();
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m00 = (float)(2.0 / (var3 - var1));
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m11 = (float)(2.0 / (var7 - var5));
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m22 = (float)(-2.0 / (var11 - var9));
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m03 = (float)(-(var3 + var1) / (var3 - var1));
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m13 = (float)(-(var7 + var5) / (var7 - var5));
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m23 = (float)(-(var11 + var9) / (var11 - var9));
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO.mul(this.CHIHCHORCIRIROHIRIICIHCRCCHHRH);
+   }
+
+   public void RRCRRCORICCHOHHIRCHIROOHIIOHCO(float var1, float var2, float var3, float var4) {
+      this.IOORHRRIIHRCORHOOHOOOHCOOROCHO.angle = (float)Math.toRadians(var1);
+      this.IOORHRRIIHRCORHOOHOOOHCOOROCHO.x = var2;
+      this.IOORHRRIIHRCORHOOHOOOHCOOROCHO.y = var3;
+      this.IOORHRRIIHRCORHOOHOOOHCOOROCHO.z = var4;
+      double var5 = Math.sqrt(var2 * var2 + var3 * var3 + var4 * var4);
+      float var7 = (float)(1.0 / var5);
+      this.IOORHRRIIHRCORHOOHOOOHCOOROCHO.x *= var7;
+      this.IOORHRRIIHRCORHOOHOOOHCOOROCHO.y *= var7;
+      this.IOORHRRIIHRCORHOOHOOOHCOOROCHO.z *= var7;
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.setIdentity();
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.setRotation(this.IOORHRRIIHRCORHOOHOOOHCOOROCHO);
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO.mul(this.CHIHCHORCIRIROHIRIICIHCRCCHHRH);
+   }
+
+   public void scale(float var1, float var2, float var3) {
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.setIdentity();
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m00 = var1;
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m11 = var2;
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m22 = var3;
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO.mul(this.CHIHCHORCIRIROHIRIICIHCRCCHHRH);
+   }
+
+   public void CRICCOOHHHCHOORCICOCOHIHOIRHOO(float var1, float var2, float var3) {
+      this.RCRCCIHHHCCIRIIOCORORIIRCRIHCI.set(var1, var2, var3);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.setIdentity();
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.setTranslation(this.RCRCCIHHHCCIRIIOCORORIIRCRIHCI);
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO.mul(this.CHIHCHORCIRIROHIRIICIHCRCCHHRH);
+   }
+
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(FloatBuffer var1) {
+      int var2 = var1.position();
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m00 = var1.get(var2);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m01 = var1.get(var2 + 1);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m02 = var1.get(var2 + 2);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m03 = var1.get(var2 + 3);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m10 = var1.get(var2 + 4);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m11 = var1.get(var2 + 5);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m12 = var1.get(var2 + 6);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m13 = var1.get(var2 + 7);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m20 = var1.get(var2 + 8);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m21 = var1.get(var2 + 9);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m22 = var1.get(var2 + 10);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m23 = var1.get(var2 + 11);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m30 = var1.get(var2 + 12);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m31 = var1.get(var2 + 13);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m32 = var1.get(var2 + 14);
+      this.CHIHCHORCIRIROHIRIICIHCRCCHHRH.m33 = var1.get(var2 + 15);
+      this.IRCROOOORIRIHOORHRHCIHICIIRROO.mul(this.CHIHCHORCIRIROHIRIICIHCRCCHHRH);
+   }
+}

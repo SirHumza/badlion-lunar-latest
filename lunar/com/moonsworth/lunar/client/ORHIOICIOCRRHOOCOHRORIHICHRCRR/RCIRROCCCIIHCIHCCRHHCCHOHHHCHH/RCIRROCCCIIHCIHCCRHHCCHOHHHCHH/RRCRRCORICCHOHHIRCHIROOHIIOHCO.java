@@ -1,0 +1,27 @@
+package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+public class RRCRRCORICCHOHHIRCHIROOHIIOHCO extends HICHRCOHCCRHOHCICOOCHOIHCCHIRI {
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      super(var1);
+   }
+
+   @Override
+   protected void RRRICOORROOOROOCOOHCCIIRCRIRHC() {
+      this.HIHIRCICHRCIROHOOICCHOCCCHOCCR.set(this.doubleValue());
+   }
+
+   @Override
+   public double doubleValue() {
+      return this.ICRRRCOCRCCHCIIOHHORHORHRCOCIC() ? 1.0 : 0.0;
+   }
+
+   @Override
+   public boolean ICRRRCOCRCCHCIIOHHORHORHRCOCIC() {
+      return !this.IORICHCHCOCOCCRRIIIIRCOHIRICOR.ICRRRCOCRCCHCIIOHHORHORHRCOCIC();
+   }
+
+   @Override
+   public String toString() {
+      return "!" + this.IORICHCHCOCOCCRRIIIIRCOHIRICOR.toString();
+   }
+}

@@ -1,0 +1,57 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRRRICCRROCOHHOHIICIHORCOORRRH;
+import com.moonsworth.lunar.lib.adventure.text.format.NamedTextColor;
+import java.util.regex.Pattern;
+import lombok.Generated;
+
+public enum RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   MITHRIL(
+      "Mithril",
+      NamedTextColor.DARK_GREEN,
+      CRRRICCRROCOHHOHIICIHORCOORRRH.RRCRRCORICCHOHHIRCHIROOHIIOHCO(CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.LIME)
+   ),
+   GEMSTONE(
+      "Gemstone",
+      NamedTextColor.LIGHT_PURPLE,
+      CRRRICCRROCOHHOHIICIHORCOORRRH.RRCRRCORICCHOHHIRCHIROOHIIOHCO(CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.PINK)
+   ),
+   GLACITE(
+      "Glacite",
+      NamedTextColor.AQUA,
+      CRRRICCRROCOHHOHIICIHORCOORRRH.RRCRRCORICCHOHHIRCHIROOHIIOHCO(CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.LIGHT_BLUE)
+   );
+
+   private final String id;
+   private final NamedTextColor color;
+   private final Pattern pattern;
+   private final IIRHCHHOICHRICOOCRORCCIOOIHOIR icon;
+
+   RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var3, NamedTextColor var4, IIRHCHHOICHRICOOCRORCCIOOIHOIR var5) {
+      this.id = var3;
+      this.color = var4;
+      this.pattern = Pattern.compile("^ " + var3 + ": ([\\d,]+)$");
+      this.icon = var5;
+   }
+
+   @Generated
+   public String getId() {
+      return this.id;
+   }
+
+   @Generated
+   public NamedTextColor getColor() {
+      return this.color;
+   }
+
+   @Generated
+   public Pattern getPattern() {
+      return this.pattern;
+   }
+
+   @Generated
+   public IIRHCHHOICHRICOOCRORCCIOOIHOIR getIcon() {
+      return this.icon;
+   }
+}

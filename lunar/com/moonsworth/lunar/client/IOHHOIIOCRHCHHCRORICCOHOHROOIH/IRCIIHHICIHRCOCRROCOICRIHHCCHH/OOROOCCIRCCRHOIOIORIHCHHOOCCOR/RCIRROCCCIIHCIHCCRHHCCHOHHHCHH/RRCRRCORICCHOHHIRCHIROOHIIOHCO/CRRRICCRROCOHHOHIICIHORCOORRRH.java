@@ -1,0 +1,97 @@
+package com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+
+import com.google.gson.JsonElement;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import com.moonsworth.webosr.javascript.CallbackJS;
+import org.jetbrains.annotations.Nullable;
+
+public class CRRRICCRROCOHHOHIICIHORCOORRRH
+   implements com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public static int IHCRHRIRHHCORORIORRRORHHHRHOOH;
+   public static int IOOOHRCIIHHHICRROIRHCICCRRIHOC;
+   private static float HCHRIIIOROIOCHCRHOIOORCHHOCHCH = 3.0F;
+   private static float OCHRROHHROCCHOOICOOCIRHOICRRIO = 0.0F;
+   private static float IHCRRCRRHIRIHOIRCRCIIRIHRRCIHO = 0.0F;
+
+   @CallbackJS("setMapDimensions")
+   public static void IRCIIHHICIHRCOCRROCOICRIHHCCHH(Integer var0, Integer var1) {
+      IHCRHRIRHHCORORIORRRORHHHRHOOH = var0;
+      IOOOHRCIIHHHICRROIRHCICCRRIHOC = var1;
+   }
+
+   @CallbackJS("mapDrag")
+   public static void HHCCIRHCCCIIRHCROHIORHIRHHIORH(Integer var0, Integer var1) {
+      if (var0 != null) {
+         OCHRROHHROCCHOOICOOCIRHOICRRIO = OCHRROHHROCCHOOICOOCIRHOICRRIO + var0.intValue();
+      }
+
+      if (var1 != null) {
+         IHCRRCRRHIRIHOIRCRCIIRIHRRCIHO = IHCRRCRRHIRIHOIRCRCIIRIHRRCIHO + var1.intValue();
+      }
+   }
+
+   @CallbackJS("mapZoomBy")
+   public static void ORCOCORROHIROCCIORORRRRCHIOOCH(Integer var0) {
+      float var1 = 0.25F;
+      if (var0 != null && var0 > 0) {
+         HCHRIIIOROIOCHCRHOIOORCHHOCHCH -= var1;
+      } else if (var0 != null && var0 < 0) {
+         HCHRIIIOROIOCHCRHOIOORCHHOCHCH += var1;
+      }
+
+      if (HCHRIIIOROIOCHCRHOIOORCHHOCHCH < -1.75F) {
+         HCHRIIIOROIOCHCRHOIOORCHHOCHCH = -1.75F;
+      }
+
+      if (HCHRIIIOROIOCHCRHOIOORCHHOCHCH > 20.0F) {
+         HCHRIIIOROIOCHCRHOIOORCHHOCHCH = 20.0F;
+      }
+   }
+
+   public static float getZoom() {
+      return HCHRIIIOROIOCHCRHOIOORCHHOCHCH;
+   }
+
+   public static float IIIRCOOIIOOROHROOOOHCIRRCCRRIR() {
+      return OCHRROHHROCCHOOICOOCIRHOICRRIO;
+   }
+
+   public static float IIRORICCORCORRHHCHIIIIHHCOCROR() {
+      return IHCRRCRRHIRIHOIRCRCIIRIHRRCIHO;
+   }
+
+   @CallbackJS("resetMapInteraction")
+   public static void CRIHOICHCOIHIOHOCOHCORHIOHCOIH() {
+      CCRHRROIOIIRROHCOOCCCRRIOIHHHO(3.0F);
+   }
+
+   @CallbackJS("resetMapInteractionZoom")
+   public static void IRRCCOICORICIHCHRHIHIHROIRHOCR(Float var0) {
+      CCRHRROIOIIRROHCOOCCCRRIOIHHHO(var0 == null ? 3.0F : var0);
+   }
+
+   private static void CCRHRROIOIIRROHCOOCCCRRIOIHHHO(float var0) {
+      OCHRROHHROCCHOOICOOCIRHOICRRIO = 0.0F;
+      IHCRRCRRHIRIHOIRCRCIIRIHRRCIHO = 0.0F;
+      HCHRIIIOROIOCHCRHOIOORCHHOCHCH = var0;
+   }
+
+   @CallbackJS("showMap")
+   public static String COROCIOCCICRIHRIOHOOHOICHRIHRC() {
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCCCROCHCICCROHCOCCRRROCIIHCCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var0 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+         .HHCCIRORCRCHOIOHRRIRRRIORRCRRR()
+         .HICRHORRRIHRCCCICRRIHCOIROHRIO();
+      return var0.isEnabled() && IICCOOCHCHROORHHIIHROHCCRHRCOR.RIIOCICROIOIORIIRIICORCHHRIIRH() != null ? "true" : "false";
+   }
+
+   @Nullable
+   @Override
+   public JsonElement HRRORHCRHHRROHIOROOOORRIRRCCIC() {
+      return null;
+   }
+
+   @Override
+   public JsonElement provide() {
+      return null;
+   }
+}

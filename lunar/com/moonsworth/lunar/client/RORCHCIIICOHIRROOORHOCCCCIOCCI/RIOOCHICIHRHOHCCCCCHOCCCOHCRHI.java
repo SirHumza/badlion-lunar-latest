@@ -1,0 +1,7 @@
+package com.moonsworth.lunar.client.RORCHCIIICOHIRROOORHOCCCCIOCCI;
+
+public enum RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   CONFLICTS,
+   REQUIRES,
+   REMOVE;
+}

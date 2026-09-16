@@ -1,0 +1,34 @@
+package com.moonsworth.lunar.client.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.Validate;
+import org.joml.Vector3f;
+
+public class RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   public final Vector3f RORHCIIHHROOIOHIORIHCRHOHRROCI;
+   public float CRRCHRCROCHIICROIROHCOIORROOCI;
+   public float OOCHRRHHIHRCCIICOIOCRHIIIIOIIR;
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(float var1, float var2, float var3) {
+      this.RORHCIIHHROOIOHIORIHCRHOHRROCI = new Vector3f(var1, var2, var3);
+   }
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(double var1, double var3, double var5) {
+      this.RORHCIIHHROOIOHIORIHCRHOHRROCI = new Vector3f((float)var1, (float)var3, (float)var5);
+   }
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO OHIIIOHIRIRCCRRIOIICCHHIORRHOH(float var1, float var2) {
+      return new RRCRRCORICCHOHHIRCHIROOHIIOHCO(this.RORHCIIHHROOIOHIORIHCRHOHRROCI, var1, var2);
+   }
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO IIRHCHHOICHRICOOCRORCCIOOIHOIR(double[] var1) {
+      Validate.validIndex(ArrayUtils.toObject(var1), 1);
+      return new RRCRRCORICCHOHHIRCHIROOHIIOHCO(this.RORHCIIHHROOIOHIORIHCRHOHRROCI, (float)var1[0], (float)var1[1]);
+   }
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(Vector3f var1, float var2, float var3) {
+      this.RORHCIIHHROOIOHIORIHCRHOHRROCI = var1;
+      this.CRRCHRCROCHIICROIROHCOIORROOCI = var2;
+      this.OOCHRRHHIHRCCIICOIOCRHIIIIOIIR = var3;
+   }
+}

@@ -1,0 +1,10 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import java.util.Optional;
+
+public interface RIROICHCRROROHCCROOCCCCOCHCCRI extends ORHIOICIOCRRHOOCOHRORIHICHRCRR {
+   @Override
+   default Optional<String> RICCICOHIICIIORHCHCRCRHOOOCHIC() {
+      return Optional.of("Server Selector");
+   }
+}

@@ -1,0 +1,53 @@
+package com.moonsworth.lunar.client.util.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+
+import lombok.Generated;
+import org.jetbrains.annotations.Range;
+
+public class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI implements com.moonsworth.lunar.client.util.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   private final int HOHIHHOOCCIRHHRIRHCHIOOORRHHIR;
+   private final IRCIIHHICIHRCOCRROCOICRIHHCCHH COHHOHHHOIHICOHICIHOIICRHCIOHH;
+   private final int OORORHCCOOHOHRIHCICHHHOIRCOCIH;
+
+   @Override
+   public boolean RCRHHRIIHHRCRCIHHHCCRIIOCHCRCH() {
+      return true;
+   }
+
+   @Override
+   public @Range(from = 1L, to = 100L) int RRCOIRHOCOOCRHIRIIORRIRHCRORCC() {
+      return this.OORORHCCOOHOHRIHCICHHHOIRCOCIH;
+   }
+
+   @Override
+   public int OCOHORHCROHICRRIHCIHHRRCIHICRI(float var1) {
+      var1 = com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.ROHHOOHOHCHRIICCCHCOHCORROHRIH()
+               .getScaledWidth()
+            + com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.ROHHOOHOHCHRIICCCHCOHCORROHRIH()
+               .getScaledHeight()
+         - var1;
+      return this.COHHOHHHOIHICOHICIHOIICRHCIOHH.color().apply(var1, this);
+   }
+
+   @Generated
+   @Override
+   public int getColor() {
+      return this.HOHIHHOOCCIRHHRIRHCHIOOORRHHIR;
+   }
+
+   @Generated
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH CIIICHCHIRRRIORIOOICOOCRHCHRIC() {
+      return this.COHHOHHHOIHICOHICIHOIICRHCIOHH;
+   }
+
+   @Generated
+   public int RCHHIRIOOHOCHCRCHCICOHRROICIRH() {
+      return this.OORORHCCOOHOHRIHCICHHHOIRCOCIH;
+   }
+
+   @Generated
+   RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(int var1, IRCIIHHICIHRCOCRROCOICRIHHCCHH var2, int var3) {
+      this.HOHIHHOOCCIRHHRIRHCHIOOORRHHIR = var1;
+      this.COHHOHHHOIHICOHICIHOIICRHCIOHH = var2;
+      this.OORORHCCOOHOHRIHCICHHHOIRCOCIH = var3;
+   }
+}

@@ -1,0 +1,39 @@
+package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.ORHIOICIOCRRHOOCOHRORIHICHRCRR;
+import org.apache.commons.lang3.text.WordUtils;
+
+public enum RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements ORHIOICIOCRRHOOCOHRORIHICHRCRR {
+   OFF,
+   DARK_BLUE,
+   DARK_GREEN,
+   DARK_AQUA,
+   DARK_RED,
+   DARK_PURPLE,
+   GOLD,
+   GRAY,
+   DARK_GRAY,
+   BLUE,
+   GREEN,
+   AQUA,
+   RED,
+   LIGHT_PURPLE,
+   YELLOW,
+   WHITE;
+
+   @Override
+   public String toString() {
+      return WordUtils.capitalize(this.name().toLowerCase().replace("_", " "));
+   }
+
+   @Override
+   public String id() {
+      return this.name();
+   }
+
+   public com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO getColor() {
+      return this == OFF
+         ? com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RESET
+         : com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.valueOf(this.name());
+   }
+}

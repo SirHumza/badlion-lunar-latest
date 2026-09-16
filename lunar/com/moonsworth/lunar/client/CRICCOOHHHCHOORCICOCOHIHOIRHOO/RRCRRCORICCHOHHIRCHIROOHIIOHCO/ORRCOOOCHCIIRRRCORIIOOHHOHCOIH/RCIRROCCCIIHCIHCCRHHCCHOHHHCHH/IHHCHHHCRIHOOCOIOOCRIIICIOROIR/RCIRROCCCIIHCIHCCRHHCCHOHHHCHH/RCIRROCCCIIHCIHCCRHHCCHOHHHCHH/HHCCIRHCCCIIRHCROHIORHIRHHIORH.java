@@ -1,0 +1,31 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+
+public enum HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   EMPTY,
+   UNKNOWN,
+   FOSSIL;
+
+   public static HHCCIRHCCCIIRHCROHIORHIRHHIORH from(IIRHCHHOICHRICOOCRORCCIOOIHOIR var0) {
+      if (var0 == null) {
+         return UNKNOWN;
+      }
+
+      if (var0.bridge$isEmpty()) {
+         return EMPTY;
+      }
+
+      if (var0.bridge$hasDisplayName()) {
+         String var1 = RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextWithoutFormattingCodes(var0.bridge$getDisplayName());
+         if (var1.startsWith("Dirt")) {
+            return UNKNOWN;
+         } else {
+            return var1.equals("Fossil") ? FOSSIL : EMPTY;
+         }
+      } else {
+         return UNKNOWN;
+      }
+   }
+}

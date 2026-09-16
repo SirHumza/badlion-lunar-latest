@@ -1,0 +1,120 @@
+package com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.lunarclient.dfu.serialization.Codec;
+import com.moonsworth.lunar.client.util.HIHCCHCCOCOHRICOICHRCOIHIIRIHO;
+import java.util.function.Function;
+import lombok.Generated;
+import org.jspecify.annotations.Nullable;
+
+public class OOOOCCOOOHCHCIIHOIHCRIIOOROHRC extends HRCHROOHRIHCRCRHRIIROCIRHOIRHH<String> {
+   public static final String NONE = "none";
+   public static final String RROHHIRHCICOOOHCCOHHCIRCIOCOIO = "file:";
+   private final RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO IHOICHIOIRICOCCRHOOCRRCCIRRROR = IOHHOIIOCRHCHHCRORICCOHOHROOIH.ICHOCHHROIHCROICCIRIHHCHRHROCO("volume")
+      .RCIICICHIIRIIRHHROCOOOHRROOIIC(25)
+      .OCIROOIHIHRHOCCHIIIROOCRIIOCRR(0, 100)
+      .CHCROCIHRRCHHCIHIICOCOCIIHCCOO();
+
+   protected OOOOCCOOOHCHCIIHOIHCRIIOOROHRC(
+      @HIHCCHCCOCOHRICOICHRCOIHIIRIHO(CHHOHHOIRCCRRCRIHCCOHHRCIHRHII = HIHCCHCCOCOHRICOICHRCOIHIIRIHO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.SETTING) String var1,
+      @Nullable Codec<String> var2,
+      String var3
+   ) {
+      super(var1, var2, var3);
+   }
+
+   @Override
+   protected void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.client.util.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<HCHRIROHHHCORIOCROOCHRCIOROOCI<?>> var1
+   ) {
+      super.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1);
+      var1.IIHRRHORCRCROCHHOHORCHCROCIHRO(this.IHOICHIOIRICOCCRHOOCRRCCIRRROR);
+   }
+
+   public boolean CHIOCRCHIHICOHCOHCHIRORRIOCIRH() {
+      return "none".equals(this.get());
+   }
+
+   public boolean isFile() {
+      return this.get().startsWith("file:");
+   }
+
+   public String getFileName() {
+      return this.isFile() ? this.get().substring("file:".length()) : this.get();
+   }
+
+   @Override
+   protected com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ICICIOCHHHIHOCHCOHORIHRCOHHOCR<?> CIOHHCORHRCCRICCCORIHCRHCCCRRR(
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1
+   ) {
+      return new com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IIHRHCCOOHOOOOCHRRCOROOIOHCOOO(
+         this, var1
+      );
+   }
+
+   @Override
+   public void reset() {
+      this.IHOICHIOIRICOCCRHOOCRRCCIRRROR.reset();
+      super.reset();
+   }
+
+   @Override
+   public boolean isDefault() {
+      return super.isDefault() && this.IHOICHIOIRICOCCRHOOCRRCCIRRROR.isDefault();
+   }
+
+   @Generated
+   public RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO ROOCROROCHIICHRCRCORCIROHHOOCR() {
+      return this.IHOICHIOIRICOCCRHOOCRRCCIRRROR;
+   }
+
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      extends com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH<OOOOCCOOOHCHCIIHOIHCRIIOOROHRC.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH, OOOOCCOOOHCHCIIHOIHCRIIOOROHRC, String> {
+      protected RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         @HIHCCHCCOCOHRICOICHRCOIHIIRIHO(CHHOHHOIRCCRRCRIHCCOHHRCIHRHII = HIHCCHCCOCOHRICOICHRCOIHIIRIHO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.SETTING) String var1
+      ) {
+         super(var1);
+      }
+
+      @Override
+      protected com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH ORCHRRHCCOIHHRROOHROROROOHOHIO() {
+         return com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.DROPDOWN;
+      }
+
+      @Override
+      protected @Nullable Codec<String> CIHHRHHHCCHCCCCCIRRORHICROCHHR() {
+         return Codec.STRING;
+      }
+
+      protected String HOCOIRRRIROHHCHHICOOOCRRCICCHC() {
+         return "none";
+      }
+
+      @Override
+      protected @Nullable Function<OOOOCCOOOHCHCIIHOIHCRIIOOROHRC, HHCCIRHCCCIIRHCROHIORHIRHHIORH> OOCCCOICCIHIIHRRRHHROIRIOROCCR() {
+         return var1 -> new com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.CRRRICCRROCOHHOHIICIHORCOORRRH.CRRRICCRROCOHHOHIICIHORCOORRRH(var1) {
+            @Override
+            public JsonElement provide() {
+               JsonObject var1x = super.provide().getAsJsonObject();
+               var1x.add(
+                  "choices", com.moonsworth.lunar.client.util.OCOHORHCROHICRRIHCIHHRRCIHICRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RHOCORCCRRRCCHCROOICICORHHHOCC()
+               );
+               RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO var2 = ((OOOOCCOOOHCHCIIHOIHCRIIOOROHRC)this.option).IHOICHIOIRICOCCRHOOCRRCCIRRROR;
+               com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.CRRRICCRROCOHHOHIICIHORCOORRRH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3 = var2.IHCRORHRORIICHRHRCHRRIRRHHOCOO(
+                  com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.CRRRICCRROCOHHOHIICIHORCOORRRH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.CRHRCRCCHCICIRIRCIRHRCIHCIRHIO
+               );
+               if (var3 != null) {
+                  var1x.add("volume", var3.provide());
+               }
+
+               return var1x;
+            }
+         };
+      }
+
+      protected OOOOCCOOOHCHCIIHOIHCRIIOOROHRC ROCOHCHHHHCCIIRICRHHHCORCIIRHI() {
+         return new OOOOCCOOOHCHCIIHOIHCRIIOOROHRC(this.RROHIIOCCIOHRHHIIRIOIRHHIOCRRO, this.codec, this.defaultValue);
+      }
+   }
+}

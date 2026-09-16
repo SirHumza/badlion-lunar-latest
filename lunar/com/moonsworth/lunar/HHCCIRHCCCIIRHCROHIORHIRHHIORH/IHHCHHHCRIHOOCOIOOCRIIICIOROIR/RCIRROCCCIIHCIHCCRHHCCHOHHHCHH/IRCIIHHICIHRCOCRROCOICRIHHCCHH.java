@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import org.jetbrains.annotations.Nullable;
+
+@FunctionalInterface
+public interface IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   @Nullable
+   IRCIIHHICIHRCOCRROCOICRIHHCCHH bridge$getData();
+}

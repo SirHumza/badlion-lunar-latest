@@ -1,0 +1,164 @@
+package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CORCOCICIRIOHROHROIIOOHICCHCRR.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+import java.util.Locale;
+import java.util.function.BiPredicate;
+import lombok.Generated;
+import org.jetbrains.annotations.Nullable;
+
+public enum RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   WHEAT(
+      "WHEAT",
+      "wheat",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .HHIIIIIRHIOORRRIIORICIRCOHIIHI()
+   ),
+   CARROT(
+      "CARROT_ITEM",
+      "carrot",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .ICOIRCCIRRCHHOHHOOOICOCCIRROCC()
+   ),
+   POTATO(
+      "POTATO_ITEM",
+      "potato",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .CRCHIROOIROHOICHCICHIIHORIOOCC()
+   ),
+   PUMPKIN(
+      "PUMPKIN",
+      "pumpkin",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .CRIHHIRCHOOCIIRRRRCCRCCCRCOIHI()
+   ),
+   MELON(
+      "MELON",
+      "melon_slice",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .CROIROCHRIRRICHRORIIHCORCCIICC()
+   ),
+   SUGAR_CANE(
+      "SUGAR_CANE",
+      "sugar_cane",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .RHHICROROCCOOOIRHCRCIHRHHOIHCR()
+   ),
+   COCOA_BEANS(
+      "INK_SACK:3",
+      "cocoa_beans",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .RIOCORIHHCRHCIRCIOCHORHCHRRICI()
+   ),
+   CACTUS(
+      "CACTUS",
+      "cactus",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .OHCICOOIHRRRHHRHCOICICCROHCIII()
+   ),
+   NETHER_WART(
+      "NETHER_STALK",
+      "nether_wart",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .CCHOOOHOCOIIICICIROHRHIRHHRCCC()
+   ),
+   MUSHROOM(
+      "MUSHROOM_COLLECTION",
+      "mushroom",
+      (var0, var1) -> var0
+            == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+               .IRCIRRIICRHCRHOCCRCRRCRORIHHHO()
+         || var0
+            == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+               .HRCRIIRCHCOCICROHRICORRCRHRHRR()
+   ),
+   WILD_ROSE(
+      "WILD_ROSE",
+      "wild_rose",
+      (var0, var1) -> var0
+         == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+            .HHIHOIIORRRIICHHHIOHRCIHIICHOI()
+   ),
+   SUNFLOWER(
+      "DOUBLE_PLANT",
+      "sunflower",
+      (var0, var1) -> var0
+            == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+               .CCIRHRHCCCCIOCRORRRCIOHIHCCCOR()
+         && var1.CCHCOICIHIRRRHHCIOCOOCORCICIIO() == OOROOCCIRCCRHOIOIORIHCHHOOCCOR.DAY
+   ),
+   MOONFLOWER(
+      "MOONFLOWER",
+      "moonflower",
+      (var0, var1) -> var0
+            == com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CCHCOROOHHCIHOHOCHIHRHOHOCROII()
+               .CCIRHRHCCCCIOCRORRRCIOHIHCCCOR()
+         && var1.CCHCOICIHIRRRHHCIOCOOCORCICIIO() == OOROOCCIRCCRHOIOIORIHCHHOOCCOR.NIGHT
+   );
+
+   private final String apiName;
+   private final String localName;
+   private final BiPredicate<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH, HICHRCOHCCRHOHCICOOCHOIHCCHIRI> isCrop;
+
+   @Nullable
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI fromApi(String var0) {
+      for (RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var4 : values()) {
+         if (var4.getApiName().equals(var0)) {
+            return var4;
+         }
+      }
+
+      return null;
+   }
+
+   @Nullable
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI fromLocal(String var0) {
+      for (RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var4 : values()) {
+         if (var4.getLocalName().equals(var0)) {
+            return var4;
+         }
+      }
+
+      return null;
+   }
+
+   @Nullable
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI fromTab(String var0) {
+      String var1 = var0.toLowerCase(Locale.ROOT).replace(" ", "_");
+      return fromLocal(var0);
+   }
+
+   @Generated
+   RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      String var3,
+      String var4,
+      BiPredicate<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH, HICHRCOHCCRHOHCICOOCHOIHCCHIRI> var5
+   ) {
+      this.apiName = var3;
+      this.localName = var4;
+      this.isCrop = var5;
+   }
+
+   @Generated
+   public String getApiName() {
+      return this.apiName;
+   }
+
+   @Generated
+   public String getLocalName() {
+      return this.localName;
+   }
+
+   @Generated
+   public BiPredicate<com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH, HICHRCOHCCRHOHCICOOCHOIHCCHIRI> getIsCrop() {
+      return this.isCrop;
+   }
+}

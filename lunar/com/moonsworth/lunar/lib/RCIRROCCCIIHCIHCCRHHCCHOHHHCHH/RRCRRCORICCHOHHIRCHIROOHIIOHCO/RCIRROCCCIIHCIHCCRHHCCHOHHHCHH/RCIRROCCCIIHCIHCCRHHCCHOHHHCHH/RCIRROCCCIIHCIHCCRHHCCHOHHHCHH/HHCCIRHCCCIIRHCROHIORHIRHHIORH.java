@@ -1,0 +1,42 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR;
+import java.io.IOException;
+import java.time.DateTimeException;
+
+abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends IRRCCOICORICIHCHRHIHIHROIRHOCR {
+   @Override
+   public final Object RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      String var1, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2
+   ) {
+      return "".equals(var1) ? null : this.CRICCOOHHHCHOORCICOCOHIHOIRHOO(var1, var2);
+   }
+
+   protected abstract Object CRICCOOHHHCHOORCICOCOHIHOIRHOO(
+      String var1, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2
+   );
+
+   protected <T> T RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR var1,
+      Class<?> var2,
+      DateTimeException var3,
+      String var4
+   ) {
+      try {
+         return (T)var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var2, var4, "Failed to deserialize %s: (%s) %s", var2.getName(), var3.getClass().getName(), var3.getMessage()
+         );
+      } catch (com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR var6) {
+         var6.initCause(var3);
+         throw var6;
+      } catch (IOException var7) {
+         if (null == var7.getCause()) {
+            var7.initCause(var3);
+         }
+
+         throw com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var7
+         );
+      }
+   }
+}

@@ -1,0 +1,253 @@
+package com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.moonsworth.lunar.client.util.RIIHIHHCRHCHRCICHOROHCHIIHCICH;
+import com.moonsworth.lunar.lib.adventure.text.Component;
+import java.util.Collections;
+import java.util.List;
+import lombok.Generated;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+@com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 16)
+public abstract class RIROICHCRROROHCCROOCCCCOCHCCRI extends com.moonsworth.lunar.client.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private static int ROIHRHHOHRORCOIIROOHIHCIIRICRI = 0;
+   @NotNull
+   private final CRRRICCRROCOHHOHIICIHORCOORRRH ROOICCCRIIRCCIOIOROIOCCHCRRIRR;
+   @Nullable
+   private Object[] values;
+
+   public static synchronized int RIIHOCROCCIRCHOIRIOHOOIHHRIHCC() {
+      return ROIHRHHOHRORCOIIROOHIHCIIRICRI++;
+   }
+
+   private RIROICHCRROROHCCROOCCCCOCHCCRI(@NotNull CRRRICCRROCOHHOHIICIHORCOORRRH var1, @Nullable Object[] var2) {
+      this.ROOICCCRIIRCCIOIOROIOCCHCRRIRR = var1;
+      this.values = var2;
+   }
+
+   @Nullable
+   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH ORIHRORHHHROICRRCCIIOCROCIHOIR() {
+      return CORCOCICIRIOHROHROIIOOHICCHCRR(this.HOCOIRCICOHHICICIHICIHICRCHROI());
+   }
+
+   @Nullable
+   public static HRCHROOHRIHCRCRHRIIROCIRHOIRHH CORCOCICIRIOHROHROIIOOHICCHCRR(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var0
+   ) {
+      while (
+         !(
+            var0 instanceof com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH
+         )
+      ) {
+         var0 = var0.bridge$getVehicle();
+         if (var0 instanceof com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1
+            )
+          {
+            return var1;
+         }
+
+         if (var0 == null) {
+            break;
+         }
+      }
+
+      return null;
+   }
+
+   public boolean RHHIRHHRIIOOROIRIIRCCCIROOOOHH() {
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var1 = this.HOCOIRCICOHHICICIHICIHICRCHROI();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var2 = var1.bridge$getVehicle();
+
+      while (
+         var2 != null
+            && !(
+               var2 instanceof com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH
+            )
+      ) {
+         var2 = var2.bridge$getVehicle();
+      }
+
+      if (var2 == null) {
+         return true;
+      }
+
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var3 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var2, null
+      );
+      return var3 == null || var3 == var1;
+   }
+
+   @Nullable
+   private static CRRRICCRROCOHHOHIICIHORCOORRRH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      @NotNull CRRRICCRROCOHHOHIICIHORCOORRRH var0, @Nullable CRRRICCRROCOHHOHIICIHORCOORRRH var1
+   ) {
+      List var2 = var0.bridge$getPassengers();
+
+      for (int var3 = 0; var3 < var2.size(); var3++) {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH var4 = (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CRRRICCRROCOHHOHIICIHORCOORRRH)var2.get(
+            var3
+         );
+         if (var4.bridge$isTextDisplay()) {
+            if (var1 == null || var4.bridge$getPosY() > var1.bridge$getPosY()) {
+               var1 = var4;
+            }
+
+            var1 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var4, var1);
+         }
+      }
+
+      return var1;
+   }
+
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1, @Nullable Object var2) {
+      if (var1 >= 0 && var1 < ROIHRHHOHRORCOIIROOHIHCIIRICRI) {
+         Object[] var3 = this.values;
+         if (var3 == null) {
+            var3 = new Object[ROIHRHHOHRORCOIIROOHIHCIIRICRI];
+         }
+
+         var3[var1] = var2;
+         this.values = var3;
+      } else {
+         throw new IllegalStateException("Invalid set valueId " + var1 + " (" + ROIHRHHOHRORCOIIROOHIHCIIRICRI + ")");
+      }
+   }
+
+   public <T> T IRCIIHHICIHRCOCRROCOICRIHHCCHH(int var1, T var2) {
+      Object[] var3 = this.values;
+      if (var3 == null) {
+         return (T)var2;
+      } else if (var1 >= 0 && var1 < var3.length) {
+         Object var4 = var3[var1];
+         return (T)(var4 == null ? var2 : var4);
+      } else {
+         throw new IllegalStateException("Invalid get valueId " + var1 + " (" + var3.length + ")");
+      }
+   }
+
+   @NotNull
+   @Generated
+   public CRRRICCRROCOHHOHIICIHORCOORRRH HOCOIRCICOHHICICIHICIHICRCHROI() {
+      return this.ROOICCCRIIRCCIOIOROIOCCHCRRIRR;
+   }
+
+   @Nullable
+   @Generated
+   public Object[] OOCIIOOHHRCORHICCCICRCCHCRHROR() {
+      return this.values;
+   }
+
+   public record IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
+      private final com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH HOOCIHHRORIIIIIOHCHCCCHRHIIRIH;
+      private final Object[] CRCORCOIHROHHICCCIIOCOOHOIOCRI;
+      private final com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO IRHCIHRCICOHCHOHCCHHCIRCOORRCR;
+      private final com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH RCCHIOOHIRCCCCRCCHOIIRHRHIRRRO;
+      private final int HCHHRRRHOOOCOCCHCOHHRCROHCRIHH;
+
+      public IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var1,
+         Object[] var2,
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var3,
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var4,
+         int var5
+      ) {
+         this.HOOCIHHRORIIIIIOHCHCCCHRHIIRIH = var1;
+         this.CRCORCOIHROHHICCCIIOCOOHOIOCRI = var2;
+         this.IRHCIHRCICOHCHOHCCHHCIRCOORRCR = var3;
+         this.RCCHIOOHIRCCCCRCCHOIIRHRHIRRRO = var4;
+         this.HCHHRRRHOOOCOCCHCOHHRCROHCRIHH = var5;
+      }
+
+      public <T> T IRCIIHHICIHRCOCRROCOICRIHHCCHH(int var1, T var2) {
+         Object[] var3 = this.CRCORCOIHROHHICCCIIOCOOHOIOCRI;
+         if (var3 == null) {
+            return (T)var2;
+         } else if (var1 >= 0 && var1 < var3.length) {
+            Object var4 = var3[var1];
+            return (T)(var4 == null ? var2 : var4);
+         } else {
+            throw new IllegalStateException("Invalid get valueId " + var1 + " (" + var3.length + ")");
+         }
+      }
+
+      public com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH HRCCCRCIORIIRCCORRRCOIORCRCIOH() {
+         return this.HOOCIHHRORIIIIIOHCHCCCHRHIIRIH;
+      }
+
+      public Object[] values() {
+         return this.CRCORCOIHROHHICCCIIOCOOHOIOCRI;
+      }
+
+      public com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO HOCOIIOHIOCIHIOOHOCRHIHHHOCRCO() {
+         return this.IRHCIHRCICOHCHOHCCHHCIRCOORRCR;
+      }
+
+      public com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HRCHROOHRIHCRCRHRIIROCIRHOIRHH ORHRCRCOOHIHOCCRHRHIIHHOHOIIHO() {
+         return this.RCCHIOOHIRCCCCRCCHOIIRHRHIRRRO;
+      }
+
+      public int CRCORHCRHHICCIIROOORHRHCRRIIOI() {
+         return this.HCHHRRRHOOOCOCCHCOHHRCROHCRIHH;
+      }
+   }
+
+   @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 16)
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends RIROICHCRROROHCCROOCCCCOCHCCRI {
+      private final RIIHIHHCRHCHRCICHOROHCHIIHCICH<List<Component>> ICRORHRICIHHRHHIOCCHHHCIIRIIRR;
+      private String[] IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI;
+      private boolean OROIRHIOOCCCHRCICICCHRRHIIRRCR;
+
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(@NotNull CRRRICCRROCOHHOHIICIHORCOORRRH var1, @NotNull RIIHIHHCRHCHRCICHOROHCHIIHCICH<List<Component>> var2) {
+         super(var1, null);
+         this.ICRORHRICIHHRHHIOCCHHHCIIRIIRR = var2;
+      }
+
+      public int IICORIHCCCHROOIRIHIOOOHRIRHHHI() {
+         return this.ICRORHRICIHHRHHIOCCHHHCIIRIIRR.get().size();
+      }
+
+      @NotNull
+      public Component ORCOCORROHIROCCIORORRRRCHIOOCH(int var1) {
+         return this.ICRORHRICIHHRHHIOCCHHHCIIRIIRR.get().get(var1);
+      }
+
+      public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1, @NotNull Component var2) {
+         this.ICRORHRICIHHRHHIOCCHHHCIIRIIRR.get().set(var1, var2);
+         this.OROIRHIOOCCCHRCICICCHRRHIIRRCR = true;
+         if (this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI != null) {
+            this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI[var1] = null;
+         }
+      }
+
+      @NotNull
+      public String HOIHOROOIOOCOIHCRIRIRIRRICIIHC(int var1) {
+         if (this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI == null) {
+            this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI = new String[this.ICRORHRICIHHRHHIOCCHHHCIIRIIRR.get().size()];
+         }
+
+         if (this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI[var1] == null) {
+            this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI[var1] = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.getTextContent(
+               this.ORCOCORROHIROCCIORORRRRCHIOOCH(var1)
+            );
+         }
+
+         return this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI[var1];
+      }
+
+      public void OOROOCCIRCCRHOIOIORIHCHHOOCCOR(@NotNull Component var1) {
+         this.ICRORHRICIHHRHHIOCCHHHCIIRIIRR.get().add(0, var1);
+         this.OROIRHIOOCCCHRCICICCHRRHIIRRCR = true;
+         this.IOIHIOIIOHHOCCRHCIRIOCRHHIIIOI = null;
+      }
+
+      @NotNull
+      public List<Component> getLines() {
+         return Collections.unmodifiableList(this.ICRORHRICIHHRHHIOCCHHHCIIRIIRR.get());
+      }
+
+      @Generated
+      public boolean isModified() {
+         return this.OROIRHIOOCCCHRCICICCHRRHIIRRCR;
+      }
+   }
+}

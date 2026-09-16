@@ -1,0 +1,35 @@
+package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+
+public final class CRRRICCRROCOHHOHIICIHORCOORRRH extends HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   private static final CRRRICCRROCOHHOHIICIHORCOORRRH OHOOIHRROIORIHIHICROOCIROOOCCO = new CRRRICCRROCOHHOHIICIHORCOORRRH("", 0, 0);
+   private final int CIHRRCHCHROCIRROOOOOOOHCHCRCHR;
+
+   CRRRICCRROCOHHOHIICIHORCOORRRH(String var1, int var2, int var3) {
+      super(var1, var2);
+      this.CIHRRCHCHROCIRROOOOOOOHCHCRCHR = var3;
+   }
+
+   public static CRRRICCRROCOHHOHIICIHORCOORRRH HHIHIIHRIIHCHIRIIOCRCIRHIOOHIC() {
+      return OHOOIHRROIORIHIHICROOCIROOOCCO;
+   }
+
+   @Override
+   public boolean CHRCCRRRRHRCCIICIHRCCOOIRIICRO(int var1) {
+      return var1 == this.CIHRRCHCHROCIRROOOOOOOHCHCRCHR;
+   }
+
+   @Override
+   public boolean RRCROCCRIOIROHCCRCCIORICOCIOHC(int var1, int var2) {
+      return var1 == this.CIHRRCHCHROCIRROOOOOOOHCHCRCHR && var2 == 0;
+   }
+
+   @Override
+   public boolean IIIIRHIHROIRCROHHROIHIIHRCRRHO(int var1, int var2, int var3) {
+      return false;
+   }
+
+   @Override
+   public boolean HRCHROOHRIHCRCRHRIIROCIRHOIRHH(int[] var1, int var2) {
+      return var2 == 1 && var1[0] == this.CIHRRCHCHROCIRROOOOOOOHCHCRCHR;
+   }
+}

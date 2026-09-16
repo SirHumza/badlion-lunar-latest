@@ -1,0 +1,15 @@
+package com.moonsworth.lunar.client.OOCCRCRCOHIIORCCORCRCIRRROIOOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.moonsworth.lunar.lib.adventure.text.Component;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   extends com.moonsworth.lunar.client.OOCCRCRCOHIIORCCORCRCIRRROIOOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   @Override
+   public void ROIOORIOHOHIOIHRHCOCCCCORROIRH(boolean var1) {
+   }
+
+   @Override
+   public Component CICHCOOICIHRICCHHOICOHHHHIHOOI() {
+      return null;
+   }
+}

@@ -1,0 +1,209 @@
+package com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.OHIIIOHIRIRCCRRIOIICCHHIORRHOH;
+import com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ICICIOCHHHIHOCHCOHORIHRCOHHOCR;
+import com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import com.moonsworth.lunar.client.util.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+import lombok.Generated;
+
+public class RRCRRCORICCHOHHIRCHIROOHIIOHCO<T>
+   extends ICICIOCHHHIHOCHCOHORIHRCOHHOCR<OHIIIOHIRIRCCRRIOIICCHHIORRHOH<T>>
+   implements com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private static final float IHCRIRCRIOCRRCRHCOOCIHOHRHORHR = 140.0F;
+   private static final float HCHHCOCCORCCROIRHORIIOOORRCCHH = 5.0F;
+   private static final float CIHCHHIHCIHRRRIOCHOCHOHOHROCRR = 12.0F;
+   private static final float CRRHOOCCHCRIOIHRRCIIIRRHIIORRC = 10.0F;
+   private final List<CRRRICCRROCOHHOHIICIHORCOORRRH> OCHCRHICHHIIOHIOHCHOCCIIRCOOCC = new ArrayList<>();
+   private final RCIROOOOICRHCCRRCIORHHIRCOIIIC RCHRRIRIHHIRICRCIICIOCICRIOOIC = new RCIROOOOICRHCCRRCIORHHIRCOIIIC(this);
+
+   public RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+      OHIIIOHIRIRCCRRIOIICCHHIORRHOH<T> var1,
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      super(var1, var2);
+      this.option.IOIOHIORIROHRRCOOOHCROHORCOIIH(var1x -> this.ROOCIHRCRIOCHIRROCRIOCCOHORORR());
+      this.ROOCIHRCRIOCHIRROCRIOCCOHORORR();
+   }
+
+   private void ROOCIHRCRIOCHIRROCRIOCCOHORORR() {
+      this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC.clear();
+      List var1 = this.option.get();
+      Function var2 = this.option.RHCROOCCRHHHRIOIROOCOIOHORRRCH();
+
+      for (int var3 = 0; var3 < var1.size(); var3++) {
+         int var4 = var3;
+         Object var5 = var1.get(var4);
+         CRRRICCRROCOHHOHIICIHORCOORRRH var6 = new CRRRICCRROCOHHOHIICIHORCOORRRH(this, var2 == null ? var5.toString() : (String)var2.apply(var5));
+         var6.RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO(() -> this.CIHOOHCHOCIIHRIORCRCHHOOCRIRHH(var4));
+         var6.IHCRORHRORIICHRHRCHRRIRRHHOCOO(() -> this.IORCORRCHCOIRCIRRIIOOHHIORRHIO(var4));
+         var6.HHHRRIRIHIHRORCOHCRRCIOCRIORIR(var4 == 0);
+         var6.IRCHOHHOOROOHIIHHROOOOIIHHOIIH(var4 == var1.size() - 1);
+         this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC.add(var6);
+      }
+
+      this.OHHRIOHROOIHOROCIRHCHORIHRRRRI(this.x, this.y, this.width, this.height);
+   }
+
+   @Override
+   public void IRRCCOICORICIHCHRHIHIHROIRHOCR(float var1, float var2, float var3) {
+      this.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var1, var2, var3 - 5.0F, this.getHeight());
+   }
+
+   @Override
+   public void OHHRIOHROOIHOROCIRHCHORIHRRRRI(float var1, float var2, float var3, float var4) {
+      super.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var1, var2, var3, var4);
+      float var5 = var3 - 10.0F;
+      this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.OHHRIOHROOIHOROCIRHCHORIHRRRRI(var1 + var5 - 4.0F, var2, 4.0F, var4 - 4.0F);
+
+      for (int var6 = 0; var6 < this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC.size(); var6++) {
+         this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC.get(var6).OHHRIOHROOIHOROCIRHCHORIHRRRRI(var1, var2 + var6 * 12.0F, var5, 12.0F);
+      }
+   }
+
+   @Override
+   public float getHeight() {
+      return this.getOption().isHidden() ? 0.0F : Math.min(140.0F, 12.0F * this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC.size() + 2.0F);
+   }
+
+   @Override
+   public boolean CRRIHOOHIRHRHHCROHIHHCICRICIIH() {
+      return true;
+   }
+
+   private void CIHOOHCHOCIIHRIORCRCHHOOCRIRHH(int var1) {
+      ArrayList var2 = new ArrayList<>(this.option.get());
+      if (var1 > 0 && var1 < var2.size()) {
+         Object var3 = var2.get(var1 - 1);
+         var2.set(var1 - 1, var2.get(var1));
+         var2.set(var1, var3);
+         this.option.RROIIRROOOOHIORHRICHOCHIHCRRCH(var2);
+      }
+   }
+
+   private void IORCORRCHCOIRCIRRIIOOHHIORRHIO(int var1) {
+      ArrayList var2 = new ArrayList<>(this.option.get());
+      if (var1 >= 0 && var1 < var2.size() - 1) {
+         Object var3 = var2.get(var1 + 1);
+         var2.set(var1 + 1, var2.get(var1));
+         var2.set(var1, var3);
+         this.option.RROIIRROOOOHIORHRICHOCHIHCRRCH(var2);
+      }
+   }
+
+   @Override
+   public void update() {
+   }
+
+   @Override
+   public void IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
+      com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2,
+      boolean var3
+   ) {
+      var1.push();
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+         var1, this.x, this.y, this.width, this.height, 1.0F
+      );
+      this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.HCHHOOOCRCRHHICHICORHOCHCCCHRH(12.0F * this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC.size());
+      this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.RRCRRCORICCHOHHIRCHIROOHIIOHCO(var1, var2, var3);
+      var1.pop();
+      if (!this.option.isDefault()) {
+         boolean var4 = var3
+            && var2.OICOHRRRRCOICCHOIOROHOCOORCHII() >= this.y
+            && var2.OICOHRRRRCOICCHOIOROHOCOORCHII() < this.y + 12.0F
+            && var2.ICORIROICCORCRROCRCIRRRHHHOOIR() >= this.x + this.width - 10.0F;
+         int var5 = OCOHORHCROHICRRIHCIHHRRCIHICRI.IHIRRIIORRHORHRORIHOROIRCORCOO(1.0F, 1.0F, 1.0F, var4 ? 0.9F : 0.65F);
+         com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+            var1,
+            com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.COHIOCOOOORHIOOROCIIHHIIHOOCHR,
+            this.x + this.width - 8.0F,
+            this.y + 3.0F,
+            6.0F,
+            6.0F,
+            var5
+         );
+      }
+
+      for (CRRRICCRROCOHHOHIICIHORCOORRRH var10 : this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC) {
+         float var6 = var10.getY();
+         var10.setY(var6 + this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.CCRCOOOHHOCOHRCIHOOIRHHICOHIOC());
+         boolean var7 = var10.getY() + var10.getHeight() < this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.getY();
+         boolean var8 = var10.getY() > this.y + this.height;
+         if (!var7 && !var8) {
+            var10.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2, true);
+         }
+
+         var10.setY(var6);
+      }
+
+      var1.push();
+      this.RCHRRIRIHHIRICRCIICIOCICRIOOIC
+         .RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var1, var2, var3 && var2.ICORIROICCORCRROCRCIRRRHHHOOIR() > this.x + this.width - 4.0F);
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.OHHRIOHROOIHOROCIRHCHORIHRRRRI(
+         var1
+      );
+      var1.pop();
+   }
+
+   @Override
+   public boolean COCCOIROHORRRHIHICORRHRRORIIIH(int var1) {
+      return super.COCCOIROHORRRHIHICORRHRRORIIIH(var1) || this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.COCCOIROHORRRHIHICORRHRRORIIIH(var1);
+   }
+
+   @Override
+   public boolean IHHCHHHCRIHOOCOIOOCRIIICIOROIR(
+      com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, int var2
+   ) {
+      if (var1.OICOHRRRRCOICCHOIOROHOCOORCHII() >= this.y
+         && var1.OICOHRRRRCOICCHOIOROHOCOORCHII() < this.y + 12.0F
+         && var1.ICORIROICCORCRROCRCIRRRHHHOOIR() >= this.x + this.width - 10.0F) {
+         this.HIORHORHOICHRHORRRCOORHIIICIIR();
+         return true;
+      }
+
+      if (var1.OICOHRRRRCOICCHOIOROHOCOORCHII() >= this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.getY()
+         && var1.OICOHRRRRCOICCHOIOROHOCOORCHII() < this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.getY() + this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.getHeight()) {
+         if (var1.ICORIROICCORCRROCRCIRRRHHHOOIR() >= this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.getX()
+            && var1.ICORIROICCORCRROCRCIRRRHHHOOIR() <= this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.getX() + this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.getWidth()) {
+            this.RCHRRIRIHHIRICRCIICIOCICRIOOIC.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1, var2);
+         } else {
+            com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var3 = this.RCHRRIRIHHIRICRCIICIOCICRIOOIC
+               .CRICCOOHHHCHOORCICOCOHIHOIRHOO(var1);
+
+            for (CRRRICCRROCOHHOHIICIHORCOORRRH var5 : this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC) {
+               if (var5.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3) && var5.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var3, var2)) {
+                  return true;
+               }
+            }
+         }
+      }
+
+      return super.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1, var2);
+   }
+
+   @Override
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      char var1, com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
+   ) {
+      for (CRRRICCRROCOHHOHIICIHORCOORRRH var4 : this.OCHCRHICHHIIOHIOHCHOCCIIRCOOCC) {
+         var4.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2);
+      }
+   }
+
+   @Override
+   public void close() {
+   }
+
+   @Override
+   public boolean isEditing() {
+      return false;
+   }
+
+   @Generated
+   public RCIROOOOICRHCCRRCIORHHIRCOIIIC RIOHRIHIRRCHIRIROCRHHOICOHRROC() {
+      return this.RCHRRIRIHHIRICRCIICIOCICRIOOIC;
+   }
+}
