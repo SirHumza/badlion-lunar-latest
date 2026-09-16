@@ -1,0 +1,17 @@
+package com.moonsworth.lunar.OCOHORHCROHICRRIHCIHHRRCIHICRI.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+import com.moonsworth.lunar.client.util.IHIRRIIORRHORHRORIHOROIRCORCOO;
+import net.minecraft.client.Minecraft;
+import net.minecraft.world.World;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends com.moonsworth.lunar.legacy.wrapper.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   @Override
+   public IHIRRIIORRHORHRORIHOROIRCORCOO createDummyPlayer(Minecraft var1, World var2) {
+      return new IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1, var2);
+   }
+
+   @Override
+   public com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH getMinecraftVersion() {
+      return com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ORIIROOCCCIHOHRIRIICCRHOICROOC;
+   }
+}

@@ -1,0 +1,5 @@
+package com.moonsworth.lunar.legacy.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   void lunar$armServerDrag(int var1, int var2, int var3);
+}

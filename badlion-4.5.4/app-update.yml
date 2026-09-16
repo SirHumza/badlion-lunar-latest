@@ -1,0 +1,5 @@
+provider: generic
+url: https://client-updates.badlion.net/moonsworth
+channel: latest
+useMultipleRangeRequest: false
+updaterCacheDirName: '@badlionnative-desktop-updater'

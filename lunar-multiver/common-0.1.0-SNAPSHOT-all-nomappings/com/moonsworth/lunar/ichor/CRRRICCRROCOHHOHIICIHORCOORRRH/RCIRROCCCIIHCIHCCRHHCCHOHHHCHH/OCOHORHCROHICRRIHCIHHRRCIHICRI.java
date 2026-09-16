@@ -1,0 +1,17 @@
+package com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+public class OCOHORHCROHICRRIHCIHHRRCIHICRI
+   implements CORCOCICIRIOHROHROIIOOHICCHCRR,
+   HHCCIRHCCCIIRHCROHIORHIRHHIORH,
+   com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public com.moonsworth.lunar.ichor.CORCOCICIRIOHROHROIIOOHICCHCRR[] RIRHOCHIORCCIIOIIRHOCCCRHHCHHH() {
+      return new com.moonsworth.lunar.ichor.CORCOCICIRIOHROHROIIOOHICCHCRR[]{
+         com.moonsworth.lunar.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.EXTERNAL_REMAP
+      };
+   }
+
+   public boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(com.moonsworth.lunar.ichor.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      String var2 = var1.className();
+      return !var2.startsWith("it/unimi/dsi/fastutil/") && !var2.startsWith("com/moonsworth/");
+   }
+}

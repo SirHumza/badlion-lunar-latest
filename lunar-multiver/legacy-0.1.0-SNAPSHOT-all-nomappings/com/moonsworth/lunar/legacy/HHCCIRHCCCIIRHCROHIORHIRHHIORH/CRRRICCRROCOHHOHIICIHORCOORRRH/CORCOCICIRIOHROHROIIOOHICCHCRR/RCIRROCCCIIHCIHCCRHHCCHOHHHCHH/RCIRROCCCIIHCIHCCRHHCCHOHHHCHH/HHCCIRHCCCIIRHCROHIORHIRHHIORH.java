@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.legacy.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import net.minecraft.client.renderer.block.model.ModelBlock;
+import org.spongepowered.asm.mixin.Mixin;
+
+@com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 1)
+@Mixin(ModelBlock.class)
+public abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+}

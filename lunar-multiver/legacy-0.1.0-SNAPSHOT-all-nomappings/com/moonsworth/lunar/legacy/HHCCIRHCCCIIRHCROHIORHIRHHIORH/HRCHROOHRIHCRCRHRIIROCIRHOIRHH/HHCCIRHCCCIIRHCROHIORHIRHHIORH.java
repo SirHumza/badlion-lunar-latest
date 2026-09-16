@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.legacy.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import net.minecraft.entity.boss.EntityDragon;
+import org.spongepowered.asm.mixin.Mixin;
+
+@Mixin(EntityDragon.class)
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   implements com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+}

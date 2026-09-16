@@ -1,0 +1,36 @@
+package com.moonsworth.lunar.legacy.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
+import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import org.lwjgl.openal.AL;
+import org.lwjgl.openal.ALC10;
+import org.lwjgl.openal.ALCcontext;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import paulscode.sound.libraries.LibraryLWJGLOpenAL;
+
+@Mixin(LibraryLWJGLOpenAL.class)
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   @WrapOperation(method = "init", at = @At(value = "INVOKE", target = "Lorg/lwjgl/openal/AL;create()V"))
+   private void lunar$init(Operation<Void> var1) {
+      if (IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR() != null
+         && IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().HHCCIRORCRCHOIOHRRIRRRIORRCRRR() != null) {
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+            .HHCCIRORCRCHOIOHRRIRRRIORRCRRR()
+            .IOIOHOOCRRORCCCOCIRROHCOCCCRCO();
+         if (var2.HRIICOIOIIIIRIHHOICRHOIIRCIRIC() && var2.HOROHROIORRIRIIIOOCCIROCRCROHI().OIRIRIIORHRCHRCHROORRROIRROIRI().CHCHOIHOHOCICIHCHRHIOHIRCIIRCO()) {
+            AL.create(null, 44100, 60, false, false);
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var3 = var2.HOROHROIORRIRIIIOOCCIROCRCROHI()
+               .OIRIRIIORHRCHRCHROORRROIRROIRI()
+               .RIOHIIOHRICOOCIOROHCCIHIIIRROO();
+            var3.RRRIICRCOOICOICIORRCRRIRORHHRR();
+            ALC10.alcMakeContextCurrent((ALCcontext)var3.CRCOROIRICHHOCOICHCIOHCROHCHRC());
+         } else {
+            var1.call(new Object[0]);
+         }
+      } else {
+         var1.call(new Object[0]);
+      }
+   }
+}

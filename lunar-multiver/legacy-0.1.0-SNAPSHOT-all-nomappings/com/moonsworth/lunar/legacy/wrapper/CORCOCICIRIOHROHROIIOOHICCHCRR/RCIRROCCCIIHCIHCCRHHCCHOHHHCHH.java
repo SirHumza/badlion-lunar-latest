@@ -1,0 +1,145 @@
+package com.moonsworth.lunar.legacy.wrapper.CORCOCICIRIOHROHROIIOOHICCHCRR;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import java.util.ArrayList;
+import java.util.List;
+import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.NonNullList;
+import net.minecraft.util.text.TextComponentString;
+import org.jetbrains.annotations.Nullable;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   public static void CHCCHHCCICCOHCOHOIRCRRRHHHHRCR() {
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRCHCROCHRROHROOCCHIHIOCHOICOC = var0 -> () -> (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH)HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         var0, "ExtraAttributes"
+      );
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HIIHHIORRHCCIRICCOIOCICHOOIICC = var0 -> ((ItemStack)var0)
+         .getMaxStackSize();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OHCOCHRROHHHHOIRROORROROHHIOCR = var0 -> IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION
+            >= 1
+         ? ((ItemStack)var0).getMaxDamage$v1_8()
+         : ((ItemStack)var0).getMaxDurability$v1_7();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRIIHHRHRORIIHOHIICRICCIICIICC = var0 -> ((ItemStack)var0)
+         .itemDamage;
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICHCHOHCOHIIHOIHRHHHHCICIHROC = var0 -> {
+         NBTTagCompound var1 = ((ItemStack)var0).getTagCompound();
+         if (var1 != null && var1.hasKey("display")) {
+            NBTTagCompound var2 = var1.getCompoundTag("display");
+            return var2 != null && var2.hasKey("Name")
+               ? (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH)(
+                  new TextComponentString(var2.getString("Name"))
+               )
+               : null;
+         } else {
+            return null;
+         }
+      };
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RORHHCRORHICRHHCHCOCICIHHOOOIC = var0 -> (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH)(
+         new TextComponentString(((ItemStack)var0).getItem().getItemStackDisplayName((ItemStack)var0))
+      );
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CHRCCRRRRHRCCIICIHRCCOOIRIICRO = var0 -> {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1 = (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH)HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+            var0, "display"
+         );
+         if (var1 != null && var1.bridge$contains("Lore", 9)) {
+            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2 = var1.bridge$getList(
+               "Lore", 8
+            );
+            if (var2 != null) {
+               ArrayList var3 = new ArrayList();
+
+               for (int var4 = 0; var4 < var2.bridge$size(); var4++) {
+                  var3.add(
+                     (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH)(
+                        new TextComponentString(var2.bridge$getString(var4))
+                     )
+                  );
+               }
+
+               return () -> var3;
+            }
+         }
+
+         return null;
+      };
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RROICHHOCHOHCHCOOHRHCICCHOHOIH = var0 -> ((ItemStack)var0)
+         .getRepairCost();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HCCIRRHRCHICIICOIRCRRIOHCCRROI = var0 -> false;
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OHOIIICHHOHCOOIOOCCHOCRHOCCIRI = var0 -> (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var0.bridge$getFood()
+         .orElse(null);
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CIOIIRRRORRRIOCROROHORCRHCOHHO = var0 -> var0 instanceof ItemArmor var1
+         ? () -> var1.getColor((ItemStack)var0)
+         : () -> 0;
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OIHHOOOHRRIHHIRIOOCICHOCIRCCOR = var0 -> () -> (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH)HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         var0, "EntityTag"
+      );
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHHIHCRORICCIHRRIIIOOCIOIIIRI = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OIHHOOOHRRIHHIRIOOCICHOCIRCCOR;
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRORROIRCIRRCROROOOORORICRIHRI = var0 -> () -> (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH)HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         var0, "BlockEntityTag"
+      );
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHIOIRRRHROOCCHHHORIROCHIHORRI = var0 -> 0;
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIHIOICIIICOHIORIRCIIHRRROCIC = var0 -> List.of();
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OORHHCHCIRIRORIHRRRCIRICIOOIHH = var0 -> () -> {
+         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1 = (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH)HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+            var0, "SkullOwner"
+         );
+         if (var1 != null && var1.bridge$contains("Properties", 10)) {
+            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2 = var1.bridge$getCompoundTag(
+               "Properties"
+            );
+            if (var2 != null && !var2.bridge$isEmpty()) {
+               return var1x -> {
+                  if (var2.bridge$contains(var1x, 9)) {
+                     com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var2x = var2.bridge$getList(
+                        var1x, 10
+                     );
+                     if (var2x != null && var2x.bridge$size() >= 1) {
+                        ArrayList var3 = new ArrayList();
+
+                        for (int var4 = 0; var4 < var2x.bridge$size(); var4++) {
+                           com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO.IRCIIHHICIHRCOCRROCOICRIHHCCHH var5 = var2x.bridge$getCompoundAt(
+                              var4
+                           );
+                           if (var5 != null && !var5.bridge$isEmpty() && var5.bridge$contains("Value", 8)) {
+                              var3.add(() -> var5.bridge$getString("Value"));
+                           }
+                        }
+
+                        return var3;
+                     } else {
+                        return List.of();
+                     }
+                  } else {
+                     return List.of();
+                  }
+               };
+            }
+         }
+
+         return null;
+      };
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCHROROIIRHORCHIHICIOOOIOOOCIR = var0 -> null;
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RROCOORHRROHIIOHOIRHCRIOCRRCIO = var0 -> {
+         if (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 5) {
+            NBTTagCompound var1 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0, "BlockEntityTag");
+            if (var1 != null && var1.hasKey("Items", 9)) {
+               NonNullList var2 = NonNullList.withSize(27, ItemStack.EMPTY$v1_12);
+               ItemStackHelper.loadAllItems(var1, var2);
+               return new IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2);
+            }
+         }
+
+         return null;
+      };
+   }
+
+   @Nullable
+   private static NBTTagCompound HHCCIRHCCCIIRHCROHIORHIRHHIORH(IIRHCHHOICHRICOOCRORCCIOOIHOIR var0, String var1) {
+      NBTTagCompound var2 = ((ItemStack)var0).getTagCompound();
+      return var2 != null && var2.hasKey(var1, 10) ? var2.getCompoundTag(var1) : null;
+   }
+}

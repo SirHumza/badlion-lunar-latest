@@ -1,0 +1,7 @@
+package com.moonsworth.lunar.legacy.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
+
+import net.minecraft.client.model.ModelRenderer;
+
+public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   void lunar$attach(ModelRenderer var1);
+}

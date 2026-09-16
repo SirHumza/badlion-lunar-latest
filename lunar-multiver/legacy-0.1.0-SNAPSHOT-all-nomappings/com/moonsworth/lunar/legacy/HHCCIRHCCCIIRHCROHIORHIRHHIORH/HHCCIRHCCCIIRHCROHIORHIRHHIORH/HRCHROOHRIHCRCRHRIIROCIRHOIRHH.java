@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.legacy.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import net.minecraft.block.BlockTripWire;
+import org.spongepowered.asm.mixin.Mixin;
+
+@Mixin(BlockTripWire.class)
+public abstract class HRCHROOHRIHCRCRHRIIROCIRHOIRHH implements IIRHCHHOICHRICOOCRORCCIOOIHOIR {
+}

@@ -1,0 +1,83 @@
+package net.optifine.gui;
+
+import avh.a;
+
+public class GuiOtherSettingsOF extends axu implements awx {
+   private axu prevScreen;
+   protected String title;
+   private avh settings;
+   private static a[] enumOptions = new a[]{
+      a.LAGOMETER,
+      a.PROFILER,
+      a.SHOW_FPS,
+      a.ADVANCED_TOOLTIPS,
+      a.WEATHER,
+      a.TIME,
+      a.v,
+      a.FULLSCREEN_MODE,
+      a.h,
+      a.AUTOSAVE_TICKS,
+      a.SCREENSHOT_SIZE,
+      a.SHOW_GL_ERRORS
+   };
+   private TooltipManager tooltipManager = new TooltipManager(this, new TooltipProviderOptions());
+
+   public GuiOtherSettingsOF(axu guiscreen, avh gamesettings) {
+      this.prevScreen = guiscreen;
+      this.settings = gamesettings;
+   }
+
+   public void b() {
+      this.title = bnq.a("of.options.otherTitle", new Object[0]);
+      this.n.clear();
+
+      for (int i = 0; i < enumOptions.length; i++) {
+         a enumoptions = enumOptions[i];
+         int x = this.l / 2 - 155 + i % 2 * 160;
+         int y = this.m / 6 + 21 * (i / 2) - 12;
+         if (!enumoptions.a()) {
+            this.n.add(new GuiOptionButtonOF(enumoptions.c(), x, y, enumoptions, this.settings.c(enumoptions)));
+         } else {
+            this.n.add(new GuiOptionSliderOF(enumoptions.c(), x, y, enumoptions));
+         }
+      }
+
+      this.n.add(new avs(210, this.l / 2 - 100, this.m / 6 + 168 + 11 - 44, bnq.a("of.options.other.reset", new Object[0])));
+      this.n.add(new avs(200, this.l / 2 - 100, this.m / 6 + 168 + 11, bnq.a("gui.done", new Object[0])));
+   }
+
+   protected void a(avs guibutton) {
+      if (guibutton.l) {
+         if (guibutton.k < 200 && guibutton instanceof awe) {
+            this.settings.a(((awe)guibutton).c(), 1);
+            guibutton.j = this.settings.c(a.a(guibutton.k));
+         }
+
+         if (guibutton.k == 200) {
+            this.j.t.b();
+            this.j.a(this.prevScreen);
+         }
+
+         if (guibutton.k == 210) {
+            this.j.t.b();
+            awy guiyesno = new awy(this, bnq.a("of.message.other.reset", new Object[0]), "", 9999);
+            this.j.a(guiyesno);
+         }
+      }
+   }
+
+   public void a(boolean flag, int i) {
+      if (flag) {
+         this.j.t.resetSettings();
+      }
+
+      this.j.a(this);
+   }
+
+   public void a(int x, int y, float f) {
+      this.c();
+      this.a(this.q, this.title, this.l / 2, 15, 16777215);
+      super.a(x, y, f);
+      this.tooltipManager.drawTooltips(x, y, this.n);
+   }
+}

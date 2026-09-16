@@ -1,0 +1,3 @@
+Config net/optifine/Config
+net/optifine/gui/IOptionControl getOption ()Lbid$a; getOptionOF
+net/optifine/gui/IOptionControl getOption ()Lnet/minecraft/client/settings/GameSettings$Options; getOptionOF

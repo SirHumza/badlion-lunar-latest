@@ -1,0 +1,161 @@
+package com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH;
+
+import com.moonsworth.lunar.ichor.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
+import com.moonsworth.lunar.ichor.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.ichor.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
+import com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
+import com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR;
+import com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IIHRRHORCRCROCHHOHORCHCROCIHRO;
+import com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+import com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI;
+import com.moonsworth.lunar.ichor.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
+import com.moonsworth.lunar.ichor.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+import lombok.Generated;
+import org.cadixdev.lorenz.MappingSet;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   implements RIOOCHICIHRHOHCCCCCHOCCCOHCRHI,
+   com.moonsworth.lunar.ichor.RRCRRCORICCHOHHIRCHIROOHIIOHCO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   private static final String HRHCRHHCOCOHCRRIRIHHCIRHIHICHC = "com.moonsworth.lunar.magnify.ichor.LVTCleanupIchor";
+   private final Map<String, String> CCIOCCCRORHCCRORHCIHRCCCOIOOCO = new HashMap<>();
+   private final Map<String, String> OIIIRIIIHHHRHIRIRCCHCCHIRHOCRH = new HashMap<>();
+
+   public void loadIchor(RRCRRCORICCHOHHIRCHIROOHIIOHCO var1) {
+      try {
+         OOROOCCIRCCRHOIOIORIHCHHOOCCOR var2 = var1.IHIRRIIORRHORHRORIHOROIRCORCOO();
+         boolean var3 = var2.hasModule("fabric");
+         boolean var4 = var3
+            && (
+               !com.moonsworth.lunar.ichor.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HIOHOHOIRICOOCHHCRCRRHRHIHRRIR
+                  || com.moonsworth.lunar.ichor.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ICOHIRRHOOCHOOHHHHOIHHIRCROOOO
+            );
+         if (var2.IOICIHIIHIOIROHCHROROHRIRHIHIH().contains(com.moonsworth.lunar.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.ACCESS_WIDEN)) {
+            try (InputStream var5 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class.getResourceAsStream("/lunar/minecraft.accesswidener")) {
+               if (var5 != null) {
+                  MappingSet var6 = var4
+                     ? (MappingSet)var2.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+                           com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRHOHRRRHOOHHIHCIIIHICORROOHOR
+                        )
+                        .orElse(null)
+                     : null;
+                  var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                     new com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var6, var5)
+                  );
+               }
+            }
+         }
+
+         if (var2.IOICIHIIHIOIROHCHROROHRIRHIHIH().contains(com.moonsworth.lunar.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.INIT)) {
+            com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var12 = com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCIIROIOORRIOIIIRHIRRCCIIRRROH(
+               var2.ICRROHROHHOHRRRIIHORIRICHRCOIC().OIIOOOICRROIHRIROICHOCOHIHHRHH()
+            );
+
+            try {
+               var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  (com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)Class.forName("com.moonsworth.lunar.magnify.ichor.ParameterAnnotationIchor")
+                     .getConstructor()
+                     .newInstance()
+               );
+            } catch (ClassNotFoundException var9) {
+            }
+
+            Optional var13 = CRRRICCRROCOHHOHIICIHORCOORRRH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var12);
+            var13.ifPresent(var1x -> var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1x)));
+            var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               new com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR(var12)
+            );
+            if (!var12.HHORRRCRRROHHRCCOCOOCIOHCCCCCR()) {
+               if (var12.OOICHHIHHIHROCCRRRIIIIRIRICCIH()) {
+                  com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH var7 = var4
+                     ? com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOIHHHOHHHOHHIORCHROOROOIHIRCC
+                     : com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRRRIIROCIHRCORCIHHHORCCHHIIHI;
+                  var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var7));
+               } else {
+                  var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                     new HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                        com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRRRIIROCIHRCORCIHHHORCCHHIIHI
+                     )
+                  );
+               }
+            }
+
+            var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               new com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH()
+            );
+            var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               new com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH()
+            );
+            var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new IIRHCHHOICHRICOOCRORCCIOOIHOIR());
+            var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               new com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH()
+            );
+            var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new IIHRRHORCRCROCHHOHORCHCROCIHRO());
+            if (var12.OOICHHIHHIHROCCRRRIIIIRIRICCIH()) {
+               var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new IHHCHHHCRIHOOCOIOOCRIIICIOROIR());
+               if (var3) {
+                  if (var4 && !var12.HHORRRCRRROHHRCCOCOOCIOHCCCCCR()) {
+                     var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                        new com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI()
+                     );
+                  }
+               } else if (com.moonsworth.lunar.ichor.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HIOHOHOIRICOOCHHCRCRRHRHIHRRIR) {
+                  if (!var12.HHORRRCRRROHHRCCOCOOCIOHCCCCCR()) {
+                     com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var14 = var1.IHIRRIIORRHORHRORIHOROIRCORCOO()
+                        .ICRROHROHHOHRRRIIHORIRICHRCOIC()
+                        .CCIHOOIRHRHHHCRCIHOCHICHRROCRO();
+                     if (var14.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                           com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCCCHOCCORRIICRCICCIROHORCCRHC
+                        )
+                        .isEmpty()) {
+                        throw new IllegalStateException(
+                           "Can't find intermediary mappings for "
+                              + com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CCCCHOCCORRIICRCICCIROHORCCRHC
+                        );
+                     }
+
+                     var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new OCOHORHCROHICRRIHCIHHRRCIHICRI());
+                  } else {
+                     var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new HICHRCOHCCRHOHCICOOCHOIHCCHIRI());
+                  }
+               }
+            } else {
+               var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  new com.moonsworth.lunar.ichor.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH()
+               );
+            }
+
+            com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH var15 = var2.ICRROHROHHOHRRRIIHORIRICHRCOIC()
+               .CCIHOOIRHRHHHCRCIHOCHICHRROCRO();
+            var15.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                  com.moonsworth.lunar.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RORRRCCOIRHRIOHICOIRRRCHIORROR
+               )
+               .ifPresent(var1x -> {
+                  try {
+                     Class var2x = Class.forName("com.moonsworth.lunar.magnify.ichor.LVTCleanupIchor");
+                     Object var3x = var2x.getConstructor().newInstance();
+                     var2x.getField("parchmentData").set(var3x, var1x.RIHHCROROROHHROICCIRHOICCOOIHC());
+                     var1.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH((com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var3x);
+                  } catch (ReflectiveOperationException var4x) {
+                  }
+               });
+         }
+      } catch (Throwable var11) {
+         throw var11;
+      }
+   }
+
+   @Generated
+   public Map<String, String> IOHIHIIHCCCCCIHRORIOIOORCIOHII() {
+      return this.CCIOCCCRORHCCRORHCIHRCCCOIOOCO;
+   }
+
+   @Generated
+   public Map<String, String> CHICIIIHHHRRIIIIRHIHOCOHHCRRHH() {
+      return this.OIIIRIIIHHHRHIRIRCCHCCHIRHOCRH;
+   }
+}

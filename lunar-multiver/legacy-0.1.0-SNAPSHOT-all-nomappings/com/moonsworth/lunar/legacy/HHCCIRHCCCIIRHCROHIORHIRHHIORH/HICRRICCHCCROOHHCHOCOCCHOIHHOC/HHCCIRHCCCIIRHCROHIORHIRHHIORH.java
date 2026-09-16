@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.legacy.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICRRICCHCCROOHHCHOCOCCHOIHHOC;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIROOOOICRHCCRRCIORHHIRCOIIIC.CORCOCICIRIOHROHROIIOOHICCHCRR;
+import net.minecraft.world.WorldSettings;
+import org.spongepowered.asm.mixin.Mixin;
+
+@Mixin(WorldSettings.class)
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH implements CORCOCICIRIOHROHROIIOOHICCHCRR {
+}

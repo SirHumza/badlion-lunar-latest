@@ -1,0 +1,7 @@
+fae addVertexFast (FFFIFFIII)V addVertexFastOF
+fae canAddVertexFast ()Z canAddVertexFastOF
+fae getBulkData (Ljava/nio/ByteBuffer;)V getBulkDataOF
+fae putBulkData (Lfaa$a;Lgen;FFFFIIZ)V putBulkDataOF
+fae putBulkData (Lfaa$a;Lgen;[FFFFF[IIZ)V putBulkDataOF
+fae putBulkData (Ljava/nio/ByteBuffer;)V putBulkDataOF
+fxc getChild (Ljava/lang/String;)Lfxc; getChildOF

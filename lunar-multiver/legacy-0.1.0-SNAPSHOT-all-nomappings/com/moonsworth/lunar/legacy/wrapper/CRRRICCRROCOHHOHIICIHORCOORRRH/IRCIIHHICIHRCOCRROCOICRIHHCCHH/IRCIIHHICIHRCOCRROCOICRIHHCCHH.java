@@ -1,0 +1,10 @@
+package com.moonsworth.lunar.legacy.wrapper.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
+
+public interface IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   default int RCOOCHOHCCOHIIHHOCOCOHRHHHIOIC() {
+      return 0;
+   }
+
+   default void CCCRICOCIHOHCRIHIOIIIOORIROCCI(int var1) {
+   }
+}

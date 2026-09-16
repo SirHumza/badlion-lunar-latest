@@ -1,0 +1,9 @@
+package com.moonsworth.lunar.legacy.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
+import net.minecraft.entity.item.EntityXPOrb;
+import org.spongepowered.asm.mixin.Mixin;
+
+@Mixin(EntityXPOrb.class)
+public class HICHRCOHCCRHOHCICOOCHOIHCCHIRI implements CIOHHCORHRCCRICCCORIHCRHCCCRRR {
+}

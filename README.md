@@ -10,8 +10,10 @@ standalone Badlion is discontinued and Badlion mode now ships the same jars as L
 |-----|------|--------|-------|
 | `lunar-genesis/` | Current Lunar/Badlion boot + platform code (Sept 2026 prod). Entry: `com/moonsworth/lunar/genesis/Genesis` | `multiver-releases.lunarclientprod.com`, OFFLINE launch API, `genesis-0.1.0-SNAPSHOT-all.jar` sha `ff87ae5c…` | 4,074 |
 | `lunar/` | Current `lunar.jar` full dump (62MB, 16,719 classes). **Still decompiling, lands here next.** | same API, `lunar.jar` sha `42970deb…` | — |
+| `lunar-multiver/` | All other current 1.8.9 multiver jars decompiled: `common` (28), `legacy` (737), `optifine shim` (214), `OptiFine` (2,633), `lunar-lang` resources (34), `platform-mappings` (5) | same API response | 3,651 |
 | `badlion-4.4.0-libs/` | Last standalone Badlion 4.4.0 shipped Java. Only real Badlion class: `net/badlion/optifineinstallwrapper/InstallWrapper.java`. Rest is third-party (caffeine, disruptor, joml, lz4). | `Badlion Client Setup v4.4.0.exe` (Google Drive `1ghV00WOx8HJu_3OvNVbMTbAX5SA4iR0t`), NSIS → `app-64.7z` → `libs/` | ~850 |
 | `badlion-4.4.0-launcher/` | 4.4.0 Electron shell: `package.json` (v4.4.0) + `app/background.js`. Game logic lives in native `launcher.node` / `badlion_electron.dll`, not JS. | same exe → `resources/app.asar` | 2 |
+| `badlion-4.5.4/` | **Latest standalone Badlion (Mar 2025).** Full `app/` shell: new `chat.html`/`chat.js`, `child-process.js`, new bundles, changed `background.js`/`preload.js`. Update feed: `client-updates.badlion.net`, channel `latest`. | `Badlion Client-4.5.4-mac.zip` (178MB) direct from update feed | ~5,600 |
 | `lunar-launch-1.8.9.json` | Raw OFFLINE launch API response (`module=badlion` returns byte-identical artifacts to `module=lunar`). | `api.lunarclientprod.com/launcher/launch` | 1 |
 
 Readable classic source (not mirrored here, link only): [NightSling/Badlion-3.0.0](https://github.com/NightSling/badlion-3.0.0) — last public Badlion leak (2021, 1.8.8, BAC stripped). Clone of it lives next to this repo as `badlion-src`.

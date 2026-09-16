@@ -1,0 +1,263 @@
+accessWidener v2 lunar
+
+##################### Accessible classes
+
+# Hook for modern SoundManagerMixin
+accessible class com/mojang/blaze3d/audio/Library$ChannelPool
+
+# Hooks for modern RenderTargetMixin, ModernRenderSystemImpl and GlDeviceMixin_Lunar
+accessible class com/mojang/blaze3d/opengl/GlCommandEncoder
+accessible class com/mojang/blaze3d/opengl/GlDevice
+accessible class com/mojang/blaze3d/opengl/GlDevice$ShaderCompilationKey
+accessible class com/mojang/blaze3d/opengl/GlStateManager$BlendState
+accessible class com/mojang/blaze3d/opengl/GlStateManager$BooleanState
+accessible class com/mojang/blaze3d/opengl/GlStateManager$CullState
+accessible class com/mojang/blaze3d/opengl/GlStateManager$DepthState
+accessible class com/mojang/blaze3d/opengl/GlStateManager$PolygonOffsetState
+accessible class com/mojang/blaze3d/opengl/GlStateManager$TextureState
+accessible class com/mojang/blaze3d/opengl/GlTransientMemory$PersistentMapping
+accessible class com/mojang/blaze3d/platform/GlStateManager$AlphaState
+accessible class com/mojang/blaze3d/platform/GlStateManager$BlendState
+accessible class com/mojang/blaze3d/platform/GlStateManager$BooleanState
+accessible class com/mojang/blaze3d/platform/GlStateManager$ColorMaterialState
+accessible class com/mojang/blaze3d/platform/GlStateManager$CullState
+accessible class com/mojang/blaze3d/platform/GlStateManager$DepthState
+accessible class com/mojang/blaze3d/platform/GlStateManager$FogState
+accessible class com/mojang/blaze3d/platform/GlStateManager$PolygonOffsetState
+accessible class com/mojang/blaze3d/platform/GlStateManager$TextureState
+
+# Hook for VulkanDeviceMixin_Lunar
+accessible class com/mojang/blaze3d/vulkan/VulkanDevice$ShaderCompilationKey
+
+# Hook for modern DoubleVertexConsumerMixin
+accessible class com/mojang/blaze3d/vertex/VertexMultiConsumer$Double
+
+# Hooks for modern ClientClockManagerMixin_Bridge, ClientLevelMixin_Bridge, ClientboundLevelChunkPacketDataUtilModern and ClientboundSetChunkCacheCenterPacketUtilModern
+accessible class net/minecraft/client/ClientClockManager$ClockInstance
+accessible class net/minecraft/client/multiplayer/ClientChunkCache$Storage
+
+# Hook for modern MinecraftMixin_Lunar
+accessible class net/minecraft/client/Minecraft$GameLoadCookie
+
+# Hooks for modern OptionsMixin, OptionFieldAccessWrapper, OptionsMixin_Bridge_v1_19 and GammaValueSet
+accessible class net/minecraft/client/OptionInstance$SliderableValueSet
+accessible class net/minecraft/client/OptionInstance$ValueSet
+accessible class net/minecraft/client/Options$OptionAccess
+accessible class net/minecraft/client/Options$FieldAccess
+
+# Hooks for modern SubtitleMixin
+accessible class net/minecraft/client/gui/components/SubtitleOverlay$SoundPlayedAt
+accessible class net/minecraft/client/gui/components/SubtitleOverlay$Subtitle
+
+# Hooks for modern StringRenderOutput, StringRenderOutputMixin and FontManagerMixin_Lunar
+accessible class net/minecraft/client/gui/Font$PreparedTextBuilder
+accessible class net/minecraft/client/gui/font/FontManager$Preparation
+accessible class net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance
+accessible class net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$GlyphInstance
+
+# Hooks for modern GuiGraphicsMixin, GuiGraphicsExtractorMixin, RenderingTextCollectorMixin_Lunar and RenderingTextCollectorMixin_v26_1_Lunar
+accessible class net/minecraft/client/gui/GuiGraphics$RenderingTextCollector
+accessible class net/minecraft/client/gui/GuiGraphics$ScissorStack
+accessible class net/minecraft/client/gui/GuiGraphicsExtractor$RenderingTextCollector
+accessible class net/minecraft/client/gui/GuiGraphicsExtractor$ScissorStack
+
+# Hook for modern AbstractSelectionListAccessor
+accessible class net/minecraft/client/gui/components/AbstractSelectionList$Entry
+
+# Hook for modern ChatComponentMixin_Lunar
+accessible class net/minecraft/client/gui/components/ChatComponent$LineConsumer
+
+# Hook for modern ToastInstanceMixin_Lunar
+accessible class net/minecraft/client/gui/components/toasts/ToastManager$ToastInstance
+
+# Hooks for modern GuiRendererMixin, GuiRenderStateMixin and GuiRenderStateAccessor
+accessible class net/minecraft/client/gui/render/GuiRenderer$Draw
+accessible class net/minecraft/client/gui/render/state/GuiRenderState$Node
+accessible class net/minecraft/client/renderer/state/gui/GuiRenderState$Node
+
+# Hooks for modern ServerLinksScreenLinkListMixin_Lunar and ServerLinksScreenLinkListEntryMixin_Lunar
+accessible class net/minecraft/client/gui/screens/multiplayer/ServerLinksScreen$LinkList
+accessible class net/minecraft/client/gui/screens/multiplayer/ServerLinksScreen$LinkListEntry
+
+# Hooks for modern LanguageSelectScreenListMixin_Lunar
+accessible class net/minecraft/client/gui/screens/options/LanguageSelectScreen$LanguageSelectionList
+accessible class net/minecraft/client/gui/screens/options/LanguageSelectScreen$LanguageSelectionList$Entry
+
+# Hook for modern PackSelectionModel_EntryBaseMixin_Lunar
+accessible class net/minecraft/client/gui/screens/packs/PackSelectionModel$EntryBase
+
+# Hook for modern ScreenMixin and ScreenInjector
+accessible class net/minecraft/client/MouseHandler$LastClick
+
+# Hooks for modern ParticleMixin, ElderGuardianParticleGroupMixin_Lunar and ItemPickupParticleGroupMixin_Lunar
+accessible class net/minecraft/client/particle/ElderGuardianParticleGroup$ElderGuardianParticleRenderState
+accessible class net/minecraft/client/particle/FireworkParticles$SparkParticle
+accessible class net/minecraft/client/particle/ItemPickupParticleGroup$ParticleInstance
+
+# hook for modern LevelRendererMixin
+accessible class net/minecraft/client/renderer/LevelRenderer$RenderChunkInfo
+
+# Hook for modern VanillaAoHeplerMixin_Indigo_v1_16
+accessible class net/minecraft/client/renderer/block/ModelBlockRenderer$AmbientOcclusionFace
+
+# Hook for modern ArmorTrimMixin
+accessible class net/minecraft/client/renderer/entity/layers/EquipmentLayerRenderer$TrimSpriteKey
+
+# Hooks for modern MapRendererMixin and MapTextureManagerMixin
+accessible class net/minecraft/client/renderer/MapRenderer$MapInstance
+accessible class net/minecraft/client/resources/MapTextureManager$MapInstance
+
+# Hooks for modern ShaderManagerMixin and ShaderManager_CompilationCacheMixin
+accessible class net/minecraft/client/renderer/ShaderManager$CompilationCache
+accessible class net/minecraft/client/renderer/ShaderManager$ShaderCompilationKey
+
+# Hook for modern ModelBlockRendererMixin_Lunar
+accessible class net/minecraft/client/renderer/block/ModelBlockRenderer$CommonRenderStorage
+
+# Hooks for modern RebuildTask_v1_16_1_Mixin_Lunar, RebuildTask_v1_20_2_Mixin_Lunar and CompileTask_v26_2_Mixin_Lunar
+accessible class net/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$RebuildTask
+accessible class net/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSection$CompileTask
+accessible class net/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSection$RebuildTask
+
+# Hook for modern MultiBufferSourceWrapper
+accessible class net/minecraft/client/renderer/StagedVertexBuffer$GpuBufferPool
+accessible class net/minecraft/client/renderer/feature/RenderTypeFeatureRenderer$Group
+
+# Hook for modern VanillaGlyphRendererWrapper
+accessible class net/minecraft/client/renderer/feature/TextFeatureRenderer$GlyphRenderer
+
+# Hook for modern FogRendererMixin_Lunar
+accessible class net/minecraft/client/renderer/fog/FogRenderer$MobEffectFogFunction
+
+# Hooks for modern ModernRenderTypeBuilder, RenderTypeMixin, RenderTypeMixin_v1_21_11 CompositeRenderTypeMixin
+accessible class net/minecraft/client/renderer/RenderStateShard$ColorLogicStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$CullStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$DepthTestStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$EmptyTextureStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$LayeringStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$LightmapStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$LineStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$OutputStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$OverlayStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$ShaderStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$TextureStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$TexturingStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$TransparencyStateShard
+accessible class net/minecraft/client/renderer/RenderStateShard$WriteMaskStateShard
+accessible class net/minecraft/client/renderer/RenderType$CompositeRenderType
+accessible class net/minecraft/client/renderer/RenderType$CompositeState
+accessible class net/minecraft/client/renderer/RenderType$OutlineProperty
+accessible class net/minecraft/client/renderer/rendertype/RenderSetup$TextureBinding
+accessible class net/minecraft/client/renderer/rendertype/RenderType$CompositeRenderType
+accessible class net/minecraft/client/renderer/rendertype/RenderType$CompositeState
+accessible class net/minecraft/client/renderer/rendertype/RenderType$OutlineProperty
+
+# Hooks for modern TextureUpdaterImplModern, SimpleTexture_TextureImageMixin_Lunar and StitcherRegionMixin_Lunar
+accessible class net/minecraft/client/renderer/texture/SimpleTexture$TextureImage
+accessible class net/minecraft/client/renderer/texture/SpriteContents$AnimatedTexture
+accessible class net/minecraft/client/renderer/texture/SpriteContents$Ticker
+accessible class net/minecraft/client/renderer/texture/Stitcher$Holder
+accessible class net/minecraft/client/renderer/texture/TextureAtlasSprite$AnimatedTexture
+
+# Hooks for modern MinecraftMixin
+accessible class net/minecraft/client/ResourceLoadStateTracker$ReloadState
+accessible class net/minecraft/client/resources/model/AtlasManager$AtlasEntry
+accessible class net/minecraft/client/resources/model/AtlasSet$AtlasEntry
+accessible class net/minecraft/client/resources/model/sprite/AtlasManager$AtlasEntry
+
+# Hook for modern SkinManagerMixin
+accessible class net/minecraft/client/resources/SkinManager$TextureCache
+
+# Hook for modern MobEffectBridgeWrapper
+accessible class net/minecraft/core/Holder$Reference$Type
+
+# Hook for modern RegistrySetBuilderMixin
+accessible class net/minecraft/core/RegistrySetBuilder$BuildState
+
+# Hook for modern PacketUtilModern and PacketsUtilModern
+accessible class net/minecraft/network/ConnectionProtocol$PacketSet
+
+# Hook for modern PacketMixin and PacketsUtilModern
+accessible class net/minecraft/network/codec/IdDispatchCodec$Entry
+
+# Hooks for modern ClientboundCommandsPacketMixin_Lunar and ClientPacketListenerMixin_Lunar
+accessible class net/minecraft/network/protocol/game/ClientboundBossEventPacket$AddOperation
+accessible class net/minecraft/network/protocol/game/ClientboundBossEventPacket$UpdateNameOperation
+accessible class net/minecraft/network/protocol/game/ClientboundCommandsPacket$Entry
+accessible class net/minecraft/network/protocol/game/ClientboundCommandsPacket$LiteralNodeStub
+
+# Hook for modern ServerLoginPacketListenerImplMixin
+accessible class net/minecraft/server/network/ServerLoginPacketListenerImpl$State
+
+# Hooks for modern LegacyPackResourcesAdapterMixin, PackResourcesAdapterV4Mixin, AbstractPackResourcesMixin and PackMixin
+accessible class net/minecraft/server/packs/FilePackResources$SharedZipFileAccess
+
+# Hook for modern DisplayMixin_Lunar
+accessible class net/minecraft/world/entity/Display$TransformationInterpolator
+
+# Hook for modern AbstractComponentMixin_v1_19_Lunar
+accessible class net/minecraft/world/item/component/ResolvableProfile$Partial
+
+# Hook for modern BlockBehaviourBlockStateBaseCacheMixin_Lunar
+accessible class net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase$Cache
+
+# Hook for modern TransientEntitySectionManagerMixin
+accessible class net/minecraft/world/level/entity/TransientEntitySectionManager$Callback
+
+# Hook for modern ScoreboardMixin and ScoreboardAccessor
+accessible class net/minecraft/world/scores/PlayerScores
+
+# Hook for modern QuadParticleFeatureRendererMixin_Lunar
+accessible class net/minecraft/client/renderer/feature/QuadParticleFeatureRenderer$PreparedGroup
+
+##################### Extendable classes
+
+# Hook for modern TrackedMessageSignature
+extendable class net/minecraft/network/chat/MessageSignature
+
+# Hook for modern ItemStack
+extendable class net/minecraft/world/item/component/ResolvableProfile
+
+# Hook for modern CompiledShaderProgramMixin
+extendable class com/mojang/blaze3d/opengl/Uniform
+
+# Hook for modern CompoundTagMixin
+extendable class net/minecraft/nbt/Tag
+
+##################### Extendable methods
+
+# Hooks for modern ScreenInjector
+extendable method net/minecraft/client/gui/screens/Screen init (Lnet/minecraft/client/Minecraft;II)V
+extendable method net/minecraft/client/gui/screens/Screen init (II)V
+extendable method net/minecraft/client/gui/screens/Screen renderWithTooltip (Lnet/minecraft/client/gui/GuiGraphics;IIF)V
+extendable method net/minecraft/client/gui/screens/Screen renderWithTooltipAndSubtitles (Lnet/minecraft/client/gui/GuiGraphics;IIF)V
+extendable method net/minecraft/client/gui/screens/Screen extractRenderStateWithTooltipAndSubtitles (Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V
+
+# Hooks for modern ModelWingsImplementation, ModelCloakImpl and SkillLayersSkullModel
+extendable method net/minecraft/client/model/Model renderToBuffer (Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;II)V
+extendable method net/minecraft/client/model/Model renderToBuffer (Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;III)V
+
+# Hook for modern KeyBindsListMixin_Lunar
+extendable method net/minecraft/client/gui/components/AbstractSelectionList children ()Ljava/util/List;
+
+# Hook for modern TextureInjector_v1_21_4 - private on 1.21.4/1.21.5, protected from 1.21.6 on
+extendable method net/minecraft/client/renderer/texture/ReloadableTexture doLoad (Lcom/mojang/blaze3d/platform/NativeImage;ZZ)V
+
+##################### Accessible methods
+
+# Hook for modern HostedWorldServerEntry and HostedWorldsHeader
+accessible method net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$Entry matches (Lnet/minecraft/client/gui/screens/multiplayer/ServerSelectionList$Entry;)Z
+
+# Hook for modern ResourcePackListEntryFolder_v1_16_1
+accessible method net/minecraft/client/gui/screens/packs/TransferableSelectionList$PackEntry showHoverOverlay ()Z
+
+# Hook for modern VanillaGlyphRendererWrapper
+accessible method net/minecraft/client/renderer/feature/TextFeatureRenderer$GlyphRenderer <init> (Lnet/minecraft/client/renderer/feature/TextFeatureRenderer;)V
+
+# Hook for modern DummyRegistry_XX
+accessible method net/minecraft/core/HolderSet$Named <init> (Lnet/minecraft/core/HolderOwner;Lnet/minecraft/tags/TagKey;)V
+
+# Hooks for bridge ResourceLocationBridge and SectionPosBridge
+accessible method net/minecraft/core/SectionPos <init> (III)V
+accessible method net/minecraft/resources/Identifier <init> (Ljava/lang/String;Ljava/lang/String;)V
+accessible method net/minecraft/resources/ResourceLocation <init> (Ljava/lang/String;Ljava/lang/String;)V

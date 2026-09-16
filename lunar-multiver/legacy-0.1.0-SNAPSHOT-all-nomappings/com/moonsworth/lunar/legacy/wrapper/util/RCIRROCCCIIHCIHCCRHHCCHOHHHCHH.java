@@ -1,0 +1,23 @@
+package com.moonsworth.lunar.legacy.wrapper.util;
+
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
+import net.minecraft.util.IChatComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextComponentTranslation;
+
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   implements com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.CORCOCICIRIOHROHROIIOOHICCHCRR {
+   public String RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
+   ) {
+      return IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 1 ? ((ITextComponent)var1).getFormattedText() : ((IChatComponent)var1).getFormattedText();
+   }
+
+   public com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH ICRHCCCCOIICOCHHCRCOOIHICROIHI(
+      String var1
+   ) {
+      return (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)(
+         new TextComponentTranslation(var1, new Object[0])
+      );
+   }
+}
