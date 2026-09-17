@@ -4,23 +4,25 @@ import com.google.protobuf.Descriptors;
 import com.google.protobuf.Internal;
 import com.google.protobuf.ProtocolMessageEnum;
 
-public enum CountryFlagVisibility implements ProtocolMessageEnum {
-   COUNTRY_FLAG_VISIBILITY_UNSPECIFIED(0),
-   COUNTRY_FLAG_VISIBILITY_EVERYONE(1),
-   COUNTRY_FLAG_VISIBILITY_FRIENDS(2),
-   COUNTRY_FLAG_VISIBILITY_NOONE(3),
+public enum OnlineFriendStatus implements ProtocolMessageEnum {
+   ONLINE_FRIEND_STATUS_UNSPECIFIED(0),
+   ONLINE_FRIEND_STATUS_ONLINE(1),
+   ONLINE_FRIEND_STATUS_AWAY(2),
+   ONLINE_FRIEND_STATUS_BUSY(3),
+   ONLINE_FRIEND_STATUS_INVISIBLE(4),
    UNRECOGNIZED(-1);
 
-   public static final int COUNTRY_FLAG_VISIBILITY_UNSPECIFIED_VALUE = 0;
-   public static final int COUNTRY_FLAG_VISIBILITY_EVERYONE_VALUE = 1;
-   public static final int COUNTRY_FLAG_VISIBILITY_FRIENDS_VALUE = 2;
-   public static final int COUNTRY_FLAG_VISIBILITY_NOONE_VALUE = 3;
-   private static final Internal.EnumLiteMap<CountryFlagVisibility> internalValueMap = new Internal.EnumLiteMap<CountryFlagVisibility>() {
-      public CountryFlagVisibility findValueByNumber(int var1) {
-         return CountryFlagVisibility.forNumber(var1);
+   public static final int ONLINE_FRIEND_STATUS_UNSPECIFIED_VALUE = 0;
+   public static final int ONLINE_FRIEND_STATUS_ONLINE_VALUE = 1;
+   public static final int ONLINE_FRIEND_STATUS_AWAY_VALUE = 2;
+   public static final int ONLINE_FRIEND_STATUS_BUSY_VALUE = 3;
+   public static final int ONLINE_FRIEND_STATUS_INVISIBLE_VALUE = 4;
+   private static final Internal.EnumLiteMap<OnlineFriendStatus> internalValueMap = new Internal.EnumLiteMap<OnlineFriendStatus>() {
+      public OnlineFriendStatus findValueByNumber(int var1) {
+         return OnlineFriendStatus.forNumber(var1);
       }
    };
-   private static final CountryFlagVisibility[] VALUES = values();
+   private static final OnlineFriendStatus[] VALUES = values();
    private final int value;
 
    @Override
@@ -33,26 +35,28 @@ public enum CountryFlagVisibility implements ProtocolMessageEnum {
    }
 
    @Deprecated
-   public static CountryFlagVisibility valueOf(int var0) {
+   public static OnlineFriendStatus valueOf(int var0) {
       return forNumber(var0);
    }
 
-   public static CountryFlagVisibility forNumber(int var0) {
+   public static OnlineFriendStatus forNumber(int var0) {
       switch (var0) {
          case 0:
-            return COUNTRY_FLAG_VISIBILITY_UNSPECIFIED;
+            return ONLINE_FRIEND_STATUS_UNSPECIFIED;
          case 1:
-            return COUNTRY_FLAG_VISIBILITY_EVERYONE;
+            return ONLINE_FRIEND_STATUS_ONLINE;
          case 2:
-            return COUNTRY_FLAG_VISIBILITY_FRIENDS;
+            return ONLINE_FRIEND_STATUS_AWAY;
          case 3:
-            return COUNTRY_FLAG_VISIBILITY_NOONE;
+            return ONLINE_FRIEND_STATUS_BUSY;
+         case 4:
+            return ONLINE_FRIEND_STATUS_INVISIBLE;
          default:
             return null;
       }
    }
 
-   public static Internal.EnumLiteMap<CountryFlagVisibility> internalGetValueMap() {
+   public static Internal.EnumLiteMap<OnlineFriendStatus> internalGetValueMap() {
       return internalValueMap;
    }
 
@@ -71,10 +75,10 @@ public enum CountryFlagVisibility implements ProtocolMessageEnum {
    }
 
    public static final Descriptors.EnumDescriptor getDescriptor() {
-      return CommonProto.getDescriptor().getEnumTypes().get(2);
+      return CommonProto.getDescriptor().getEnumTypes().get(0);
    }
 
-   public static CountryFlagVisibility valueOf(Descriptors.EnumValueDescriptor var0) {
+   public static OnlineFriendStatus valueOf(Descriptors.EnumValueDescriptor var0) {
       if (var0.getType() != getDescriptor()) {
          throw new IllegalArgumentException("EnumValueDescriptor is not for this type.");
       } else {
@@ -82,7 +86,7 @@ public enum CountryFlagVisibility implements ProtocolMessageEnum {
       }
    }
 
-   CountryFlagVisibility(int var3) {
+   OnlineFriendStatus(int var3) {
       this.value = var3;
    }
 }

@@ -4,21 +4,21 @@ import com.google.protobuf.Descriptors;
 import com.google.protobuf.Internal;
 import com.google.protobuf.ProtocolMessageEnum;
 
-public enum ConversationMessageKind implements ProtocolMessageEnum {
-   CONVERSATION_MESSAGE_KIND_UNSPECIFIED(0),
-   CONVERSATION_MESSAGE_KIND_USER(1),
-   CONVERSATION_MESSAGE_KIND_SYSTEM(2),
+public enum IconPolicy implements ProtocolMessageEnum {
+   ICON_POLICY_UNSPECIFIED(0),
+   ICON_POLICY_EVERYONE(1),
+   ICON_POLICY_OWNER(2),
    UNRECOGNIZED(-1);
 
-   public static final int CONVERSATION_MESSAGE_KIND_UNSPECIFIED_VALUE = 0;
-   public static final int CONVERSATION_MESSAGE_KIND_USER_VALUE = 1;
-   public static final int CONVERSATION_MESSAGE_KIND_SYSTEM_VALUE = 2;
-   private static final Internal.EnumLiteMap<ConversationMessageKind> internalValueMap = new Internal.EnumLiteMap<ConversationMessageKind>() {
-      public ConversationMessageKind findValueByNumber(int var1) {
-         return ConversationMessageKind.forNumber(var1);
+   public static final int ICON_POLICY_UNSPECIFIED_VALUE = 0;
+   public static final int ICON_POLICY_EVERYONE_VALUE = 1;
+   public static final int ICON_POLICY_OWNER_VALUE = 2;
+   private static final Internal.EnumLiteMap<IconPolicy> internalValueMap = new Internal.EnumLiteMap<IconPolicy>() {
+      public IconPolicy findValueByNumber(int var1) {
+         return IconPolicy.forNumber(var1);
       }
    };
-   private static final ConversationMessageKind[] VALUES = values();
+   private static final IconPolicy[] VALUES = values();
    private final int value;
 
    @Override
@@ -31,24 +31,24 @@ public enum ConversationMessageKind implements ProtocolMessageEnum {
    }
 
    @Deprecated
-   public static ConversationMessageKind valueOf(int var0) {
+   public static IconPolicy valueOf(int var0) {
       return forNumber(var0);
    }
 
-   public static ConversationMessageKind forNumber(int var0) {
+   public static IconPolicy forNumber(int var0) {
       switch (var0) {
          case 0:
-            return CONVERSATION_MESSAGE_KIND_UNSPECIFIED;
+            return ICON_POLICY_UNSPECIFIED;
          case 1:
-            return CONVERSATION_MESSAGE_KIND_USER;
+            return ICON_POLICY_EVERYONE;
          case 2:
-            return CONVERSATION_MESSAGE_KIND_SYSTEM;
+            return ICON_POLICY_OWNER;
          default:
             return null;
       }
    }
 
-   public static Internal.EnumLiteMap<ConversationMessageKind> internalGetValueMap() {
+   public static Internal.EnumLiteMap<IconPolicy> internalGetValueMap() {
       return internalValueMap;
    }
 
@@ -67,10 +67,10 @@ public enum ConversationMessageKind implements ProtocolMessageEnum {
    }
 
    public static final Descriptors.EnumDescriptor getDescriptor() {
-      return CommonProto.getDescriptor().getEnumTypes().get(1);
+      return CommonProto.getDescriptor().getEnumTypes().get(5);
    }
 
-   public static ConversationMessageKind valueOf(Descriptors.EnumValueDescriptor var0) {
+   public static IconPolicy valueOf(Descriptors.EnumValueDescriptor var0) {
       if (var0.getType() != getDescriptor()) {
          throw new IllegalArgumentException("EnumValueDescriptor is not for this type.");
       } else {
@@ -78,7 +78,7 @@ public enum ConversationMessageKind implements ProtocolMessageEnum {
       }
    }
 
-   ConversationMessageKind(int var3) {
+   IconPolicy(int var3) {
       this.value = var3;
    }
 }

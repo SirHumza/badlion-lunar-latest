@@ -4,23 +4,21 @@ import com.google.protobuf.Descriptors;
 import com.google.protobuf.Internal;
 import com.google.protobuf.ProtocolMessageEnum;
 
-public enum MarkerDisplayCondition implements ProtocolMessageEnum {
-   MARKER_DISPLAY_CONDITION_UNSPECIFIED(0),
-   MARKER_DISPLAY_CONDITION_NEVER(1),
-   MARKER_DISPLAY_CONDITION_HOVER(2),
-   MARKER_DISPLAY_CONDITION_ALWAYS(3),
+public enum MarkerOwnerDisplay implements ProtocolMessageEnum {
+   MARKER_OWNER_DISPLAY_UNSPECIFIED(0),
+   MARKER_OWNER_DISPLAY_HEAD(1),
+   MARKER_OWNER_DISPLAY_NAME(2),
    UNRECOGNIZED(-1);
 
-   public static final int MARKER_DISPLAY_CONDITION_UNSPECIFIED_VALUE = 0;
-   public static final int MARKER_DISPLAY_CONDITION_NEVER_VALUE = 1;
-   public static final int MARKER_DISPLAY_CONDITION_HOVER_VALUE = 2;
-   public static final int MARKER_DISPLAY_CONDITION_ALWAYS_VALUE = 3;
-   private static final Internal.EnumLiteMap<MarkerDisplayCondition> internalValueMap = new Internal.EnumLiteMap<MarkerDisplayCondition>() {
-      public MarkerDisplayCondition findValueByNumber(int var1) {
-         return MarkerDisplayCondition.forNumber(var1);
+   public static final int MARKER_OWNER_DISPLAY_UNSPECIFIED_VALUE = 0;
+   public static final int MARKER_OWNER_DISPLAY_HEAD_VALUE = 1;
+   public static final int MARKER_OWNER_DISPLAY_NAME_VALUE = 2;
+   private static final Internal.EnumLiteMap<MarkerOwnerDisplay> internalValueMap = new Internal.EnumLiteMap<MarkerOwnerDisplay>() {
+      public MarkerOwnerDisplay findValueByNumber(int var1) {
+         return MarkerOwnerDisplay.forNumber(var1);
       }
    };
-   private static final MarkerDisplayCondition[] VALUES = values();
+   private static final MarkerOwnerDisplay[] VALUES = values();
    private final int value;
 
    @Override
@@ -33,26 +31,24 @@ public enum MarkerDisplayCondition implements ProtocolMessageEnum {
    }
 
    @Deprecated
-   public static MarkerDisplayCondition valueOf(int var0) {
+   public static MarkerOwnerDisplay valueOf(int var0) {
       return forNumber(var0);
    }
 
-   public static MarkerDisplayCondition forNumber(int var0) {
+   public static MarkerOwnerDisplay forNumber(int var0) {
       switch (var0) {
          case 0:
-            return MARKER_DISPLAY_CONDITION_UNSPECIFIED;
+            return MARKER_OWNER_DISPLAY_UNSPECIFIED;
          case 1:
-            return MARKER_DISPLAY_CONDITION_NEVER;
+            return MARKER_OWNER_DISPLAY_HEAD;
          case 2:
-            return MARKER_DISPLAY_CONDITION_HOVER;
-         case 3:
-            return MARKER_DISPLAY_CONDITION_ALWAYS;
+            return MARKER_OWNER_DISPLAY_NAME;
          default:
             return null;
       }
    }
 
-   public static Internal.EnumLiteMap<MarkerDisplayCondition> internalGetValueMap() {
+   public static Internal.EnumLiteMap<MarkerOwnerDisplay> internalGetValueMap() {
       return internalValueMap;
    }
 
@@ -71,10 +67,10 @@ public enum MarkerDisplayCondition implements ProtocolMessageEnum {
    }
 
    public static final Descriptors.EnumDescriptor getDescriptor() {
-      return SchemaProto.getDescriptor().getEnumTypes().get(0);
+      return SchemaProto.getDescriptor().getEnumTypes().get(1);
    }
 
-   public static MarkerDisplayCondition valueOf(Descriptors.EnumValueDescriptor var0) {
+   public static MarkerOwnerDisplay valueOf(Descriptors.EnumValueDescriptor var0) {
       if (var0.getType() != getDescriptor()) {
          throw new IllegalArgumentException("EnumValueDescriptor is not for this type.");
       } else {
@@ -82,7 +78,7 @@ public enum MarkerDisplayCondition implements ProtocolMessageEnum {
       }
    }
 
-   MarkerDisplayCondition(int var3) {
+   MarkerOwnerDisplay(int var3) {
       this.value = var3;
    }
 }
