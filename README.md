@@ -28,8 +28,8 @@ launcher responses must not be read as proof that Lunar ships Badlion's game cod
 | `lunar-launch-1.8.9.json` | Saved launch API response. At capture time, `module=badlion` returned the same artifact list as `module=lunar`. That shows shared launcher delivery, **not** Badlion game code inside Lunar. | `api.lunarclientprod.com/launcher/launch` | 1 |
 | `batmod-installer/` | Decompiled installer (230 `.java`, entry `com.batmod.installer.Main`) + version manifest `version.json` (`id: BatMod`, vanilla 1.8 manifest shape, mainClass `net.minecraft.client.main.Main`). Includes semantic rename pass (18 classes renamed). | `static.batmod.com/BatMod_Installer.jar` (798K) via `dl.batmod.com/go/download.php`, `dl.batmod.com/json/` | 239 |
 | `batmod-installer-src/` | **Clean renamed installer source** — 21 `.java` files with inferred semantic names (`BatModInstaller`, `Logger`, `Button`, `Checkbox`, `Spinner`, `ProgressBar`, etc.). Best quality reference for the installer UI framework. | Same as above, post-semantic-rename pass | 21 |
-| `batmod-updater/` | Decompiled updater (69 `.java`). | `dl.batmod.com/updater/` (272K) | 73 |
-| `batmod-client/` | Decompiled BatMod 1.8.9 client: 3,300 `.java` + vanilla `net/minecraft` + assets. Obfuscated vendor classes sit at the output root (default package) with generated names. `enhanced-discord-rpc.jar` (639,460 bytes) decompiled in-repo under `enhanced-discord-rpc/` (44 files). BatMod's own changelog tops out at 0.6.7 BETA (2021): the served build is old, not fresh. | `static.batmod.com/BatMod.jar` (57MB) via `dl.batmod.com/jar/` redirect | 8,181 |
+| `batmod-updater/` | Decompiled updater (69 `.java`). Filenames still obfuscated (user opted to skip rename pass). | `dl.batmod.com/updater/` (272K) | 73 |
+| `batmod-client/` | Decompiled BatMod 1.8.9 client: **2,315 `.java`** + vanilla `net/minecraft` + assets. **3 semantic rename passes applied** (682 + 176 + 682 files inferred). Key classes renamed: `BatModClient`, `Button`, `Checkbox`, `ProgressBar`, `Spinner`, `CustomSpinner`, `ColorChooser`, `ColorTextPane`, `ExitCode`, `IntegerSpinner`, `Logger`, `BatModProgressBar`, `InstallationLogger`, `BatModJson`, `ButtonAction`, `Downloader`, `GsonTypeAdapter`, `JavaVersion`, `TextField`, `BatModInstallerMain`. **~180 deeply-nested inner classes remain obfuscated** (no explicit extends/package, cannot be auto-inferred). `enhanced-discord-rpc.jar` decompiled in-repo under `enhanced-discord-rpc/` (44 files). BatMod's own changelog tops out at 0.6.7 BETA (2021): the served build is old, not fresh. | `static.batmod.com/BatMod.jar` (57MB) via `dl.batmod.com/jar/` redirect | 2,315 |
 
 Readable third-party Badlion material (not mirrored here, link only): [NightSling/Badlion-3.0.0](https://github.com/NightSling/badlion-3.0.0) — a 2021 1.8.8 leak (BAC stripped), **not** obtained here and **not** latest.
 
@@ -61,3 +61,13 @@ Open the folder in IntelliJ IDEA (Community is fine) as a plain directory, use N
 Start points: `com.moonsworth.lunar.genesis.Genesis` (Lunar boot),
 `com.batmod.installer.Main` (BatMod installer), vanilla `net.minecraft.client.main.Main`
 (BatMod client), `net.badlion.client` package (3.0.0 leak, linked above).
+
+### Semantic rename passes (batmod-client/)
+
+Three passes of content-based inference renamed 2,142 files:
+- **Pass 1**: 1,284 files via extends/implements/imports analysis
+- **Pass 2**: 682 files via method signatures and field types
+- **Pass 3**: 176 files via class reference patterns (CustomSpinner, Button inner classes)
+
+~180 inner/nested classes remain obfuscated (no explicit extends/package).
+All main client classes (`BatModClient`, `Button`, `Spinner`, etc.) are cleanly named.
