@@ -29,7 +29,7 @@ launcher responses must not be read as proof that Lunar ships Badlion's game cod
 | `batmod-installer/` | Decompiled installer (230 `.java`, entry `com.batmod.installer.Main`) + version manifest `version.json` (`id: BatMod`, vanilla 1.8 manifest shape, mainClass `net.minecraft.client.main.Main`). Includes semantic rename pass (18 classes renamed). | `static.batmod.com/BatMod_Installer.jar` (798K) via `dl.batmod.com/go/download.php`, `dl.batmod.com/json/` | 239 |
 | `batmod-installer-src/` | **Clean renamed installer source** — 21 `.java` files with inferred semantic names (`BatModInstaller`, `Logger`, `Button`, `Checkbox`, `Spinner`, `ProgressBar`, etc.). Best quality reference for the installer UI framework. | Same as above, post-semantic-rename pass | 21 |
 | `batmod-updater/` | Decompiled updater (69 `.java`). Filenames still obfuscated (user opted to skip rename pass). | `dl.batmod.com/updater/` (272K) | 73 |
-| `batmod-client/` | Decompiled BatMod 1.8.9 client: **2,315 `.java`** + vanilla `net/minecraft` + assets. **3 semantic rename passes applied** (682 + 176 + 682 files inferred). Key classes renamed: `BatModClient`, `Button`, `Checkbox`, `ProgressBar`, `Spinner`, `CustomSpinner`, `ColorChooser`, `ColorTextPane`, `ExitCode`, `IntegerSpinner`, `Logger`, `BatModProgressBar`, `InstallationLogger`, `BatModJson`, `ButtonAction`, `Downloader`, `GsonTypeAdapter`, `JavaVersion`, `TextField`, `BatModInstallerMain`. **~180 deeply-nested inner classes remain obfuscated** (no explicit extends/package, cannot be auto-inferred). `enhanced-discord-rpc.jar` decompiled in-repo under `enhanced-discord-rpc/` (44 files). BatMod's own changelog tops out at 0.6.7 BETA (2021): the served build is old, not fresh. | `static.batmod.com/BatMod.jar` (57MB) via `dl.batmod.com/jar/` redirect | 2,315 |
+| `batmod-client/` | Decompiled BatMod 1.8.9 client: **2,295 `.java`** + vanilla `net/minecraft` + assets. **4 semantic rename passes** (1,284 + 682 + 176 + 106 files inferred, totaling ~2,248 renamed). Key classes renamed: `BatModClient`, `Button`, `Checkbox`, `ProgressBar`, `Spinner`, `CustomSpinner`, `ColorChooser`, `ColorTextPane`, `ExitCode`, `IntegerSpinner`, `Logger`, `BatModProgressBar`, `InstallationLogger`, `BatModJson`, `ButtonAction`, `Downloader`, `GsonTypeAdapter`, `JavaVersion`, `TextField`, `BatModInstallerMain`, plus `GuiComponent`, `NetworkHandler`, `PacketHandler`, `AsyncWorker`, `GsonAdapter`, `JsonAdapter`, `TextureHandler`, `ModelHandler`, `ChatHandler`, `CommandHandler`, `InventoryHandler`, `AchievementHandler`, `SoundHandler`, `RecipeHandler`, `AdvancementHandler`. **~43 files remain obfuscated** — these are synthetic classes, empty marker classes, functional interfaces, and deeply-nested inner classes with no inferable patterns. Also fixed 9 bad names from earlier string-literal inference (`PngAndJpgFormat`, `CommandsGenericNumInvalid`, `ErrorParsingFormat`, `PlayerCombat`, `PlayerDeath`, etc.). `enhanced-discord-rpc.jar` decompiled in-repo under `enhanced-discord-rpc/` (44 files). | `static.batmod.com/BatMod.jar` (57MB) via `dl.batmod.com/jar/` redirect | 2,295 |
 
 Readable third-party Badlion material (not mirrored here, link only): [NightSling/Badlion-3.0.0](https://github.com/NightSling/badlion-3.0.0) — a 2021 1.8.8 leak (BAC stripped), **not** obtained here and **not** latest.
 
@@ -64,10 +64,12 @@ Start points: `com.moonsworth.lunar.genesis.Genesis` (Lunar boot),
 
 ### Semantic rename passes (batmod-client/)
 
-Three passes of content-based inference renamed 2,142 files:
+Four passes of content-based inference renamed ~2,248 files:
 - **Pass 1**: 1,284 files via extends/implements/imports analysis
 - **Pass 2**: 682 files via method signatures and field types
 - **Pass 3**: 176 files via class reference patterns (CustomSpinner, Button inner classes)
+- **Pass 4**: 106 files via mouse/key/gui/json/packet/texture/sound patterns
 
-~180 inner/nested classes remain obfuscated (no explicit extends/package).
+Also fixed 9 bad names from earlier string-literal inference.
+~43 files remain obfuscated — synthetic classes, empty marker classes, functional interfaces, compiler-generated artifacts with no inferable patterns.
 All main client classes (`BatModClient`, `Button`, `Spinner`, etc.) are cleanly named.
