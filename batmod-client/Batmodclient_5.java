@@ -1,49 +1,23 @@
-public enum PKG774Rk7EDVwT9baoMmgOfDZj2rlikPVfG5zybZbhuULhFCIi4z7kF8Ajj7VX1JfUpV0yUmSLRvhkzRwhSfTjhowF0LIE5Dx4m4 {
-   BatModClient(
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("minecraft:music.menu"), 20, 600
-   ),
-   Button(
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("minecraft:music.game"), 12000, 24000
-   ),
-   CustomSpinner(
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("minecraft:music.game.creative"), 1200, 3600
-   ),
-   ButtonAction(
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("minecraft:music.game.end.credits"),
-      Integer.MAX_VALUE,
-      Integer.MAX_VALUE
-   ),
-   Spinner(
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("minecraft:music.game.nether"), 1200, 3600
-   ),
-   Checkbox(
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("minecraft:music.game.end.dragon"), 0, 0
-   ),
-   ProgressBar(
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("minecraft:music.game.end"), 6000, 24000
-   );
-
-   private final p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD BatModProgressBar;
-   private final int ColorChooser;
-   private final int IntegerSpinner;
-
-   PKG774Rk7EDVwT9baoMmgOfDZj2rlikPVfG5zybZbhuULhFCIi4z7kF8Ajj7VX1JfUpV0yUmSLRvhkzRwhSfTjhowF0LIE5Dx4m4(
-      p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD var3, int var4, int var5
+public class CP3ZDlilprizghOH0OzCHSXxPsUJ4MyUCp8XHbjr4Vx6rvHOIv6Cv27239lgXuq3jmI7zEdSDLiwqW65LfJeJiKwrY16l6QtFyI
+   extends ZUDwYNjCeINqRWF6FAPpMunfGjQvU0YXZjnXsNgleGrjLXPzaRQ6pMmpMMxUGNbFkZePhihxN2n4JALpHneODYzNOvRvyRQiG2x {
+   public CP3ZDlilprizghOH0OzCHSXxPsUJ4MyUCp8XHbjr4Vx6rvHOIv6Cv27239lgXuq3jmI7zEdSDLiwqW65LfJeJiKwrY16l6QtFyI(
+      int var1, p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD var2, boolean var3, int var4
    ) {
-      this.BatModProgressBar = var3;
-      this.ColorChooser = var4;
-      this.IntegerSpinner = var5;
+      super(var1, var2, var3, var4);
    }
 
-   public p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD BatModClient() {
-      return this.BatModProgressBar;
-   }
-
-   public int Button() {
-      return this.ColorChooser;
-   }
-
-   public int CustomSpinner() {
-      return this.IntegerSpinner;
+   @Override
+   public void BatModClient(
+      B8VluaHYQkPrm0MSgTEiIG0moKrZyV3SVKON7lYumKjWCHtPeWFtSQWKdPmgKNhRe1stPLbU4GTATRWfN8OYB1phO1ALYKttKG1R var1,
+      EXjtsFjsusGQtkC5tiXXlF5JNOlFhlzmATIsNWzTmAhwhdfUkQPMDJBII0jBxC0CVIq4nImYPd3tbTKFWExSX0tpGkkBVTAjoneC var2,
+      int var3
+   ) {
+      super.BatModClient(var1, var2, var3);
+      if (var1.eXbgCpP5lUfFvUJWyVafz7sS9inkbzm9IJb10VzFRCYMC7CBeSWi0iiNHVGA5maCFjQTXOW3pR7NfCrRgHhlld6tBTrZBa125e9u()
+         > var1.S4vtFCkd9FN55UhuOr39A9bal5W6ygnK2uYAZrpEvFGgxWXgW10IuYigT7AXjOAwS6RL4HfnLJfLP29NlbMDgjF4rKktwNqWf5nF()) {
+         var1.TextField(
+            var1.S4vtFCkd9FN55UhuOr39A9bal5W6ygnK2uYAZrpEvFGgxWXgW10IuYigT7AXjOAwS6RL4HfnLJfLP29NlbMDgjF4rKktwNqWf5nF()
+         );
+      }
    }
 }
