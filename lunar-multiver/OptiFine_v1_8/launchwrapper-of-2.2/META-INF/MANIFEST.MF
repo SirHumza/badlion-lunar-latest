@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Version: 2.2
+Implementation-Vendor: OptiFine
+Build-Timestamp: 2020-08-25T16:45:04.898+0200
+Build-Jdk: 1.8.0_121 (Oracle Corporation 25.121-b13)
+Created-By: Gradle 2.4
+
