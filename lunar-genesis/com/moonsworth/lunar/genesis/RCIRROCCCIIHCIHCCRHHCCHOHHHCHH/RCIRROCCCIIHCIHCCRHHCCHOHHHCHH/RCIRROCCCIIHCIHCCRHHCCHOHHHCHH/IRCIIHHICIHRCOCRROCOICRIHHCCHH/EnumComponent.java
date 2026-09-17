@@ -1,103 +1,103 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
 
+import java.io.Serializable;
 import java.lang.ref.WeakReference;
-import java.util.Locale;
-import java.util.ServiceConfigurationError;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.regex.Pattern;
+import java.lang.reflect.Field;
+import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.WeakHashMap;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
    emulated = true
 )
-final class ICICIOCHHHIHOCHCOHORIHRCOHHOCR {
-   private static final Logger HIRHRHOHRIIICHICCRHIHRORCOCHCR = Logger.getLogger(ICICIOCHHHIHOCHCOHORIHRCOHHOCR.class.getName());
-   private static final IHCRORHRORIICHRHRCHRRIRRHHOCOO CCHRORRCOIRIOOHHIRCIIIIRHIIRRI = RCIOCOHHCCRIOHOHCRICIRHRCCOROR();
+public final class HICHRCOHCCRHOHCICOOCHOIHCCHIRI {
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   private static final Map<Class<? extends Enum<?>>, Map<String, WeakReference<? extends Enum<?>>>> IIOORCCHHOCHRIICICCCROHCRRCHCC = new WeakHashMap<>();
 
-   private ICICIOCHHHIHOCHCOHORIHRCOHHOCR() {
+   private HICHRCOHCCRHOHCICOOCHOIHCCHIRI() {
    }
 
-   static long systemNanoTime() {
-      return System.nanoTime();
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   public static Field getField(Enum<?> var0) {
+      Class var1 = var0.getDeclaringClass();
+
+      try {
+         return var1.getDeclaredField(var0.name());
+      } catch (NoSuchFieldException var3) {
+         throw new AssertionError(var3);
+      }
    }
 
-   static RRCRRCORICCHOHHIRCHIROOHIIOHCO HHCCIRHCCCIIRHCROHIORHIRHHIORH(RRCRRCORICCHOHHIRCHIROOHIIOHCO var0) {
-      return var0.HCROOOIHRIORCOCOCROHCHCRCCIOOR();
-   }
-
-   static <T extends Enum<T>> ORHIOICIOCRRHOOCOHRORIHICHRCRR<T> CRRRICCRROCOHHOHIICIHORCOORRRH(Class<T> var0, String var1) {
-      WeakReference var2 = HICHRCOHCCRHOHCICOOCHOIHCCHIRI.getEnumConstants(var0).get(var1);
-      return var2 == null
-         ? ORHIOICIOCRRHOOCOHRORIHICHRCRR.IHIRCRORCOOROROHHRRIIOOOOCCHRH()
-         : ORHIOICIOCRRHOOCOHRORIHICHRCRR.COIRRRCIORROCHIROCHROCHICCICIC((T)var0.cast(var2.get()));
-   }
-
-   static String formatCompact4Digits(double var0) {
-      return String.format(Locale.ROOT, "%.4g", var0);
-   }
-
-   static boolean stringIsNullOrEmpty(@Nullable String var0) {
-      return var0 == null || var0.isEmpty();
-   }
-
-   static String nullToEmpty(@Nullable String var0) {
-      return var0 == null ? "" : var0;
-   }
-
-   static String emptyToNull(@Nullable String var0) {
-      return stringIsNullOrEmpty(var0) ? null : var0;
-   }
-
-   static OOROOCCIRCCRHOIOIORIHCHHOOCCOR IIHCOICHRCCCCOHHRHHIRIOICHCHHO(String var0) {
+   public static <T extends Enum<T>> ORHIOICIOCRRHOOCOHRORIHICHRCRR<T> HHCCIRHCCCIIRHCROHIORHIRHHIORH(Class<T> var0, String var1) {
       IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var0);
-      return CCHRORRCOIRIOOHHIRCIIIIRHIIRRI.IIOIIRRHOIHRRORHCROICRRRHIHOCO(var0);
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      return ICICIOCHHHIHOCHCOHORIHRCOHHOCR.CRRRICCRROCOHHOHIICIHORCOORRRH(var0, var1);
    }
 
-   static boolean patternCompilerIsPcreLike() {
-      return CCHRORRCOIRIOOHHIRCIIIIRHIIRRI.isPcreLike();
-   }
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   private static <T extends Enum<T>> Map<String, WeakReference<? extends Enum<?>>> populateCache(Class<T> var0) {
+      HashMap var1 = new HashMap();
 
-   private static IHCRORHRORIICHRHRCHRRIRRHHOCOO RCIOCOHHCCRIOHOHCRICIRHRCCOROR() {
-      return new ICICIOCHHHIHOCHCOHORIHRCOHHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH();
-   }
-
-   private static void logPatternCompilerError(ServiceConfigurationError var0) {
-      HIRHRHOHRIIICHICCRHIHRORCOCHCR.log(Level.WARNING, "Error loading regex compiler, falling back to next option", var0);
-   }
-
-   static void checkGwtRpcEnabled() {
-      String var0 = "guava.gwt.emergency_reenable_rpc";
-      if (!Boolean.parseBoolean(System.getProperty(var0, "false"))) {
-         throw new UnsupportedOperationException(
-            IHICORCROOROHCIHIHCOIHRRHICICO.lenientFormat(
-               "We are removing GWT-RPC support for Guava types. You can temporarily reenable support by setting the system property %s to true. For more about system properties, see %s. For more about Guava's GWT-RPC support, see %s.",
-               var0,
-               "https://stackoverflow.com/q/5189914/28465",
-               "https://groups.google.com/d/msg/guava-announce/zHZTFg7YF3o/rQNnwdHeEwAJ"
-            )
-         );
+      for (Enum var3 : EnumSet.allOf(var0)) {
+         var1.put(var3.name(), new WeakReference<>(var3));
       }
 
-      HIRHRHOHRIIICHICCRHIHRORCOCHCR.log(
-         Level.WARNING,
-         "Later in 2020, we will remove GWT-RPC support for Guava types. You are seeing this warning because you are sending a Guava type over GWT-RPC, which will break. You can identify which type by looking at the class name in the attached stack trace.",
-         new Throwable()
-      );
+      IIOORCCHHOCHRIICICCCROHCRRCHCC.put(var0, var1);
+      return var1;
    }
 
-   private static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements IHCRORHRORIICHRHRCHRRIRRHHOCOO {
-      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+   static <T extends Enum<T>> Map<String, WeakReference<? extends Enum<?>>> getEnumConstants(Class<T> var0) {
+      synchronized (IIOORCCHHOCHRIICICCCROHCRRCHCC) {
+         Map var2 = IIOORCCHHOCHRIICICCCROHCRRCHCC.get(var0);
+         if (var2 == null) {
+            var2 = populateCache(var0);
+         }
+
+         return var2;
+      }
+   }
+
+   public static <T extends Enum<T>> CORCOCICIRIOHROHROIIOOHICCHCRR<String, T> IIHRHCCOOHOOOOCHRRCOROOIOHCOOO(Class<T> var0) {
+      return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(var0);
+   }
+
+   private static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<T extends Enum<T>> extends CORCOCICIRIOHROHROIIOOHICCHCRR<String, T> implements Serializable {
+      private final Class<T> ICHHOIHCICIROHOHRROIHCRIHCCCOH;
+      private static final long IORRRHHOCICOOHIIIHIHRCCIRORIHC = 0L;
+
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Class<T> var1) {
+         this.ICHHOIHCICIROHOHRROIHCRIHCCCOH = IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      }
+
+      protected T doForward(String var1) {
+         return Enum.valueOf(this.ICHHOIHCICIROHOHRROIHCRIHCCCOH, var1);
+      }
+
+      protected String doBackward(T var1) {
+         return var1.name();
       }
 
       @Override
-      public OOROOCCIRCCRHOIOIORIHCHHOOCCOR IIOIIRRHOIHRRORHCROICRRRHIHOCO(String var1) {
-         return new RIROICHCRROROHCCROOCCCCOCHCCRI(Pattern.compile(var1));
+      public boolean equals(@Nullable Object var1) {
+         if (var1 instanceof HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH) {
+            HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2 = (HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1;
+            return this.ICHHOIHCICIROHOHRROIHCRIHCCCOH.equals(var2.ICHHOIHCICIROHOHRROIHCRIHCCCOH);
+         } else {
+            return false;
+         }
       }
 
       @Override
-      public boolean isPcreLike() {
-         return true;
+      public int hashCode() {
+         return this.ICHHOIHCICIROHOHRROIHCRIHCCCOH.hashCode();
+      }
+
+      @Override
+      public String toString() {
+         return "Enums.stringConverter(" + this.ICHHOIHCICIROHOHRROIHCRIHCCCOH.getName() + ".class)";
       }
    }
 }

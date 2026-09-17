@@ -1,744 +1,504 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
 
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.DataInput;
-import java.io.DataInputStream;
-import java.io.DataOutput;
-import java.io.DataOutputStream;
-import java.io.EOFException;
-import java.io.FilterInputStream;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.CICOIHIRIIHHCIOICHRHICRIRCIOHC;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.HIIRCRROICHCOROOCCCCOIOOOCCIIC;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCHOIICIHOCIRCIOORIOHRCRHOCRCR;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IIHRHCCOOHOOOOCHRRCOROOIOHCOOO;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.IOHHOIIOCRHCHHCRORICCOHOHROOIH;
+import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIROOOOICRHCCRRCIORHHIRCOIIIC;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.nio.Buffer;
-import java.nio.ByteBuffer;
+import java.io.OutputStreamWriter;
+import java.io.RandomAccessFile;
+import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
-import java.nio.channels.ReadableByteChannel;
-import java.nio.channels.WritableByteChannel;
-import java.util.ArrayDeque;
+import java.nio.channels.FileChannel.MapMode;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Deque;
+import java.util.Collections;
+import java.util.List;
 
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
-public final class OOROOCCIRCCRHOIOIORIHCHHOOCCOR {
-   private static final int HCIHOHICHIHHOICCOHIOHRICIRHIHC = 8192;
-   private static final int HCOIROHHRCHOOCRORCRIOCIROOCICC = 524288;
-   private static final int OIIROOIRCORORICRRICIOOHICHOCOR = 2147483639;
-   private static final int ROCHRHRICHOOROOIRHROICHCHIIICO = 20;
-   private static final OutputStream HCOORIRICCHHOHCOOHHIORRIIICHHC = new OutputStream() {
-      @Override
-      public void write(int var1) {
-      }
-
-      @Override
-      public void write(byte[] var1) {
-         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-            var1
-         );
-      }
-
-      @Override
-      public void write(byte[] var1, int var2, int var3) {
-         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-            var1
-         );
+public final class IRRCCOICORICIHCHRHIHIHROIRHOCR {
+   private static final int COIROCCIOOCRICRRRORRCCIIOROHCO = 10000;
+   private static final HIIRCRROICHCOROOCCCCOIOOOCCIIC<File> IROROROCCRICRCORIHICIOOROHCCHI = new HIIRCRROICHCOROOCCCCOIOOOCCIIC<File>() {
+      public Iterable<File> children(File var1) {
+         return IRRCCOICORICIHCHRHIHIHROIRHOCR.fileTreeChildren(var1);
       }
 
       @Override
       public String toString() {
-         return "ByteStreams.nullOutputStream()";
+         return "Files.fileTreeTraverser()";
+      }
+   };
+   private static final IOHHOIIOCRHCHHCRORICCOHOHROOIH<File> HICIRORCCCIIIHHCCCROOIHCIOOHHR = new IOHHOIIOCRHCHHCRORICCOHOHROOIH<File>() {
+      public Iterable<File> successors(File var1) {
+         return IRRCCOICORICIHCHRHIHIHROIRHOCR.fileTreeChildren(var1);
       }
    };
 
-   static byte[] createBuffer() {
-      return new byte[8192];
+   private IRRCCOICORICIHCHRHIHIHROIRHOCR() {
    }
 
-   private OOROOCCIRCCRHOIOIORIHCHHOOCCOR() {
-   }
-
-   @CanIgnoreReturnValue
-   public static long copy(InputStream var0, OutputStream var1) {
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static BufferedReader newReader(File var0, Charset var1) {
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
          var0
       );
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
          var1
       );
-      byte[] var2 = createBuffer();
-      long var3 = 0L;
+      return new BufferedReader(new InputStreamReader(new FileInputStream(var0), var1));
+   }
 
-      while (true) {
-         int var5 = var0.read(var2);
-         if (var5 == -1) {
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static BufferedWriter newWriter(File var0, Charset var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      return new BufferedWriter(new OutputStreamWriter(new FileOutputStream(var0), var1));
+   }
+
+   public static HRCHROOHRIHCRCRHRIIROCIRHOIRHH COIHORRCHRRCHOCIRHHRRIOIHRIHCC(File var0) {
+      return new IRRCCOICORICIHCHRHIHIHROIRHOCR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0);
+   }
+
+   public static RIOOCHICIHRHOHCCCCCHOCCCOHCRHI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(File var0, RHOCHHIRRCHHHOHOIRROIROHHHIHIO... var1) {
+      return new IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1);
+   }
+
+   public static HICHRCOHCCRHOHCICOOCHOIHCCHIRI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(File var0, Charset var1) {
+      return COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var0).CRRRICCRROCOHHOHIICIHORCOORRRH(var1);
+   }
+
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(File var0, Charset var1, RHOCHHIRRCHHHOHOIRROIROHHHIHIO... var2) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var2).HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static byte[] toByteArray(File var0) {
+      return COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var0).read();
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static String toString(File var0, Charset var1) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1).read();
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void write(byte[] var0, File var1) {
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1).write(var0);
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void write(CharSequence var0, File var1, Charset var2) {
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2).write(var0);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void copy(File var0, OutputStream var1) {
+      COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var0).copyTo(var1);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void copy(File var0, File var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+         !var0.equals(var1), "Source %s and destination %s must be different", var0, var1
+      );
+      COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var0).RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1));
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void copy(File var0, Charset var1, Appendable var2) {
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1).copyTo(var2);
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void append(CharSequence var0, File var1, Charset var2) {
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2, RHOCHHIRRCHHHOHOIRROIROHHHIHIO.APPEND).write(var0);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static boolean equal(File var0, File var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      if (var0 != var1 && !var0.equals(var1)) {
+         long var2 = var0.length();
+         long var4 = var1.length();
+         return var2 != 0L && var4 != 0L && var2 != var4
+            ? false
+            : COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var0).RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var1));
+      } else {
+         return true;
+      }
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static File createTempDir() {
+      File var0 = new File(System.getProperty("java.io.tmpdir"));
+      String var1 = System.currentTimeMillis() + "-";
+
+      for (int var2 = 0; var2 < 10000; var2++) {
+         File var3 = new File(var0, var1 + var2);
+         if (var3.mkdir()) {
             return var3;
          }
+      }
 
-         var1.write(var2, 0, var5);
-         var3 += var5;
+      throw new IllegalStateException("Failed to create directory within 10000 attempts (tried " + var1 + "0 to " + var1 + 9999 + ')');
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void touch(File var0) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      if (!var0.createNewFile() && !var0.setLastModified(System.currentTimeMillis())) {
+         throw new IOException("Unable to update modification time of " + var0);
       }
    }
 
-   @CanIgnoreReturnValue
-   public static long copy(ReadableByteChannel var0, WritableByteChannel var1) {
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void createParentDirs(File var0) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      File var1 = var0.getCanonicalFile().getParentFile();
+      if (var1 != null) {
+         var1.mkdirs();
+         if (!var1.isDirectory()) {
+            throw new IOException("Unable to create parent directories of " + var0);
+         }
+      }
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static void move(File var0, File var1) {
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
          var0
       );
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
          var1
       );
-      if (var0 instanceof FileChannel) {
-         FileChannel var9 = (FileChannel)var0;
-         long var10 = var9.position();
-         long var5 = var10;
-
-         long var7;
-         do {
-            var7 = var9.transferTo(var5, 524288L, var1);
-            var5 += var7;
-            var9.position(var5);
-         } while (var7 > 0L || var5 < var9.size());
-
-         return var5 - var10;
-      } else {
-         ByteBuffer var2 = ByteBuffer.wrap(createBuffer());
-         long var3 = 0L;
-
-         while (var0.read(var2) != -1) {
-            ((Buffer)var2).flip();
-
-            while (var2.hasRemaining()) {
-               var3 += var1.write(var2);
-            }
-
-            ((Buffer)var2).clear();
-         }
-
-         return var3;
-      }
-   }
-
-   private static byte[] toByteArrayInternal(InputStream var0, Deque<byte[]> var1, int var2) {
-      for (int var3 = 8192;
-         var2 < 2147483639;
-         var3 = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI.CRRRICCRROCOHHOHIICIHORCOORRRH.saturatedMultiply(
-            var3, 2
-         )
-      ) {
-         byte[] var4 = new byte[Math.min(var3, 2147483639 - var2)];
-         var1.add(var4);
-         int var5 = 0;
-
-         while (var5 < var4.length) {
-            int var6 = var0.read(var4, var5, var4.length - var5);
-            if (var6 == -1) {
-               return combineBuffers(var1, var2);
-            }
-
-            var5 += var6;
-            var2 += var6;
-         }
-      }
-
-      if (var0.read() == -1) {
-         return combineBuffers(var1, 2147483639);
-      } else {
-         throw new OutOfMemoryError("input is too large to fit in a byte array");
-      }
-   }
-
-   private static byte[] combineBuffers(Deque<byte[]> var0, int var1) {
-      byte[] var2 = new byte[var1];
-      int var3 = var1;
-
-      while (var3 > 0) {
-         byte[] var4 = (byte[])var0.removeFirst();
-         int var5 = Math.min(var3, var4.length);
-         int var6 = var1 - var3;
-         System.arraycopy(var4, 0, var2, var6, var5);
-         var3 -= var5;
-      }
-
-      return var2;
-   }
-
-   public static byte[] toByteArray(InputStream var0) {
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-         var0
-      );
-      return toByteArrayInternal(var0, new ArrayDeque<>(20), 0);
-   }
-
-   static byte[] toByteArray(InputStream var0, long var1) {
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
-         var1 >= 0L, "expectedSize (%s) must be non-negative", var1
+         !var0.equals(var1), "Source %s and destination %s must be different", var0, var1
       );
-      if (var1 > 2147483639L) {
-         throw new OutOfMemoryError(var1 + " bytes is too large to fit in a byte array");
-      }
-
-      byte[] var3 = new byte[(int)var1];
-      int var4 = (int)var1;
-
-      while (var4 > 0) {
-         int var5 = (int)var1 - var4;
-         int var6 = var0.read(var3, var5, var4);
-         if (var6 == -1) {
-            return Arrays.copyOf(var3, var5);
-         }
-
-         var4 -= var6;
-      }
-
-      int var7 = var0.read();
-      if (var7 == -1) {
-         return var3;
-      }
-
-      ArrayDeque var8 = new ArrayDeque(22);
-      var8.add(var3);
-      var8.add(new byte[]{(byte)var7});
-      return toByteArrayInternal(var0, var8, var3.length + 1);
-   }
-
-   @CanIgnoreReturnValue
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static long exhaust(InputStream var0) {
-      long var1 = 0L;
-      byte[] var5 = createBuffer();
-
-      long var3;
-      while ((var3 = var0.read(var5)) != -1L) {
-         var1 += var3;
-      }
-
-      return var1;
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH IIOIROIHIHHCCRICRCOOCHIICHRCOI(
-      byte[] var0
-   ) {
-      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new ByteArrayInputStream(var0));
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH OHHRIOHROOIHOROCIRHCHORIHRRRRI(
-      byte[] var0, int var1
-   ) {
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkPositionIndex(
-         var1, var0.length
-      );
-      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new ByteArrayInputStream(var0, var1, var0.length - var1));
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-      ByteArrayInputStream var0
-   ) {
-      return new OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-            var0
-         )
-      );
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static CRRRICCRROCOHHOHIICIHORCOORRRH CCCRHOCORCCOICHROIROHOOOHCOCIH() {
-      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new ByteArrayOutputStream());
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static CRRRICCRROCOHHOHIICIHORCOORRRH ORRRCRCCHIRHIHRHIROROCOHROCHCO(int var0) {
-      if (var0 < 0) {
-         throw new IllegalArgumentException(String.format("Invalid size: %s", var0));
-      } else {
-         return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new ByteArrayOutputStream(var0));
-      }
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static CRRRICCRROCOHHOHIICIHORCOORRRH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ByteArrayOutputStream var0) {
-      return new OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
-         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-            var0
-         )
-      );
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static OutputStream nullOutputStream() {
-      return HCOORIRICCHHOHCOOHHIORRIIICHHC;
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static InputStream limit(InputStream var0, long var1) {
-      return new OOROOCCIRCCRHOIOIORIHCHHOOCCOR.HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0, var1);
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static void readFully(InputStream var0, byte[] var1) {
-      readFully(var0, var1, 0, var1.length);
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static void readFully(InputStream var0, byte[] var1, int var2, int var3) {
-      int var4 = read(var0, var1, var2, var3);
-      if (var4 != var3) {
-         throw new EOFException("reached end of stream after reading " + var4 + " bytes; " + var3 + " bytes expected");
-      }
-   }
-
-   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   public static void skipFully(InputStream var0, long var1) {
-      long var3 = skipUpTo(var0, var1);
-      if (var3 < var1) {
-         throw new EOFException("reached end of stream after skipping " + var3 + " bytes; " + var1 + " bytes expected");
-      }
-   }
-
-   static long skipUpTo(InputStream var0, long var1) {
-      long var3 = 0L;
-      byte[] var5 = null;
-
-      while (var3 < var1) {
-         long var6 = var1 - var3;
-         long var8 = skipSafely(var0, var6);
-         if (var8 == 0L) {
-            int var10 = (int)Math.min(var6, 8192L);
-            if (var5 == null) {
-               var5 = new byte[var10];
+      if (!var0.renameTo(var1)) {
+         copy(var0, var1);
+         if (!var0.delete()) {
+            if (!var1.delete()) {
+               throw new IOException("Unable to delete " + var1);
             }
 
-            if ((var8 = var0.read(var5, 0, var10)) == -1L) {
+            throw new IOException("Unable to delete " + var0);
+         }
+      }
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static String readFirstLine(File var0, Charset var1) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1).readFirstLine();
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static List<String> readLines(File var0, Charset var1) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1).RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(new IHIRRIIORRHORHRORIHOROIRCORCOO<List<String>>() {
+         final List<String> ICCHCRHOOICHOHOHIHHOIIRORRRHHR = RCHOIICIHOCIRCIOORIOHRCRHOCRCR.newArrayList();
+
+         @Override
+         public boolean processLine(String var1) {
+            this.ICCHCRHOOICHOHOHIHHOIIRORRRHHR.add(var1);
+            return true;
+         }
+
+         public List<String> getResult() {
+            return this.ICCHCRHOOICHOHOHIHHOIIRORRRHHR;
+         }
+      });
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   @CanIgnoreReturnValue
+   public static <T> T RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(File var0, Charset var1, IHIRRIIORRHORHRORIHOROIRCORCOO<T> var2) {
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1).RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2);
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   @CanIgnoreReturnValue
+   public static <T> T RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(File var0, RRCRRCORICCHOHHIRCHIROOHIIOHCO<T> var1) {
+      return COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var0).RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1);
+   }
+
+   @Deprecated
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CIOHHCORHRCCRICCCORIHCRHCCCRRR RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      File var0,
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IHHCHHHCRIHOOCOIOOCRIIICIOROIR var1
+   ) {
+      return COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var0).RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static MappedByteBuffer map(File var0) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      return map(var0, MapMode.READ_ONLY);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static MappedByteBuffer map(File var0, MapMode var1) {
+      return mapInternal(var0, var1, -1L);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static MappedByteBuffer map(File var0, MapMode var1, long var2) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+         var2 >= 0L, "size (%s) may not be negative", var2
+      );
+      return mapInternal(var0, var1, var2);
+   }
+
+   private static MappedByteBuffer mapInternal(File var0, MapMode var1, long var2) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      CIOHHCORHRCCRICCCORIHCRHCCCRRR var4 = CIOHHCORHRCCRICCCORIHCRHCCCRRR.IIOCRRHRHOHIOIHRHHRRCIRCOIIIII();
+
+      try {
+         RandomAccessFile var5 = var4.register(new RandomAccessFile(var0, var1 == MapMode.READ_ONLY ? "r" : "rw"));
+         FileChannel var6 = var4.register(var5.getChannel());
+         return var6.map(var1, 0L, var2 == -1L ? var6.size() : var2);
+      } catch (Throwable var11) {
+         throw var4.rethrow(var11);
+      } finally {
+         var4.close();
+      }
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static String simplifyPath(String var0) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var0
+      );
+      if (var0.length() == 0) {
+         return ".";
+      }
+
+      Iterable var1 = RCIROOOOICRHCCRRCIORHHIRCOIIIC.IRRCCOICORICIHCHRHIHIHROIRHOCR('/').CIHCCCIOCCICCHIHHROOHCIIIHROOI().split(var0);
+      ArrayList var2 = new ArrayList();
+
+      for (String var4 : var1) {
+         switch (var4) {
+            case ".":
                break;
-            }
-         }
+            case "..":
+               if (var2.size() > 0 && !((String)var2.get(var2.size() - 1)).equals("..")) {
+                  var2.remove(var2.size() - 1);
+                  break;
+               }
 
-         var3 += var8;
+               var2.add("..");
+               break;
+            default:
+               var2.add(var4);
+         }
       }
 
-      return var3;
-   }
+      String var7 = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IHIRRIIORRHORHRORIHOROIRCORCOO.IIRHCHHOICHRICOOCRORCCIOOIHOIR(
+            '/'
+         )
+         .CRRRICCRROCOHHOHIICIHORCOORRRH(var2);
+      if (var0.charAt(0) == '/') {
+         var7 = "/" + var7;
+      }
 
-   private static long skipSafely(InputStream var0, long var1) {
-      int var3 = var0.available();
-      return var3 == 0 ? 0L : var0.skip(Math.min(var3, var1));
+      while (var7.startsWith("/../")) {
+         var7 = var7.substring(3);
+      }
+
+      if (var7.equals("/..")) {
+         var7 = "/";
+      } else if ("".equals(var7)) {
+         var7 = ".";
+      }
+
+      return var7;
    }
 
    @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   @CanIgnoreReturnValue
-   public static <T> T RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(InputStream var0, RRCRRCORICCHOHHIRCHIROOHIIOHCO<T> var1) {
+   public static String getFileExtension(String var0) {
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
          var0
       );
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-         var1
-      );
-      byte[] var2 = createBuffer();
-
-      int var3;
-      do {
-         var3 = var0.read(var2);
-      } while (var3 != -1 && var1.processBytes(var2, 0, var3));
-
-      return (T)var1.getResult();
+      String var1 = new File(var0).getName();
+      int var2 = var1.lastIndexOf(46);
+      return var2 == -1 ? "" : var1.substring(var2 + 1);
    }
 
    @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-   @CanIgnoreReturnValue
-   public static int read(InputStream var0, byte[] var1, int var2, int var3) {
+   public static String getNameWithoutExtension(String var0) {
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
          var0
       );
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-         var1
-      );
-      if (var3 < 0) {
-         throw new IndexOutOfBoundsException(String.format("len (%s) cannot be negative", var3));
-      }
-
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkPositionIndexes(
-         var2, var2 + var3, var1.length
-      );
-      int var4 = 0;
-
-      while (var4 < var3) {
-         int var5 = var0.read(var1, var2 + var4, var3 - var4);
-         if (var5 == -1) {
-            break;
-         }
-
-         var4 += var5;
-      }
-
-      return var4;
+      String var1 = new File(var0).getName();
+      int var2 = var1.lastIndexOf(46);
+      return var2 == -1 ? var1 : var1.substring(0, var2);
    }
 
-   private static final class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends FilterInputStream {
-      private long left;
-      private long mark = -1L;
+   @Deprecated
+   static HIIRCRROICHCOROOCCCCOIOOOCCIIC<File> ICHHICORCHIRHHOCCHHCOIHHHHORCI() {
+      return IROROROCCRICRCORIHICIOOROHCCHI;
+   }
 
-      HHCCIRHCCCIIRHCROHIORHIRHHIORH(InputStream var1, long var2) {
-         super(var1);
-         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static IIHRHCCOOHOOOOCHRRCOROOIOHCOOO<File> IOICROCHCRRIRHRORORHRHOHHOIICI() {
+      return IIHRHCCOOHOOOOCHRRCOROOIOHCOOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(HICIRORCCCIIIHHCCCROOIHCIOOHHR);
+   }
+
+   private static Iterable<File> fileTreeChildren(File var0) {
+      if (var0.isDirectory()) {
+         File[] var1 = var0.listFiles();
+         if (var1 != null) {
+            return Collections.unmodifiableList(Arrays.asList(var1));
+         }
+      }
+
+      return Collections.emptyList();
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<File> IHOHCIRCRIHHCICOOHRHOCRORCRORC() {
+      return IRRCCOICORICIHCHRHIHIHROIRHOCR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IS_DIRECTORY;
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   public static com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<File> IIROOIOROROCCIIIIRICRHOCRIOOCI() {
+      return IRRCCOICORICIHCHRHIHIHROIRHOCR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IS_FILE;
+   }
+
+   private enum HHCCIRHCCCIIRHCROHIORHIRHHIORH
+      implements com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH<File> {
+      IS_DIRECTORY {
+         public boolean apply(File var1) {
+            return var1.isDirectory();
+         }
+
+         @Override
+         public String toString() {
+            return "Files.isDirectory()";
+         }
+      },
+      IS_FILE {
+         public boolean apply(File var1) {
+            return var1.isFile();
+         }
+
+         @Override
+         public String toString() {
+            return "Files.isFile()";
+         }
+      };
+
+      HHCCIRHCCCIIRHCROHIORHIRHHIORH() {
+      }
+   }
+
+   private static final class IRCIIHHICIHRCOCRROCOICRIHHCCHH extends HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
+      private final File HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC;
+
+      private IRCIIHHICIHRCOCRROCOICRIHHCCHH(File var1) {
+         this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
             var1
          );
-         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
-            var2 >= 0L, "limit must be non-negative"
+      }
+
+      public FileInputStream openStream() {
+         return new FileInputStream(this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC);
+      }
+
+      @Override
+      public com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ORHIOICIOCRRHOOCOHRORIHICHRCRR<Long> IRIRHRHOHCCRCORHOOCICHHIOCHCCI() {
+         return this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC.isFile()
+            ? com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ORHIOICIOCRRHOOCOHRORIHICHRCRR.COIRRRCIORROCHIROCHROCHICCICIC(
+               this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC.length()
+            )
+            : com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IHIRCRORCOOROROHHRRIIOOOOCCHRH();
+      }
+
+      @Override
+      public long size() {
+         if (!this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC.isFile()) {
+            throw new FileNotFoundException(this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC.toString());
+         } else {
+            return this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC.length();
+         }
+      }
+
+      @Override
+      public byte[] read() {
+         CIOHHCORHRCCRICCCORIHCRHCCCRRR var1 = CIOHHCORHRCCRICCCORIHCRHCCCRRR.IIOCRRHRHOHIOIHRHHRRCIRCOIIIII();
+
+         try {
+            FileInputStream var2 = var1.register(this.openStream());
+            return OOROOCCIRCCRHOIOIORIHCHHOOCCOR.toByteArray(var2, var2.getChannel().size());
+         } catch (Throwable var7) {
+            throw var1.rethrow(var7);
+         } finally {
+            var1.close();
+         }
+      }
+
+      @Override
+      public String toString() {
+         return "Files.asByteSource(" + this.HRIIHCRIOIIOCCCIIHCHRCIIRHRHIC + ")";
+      }
+   }
+
+   private static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+      private final File RCIIRHIIIRCOCOOCHCHCICICHROOHI;
+      private final CICOIHIRIIHHCIOICHRHICRIRCIOHC<RHOCHHIRRCHHHOHOIRROIROHHHIHIO> RRCCRROOCCICHIRCOIIHOIHCOCRHIC;
+
+      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(File var1, RHOCHHIRRCHHHOHOIRROIROHHHIHIO... var2) {
+         this.RCIIRHIIIRCOCOOCHCHCICICHROOHI = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            var1
          );
-         this.left = var2;
+         this.RRCCRROOCCICHIRCOIIHOIHCOCRHIC = CICOIHIRIIHHCIOICHRHICRIRCIOHC.ORHIOICIOCRRHOOCOHRORIHICHRCRR(var2);
+      }
+
+      public FileOutputStream openStream() {
+         return new FileOutputStream(this.RCIIRHIIIRCOCOOCHCHCICICHROOHI, this.RRCCRROOCCICHIRCOIIHOIHCOCRHIC.contains(RHOCHHIRRCHHHOHOIRROIROHHHIHIO.APPEND));
       }
 
       @Override
-      public int available() {
-         return (int)Math.min(this.in.available(), this.left);
-      }
-
-      @Override
-      public synchronized void mark(int var1) {
-         this.in.mark(var1);
-         this.mark = this.left;
-      }
-
-      @Override
-      public int read() {
-         if (this.left == 0L) {
-            return -1;
-         }
-
-         int var1 = this.in.read();
-         if (var1 != -1) {
-            this.left--;
-         }
-
-         return var1;
-      }
-
-      @Override
-      public int read(byte[] var1, int var2, int var3) {
-         if (this.left == 0L) {
-            return -1;
-         }
-
-         var3 = (int)Math.min(var3, this.left);
-         int var4 = this.in.read(var1, var2, var3);
-         if (var4 != -1) {
-            this.left -= var4;
-         }
-
-         return var4;
-      }
-
-      @Override
-      public synchronized void reset() {
-         if (!this.in.markSupported()) {
-            throw new IOException("Mark not supported");
-         }
-
-         if (this.mark == -1L) {
-            throw new IOException("Mark not set");
-         }
-
-         this.in.reset();
-         this.left = this.mark;
-      }
-
-      @Override
-      public long skip(long var1) {
-         var1 = Math.min(var1, this.left);
-         long var3 = this.in.skip(var1);
-         this.left -= var3;
-         return var3;
-      }
-   }
-
-   private static class IRCIIHHICIHRCOCRROCOICRIHHCCHH implements CRRRICCRROCOHHOHIICIHORCOORRRH {
-      final DataOutput RICOICRHROOOHCHIOHCIIHICIIRORC;
-      final ByteArrayOutputStream HOOOHOCHOCIOCHOHIHOCHCIROOHOOC;
-
-      IRCIIHHICIHRCOCRROCOICRIHHCCHH(ByteArrayOutputStream var1) {
-         this.HOOOHOCHOCIOCHOHIHOCHCIROOHOOC = var1;
-         this.RICOICRHROOOHCHIOHCIIHICIIRORC = new DataOutputStream(var1);
-      }
-
-      @Override
-      public void write(int var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.write(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void write(byte[] var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.write(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void write(byte[] var1, int var2, int var3) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.write(var1, var2, var3);
-         } catch (IOException var5) {
-            throw new AssertionError(var5);
-         }
-      }
-
-      @Override
-      public void writeBoolean(boolean var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeBoolean(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeByte(int var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeByte(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeBytes(String var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeBytes(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeChar(int var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeChar(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeChars(String var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeChars(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeDouble(double var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeDouble(var1);
-         } catch (IOException var4) {
-            throw new AssertionError(var4);
-         }
-      }
-
-      @Override
-      public void writeFloat(float var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeFloat(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeInt(int var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeInt(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeLong(long var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeLong(var1);
-         } catch (IOException var4) {
-            throw new AssertionError(var4);
-         }
-      }
-
-      @Override
-      public void writeShort(int var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeShort(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public void writeUTF(String var1) {
-         try {
-            this.RICOICRHROOOHCHIOHCIIHICIIRORC.writeUTF(var1);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public byte[] toByteArray() {
-         return this.HOOOHOCHOCIOCHOHIHOCHCIROOHOOC.toByteArray();
-      }
-   }
-
-   private static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
-      implements com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH {
-      final DataInput RCRROCCCIHICIOROHRRIHRCIRCCORH;
-
-      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ByteArrayInputStream var1) {
-         this.RCRROCCCIHICIOROHRRIHRCIRCCORH = new DataInputStream(var1);
-      }
-
-      @Override
-      public void readFully(byte[] var1) {
-         try {
-            this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readFully(var1);
-         } catch (IOException var3) {
-            throw new IllegalStateException(var3);
-         }
-      }
-
-      @Override
-      public void readFully(byte[] var1, int var2, int var3) {
-         try {
-            this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readFully(var1, var2, var3);
-         } catch (IOException var5) {
-            throw new IllegalStateException(var5);
-         }
-      }
-
-      @Override
-      public int skipBytes(int var1) {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.skipBytes(var1);
-         } catch (IOException var3) {
-            throw new IllegalStateException(var3);
-         }
-      }
-
-      @Override
-      public boolean readBoolean() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readBoolean();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public byte readByte() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readByte();
-         } catch (EOFException var2) {
-            throw new IllegalStateException(var2);
-         } catch (IOException var3) {
-            throw new AssertionError(var3);
-         }
-      }
-
-      @Override
-      public int readUnsignedByte() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readUnsignedByte();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public short readShort() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readShort();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public int readUnsignedShort() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readUnsignedShort();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public char readChar() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readChar();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public int readInt() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readInt();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public long readLong() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readLong();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public float readFloat() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readFloat();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public double readDouble() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readDouble();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public String readLine() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readLine();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
-      }
-
-      @Override
-      public String readUTF() {
-         try {
-            return this.RCRROCCCIHICIOROHRRIHRCIRCCORH.readUTF();
-         } catch (IOException var2) {
-            throw new IllegalStateException(var2);
-         }
+      public String toString() {
+         return "Files.asByteSink(" + this.RCIIRHIIIRCOCOOCHCHCICICHROOHI + ", " + this.RRCCRROOCCICHIRCOIIHOIHCOCRHIC + ")";
       }
    }
 }

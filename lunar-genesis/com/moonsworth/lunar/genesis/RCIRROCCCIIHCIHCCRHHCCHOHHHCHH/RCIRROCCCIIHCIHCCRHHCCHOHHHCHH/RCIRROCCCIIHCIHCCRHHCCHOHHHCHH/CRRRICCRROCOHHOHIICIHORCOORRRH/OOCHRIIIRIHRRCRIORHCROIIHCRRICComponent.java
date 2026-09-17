@@ -1,65 +1,124 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
 
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
-import java.util.NoSuchElementException;
-import java.util.Queue;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+import org.checkerframework.checker.nullness.qual.Nullable;
 
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
-public abstract class ROHHHCHRIHHOOHCHIIIHOOCIIRROIO<E> extends OOCHRIIIRIHRRCRIORHCROIIHCRRIC<E> implements Queue<E> {
-   protected ROHHHCHRIHHOOHCHIIIHOOCIIRROIO() {
+public abstract class COOCCHICCCIIICRHIOCOCIOOORCOCC<E> extends OOCHRIIIRIHRRCRIORHCROIIHCRRIC<E> implements List<E> {
+   protected COOCCHICCCIIICRHIOCOCIOOORCOCC() {
    }
 
-   protected abstract Queue<E> delegate();
+   protected abstract List<E> delegate();
 
-   @CanIgnoreReturnValue
    @Override
-   public boolean offer(E var1) {
-      return this.delegate().offer((E)var1);
-   }
-
-   @CanIgnoreReturnValue
-   @Override
-   public E poll() {
-      return this.delegate().poll();
+   public void add(int var1, E var2) {
+      this.delegate().add(var1, (E)var2);
    }
 
    @CanIgnoreReturnValue
    @Override
-   public E remove() {
-      return this.delegate().remove();
+   public boolean addAll(int var1, Collection<? extends E> var2) {
+      return this.delegate().addAll(var1, var2);
    }
 
    @Override
-   public E peek() {
-      return this.delegate().peek();
+   public E get(int var1) {
+      return this.delegate().get(var1);
    }
 
    @Override
-   public E element() {
-      return this.delegate().element();
+   public int indexOf(Object var1) {
+      return this.delegate().indexOf(var1);
    }
 
-   protected boolean standardOffer(E var1) {
-      try {
-         return this.add((E)var1);
-      } catch (IllegalStateException var3) {
-         return false;
-      }
+   @Override
+   public int lastIndexOf(Object var1) {
+      return this.delegate().lastIndexOf(var1);
    }
 
-   protected E standardPeek() {
-      try {
-         return this.element();
-      } catch (NoSuchElementException var2) {
-         return null;
-      }
+   @Override
+   public ListIterator<E> listIterator() {
+      return this.delegate().listIterator();
    }
 
-   protected E standardPoll() {
-      try {
-         return this.remove();
-      } catch (NoSuchElementException var2) {
-         return null;
-      }
+   @Override
+   public ListIterator<E> listIterator(int var1) {
+      return this.delegate().listIterator(var1);
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public E remove(int var1) {
+      return this.delegate().remove(var1);
+   }
+
+   @CanIgnoreReturnValue
+   @Override
+   public E set(int var1, E var2) {
+      return this.delegate().set(var1, (E)var2);
+   }
+
+   @Override
+   public List<E> subList(int var1, int var2) {
+      return this.delegate().subList(var1, var2);
+   }
+
+   @Override
+   public boolean equals(@Nullable Object var1) {
+      return var1 == this || this.delegate().equals(var1);
+   }
+
+   @Override
+   public int hashCode() {
+      return this.delegate().hashCode();
+   }
+
+   protected boolean standardAdd(E var1) {
+      this.add(this.size(), (E)var1);
+      return true;
+   }
+
+   protected boolean standardAddAll(int var1, Iterable<? extends E> var2) {
+      return RCHOIICIHOCIRCIOORIOHRCRHOCRCR.addAllImpl(this, var1, var2);
+   }
+
+   protected int standardIndexOf(@Nullable Object var1) {
+      return RCHOIICIHOCIRCIOORIOHRCRHOCRCR.indexOfImpl(this, var1);
+   }
+
+   protected int standardLastIndexOf(@Nullable Object var1) {
+      return RCHOIICIHOCIRCIOORIOHRCRHOCRCR.lastIndexOfImpl(this, var1);
+   }
+
+   protected Iterator<E> standardIterator() {
+      return this.listIterator();
+   }
+
+   protected ListIterator<E> standardListIterator() {
+      return this.listIterator(0);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   protected ListIterator<E> standardListIterator(int var1) {
+      return RCHOIICIHOCIRCIOORIOHRCRHOCRCR.listIteratorImpl(this, var1);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   protected List<E> standardSubList(int var1, int var2) {
+      return RCHOIICIHOCIRCIOORIOHRCRHOCRCR.subListImpl(this, var1, var2);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   protected boolean standardEquals(@Nullable Object var1) {
+      return RCHOIICIHOCIRCIOORIOHRCRHOCRCR.equalsImpl(this, var1);
+   }
+
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+   protected int standardHashCode() {
+      return RCHOIICIHOCIRCIOORIOHRCRHOCRCR.hashCodeImpl(this);
    }
 }

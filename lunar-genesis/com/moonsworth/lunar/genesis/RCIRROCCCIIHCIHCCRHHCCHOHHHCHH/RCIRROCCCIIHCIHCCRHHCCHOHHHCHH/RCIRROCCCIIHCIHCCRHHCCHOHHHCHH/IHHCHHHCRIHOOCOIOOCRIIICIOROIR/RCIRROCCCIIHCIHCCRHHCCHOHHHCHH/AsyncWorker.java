@@ -1,38 +1,102 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
 
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledFuture;
+import com.google.errorprone.annotations.DoNotMock;
+import java.time.Duration;
+import java.util.concurrent.Executor;
 import java.util.concurrent.TimeUnit;
 
-@CanIgnoreReturnValue
+@DoNotMock("Create an AbstractIdleService")
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
-abstract class RRRHHIRORHCHHCOOCIHOICORHHCHHO extends IIIIRHIHROIRCROHHROIHIIHRCRRHO implements ScheduledExecutorService {
-   final ScheduledExecutorService HRHHHHCRCOIOHCCIRIHIIROHOHCORO;
+public interface HHIRHRHHRHIHRHOHCHRHIORRHIIHOR {
+   @CanIgnoreReturnValue
+   HHIRHRHHRHIHRHOHCHRHIORRHIIHOR IHICOCICHIRICHIHOHCHCOCOCCCROI();
 
-   protected RRRHHIRORHCHHCOOCIHOICORHHCHHO(ScheduledExecutorService var1) {
-      super(var1);
-      this.HRHHHHCRCOIOHCCIRIHIIROHOHCORO = var1;
+   boolean isRunning();
+
+   HHIRHRHHRHIHRHOHCHRHIORRHIIHOR.IRCIIHHICIHRCOCRROCOICRIHHCCHH RIHCCCHRCCROICHCHIIHORRRIHIROH();
+
+   @CanIgnoreReturnValue
+   HHIRHRHHRHIHRHOHCHRHIORRHIIHOR RHCOHHORRIOCRHOCRCRHRHRCRCCROO();
+
+   void awaitRunning();
+
+   default void awaitRunning(Duration var1) {
+      this.awaitRunning(IOHHOIIOCRHCHHCRORICCOHOHROOIH.toNanosSaturated(var1), TimeUnit.NANOSECONDS);
    }
 
-   @Override
-   public final ScheduledFuture<?> schedule(Runnable var1, long var2, TimeUnit var4) {
-      return this.HRHHHHCRCOIOHCCIRIHIIROHOHCORO.schedule(this.wrapTask(var1), var2, var4);
+   void awaitRunning(long var1, TimeUnit var3);
+
+   void awaitTerminated();
+
+   default void awaitTerminated(Duration var1) {
+      this.awaitTerminated(IOHHOIIOCRHCHHCRORICCOHOHROOIH.toNanosSaturated(var1), TimeUnit.NANOSECONDS);
    }
 
-   @Override
-   public final <V> ScheduledFuture<V> schedule(Callable<V> var1, long var2, TimeUnit var4) {
-      return this.HRHHHHCRCOIOHCCIRIHIIROHOHCORO.schedule(this.wrapTask(var1), var2, var4);
+   void awaitTerminated(long var1, TimeUnit var3);
+
+   Throwable failureCause();
+
+   void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HHIRHRHHRHIHRHOHCHRHIORRHIIHOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1, Executor var2);
+
+   enum IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+      NEW {
+         @Override
+         boolean isTerminal() {
+            return false;
+         }
+      },
+      STARTING {
+         @Override
+         boolean isTerminal() {
+            return false;
+         }
+      },
+      RUNNING {
+         @Override
+         boolean isTerminal() {
+            return false;
+         }
+      },
+      STOPPING {
+         @Override
+         boolean isTerminal() {
+            return false;
+         }
+      },
+      TERMINATED {
+         @Override
+         boolean isTerminal() {
+            return true;
+         }
+      },
+      FAILED {
+         @Override
+         boolean isTerminal() {
+            return true;
+         }
+      };
+
+      IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
+      }
+
+      abstract boolean isTerminal();
    }
 
-   @Override
-   public final ScheduledFuture<?> scheduleAtFixedRate(Runnable var1, long var2, long var4, TimeUnit var6) {
-      return this.HRHHHHCRCOIOHCCIRIHIIROHOHCORO.scheduleAtFixedRate(this.wrapTask(var1), var2, var4, var6);
-   }
+   abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      public void starting() {
+      }
 
-   @Override
-   public final ScheduledFuture<?> scheduleWithFixedDelay(Runnable var1, long var2, long var4, TimeUnit var6) {
-      return this.HRHHHHCRCOIOHCCIRIHIIROHOHCORO.scheduleWithFixedDelay(this.wrapTask(var1), var2, var4, var6);
+      public void running() {
+      }
+
+      public void HRCHROOHRIHCRCRHRIIROCIRHOIRHH(HHIRHRHHRHIHRHOHCHRHIORRHIIHOR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1) {
+      }
+
+      public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HHIRHRHHRHIHRHOHCHRHIORRHIIHOR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1) {
+      }
+
+      public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HHIRHRHHRHIHRHOHCHRHIORRHIIHOR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, Throwable var2) {
+      }
    }
 }

@@ -1,23 +1,15 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
 
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
+import com.google.errorprone.annotations.DoNotMock;
 import java.util.Map;
-import java.util.Set;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
+@DoNotMock("Use ImmutableClassToInstanceMap or MutableClassToInstanceMap")
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
-public interface IHIRRIIORRHORHRORIHOROIRCORCOO<K, V> extends Map<K, V> {
-   @CanIgnoreReturnValue
-   @Override
-   @Nullable V put(@Nullable K var1, @Nullable V var2);
+public interface RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO<B> extends Map<Class<? extends B>, B> {
+   <T extends B> T getInstance(Class<T> var1);
 
    @CanIgnoreReturnValue
-   @Nullable V forcePut(@Nullable K var1, @Nullable V var2);
-
-   @Override
-   void putAll(Map<? extends K, ? extends V> var1);
-
-   Set<V> values();
-
-   IHIRRIIORRHORHRORIHOROIRCORCOO<V, K> HOCCROIICHRHHCOCIICIROCCIHRCOR();
+   <T extends B> T putInstance(Class<T> var1, @Nullable T var2);
 }

@@ -1,36 +1,104 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
 
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
-import java.util.concurrent.ConcurrentMap;
+import com.google.errorprone.annotations.Immutable;
+import java.io.Serializable;
+import java.util.Map;
+import java.util.Map.Entry;
+import org.checkerframework.checker.nullness.qual.Nullable;
 
-@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
-public abstract class OCIROOIHIHRHOCCHIIIROOCRIIOCRR<K, V> extends HRHIHIRHRCHHRORRRCORHOCIRHRIOR<K, V> implements ConcurrentMap<K, V> {
-   protected OCIROOIHIHRHOCCHIIIROOCRIIOCRR() {
+@Immutable(containerOf = "B")
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+public final class IORRORCRRHRRORHIRHRROHCRRIHRII<B>
+   extends HRHIHIRHRCHHRORRRCORHOCIRHRIOR<Class<? extends B>, B>
+   implements RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO<B>,
+   Serializable {
+   private static final IORRORCRRHRRORHIRHRROHCRRIHRII<Object> OOHCRICHRCCOCRRORHRCOHHORROOII = new IORRORCRRHRRORHIRHRROHCRRIHRII<>(
+      OOHRIIOOHROIOHCIRIHRHRRICRRHOI.RIOCOIOOIIRHOROHOCHHOORRCCOIHR()
+   );
+   private final OOHRIIOOHROIOHCIRIHRHRRICRRHOI<Class<? extends B>, B> ICCHIORICIHRRRIRICCIHHIIROOOCH;
+
+   public static <B> IORRORCRRHRRORHIRHRROHCRRIHRII<B> HRHIRHICCCIOCRICOROCRIROCCOICC() {
+      return (IORRORCRRHRRORHIRHRROHCRRIHRII<B>)OOHCRICHRCCOCRRORHRCOHHORROOII;
    }
 
-   protected abstract ConcurrentMap<K, V> delegate();
-
-   @CanIgnoreReturnValue
-   @Override
-   public V putIfAbsent(K var1, V var2) {
-      return this.delegate().putIfAbsent((K)var1, (V)var2);
+   public static <B, T extends B> IORRORCRRHRRORHIRHRROHCRRIHRII<B> HHCCIRHCCCIIRHCROHIORHIRHHIORH(Class<T> var0, T var1) {
+      OOHRIIOOHROIOHCIRIHRHRRICRRHOI var2 = OOHRIIOOHROIOHCIRIHRHRRICRRHOI.HHRIICOIOORCHCOIICOOIHIRHHICRI(var0, var1);
+      return new IORRORCRRHRRORHIRHRROHCRRIHRII<>(var2);
    }
 
-   @CanIgnoreReturnValue
-   @Override
-   public boolean remove(Object var1, Object var2) {
-      return this.delegate().remove(var1, var2);
+   public static <B> IORRORCRRHRRORHIRHRROHCRRIHRII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<B> IIICIIRCCOIIIOOICIOOCOCRHIRHCR() {
+      return new IORRORCRRHRRORHIRHRROHCRRIHRII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>();
    }
 
-   @CanIgnoreReturnValue
-   @Override
-   public V replace(K var1, V var2) {
-      return this.delegate().replace((K)var1, (V)var2);
+   public static <B, S extends B> IORRORCRRHRRORHIRHRROHCRRIHRII<B> IIHRHCCOOHOOOOCHRRCOROOIOHCOOO(Map<? extends Class<? extends S>, ? extends S> var0) {
+      return var0 instanceof IORRORCRRHRRORHIRHRROHCRRIHRII
+         ? (IORRORCRRHRRORHIRHRROHCRRIHRII)var0
+         : new IORRORCRRHRRORHIRHRROHCRRIHRII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<B>().RHCHRCOCCOIIIHCHRHIRCORHRHRICR(var0).HCHHHCIIHOIIRCIRROCHIHHIIIRCII();
    }
 
+   private IORRORCRRHRRORHIRHRROHCRRIHRII(OOHRIIOOHROIOHCIRIHRHRRICRRHOI<Class<? extends B>, B> var1) {
+      this.ICCHIORICIHRRRIRICCIHHIIROOOCH = var1;
+   }
+
+   @Override
+   protected Map<Class<? extends B>, B> delegate() {
+      return this.ICCHIORICIHRRRIRICCIHHIIROOOCH;
+   }
+
+   @Override
+   public <T extends B> @Nullable T getInstance(Class<T> var1) {
+      return (T)this.ICCHIORICIHRRRIRICCIHHIIROOOCH
+         .get(
+            com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+               var1
+            )
+         );
+   }
+
+   @Deprecated
    @CanIgnoreReturnValue
    @Override
-   public boolean replace(K var1, V var2, V var3) {
-      return this.delegate().replace((K)var1, (V)var2, (V)var3);
+   public <T extends B> T putInstance(Class<T> var1, T var2) {
+      throw new UnsupportedOperationException();
+   }
+
+   Object readResolve() {
+      return this.isEmpty() ? HRHIRHICCCIOCRICOROCRIROCCOICC() : this;
+   }
+
+   public static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<B> {
+      private final OOHRIIOOHROIOHCIRIHRHRRICRRHOI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<Class<? extends B>, B> OHCOIIHRCICCHCCHCCIOIOICRIOOCH = OOHRIIOOHROIOHCIRIHRHRRICRRHOI.OIRCICCCRCRHORRRCHHORCHRCRRIOH();
+
+      @CanIgnoreReturnValue
+      public <T extends B> IORRORCRRHRRORHIRHRROHCRRIHRII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<B> CRRRICCRROCOHHOHIICIHORCOORRRH(Class<T> var1, T var2) {
+         this.OHCOIIHRCICCHCCHCCIOIOICRIOOCH.RICRIRRCOHRCOCRRHHCRHRROOIOHHR(var1, (B)var2);
+         return this;
+      }
+
+      @CanIgnoreReturnValue
+      public <T extends B> IORRORCRRHRRORHIRHRROHCRRIHRII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<B> RHCHRCOCCOIIIHCHRHIRCORHRHRICR(
+         Map<? extends Class<? extends T>, ? extends T> var1
+      ) {
+         for (Entry var3 : var1.entrySet()) {
+            Class var4 = (Class)var3.getKey();
+            Object var5 = var3.getValue();
+            this.OHCOIIHRCICCHCCHCCIOIOICRIOOCH.RICRIRRCOHRCOCRRHHCRHRROOIOHHR(var4, cast(var4, var5));
+         }
+
+         return this;
+      }
+
+      private static <B, T extends B> T cast(Class<T> var0, B var1) {
+         return com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OCOHORHCROHICRRIHCIHHRRCIHICRI.IIRHCHHOICHRICOOCRORCCIOOIHOIR.<T>wrap(
+               var0
+            )
+            .cast(var1);
+      }
+
+      public IORRORCRRHRRORHIRHRROHCRRIHRII<B> HCHHHCIIHOIIRCIRROCHIHHIIIRCII() {
+         OOHRIIOOHROIOHCIRIHRHRRICRRHOI var1 = this.OHCOIIHRCICCHCCHCCIOIOICRIOOCH.CHRROORCHRCIIRRORRRIORRRRICIRI();
+         return var1.isEmpty() ? IORRORCRRHRRORHIRHRROHCRRIHRII.HRHIRHICCCIOCRICOROCRIROCCOICC() : new IORRORCRRHRRORHIRHRROHCRRIHRII<>(var1);
+      }
    }
 }

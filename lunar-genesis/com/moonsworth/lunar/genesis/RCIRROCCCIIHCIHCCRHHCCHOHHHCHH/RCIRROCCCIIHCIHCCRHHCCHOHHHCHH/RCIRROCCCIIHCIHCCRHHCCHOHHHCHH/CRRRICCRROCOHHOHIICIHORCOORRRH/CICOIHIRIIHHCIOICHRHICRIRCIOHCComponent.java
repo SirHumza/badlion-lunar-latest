@@ -1,75 +1,56 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
 
-import com.google.errorprone.annotations.concurrent.LazyInit;
+import java.util.stream.Collector;
 
-@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
-   serializable = true,
-   emulated = true
-)
-final class OCCCCRRCROIRIHRROHCHCHORCOCICC<E> extends CICOIHIRIIHHCIOICHRHICRIRCIOHC<E> {
-   final transient E COOHOHIIIOOCCRCOOCOROORROHORIO;
-   @LazyInit
-   private transient int cachedHashCode;
-
-   OCCCCRRCROIRIHRROHCHCHORCOCICC(E var1) {
-      this.COOHOHIIIOOCCRCOOCOROORROHORIO = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-         (E)var1
-      );
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+abstract class HHOIOCRIRIOCOIHHOOHICIOIIOHCOR<E> extends CICOIHIRIIHHCIOICHRHICRIRCIOHC<E> {
+   @Deprecated
+   public static <E> Collector<E, ?, CICOIHIRIIHHCIOICHRHICRIRCIOHC<E>> toImmutableSet() {
+      throw new UnsupportedOperationException();
    }
 
-   OCCCCRRCROIRIHRROHCHCHORCOCICC(E var1, int var2) {
-      this.COOHOHIIIOOCCRCOOCOROORROHORIO = (E)var1;
-      this.cachedHashCode = var2;
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> HOIHOICCIRICHIRRRCHIOOOCCOIIRC() {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   public int size() {
-      return 1;
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E> RIOOCICIHHOCROCIOIHICRIRCHOORH(int var0) {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   public boolean contains(Object var1) {
-      return this.COOHOHIIIOOCCRCOOCOROORROHORIO.equals(var1);
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> IIIRHHOCRRRCOHCHCRIHRCOOIRRHCH(E var0) {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   public IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<E> IOHOCICRRIRHHCCCRICOCOHOIIOCRH() {
-      return HRCROCOHHHICRHIHHOOCIIRRRCCIRR.IOROHHOIORHORCOHRHCCHCRHOCHCCI(this.COOHOHIIIOOCCRCOOCOROORROHORIO);
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RCIROOOOICRHCCRRCIORHHIRCOIIIC(E var0, E var1) {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   COIRRRCIORROCHIROCHROCHICCICIC<E> RHRRCOIHRICOCRRIHRRRCHRHOCICCC() {
-      return COIRRRCIORROCHIROCHROCHICCICIC.HOIIRIHOHCRIHOOHRCRCRCRRHIHRCO(this.COOHOHIIIOOCCRCOOCOROORROHORIO);
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(E var0, E var1, E var2) {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   boolean isPartialView() {
-      return false;
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> HICHRCOHCCRHOHCICOOCHOIHCCHIRI(E var0, E var1, E var2, E var3) {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   int copyIntoArray(Object[] var1, int var2) {
-      var1[var2] = this.COOHOHIIIOOCCRCOOCOROORROHORIO;
-      return var2 + 1;
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RRCRRCORICCHOHHIRCHIROOHIIOHCO(E var0, E var1, E var2, E var3, E var4) {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   public final int hashCode() {
-      int var1 = this.cachedHashCode;
-      if (var1 == 0) {
-         this.cachedHashCode = var1 = this.COOHOHIIIOOCCRCOOCOROORROHORIO.hashCode();
-      }
-
-      return var1;
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> CRRRICCRROCOHHOHIICIHORCOORRRH(E var0, E var1, E var2, E var3, E var4, E var5, E... var6) {
+      throw new UnsupportedOperationException();
    }
 
-   @Override
-   boolean isHashCodeFast() {
-      return this.cachedHashCode != 0;
-   }
-
-   @Override
-   public String toString() {
-      return '[' + this.COOHOHIIIOOCCRCOOCOROORROHORIO.toString() + ']';
+   @Deprecated
+   public static <E> HCCCCIHIOIHCHCCHOOHHCIHRCRRRHH<E> RIRHOCHIORCCIIOIIRHOCCCRHHCHHH(E[] var0) {
+      throw new UnsupportedOperationException();
    }
 }

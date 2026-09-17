@@ -1,107 +1,94 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
 
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
-import java.util.Deque;
-import java.util.Iterator;
+import java.io.Serializable;
+import java.util.ArrayDeque;
+import java.util.Collection;
+import java.util.Queue;
 
-@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
-public abstract class HRCOCHHHCCIORCORCHIOOOCCCCHICH<E> extends ROHHHCHRIHHOOHCHIIIHOOCIIRROIO<E> implements Deque<E> {
-   protected HRCOCHHHCCIORCORCHIOOOCCCCHICH() {
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
+public final class IHIIIRHOOCHRCCCCIORIROCOIRRHCC<E> extends ROHHHCHRIHHOOHCHIIIHOOCIIRROIO<E> implements Serializable {
+   private final Queue<E> OHIRIIHHHIIRRICOROOCIOCIIHOOOH;
+   @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH
+   final int HHORICRCHCRHOCRHICIROHORCHROOR;
+   private static final long CCCHRROROCIICCIOHOOOHHROOHROHH = 0L;
+
+   private IHIIIRHOOCHRCCCCIORIROCOIRRHCC(int var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+         var1 >= 0, "maxSize (%s) must >= 0", var1
+      );
+      this.OHIRIIHHHIIRRICOROOCIOCIIHOOOH = new ArrayDeque<>(var1);
+      this.HHORICRCHCRHOCRHICIROHORCHROOR = var1;
    }
 
-   protected abstract Deque<E> delegate();
+   public static <E> IHIIIRHOOCHRCCCCIORIROCOIRRHCC<E> CCHCIRORCRCCICIHRCIIIHIIRCRHRC(int var0) {
+      return new IHIIIRHOOCHRCCCCIORIROCOIRRHCC<>(var0);
+   }
 
-   @Override
-   public void addFirst(E var1) {
-      this.delegate().addFirst((E)var1);
+   public int remainingCapacity() {
+      return this.HHORICRCHCRHOCRHICIROHORCHROOR - this.size();
    }
 
    @Override
-   public void addLast(E var1) {
-      this.delegate().addLast((E)var1);
-   }
-
-   @Override
-   public Iterator<E> descendingIterator() {
-      return this.delegate().descendingIterator();
-   }
-
-   @Override
-   public E getFirst() {
-      return this.delegate().getFirst();
-   }
-
-   @Override
-   public E getLast() {
-      return this.delegate().getLast();
-   }
-
-   @CanIgnoreReturnValue
-   @Override
-   public boolean offerFirst(E var1) {
-      return this.delegate().offerFirst((E)var1);
+   protected Queue<E> delegate() {
+      return this.OHIRIIHHHIIRRICOROOCIOCIIHOOOH;
    }
 
    @CanIgnoreReturnValue
    @Override
-   public boolean offerLast(E var1) {
-      return this.delegate().offerLast((E)var1);
-   }
-
-   @Override
-   public E peekFirst() {
-      return this.delegate().peekFirst();
-   }
-
-   @Override
-   public E peekLast() {
-      return this.delegate().peekLast();
+   public boolean offer(E var1) {
+      return this.add((E)var1);
    }
 
    @CanIgnoreReturnValue
    @Override
-   public E pollFirst() {
-      return this.delegate().pollFirst();
+   public boolean add(E var1) {
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var1
+      );
+      if (this.HHORICRCHCRHOCRHICIROHORCHROOR == 0) {
+         return true;
+      }
+
+      if (this.size() == this.HHORICRCHCRHOCRHICIROHORCHROOR) {
+         this.OHIRIIHHHIIRRICOROOCIOCIIHOOOH.remove();
+      }
+
+      this.OHIRIIHHHIIRRICOROOCIOCIIHOOOH.add((E)var1);
+      return true;
    }
 
    @CanIgnoreReturnValue
    @Override
-   public E pollLast() {
-      return this.delegate().pollLast();
+   public boolean addAll(Collection<? extends E> var1) {
+      int var2 = var1.size();
+      if (var2 >= this.HHORICRCHCRHOCRHICIROHORCHROOR) {
+         this.clear();
+         return IRIHOIRCHIRRCRIOORCOICORHHORHH.addAll(this, IRIHOIRCHIRRCRIOORCOICORHHORHH.skip(var1, var2 - this.HHORICRCHCRHOCRHICIROHORCHROOR));
+      } else {
+         return this.standardAddAll(var1);
+      }
+   }
+
+   @Override
+   public boolean contains(Object var1) {
+      return this.delegate()
+         .contains(
+            com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+               var1
+            )
+         );
    }
 
    @CanIgnoreReturnValue
    @Override
-   public E pop() {
-      return this.delegate().pop();
-   }
-
-   @Override
-   public void push(E var1) {
-      this.delegate().push((E)var1);
-   }
-
-   @CanIgnoreReturnValue
-   @Override
-   public E removeFirst() {
-      return this.delegate().removeFirst();
-   }
-
-   @CanIgnoreReturnValue
-   @Override
-   public E removeLast() {
-      return this.delegate().removeLast();
-   }
-
-   @CanIgnoreReturnValue
-   @Override
-   public boolean removeFirstOccurrence(Object var1) {
-      return this.delegate().removeFirstOccurrence(var1);
-   }
-
-   @CanIgnoreReturnValue
-   @Override
-   public boolean removeLastOccurrence(Object var1) {
-      return this.delegate().removeLastOccurrence(var1);
+   public boolean remove(Object var1) {
+      return this.delegate()
+         .remove(
+            com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+               var1
+            )
+         );
    }
 }

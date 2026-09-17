@@ -3,137 +3,159 @@ package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCR
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.EnumMap;
+import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
 
-public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
-   private static final long OIOHHHORICOORHROHIRCIOIIROOCIO = 1L;
-   private static final CORCOCICIRIOHROHROIIOOHICCHCRR COOCHOHCCROCRRIRRIOCHICIRIIIHR = new CORCOCICIRIOHROHROIIOOHICCHCRR(1, 0, new Object[4]);
-   private final int HCRCOOOHRIOHRRCHHIIORHCCORRIHO;
-   private final int OOOHCCOOHIIRHOCHHCOHHCOIOROIOI;
-   private final Object[] IRICIHCOCHOOHICRIROHIORCCIOIIH;
+public final class IIHRRHORCRCROCHHOHORCHCROCIHRO implements Serializable {
+   private static final long ROOCCHIROCOCOHHOORRCOOIRRCOHHC = 1L;
+   private final Class<Enum<?>> IRCIHRICRHRHIRRRIIICOOHCOROOHH;
+   private final Enum<?>[] OIHIRIRRROOIHCOORIRHHIORCHIHHC;
+   private final com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI[] IHCCCCRHCHOHHCRCORIRIHCRICRIIR;
+   private transient EnumMap<?, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI> ORIIRROCIRROHCHOOHCCRRRHOCHRCO;
 
-   private CORCOCICIRIOHROHROIIOOHICCHCRR(int var1, int var2, Object[] var3) {
-      this.HCRCOOOHRIOHRRCHHIIORHCCORRIHO = var1;
-      this.OOOHCCOOHIIRHOCHHCOHHCOIOROIOI = var2;
-      this.IRICIHCOCHOOHICRIROHIORCCIOIIH = var3;
+   private IIHRRHORCRCROCHHOHORCHCROCIHRO(
+      Class<Enum<?>> var1, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI[] var2
+   ) {
+      this.IRCIHRICRHRHIRRRIIICOOHCOROOHH = var1;
+      this.OIHIRIRRROOIHCOORIRHHIORCHIHHC = (Enum<?>[])var1.getEnumConstants();
+      this.IHCCCCRHCHOHHCRCORIRIHCRICRIIR = var2;
    }
 
-   public static <T> CORCOCICIRIOHROHROIIOOHICCHCRR IOCIIROIRCOHIRHHHROHCOOHIICIHI(Map<String, T> var0) {
-      if (var0.isEmpty()) {
-         return COOCHOHCCROCRRIRRIOCHICIRIIIHR;
-      }
-
-      int var1 = ICROHCCHHORIIOIRIIICCCCOHRIRCH(var0.size());
-      int var2 = var1 - 1;
-      int var3 = (var1 + (var1 >> 1)) * 2;
-      Object[] var4 = new Object[var3];
-      byte var5 = 0;
-
-      for (Entry var7 : var0.entrySet()) {
-         String var8 = (String)var7.getKey();
-         if (var8 != null) {
-            int var9 = var8.hashCode() & var2;
-            int var10 = var9 + var9;
-            if (var4[var10] != null) {
-               var10 = var1 + (var9 >> 1) << 1;
-               if (var4[var10] != null) {
-                  var10 = (var1 + (var1 >> 1) << 1) + var5;
-                  var5 += 2;
-                  if (var10 >= var4.length) {
-                     var4 = Arrays.copyOf(var4, var4.length + 4);
-                  }
-               }
-            }
-
-            var4[var10] = var8;
-            var4[var10 + 1] = var7.getValue();
-         }
-      }
-
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(var2, var5, var4);
+   public static IIHRRHORCRCROCHHOHORCHCROCIHRO IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.ROOCOCCCIRHHHIRIOIHHHHRHIICHHR var0, Class<Enum<?>> var1
+   ) {
+      return var0.CORCOCICIRIOHROHROIIOOHICCHCRR(
+            com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IOHIHIIHCCCCCIHRORIOIOORCIOHII.WRITE_ENUMS_USING_TO_STRING
+         )
+         ? HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0, var1)
+         : RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(var0, var1);
    }
 
-   private static final int ICROHCCHHORIIOIRIIICCCCOHRIRCH(int var0) {
-      if (var0 <= 5) {
-         return 8;
-      }
-
-      if (var0 <= 12) {
-         return 16;
-      }
-
-      int var1 = var0 + (var0 >> 2);
-      byte var2 = 32;
-
-      while (var2 < var1) {
-         var2 += var2;
-      }
-
-      return var2;
-   }
-
-   public Object HIOCCRHOROOHCHHHICHOCRCIHHOHOR(String var1) {
-      int var2 = var1.hashCode() & this.HCRCOOOHRIOHRRCHHIIORHCCORRIHO;
-      int var3 = var2 << 1;
-      Object var4 = this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var3];
-      return var4 != var1 && !var1.equals(var4) ? this.HHCCIRHCCCIIRHCROHIORHIRHHIORH(var1, var2, var4) : this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var3 + 1];
-   }
-
-   private final Object HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var1, int var2, Object var3) {
+   public static IIHRRHORCRCROCHHOHORCHCROCIHRO RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var0,
+      Class<Enum<?>> var1
+   ) {
+      Class var2 = OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RHCHHROCORIHCIORRRIIOHIRHCRIOH(var1);
+      Enum[] var3 = (Enum[])var2.getEnumConstants();
       if (var3 == null) {
-         return null;
+         throw new IllegalArgumentException("Cannot determine enum constants for Class " + var1.getName());
       }
 
-      int var4 = this.HCRCOOOHRIOHRRCHHIIORHCCORRIHO + 1;
-      int var5 = var4 + (var2 >> 1) << 1;
-      var3 = this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var5];
-      if (var1.equals(var3)) {
-         return this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var5 + 1];
-      }
+      String[] var4 = var0.RCRORHCOCRIIOHICORIHOHRIIRIORH().RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2, var3, new String[var3.length]);
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI[] var5 = new com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI[var3.length];
+      int var6 = 0;
 
-      if (var3 != null) {
-         int var6 = var4 + (var4 >> 1) << 1;
-
-         for (int var7 = var6 + this.OOOHCCOOHIIRHOCHHCOHHCOIOROIOI; var6 < var7; var6 += 2) {
-            var3 = this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var6];
-            if (var3 == var1 || var1.equals(var3)) {
-               return this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var6 + 1];
-            }
+      for (int var7 = var3.length; var6 < var7; var6++) {
+         Enum var8 = var3[var6];
+         String var9 = var4[var6];
+         if (var9 == null) {
+            var9 = var8.name();
          }
+
+         if (var0.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CIOHHCORHRCCRICCCORIHCRHCCCRRR.WRITE_ENUMS_TO_LOWERCASE
+         )) {
+            var9 = var9.toLowerCase();
+         }
+
+         var5[var8.ordinal()] = var0.ICCRICHHROOROIIIRROIOIRCCIHRRI(var9);
       }
 
-      return null;
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var5);
    }
 
-   public Object HRHIOHRHORHOCIICRCHICCOIROORHC(String var1) {
-      byte var2 = 0;
-
-      for (int var3 = this.IRICIHCOCHOOHICRIROHIORCCIOIIH.length; var2 < var3; var2 += 2) {
-         Object var4 = this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var2];
-         if (var4 != null) {
-            String var5 = (String)var4;
-            if (var5.equalsIgnoreCase(var1)) {
-               return this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var2 + 1];
-            }
-         }
+   public static IIHRRHORCRCROCHHOHORCHCROCIHRO HRCHROOHRIHCRCRHRIIROCIRHOIRHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var0,
+      Class<Enum<?>> var1
+   ) {
+      Class var2 = OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RHCHHROCORIHCIORRRIIOHIRHCRIOH(var1);
+      Enum[] var3 = (Enum[])var2.getEnumConstants();
+      if (var3 == null) {
+         throw new IllegalArgumentException("Cannot determine enum constants for Class " + var1.getName());
       }
 
-      return null;
+      ArrayList var4 = new ArrayList(var3.length);
+
+      for (Enum var8 : var3) {
+         var4.add(var8.toString());
+      }
+
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1, var4);
    }
 
-   public List<String> IIOHOHOHCRRRORCROOIOCHCRCOHHHR() {
-      int var1 = this.IRICIHCOCHOOHICRIROHIORCCIOIIH.length;
-      ArrayList var2 = new ArrayList(var1 >> 2);
-
-      for (byte var3 = 0; var3 < var1; var3 += 2) {
-         Object var4 = this.IRICIHCOCHOOHICRIROHIORCCIOIIH[var3];
-         if (var4 != null) {
-            var2.add((String)var4);
-         }
+   public static IIHRRHORCRCROCHHOHORCHCROCIHRO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var0,
+      Class<Enum<?>> var1,
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HICHRCOHCCRHOHCICOOCHOIHCCHIRI var2
+   ) {
+      Class var3 = OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RHCHHROCORIHCIORRRIIOHIRHCRIOH(var1);
+      Enum[] var4 = (Enum[])var3.getEnumConstants();
+      if (var4 == null) {
+         throw new IllegalArgumentException("Cannot determine enum constants for Class " + var1.getName());
       }
 
-      return var2;
+      ArrayList var5 = new ArrayList(var4.length);
+
+      for (Enum var9 : var4) {
+         var5.add(var2.OICIIIIHOCRRHCOOHOOCOCCRIIOCHH(var9.name()));
+      }
+
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1, var5);
+   }
+
+   public static IIHRRHORCRCROCHHOHORCHCROCIHRO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHOCHHIRRCHHHOHOIRROIROHHHIHIO<?> var0,
+      Class<Enum<?>> var1,
+      List<String> var2
+   ) {
+      int var3 = var2.size();
+      com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI[] var4 = new com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI[var3];
+
+      for (int var5 = 0; var5 < var3; var5++) {
+         var4[var5] = var0.ICCRICHHROOROIIIRROIOIRCCIHRRI((String)var2.get(var5));
+      }
+
+      return RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var4);
+   }
+
+   public static IIHRRHORCRCROCHHOHORCHCROCIHRO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      Class<Enum<?>> var0, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI[] var1
+   ) {
+      return new IIHRRHORCRCROCHHOHORCHCROCIHRO(var0, var1);
+   }
+
+   public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI CRRRICCRROCOHHOHIICIHORCOORRRH(
+      Enum<?> var1
+   ) {
+      return this.IHCCCCRHCHOHHCRCORIRIHCRICRIIR[var1.ordinal()];
+   }
+
+   public Collection<com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI> values() {
+      return Arrays.asList(this.IHCCCCRHCHOHHCRCORIRIHCRICRIIR);
+   }
+
+   public List<Enum<?>> OCHOHCOIHHCOROOIHOOORORRCCRCOI() {
+      return Arrays.asList(this.OIHIRIRRROOIHCOORIRHHIORCHIHHC);
+   }
+
+   public EnumMap<?, com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIROICHCRROROHCCROOCCCCOCHCCRI> ROOROHCCHCCHRIHOCRROORCRIICRRH() {
+      EnumMap var1 = this.ORIIRROCIRROHCHOOHCCRRRHOCHRCO;
+      if (var1 == null) {
+         LinkedHashMap var2 = new LinkedHashMap();
+
+         for (Enum var6 : this.OIHIRIRRROOIHCOORIRHHIORCHIHHC) {
+            var2.put(var6, this.IHCCCCRHCHOHHCRCORIRIHCRICRIIR[var6.ordinal()]);
+         }
+
+         var1 = new EnumMap(var2);
+      }
+
+      return var1;
+   }
+
+   public Class<Enum<?>> IRRCRHOROHRORORIHOOCRRRHCROHOH() {
+      return this.IRCIHRICRHRHIRRRIIICOOHCOROOHH;
    }
 }

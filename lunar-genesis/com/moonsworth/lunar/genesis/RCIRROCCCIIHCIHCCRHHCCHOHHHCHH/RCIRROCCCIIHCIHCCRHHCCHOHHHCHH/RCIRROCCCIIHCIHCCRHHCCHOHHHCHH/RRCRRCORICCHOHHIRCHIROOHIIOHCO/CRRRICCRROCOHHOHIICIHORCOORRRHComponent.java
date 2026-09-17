@@ -1,82 +1,60 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO;
 
-import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
-public final class RRCRRCORICCHOHHIRCHIROOHIIOHCO {
-   private final Map<Character, String> IRCCOIIOCCICHOIOROCCHIHIHRRICC;
-   private int max = -1;
+public abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private final char[][] OIHOIICICIHRHIOOHICRICRIRCCCCC;
+   private final int CIRCCIOHOCRICHCCCOOCRIOOCIIHCR;
+   private final char CRCOCCOOCHOIIRICRRRROOICOHCICC;
+   private final char OHOCOCCOOOCCCHCCORICIRIRICRCOR;
 
-   public RRCRRCORICCHOHHIRCHIROOHIIOHCO() {
-      this.IRCCOIIOCCICHOIOROCCHIHIHRRICC = new HashMap<>();
+   protected RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Map<Character, String> var1, char var2, char var3) {
+      this(IRCIIHHICIHRCOCRROCOICRIHHCCHH.COIHORRCHRRCHOCIRHHRRIOIHRIHCC(var1), var2, var3);
    }
 
-   @CanIgnoreReturnValue
-   public RRCRRCORICCHOHHIRCHIROOHIIOHCO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(char var1, String var2) {
-      this.IRCCOIIOCCICHOIOROCCHIHIHRRICC.put(var1, IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var2));
-      if (var1 > this.max) {
-         this.max = var1;
+   protected RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, char var2, char var3) {
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      this.OIHOIICICIHRHIOOHICRICRIRCCCCC = var1.getReplacementArray();
+      this.CIRCCIOHOCRICHCCCOOCRIOOCIIHCR = this.OIHOIICICIHRHIOOHICRICRIRCCCCC.length;
+      if (var3 < var2) {
+         var3 = 0;
+         var2 = '\uffff';
       }
 
-      return this;
+      this.CRCOCCOOCHOIIRICRRRROOICOHCICC = var2;
+      this.OHOCOCCOOOCCCHCCORICIRIRICRCOR = var3;
    }
 
-   @CanIgnoreReturnValue
-   public RRCRRCORICCHOHHIRCHIROOHIIOHCO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(char[] var1, String var2) {
-      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var2);
+   @Override
+   public final String escape(String var1) {
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
 
-      for (char var6 : var1) {
-         this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var6, var2);
-      }
-
-      return this;
-   }
-
-   public char[][] toArray() {
-      char[][] var1 = new char[this.max + 1][];
-
-      for (Entry var3 : this.IRCCOIIOCCICHOIOROCCHIHIHRRICC.entrySet()) {
-         var1[var3.getKey()] = ((String)var3.getValue()).toCharArray();
+      for (int var2 = 0; var2 < var1.length(); var2++) {
+         char var3 = var1.charAt(var2);
+         if (var3 < this.CIRCCIOHOCRICHCCCOOCRIOOCIIHCR && this.OIHOIICICIHRHIOOHICRICRIRCCCCC[var3] != null
+            || var3 > this.OHOCOCCOOOCCCHCCORICIRIRICRCOR
+            || var3 < this.CRCOCCOOCHOIIRICRRRROOICOHCICC) {
+            return this.IHCRORHRORIICHRHRCHRRIRRHHOCOO(var1, var2);
+         }
       }
 
       return var1;
    }
 
-   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI HOHIRRIRCIICCIRIRIOCIRCIRRRROR() {
-      return new RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.toArray());
-   }
-
-   private static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends CRRRICCRROCOHHOHIICIHORCOORRRH {
-      private final char[][] IHHOCHRCHHRHRROHCHROCOIHHIOIHC;
-      private final int OOHCRORIIHOCHIIRIHOOIICICHIIIC;
-
-      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(char[][] var1) {
-         this.IHHOCHRCHHRHRROHCHROCOIHHIOIHC = var1;
-         this.OOHCRORIIHOCHIIRIHOOIICICHIIIC = var1.length;
-      }
-
-      @Override
-      public String escape(String var1) {
-         int var2 = var1.length();
-
-         for (int var3 = 0; var3 < var2; var3++) {
-            char var4 = var1.charAt(var3);
-            if (var4 < this.IHHOCHRCHHRHRROHCHROCOIHHIOIHC.length && this.IHHOCHRCHHRHRROHCHROCOIHHIOIHC[var4] != null) {
-               return this.IHCRORHRORIICHRHRCHRRIRRHHOCOO(var1, var3);
-            }
+   @Override
+   protected final char[] escape(char var1) {
+      if (var1 < this.CIRCCIOHOCRICHCCCOOCRIOOCIIHCR) {
+         char[] var2 = this.OIHOIICICIHRHIOOHICRICRIRCCCCC[var1];
+         if (var2 != null) {
+            return var2;
          }
-
-         return var1;
       }
 
-      @Override
-      protected char[] escape(char var1) {
-         return var1 < this.OOHCRORIIHOCHIIRIHOOIICICHIIIC ? this.IHHOCHRCHHRHRROHCHROCOIHHIOIHC[var1] : null;
-      }
+      return var1 >= this.CRCOCCOOCHOIIRICRRRROOICOHCICC && var1 <= this.OHOCOCCOOOCCCHCCORICIRIRICRCOR ? null : this.escapeUnsafe(var1);
    }
+
+   protected abstract char[] escapeUnsafe(char var1);
 }

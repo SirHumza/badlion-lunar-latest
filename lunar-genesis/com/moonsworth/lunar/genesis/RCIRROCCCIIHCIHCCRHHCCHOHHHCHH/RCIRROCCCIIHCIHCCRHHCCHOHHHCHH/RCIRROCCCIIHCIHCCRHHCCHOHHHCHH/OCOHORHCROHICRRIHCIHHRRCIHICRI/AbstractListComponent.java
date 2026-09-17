@@ -12,162 +12,162 @@ import java.util.List;
 import java.util.RandomAccess;
 import java.util.Spliterator;
 import java.util.Spliterators;
-import java.util.Spliterator.OfInt;
-import java.util.function.IntConsumer;
-import java.util.stream.IntStream;
+import java.util.Spliterator.OfLong;
+import java.util.function.LongConsumer;
+import java.util.stream.LongStream;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 @Immutable
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
-public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
-   private static final CORCOCICIRIOHROHROIIOOHICCHCRR IHHCCCRCIORIIICHRORRHRIHRIIRRI = new CORCOCICIRIOHROHROIIOOHICCHCRR(new int[0]);
-   private final int[] ICCOROOICHIIIROROHOHIRHOHOHCHI;
-   private final transient int RRIOIICICOOIIRRIOIOHRORIIIRIHH;
-   private final int COIICIHCICIROIHIIROHHIIRHCCRIC;
+public final class CRICCOOHHHCHOORCICOCOHIHOIRHOO implements Serializable {
+   private static final CRICCOOHHHCHOORCICOCOHIHOIRHOO IOHOCHROCICROCHIHHOICHOIHRRCCC = new CRICCOOHHHCHOORCICOCOHIHOIRHOO(new long[0]);
+   private final long[] IHCCOHIOHRCIHHOOORRROOCOORHHCO;
+   private final transient int ROIICIIICRCHOCICIIIHCCICRIORIC;
+   private final int OHRROORHIHOHRRIHORHHCICIROCCRR;
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR RHIIIIROHIOICCCCRCIIRHOOORHROC() {
-      return IHHCCCRCIORIIICHRORRHRIHRIIRRI;
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO RHIROCOCOOCIRRRRCIOROOIHRRRHIH() {
+      return IOHOCHROCICROCHIHHOICHOIHRRCCC;
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR CHOOIORORCOOICCRRHRRHCOIICOOCC(int var0) {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(new int[]{var0});
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO COCCRCRCRHROIRCCHOHRICCCIOCICI(long var0) {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO(new long[]{var0});
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR CCRHRROIOIIRROHCOOCCCRRIOIHHHO(int var0, int var1) {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(new int[]{var0, var1});
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO IRRCCOICORICIHCHRHIHIHROIRHOCR(long var0, long var2) {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO(new long[]{var0, var2});
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR IIOIROIHIHHCCRICRCOOCHIICHRCOI(int var0, int var1, int var2) {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(new int[]{var0, var1, var2});
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO HHCCIRHCCCIIRHCROHIORHIRHHIORH(long var0, long var2, long var4) {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO(new long[]{var0, var2, var4});
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR IOHIHIIHCCCCCIHRORIOIOORCIOHII(int var0, int var1, int var2, int var3) {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(new int[]{var0, var1, var2, var3});
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(long var0, long var2, long var4, long var6) {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO(new long[]{var0, var2, var4, var6});
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR HRCHROOHRIHCRCRHRIIROCIRHOIRHH(int var0, int var1, int var2, int var3, int var4) {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(new int[]{var0, var1, var2, var3, var4});
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(long var0, long var2, long var4, long var6, long var8) {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO(new long[]{var0, var2, var4, var6, var8});
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR CRRRICCRROCOHHOHIICIHORCOORRRH(int var0, int var1, int var2, int var3, int var4, int var5) {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(new int[]{var0, var1, var2, var3, var4, var5});
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(long var0, long var2, long var4, long var6, long var8, long var10) {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO(new long[]{var0, var2, var4, var6, var8, var10});
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR HHCCIRHCCCIIRHCROHIORHIRHHIORH(int var0, int... var1) {
-      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(var1.length <= 2147483646, "the total number of elements must fit in an int");
-      int[] var2 = new int[var1.length + 1];
-      var2[0] = var0;
-      System.arraycopy(var1, 0, var2, 1, var1.length);
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR(var2);
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(long var0, long... var2) {
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(var2.length <= 2147483646, "the total number of elements must fit in an int");
+      long[] var3 = new long[var2.length + 1];
+      var3[0] = var0;
+      System.arraycopy(var2, 0, var3, 1, var2.length);
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO(var3);
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR IOHHOIIOCRHCHHCRORICCOHOHROOIH(int[] var0) {
-      return var0.length == 0 ? IHHCCCRCIORIIICHRORRHRIHRIIRRI : new CORCOCICIRIOHROHROIIOOHICCHCRR(Arrays.copyOf(var0, var0.length));
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO RRCRRCORICCHOHHIRCHIROOHIIOHCO(long[] var0) {
+      return var0.length == 0 ? IOHOCHROCICROCHIHHOICHOIHRRCCC : new CRICCOOHHHCHOORCICOCOHIHOIRHOO(Arrays.copyOf(var0, var0.length));
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR OIHCOHRCICCCRHRCROOCIOIRRHHHIH(Collection<Integer> var0) {
-      return var0.isEmpty() ? IHHCCCRCIORIIICHRORRHRIHRIIRRI : new CORCOCICIRIOHROHROIIOOHICCHCRR(HICHRCOHCCRHOHCICOOCHOIHCCHIRI.toArray(var0));
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO IOHIHIIHCCCCCIHRORIOIOORCIOHII(Collection<Long> var0) {
+      return var0.isEmpty() ? IOHOCHROCICROCHIHHOICHOIHRRCCC : new CRICCOOHHHCHOORCICOCOHIHOIRHOO(OCOHORHCROHICRRIHCIHHRRCIHICRI.toArray(var0));
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR ORCOCORROHIROCCIORORRRRCHIOOCH(Iterable<Integer> var0) {
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO OCCCRRHIIOCOIHRIIHOIRRCIORHHHI(Iterable<Long> var0) {
       return var0 instanceof Collection
-         ? OIHCOHRCICCCRHRCROOCIOIRRHHHIH((Collection<Integer>)var0)
-         : RCCHHHIIOCOOORCORRRHHHHOCHIIIO().HOIHOROOIOOCOIHCRIRIRIRRICIIHC(var0).COOOCOCIHCOIORHRHCCIOHHIIORHOI();
+         ? IOHIHIIHCCCCCIHRORIOIOORCIOHII((Collection<Long>)var0)
+         : CIRCRHCIHROROOCOHOIIHCOHCOCHRO().RRORCOIRRIICOOICOIOCORHORCHCOC(var0).OOHOHRCOHRHCHCOOCOHHIRICOORIHC();
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR CRRRICCRROCOHHOHIICIHORCOORRRH(IntStream var0) {
-      int[] var1 = var0.toArray();
-      return var1.length == 0 ? IHHCCCRCIORIIICHRORRHRIHRIIRRI : new CORCOCICIRIOHROHROIIOOHICCHCRR(var1);
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO CRRRICCRROCOHHOHIICIHORCOORRRH(LongStream var0) {
+      long[] var1 = var0.toArray();
+      return var1.length == 0 ? IOHOCHROCICROCHIHHOICHOIHRRCCC : new CRICCOOHHHCHOORCICOCOHIHOIRHOO(var1);
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH OORCRORHCICOCORRCHRHRHIICHOCCR(int var0) {
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH HROICORRORCIOIHHOROICROHIOCHIO(int var0) {
       IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(var0 >= 0, "Invalid initialCapacity: %s", var0);
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0);
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0);
    }
 
-   public static CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH RCCHHHIIOCOOORCORRRHHHHOCHIIIO() {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(10);
+   public static CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH CIRCRHCIHROROOCOHOIIHCOHCOCHRO() {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(10);
    }
 
-   private CORCOCICIRIOHROHROIIOOHICCHCRR(int[] var1) {
+   private CRICCOOHHHCHOORCICOCOHIHOIRHOO(long[] var1) {
       this(var1, 0, var1.length);
    }
 
-   private CORCOCICIRIOHROHROIIOOHICCHCRR(int[] var1, int var2, int var3) {
-      this.ICCOROOICHIIIROROHOHIRHOHOHCHI = var1;
-      this.RRIOIICICOOIIRRIOIOHRORIIIRIHH = var2;
-      this.COIICIHCICIROIHIIROHHIIRHCCRIC = var3;
+   private CRICCOOHHHCHOORCICOCOHIHOIRHOO(long[] var1, int var2, int var3) {
+      this.IHCCOHIOHRCIHHOOORRROOCOORHHCO = var1;
+      this.ROIICIIICRCHOCICIIIHCCICRIORIC = var2;
+      this.OHRROORHIHOHRRIHORHHCICIROCCRR = var3;
    }
 
    public int length() {
-      return this.COIICIHCICIROIHIIROHHIIRHCCRIC - this.RRIOIICICOOIIRRIOIOHRORIIIRIHH;
+      return this.OHRROORHIHOHRRIHORHHCICIROCCRR - this.ROIICIIICRCHOCICIIIHCCICRIORIC;
    }
 
    public boolean isEmpty() {
-      return this.COIICIHCICIROIHIIROHHIIRHCCRIC == this.RRIOIICICOOIIRRIOIOHRORIIIRIHH;
+      return this.OHRROORHIHOHRRIHORHHCICIROCCRR == this.ROIICIIICRCHOCICIIIHCCICRIORIC;
    }
 
-   public int get(int var1) {
+   public long get(int var1) {
       IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkElementIndex(var1, this.length());
-      return this.ICCOROOICHIIIROROHOHIRHOHOHCHI[this.RRIOIICICOOIIRRIOIOHRORIIIRIHH + var1];
+      return this.IHCCOHIOHRCIHHOOORRROOCOORHHCO[this.ROIICIIICRCHOCICIIIHCCICRIORIC + var1];
    }
 
-   public int indexOf(int var1) {
-      for (int var2 = this.RRIOIICICOOIIRRIOIOHRORIIIRIHH; var2 < this.COIICIHCICIROIHIIROHHIIRHCCRIC; var2++) {
-         if (this.ICCOROOICHIIIROROHOHIRHOHOHCHI[var2] == var1) {
-            return var2 - this.RRIOIICICOOIIRRIOIOHRORIIIRIHH;
+   public int indexOf(long var1) {
+      for (int var3 = this.ROIICIIICRCHOCICIIIHCCICRIORIC; var3 < this.OHRROORHIHOHRRIHORHHCICIROCCRR; var3++) {
+         if (this.IHCCOHIOHRCIHHOOORRROOCOORHHCO[var3] == var1) {
+            return var3 - this.ROIICIIICRCHOCICIIIHCCICRIORIC;
          }
       }
 
       return -1;
    }
 
-   public int lastIndexOf(int var1) {
-      for (int var2 = this.COIICIHCICIROIHIIROHHIIRHCCRIC - 1; var2 >= this.RRIOIICICOOIIRRIOIOHRORIIIRIHH; var2--) {
-         if (this.ICCOROOICHIIIROROHOHIRHOHOHCHI[var2] == var1) {
-            return var2 - this.RRIOIICICOOIIRRIOIOHRORIIIRIHH;
+   public int lastIndexOf(long var1) {
+      for (int var3 = this.OHRROORHIHOHRRIHORHHCICIROCCRR - 1; var3 >= this.ROIICIIICRCHOCICIIIHCCICRIORIC; var3--) {
+         if (this.IHCCOHIOHRCIHHOOORRROOCOORHHCO[var3] == var1) {
+            return var3 - this.ROIICIIICRCHOCICIIIHCCICRIORIC;
          }
       }
 
       return -1;
    }
 
-   public boolean contains(int var1) {
+   public boolean contains(long var1) {
       return this.indexOf(var1) >= 0;
    }
 
-   public void forEach(IntConsumer var1) {
+   public void forEach(LongConsumer var1) {
       IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
 
-      for (int var2 = this.RRIOIICICOOIIRRIOIOHRORIIIRIHH; var2 < this.COIICIHCICIROIHIIROHHIIRHCCRIC; var2++) {
-         var1.accept(this.ICCOROOICHIIIROROHOHIRHOHOHCHI[var2]);
+      for (int var2 = this.ROIICIIICRCHOCICIIIHCCICRIORIC; var2 < this.OHRROORHIHOHRRIHORHHCICIROCCRR; var2++) {
+         var1.accept(this.IHCCOHIOHRCIHHOOORRROOCOORHHCO[var2]);
       }
    }
 
-   public IntStream stream() {
-      return Arrays.stream(this.ICCOROOICHIIIROROHOHIRHOHOHCHI, this.RRIOIICICOOIIRRIOIOHRORIIIRIHH, this.COIICIHCICIROIHIIROHHIIRHCCRIC);
+   public LongStream stream() {
+      return Arrays.stream(this.IHCCOHIOHRCIHHOOORRROOCOORHHCO, this.ROIICIIICRCHOCICIIIHCCICRIORIC, this.OHRROORHIHOHRRIHORHHCICIROCCRR);
    }
 
-   public int[] toArray() {
-      return Arrays.copyOfRange(this.ICCOROOICHIIIROROHOHIRHOHOHCHI, this.RRIOIICICOOIIRRIOIOHRORIIIRIHH, this.COIICIHCICIROIHIIROHHIIRHCCRIC);
+   public long[] toArray() {
+      return Arrays.copyOfRange(this.IHCCOHIOHRCIHHOOORRROOCOORHHCO, this.ROIICIIICRCHOCICIIIHCCICRIORIC, this.OHRROORHIHOHRRIHORHHCICIROCCRR);
    }
 
-   public CORCOCICIRIOHROHROIIOOHICCHCRR RCOHCCHCRHIIIICRIHCOICIHHCCOOC(int var1, int var2) {
+   public CRICCOOHHHCHOORCICOCOHIHOIRHOO COCCRCRCRHROIRCCHOHRICCCIOCICI(int var1, int var2) {
       IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkPositionIndexes(var1, var2, this.length());
       return var1 == var2
-         ? IHHCCCRCIORIIICHRORRHRIHRIIRRI
-         : new CORCOCICIRIOHROHROIIOOHICCHCRR(
-            this.ICCOROOICHIIIROROHOHIRHOHOHCHI, this.RRIOIICICOOIIRRIOIOHRORIIIRIHH + var1, this.RRIOIICICOOIIRRIOIOHRORIIIRIHH + var2
+         ? IOHOCHROCICROCHIHHOICHOIHRRCCC
+         : new CRICCOOHHHCHOORCICOCOHIHOIRHOO(
+            this.IHCCOHIOHRCIHHOOORRROOCOORHHCO, this.ROIICIIICRCHOCICIIIHCCICRIORIC + var1, this.ROIICIIICRCHOCICIIIHCCICRIORIC + var2
          );
    }
 
-   private OfInt spliterator() {
-      return Spliterators.spliterator(this.ICCOROOICHIIIROROHOHIRHOHOHCHI, this.RRIOIICICOOIIRRIOIOHRORIIIRIHH, this.COIICIHCICIROIHIIROHHIIRHCCRIC, 1040);
+   private OfLong spliterator() {
+      return Spliterators.spliterator(this.IHCCOHIOHRCIHHOOORRROOCOORHHCO, this.ROIICIIICRCHOCICIIIHCCICRIORIC, this.OHRROORHIHOHRRIHORHHCICIROCCRR, 1040);
    }
 
-   public List<Integer> asList() {
-      return new CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this);
+   public List<Long> asList() {
+      return new CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this);
    }
 
    @Override
@@ -176,11 +176,11 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
          return true;
       }
 
-      if (!(var1 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR)) {
+      if (!(var1 instanceof CRICCOOHHHCHOORCICOCOHIHOIRHOO)) {
          return false;
       }
 
-      CORCOCICIRIOHROHROIIOOHICCHCRR var2 = (CORCOCICIRIOHROHROIIOOHICCHCRR)var1;
+      CRICCOOHHHCHOORCICOCOHIHOIRHOO var2 = (CRICCOOHHHCHOORCICOCOHIHOIRHOO)var1;
       if (this.length() != var2.length()) {
          return false;
       }
@@ -198,9 +198,9 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
    public int hashCode() {
       int var1 = 1;
 
-      for (int var2 = this.RRIOIICICOOIIRRIOIOHRORIIIRIHH; var2 < this.COIICIHCICIROIHIIROHHIIRHCCRIC; var2++) {
+      for (int var2 = this.ROIICIIICRCHOCICIIIHCCICRIORIC; var2 < this.OHRROORHIHOHRRIHORHHCICIROCCRR; var2++) {
          var1 *= 31;
-         var1 += HICHRCOHCCRHOHCICOOCHOIHCCHIRI.hashCode(this.ICCOROOICHIIIROROHOHIRHOHOHCHI[var2]);
+         var1 += OCOHORHCROHICRRIHCIHHRRCIHICRI.hashCode(this.IHCCOHIOHRCIHHOOORRROOCOORHHCO[var2]);
       }
 
       return var1;
@@ -213,91 +213,91 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
       }
 
       StringBuilder var1 = new StringBuilder(this.length() * 5);
-      var1.append('[').append(this.ICCOROOICHIIIROROHOHIRHOHOHCHI[this.RRIOIICICOOIIRRIOIOHRORIIIRIHH]);
+      var1.append('[').append(this.IHCCOHIOHRCIHHOOORRROOCOORHHCO[this.ROIICIIICRCHOCICIIIHCCICRIORIC]);
 
-      for (int var2 = this.RRIOIICICOOIIRRIOIOHRORIIIRIHH + 1; var2 < this.COIICIHCICIROIHIIROHHIIRHCCRIC; var2++) {
-         var1.append(", ").append(this.ICCOROOICHIIIROROHOHIRHOHOHCHI[var2]);
+      for (int var2 = this.ROIICIIICRCHOCICIIIHCCICRIORIC + 1; var2 < this.OHRROORHIHOHRRIHORHHCICIROCCRR; var2++) {
+         var1.append(", ").append(this.IHCCOHIOHRCIHHOOORRROOCOORHHCO[var2]);
       }
 
       var1.append(']');
       return var1.toString();
    }
 
-   public CORCOCICIRIOHROHROIIOOHICCHCRR CROICRCOHIIIICOOHIOCOORIIICOIC() {
-      return this.isPartialView() ? new CORCOCICIRIOHROHROIIOOHICCHCRR(this.toArray()) : this;
+   public CRICCOOHHHCHOORCICOCOHIHOIRHOO RIHIOICOOICCHOORIOOHOICORIRIHH() {
+      return this.isPartialView() ? new CRICCOOHHHCHOORCICOCOHIHOIRHOO(this.toArray()) : this;
    }
 
    private boolean isPartialView() {
-      return this.RRIOIICICOOIIRRIOIOHRORIIIRIHH > 0 || this.COIICIHCICIROIHIIROHHIIRHCCRIC < this.ICCOROOICHIIIROROHOHIRHOHOHCHI.length;
+      return this.ROIICIIICRCHOCICIIIHCCICRIORIC > 0 || this.OHRROORHIHOHRRIHORHHCICIROCCRR < this.IHCCOHIOHRCIHHOOORRROOCOORHHCO.length;
    }
 
    Object writeReplace() {
-      return this.CROICRCOHIIIICOOHIOCOORIIICOIC();
+      return this.RIHIOICOOICCHOORIOOHOICORIRIHH();
    }
 
    Object readResolve() {
-      return this.isEmpty() ? IHHCCCRCIORIIICHRORRHRIHRIIRRI : this;
+      return this.isEmpty() ? IOHOCHROCICROCHIHHOICHOIHRRCCC : this;
    }
 
    @CanIgnoreReturnValue
    public static final class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
-      private int[] array;
+      private long[] array;
       private int count = 0;
 
       IRCIIHHICIHRCOCRROCOICRIHHCCHH(int var1) {
-         this.array = new int[var1];
+         this.array = new long[var1];
       }
 
-      public CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH IHIIOHCOCOCCORIIOCHHCORIOOHICH(int var1) {
+      public CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH RICHIIOOOHORCHORORHIHIRRHCOOIH(long var1) {
          this.ensureRoomFor(1);
          this.array[this.count] = var1;
          this.count++;
          return this;
       }
 
-      public CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH IIHRHCCOOHOOOOCHRRCOROOIOHCOOO(int[] var1) {
+      public CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(long[] var1) {
          this.ensureRoomFor(var1.length);
          System.arraycopy(var1, 0, this.array, this.count, var1.length);
          this.count += var1.length;
          return this;
       }
 
-      public CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH HOIHOROOIOOCOIHCRIRIRIRRICIIHC(Iterable<Integer> var1) {
+      public CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH RRORCOIRRIICOOICOIOCORHORCHCOC(Iterable<Long> var1) {
          if (var1 instanceof Collection) {
-            return this.ROOCOCCCIRHHHIRIOIHHHHRHIICHHR((Collection<Integer>)var1);
+            return this.RCIROOOOICRHCCRRCIORHHIRCOIIIC((Collection<Long>)var1);
          }
 
-         for (Integer var3 : var1) {
-            this.IHIIOHCOCOCCORIIOCHHCORIOOHICH(var3);
+         for (Long var3 : var1) {
+            this.RICHIIOOOHORCHORORHIHIRRHCOOIH(var3);
          }
 
          return this;
       }
 
-      public CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(Collection<Integer> var1) {
+      public CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH RCIROOOOICRHCCRRCIORHHIRCOIIIC(Collection<Long> var1) {
          this.ensureRoomFor(var1.size());
 
-         for (Integer var3 : var1) {
+         for (Long var3 : var1) {
             this.array[this.count++] = var3;
          }
 
          return this;
       }
 
-      public CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH RRCRRCORICCHOHHIRCHIROOHIIOHCO(IntStream var1) {
-         OfInt var2 = var1.spliterator();
+      public CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH RRCRRCORICCHOHHIRCHIROOHIIOHCO(LongStream var1) {
+         OfLong var2 = var1.spliterator();
          long var3 = var2.getExactSizeIfKnown();
          if (var3 > 0L) {
             this.ensureRoomFor(HICHRCOHCCRHOHCICOOCHOIHCCHIRI.saturatedCast(var3));
          }
 
-         var2.forEachRemaining(this::IHIIOHCOCOCCORIIOCHHCORIOOHICH);
+         var2.forEachRemaining(this::RICHIIOOOHORCHORORHIHIRRHCOOIH);
          return this;
       }
 
-      public CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH CRRRICCRROCOHHOHIICIHORCOORRRH(CORCOCICIRIOHROHROIIOOHICCHCRR var1) {
+      public CRICCOOHHHCHOORCICOCOHIHOIRHOO.IRCIIHHICIHRCOCRROCOICRIHHCCHH CRRRICCRROCOHHOHIICIHORCOORRRH(CRICCOOHHHCHOORCICOCOHIHOIRHOO var1) {
          this.ensureRoomFor(var1.length());
-         System.arraycopy(var1.ICCOROOICHIIIROROHOHIRHOHOHCHI, var1.RRIOIICICOOIIRRIOIOHRORIIIRIHH, this.array, this.count, var1.length());
+         System.arraycopy(var1.IHCCOHIOHRCIHHOOORRROOCOORHHCO, var1.ROIICIIICRCHOCICIIIHCCICRIORIC, this.array, this.count, var1.length());
          this.count = this.count + var1.length();
          return this;
       }
@@ -305,7 +305,7 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
       private void ensureRoomFor(int var1) {
          int var2 = this.count + var1;
          if (var2 > this.array.length) {
-            int[] var3 = new int[expandedCapacity(this.array.length, var2)];
+            long[] var3 = new long[expandedCapacity(this.array.length, var2)];
             System.arraycopy(this.array, 0, var3, 0, this.count);
             this.array = var3;
          }
@@ -329,25 +329,25 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
       }
 
       @CheckReturnValue
-      public CORCOCICIRIOHROHROIIOOHICCHCRR COOOCOCIHCOIORHRHCCIOHHIIORHOI() {
-         return this.count == 0 ? CORCOCICIRIOHROHROIIOOHICCHCRR.IHHCCCRCIORIIICHRORRHRIHRIIRRI : new CORCOCICIRIOHROHROIIOOHICCHCRR(this.array, 0, this.count);
+      public CRICCOOHHHCHOORCICOCOHIHOIRHOO OOHOHRCOHRHCHCOOCOHHIRICOORIHC() {
+         return this.count == 0 ? CRICCOOHHHCHOORCICOCOHIHOIRHOO.IOHOCHROCICROCHIHHOICHOIHRRCCC : new CRICCOOHHHCHOORCICOCOHIHOIRHOO(this.array, 0, this.count);
       }
    }
 
-   static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends AbstractList<Integer> implements Serializable, RandomAccess {
-      private final CORCOCICIRIOHROHROIIOOHICCHCRR HCOICRIRHIICRRIOOOIHIIIIRHHICI;
+   static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends AbstractList<Long> implements Serializable, RandomAccess {
+      private final CRICCOOHHHCHOORCICOCOHIHOIRHOO IRHHIOIHIICROOCHRHHRHOCIRCOCCH;
 
-      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(CORCOCICIRIOHROHROIIOOHICCHCRR var1) {
-         this.HCOICRIRHIICRRIOOOIHIIIIRHHICI = var1;
+      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(CRICCOOHHHCHOORCICOCOHIHOIRHOO var1) {
+         this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH = var1;
       }
 
       @Override
       public int size() {
-         return this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.length();
+         return this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.length();
       }
 
-      public Integer get(int var1) {
-         return this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.get(var1);
+      public Long get(int var1) {
+         return this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.get(var1);
       }
 
       @Override
@@ -357,29 +357,29 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
 
       @Override
       public int indexOf(Object var1) {
-         return var1 instanceof Integer ? this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.indexOf((Integer)var1) : -1;
+         return var1 instanceof Long ? this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.indexOf((Long)var1) : -1;
       }
 
       @Override
       public int lastIndexOf(Object var1) {
-         return var1 instanceof Integer ? this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.lastIndexOf((Integer)var1) : -1;
+         return var1 instanceof Long ? this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.lastIndexOf((Long)var1) : -1;
       }
 
       @Override
-      public List<Integer> subList(int var1, int var2) {
-         return this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.RCOHCCHCRHIIIICRIHCOICIHHCCOOC(var1, var2).asList();
+      public List<Long> subList(int var1, int var2) {
+         return this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.COCCRCRCRHROIRCCHOHRICCCIOCICI(var1, var2).asList();
       }
 
       @Override
-      public Spliterator<Integer> spliterator() {
-         return this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.spliterator();
+      public Spliterator<Long> spliterator() {
+         return this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.spliterator();
       }
 
       @Override
       public boolean equals(@Nullable Object var1) {
-         if (var1 instanceof CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH) {
-            CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6 = (CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1;
-            return this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.equals(var6.HCOICRIRHIICRRIOOOIHIIIIRHHICI);
+         if (var1 instanceof CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH) {
+            CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var6 = (CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var1;
+            return this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.equals(var6.IRHHIOIHIICROOCHRHHRHOCIRCOCCH);
          }
 
          if (!(var1 instanceof List)) {
@@ -391,10 +391,10 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
             return false;
          }
 
-         int var3 = this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.RRIOIICICOOIIRRIOIOHRORIIIRIHH;
+         int var3 = this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.ROIICIIICRCHOCICIIIHCCICRIORIC;
 
          for (Object var5 : var2) {
-            if (!(var5 instanceof Integer) || this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.ICCOROOICHIIIROROHOHIRHOHOHCHI[var3++] != (Integer)var5) {
+            if (!(var5 instanceof Long) || this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.IHCCOHIOHRCIHHOOORRROOCOORHHCO[var3++] != (Long)var5) {
                return false;
             }
          }
@@ -404,12 +404,12 @@ public final class CORCOCICIRIOHROHROIIOOHICCHCRR implements Serializable {
 
       @Override
       public int hashCode() {
-         return this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.hashCode();
+         return this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.hashCode();
       }
 
       @Override
       public String toString() {
-         return this.HCOICRIRHIICRRIOOOIHIIIIRHHICI.toString();
+         return this.IRHHIOIHIICROOCHRHHRHOCIRCOCCH.toString();
       }
    }
 }

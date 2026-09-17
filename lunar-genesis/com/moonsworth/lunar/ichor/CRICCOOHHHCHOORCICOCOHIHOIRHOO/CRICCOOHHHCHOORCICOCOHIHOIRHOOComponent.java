@@ -1,45 +1,24 @@
 package com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
 
-import lombok.Generated;
+import org.cadixdev.bombe.type.BaseType;
 
-class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements CRICCOOHHHCHOORCICOCOHIHOIRHOO {
-   protected CRRRICCRROCOHHOHIICIHORCOORRRH HRRHHCHCOHRIHHIICOOOHHIHOIRHOI;
+public record IRCIIHHICIHRCOCRROCOICRIHHCCHH() implements CRICCOOHHHCHOORCICOCOHIHOIRHOO {
+   private final BaseType CICIOCHCOHCCOIHOOORCOHROICCCIR;
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(char var1) {
+      this(BaseType.getFromKey(var1));
+   }
+
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(BaseType var1) {
+      this.CICIOCHCOHCCOIHOOORCOHROICCCIR = var1;
+   }
 
    @Override
    public String getDescriptor() {
-      return "[".repeat(this.HRRHHCHCOHRIHHIICOOOHHIHOIRHOI.depth)
-         + this.HRRHHCHCOHRIHHIICOOOHHIHOIRHOI.HRIICHCROOORCICCHIHRCCOHRCHHRC.IICRHRIOIROIOHRICHHHHHIHIOOICI().getDescriptor();
+      return String.valueOf(this.CICIOCHCOHCCOIHOOORCOHROICCCIR == null ? 'V' : this.CICIOCHCOHCCOIHOOORCOHROICCCIR.getKey());
    }
 
-   @Generated
-   @Override
-   public boolean equals(Object var1) {
-      if (var1 == this) {
-         return true;
-      } else if (!(var1 instanceof RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var2)) {
-         return false;
-      } else {
-         if (!var2.canEqual(this)) {
-            return false;
-         }
-
-         CRRRICCRROCOHHOHIICIHORCOORRRH var3 = this.HRRHHCHCOHRIHHIICOOOHHIHOIRHOI;
-         CRRRICCRROCOHHOHIICIHORCOORRRH var4 = var2.HRRHHCHCOHRIHHIICOOOHHIHOIRHOI;
-         return var3 == null ? var4 == null : var3.equals(var4);
-      }
-   }
-
-   @Generated
-   protected boolean canEqual(Object var1) {
-      return var1 instanceof RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
-   }
-
-   @Generated
-   @Override
-   public int hashCode() {
-      byte var1 = 59;
-      byte var2 = 1;
-      CRRRICCRROCOHHOHIICIHORCOORRRH var3 = this.HRRHHCHCOHRIHHIICOOOHHIHOIRHOI;
-      return var2 * 59 + (var3 == null ? 43 : var3.hashCode());
+   public BaseType IIIOCCCCCROHCHCOOHIHRRRCHCOCCC() {
+      return this.CICIOCHCOHCCOIHOOORCOHROICCCIR;
    }
 }

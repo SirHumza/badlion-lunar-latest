@@ -5,74 +5,78 @@ import java.util.Set;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
-final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<T> extends ORHIOICIOCRRHOOCOHRORIHICHRCRR<T> {
-   static final RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<Object> HROCCHIOHICCHRCHCHORHCRRCCCIIO = new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>();
-   private static final long COIHICHIOIHIHOOIIOORICCHOORROH = 0L;
+final class ROOCOCCCIRHHHIRIOIHHHHRHIICHHR<T> extends ORHIOICIOCRRHOOCOHRORIHICHRCRR<T> {
+   private final T OHORHCRCHCIHHORCHROIRICCHCICIR;
+   private static final long CCRIOCCOHIIOROHIHIOOIIOCHRHROC = 0L;
 
-   static <T> ORHIOICIOCRRHOOCOHRORIHICHRCRR<T> CHCRHROCRHHOOCCRRHRORCOHRROICR() {
-      return (ORHIOICIOCRRHOOCOHRORIHICHRCRR<T>)HROCCHIOHICCHRCHCHORHCRRCCCIIO;
-   }
-
-   private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   ROOCOCCCIRHHHIRIOIHHHHRHIICHHR(T var1) {
+      this.OHORHCRCHCIHHORCHROIRICCHCICIR = (T)var1;
    }
 
    @Override
    public boolean isPresent() {
-      return false;
+      return true;
    }
 
    @Override
    public T get() {
-      throw new IllegalStateException("Optional.get() cannot be called on an absent value");
+      return this.OHORHCRCHCIHHORCHROIRICCHCICIR;
    }
 
    @Override
    public T or(T var1) {
-      return IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull((T)var1, "use Optional.orNull() instead of Optional.or(null)");
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1, "use Optional.orNull() instead of Optional.or(null)");
+      return this.OHORHCRCHCIHHORCHROIRICCHCICIR;
    }
 
    @Override
    public ORHIOICIOCRRHOOCOHRORIHICHRCRR<T> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ORHIOICIOCRRHOOCOHRORIHICHRCRR<? extends T> var1) {
-      return IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      return this;
    }
 
    @Override
    public T RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HCHRIROHHHCORIOCROOCHRCIOROOCI<? extends T> var1) {
-      return IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull((T)var1.get(), "use Optional.orNull() instead of a Supplier that returns null");
+      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
+      return this.OHORHCRCHCIHHORCHROIRICCHCICIR;
    }
 
    @Override
-   public @Nullable T orNull() {
-      return null;
+   public T orNull() {
+      return this.OHORHCRCHCIHHORCHROIRICCHCICIR;
    }
 
    @Override
    public Set<T> asSet() {
-      return Collections.emptySet();
+      return Collections.singleton(this.OHORHCRCHCIHHORCHROIRICCHCICIR);
    }
 
    @Override
    public <V> ORHIOICIOCRRHOOCOHRORIHICHRCRR<V> RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(IRRCCOICORICIHCHRHIHIHROIRHOCR<? super T, V> var1) {
-      IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(var1);
-      return ORHIOICIOCRRHOOCOHRORIHICHRCRR.IHIRCRORCOOROROHHRRIIOOOOCCHRH();
+      return (ORHIOICIOCRRHOOCOHRORIHICHRCRR<V>)(new ROOCOCCCIRHHHIRIOIHHHHRHIICHHR<>(
+         IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+            var1.apply(this.OHORHCRCHCIHHORCHROIRICCHCICIR), "the Function passed to Optional.transform() must not return null."
+         )
+      ));
    }
 
    @Override
    public boolean equals(@Nullable Object var1) {
-      return var1 == this;
+      if (var1 instanceof ROOCOCCCIRHHHIRIOIHHHHRHIICHHR) {
+         ROOCOCCCIRHHHIRIOIHHHHRHIICHHR var2 = (ROOCOCCCIRHHHIRIOIHHHHRHIICHHR)var1;
+         return this.OHORHCRCHCIHHORCHROIRICCHCICIR.equals(var2.OHORHCRCHCIHHORCHROIRICCHCICIR);
+      } else {
+         return false;
+      }
    }
 
    @Override
    public int hashCode() {
-      return 2040732332;
+      return 1502476572 + this.OHORHCRCHCIHHORCHROIRICCHCICIR.hashCode();
    }
 
    @Override
    public String toString() {
-      return "Optional.absent()";
-   }
-
-   private Object readResolve() {
-      return HROCCHIOHICCHRCHCHORHCRRCCCIIO;
+      return "Optional.of(" + this.OHORHCRCHCIHHORCHROIRICCHCICIR + ")";
    }
 }

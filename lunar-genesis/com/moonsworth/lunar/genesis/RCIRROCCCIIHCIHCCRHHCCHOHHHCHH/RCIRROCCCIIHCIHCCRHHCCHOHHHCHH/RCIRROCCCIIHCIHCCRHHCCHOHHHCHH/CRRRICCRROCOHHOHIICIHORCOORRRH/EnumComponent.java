@@ -1,78 +1,61 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
 
-import com.google.errorprone.annotations.concurrent.LazyInit;
 import java.io.Serializable;
-import java.util.Collection;
-import java.util.EnumSet;
+import java.util.EnumMap;
 import java.util.Spliterator;
-import java.util.function.Consumer;
+import java.util.Map.Entry;
+import java.util.function.BiConsumer;
+import org.checkerframework.checker.nullness.qual.Nullable;
 
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
    serializable = true,
    emulated = true
 )
-final class CIIHHCHIRCRRIHOIOCCCROHOIOCCII<E extends Enum<E>> extends CICOIHIRIIHHCIOICHRHICRIRCIOHC<E> {
-   private final transient EnumSet<E> ROCIIOCHIRHIHHRHCROCIROIRICICI;
-   @LazyInit
-   private transient int hashCode;
+final class HCHHOOOCRCRHHICHICORHOCHCCCHRH<K extends Enum<K>, V> extends OOHRIIOOHROIOHCIRIHRHRRICRRHOI.IRCIIHHICIHRCOCRROCOICRIHHCCHH<K, V> {
+   private final transient EnumMap<K, V> COIHICRCORCRCICORCRCROOHOICIIO;
 
-   static CICOIHIRIIHHCIOICHRHICRIRCIOHC RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(EnumSet var0) {
+   static <K extends Enum<K>, V> OOHRIIOOHROIOHCIRIHRHRRICRRHOI<K, V> HHCCIRHCCCIIRHCROHIORHIRHHIORH(EnumMap<K, V> var0) {
       switch (var0.size()) {
          case 0:
-            return CICOIHIRIIHHCIOICHRHICRIRCIOHC.CRROCHIORCOCORIRRHOICICCIIORHI();
+            return OOHRIIOOHROIOHCIRIHRHRRICRRHOI.RIOCOIOOIIRHOROHOCHHOORRCCOIHR();
          case 1:
-            return CICOIHIRIIHHCIOICHRHICRIRCIOHC.RROIIRROOOOHIORHRICHOCHIHCRRCH(IRIHOIRCHIRRCRIOORCOICORHHORHH.getOnlyElement(var0));
+            Entry var1 = IRIHOIRCHIRRCRIOORCOICORHHORHH.getOnlyElement(var0.entrySet());
+            return OOHRIIOOHROIOHCIRIHRHRRICRRHOI.HHRIICOIOORCHCOIICOOIHIRHHICRI((K)var1.getKey(), (V)var1.getValue());
          default:
-            return new CIIHHCHIRCRRIHOIOCCCROHOIOCCII(var0);
+            return new HCHHOOOCRCRHHICHICORHOCHCCCHRH<>(var0);
       }
    }
 
-   private CIIHHCHIRCRRIHOIOCCCROHOIOCCII(EnumSet<E> var1) {
-      this.ROCIIOCHIRHIHHRHCROCIROIRICICI = var1;
+   private HCHHOOOCRCRHHICHICORHOCHCCCHRH(EnumMap<K, V> var1) {
+      this.COIHICRCORCRCICORCRCROOHOICIIO = var1;
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+         !var1.isEmpty()
+      );
    }
 
    @Override
-   boolean isPartialView() {
-      return false;
+   IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<K> IIRICOHOOCCCRRORCOHIROCRCHIHHO() {
+      return HRCROCOHHHICRHIHHOOCIIRRRCCIRR.CIOHHCORHRCCRICCCORIHCRHCCCRRR(this.COIHICRCORCRCICORCRCROOHOICIIO.keySet().iterator());
    }
 
    @Override
-   public IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<E> IOHOCICRRIRHHCCCRICOCOHOIIOCRH() {
-      return HRCROCOHHHICRHIHHOOCIIRRRCCIRR.CIOHHCORHRCCRICCCORIHCRHCCCRRR(this.ROCIIOCHIRHIHHRHCROCIROIRICICI.iterator());
-   }
-
-   @Override
-   public Spliterator<E> spliterator() {
-      return this.ROCIIOCHIRHIHHRHCROCIROIRICICI.spliterator();
-   }
-
-   @Override
-   public void forEach(Consumer<? super E> var1) {
-      this.ROCIIOCHIRHIHHRHCROCIROIRICICI.forEach(var1);
+   Spliterator<K> keySpliterator() {
+      return this.COIHICRCORCRCICORCRCROOHOICIIO.keySet().spliterator();
    }
 
    @Override
    public int size() {
-      return this.ROCIIOCHIRHIHHRHCROCIROIRICICI.size();
+      return this.COIHICRCORCRCICORCRCROOHOICIIO.size();
    }
 
    @Override
-   public boolean contains(Object var1) {
-      return this.ROCIIOCHIRHIHHRHCROCIROIRICICI.contains(var1);
+   public boolean containsKey(@Nullable Object var1) {
+      return this.COIHICRCORCRCICORCRCROOHOICIIO.containsKey(var1);
    }
 
    @Override
-   public boolean containsAll(Collection<?> var1) {
-      if (var1 instanceof CIIHHCHIRCRRIHOIOCCCROHOIOCCII) {
-         var1 = ((CIIHHCHIRCRRIHOIOCCCROHOIOCCII)var1).ROCIIOCHIRHIHHRHCROCIROIRICICI;
-      }
-
-      return this.ROCIIOCHIRHIHHRHCROCIROIRICICI.containsAll(var1);
-   }
-
-   @Override
-   public boolean isEmpty() {
-      return this.ROCIIOCHIRHIHHRHCROCIROIRICICI.isEmpty();
+   public V get(Object var1) {
+      return this.COIHICRCORCRCICORCRCROOHOICIIO.get(var1);
    }
 
    @Override
@@ -81,44 +64,48 @@ final class CIIHHCHIRCRRIHOIOCCCROHOIOCCII<E extends Enum<E>> extends CICOIHIRII
          return true;
       }
 
-      if (var1 instanceof CIIHHCHIRCRRIHOIOCCCROHOIOCCII) {
-         var1 = ((CIIHHCHIRCRRIHOIOCCCROHOIOCCII)var1).ROCIIOCHIRHIHHRHCROCIROIRICICI;
+      if (var1 instanceof HCHHOOOCRCRHHICHICORHOCHCCCHRH) {
+         var1 = ((HCHHOOOCRCRHHICHICORHOCHCCCHRH)var1).COIHICRCORCRCICORCRCROOHOICIIO;
       }
 
-      return this.ROCIIOCHIRHIHHRHCROCIROIRICICI.equals(var1);
+      return this.COIHICRCORCRCICORCRCROOHOICIIO.equals(var1);
    }
 
    @Override
-   boolean isHashCodeFast() {
-      return true;
+   IRRCHIRICCIHCCIHOHRCHRHRHCRCOH<Entry<K, V>> HCRRIORCRRIORHRCIOHHCIHORRCHII() {
+      return ROCHRRCORRCOOOOOCOICOCROIIHIHH.IIRHCHHOICHRICOOCRORCCIOOIHOIR(this.COIHICRCORCRCICORCRCROOHOICIIO.entrySet().iterator());
    }
 
    @Override
-   public int hashCode() {
-      int var1 = this.hashCode;
-      return var1 == 0 ? (this.hashCode = this.ROCIIOCHIRHIHHRHCROCIROIRICICI.hashCode()) : var1;
+   Spliterator<Entry<K, V>> entrySpliterator() {
+      return IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.map(this.COIHICRCORCRCICORCRCROOHOICIIO.entrySet().spliterator(), ROCHRRCORRCOOOOOCOICOCROIIHIHH::unmodifiableEntry);
    }
 
    @Override
-   public String toString() {
-      return this.ROCIIOCHIRHIHHRHCROCIROIRICICI.toString();
+   public void forEach(BiConsumer<? super K, ? super V> var1) {
+      this.COIHICRCORCRCICORCRCROOHOICIIO.forEach(var1);
+   }
+
+   @Override
+   boolean isPartialView() {
+      return false;
    }
 
    @Override
    Object writeReplace() {
-      return new CIIHHCHIRCRRIHOIOCCCROHOIOCCII.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(this.ROCIIOCHIRHIHHRHCROCIROIRICICI);
+      return new HCHHOOOCRCRHHICHICORHOCHCCCHRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(this.COIHICRCORCRCICORCRCROOHOICIIO);
    }
 
-   private static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<E extends Enum<E>> implements Serializable {
-      final EnumSet<E> HCCORHCHHOIRRIHCIOHOHCRCRIRHOI;
-      private static final long OHRRIIRRROHHIHICROCRCIHIICORHR = 0L;
+   private static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<K extends Enum<K>, V> implements Serializable {
+      final EnumMap<K, V> RORORIRIHCOHHROHIOHRHIIIRRORHI;
+      private static final long OCRIRICOHCIRHOOOIIIHICHOCOORHH = 0L;
 
-      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(EnumSet<E> var1) {
-         this.HCCORHCHHOIRRIHCIOHOHCRCRIRHOI = var1;
+      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(EnumMap<K, V> var1) {
+         this.RORORIRIHCOHHROHIOHRHIIIRRORHI = var1;
       }
 
       Object readResolve() {
-         return new CIIHHCHIRCRRIHOIOCCCROHOIOCCII(this.HCCORHCHHOIRRIHCIOHOHCRCRIRHOI.clone());
+         return new HCHHOOOCRCRHHICHICORHOCHCCCHRH(this.RORORIRIHCOHHROHIOHRHIIIRRORHI);
       }
    }
 }

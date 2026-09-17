@@ -1,118 +1,73 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
 
-import java.io.IOException;
 import java.io.Reader;
-import java.nio.CharBuffer;
+import java.util.Iterator;
+import org.checkerframework.checker.nullness.qual.Nullable;
 
 @com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
-final class CORCOCICIRIOHROHROIIOOHICCHCRR extends Reader {
-   private CharSequence seq;
-   private int pos;
-   private int mark;
+class ICICIOCHHHIHOCHCOHORIHRCOHHOCR extends Reader {
+   private final Iterator<? extends HICHRCOHCCRHOHCICOOCHOIHCCHIRI> HOCCOHHHIHHCCIIRCORRHOCOHROOOO;
+   private @Nullable Reader current;
 
-   public CORCOCICIRIOHROHROIIOOHICCHCRR(CharSequence var1) {
-      this.seq = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-         var1
-      );
+   ICICIOCHHHIHOCHCOHORIHRCOHHOCR(Iterator<? extends HICHRCOHCCRHOHCICOOCHOIHCCHIRI> var1) {
+      this.HOCCOHHHIHHCCIIRCORRHOCOHROOOO = var1;
+      this.advance();
    }
 
-   private void checkOpen() {
-      if (this.seq == null) {
-         throw new IOException("reader closed");
+   private void advance() {
+      this.close();
+      if (this.HOCCOHHHIHHCCIIRCORRHOCOHROOOO.hasNext()) {
+         this.current = this.HOCCOHHHIHHCCIIRCORRHOCOHROOOO.next().openStream();
       }
    }
 
-   private boolean hasRemaining() {
-      return this.remaining() > 0;
-   }
-
-   private int remaining() {
-      return this.seq.length() - this.pos;
-   }
-
    @Override
-   public synchronized int read(CharBuffer var1) {
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
-         var1
-      );
-      this.checkOpen();
-      if (!this.hasRemaining()) {
+   public int read(char @Nullable [] var1, int var2, int var3) {
+      if (this.current == null) {
          return -1;
+      } else {
+         int var4 = this.current.read(var1, var2, var3);
+         if (var4 == -1) {
+            this.advance();
+            return this.read(var1, var2, var3);
+         } else {
+            return var4;
+         }
       }
-
-      int var2 = Math.min(var1.remaining(), this.remaining());
-
-      for (int var3 = 0; var3 < var2; var3++) {
-         var1.put(this.seq.charAt(this.pos++));
-      }
-
-      return var2;
    }
 
    @Override
-   public synchronized int read() {
-      this.checkOpen();
-      return this.hasRemaining() ? this.seq.charAt(this.pos++) : -1;
-   }
-
-   @Override
-   public synchronized int read(char[] var1, int var2, int var3) {
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkPositionIndexes(
-         var2, var2 + var3, var1.length
-      );
-      this.checkOpen();
-      if (!this.hasRemaining()) {
-         return -1;
-      }
-
-      int var4 = Math.min(var3, this.remaining());
-
-      for (int var5 = 0; var5 < var4; var5++) {
-         var1[var2 + var5] = this.seq.charAt(this.pos++);
-      }
-
-      return var4;
-   }
-
-   @Override
-   public synchronized long skip(long var1) {
+   public long skip(long var1) {
       com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
-         var1 >= 0L, "n (%s) may not be negative", var1
+         var1 >= 0L, "n is negative"
       );
-      this.checkOpen();
-      int var3 = (int)Math.min(this.remaining(), var1);
-      this.pos += var3;
-      return var3;
+      if (var1 > 0L) {
+         while (this.current != null) {
+            long var3 = this.current.skip(var1);
+            if (var3 > 0L) {
+               return var3;
+            }
+
+            this.advance();
+         }
+      }
+
+      return 0L;
    }
 
    @Override
-   public synchronized boolean ready() {
-      this.checkOpen();
-      return true;
+   public boolean ready() {
+      return this.current != null && this.current.ready();
    }
 
    @Override
-   public boolean markSupported() {
-      return true;
-   }
-
-   @Override
-   public synchronized void mark(int var1) {
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
-         var1 >= 0, "readAheadLimit (%s) may not be negative", var1
-      );
-      this.checkOpen();
-      this.mark = this.pos;
-   }
-
-   @Override
-   public synchronized void reset() {
-      this.checkOpen();
-      this.pos = this.mark;
-   }
-
-   @Override
-   public synchronized void close() {
-      this.seq = null;
+   public void close() {
+      if (this.current != null) {
+         try {
+            this.current.close();
+         } finally {
+            this.current = null;
+         }
+      }
    }
 }

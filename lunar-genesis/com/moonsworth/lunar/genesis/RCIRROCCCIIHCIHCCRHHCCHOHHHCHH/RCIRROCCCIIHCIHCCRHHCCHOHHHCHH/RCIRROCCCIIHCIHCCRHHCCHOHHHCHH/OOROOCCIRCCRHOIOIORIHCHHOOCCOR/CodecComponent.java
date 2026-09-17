@@ -1,116 +1,153 @@
 package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR;
 
 import com.google.errorprone.annotations.Immutable;
-import java.io.ByteArrayOutputStream;
+import java.io.Serializable;
 import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.nio.charset.Charset;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 @Immutable
-abstract class RRCRRCORICCHOHHIRCHIROOHIIOHCO extends HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+final class ORHIOICIOCRRHOOCOHRORIHICHRCRR extends HHCCIRHCCCIIRHCROHIORHIRHHIORH implements Serializable {
+   private final MessageDigest IICIOOOOOOROHHROHIOIOIRIHHRHHO;
+   private final int HRCIHCCHCOOHIIRICOHHOHOOHIOOOI;
+   private final boolean OOCHRRIICRIRIRCIOIIIIHHICIROIH;
+   private final String COHCRCORHCHCHCOHRRCCROOICHCCOC;
+
+   ORHIOICIOCRRHOOCOHRORIHICHRCRR(String var1, String var2) {
+      this.IICIOOOOOOROHHROHIOIOIRIHHRHHO = getMessageDigest(var1);
+      this.HRCIHCCHCOOHIIRICOHHOHOOHIOOOI = this.IICIOOOOOOROHHROHIOIOIRIHHRHHO.getDigestLength();
+      this.COHCRCORHCHCHCOHRRCCROOICHCCOC = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var2
+      );
+      this.OOCHRRIICRIRIRCIOIIIIHHICIROIH = supportsClone(this.IICIOOOOOOROHHROHIOIOIRIHHRHHO);
+   }
+
+   ORHIOICIOCRRHOOCOHRORIHICHRCRR(String var1, int var2, String var3) {
+      this.COHCRCORHCHCHCOHRRCCROOICHCCOC = com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkNotNull(
+         var3
+      );
+      this.IICIOOOOOOROHHROHIOIOIRIHHRHHO = getMessageDigest(var1);
+      int var4 = this.IICIOOOOOOROHHROHIOIOIRIHHRHHO.getDigestLength();
+      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
+         var2 >= 4 && var2 <= var4, "bytes (%s) must be >= 4 and < %s", var2, var4
+      );
+      this.HRCIHCCHCOOHIIRICOHHOHOOHIOOOI = var2;
+      this.OOCHRRIICRIRIRCIOIIIIHHICIROIH = supportsClone(this.IICIOOOOOOROHHROHIOIOIRIHHRHHO);
+   }
+
+   private static boolean supportsClone(MessageDigest var0) {
+      try {
+         var0.clone();
+         return true;
+      } catch (CloneNotSupportedException var2) {
+         return false;
+      }
+   }
+
+   @Override
+   public int bits() {
+      return this.HRCIHCCHCOOHIIRICOHHOHOOHIOOOI * 8;
+   }
+
+   @Override
+   public String toString() {
+      return this.COHCRCORHCHCHCOHRRCCROOICHCCOC;
+   }
+
+   private static MessageDigest getMessageDigest(String var0) {
+      try {
+         return MessageDigest.getInstance(var0);
+      } catch (NoSuchAlgorithmException var2) {
+         throw new AssertionError(var2);
+      }
+   }
+
    @Override
    public IIRHCHHOICHRICOOCRORCCIOOIHOIR OHRIHRCROOCROOIIOHROROHCCHHOCR() {
-      return this.CCIRHRHCCCCIOCRORRRCIOHIHCCCOR(32);
-   }
-
-   @Override
-   public IIRHCHHOICHRICOOCRORCCIOOIHOIR CCIRHRHCCCCIOCRORRRCIOHIHCCCOR(int var1) {
-      com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkArgument(
-         var1 >= 0
-      );
-      return new RRCRRCORICCHOHHIRCHIROOHIIOHCO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1);
-   }
-
-   @Override
-   public CIOHHCORHRCCRICCCORIHCRHCCCRRR HHIHOIIORRRIICHHHIOHRCIHIICHOI(int var1) {
-      return this.CRHROHHHCIHHCOHCOORCRIHHIICROR(ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN).putInt(var1).array());
-   }
-
-   @Override
-   public CIOHHCORHRCCRICCCORIHCRHCCCRRR ROIOROHRIHRRHIHRRRIHHHIICCHIOI(long var1) {
-      return this.CRHROHHHCIHHCOHCOORCRIHHIICROR(ByteBuffer.allocate(8).order(ByteOrder.LITTLE_ENDIAN).putLong(var1).array());
-   }
-
-   @Override
-   public CIOHHCORHRCCRICCCORIHCRHCCCRRR OOROOCCIRCCRHOIOIORIHCHHOOCCOR(CharSequence var1) {
-      int var2 = var1.length();
-      ByteBuffer var3 = ByteBuffer.allocate(var2 * 2).order(ByteOrder.LITTLE_ENDIAN);
-
-      for (int var4 = 0; var4 < var2; var4++) {
-         var3.putChar(var1.charAt(var4));
-      }
-
-      return this.CRHROHHHCIHHCOHCOORCRIHHIICROR(var3.array());
-   }
-
-   @Override
-   public CIOHHCORHRCCRICCCORIHCRHCCCRRR HHCCIRHCCCIIRHCROHIORHIRHHIORH(CharSequence var1, Charset var2) {
-      return this.CRHROHHHCIHHCOHCOORCRIHHIICROR(var1.toString().getBytes(var2));
-   }
-
-   @Override
-   public abstract CIOHHCORHRCCRICCCORIHCRHCCCRRR IRCRRHRCIRHIHIHROHCRRHIIHHHHCH(byte[] var1, int var2, int var3);
-
-   @Override
-   public CIOHHCORHRCCRICCCORIHCRHCCCRRR IIRHCHHOICHRICOOCRORCCIOOIHOIR(ByteBuffer var1) {
-      return this.CCIRHRHCCCCIOCRORRRCIOHIHCCCOR(var1.remaining()).CIOHHCORHRCCRICCCORIHCRHCCCRRR(var1).CIRIIOORHHIHICORIOIIRIIHHCOCCI();
-   }
-
-   private static final class IRCIIHHICIHRCOCRROCOICRIHHCCHH extends ByteArrayOutputStream {
-      IRCIIHHICIHRCOCRROCOICRIHHCCHH(int var1) {
-         super(var1);
-      }
-
-      void write(ByteBuffer var1) {
-         int var2 = var1.remaining();
-         if (this.count + var2 > this.buf.length) {
-            this.buf = Arrays.copyOf(this.buf, this.count + var2);
+      if (this.OOCHRRIICRIRIRCIOIIIIHHICIROIH) {
+         try {
+            return new ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+               (MessageDigest)this.IICIOOOOOOROHHROHIOIOIRIHHRHHO.clone(), this.HRCIHCCHCOOHIIRICOHHOHOOHIOOOI
+            );
+         } catch (CloneNotSupportedException var2) {
          }
-
-         var1.get(this.buf, this.count, var2);
-         this.count += var2;
       }
 
-      byte[] byteArray() {
-         return this.buf;
+      return new ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         getMessageDigest(this.IICIOOOOOOROHHROHIOIOIRIHHRHHO.getAlgorithm()), this.HRCIHCCHCOOHIIRICOHHOHOOHIOOOI
+      );
+   }
+
+   Object writeReplace() {
+      return new ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         this.IICIOOOOOOROHHROHIOIOIRIHHRHHO.getAlgorithm(), this.HRCIHCCHCOOHIIRICOHHOHOOHIOOOI, this.COHCRCORHCHCHCOHRRCCROOICHCCOC
+      );
+   }
+
+   private static final class IRCIIHHICIHRCOCRROCOICRIHHCCHH implements Serializable {
+      private final String RHIHHIICIRCIROOHOICICOHOOHOICC;
+      private final int HRICIHRHRRCIRRRICOOHOOIHIRICRC;
+      private final String HOOORROHRIIHROOCHHHHRHRROORCOR;
+      private static final long OHOHHRHORHRRHHROIOHOHHIROHRICI = 0L;
+
+      private IRCIIHHICIHRCOCRROCOICRIHHCCHH(String var1, int var2, String var3) {
+         this.RHIHHIICIRCIROOHOICICOHOOHOICC = var1;
+         this.HRICIHRHRRCIRRRICOOHOOIHIRICRC = var2;
+         this.HOOORROHRIIHROOCHHHHRHRROORCOR = var3;
       }
 
-      int length() {
-         return this.count;
+      private Object readResolve() {
+         return new ORHIOICIOCRRHOOCOHRORIHICHRCRR(
+            this.RHIHHIICIRCIROOHOICICOHOOHOICC, this.HRICIHRHRRCIRRRICOOHOOIHIRICRC, this.HOOORROHRIIHROOCHHHHRHRROORCOR
+         );
       }
    }
 
-   private final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH extends CRRRICCRROCOHHOHIICIHORCOORRRH {
-      final RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH CCCRCHIICIHHRHOIRIOCHOOORHHCHO;
+   private static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+      extends com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      private final MessageDigest RCCROCROOCCOOICOOHOOHROHCCOCIR;
+      private final int COOCOOCRCIOHCICHHCCIIHOCOORHIC;
+      private boolean done;
 
-      RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var2) {
-         this.CCCRCHIICIHHRHOIRIOCHOOORHHCHO = new RRCRRCORICCHOHHIRCHIROOHIIOHCO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var2);
+      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(MessageDigest var1, int var2) {
+         this.RCCROCROOCCOOICOOHOOHROHCCOCIR = var1;
+         this.COOCOOCRCIOHCICHHCCIIHOCOORHIC = var2;
       }
 
       @Override
-      public IIRHCHHOICHRICOOCRORCCIOOIHOIR HRCHROOHRIHCRCRHRIIROCIRHOIRHH(byte var1) {
-         this.CCCRCHIICIHHRHOIRIOCHOOORHHCHO.write(var1);
-         return this;
+      protected void update(byte var1) {
+         this.checkNotDone();
+         this.RCCROCROOCCOOICOOHOOHROHCCOCIR.update(var1);
       }
 
       @Override
-      public IIRHCHHOICHRICOOCRORCCIOOIHOIR IHCRORHRORIICHRHRCHRRIRRHHOCOO(byte[] var1, int var2, int var3) {
-         this.CCCRCHIICIHHRHOIRIOCHOOORHHCHO.write(var1, var2, var3);
-         return this;
+      protected void update(byte[] var1, int var2, int var3) {
+         this.checkNotDone();
+         this.RCCROCROOCCOOICOOHOOHROHCCOCIR.update(var1, var2, var3);
       }
 
       @Override
-      public IIRHCHHOICHRICOOCRORCCIOOIHOIR CIOHHCORHRCCRICCCORIHCRHCCCRRR(ByteBuffer var1) {
-         this.CCCRCHIICIHHRHOIRIOCHOOORHHCHO.write(var1);
-         return this;
+      protected void update(ByteBuffer var1) {
+         this.checkNotDone();
+         this.RCCROCROOCCOOICOOHOOHROHCCOCIR.update(var1);
+      }
+
+      private void checkNotDone() {
+         com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.checkState(
+            !this.done, "Cannot re-use a Hasher after calling hash() on it"
+         );
       }
 
       @Override
       public CIOHHCORHRCCRICCCORIHCRHCCCRRR CIRIIOORHHIHICORIOIIRIIHHCOCCI() {
-         return RRCRRCORICCHOHHIRCHIROOHIIOHCO.this.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH(
-            this.CCCRCHIICIHHRHOIRIOCHOOORHHCHO.byteArray(), 0, this.CCCRCHIICIHHRHOIRIOCHOOORHHCHO.length()
-         );
+         this.checkNotDone();
+         this.done = true;
+         return this.COOCOOCRCIOHCICHHCCIIHOCOORHIC == this.RCCROCROOCCOOICOOHOOHROHCCOCIR.getDigestLength()
+            ? CIOHHCORHRCCRICCCORIHCRHCCCRRR.IOHHOIIOCRHCHHCRORICCOHOHROOIH(this.RCCROCROOCCOOICOOHOOHROHCCOCIR.digest())
+            : CIOHHCORHRCCRICCCORIHCRHCCCRRR.IOHHOIIOCRHCHHCRORICCOHOHROOIH(
+               Arrays.copyOf(this.RCCROCROOCCOOICOOHOOHROHCCOCIR.digest(), this.COOCOOCRCIOHCICHHCCIIHOCOORHIC)
+            );
       }
    }
 }

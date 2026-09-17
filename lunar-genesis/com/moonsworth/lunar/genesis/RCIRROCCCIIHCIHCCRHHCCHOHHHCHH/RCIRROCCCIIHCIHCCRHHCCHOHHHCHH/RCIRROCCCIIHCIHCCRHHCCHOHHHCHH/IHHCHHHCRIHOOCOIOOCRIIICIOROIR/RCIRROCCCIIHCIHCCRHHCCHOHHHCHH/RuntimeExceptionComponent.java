@@ -2,22 +2,22 @@ package com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIH
 
 import org.checkerframework.checker.nullness.qual.Nullable;
 
-@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH
-public class OCIROOIHIHRHOCCHIIIROOCRIIOCRR extends RuntimeException {
-   private static final long OHOOICROOCRHOHIIHCCCIOCICOICHI = 0L;
+@com.moonsworth.lunar.genesis.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH
+public class HRCOCHHHCCIORCORCHIOOOCCCCHICH extends RuntimeException {
+   private static final long IROIOIIOHRCCROICHOHCOIRORRICOI = 0L;
 
-   protected OCIROOIHIHRHOCCHIIIROOCRIIOCRR() {
+   public HRCOCHHHCCIORCORCHIOOOCCCCHICH() {
    }
 
-   protected OCIROOIHIHRHOCCHIIIROOCRIIOCRR(@Nullable String var1) {
+   public HRCOCHHHCCIORCORCHIOOOCCCCHICH(@Nullable String var1) {
       super(var1);
    }
 
-   public OCIROOIHIHRHOCCHIIIROOCRIIOCRR(@Nullable String var1, @Nullable Throwable var2) {
+   public HRCOCHHHCCIORCORCHIOOOCCCCHICH(@Nullable Throwable var1) {
+      super(var1);
+   }
+
+   public HRCOCHHHCCIORCORCHIOOOCCCCHICH(@Nullable String var1, @Nullable Throwable var2) {
       super(var1, var2);
-   }
-
-   public OCIROOIHIHRHOCCHIIIROOCRIIOCRR(@Nullable Throwable var1) {
-      super(var1);
    }
 }
