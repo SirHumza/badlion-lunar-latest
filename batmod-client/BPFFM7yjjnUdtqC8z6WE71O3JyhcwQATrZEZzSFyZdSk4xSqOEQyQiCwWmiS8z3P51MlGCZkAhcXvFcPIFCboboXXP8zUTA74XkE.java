@@ -11,7 +11,7 @@ class BPFFM7yjjnUdtqC8z6WE71O3JyhcwQATrZEZzSFyZdSk4xSqOEQyQiCwWmiS8z3P51MlGCZkAh
       Predicate var6
    ) {
       super(var1, var2, var3, var4, var5, var6);
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = new B4udck0uEQmIzCEPKQwLy1lkOPchVCbhAMh1molC7KxVUQPwSTFWTXoL8E9Lvq1qa9RZasyBdAixLlbYZ7LnAkyyyz7SxVOr42Lo(
+      this.CustomSpinner = new B4udck0uEQmIzCEPKQwLy1lkOPchVCbhAMh1molC7KxVUQPwSTFWTXoL8E9Lvq1qa9RZasyBdAixLlbYZ7LnAkyyyz7SxVOr42Lo(
          this, var6, var1
       );
    }

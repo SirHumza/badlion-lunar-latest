@@ -5,26 +5,26 @@ public class Joa0Db6QgPKPPRihXfluiZ8KywXDrOIbDQgKablRmRy16um1dQbEhzONEZurA3j78Ny
    }
 
    @Override
-   public gz4TF3kWVpjkEyKphK9tGhaH9NZsm4idteBg3ApDwNo4MBWQUvoi2kQHcXwPJoB8lPmeiFuan1dkde6qrJTVlpSbXAqXeAeUtwP Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public gz4TF3kWVpjkEyKphK9tGhaH9NZsm4idteBg3ApDwNo4MBWQUvoi2kQHcXwPJoB8lPmeiFuan1dkde6qrJTVlpSbXAqXeAeUtwP BatModClient(
       Class var1, String var2
    ) {
-      return (gz4TF3kWVpjkEyKphK9tGhaH9NZsm4idteBg3ApDwNo4MBWQUvoi2kQHcXwPJoB8lPmeiFuan1dkde6qrJTVlpSbXAqXeAeUtwP)this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+      return (gz4TF3kWVpjkEyKphK9tGhaH9NZsm4idteBg3ApDwNo4MBWQUvoi2kQHcXwPJoB8lPmeiFuan1dkde6qrJTVlpSbXAqXeAeUtwP)this.BatModClient
          .get(var2);
    }
 
    @Override
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public void BatModClient(
       String var1, gz4TF3kWVpjkEyKphK9tGhaH9NZsm4idteBg3ApDwNo4MBWQUvoi2kQHcXwPJoB8lPmeiFuan1dkde6qrJTVlpSbXAqXeAeUtwP var2
    ) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.put(var1, var2);
+      this.BatModClient.put(var1, var2);
    }
 
    @Override
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public void BatModClient() {
    }
 
    @Override
-   public int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1) {
+   public int BatModClient(String var1) {
       return 0;
    }
 }

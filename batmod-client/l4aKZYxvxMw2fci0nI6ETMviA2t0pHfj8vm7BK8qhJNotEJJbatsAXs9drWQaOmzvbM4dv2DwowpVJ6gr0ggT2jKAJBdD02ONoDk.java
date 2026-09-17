@@ -4,36 +4,36 @@ import com.google.gson.Gson;
 import java.util.Map;
 
 public class l4aKZYxvxMw2fci0nI6ETMviA2t0pHfj8vm7BK8qhJNotEJJbatsAXs9drWQaOmzvbM4dv2DwowpVJ6gr0ggT2jKAJBdD02ONoDk {
-   private static final Gson Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = new Gson();
-   private final String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
-   private String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
-   private Map PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u;
+   private static final Gson BatModClient = new Gson();
+   private final String Button;
+   private String CustomSpinner;
+   private Map ButtonAction;
 
    public l4aKZYxvxMw2fci0nI6ETMviA2t0pHfj8vm7BK8qhJNotEJJbatsAXs9drWQaOmzvbM4dv2DwowpVJ6gr0ggT2jKAJBdD02ONoDk(String var1, String var2) {
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var1;
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var2;
+      this.Button = var1;
+      this.CustomSpinner = var2;
    }
 
    public l4aKZYxvxMw2fci0nI6ETMviA2t0pHfj8vm7BK8qhJNotEJJbatsAXs9drWQaOmzvbM4dv2DwowpVJ6gr0ggT2jKAJBdD02ONoDk(String var1) {
       this(var1, (String)null);
    }
 
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1) {
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var1;
+   public void BatModClient(String var1) {
+      this.CustomSpinner = var1;
    }
 
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 == null
-         ? this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW
-         : this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+   public String BatModClient() {
+      return this.CustomSpinner == null
+         ? this.Button
+         : this.CustomSpinner;
    }
 
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1, String var2) {
-      if (this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u == null) {
-         this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = Maps.newHashMap();
+   public void BatModClient(String var1, String var2) {
+      if (this.ButtonAction == null) {
+         this.ButtonAction = Maps.newHashMap();
       }
 
-      if (this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u.size() > 50) {
+      if (this.ButtonAction.size() > 50) {
          throw new IllegalArgumentException("Metadata payload is full, cannot add more to it!");
       }
 
@@ -53,28 +53,28 @@ public class l4aKZYxvxMw2fci0nI6ETMviA2t0pHfj8vm7BK8qhJNotEJJbatsAXs9drWQaOmzvbM
          throw new IllegalArgumentException("Metadata payload value is too long!");
       }
 
-      this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u.put(var1, var2);
+      this.ButtonAction.put(var1, var2);
    }
 
-   public String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u != null
-            && !this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u.isEmpty()
-         ? Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.toJson(
-            this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u
+   public String Button() {
+      return this.ButtonAction != null
+            && !this.ButtonAction.isEmpty()
+         ? BatModClient.toJson(
+            this.ButtonAction
          )
          : null;
    }
 
-   public String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
-      return this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public String CustomSpinner() {
+      return this.Button;
    }
 
    @Override
    public String toString() {
       return Objects.toStringHelper(this)
-         .add("name", this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW)
-         .add("description", this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5)
-         .add("data", this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW())
+         .add("name", this.Button)
+         .add("description", this.CustomSpinner)
+         .add("data", this.Button())
          .toString();
    }
 }

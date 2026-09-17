@@ -1,22 +1,22 @@
 import java.util.Map;
 
 public class rNwJ4I02OUAysDSPHru31rx6EAmfjS0D4tuupAIkr95xZWRMo0w98vizVfxup78guYqYVHssdUknEbQvin7dHl8cJfr1BY8hIU75 {
-   private static Qq5d6nDj8qDaZABN5OOIzqxY0QSjZhKMdYCjeKzPXIRwpoq80SSzyy1rV9G54BeiQ66AEZFwmw55LnQPPfM7qrPkLXRSUpKEklIL Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   private static final String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = "CL_00001094";
+   private static Qq5d6nDj8qDaZABN5OOIzqxY0QSjZhKMdYCjeKzPXIRwpoq80SSzyy1rV9G54BeiQ66AEZFwmw55LnQPPfM7qrPkLXRSUpKEklIL BatModClient;
+   private static final String Button = "CL_00001094";
 
-   static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   static void BatModClient(
       Qq5d6nDj8qDaZABN5OOIzqxY0QSjZhKMdYCjeKzPXIRwpoq80SSzyy1rV9G54BeiQ66AEZFwmw55LnQPPfM7qrPkLXRSUpKEklIL var0
    ) {
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var0;
+      BatModClient = var0;
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, Object... var1) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String BatModClient(String var0, Object... var1) {
+      return BatModClient.BatModClient(
          var0, var1
       );
    }
 
-   public static Map Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public static Map BatModClient() {
+      return BatModClient.BatModClient;
    }
 }

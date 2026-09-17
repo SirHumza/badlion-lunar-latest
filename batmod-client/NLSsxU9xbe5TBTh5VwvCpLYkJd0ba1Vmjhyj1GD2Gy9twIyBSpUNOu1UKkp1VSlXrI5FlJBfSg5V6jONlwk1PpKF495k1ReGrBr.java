@@ -1,53 +1,193 @@
-public abstract class NLSsxU9xbe5TBTh5VwvCpLYkJd0ba1Vmjhyj1GD2Gy9twIyBSpUNOu1UKkp1VSlXrI5FlJBfSg5V6jONlwk1PpKF495k1ReGrBr {
-   protected static final p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD[] BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD[]{
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_0.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_1.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_2.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_3.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_4.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_5.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_6.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_7.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_8.png"),
-      new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("textures/blocks/destroy_stage_9.png")
-   };
-   protected ySqnn3rMFjRw9JNsF7PHra7O7KEjUG7mQxCvdRfXV2S8n9x4OAdGir42U37tSxn9hNlfFKDbK7kgh2Wb8GZFNci6Dzjkhhkksdss vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+import com.mojang.authlib.GameProfile;
+import com.mojang.authlib.minecraft.MinecraftProfileTexture;
+import com.mojang.authlib.minecraft.MinecraftProfileTexture.Type;
+import java.util.Map;
+import java.util.UUID;
 
-   public abstract void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-      gtGE6LocuFDdpGo7Ztit0jDTALhhsciqopFJRTnM4jMDQKQo2BnUicuyc16m8NUxtZTHbiL2EWn9Ed9RfL00fyp5LkUoYqAiVOVI var1,
+public class GAj22nh0aQ7fPTg6CR16leg2mex2booC7XSVwgUW4euYbeaD9fqqiU9ndjdJJeU1rpL4MI5iMY0WqP5fLuBbPsrIS8HdiWDhfR28
+   extends NLSsxU9xbe5TBTh5VwvCpLYkJd0ba1Vmjhyj1GD2Gy9twIyBSpUNOu1UKkp1VSlXrI5FlJBfSg5V6jONlwk1PpKF495k1ReGrBr {
+   private static final p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD ButtonAction = new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD(
+      "textures/entity/skeleton/skeleton.png"
+   );
+   private static final p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD Spinner = new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD(
+      "textures/entity/skeleton/wither_skeleton.png"
+   );
+   private static final p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD Checkbox = new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD(
+      "textures/entity/zombie/zombie.png"
+   );
+   private static final p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD ProgressBar = new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD(
+      "textures/entity/creeper/creeper.png"
+   );
+   public static GAj22nh0aQ7fPTg6CR16leg2mex2booC7XSVwgUW4euYbeaD9fqqiU9ndjdJJeU1rpL4MI5iMY0WqP5fLuBbPsrIS8HdiWDhfR28 BatModClient;
+   private final O7z1VRXhFWM49rbOZ73sBYRgHvbpdbi3pCNE35jEk8BIt019fYt2ELhDOaOnoPPJC3Es5RdjAlMt12sEEUvb1jtsuo3aA9X7K6Cp BatModProgressBar = new O7z1VRXhFWM49rbOZ73sBYRgHvbpdbi3pCNE35jEk8BIt019fYt2ELhDOaOnoPPJC3Es5RdjAlMt12sEEUvb1jtsuo3aA9X7K6Cp(
+      0, 0, 64, 32
+   );
+   private final O7z1VRXhFWM49rbOZ73sBYRgHvbpdbi3pCNE35jEk8BIt019fYt2ELhDOaOnoPPJC3Es5RdjAlMt12sEEUvb1jtsuo3aA9X7K6Cp ColorChooser = new zynpWluLi1Mge679wmcXkzUhFO8aHjATwzxPNsU0japaqLfQgvUzkfMNFBKcfFx84IukZnXQqHstNiXg75Mr5tqqmp6G4s5CKZH7();
+
+   public void BatModClient(
+      Gof53Fi7crToHrc5gkyOqzLASX0gqqh84KH9M2bXZTSdc2GCW60B6S37dfSrOf7BcehwepI7oC2axUifSRyoITQcBF0fS1qyglLX var1,
       double var2,
       double var4,
       double var6,
       float var8,
       int var9
-   );
-
-   protected void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-      p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD var1
    ) {
-      falnvbnON9Yos1uc5Fb8Ya024Nj6kT8CIeZPcJ2aRWmnl3ydNppGk0tR5f0fVfO8Hx5dYDe9saJ4vN81axRqHk1dN0O0Np0uRlke var2 = this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5
-         .uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590;
-      if (var2 != null) {
-         var2.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var1);
-      }
+      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn var10 = NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.BatModClient(
+         var1.IntegerSpinner() & 7
+      );
+      this.BatModClient(
+         (float)var2,
+         (float)var4,
+         (float)var6,
+         var10,
+         var1.CustomSpinner() * 360 / 16.0F,
+         var1.Button(),
+         var1.BatModClient(),
+         var9
+      );
    }
 
-   protected xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0;
-   }
-
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   @Override
+   public void BatModClient(
       ySqnn3rMFjRw9JNsF7PHra7O7KEjUG7mQxCvdRfXV2S8n9x4OAdGir42U37tSxn9hNlfFKDbK7kgh2Wb8GZFNci6Dzjkhhkksdss var1
    ) {
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var1;
+      super.BatModClient(var1);
+      BatModClient = this;
    }
 
-   public UuNRPdngxLJ1piSbtVWTy5d1r0yYnVPdrWVdJIzhO5AWQSs4oLD4MB0wnDcMfN6xGgAGeksJvSQysKaZzGku3I7UiwUCohf4THta vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
-      return this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5
-         .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-   }
+   public void BatModClient(
+      float var1,
+      float var2,
+      float var3,
+      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn var4,
+      float var5,
+      int var6,
+      GameProfile var7,
+      int var8
+   ) {
+      O7z1VRXhFWM49rbOZ73sBYRgHvbpdbi3pCNE35jEk8BIt019fYt2ELhDOaOnoPPJC3Es5RdjAlMt12sEEUvb1jtsuo3aA9X7K6Cp var9 = this.BatModProgressBar;
+      if (var8 >= 0) {
+         this.BatModClient(
+            Button[var8]
+         );
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.ColorTextPane(
+            5890
+         );
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m();
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.BatModClient(
+            4.0F, 2.0F, 1.0F
+         );
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+            0.0625F, 0.0625F, 0.0625F
+         );
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.ColorTextPane(
+            5888
+         );
+      } else {
+         switch (var6) {
+            case 0:
+            default:
+               this.BatModClient(
+                  ButtonAction
+               );
+               break;
+            case 1:
+               this.BatModClient(
+                  Spinner
+               );
+               break;
+            case 2:
+               this.BatModClient(
+                  Checkbox
+               );
+               var9 = this.ColorChooser;
+               break;
+            case 3:
+               var9 = this.ColorChooser;
+               p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD var10 = L4uaVMCd3oGSH0oCjM3VDqaD9VO3BiV9lih4UOOYQ3zS9zoArGhufbuPZuU1skykagKo9dxU6loDnqdolcTTJAvcLcmbD5ukewav.BatModClient();
+               if (var7 != null) {
+                  AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB var11 = AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB.BatModJson();
+                  Map var12 = var11.kRgnDZ05QynRaP5naeoBgLM5HcwcEUBIzV3fGokcRxXNQGK55onbwDUfE1NjdZHPihnA6UQTIo61LSmBeRu0p8ugNkLKSI9NVScP()
+                     .BatModClient(var7);
+                  if (var12.containsKey(Type.SKIN)) {
+                     var10 = var11.kRgnDZ05QynRaP5naeoBgLM5HcwcEUBIzV3fGokcRxXNQGK55onbwDUfE1NjdZHPihnA6UQTIo61LSmBeRu0p8ugNkLKSI9NVScP()
+                        .BatModClient(
+                           (MinecraftProfileTexture)var12.get(Type.SKIN), Type.SKIN
+                        );
+                  } else {
+                     UUID var13 = EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u.BatModClient(
+                        var7
+                     );
+                     var10 = L4uaVMCd3oGSH0oCjM3VDqaD9VO3BiV9lih4UOOYQ3zS9zoArGhufbuPZuU1skykagKo9dxU6loDnqdolcTTJAvcLcmbD5ukewav.BatModClient(
+                        var13
+                     );
+                  }
+               }
 
-   public boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return false;
+               this.BatModClient(var10);
+               break;
+            case 4:
+               this.BatModClient(
+                  ProgressBar
+               );
+         }
+      }
+
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m();
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM();
+      if (var4
+         != NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.Button
+         )
+       {
+         switch (var4) {
+            case CustomSpinner:
+               net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+                  var1 + 0.5F, var2 + 0.25F, var3 + 0.74F
+               );
+               break;
+            case ButtonAction:
+               net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+                  var1 + 0.5F, var2 + 0.25F, var3 + 0.26F
+               );
+               var5 = 180.0F;
+               break;
+            case Spinner:
+               net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+                  var1 + 0.74F, var2 + 0.25F, var3 + 0.5F
+               );
+               var5 = 270.0F;
+               break;
+            case Checkbox:
+            default:
+               net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+                  var1 + 0.26F, var2 + 0.25F, var3 + 0.5F
+               );
+               var5 = 90.0F;
+         }
+      } else {
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+            var1 + 0.5F, var2, var3 + 0.5F
+         );
+      }
+
+      float var14 = 0.0625F;
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.OVft42XaDrpCid053XFq1EPZ8CkxDYortlwtRX4zTf4L5KT5wFCJrMIQs1I0or0K1OcKP82y3PpnybjZEMRPyyEezZIs1zuJDGFF();
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.BatModClient(
+         -1.0F, -1.0F, 1.0F
+      );
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.IntegerSpinner();
+      var9.BatModClient(
+         (Ibgu3NUIYBBc6s3EWu2hIRSSyI1fhkukbKq2Tcv51OCVAH6AapdNHEHyH4veH4voo2KdtG0Doz1K73vVFStW8OO0WPVe252N5epM)null, 0.0F, 0.0F, 0.0F, var5, 0.0F, var14
+      );
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.N5r9mmyiJl9qupxUc6jnbCbAi8OipFTHPUatcuhJZKK1QroIswJzBmJGD2jp3T7EQQmX6UJR9N33K8bXoQt1sEEcM5TBuaKTmmHl();
+      if (var8 >= 0) {
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.ColorTextPane(
+            5890
+         );
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.N5r9mmyiJl9qupxUc6jnbCbAi8OipFTHPUatcuhJZKK1QroIswJzBmJGD2jp3T7EQQmX6UJR9N33K8bXoQt1sEEcM5TBuaKTmmHl();
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.ColorTextPane(
+            5888
+         );
+      }
    }
 }

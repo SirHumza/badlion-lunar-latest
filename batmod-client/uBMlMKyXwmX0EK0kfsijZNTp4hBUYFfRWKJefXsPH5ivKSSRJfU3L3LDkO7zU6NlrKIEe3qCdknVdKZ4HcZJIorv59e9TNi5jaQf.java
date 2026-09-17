@@ -16,31 +16,31 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GLContext;
 
 public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKIEe3qCdknVdKZ4HcZJIorv59e9TNi5jaQf {
-   public static final String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = "grass_top";
-   public static final String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = "stone";
-   public static final String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = "dirt";
-   public static final String PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = "coarse_dirt";
-   public static final String uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = "grass_side";
-   public static final String QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0 = "stone_slab_side";
-   public static final String kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ = "stone_slab_top";
-   public static final String y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY = "bedrock";
-   public static final String sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 = "sand";
-   public static final String lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ = "gravel";
-   public static final String agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x = "log_oak";
-   public static final String uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk = "log_big_oak";
-   public static final String Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ = "log_acacia";
+   public static final String BatModClient = "grass_top";
+   public static final String Button = "stone";
+   public static final String CustomSpinner = "dirt";
+   public static final String ButtonAction = "coarse_dirt";
+   public static final String Spinner = "grass_side";
+   public static final String Checkbox = "stone_slab_side";
+   public static final String ProgressBar = "stone_slab_top";
+   public static final String BatModProgressBar = "bedrock";
+   public static final String ColorChooser = "sand";
+   public static final String IntegerSpinner = "gravel";
+   public static final String TextField = "log_oak";
+   public static final String ColorTextPane = "log_big_oak";
+   public static final String BatModInstallerMain = "log_acacia";
    public static final String aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA = "log_spruce";
    public static final String LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN = "log_birch";
    public static final String G0rcuynoQrTk4Mlm1W4cvUs7IiESq1BrFuSO7kHX35743ulZsGy0aD8sXKTYCemKzVH381ngFOLPu19GPJvmjFGptlFYSbCdIcvr = "log_jungle";
    public static final String iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF = "log_oak_top";
    public static final String bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ = "log_big_oak_top";
    public static final String RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB = "log_acacia_top";
-   public static final String J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40 = "log_spruce_top";
-   public static final String zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t = "log_birch_top";
+   public static final String Downloader = "log_spruce_top";
+   public static final String InstallationLogger = "log_birch_top";
    public static final String RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM = "log_jungle_top";
    public static final String K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY = "leaves_oak";
-   public static final String CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl = "leaves_big_oak";
-   public static final String HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU = "leaves_acacia";
+   public static final String ExitCode = "leaves_big_oak";
+   public static final String BatModJson = "leaves_acacia";
    public static final String z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP = "leaves_birch";
    public static final String LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8 = "leaves_spruce";
    public static final String xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa = "leaves_jungle";
@@ -62,7 +62,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
    public static final String ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV = "farmland_dry";
    public static final String fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i = "netherrack";
    public static final String dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11 = "soul_sand";
-   public static final String lXnIKHX4LL4UVZqpHxViO6OjyXkTlTDY0epCVxu6ttLtuKke8pmpW0wcG0kcTCIzpgn9rnvQu9HzpRoIlINbDt0LmkQkzj7PO192 = "glowstone";
+   public static final String GsonTypeAdapter = "glowstone";
    public static final String mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv = "leaves_spruce";
    public static final String xYb9nF2jGaP2YVrbgJeVIqgthxK5HsfptD48p5v1PvM4CU5ywwZ7Z0u5y5fXFtP9EVWkjPoxqIy5PuE38hifTU4Jx0t7vTuytM02 = "leaves_spruce_opaque";
    public static final String kVSwPN5YPc7nU3ChYwQtBMffk4HNpHuscDQqSvPZGoac7kd6VRigFVEe0A1NEsd4k6qTKXBQ1UgcrbAuHLHPEye9s8kWvw7ksgcc = "end_stone";
@@ -101,73 +101,73 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
    public static NbxJeOA4v8pDaO69APzkLeftsiXkfAtBjBW9A3s5xsRgujGLKiBHV37kJo2pYS96PpIDxkLlzuqYo9LIMJKydwA0cLB8mUiHsEtD J3gqUwkDP9cGFNTz5r2DW1enqStsbYCDRDN2hW4S1R2MWHXCc33hHe08AO7ksEDK8j7sik5gPxEJJytAqWHatyjelrqjXSk2qoz1;
    public static final String I6LkhDoyobAZpUWR7u8TLy96BaEzLD6NsEfZ1WToN49InL8ZmXzTR7xLAiP8QMALeyDHn6dbCQa1qdSAuOjVLAu5yoLQUJN6UcxK = "minecraft:blocks/";
    public static final String KwEKVNeYQRw1Vi07mCZoiFXURtYhbsgNDCYomGOrLdHhkqHqgyPLLpAN6X1CA0vdJHt98sSV8xUtdYZsn8T3ArOXhWJdjpf73g = "minecraft:items/";
-   private static IntBuffer syL6UWLnUMtPFIFKx7WRaPksbi53tc4HSA9aITKYhLi6eHO9gnbwY2VzSEAYb3Vah02mC31TFJUWNlsV49WTYiTtvXvWICjgQoUB = net.minecraft.client.renderer.fDoAJ9W9bXAT89550qV528PlQ3xBSnLnpyVbFpWqc5e8BN9pOqCYta3tS7TuKU1dJl7tt01b3fzVmBCmYvz5SizTFbmamdEnbpee.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(
+   private static IntBuffer syL6UWLnUMtPFIFKx7WRaPksbi53tc4HSA9aITKYhLi6eHO9gnbwY2VzSEAYb3Vah02mC31TFJUWNlsV49WTYiTtvXvWICjgQoUB = net.minecraft.client.renderer.fDoAJ9W9bXAT89550qV528PlQ3xBSnLnpyVbFpWqc5e8BN9pOqCYta3tS7TuKU1dJl7tt01b3fzVmBCmYvz5SizTFbmamdEnbpee.ButtonAction(
       256
    );
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      seh8dF7MVL4b5yxwwcAiszh8LXBDhUSdECTFRKjqLZLC7X2udGeJLCdlbKzxO8bVn3kwv0IUAU1jRBNRjsV0e2utdWrMnhWbUBRs var0 = BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   public static void BatModClient() {
+      seh8dF7MVL4b5yxwwcAiszh8LXBDhUSdECTFRKjqLZLC7X2udGeJLCdlbKzxO8bVn3kwv0IUAU1jRBNRjsV0e2utdWrMnhWbUBRs var0 = Button();
       if (var0 != null) {
          String var1 = "minecraft:blocks/";
-         gUyxxfEjXoDLNAgHHUnP1AMzZ8ioixY9BAypjiusQEsJz9UHusz3wCxRyuPTmNoGYvgKCMk4SmLTZozyxCaTcETlvh2e1rGmV1C = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         gUyxxfEjXoDLNAgHHUnP1AMzZ8ioixY9BAypjiusQEsJz9UHusz3wCxRyuPTmNoGYvgKCMk4SmLTZozyxCaTcETlvh2e1rGmV1C = var0.CustomSpinner(
             var1 + "grass_top"
          );
-         G9TE2qID2CrD7fIK0uBLyYE9xKN19FMGiULTDdqjDFmDfGUMjvSjc9eeoEyh7VW7es8akQ9kZHkiD9JxwtJgPDRGtVkS2dITyPSk = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         G9TE2qID2CrD7fIK0uBLyYE9xKN19FMGiULTDdqjDFmDfGUMjvSjc9eeoEyh7VW7es8akQ9kZHkiD9JxwtJgPDRGtVkS2dITyPSk = var0.CustomSpinner(
             var1 + "grass_side"
          );
-         LZfWw69seswzCwS2aLIETt9adtos81ZGbTny7x0uDxh11SiJvs3dE4IVvvAdj1kYIXCSG2jM9iYWTS1QAV94bWfSJkmTzhgsaLyl = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         LZfWw69seswzCwS2aLIETt9adtos81ZGbTny7x0uDxh11SiJvs3dE4IVvvAdj1kYIXCSG2jM9iYWTS1QAV94bWfSJkmTzhgsaLyl = var0.CustomSpinner(
             var1 + "grass_side_overlay"
          );
-         AhJmxLgoYUHtXqEsXuAO10GGPI1adOTRWWQW3c9ENa2fWdAVPasdqyNzQGetsLHGzC9GIpZXvmI22tJBxqoZw7u1SGfguYwRKd0I = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         AhJmxLgoYUHtXqEsXuAO10GGPI1adOTRWWQW3c9ENa2fWdAVPasdqyNzQGetsLHGzC9GIpZXvmI22tJBxqoZw7u1SGfguYwRKd0I = var0.CustomSpinner(
             var1 + "snow"
          );
-         aDDhjWj969sz6IzgOMTkzXNC2CnicjlTllf19oeduNo3K8AyvcmWQFlzs9tD0AIeTR1i4EX7JPcBR2B0QHhCq7mYm9pgZ3DZ1UAH = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         aDDhjWj969sz6IzgOMTkzXNC2CnicjlTllf19oeduNo3K8AyvcmWQFlzs9tD0AIeTR1i4EX7JPcBR2B0QHhCq7mYm9pgZ3DZ1UAH = var0.CustomSpinner(
             var1 + "grass_side_snowed"
          );
-         HIcIxKl1ySwMm70kI5Z7Ey7bZ11qFTYMmoRGkmweVrhs5fhV5N27WSwlIbSHqHycux8EyXiUr8ggbJzHd3Gjf6Yag83nRt11OyLn = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         HIcIxKl1ySwMm70kI5Z7Ey7bZ11qFTYMmoRGkmweVrhs5fhV5N27WSwlIbSHqHycux8EyXiUr8ggbJzHd3Gjf6Yag83nRt11OyLn = var0.CustomSpinner(
             var1 + "mycelium_side"
          );
-         SfmuZc1SobSZlHKCJucMVLA3DNMH6XACv7sE1WtGIL3Xu4YxuDOLGGkf37LRd8VzPhqiGdzutSvpKXc8AQwyZCDLNzOun6VymdGj = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         SfmuZc1SobSZlHKCJucMVLA3DNMH6XACv7sE1WtGIL3Xu4YxuDOLGGkf37LRd8VzPhqiGdzutSvpKXc8AQwyZCDLNzOun6VymdGj = var0.CustomSpinner(
             var1 + "mycelium_top"
          );
-         Xn1geDAY7a5uhS0abBLl94FsGYb6NwbYPkpDe8KgAH2GTmN8jQtQksXRYtjayIMujK3Yrf6WJpclcS3a0uvPszzCylhP8dnIAxtE = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         Xn1geDAY7a5uhS0abBLl94FsGYb6NwbYPkpDe8KgAH2GTmN8jQtQksXRYtjayIMujK3Yrf6WJpclcS3a0uvPszzCylhP8dnIAxtE = var0.CustomSpinner(
             var1 + "water_still"
          );
-         QsmhBt00sCV5kzNmK6yKQdj9jyeR6rIC0yljgLPfF6buNd5njBBKCTOxq1qDZ2dV38nVTFCda6KTBv9jWLeXYGjlb5neCRT7ZbR = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         QsmhBt00sCV5kzNmK6yKQdj9jyeR6rIC0yljgLPfF6buNd5njBBKCTOxq1qDZ2dV38nVTFCda6KTBv9jWLeXYGjlb5neCRT7ZbR = var0.CustomSpinner(
             var1 + "water_flow"
          );
-         jnCis9uEMIJZ4LbcTWwzvNFcfAAQmKbr9Emwb0P9A3l7dJFPYTlXePtRtSEtG9LkNhbL6vucUprNYzqcrc7GaplIkT1KqhS8UUG2 = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         jnCis9uEMIJZ4LbcTWwzvNFcfAAQmKbr9Emwb0P9A3l7dJFPYTlXePtRtSEtG9LkNhbL6vucUprNYzqcrc7GaplIkT1KqhS8UUG2 = var0.CustomSpinner(
             var1 + "lava_still"
          );
-         Qqr1wus4DMJMtY0SHbOSyZFbRmrQkiBGvDwS3UVZHcdpq1DpARO92IFlUiat7fDj0pklK0cuhadwn1flTSUxGSkzgb7QmGQs7d1o = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         Qqr1wus4DMJMtY0SHbOSyZFbRmrQkiBGvDwS3UVZHcdpq1DpARO92IFlUiat7fDj0pklK0cuhadwn1flTSUxGSkzgb7QmGQs7d1o = var0.CustomSpinner(
             var1 + "lava_flow"
          );
-         BGJk2IUiOBY8ec5KrYntsraFMINNKbNXHEIybI4nCnm7YXZ8HYrZYh6DNJsm4OOGik3A33iazvmTdVQYBSFyI7igcey5MxTDZkUv = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         BGJk2IUiOBY8ec5KrYntsraFMINNKbNXHEIybI4nCnm7YXZ8HYrZYh6DNJsm4OOGik3A33iazvmTdVQYBSFyI7igcey5MxTDZkUv = var0.CustomSpinner(
             var1 + "fire_layer_0"
          );
-         ujUvuz4WyO6KoH1kqyAYetKlhzPeqhJYrlcw4WEnxC5xzhepgcfvLGNVE3iaZoqsbxiWt1wSduLhMcgeZzoiKvZye9DJRdI2yr82 = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         ujUvuz4WyO6KoH1kqyAYetKlhzPeqhJYrlcw4WEnxC5xzhepgcfvLGNVE3iaZoqsbxiWt1wSduLhMcgeZzoiKvZye9DJRdI2yr82 = var0.CustomSpinner(
             var1 + "fire_layer_1"
          );
-         nuWP3Bei4rUZ6VCX2iWCHlHKiAsicTC9Ae69Jpwv4oZQMYPCTjiB0SikRnqAxZeaL93OS1vPuNC116DLDmI1tI2KbykrrH2Hg5n = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         nuWP3Bei4rUZ6VCX2iWCHlHKiAsicTC9Ae69Jpwv4oZQMYPCTjiB0SikRnqAxZeaL93OS1vPuNC116DLDmI1tI2KbykrrH2Hg5n = var0.CustomSpinner(
             var1 + "portal"
          );
-         H5AfuPi6A5dR1CMugDXgAoLQyJOF06VOkDTd7xZhA4PQTQa65SGEWInSjIFDT4he5MqClJs80ceNMzYDIqSK0srjcdqq9co84vr = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         H5AfuPi6A5dR1CMugDXgAoLQyJOF06VOkDTd7xZhA4PQTQa65SGEWInSjIFDT4he5MqClJs80ceNMzYDIqSK0srjcdqq9co84vr = var0.CustomSpinner(
             var1 + "glass"
          );
-         fdWwz8f4KFCqAE9dJn6mau1WTLndFo20uW0xKGHrGzxKLLekdm6Au5JckJN97q44pOxYege3lGXnjUzxAOzU02jeru5UtgB2VOo4 = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         fdWwz8f4KFCqAE9dJn6mau1WTLndFo20uW0xKGHrGzxKLLekdm6Au5JckJN97q44pOxYege3lGXnjUzxAOzU02jeru5UtgB2VOo4 = var0.CustomSpinner(
             var1 + "glass_pane_top"
          );
          String var2 = "minecraft:items/";
-         U6YdgALLoLmkuNoSN8o2dRLyN7wSv1wvyjFCXyN8OBYuTUbKZPvqEjwcaMZLS8aIvONsZmtJWdQ2wVtMDU7OVlNurFC162XCTuFi = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         U6YdgALLoLmkuNoSN8o2dRLyN7wSv1wvyjFCXyN8OBYuTUbKZPvqEjwcaMZLS8aIvONsZmtJWdQ2wVtMDU7OVlNurFC162XCTuFi = var0.CustomSpinner(
             var2 + "compass"
          );
-         J3gqUwkDP9cGFNTz5r2DW1enqStsbYCDRDN2hW4S1R2MWHXCc33hHe08AO7ksEDK8j7sik5gPxEJJytAqWHatyjelrqjXSk2qoz1 = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         J3gqUwkDP9cGFNTz5r2DW1enqStsbYCDRDN2hW4S1R2MWHXCc33hHe08AO7ksEDK8j7sik5gPxEJJytAqWHatyjelrqjXSk2qoz1 = var0.CustomSpinner(
             var2 + "clock"
          );
       }
    }
 
-   public static BufferedImage Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static BufferedImage BatModClient(
       String var0, BufferedImage var1
    ) {
       if (var0.startsWith("/mob/zombie") || var0.startsWith("/mob/pigzombie")) {
@@ -185,7 +185,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return var1;
    }
 
-   public static int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var0) {
+   public static int BatModClient(int var0) {
       byte var1 = 1;
 
       while (var1 < var0) {
@@ -195,7 +195,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return var1;
    }
 
-   public static int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(int var0) {
+   public static int Button(int var0) {
       byte var1 = 1;
 
       int var2;
@@ -206,7 +206,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return var2;
    }
 
-   public static int vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(int var0) {
+   public static int CustomSpinner(int var0) {
       byte var1 = 1;
 
       for (int var2 = 0; var2 < var0; var2++) {
@@ -216,16 +216,16 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return var1;
    }
 
-   public static sO4unvUzKVnXz5ASLN05f2QDMjYlVODr5N2Wzbj3c5xh2wCAPPdAxcze8P8lA9STTeFADPcIX11vfGwWNGQmF4VZ4BCW5WqpCMIc Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static sO4unvUzKVnXz5ASLN05f2QDMjYlVODr5N2Wzbj3c5xh2wCAPPdAxcze8P8lA9STTeFADPcIX11vfGwWNGQmF4VZ4BCW5WqpCMIc BatModClient(
       p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD var0
    ) {
       sO4unvUzKVnXz5ASLN05f2QDMjYlVODr5N2Wzbj3c5xh2wCAPPdAxcze8P8lA9STTeFADPcIX11vfGwWNGQmF4VZ4BCW5WqpCMIc var1 = xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.kRgnDZ05QynRaP5naeoBgLM5HcwcEUBIzV3fGokcRxXNQGK55onbwDUfE1NjdZHPihnA6UQTIo61LSmBeRu0p8ugNkLKSI9NVScP()
-         .BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var0);
+         .Button(var0);
       if (var1 != null) {
          return var1;
       }
 
-      if (!xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+      if (!xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.CustomSpinner(
          var0
       )) {
          return null;
@@ -235,49 +235,49 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
          var0
       );
       xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.kRgnDZ05QynRaP5naeoBgLM5HcwcEUBIzV3fGokcRxXNQGK55onbwDUfE1NjdZHPihnA6UQTIo61LSmBeRu0p8ugNkLKSI9NVScP()
-         .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, var2);
+         .BatModClient(var0, var2);
       return var2;
    }
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       nLK7ggr72JCMQAkNhlEZI1loJkpbLeNtbvky2vwkTBBwzYOIDypvHnBT7HlGQKJlFC4smVv14MzvvHNuiQ2ntsWFYuxyYaPA3iI8 var0
    ) {
-      if (BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() != null) {
-         xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      if (Button() != null) {
+         xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModClient(
             "*** Reloading custom textures ***"
          );
-         tbAdtjrVjTZnDNn67UBl9ovZNe5ulWEncmbDdjnupGrmQTMNmgLzPAIyD0xCV8FHIXTNfUaCKS8OEBoei8FbYSZSdtsBoi5hx2Ru.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         GTka5tuAxO4TMIfcOjUYeL2pePCOHThKmoneuyRPHSH1brJeCeypisosAiQ2xbWtFXUT0ggewgbgQZ9RT62nCbum4L1lAl6WJf.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         D9m3CWO7lnOl3Z9XCw1yItlneOj7JFVkLYzZUzazDhuz4rcvLjNP8PTCbvGi8K8P42enQZArxWGY9b3brk5PYLGupeinzA7StVrz.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         NCF4yCCo7Y3FaAZiAGlhWJegtVAnKgLg9NEcaQLlm01PzNz1iKqkYvRQuQFy0lyhK7zeLDGOG47xrMCWVmHstd3ando9nj3vaACm.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         zoUSWc3ANlMCY1DmHwCnohMroouCUKw0HPfEccyeYCz5K05Qmm8H3DPFXu2CjDb2cDK1JV4RQKv7aRS8qPbsqTtWUiYVmmhyt4vs.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         GTka5tuAxO4TMIfcOjUYeL2pePCOHThKmoneuyRPHSH1brJeCeypisosAiQ2xbWtFXUT0ggewgbgQZ9RT62nCbum4L1lAl6WJf.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
-         lNNqOLzvzcA8FfPsgNjBhvgM43UBACuRZ2pr4tH344QTdGZVvQi2XSLORyETE3McQLpkMODP0slgvG3kEMzWPNO9xzT6xhFW9ljV.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         tbAdtjrVjTZnDNn67UBl9ovZNe5ulWEncmbDdjnupGrmQTMNmgLzPAIyD0xCV8FHIXTNfUaCKS8OEBoei8FbYSZSdtsBoi5hx2Ru.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
-         xPuAtUT6z6M1r3eYhSWDTuNhaZTHagaHHRO19BVSI0IhpDBX2TDpdlTmWNxbu7giFxHBRVoTFgyQTt2NMSWd0u4vXP6GdOgGYOxo.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         WyAuEQO7C9ykNgIkZGRSyAkZznhxEWTa2sRoJtZBnAahveAPrhfBSeaeNHeQK212WfKyI6lD6ANXWHMLcIls3ylNjbLlsdJNb12i.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+         tbAdtjrVjTZnDNn67UBl9ovZNe5ulWEncmbDdjnupGrmQTMNmgLzPAIyD0xCV8FHIXTNfUaCKS8OEBoei8FbYSZSdtsBoi5hx2Ru.BatModClient();
+         GTka5tuAxO4TMIfcOjUYeL2pePCOHThKmoneuyRPHSH1brJeCeypisosAiQ2xbWtFXUT0ggewgbgQZ9RT62nCbum4L1lAl6WJf.BatModClient();
+         BatModClient();
+         D9m3CWO7lnOl3Z9XCw1yItlneOj7JFVkLYzZUzazDhuz4rcvLjNP8PTCbvGi8K8P42enQZArxWGY9b3brk5PYLGupeinzA7StVrz.BatModClient();
+         NCF4yCCo7Y3FaAZiAGlhWJegtVAnKgLg9NEcaQLlm01PzNz1iKqkYvRQuQFy0lyhK7zeLDGOG47xrMCWVmHstd3ando9nj3vaACm.BatModClient();
+         zoUSWc3ANlMCY1DmHwCnohMroouCUKw0HPfEccyeYCz5K05Qmm8H3DPFXu2CjDb2cDK1JV4RQKv7aRS8qPbsqTtWUiYVmmhyt4vs.BatModClient();
+         GTka5tuAxO4TMIfcOjUYeL2pePCOHThKmoneuyRPHSH1brJeCeypisosAiQ2xbWtFXUT0ggewgbgQZ9RT62nCbum4L1lAl6WJf.Button();
+         lNNqOLzvzcA8FfPsgNjBhvgM43UBACuRZ2pr4tH344QTdGZVvQi2XSLORyETE3McQLpkMODP0slgvG3kEMzWPNO9xzT6xhFW9ljV.BatModClient();
+         tbAdtjrVjTZnDNn67UBl9ovZNe5ulWEncmbDdjnupGrmQTMNmgLzPAIyD0xCV8FHIXTNfUaCKS8OEBoei8FbYSZSdtsBoi5hx2Ru.Button();
+         xPuAtUT6z6M1r3eYhSWDTuNhaZTHagaHHRO19BVSI0IhpDBX2TDpdlTmWNxbu7giFxHBRVoTFgyQTt2NMSWd0u4vXP6GdOgGYOxo.BatModClient();
+         WyAuEQO7C9ykNgIkZGRSyAkZznhxEWTa2sRoJtZBnAahveAPrhfBSeaeNHeQK212WfKyI6lD6ANXWHMLcIls3ylNjbLlsdJNb12i.BatModClient();
          shadersmod.client.mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv.nuWP3Bei4rUZ6VCX2iWCHlHKiAsicTC9Ae69Jpwv4oZQMYPCTjiB0SikRnqAxZeaL93OS1vPuNC116DLDmI1tI2KbykrrH2Hg5n();
-         FLnl2zjuTJaJY1kNjjMM6nZS55eciKlmOVQtCP6W2G7fDRN79ex2Gwwc2ykG2r2FA74tLSFAfiGjnQe9SxOnYgUN1e5aIsYWwaZb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-         br0slGdmlicKbMZ0XmbXGJZ7L0qs1DJymzcMu19mDoCV6yFH0hebtRS4h0YnugvZhkMa9vw517ROzBgX47iKPX7lT3cw8kfAGlCP.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+         FLnl2zjuTJaJY1kNjjMM6nZS55eciKlmOVQtCP6W2G7fDRN79ex2Gwwc2ykG2r2FA74tLSFAfiGjnQe9SxOnYgUN1e5aIsYWwaZb.BatModClient();
+         br0slGdmlicKbMZ0XmbXGJZ7L0qs1DJymzcMu19mDoCV6yFH0hebtRS4h0YnugvZhkMa9vw517ROzBgX47iKPX7lT3cw8kfAGlCP.BatModClient();
          xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4();
-         MXLYDWCyhVY3c8o7z7mQRzW9DTKb2V6zAg8XwOq4WV7VYm85IarbkLwhsQwSLIIx0jufZpxevDWPAW95IxL5o8uzeTrIu85edUJS.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+         MXLYDWCyhVY3c8o7z7mQRzW9DTKb2V6zAg8XwOq4WV7VYm85IarbkLwhsQwSLIIx0jufZpxevDWPAW95IxL5o8uzeTrIu85edUJS.BatModClient();
          xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.kRgnDZ05QynRaP5naeoBgLM5HcwcEUBIzV3fGokcRxXNQGK55onbwDUfE1NjdZHPihnA6UQTIo61LSmBeRu0p8ugNkLKSI9NVScP()
-            .BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+            .Button();
       }
    }
 
-   public static seh8dF7MVL4b5yxwwcAiszh8LXBDhUSdECTFRKjqLZLC7X2udGeJLCdlbKzxO8bVn3kwv0IUAU1jRBNRjsV0e2utdWrMnhWbUBRs BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB.HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU()
+   public static seh8dF7MVL4b5yxwwcAiszh8LXBDhUSdECTFRKjqLZLC7X2udGeJLCdlbKzxO8bVn3kwv0IUAU1jRBNRjsV0e2utdWrMnhWbUBRs Button() {
+      return AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB.BatModJson()
          .fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i();
    }
 
-   public static void vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
+   public static void CustomSpinner() {
       nLK7ggr72JCMQAkNhlEZI1loJkpbLeNtbvky2vwkTBBwzYOIDypvHnBT7HlGQKJlFC4smVv14MzvvHNuiQ2ntsWFYuxyYaPA3iI8 var0 = xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.FADAUWHNNvc5mYdDF7YdrF9AmOze4NuwJ3NivSAzsjyItTcM7ajimsBzoFCEBmmF58pGBtjJstkda9HiIkgMchNVE0K6LObhqwuV();
       if (var0 instanceof huiuMA2Lcjaz9njJ2CfhmbCjGj2TYMYTyHCJQZlsnReWBP0vODyemkId6DJxL44fWe5U28nbMbBbRiaWi2i8coOMYrPLmpydCert) {
          huiuMA2Lcjaz9njJ2CfhmbCjGj2TYMYTyHCJQZlsnReWBP0vODyemkId6DJxL44fWe5U28nbMbBbRiaWi2i8coOMYrPLmpydCert var1 = (huiuMA2Lcjaz9njJ2CfhmbCjGj2TYMYTyHCJQZlsnReWBP0vODyemkId6DJxL44fWe5U28nbMbBbRiaWi2i8coOMYrPLmpydCert)var0;
          EGkXhz5pS9cF70byJMatQ7DV6yY8HIVGX8YoTxnSfJir1NA74xDToqjLQDXeJmXUDSndnPdCbacLEzHA72yvqDH7zBh7hw0idRYR var2 = new EGkXhz5pS9cF70byJMatQ7DV6yY8HIVGX8YoTxnSfJir1NA74xDToqjLQDXeJmXUDSndnPdCbacLEzHA72yvqDH7zBh7hw0idRYR();
-         var1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var2);
+         var1.BatModClient(var2);
       }
 
       HKXmHozkQCOImsVxIXoMpq0Y0j3hG8Xxb2S4XXpivuBwIltPecYji6uEuMZoBOCfS9WECMO3PgHEBiiJdOMRG3ewWRZk5XCOFfxa var3 = new HKXmHozkQCOImsVxIXoMpq0Y0j3hG8Xxb2S4XXpivuBwIltPecYji6uEuMZoBOCfS9WECMO3PgHEBiiJdOMRG3ewWRZk5XCOFfxa();
@@ -285,10 +285,10 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
          "optifine/TickableTextures"
       );
       xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.kRgnDZ05QynRaP5naeoBgLM5HcwcEUBIzV3fGokcRxXNQGK55onbwDUfE1NjdZHPihnA6UQTIo61LSmBeRu0p8ugNkLKSI9NVScP()
-         .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var4, var3);
+         .BatModClient(var4, var3);
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, String var1) {
+   public static String BatModClient(String var0, String var1) {
       String var2 = "assets/minecraft/";
       if (var0.startsWith(var2)) {
          return var0.substring(var2.length());
@@ -316,12 +316,12 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       }
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0) {
+   public static String BatModClient(String var0) {
       int var1 = var0.lastIndexOf(47);
       return var1 < 0 ? "" : var0.substring(0, var1);
    }
 
-   public static void PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
+   public static void ButtonAction() {
       if (GLContext.getCapabilities().GL_EXT_texture_filter_anisotropic) {
          float var0 = GL11.glGetFloat(34047);
          float var1 = xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.SfmuZc1SobSZlHKCJucMVLA3DNMH6XACv7sE1WtGIL3Xu4YxuDOLGGkf37LRd8VzPhqiGdzutSvpKXc8AQwyZCDLNzOun6VymdGj();
@@ -330,20 +330,20 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       }
    }
 
-   public static void PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(int var0) {
-      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9(
+   public static void ButtonAction(int var0) {
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.ColorChooser(
          var0
       );
    }
 
-   public static boolean uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(int var0) {
-      int var1 = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+   public static boolean Spinner(int var0) {
+      int var1 = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.Button(
          var0
       );
       return var1 == var0;
    }
 
-   public static BufferedImage Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static BufferedImage BatModClient(
       BufferedImage var0, int var1
    ) {
       int var2 = var0.getWidth();
@@ -361,7 +361,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return var5;
    }
 
-   public static BufferedImage BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+   public static BufferedImage Button(
       BufferedImage var0, int var1
    ) {
       if (var0 == null) {
@@ -371,7 +371,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       int var2 = var0.getWidth();
       int var3 = var0.getHeight();
       int var4 = Math.max(var2, var1);
-      var4 = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+      var4 = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.Button(
          var4
       );
       if (var4 == var2) {
@@ -391,7 +391,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return var6;
    }
 
-   public static BufferedImage vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+   public static BufferedImage CustomSpinner(
       BufferedImage var0, int var1
    ) {
       if (var0 == null) {
@@ -419,7 +419,7 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return var6;
    }
 
-   public static Dimension Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(InputStream var0, String var1) {
+   public static Dimension BatModClient(InputStream var0, String var1) {
       Iterator var2 = ImageIO.getImageReadersBySuffix(var1);
 
       while (var2.hasNext()) {
@@ -444,29 +444,29 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
       return null;
    }
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       NbxJeOA4v8pDaO69APzkLeftsiXkfAtBjBW9A3s5xsRgujGLKiBHV37kJo2pYS96PpIDxkLlzuqYo9LIMJKydwA0cLB8mUiHsEtD var0
    ) {
-      int[][] var1 = var0.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(0);
+      int[][] var1 = var0.BatModClient(0);
 
       for (int var2 = 0; var2 < var1.length; var2++) {
          int[] var3 = var1[var2];
          if (var3 == null) {
-            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModClient(
                "" + var2 + ": " + var3
             );
          } else {
-            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModClient(
                "" + var2 + ": " + var3.length
             );
          }
       }
    }
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       String var0, int var1, int var2, int var3, int var4
    ) {
-      PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(var1);
+      ButtonAction(var1);
       GL11.glPixelStorei(3333, 1);
       GL11.glPixelStorei(3317, 1);
       File var5 = new File(var0);
@@ -494,21 +494,21 @@ public class uBMlMKyXwmX0EK0kfsijZNTp4hBUYFfRWKJefXsPH5ivKSSRJfU3L3LDkO7zU6NlrKI
 
          try {
             ImageIO.write(var14, "png", var18);
-            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModClient(
                "Exported: " + var18
             );
          } catch (Exception var16) {
-            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Button(
                "Error writing: " + var18
             );
-            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+            xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Button(
                "" + var16.getClass().getName() + ": " + var16.getMessage()
             );
          }
       }
    }
 
-   public static int uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590() {
+   public static int Spinner() {
       for (int var0 = 65536; var0 > 0; var0 >>= 1) {
          GL11.glTexImage2D(32868, 0, 6408, var0, var0, 0, 6408, 5121, (IntBuffer)null);
          int var1 = GL11.glGetError();

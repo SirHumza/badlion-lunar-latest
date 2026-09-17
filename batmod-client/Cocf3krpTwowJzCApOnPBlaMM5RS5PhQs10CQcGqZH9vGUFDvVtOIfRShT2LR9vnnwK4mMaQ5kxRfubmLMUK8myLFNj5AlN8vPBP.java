@@ -2,48 +2,48 @@ import java.util.List;
 
 public class Cocf3krpTwowJzCApOnPBlaMM5RS5PhQs10CQcGqZH9vGUFDvVtOIfRShT2LR9vnnwK4mMaQ5kxRfubmLMUK8myLFNj5AlN8vPBP
    implements jvIJM9vM80hBbNUlysk0Wp04jlfKkYwMZ0GeUi2djv2tvIrUEMMzWpOzBzGHTUa8NB1SsXXVQL4Uzk5XcUVMYFxH4zRLJmtPMAjv {
-   private yKTXE7HQ88q91YedQPRJ5dR4HmE8g2Sy2jB3TlmEAQkr73gZBi2i98r8cAk8lu7LuHhRiPY4GI22GqwUUTXManMpCXgvgpFlEeG Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   private yKTXE7HQ88q91YedQPRJ5dR4HmE8g2Sy2jB3TlmEAQkr73gZBi2i98r8cAk8lu7LuHhRiPY4GI22GqwUUTXManMpCXgvgpFlEeG BatModClient;
 
    public Cocf3krpTwowJzCApOnPBlaMM5RS5PhQs10CQcGqZH9vGUFDvVtOIfRShT2LR9vnnwK4mMaQ5kxRfubmLMUK8myLFNj5AlN8vPBP(
       yKTXE7HQ88q91YedQPRJ5dR4HmE8g2Sy2jB3TlmEAQkr73gZBi2i98r8cAk8lu7LuHhRiPY4GI22GqwUUTXManMpCXgvgpFlEeG var1
    ) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+      this.BatModClient = var1;
    }
 
    @Override
-   public List Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public List BatModClient(
       NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn var1
    ) {
       return null;
    }
 
    @Override
-   public List Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public List BatModClient() {
       return null;
    }
 
    @Override
-   public boolean BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
+   public boolean Button() {
       return false;
    }
 
    @Override
-   public boolean vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
+   public boolean CustomSpinner() {
       return true;
    }
 
    @Override
-   public boolean PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
+   public boolean ButtonAction() {
       return true;
    }
 
    @Override
-   public NbxJeOA4v8pDaO69APzkLeftsiXkfAtBjBW9A3s5xsRgujGLKiBHV37kJo2pYS96PpIDxkLlzuqYo9LIMJKydwA0cLB8mUiHsEtD uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590() {
+   public NbxJeOA4v8pDaO69APzkLeftsiXkfAtBjBW9A3s5xsRgujGLKiBHV37kJo2pYS96PpIDxkLlzuqYo9LIMJKydwA0cLB8mUiHsEtD Spinner() {
       return null;
    }
 
    @Override
-   public yKTXE7HQ88q91YedQPRJ5dR4HmE8g2Sy2jB3TlmEAQkr73gZBi2i98r8cAk8lu7LuHhRiPY4GI22GqwUUTXManMpCXgvgpFlEeG QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public yKTXE7HQ88q91YedQPRJ5dR4HmE8g2Sy2jB3TlmEAQkr73gZBi2i98r8cAk8lu7LuHhRiPY4GI22GqwUUTXManMpCXgvgpFlEeG Checkbox() {
+      return this.BatModClient;
    }
 }

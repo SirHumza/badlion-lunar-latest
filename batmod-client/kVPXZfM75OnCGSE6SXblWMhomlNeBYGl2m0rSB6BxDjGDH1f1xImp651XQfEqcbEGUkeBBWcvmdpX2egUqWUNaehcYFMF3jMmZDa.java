@@ -1,25 +1,25 @@
 public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUkeBBWcvmdpX2egUqWUNaehcYFMF3jMmZDa {
-   Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I("INVERT_MOUSE", 0, "options.invertMouse", false, true),
-   BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW("SENSITIVITY", 1, "options.sensitivity", true, false),
-   vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+   BatModClient("INVERT_MOUSE", 0, "options.invertMouse", false, true),
+   Button("SENSITIVITY", 1, "options.sensitivity", true, false),
+   CustomSpinner(
       "FOV", 2, "options.fov", true, false, 30.0F, 110.0F, 1.0F
    ),
-   PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u("GAMMA", 3, "options.gamma", true, false),
-   uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590("SATURATION", 4, "options.saturation", true, false),
-   QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0(
+   ButtonAction("GAMMA", 3, "options.gamma", true, false),
+   Spinner("SATURATION", 4, "options.saturation", true, false),
+   Checkbox(
       "RENDER_DISTANCE", 5, "options.renderDistance", true, false, 2.0F, 16.0F, 1.0F
    ),
-   kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ("VIEW_BOBBING", 6, "options.viewBobbing", false, true),
-   y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY("ANAGLYPH", 7, "options.anaglyph", false, true),
-   sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9(
+   ProgressBar("VIEW_BOBBING", 6, "options.viewBobbing", false, true),
+   BatModProgressBar("ANAGLYPH", 7, "options.anaglyph", false, true),
+   ColorChooser(
       "FRAMERATE_LIMIT", 8, "options.framerateLimit", true, false, 0.0F, 260.0F, 5.0F
    ),
-   lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ("FBO_ENABLE", 9, "options.fboEnable", false, true),
-   agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x(
+   IntegerSpinner("FBO_ENABLE", 9, "options.fboEnable", false, true),
+   TextField(
       "RENDER_CLOUDS", 10, "options.renderClouds", false, false
    ),
-   uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk("GRAPHICS", 11, "options.graphics", false, false),
-   Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ("AMBIENT_OCCLUSION", 12, "options.ao", false, false),
+   ColorTextPane("GRAPHICS", 11, "options.graphics", false, false),
+   BatModInstallerMain("AMBIENT_OCCLUSION", 12, "options.ao", false, false),
    aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA("GUI_SCALE", 13, "options.guiScale", false, false),
    LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN("PARTICLES", 14, "options.particles", false, false),
    G0rcuynoQrTk4Mlm1W4cvUs7IiESq1BrFuSO7kHX35743ulZsGy0aD8sXKTYCemKzVH381ngFOLPu19GPJvmjFGptlFYSbCdIcvr(
@@ -28,14 +28,14 @@ public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUke
    iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF("CHAT_COLOR", 16, "options.chat.color", false, true),
    bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ("CHAT_LINKS", 17, "options.chat.links", false, true),
    RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB("CHAT_OPACITY", 18, "options.chat.opacity", true, false),
-   J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40(
+   Downloader(
       "CHAT_LINKS_PROMPT", 19, "options.chat.links.prompt", false, true
    ),
-   zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t("SNOOPER_ENABLED", 20, "options.snooper", false, true),
+   InstallationLogger("SNOOPER_ENABLED", 20, "options.snooper", false, true),
    RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM("USE_FULLSCREEN", 21, "options.fullscreen", false, true),
    K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY("ENABLE_VSYNC", 22, "options.vsync", false, true),
-   CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl("USE_VBO", 23, "options.vbo", false, true),
-   HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU("TOUCHSCREEN", 24, "options.touchscreen", false, true),
+   ExitCode("USE_VBO", 23, "options.vbo", false, true),
+   BatModJson("TOUCHSCREEN", 24, "options.touchscreen", false, true),
    z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP("CHAT_SCALE", 25, "options.chat.scale", true, false),
    LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8("CHAT_WIDTH", 26, "options.chat.width", true, false),
    xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa(
@@ -87,7 +87,7 @@ public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUke
    ),
    fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i("", 999, "of.options.FOG_FANCY", false, false),
    dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11("", 999, "of.options.FOG_START", false, false),
-   lXnIKHX4LL4UVZqpHxViO6OjyXkTlTDY0epCVxu6ttLtuKke8pmpW0wcG0kcTCIzpgn9rnvQu9HzpRoIlINbDt0LmkQkzj7PO192(
+   GsonTypeAdapter(
       "", 999, "of.options.MIPMAP_TYPE", true, false, 0.0F, 3.0F, 1.0F
    ),
    mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv("", 999, "of.options.SMOOTH_FPS", false, false),
@@ -142,7 +142,7 @@ public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUke
    QUfwuIpwJdpMYqp9TtLAsZV4wZf4qlsjQYG9BTlYS9I7KD8y3MhRw4oulwjQwhFGAxktU3NGTvuDyehgVCMBD5Pbwp77LxcjxY06(
       "", 999, "of.options.AA_LEVEL", true, false, 0.0F, 16.0F, 1.0F
    ),
-   MWJ5r0gWxnrbQRERdHbEQ5btSE0IJdkSsk2GnILdqWqHlkelEHOvMcIsZmqRcrfRhRPSkf9W8NYEpkpnCZbZuQADYJQ7o4DriIXN(
+   JavaVersion(
       "", 999, "of.options.AF_LEVEL", true, false, 1.0F, 16.0F, 1.0F
    ),
    DzZdm7sbj5fc0LWuJIkMDtY5EmVUQLuOf9nW7lw5s8hBRACLJjtDkGIjnETQNSv6YRbKeOd7aP0GEbYYwZrLxwLcGZvM9sZ5MDJu("", 999, "of.options.ANIMATED_TEXTURES", false, false),
@@ -164,31 +164,31 @@ public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUke
    private float sPfEvBw4z42MuLNAJ3fjm44CtXlgBeqNcKzqAhN29y4psTiNTtwcTEgefZXj4FzI5UhTxUzVtAB0NIEofW0oY05Hpq9dLFiB8Ju;
    private float Idoukv4iAWw5oSAGknnDxFGc1PFg6zIgz3jnu2LWSgwso2586fVizxaNtB3tJvx7IBfqppxHQ2mc3f5N1ZZpaKWAxc7EVY34sulI;
    private static final kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUkeBBWcvmdpX2egUqWUNaehcYFMF3jMmZDa[] fADDKPP9dGbU0vQDmyPL1IKWS9tPMG4xAexsD9axiIcV4LTn2JVMH0lN56Yi7DYwKeTn9bW8uUU2nN3V66awfcBJQ79mxiZbwo4 = new kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUkeBBWcvmdpX2egUqWUNaehcYFMF3jMmZDa[]{
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I,
-      BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW,
-      vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5,
-      PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u,
-      uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590,
-      QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0,
-      kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ,
-      y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY,
-      sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9,
-      lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ,
-      agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x,
-      uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk,
-      Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ,
+      BatModClient,
+      Button,
+      CustomSpinner,
+      ButtonAction,
+      Spinner,
+      Checkbox,
+      ProgressBar,
+      BatModProgressBar,
+      ColorChooser,
+      IntegerSpinner,
+      TextField,
+      ColorTextPane,
+      BatModInstallerMain,
       aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA,
       LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN,
       G0rcuynoQrTk4Mlm1W4cvUs7IiESq1BrFuSO7kHX35743ulZsGy0aD8sXKTYCemKzVH381ngFOLPu19GPJvmjFGptlFYSbCdIcvr,
       iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF,
       bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ,
       RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB,
-      J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40,
-      zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t,
+      Downloader,
+      InstallationLogger,
       RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM,
       K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY,
-      CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl,
-      HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU,
+      ExitCode,
+      BatModJson,
       z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP,
       LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8,
       xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa,
@@ -211,11 +211,11 @@ public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUke
    };
    private static final String Q748HPpAbUSWyCwB8iKCbko2qRaLzXr4Q6pZFLmToxDljmN5Z1C6UwxMgK1PwOYyKxdoTC8kAtnHc7i6cvSUejTyyvxCwBSZ0ssV = "CL_00000653";
 
-   public static kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUkeBBWcvmdpX2egUqWUNaehcYFMF3jMmZDa Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUkeBBWcvmdpX2egUqWUNaehcYFMF3jMmZDa BatModClient(
       int var0
    ) {
       for (kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUkeBBWcvmdpX2egUqWUNaehcYFMF3jMmZDa var4 : values()) {
-         if (var4.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() == var0) {
+         if (var4.CustomSpinner() == var0) {
             return var4;
          }
       }
@@ -240,34 +240,34 @@ public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUke
       this.mRFNfHc3kblqdqWsLwzqRGIU02m0p9aXYDFmGNsAIxA7DlTNJQQ7y31t5ejW8Afe9z2InSkbKDnci9jD6eSnC1Tpsb6h3uVe4NBB = var10;
    }
 
-   public boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public boolean BatModClient() {
       return this.RUqkw82jraWSCIGF2QNaQFhXL4wZ8CWwofw2zR229DRg5nDAjg7StqUaeMQrcARH5DltmswNkDOzUmD4AXNdBgQwUeqHUAuADUgI;
    }
 
-   public boolean BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
+   public boolean Button() {
       return this.LTQwE0DrNKFDjmvx0fe8LpzggEMbyrNsjGxF9MSkTuiCRDJkRIuJ7MTRryUkPshBnTbPg4NTBAjHSn2k3rTwfLgb6HE9s7OE5rZP;
    }
 
-   public int vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
+   public int CustomSpinner() {
       return this.ordinal();
    }
 
-   public String PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
+   public String ButtonAction() {
       return this.PHC3PfXHfxNGhxr8qlmbwBgtFDAWis9MAjn8V7e7oXLSmezow4dZwTzrRYSwXzSWMtUii0JBu08E1JkvATKm8VH3vWAEeRNxaDVG;
    }
 
-   public float uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590() {
+   public float Spinner() {
       return this.Idoukv4iAWw5oSAGknnDxFGc1PFg6zIgz3jnu2LWSgwso2586fVizxaNtB3tJvx7IBfqppxHQ2mc3f5N1ZZpaKWAxc7EVY34sulI;
    }
 
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(float var1) {
+   public void BatModClient(float var1) {
       this.Idoukv4iAWw5oSAGknnDxFGc1PFg6zIgz3jnu2LWSgwso2586fVizxaNtB3tJvx7IBfqppxHQ2mc3f5N1ZZpaKWAxc7EVY34sulI = var1;
    }
 
-   public float BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(float var1) {
-      return u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public float Button(float var1) {
+      return u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BatModClient(
          (
-               this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(var1)
+               this.ButtonAction(var1)
                   - this.sPfEvBw4z42MuLNAJ3fjm44CtXlgBeqNcKzqAhN29y4psTiNTtwcTEgefZXj4FzI5UhTxUzVtAB0NIEofW0oY05Hpq9dLFiB8Ju
             )
             / (
@@ -279,29 +279,29 @@ public enum kVPXZfM75OnCGSE6SXblWMhomlNeBYGl2m0rSB6BxDjGDH1f1xImp651XQfEqcbEGUke
       );
    }
 
-   public float vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(float var1) {
-      return this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(
+   public float CustomSpinner(float var1) {
+      return this.ButtonAction(
          this.sPfEvBw4z42MuLNAJ3fjm44CtXlgBeqNcKzqAhN29y4psTiNTtwcTEgefZXj4FzI5UhTxUzVtAB0NIEofW0oY05Hpq9dLFiB8Ju
             + (
                   this.Idoukv4iAWw5oSAGknnDxFGc1PFg6zIgz3jnu2LWSgwso2586fVizxaNtB3tJvx7IBfqppxHQ2mc3f5N1ZZpaKWAxc7EVY34sulI
                      - this.sPfEvBw4z42MuLNAJ3fjm44CtXlgBeqNcKzqAhN29y4psTiNTtwcTEgefZXj4FzI5UhTxUzVtAB0NIEofW0oY05Hpq9dLFiB8Ju
                )
-               * u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+               * u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BatModClient(
                   var1, 0.0F, 1.0F
                )
       );
    }
 
-   public float PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(float var1) {
-      var1 = this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(var1);
-      return u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public float ButtonAction(float var1) {
+      var1 = this.Spinner(var1);
+      return u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BatModClient(
          var1,
          this.sPfEvBw4z42MuLNAJ3fjm44CtXlgBeqNcKzqAhN29y4psTiNTtwcTEgefZXj4FzI5UhTxUzVtAB0NIEofW0oY05Hpq9dLFiB8Ju,
          this.Idoukv4iAWw5oSAGknnDxFGc1PFg6zIgz3jnu2LWSgwso2586fVizxaNtB3tJvx7IBfqppxHQ2mc3f5N1ZZpaKWAxc7EVY34sulI
       );
    }
 
-   protected float uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(float var1) {
+   protected float Spinner(float var1) {
       if (this.mRFNfHc3kblqdqWsLwzqRGIU02m0p9aXYDFmGNsAIxA7DlTNJQQ7y31t5ejW8Afe9z2InSkbKDnci9jD6eSnC1Tpsb6h3uVe4NBB > 0.0F) {
          var1 = this.mRFNfHc3kblqdqWsLwzqRGIU02m0p9aXYDFmGNsAIxA7DlTNJQQ7y31t5ejW8Afe9z2InSkbKDnci9jD6eSnC1Tpsb6h3uVe4NBB
             * Math.round(var1 / this.mRFNfHc3kblqdqWsLwzqRGIU02m0p9aXYDFmGNsAIxA7DlTNJQQ7y31t5ejW8Afe9z2InSkbKDnci9jD6eSnC1Tpsb6h3uVe4NBB);

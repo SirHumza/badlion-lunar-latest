@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 public class H5AfuPi6A5dR1CMugDXgAoLQyJOF06VOkDTd7xZhA4PQTQa65SGEWInSjIFDT4he5MqClJs80ceNMzYDIqSK0srjcdqq9co84vr {
-   public static final File Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public static final File BatModClient() {
       JFileChooser var0 = new JFileChooser();
       FileNameExtensionFilter var1 = new FileNameExtensionFilter("PNG & JPG Format", "png", "jpg");
       var0.setFileFilter(var1);

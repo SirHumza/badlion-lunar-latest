@@ -1,18 +1,18 @@
 public class hnlg75yFDfNNghy880cAQfoiy9epOuzRX8SMqyUjdYAP3BuMsvaPGUnlFyzfyg8N07SEVb7sf0O82NcdsH8SE2O1MElxe3gW3IwG {
-   public final int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   public final int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
-   public final int vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
-   public final nZD97IYJgoCkqbY3eqh9DzbiIdeSrgaDt8d60eJWRNZ4ABlWrdayktqdGI2Ixo40gAJoaj4h3ajzpqk3iGm8gJ5iuMiRLLpgY3en PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u;
-   public final nZD97IYJgoCkqbY3eqh9DzbiIdeSrgaDt8d60eJWRNZ4ABlWrdayktqdGI2Ixo40gAJoaj4h3ajzpqk3iGm8gJ5iuMiRLLpgY3en uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590;
+   public final int BatModClient;
+   public final int Button;
+   public final int CustomSpinner;
+   public final nZD97IYJgoCkqbY3eqh9DzbiIdeSrgaDt8d60eJWRNZ4ABlWrdayktqdGI2Ixo40gAJoaj4h3ajzpqk3iGm8gJ5iuMiRLLpgY3en ButtonAction;
+   public final nZD97IYJgoCkqbY3eqh9DzbiIdeSrgaDt8d60eJWRNZ4ABlWrdayktqdGI2Ixo40gAJoaj4h3ajzpqk3iGm8gJ5iuMiRLLpgY3en Spinner;
 
    public hnlg75yFDfNNghy880cAQfoiy9epOuzRX8SMqyUjdYAP3BuMsvaPGUnlFyzfyg8N07SEVb7sf0O82NcdsH8SE2O1MElxe3gW3IwG(int var1, int var2, int var3) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var2;
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var3;
-      this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = hWMBbe1tOjEiAImIBH6FPljeGzgFkqwimOGmEMw740rfhtpEXwJTHpMWqJPXXtJXwCgg1q0TFBxFrqTzIEHfI11cHALyYAP79erU.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      this.BatModClient = var1;
+      this.Button = var2;
+      this.CustomSpinner = var3;
+      this.ButtonAction = hWMBbe1tOjEiAImIBH6FPljeGzgFkqwimOGmEMw740rfhtpEXwJTHpMWqJPXXtJXwCgg1q0TFBxFrqTzIEHfI11cHALyYAP79erU.BatModClient(
          this
       );
-      this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = hWMBbe1tOjEiAImIBH6FPljeGzgFkqwimOGmEMw740rfhtpEXwJTHpMWqJPXXtJXwCgg1q0TFBxFrqTzIEHfI11cHALyYAP79erU.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+      this.Spinner = hWMBbe1tOjEiAImIBH6FPljeGzgFkqwimOGmEMw740rfhtpEXwJTHpMWqJPXXtJXwCgg1q0TFBxFrqTzIEHfI11cHALyYAP79erU.Button(
          this
       );
    }

@@ -14,26 +14,26 @@ public class sFwZoCLbe2plq6RQGdOZvQTSw5PHoSb75lolMjTAhnShHfjymIQh41razLFRBA4WZDX
    }
 
    @Override
-   protected InputStream Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1) {
+   protected InputStream BatModClient(String var1) {
       return new BufferedInputStream(
-         new FileInputStream(new File(this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, var1))
+         new FileInputStream(new File(this.BatModClient, var1))
       );
    }
 
    @Override
-   protected boolean BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var1) {
-      return new File(this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, var1).isFile();
+   protected boolean Button(String var1) {
+      return new File(this.BatModClient, var1).isFile();
    }
 
    @Override
-   public Set vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
+   public Set CustomSpinner() {
       HashSet var1 = Sets.newHashSet();
-      File var2 = new File(this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, "assets/");
+      File var2 = new File(this.BatModClient, "assets/");
       if (var2.isDirectory()) {
          for (File var6 : var2.listFiles(DirectoryFileFilter.DIRECTORY)) {
-            String var7 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var2, var6);
+            String var7 = BatModClient(var2, var6);
             if (!var7.equals(var7.toLowerCase())) {
-               this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(var7);
+               this.CustomSpinner(var7);
             } else {
                var1.add(var7.substring(0, var7.length() - 1));
             }

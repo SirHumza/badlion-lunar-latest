@@ -1,5 +1,5 @@
 public class kvIxclRVfuAdAbokyBTb7eQAEWASDQA5B8MUHbok5qO9cNIkKefC0qaOPKe9ET81tjXl9XOFLXjSvr2dhHQTOef8CDuEICtQT1X {
-   public static int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int[] var0) {
+   public static int BatModClient(int[] var0) {
       if (var0.length <= 0) {
          return 0;
       }

@@ -1,32 +1,32 @@
 public class ahodLmKtm7kdPXD9noe2i5SkjtGMullkag3lb7bfKz880b6p1HRt0kRhk3eMRSibpnsTxRWpJkcJMhF46nACzToeQH1apCPJaJfK {
-   private static zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1 Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
-   private static zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1 BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = new zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1();
+   private static zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1 BatModClient = zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1.BatModClient();
+   private static zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1 Button = new zjWzRP3AxPeE17fCkVkiYXl2etu9y2YqFfZlsEnVBoYLcOsespyLIJ6aqzEuA7vmUjjxFb44YmeLj7fkLMA4tM1xuJnFIu8WjV1();
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String BatModClient(String var0) {
+      return BatModClient.BatModClient(
          var0
       );
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, Object... var1) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String BatModClient(String var0, Object... var1) {
+      return BatModClient.BatModClient(
          var0, var1
       );
    }
 
-   public static String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0) {
-      return BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String Button(String var0) {
+      return Button.BatModClient(
          var0
       );
    }
 
-   public static boolean vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(String var0) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+   public static boolean CustomSpinner(String var0) {
+      return BatModClient.Button(
          var0
       );
    }
 
-   public static long Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   public static long BatModClient() {
+      return BatModClient.Button();
    }
 }

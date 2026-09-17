@@ -6,11 +6,11 @@ public class Q1zkhfLPuQYYXTRSHnPlUKE6ZuQW7gqd3bMb4NUqWMeV1Js7A5yHSBKmWh3dJfUKxV4
    ) {
       super("player_death");
       if (var1 != null) {
-         this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I("player", var1.C_());
+         this.BatModClient("player", var1.C_());
       }
 
       if (var2 != null) {
-         this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I("killer", var2.C_());
+         this.BatModClient("killer", var2.C_());
       }
    }
 }

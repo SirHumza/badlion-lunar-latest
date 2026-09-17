@@ -1,5 +1,5 @@
 public class RSQQcxUkrMjjgtkOewiFsb8QCHLDrhduE7BEjTPqZtflLrvCP7eFbdU7jKXj6qP2SqivDCFDuJ90sJ5GVf2P0YMdGQ6bpzV8V7Wx {
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       fyZHvAc42MB0Bu0J2ogCjNyWdEgSTnpzdP2jvMzOaPsju8nPffPRDzLwKSnmA6lzZri3iNZGNWrbINOrUPalHNlLqHUVU6Zoy5hx var0,
       xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1
    ) {
@@ -9,12 +9,12 @@ public class RSQQcxUkrMjjgtkOewiFsb8QCHLDrhduE7BEjTPqZtflLrvCP7eFbdU7jKXj6qP2Sqi
             var2 = 1;
          }
 
-         UCENYKH7F0x227OUCggfsnAPJxXYXT14wC0zE11MTpS2DM598hvLVpNcsB3ijvF99KS849Ziwp4JXYlkIDkT9eQMg4Xhfz2ax1EW.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-            fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ,
+         UCENYKH7F0x227OUCggfsnAPJxXYXT14wC0zE11MTpS2DM598hvLVpNcsB3ijvF99KS849Ziwp4JXYlkIDkT9eQMg4Xhfz2ax1EW.BatModClient(
+            fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.IntegerSpinner,
             var2
          );
-         UCENYKH7F0x227OUCggfsnAPJxXYXT14wC0zE11MTpS2DM598hvLVpNcsB3ijvF99KS849Ziwp4JXYlkIDkT9eQMg4Xhfz2ax1EW.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-            fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9,
+         UCENYKH7F0x227OUCggfsnAPJxXYXT14wC0zE11MTpS2DM598hvLVpNcsB3ijvF99KS849Ziwp4JXYlkIDkT9eQMg4Xhfz2ax1EW.BatModClient(
+            fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.ColorChooser,
             var2
          );
       }
@@ -35,8 +35,8 @@ public class RSQQcxUkrMjjgtkOewiFsb8QCHLDrhduE7BEjTPqZtflLrvCP7eFbdU7jKXj6qP2Sqi
 
                for (int var11 = var6; var11 < var7; var11++) {
                   for (int var12 = var8; var12 < var9; var12++) {
-                     if (var25.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var11, var12)) {
-                        WFM9Cm1dG5UM75egPVZKJjH3pNRWEk1nnNZXHR3nmOshD2xHlIeqhy8gYUsp6Jq8ZYaCBjgFr5iPawSvAOR4XvcV98SmSU6NECpj var13 = var25.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(
+                     if (var25.BatModClient(var11, var12)) {
+                        WFM9Cm1dG5UM75egPVZKJjH3pNRWEk1nnNZXHR3nmOshD2xHlIeqhy8gYUsp6Jq8ZYaCBjgFr5iPawSvAOR4XvcV98SmSU6NECpj var13 = var25.ButtonAction(
                            var11, var12
                         );
                         if (var13 != null
@@ -54,31 +54,31 @@ public class RSQQcxUkrMjjgtkOewiFsb8QCHLDrhduE7BEjTPqZtflLrvCP7eFbdU7jKXj6qP2Sqi
 
                            for (int var20 = var14; var20 < var16; var20++) {
                               for (int var21 = var15; var21 < var17; var21++) {
-                                 var18.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var20, 0, var21);
+                                 var18.Button(var20, 0, var21);
                                  q15Hrb7HPiXUZJsH3CBPEgtS2dBsU3MPPT72hjpoKm9nktzO32O8rewmFT7fqIM36QFgzptSfVW7TW1sEMV8VoaK1YvNABwRXVW var22 = var1.iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF(
                                     var18
                                  );
 
                                  for (int var23 = 0;
-                                    var23 < var22.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9();
+                                    var23 < var22.ColorChooser();
                                     var23++
                                  ) {
-                                    var19.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+                                    var19.Button(
                                        var20, var23, var21
                                     );
-                                    jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS var24 = var1.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+                                    jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS var24 = var1.Button(
                                        var19
                                     );
-                                    if (var24.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5()
-                                          .QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0()
-                                       == wrWzf43CgVtAVZ1fRw9f5EeOX2awWPqkiOOzM9NBeGOkKeHUGxJGSbBgaRlMmokj4Wr4yG2BsJj5tSd9CZ7IyeywOQ9MmPXeIbis.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY
+                                    if (var24.CustomSpinner()
+                                          .Checkbox()
+                                       == wrWzf43CgVtAVZ1fRw9f5EeOX2awWPqkiOOzM9NBeGOkKeHUGxJGSbBgaRlMmokj4Wr4yG2BsJj5tSd9CZ7IyeywOQ9MmPXeIbis.BatModProgressBar
                                        )
                                      {
-                                       var1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+                                       var1.BatModClient(
                                           var20,
                                           var21,
-                                          var19.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9(),
-                                          var22.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9()
+                                          var19.ColorChooser(),
+                                          var22.ColorChooser()
                                        );
                                        var10++;
                                        break;
@@ -93,13 +93,13 @@ public class RSQQcxUkrMjjgtkOewiFsb8QCHLDrhduE7BEjTPqZtflLrvCP7eFbdU7jKXj6qP2Sqi
 
                if (var10 > 0) {
                   String var26 = "server";
-                  if (xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ()
+                  if (xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModInstallerMain()
                      )
                    {
                      var26 = "client";
                   }
 
-                  xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+                  xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModClient(
                      "ClearWater (" + var26 + ") relighted " + var10 + " chunks"
                   );
                }

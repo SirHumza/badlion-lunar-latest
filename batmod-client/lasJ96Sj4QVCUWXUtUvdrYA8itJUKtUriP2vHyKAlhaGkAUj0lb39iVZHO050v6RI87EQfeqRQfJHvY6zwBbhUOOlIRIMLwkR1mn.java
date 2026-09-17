@@ -8,42 +8,42 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87EQfeqRQfJHvY6zwBbhUOOlIRIMLwkR1mn {
-   public static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, String var1) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(new String[]{var0}, new String[]{var1});
+   public static String[] BatModClient(String var0, String var1) {
+      return BatModClient(new String[]{var0}, new String[]{var1});
    }
 
-   public static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String[] var0, String[] var1) {
+   public static String[] BatModClient(String[] var0, String[] var1) {
       LinkedHashSet var2 = new LinkedHashSet();
       oBHNY7qtwzT6QY6cYKxrJI45JyDqUuRcgM13iBH0JJRrIVm2c8i87DKyGScVvgaEIxB3nOLMtvMkWAlYvExMRDCR1kdBeLifmGgr[] var3 = xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.sYnUURIAVBn5alv5OIWfx1VLlOfT3WWU56uCbgwb5jFQGu2Mx1vpkVOFNd6tNSVUTz961VTROqHcMITzDqQXPBvp6LdlJFJxhNQf();
 
       for (int var4 = 0; var4 < var3.length; var4++) {
          oBHNY7qtwzT6QY6cYKxrJI45JyDqUuRcgM13iBH0JJRrIVm2c8i87DKyGScVvgaEIxB3nOLMtvMkWAlYvExMRDCR1kdBeLifmGgr var5 = var3[var4];
-         String[] var6 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var5, var0, var1, (String[])null);
+         String[] var6 = BatModClient(var5, var0, var1, (String[])null);
          var2.addAll(Arrays.asList(var6));
       }
 
       return var2.toArray(new String[var2.size()]);
    }
 
-   public static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String[] BatModClient(
       oBHNY7qtwzT6QY6cYKxrJI45JyDqUuRcgM13iBH0JJRrIVm2c8i87DKyGScVvgaEIxB3nOLMtvMkWAlYvExMRDCR1kdBeLifmGgr var0, String var1, String var2, String[] var3
    ) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      return BatModClient(
          var0, new String[]{var1}, new String[]{var2}, var3
       );
    }
 
-   public static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String[] BatModClient(
       oBHNY7qtwzT6QY6cYKxrJI45JyDqUuRcgM13iBH0JJRrIVm2c8i87DKyGScVvgaEIxB3nOLMtvMkWAlYvExMRDCR1kdBeLifmGgr var0, String[] var1, String[] var2
    ) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, var1, var2, (String[])null);
+      return BatModClient(var0, var1, var2, (String[])null);
    }
 
-   public static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String[] BatModClient(
       oBHNY7qtwzT6QY6cYKxrJI45JyDqUuRcgM13iBH0JJRrIVm2c8i87DKyGScVvgaEIxB3nOLMtvMkWAlYvExMRDCR1kdBeLifmGgr var0, String[] var1, String[] var2, String[] var3
    ) {
       if (var0 instanceof afjezsdVksWiy0jQvw1umUEyrWmQZvrg1rm7hSgs8cZb7fZaoUPrFm8cfEoFJ28FH4ZVBhfvXC5skIoqxaAlmlkrTtUIrJJNUIT7) {
-         return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, var3);
+         return BatModClient(var0, var3);
       }
 
       if (!(var0 instanceof js8IhP7JieBz8pRpMyza2AHRscWcsir5ONrBljFoJMl6PtgMlsk34luC3IRado0LemsX3zBSzRCMdozHX5n0pZFPO1B4GZIBv1Rh)) {
@@ -51,21 +51,21 @@ public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87
       }
 
       js8IhP7JieBz8pRpMyza2AHRscWcsir5ONrBljFoJMl6PtgMlsk34luC3IRado0LemsX3zBSzRCMdozHX5n0pZFPO1B4GZIBv1Rh var4 = (js8IhP7JieBz8pRpMyza2AHRscWcsir5ONrBljFoJMl6PtgMlsk34luC3IRado0LemsX3zBSzRCMdozHX5n0pZFPO1B4GZIBv1Rh)var0;
-      File var5 = var4.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+      File var5 = var4.BatModClient;
       return var5 == null
          ? new String[0]
          : (
             var5.isDirectory()
-               ? Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var5, "", var1, var2)
+               ? BatModClient(var5, "", var1, var2)
                : (
                   var5.isFile()
-                     ? Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var5, var1, var2)
+                     ? BatModClient(var5, var1, var2)
                      : new String[0]
                )
          );
    }
 
-   private static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   private static String[] BatModClient(
       oBHNY7qtwzT6QY6cYKxrJI45JyDqUuRcgM13iBH0JJRrIVm2c8i87DKyGScVvgaEIxB3nOLMtvMkWAlYvExMRDCR1kdBeLifmGgr var0, String[] var1
    ) {
       if (var1 == null) {
@@ -79,7 +79,7 @@ public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87
          p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD var5 = new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD(
             var4
          );
-         if (var0.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var5)) {
+         if (var0.Button(var5)) {
             var2.add(var4);
          }
       }
@@ -87,7 +87,7 @@ public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87
       return var2.toArray(new String[var2.size()]);
    }
 
-   private static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   private static String[] BatModClient(
       File var0, String var1, String[] var2, String[] var3
    ) {
       ArrayList var4 = new ArrayList();
@@ -103,10 +103,10 @@ public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87
             String var13 = var1 + var8.getName();
             if (var13.startsWith(var5)) {
                var13 = var13.substring(var5.length());
-               if (XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+               if (XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.BatModClient(
                      var13, var2
                   )
-                  && XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+                  && XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.Button(
                      var13, var3
                   )) {
                   var4.add(var13);
@@ -114,7 +114,7 @@ public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87
             }
          } else if (var8.isDirectory()) {
             String var9 = var1 + var8.getName() + "/";
-            String[] var10 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var8, var9, var2, var3);
+            String[] var10 = BatModClient(var8, var9, var2, var3);
 
             for (int var11 = 0; var11 < var10.length; var11++) {
                String var12 = var10[var11];
@@ -126,7 +126,7 @@ public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87
       return var4.toArray(new String[var4.size()]);
    }
 
-   private static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   private static String[] BatModClient(
       File var0, String[] var1, String[] var2
    ) {
       ArrayList var3 = new ArrayList();
@@ -141,10 +141,10 @@ public class lasJ96Sj4QVCUWXUtUvdrYA8itJUKtUriP2vHyKAlhaGkAUj0lb39iVZHO050v6RI87
             String var8 = var7.getName();
             if (var8.startsWith(var4)) {
                var8 = var8.substring(var4.length());
-               if (XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+               if (XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.BatModClient(
                      var8, var1
                   )
-                  && XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+                  && XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8.Button(
                      var8, var2
                   )) {
                   var3.add(var8);

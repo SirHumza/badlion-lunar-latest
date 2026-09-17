@@ -1,9 +1,9 @@
 public interface Uz0jPJEra2nnPJLn4g2gOzvwUbTsMZ6ePon61S8yuH0w22PQUSaw9pMWMNWMolFRggK07BngCvJodW558jdNOZ1xfnVgaNAlVSsF {
-   String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+   String BatModClient();
 
-   boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Object var1);
+   boolean BatModClient(Object var1);
 
-   Class BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   Class Button();
 
-   String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(Object var1);
+   String Button(Object var1);
 }

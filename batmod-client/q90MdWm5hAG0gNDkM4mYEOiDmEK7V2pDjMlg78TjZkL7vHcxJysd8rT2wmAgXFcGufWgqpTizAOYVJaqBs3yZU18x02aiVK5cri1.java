@@ -1,33 +1,33 @@
 import java.util.List;
 
 public interface q90MdWm5hAG0gNDkM4mYEOiDmEK7V2pDjMlg78TjZkL7vHcxJysd8rT2wmAgXFcGufWgqpTizAOYVJaqBs3yZU18x02aiVK5cri1 {
-   String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+   String BatModClient();
 
-   nHjY09oBC8pmaq5B4wtsQUagpZk2EFsC1TXk8OLYGYqBCzlRExe9LR7ewBkIkYDxWBGpdDgPCqNGSyztABVqtUKUSvHescVqSecT Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   nHjY09oBC8pmaq5B4wtsQUagpZk2EFsC1TXk8OLYGYqBCzlRExe9LR7ewBkIkYDxWBGpdDgPCqNGSyztABVqtUKUSvHescVqSecT BatModClient(
       String var1, boolean var2
    );
 
-   List BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   List Button();
 
-   void PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u();
+   void ButtonAction();
 
-   KitVScYE9kT111hKrLPkEwp7zG3KSm9e3NBwqloD0cWi3xqPVuWeW5wgEZsUOSSFuyDI5vihOc1q1MDgkBoUdUsYT0oFWcNPr7oC vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+   KitVScYE9kT111hKrLPkEwp7zG3KSm9e3NBwqloD0cWi3xqPVuWeW5wgEZsUOSSFuyDI5vihOc1q1MDgkBoUdUsYT0oFWcNPr7oC CustomSpinner(
       String var1
    );
 
-   boolean PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(String var1);
+   boolean ButtonAction(String var1);
 
-   boolean uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(String var1);
+   boolean Spinner(String var1);
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1, String var2);
+   void BatModClient(String var1, String var2);
 
-   boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1);
+   boolean BatModClient(String var1);
 
-   boolean BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var1);
+   boolean Button(String var1);
 
-   boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   boolean BatModClient(
       String var1, iJ3b2qzegVIaPj9gtoKCyZaxHKPjqdkShc17nlIQiAxQhfK0MLieeVuXyQRC3UBSrH1qBX3rDcYNevqRHCQdWOt4Br58MC6LRlqh var2
    );
 
-   boolean QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0(String var1);
+   boolean Checkbox(String var1);
 }

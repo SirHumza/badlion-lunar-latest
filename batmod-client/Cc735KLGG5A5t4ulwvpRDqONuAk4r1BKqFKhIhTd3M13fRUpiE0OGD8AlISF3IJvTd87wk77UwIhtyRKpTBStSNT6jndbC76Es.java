@@ -4,33 +4,33 @@ import tv.twitch.chat.ChatTokenizedMessage;
 import tv.twitch.chat.ChatUserInfo;
 
 public interface Cc735KLGG5A5t4ulwvpRDqONuAk4r1BKqFKhIhTd3M13fRUpiE0OGD8AlISF3IJvTd87wk77UwIhtyRKpTBStSNT6jndbC76Es {
-   void PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(ErrorCode var1);
+   void ButtonAction(ErrorCode var1);
 
-   void uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(ErrorCode var1);
+   void Spinner(ErrorCode var1);
 
-   void PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u();
+   void ButtonAction();
 
-   void uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590();
+   void Spinner();
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   void BatModClient(
       K8kdtuqdgwZ5HqZHArQfmiyBqudd3v0hXzzY29eWxfWgIM1n2h3he8J0HGOCfpcfCR6S5TWhHq5OBPlgaWv3BmDMv49BbUaqZdmj var1
    );
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1, ChatTokenizedMessage[] var2);
+   void BatModClient(String var1, ChatTokenizedMessage[] var2);
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1, ChatRawMessage[] var2);
+   void BatModClient(String var1, ChatRawMessage[] var2);
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   void BatModClient(
       String var1, ChatUserInfo[] var2, ChatUserInfo[] var3, ChatUserInfo[] var4
    );
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1);
+   void BatModClient(String var1);
 
-   void BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var1);
+   void Button(String var1);
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1, String var2);
+   void BatModClient(String var1, String var2);
 
-   void vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(String var1);
+   void CustomSpinner(String var1);
 
-   void PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(String var1);
+   void ButtonAction(String var1);
 }

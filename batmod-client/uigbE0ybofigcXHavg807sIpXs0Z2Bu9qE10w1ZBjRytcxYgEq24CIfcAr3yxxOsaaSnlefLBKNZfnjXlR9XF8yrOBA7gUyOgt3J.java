@@ -6,13 +6,13 @@ public class uigbE0ybofigcXHavg807sIpXs0Z2Bu9qE10w1ZBjRytcxYgEq24CIfcAr3yxxOsaaS
       super(
          wrWzf43CgVtAVZ1fRw9f5EeOX2awWPqkiOOzM9NBeGOkKeHUGxJGSbBgaRlMmokj4Wr4yG2BsJj5tSd9CZ7IyeywOQ9MmPXeIbis.OVft42XaDrpCid053XFq1EPZ8CkxDYortlwtRX4zTf4L5KT5wFCJrMIQs1I0or0K1OcKP82y3PpnybjZEMRPyyEezZIs1zuJDGFF
       );
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-         umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5
+      this.BatModClient(
+         umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt.CustomSpinner
       );
    }
 
    @Override
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public void BatModClient(
       xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1,
       q15Hrb7HPiXUZJsH3CBPEgtS2dBsU3MPPT72hjpoKm9nktzO32O8rewmFT7fqIM36QFgzptSfVW7TW1sEMV8VoaK1YvNABwRXVW var2,
       jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS var3,
@@ -27,7 +27,7 @@ public class uigbE0ybofigcXHavg807sIpXs0Z2Bu9qE10w1ZBjRytcxYgEq24CIfcAr3yxxOsaaS
    }
 
    @Override
-   public rMcDsHAGrjrEOCBuKEh0Q5LxfAC6cuZ85B6g60Fyy4MSniKFsCESPLCL6GD34AOxmg8xaf9PuIaEBFVwsyZnyXwpdCqNyuOZNaT Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public rMcDsHAGrjrEOCBuKEh0Q5LxfAC6cuZ85B6g60Fyy4MSniKFsCESPLCL6GD34AOxmg8xaf9PuIaEBFVwsyZnyXwpdCqNyuOZNaT BatModClient(
       xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1,
       q15Hrb7HPiXUZJsH3CBPEgtS2dBsU3MPPT72hjpoKm9nktzO32O8rewmFT7fqIM36QFgzptSfVW7TW1sEMV8VoaK1YvNABwRXVW var2,
       jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS var3
@@ -36,12 +36,12 @@ public class uigbE0ybofigcXHavg807sIpXs0Z2Bu9qE10w1ZBjRytcxYgEq24CIfcAr3yxxOsaaS
    }
 
    @Override
-   public boolean lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ() {
+   public boolean IntegerSpinner() {
       return false;
    }
 
    @Override
-   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 BatModClient(
       jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS var1, Random var2, int var3
    ) {
       return PQv5Bfmc3YgYFvAC2dTnUn4Di1xPI6iL6HyB7PFNLFxAoip71NusUPE2c3nBlPseU8qI9uFV111SHY6yVG0uWx8HL7qy9GXeQgzJ.GpDFKWkpAtoLQB0W2XCV5bHrfhV8v60U9eVAz8acb1obB7yclvZIoJJBby5GbawXebsAfQocYajpCi0D7X4qgixSfAmUGJnoMIBj;
@@ -54,6 +54,6 @@ public class uigbE0ybofigcXHavg807sIpXs0Z2Bu9qE10w1ZBjRytcxYgEq24CIfcAr3yxxOsaaS
 
    @Override
    public ketOqBRvbaV3Nohf97dopqEJvi13l48SKGHfjkInJMa6TwLQvT3SVR8akHfeVpPs7XYrLQ0Lp14HOVYpCHXuUGk90tvv0nuMweBi iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF() {
-      return ketOqBRvbaV3Nohf97dopqEJvi13l48SKGHfjkInJMa6TwLQvT3SVR8akHfeVpPs7XYrLQ0Lp14HOVYpCHXuUGk90tvv0nuMweBi.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+      return ketOqBRvbaV3Nohf97dopqEJvi13l48SKGHfjkInJMa6TwLQvT3SVR8akHfeVpPs7XYrLQ0Lp14HOVYpCHXuUGk90tvv0nuMweBi.CustomSpinner;
    }
 }

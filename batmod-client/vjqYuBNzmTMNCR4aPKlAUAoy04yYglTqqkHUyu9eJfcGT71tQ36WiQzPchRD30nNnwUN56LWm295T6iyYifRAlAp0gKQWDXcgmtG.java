@@ -1,9 +1,9 @@
 public class vjqYuBNzmTMNCR4aPKlAUAoy04yYglTqqkHUyu9eJfcGT71tQ36WiQzPchRD30nNnwUN56LWm295T6iyYifRAlAp0gKQWDXcgmtG {
-   public final int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   public final int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public final int BatModClient;
+   public final int Button;
 
    public vjqYuBNzmTMNCR4aPKlAUAoy04yYglTqqkHUyu9eJfcGT71tQ36WiQzPchRD30nNnwUN56LWm295T6iyYifRAlAp0gKQWDXcgmtG(int var1, int var2) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var2;
+      this.BatModClient = var1;
+      this.Button = var2;
    }
 }

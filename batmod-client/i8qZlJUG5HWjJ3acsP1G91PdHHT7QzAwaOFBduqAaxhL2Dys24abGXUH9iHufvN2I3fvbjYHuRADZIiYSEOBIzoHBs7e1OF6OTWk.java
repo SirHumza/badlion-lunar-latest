@@ -1,16 +1,16 @@
 public class i8qZlJUG5HWjJ3acsP1G91PdHHT7QzAwaOFBduqAaxhL2Dys24abGXUH9iHufvN2I3fvbjYHuRADZIiYSEOBIzoHBs7e1OF6OTWk {
-   public float Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   public float BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public float BatModClient;
+   public float Button;
 
    public i8qZlJUG5HWjJ3acsP1G91PdHHT7QzAwaOFBduqAaxhL2Dys24abGXUH9iHufvN2I3fvbjYHuRADZIiYSEOBIzoHBs7e1OF6OTWk(float var1, float var2) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var2;
+      this.BatModClient = var1;
+      this.Button = var2;
    }
 
-   public i8qZlJUG5HWjJ3acsP1G91PdHHT7QzAwaOFBduqAaxhL2Dys24abGXUH9iHufvN2I3fvbjYHuRADZIiYSEOBIzoHBs7e1OF6OTWk Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public i8qZlJUG5HWjJ3acsP1G91PdHHT7QzAwaOFBduqAaxhL2Dys24abGXUH9iHufvN2I3fvbjYHuRADZIiYSEOBIzoHBs7e1OF6OTWk BatModClient() {
       return new i8qZlJUG5HWjJ3acsP1G91PdHHT7QzAwaOFBduqAaxhL2Dys24abGXUH9iHufvN2I3fvbjYHuRADZIiYSEOBIzoHBs7e1OF6OTWk(
-         this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I * 0.8F,
-         this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW * 0.6F
+         this.BatModClient * 0.8F,
+         this.Button * 0.6F
       );
    }
 }

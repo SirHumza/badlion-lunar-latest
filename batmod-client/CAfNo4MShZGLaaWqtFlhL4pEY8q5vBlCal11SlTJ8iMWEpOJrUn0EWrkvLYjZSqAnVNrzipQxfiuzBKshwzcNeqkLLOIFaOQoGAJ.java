@@ -1,27 +1,27 @@
 public class CAfNo4MShZGLaaWqtFlhL4pEY8q5vBlCal11SlTJ8iMWEpOJrUn0EWrkvLYjZSqAnVNrzipQxfiuzBKshwzcNeqkLLOIFaOQoGAJ
    implements bsChXkA5iFvdeD4KSip75t3dpW6mlnUvFk9pB1L2sZ9id7qxPkgqejJU3h7UqvipvTrqNx8io3z37t4AXwBE1xQ9L73qfgriM1d {
-   protected final double Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   protected final double BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
-   protected final double vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+   protected final double BatModClient;
+   protected final double Button;
+   protected final double CustomSpinner;
 
    public CAfNo4MShZGLaaWqtFlhL4pEY8q5vBlCal11SlTJ8iMWEpOJrUn0EWrkvLYjZSqAnVNrzipQxfiuzBKshwzcNeqkLLOIFaOQoGAJ(double var1, double var3, double var5) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var3;
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var5;
+      this.BatModClient = var1;
+      this.Button = var3;
+      this.CustomSpinner = var5;
    }
 
    @Override
-   public double BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public double Button() {
+      return this.BatModClient;
    }
 
    @Override
-   public double vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
-      return this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public double CustomSpinner() {
+      return this.Button;
    }
 
    @Override
-   public double PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
-      return this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+   public double ButtonAction() {
+      return this.CustomSpinner;
    }
 }

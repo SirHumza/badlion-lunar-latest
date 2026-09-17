@@ -1,7 +1,7 @@
 public interface RlUfXhjsSb5XvbgQUgsn5Oe3NSkIsEEfUAVL1HgSOd8p1Sn6pNVdbttOXdYhInXTgIL0KLLFPwmww4MFSGJ8HQM6PW60tNoZCBe {
-   boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   boolean BatModClient(
       rMcDsHAGrjrEOCBuKEh0Q5LxfAC6cuZ85B6g60Fyy4MSniKFsCESPLCL6GD34AOxmg8xaf9PuIaEBFVwsyZnyXwpdCqNyuOZNaT var1
    );
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(double var1, double var3, double var5);
+   void BatModClient(double var1, double var3, double var5);
 }

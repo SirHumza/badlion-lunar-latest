@@ -11,15 +11,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class GpOXUXjnvrtLXpR4tInHIce4vaM7Cwb247ZzX09h4TDzSSO57BwbJWUH2MiOWEcQbAMINBbNZxOlsEEdArN8IWoS5rh1KdVlUk8 {
-   private static final Logger uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = LogManager.getLogger();
-   public static final File Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = new File("banned-ips.txt");
-   public static final File BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = new File(
+   private static final Logger Spinner = LogManager.getLogger();
+   public static final File BatModClient = new File("banned-ips.txt");
+   public static final File Button = new File(
       "banned-players.txt"
    );
-   public static final File vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = new File("ops.txt");
-   public static final File PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = new File("white-list.txt");
+   public static final File CustomSpinner = new File("ops.txt");
+   public static final File ButtonAction = new File("white-list.txt");
 
-   private static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   private static void BatModClient(
       TDI1rwhE6ftgpT0jnIkLxDzDc0kfx23fe5G5xeWfGWo1r95rLIJvkBpIvia4qynITY7zhShMOxrj3sgpclCo8KBYm5raxCQbPjtD var0, Collection var1, ProfileLookupCallback var2
    ) {
       String[] var3 = (String[])Iterators.toArray(
@@ -31,7 +31,7 @@ public class GpOXUXjnvrtLXpR4tInHIce4vaM7Cwb247ZzX09h4TDzSSO57BwbJWUH2MiOWEcQbAM
             .findProfilesByNames(var3, Agent.MINECRAFT, var2);
       } else {
          for (String var7 : var3) {
-            UUID var8 = EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            UUID var8 = EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u.BatModClient(
                new GameProfile((UUID)null, var7)
             );
             GameProfile var9 = new GameProfile(var8, var7);
@@ -40,14 +40,14 @@ public class GpOXUXjnvrtLXpR4tInHIce4vaM7Cwb247ZzX09h4TDzSSO57BwbJWUH2MiOWEcQbAM
       }
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0) {
-      if (!fYyzxc43Zo2emVcwht8CPm0ETgdV28dUGJB2JVM9dxOEMlO5epPhmmPyiItpRydL59TMtC6nOgFWAAj5urqioxwSgQIkRec6J80F.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+   public static String BatModClient(String var0) {
+      if (!fYyzxc43Zo2emVcwht8CPm0ETgdV28dUGJB2JVM9dxOEMlO5epPhmmPyiItpRydL59TMtC6nOgFWAAj5urqioxwSgQIkRec6J80F.Button(
             var0
          )
          && var0.length() <= 16) {
          TDI1rwhE6ftgpT0jnIkLxDzDc0kfx23fe5G5xeWfGWo1r95rLIJvkBpIvia4qynITY7zhShMOxrj3sgpclCo8KBYm5raxCQbPjtD var1 = TDI1rwhE6ftgpT0jnIkLxDzDc0kfx23fe5G5xeWfGWo1r95rLIJvkBpIvia4qynITY7zhShMOxrj3sgpclCo8KBYm5raxCQbPjtD.KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ();
          GameProfile var2 = var1.H5AfuPi6A5dR1CMugDXgAoLQyJOF06VOkDTd7xZhA4PQTQa65SGEWInSjIFDT4he5MqClJs80ceNMzYDIqSK0srjcdqq9co84vr()
-            .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0);
+            .BatModClient(var0);
          if (var2 != null && var2.getId() != null) {
             return var2.getId().toString();
          } else if (!var1.ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV()
@@ -56,12 +56,12 @@ public class GpOXUXjnvrtLXpR4tInHIce4vaM7Cwb247ZzX09h4TDzSSO57BwbJWUH2MiOWEcQbAM
             Ep15XhQj3RnhxVJYMeqMfYxRvQ25ip7fKZW5PiwCfhJw2foSPJZgTOi7BglTPkkf9HBFPcRN7kOpKU4abS22qwvBvz1AhCWjjR75 var4 = new Ep15XhQj3RnhxVJYMeqMfYxRvQ25ip7fKZW5PiwCfhJw2foSPJZgTOi7BglTPkkf9HBFPcRN7kOpKU4abS22qwvBvz1AhCWjjR75(
                var1, var3
             );
-            Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            BatModClient(
                var1, Lists.newArrayList(new String[]{var0}), var4
             );
             return var3.size() > 0 && ((GameProfile)var3.get(0)).getId() != null ? ((GameProfile)var3.get(0)).getId().toString() : "";
          } else {
-            return EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            return EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u.BatModClient(
                   new GameProfile((UUID)null, var0)
                )
                .toString();

@@ -1,17 +1,17 @@
 public final class QLhU03NsyQb0b9cu6BTNh2z4w2yXVkYILofOgWITXGZRpvUdgPHiXD0BfaNt7JETJOxeFbelWi2EyficAjthyZfHRmW1bDEHFqtb {
-   public static float Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   public static int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
-   public static String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
-   public static boolean PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u;
+   public static float BatModClient;
+   public static int Button;
+   public static String CustomSpinner;
+   public static boolean ButtonAction;
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       p57FzhEVHjD3nUB8ZQKgYL7J76WYKiBHF5r8fIhVJF36z4h7RtI64qqIyROniI3ZWrGDOcQErgVhhrmkcKhNTmZ8JAyWbQN8o926 var0, boolean var1
    ) {
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var0.eXbgCpP5lUfFvUJWyVafz7sS9inkbzm9IJb10VzFRCYMC7CBeSWi0iiNHVGA5maCFjQTXOW3pR7NfCrRgHhlld6tBTrZBa125e9u()
+      BatModClient = var0.eXbgCpP5lUfFvUJWyVafz7sS9inkbzm9IJb10VzFRCYMC7CBeSWi0iiNHVGA5maCFjQTXOW3pR7NfCrRgHhlld6tBTrZBa125e9u()
          / var0.S4vtFCkd9FN55UhuOr39A9bal5W6ygnK2uYAZrpEvFGgxWXgW10IuYigT7AXjOAwS6RL4HfnLJfLP29NlbMDgjF4rKktwNqWf5nF();
-      BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = 100;
-      vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var0.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5()
-         .sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9();
-      PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = var1;
+      Button = 100;
+      CustomSpinner = var0.CustomSpinner()
+         .ColorChooser();
+      ButtonAction = var1;
    }
 }

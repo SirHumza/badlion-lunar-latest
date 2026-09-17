@@ -1,11 +1,11 @@
 public interface sZDEP6t4IsLak2NXGih7CmabMDZ6FBEx8w4YeUqkEVAcThDTPtQENNYNRgjSLTxAr5b4AlgYmcFSKf2CarODG3ohxMiwcWtJHVzD {
-   String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+   String BatModClient();
 
-   double Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(double var1);
+   double BatModClient(double var1);
 
-   double BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   double Button();
 
-   boolean vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5();
+   boolean CustomSpinner();
 
-   sZDEP6t4IsLak2NXGih7CmabMDZ6FBEx8w4YeUqkEVAcThDTPtQENNYNRgjSLTxAr5b4AlgYmcFSKf2CarODG3ohxMiwcWtJHVzD PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u();
+   sZDEP6t4IsLak2NXGih7CmabMDZ6FBEx8w4YeUqkEVAcThDTPtQENNYNRgjSLTxAr5b4AlgYmcFSKf2CarODG3ohxMiwcWtJHVzD ButtonAction();
 }

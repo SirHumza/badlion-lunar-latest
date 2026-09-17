@@ -3,15 +3,15 @@ import java.util.UUID;
 import org.apache.commons.lang3.Validate;
 
 public class kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss101fGCqNdkhXHetWVg7ALC7bFPIiaRWKKR7 {
-   private final double Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   private final int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
-   private final String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
-   private final UUID PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u;
-   private boolean uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = true;
+   private final double BatModClient;
+   private final int Button;
+   private final String CustomSpinner;
+   private final UUID ButtonAction;
+   private boolean Spinner = true;
 
    public kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss101fGCqNdkhXHetWVg7ALC7bFPIiaRWKKR7(String var1, double var2, int var4) {
       this(
-         u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+         u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BatModClient(
             ThreadLocalRandom.current()
          ),
          var1,
@@ -21,38 +21,38 @@ public class kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss10
    }
 
    public kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss101fGCqNdkhXHetWVg7ALC7bFPIiaRWKKR7(UUID var1, String var2, double var3, int var5) {
-      this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = var1;
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var2;
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var3;
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var5;
+      this.ButtonAction = var1;
+      this.CustomSpinner = var2;
+      this.BatModClient = var3;
+      this.Button = var5;
       Validate.notEmpty(var2, "Modifier name cannot be empty", new Object[0]);
       Validate.inclusiveBetween(0L, 2L, var5, "Invalid operation");
    }
 
-   public UUID Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u;
+   public UUID BatModClient() {
+      return this.ButtonAction;
    }
 
-   public String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+   public String Button() {
+      return this.CustomSpinner;
    }
 
-   public int vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
-      return this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public int CustomSpinner() {
+      return this.Button;
    }
 
-   public double PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public double ButtonAction() {
+      return this.BatModClient;
    }
 
-   public boolean uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590() {
-      return this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590;
+   public boolean Spinner() {
+      return this.Spinner;
    }
 
-   public kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss101fGCqNdkhXHetWVg7ALC7bFPIiaRWKKR7 Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss101fGCqNdkhXHetWVg7ALC7bFPIiaRWKKR7 BatModClient(
       boolean var1
    ) {
-      this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = var1;
+      this.Spinner = var1;
       return this;
    }
 
@@ -64,12 +64,12 @@ public class kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss10
 
       if (var1 != null && this.getClass() == var1.getClass()) {
          kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss101fGCqNdkhXHetWVg7ALC7bFPIiaRWKKR7 var2 = (kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss101fGCqNdkhXHetWVg7ALC7bFPIiaRWKKR7)var1;
-         if (this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u != null) {
-            if (!this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u
-               .equals(var2.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u)) {
+         if (this.ButtonAction != null) {
+            if (!this.ButtonAction
+               .equals(var2.ButtonAction)) {
                return false;
             }
-         } else if (var2.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u != null) {
+         } else if (var2.ButtonAction != null) {
             return false;
          }
 
@@ -81,24 +81,24 @@ public class kT9lV1jpqd4tlAa84NGN5SIufoeuYrV5ZEfW1Ufa8hmBzd1H18bErxZEzA0wbbBss10
 
    @Override
    public int hashCode() {
-      return this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u != null
-         ? this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u.hashCode()
+      return this.ButtonAction != null
+         ? this.ButtonAction.hashCode()
          : 0;
    }
 
    @Override
    public String toString() {
       return "AttributeModifier{amount="
-         + this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+         + this.BatModClient
          + ", operation="
-         + this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW
+         + this.Button
          + ", name='"
-         + this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5
+         + this.CustomSpinner
          + '\''
          + ", id="
-         + this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u
+         + this.ButtonAction
          + ", serialize="
-         + this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590
+         + this.Spinner
          + '}';
    }
 }

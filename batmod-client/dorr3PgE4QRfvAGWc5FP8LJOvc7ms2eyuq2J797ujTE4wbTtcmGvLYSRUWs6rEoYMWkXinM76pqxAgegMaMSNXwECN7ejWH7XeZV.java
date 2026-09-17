@@ -1,7 +1,7 @@
 public class dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWkXinM76pqxAgegMaMSNXwECN7ejWH7XeZV
    implements e1gLgW1QJxYgKHVbl2xMpy3l7yE24V36BHyMUCmatojNeIPBFolTbJQW5DlheBrFfW008TcENhMfcHnyoH0VFMoSrDBhmeElDRC {
-   private static final dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWkXinM76pqxAgegMaMSNXwECN7ejWH7XeZV Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = new dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWkXinM76pqxAgegMaMSNXwECN7ejWH7XeZV();
-   private StringBuffer BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = new StringBuffer();
+   private static final dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWkXinM76pqxAgegMaMSNXwECN7ejWH7XeZV BatModClient = new dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWkXinM76pqxAgegMaMSNXwECN7ejWH7XeZV();
+   private StringBuffer Button = new StringBuffer();
 
    @Override
    public String C_() {
@@ -9,20 +9,20 @@ public class dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWk
    }
 
    @Override
-   public WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5() {
+   public WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY CustomSpinner() {
       return new E2CgSq1b32QIHiGU1ign22OXmNS90IL1WGNCTiv4SdL7EzVWd66NSzSeKD8rm6JZqRkunqgdhWaRlFHGJlHuqdIrdPpJulQkRtvl(this.C_());
    }
 
    @Override
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public void BatModClient(
       WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY var1
    ) {
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW
-         .append(var1.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY());
+      this.Button
+         .append(var1.BatModProgressBar());
    }
 
    @Override
-   public boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1, String var2) {
+   public boolean BatModClient(int var1, String var2) {
       return true;
    }
 
@@ -37,9 +37,9 @@ public class dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWk
    }
 
    @Override
-   public xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
+   public xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY ButtonAction() {
       return TDI1rwhE6ftgpT0jnIkLxDzDc0kfx23fe5G5xeWfGWo1r95rLIJvkBpIvia4qynITY7zhShMOxrj3sgpclCo8KBYm5raxCQbPjtD.KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ()
-         .PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u();
+         .ButtonAction();
    }
 
    @Override
@@ -53,7 +53,7 @@ public class dorr3PgE4QRfvAGWc5FP8LJOvc7ms2eyuq2J797ujTE4wbTtcmGvLYSRUWs6rEoYMWk
    }
 
    @Override
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public void BatModClient(
       OBpoHjRiUW8lxrPt7SzpCpBNzVlozGWh03CmP9dARZGbrmJRcYJYPGL7wlCRwODnnJ5EXIfVkA2lAbB0KacsuKDEv1t896Eo6YUE var1, int var2
    ) {
    }

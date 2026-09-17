@@ -1,6 +1,6 @@
 public class V88hGPlkCWNwNCNEYSGA06BPptl8KGCp2ShYmxdQ9LIfLUL1I40PSO22ksaib3HheX0LY0jKSdosojxTNkG7MAiypjYpmTBKPGI1
    extends nZD97IYJgoCkqbY3eqh9DzbiIdeSrgaDt8d60eJWRNZ4ABlWrdayktqdGI2Ixo40gAJoaj4h3ajzpqk3iGm8gJ5iuMiRLLpgY3en {
-   private final q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   private final q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 BatModClient;
 
    public V88hGPlkCWNwNCNEYSGA06BPptl8KGCp2ShYmxdQ9LIfLUL1I40PSO22ksaib3HheX0LY0jKSdosojxTNkG7MAiypjYpmTBKPGI1(
       String var1,
@@ -9,17 +9,17 @@ public class V88hGPlkCWNwNCNEYSGA06BPptl8KGCp2ShYmxdQ9LIfLUL1I40PSO22ksaib3HheX0
       q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 var4
    ) {
       super(var1 + var2, var3);
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var4;
-      int var5 = q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      this.BatModClient = var4;
+      int var5 = q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2.BatModClient(
          var4
       );
       if (var5 != 0) {
-         Io2KyRd7fQBsNKa0hB5AWx30XWaMa0QWlpZtY318NX8dcxZP8APqY6i8mmOxR2lVUwQCUg5d5bLAdkubjOgbE9w22IQZYHQ5JK0W.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
-            .put(var1 + var5, this.agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x());
+         Io2KyRd7fQBsNKa0hB5AWx30XWaMa0QWlpZtY318NX8dcxZP8APqY6i8mmOxR2lVUwQCUg5d5bLAdkubjOgbE9w22IQZYHQ5JK0W.BatModClient
+            .put(var1 + var5, this.TextField());
       }
    }
 
-   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 BatModClient() {
+      return this.BatModClient;
    }
 }

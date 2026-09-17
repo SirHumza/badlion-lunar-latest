@@ -3,33 +3,33 @@ import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 
 public class S6FSn2L54EBuvX6exPqOhflciIRHEuLfzQBVDVHsosfozmUeCxyTH2gNCXwr2XUtlWi3EZtqsL8ZzPJiYSqCdsk6cCJD4MFYYtlr {
-   private String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = null;
-   private final List BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = Lists.newArrayList();
+   private String BatModClient = null;
+   private final List Button = Lists.newArrayList();
 
    private S6FSn2L54EBuvX6exPqOhflciIRHEuLfzQBVDVHsosfozmUeCxyTH2gNCXwr2XUtlWi3EZtqsL8ZzPJiYSqCdsk6cCJD4MFYYtlr() {
    }
 
-   private void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1) {
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW.add(0, var1);
+   private void BatModClient(String var1) {
+      this.Button.add(0, var1);
    }
 
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return StringUtils.join(this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW, "->");
+   public String BatModClient() {
+      return StringUtils.join(this.Button, "->");
    }
 
    @Override
    public String toString() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I != null
+      return this.BatModClient != null
          ? (
-            !this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW.isEmpty()
-               ? this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+            !this.Button.isEmpty()
+               ? this.BatModClient
                   + " "
-                  + this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I()
-               : this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+                  + this.BatModClient()
+               : this.BatModClient
          )
          : (
-            !this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW.isEmpty()
-               ? "(Unknown file) " + this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I()
+            !this.Button.isEmpty()
+               ? "(Unknown file) " + this.BatModClient()
                : "(Unknown file)"
          );
    }

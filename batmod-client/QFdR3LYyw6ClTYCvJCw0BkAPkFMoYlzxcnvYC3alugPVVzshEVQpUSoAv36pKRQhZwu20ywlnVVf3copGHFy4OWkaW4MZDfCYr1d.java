@@ -1,5 +1,23 @@
-public interface QFdR3LYyw6ClTYCvJCw0BkAPkFMoYlzxcnvYC3alugPVVzshEVQpUSoAv36pKRQhZwu20ywlnVVf3copGHFy4OWkaW4MZDfCYr1d {
-   int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+public class FifsKadhWo7d8VFZoo3VO8vqLqXEliYQMWVfnM6rCR95QDqzq1Vevcj1LOVZplryl2kix9HdHbRwfwbjAZReYhT65td1JOAKZ6z8
+   implements QFdR3LYyw6ClTYCvJCw0BkAPkFMoYlzxcnvYC3alugPVVzshEVQpUSoAv36pKRQhZwu20ywlnVVf3copGHFy4OWkaW4MZDfCYr1d {
+   private final uE5mtr0OoLKnsTBknS4huASvOW41nOW9xyj7cXJ3Q1ERhWHA3fFMS5IJ6Qoc1qzcItB4IJ6PntjjnzjpMzq9TOMI4Tkhr8JQhEbx BatModClient;
+   private final int Button;
 
-   Object BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   FifsKadhWo7d8VFZoo3VO8vqLqXEliYQMWVfnM6rCR95QDqzq1Vevcj1LOVZplryl2kix9HdHbRwfwbjAZReYhT65td1JOAKZ6z8(
+      uE5mtr0OoLKnsTBknS4huASvOW41nOW9xyj7cXJ3Q1ERhWHA3fFMS5IJ6Qoc1qzcItB4IJ6PntjjnzjpMzq9TOMI4Tkhr8JQhEbx var1, int var2
+   ) {
+      this.BatModClient = var1;
+      this.Button = var2;
+   }
+
+   @Override
+   public int BatModClient() {
+      return this.Button;
+   }
+
+   public uE5mtr0OoLKnsTBknS4huASvOW41nOW9xyj7cXJ3Q1ERhWHA3fFMS5IJ6Qoc1qzcItB4IJ6PntjjnzjpMzq9TOMI4Tkhr8JQhEbx CustomSpinner() {
+      return new uE5mtr0OoLKnsTBknS4huASvOW41nOW9xyj7cXJ3Q1ERhWHA3fFMS5IJ6Qoc1qzcItB4IJ6PntjjnzjpMzq9TOMI4Tkhr8JQhEbx(
+         this.BatModClient
+      );
+   }
 }

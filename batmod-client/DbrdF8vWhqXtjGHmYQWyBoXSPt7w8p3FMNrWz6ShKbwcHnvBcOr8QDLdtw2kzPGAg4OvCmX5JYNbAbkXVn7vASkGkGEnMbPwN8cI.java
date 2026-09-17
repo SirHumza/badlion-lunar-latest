@@ -1,10 +1,10 @@
 public class DbrdF8vWhqXtjGHmYQWyBoXSPt7w8p3FMNrWz6ShKbwcHnvBcOr8QDLdtw2kzPGAg4OvCmX5JYNbAbkXVn7vASkGkGEnMbPwN8cI
    implements g9grDpgp9Q2L4fyYFWCzIBwHil9xF6vb7mzmmd03cP4YwRaNZn58LxrZPCtISHYOHFoge9IrFn06Wru29OLvzhbOMA4rf7o3nbza {
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-      vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 var1,
+   public void BatModClient(
+      CustomSpinner var1,
       aDDhjWj969sz6IzgOMTkzXNC2CnicjlTllf19oeduNo3K8AyvcmWQFlzs9tD0AIeTR1i4EX7JPcBR2B0QHhCq7mYm9pgZ3DZ1UAH var2
    ) {
-      S8GLXLm5KazhYzi6YG4eZRFbep3nPU8AfQS0GEyFo8GZV2b49sjJWYH9MohJFtlZesTTdbPjPReu6KiQcdERSN1d7jRRmIjb62g1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      S8GLXLm5KazhYzi6YG4eZRFbep3nPU8AfQS0GEyFo8GZV2b49sjJWYH9MohJFtlZesTTdbPjPReu6KiQcdERSN1d7jRRmIjb62g1.BatModClient(
          var2
       );
    }

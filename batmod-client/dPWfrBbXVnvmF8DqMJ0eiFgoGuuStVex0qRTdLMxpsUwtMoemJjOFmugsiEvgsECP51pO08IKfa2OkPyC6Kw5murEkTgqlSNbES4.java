@@ -1,7 +1,7 @@
 public interface dPWfrBbXVnvmF8DqMJ0eiFgoGuuStVex0qRTdLMxpsUwtMoemJjOFmugsiEvgsECP51pO08IKfa2OkPyC6Kw5murEkTgqlSNbES4 {
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1, boolean var2);
+   void BatModClient(int var1, boolean var2);
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1, float var2);
+   void BatModClient(int var1, float var2);
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1, String var2);
+   void BatModClient(int var1, String var2);
 }

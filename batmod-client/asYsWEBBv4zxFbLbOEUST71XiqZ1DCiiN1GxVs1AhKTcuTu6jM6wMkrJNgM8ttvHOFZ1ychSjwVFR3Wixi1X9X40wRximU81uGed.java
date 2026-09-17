@@ -1,7 +1,7 @@
 final class asYsWEBBv4zxFbLbOEUST71XiqZ1DCiiN1GxVs1AhKTcuTu6jM6wMkrJNgM8ttvHOFZ1ychSjwVFR3Wixi1X9X40wRximU81uGed
    implements pqNtz6tr7WA8Z2jHAvdvp08XN1cUS0o5oDK7FpWNrZb3UmqGe5LZSp0uKbZBjf2E5L1UrJ8hwrfrPhBjVCj0bAwyn7tiueznSRx {
    @Override
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1) {
+   public String BatModClient(int var1) {
       return nZD97IYJgoCkqbY3eqh9DzbiIdeSrgaDt8d60eJWRNZ4ABlWrdayktqdGI2Ixo40gAJoaj4h3ajzpqk3iGm8gJ5iuMiRLLpgY3en.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA()
          .format(var1 * 0.1);
    }

@@ -1,16 +1,16 @@
 package shadersmod.client;
 
 public class RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM {
-   public int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   public int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
-   public E3m2US9F56PD3ZlmVNv7gXDceU4Nes1aICknJWdjpztCABQvNASpLHhLsp5RLrW9lExrxfRLXdovaEGTTSGrIOWwhzT6XU7OSOIO vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
-   public int PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u;
+   public int BatModClient;
+   public int Button;
+   public E3m2US9F56PD3ZlmVNv7gXDceU4Nes1aICknJWdjpztCABQvNASpLHhLsp5RLrW9lExrxfRLXdovaEGTTSGrIOWwhzT6XU7OSOIO CustomSpinner;
+   public int ButtonAction;
 
    public RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM(
       int var1, int var2, E3m2US9F56PD3ZlmVNv7gXDceU4Nes1aICknJWdjpztCABQvNASpLHhLsp5RLrW9lExrxfRLXdovaEGTTSGrIOWwhzT6XU7OSOIO var3
    ) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var2;
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var3;
+      this.BatModClient = var1;
+      this.Button = var2;
+      this.CustomSpinner = var3;
    }
 }

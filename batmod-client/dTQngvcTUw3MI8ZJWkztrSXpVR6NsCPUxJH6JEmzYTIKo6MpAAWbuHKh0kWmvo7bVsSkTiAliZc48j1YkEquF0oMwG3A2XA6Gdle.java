@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsSkTiAliZc48j1YkEquF0oMwG3A2XA6Gdle
    extends ixIOQ9ecTxFervga3TDuqWJzAM0NvNFogAWcYDIA3rAdEveiZvIP35o7bCaSuxu9L4qeO65NV5CEGYu7VdU9ydyKmuaaAgU9snzJ {
-   private final ImmutableSet Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   private final ImmutableSet BatModClient;
 
    protected dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsSkTiAliZc48j1YkEquF0oMwG3A2XA6Gdle(String var1, int var2, int var3) {
       super(var1, Integer.class);
@@ -23,12 +23,12 @@ public class dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsS
          var4.add(var5);
       }
 
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = ImmutableSet.copyOf(var4);
+      this.BatModClient = ImmutableSet.copyOf(var4);
    }
 
    @Override
-   public Collection BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public Collection Button() {
+      return this.BatModClient;
    }
 
    @Override
@@ -46,23 +46,23 @@ public class dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsS
       }
 
       dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsSkTiAliZc48j1YkEquF0oMwG3A2XA6Gdle var2 = (dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsSkTiAliZc48j1YkEquF0oMwG3A2XA6Gdle)var1;
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
-         .equals(var2.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I);
+      return this.BatModClient
+         .equals(var2.BatModClient);
    }
 
    @Override
    public int hashCode() {
       int var1 = super.hashCode();
-      return 31 * var1 + this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.hashCode();
+      return 31 * var1 + this.BatModClient.hashCode();
    }
 
-   public static dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsSkTiAliZc48j1YkEquF0oMwG3A2XA6Gdle Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsSkTiAliZc48j1YkEquF0oMwG3A2XA6Gdle BatModClient(
       String var0, int var1, int var2
    ) {
       return new dTQngvcTUw3MI8ZJWkztrSXpVR6NsCPUxJH6JEmzYTIKo6MpAAWbuHKh0kWmvo7bVsSkTiAliZc48j1YkEquF0oMwG3A2XA6Gdle(var0, var1, var2);
    }
 
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Integer var1) {
+   public String BatModClient(Integer var1) {
       return var1.toString();
    }
 }

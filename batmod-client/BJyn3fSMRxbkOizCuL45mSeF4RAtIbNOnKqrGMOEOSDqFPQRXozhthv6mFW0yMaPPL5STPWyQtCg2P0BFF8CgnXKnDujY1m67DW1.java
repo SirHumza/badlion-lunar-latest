@@ -1,14 +1,90 @@
-public abstract class BJyn3fSMRxbkOizCuL45mSeF4RAtIbNOnKqrGMOEOSDqFPQRXozhthv6mFW0yMaPPL5STPWyQtCg2P0BFF8CgnXKnDujY1m67DW1
-   extends NwaFZAyszLLHph2168JrLGtSlAj0Dl82LoyvKABMfC0FK0TwhpnvEZjU1lha841nbEvUx6KWrEj2L78DKrRiK3XnWiWfVVSXCcju {
-   public abstract long uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590();
+import java.io.DataInput;
+import java.io.DataOutput;
 
-   public abstract int QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0();
+public class ILDoCkPQ7m75PPbWyXpVFBZYTExZeDLjdZJqOGSp3YJMtGLUjNIC6Ms0oJPufjGBus93Xd2irOTUyzOB6l7ggR4rUhrGiU6erdCP
+   extends BJyn3fSMRxbkOizCuL45mSeF4RAtIbNOnKqrGMOEOSDqFPQRXozhthv6mFW0yMaPPL5STPWyQtCg2P0BFF8CgnXKnDujY1m67DW1 {
+   private byte Button;
 
-   public abstract short kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ();
+   ILDoCkPQ7m75PPbWyXpVFBZYTExZeDLjdZJqOGSp3YJMtGLUjNIC6Ms0oJPufjGBus93Xd2irOTUyzOB6l7ggR4rUhrGiU6erdCP() {
+   }
 
-   public abstract byte y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY();
+   public ILDoCkPQ7m75PPbWyXpVFBZYTExZeDLjdZJqOGSp3YJMtGLUjNIC6Ms0oJPufjGBus93Xd2irOTUyzOB6l7ggR4rUhrGiU6erdCP(byte var1) {
+      this.Button = var1;
+   }
 
-   public abstract double sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9();
+   @Override
+   void BatModClient(DataOutput var1) {
+      var1.writeByte(this.Button);
+   }
 
-   public abstract float lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ();
+   @Override
+   void BatModClient(
+      DataInput var1, int var2, pSMeU82G73wXOJETfbETA72PAoUf39JDhxz7IqD6ZuNr61azuHQek1mO1d7rWnjZIOhv5QWcSIfZYwSJAeZbES4Wq7bGcKJrmHre var3
+   ) {
+      var3.BatModClient(72L);
+      this.Button = var1.readByte();
+   }
+
+   @Override
+   public byte BatModClient() {
+      return 1;
+   }
+
+   @Override
+   public String toString() {
+      return "" + this.Button + "b";
+   }
+
+   @Override
+   public NwaFZAyszLLHph2168JrLGtSlAj0Dl82LoyvKABMfC0FK0TwhpnvEZjU1lha841nbEvUx6KWrEj2L78DKrRiK3XnWiWfVVSXCcju Button() {
+      return new ILDoCkPQ7m75PPbWyXpVFBZYTExZeDLjdZJqOGSp3YJMtGLUjNIC6Ms0oJPufjGBus93Xd2irOTUyzOB6l7ggR4rUhrGiU6erdCP(
+         this.Button
+      );
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      if (super.equals(var1)) {
+         ILDoCkPQ7m75PPbWyXpVFBZYTExZeDLjdZJqOGSp3YJMtGLUjNIC6Ms0oJPufjGBus93Xd2irOTUyzOB6l7ggR4rUhrGiU6erdCP var2 = (ILDoCkPQ7m75PPbWyXpVFBZYTExZeDLjdZJqOGSp3YJMtGLUjNIC6Ms0oJPufjGBus93Xd2irOTUyzOB6l7ggR4rUhrGiU6erdCP)var1;
+         return this.Button
+            == var2.Button;
+      } else {
+         return false;
+      }
+   }
+
+   @Override
+   public int hashCode() {
+      return super.hashCode() ^ this.Button;
+   }
+
+   @Override
+   public long Spinner() {
+      return this.Button;
+   }
+
+   @Override
+   public int Checkbox() {
+      return this.Button;
+   }
+
+   @Override
+   public short ProgressBar() {
+      return this.Button;
+   }
+
+   @Override
+   public byte BatModProgressBar() {
+      return this.Button;
+   }
+
+   @Override
+   public double ColorChooser() {
+      return this.Button;
+   }
+
+   @Override
+   public float IntegerSpinner() {
+      return this.Button;
+   }
 }

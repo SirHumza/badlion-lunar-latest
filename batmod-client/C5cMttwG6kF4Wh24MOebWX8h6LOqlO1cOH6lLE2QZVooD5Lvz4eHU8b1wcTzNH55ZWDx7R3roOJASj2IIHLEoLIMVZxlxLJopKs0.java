@@ -1,9 +1,9 @@
 public class C5cMttwG6kF4Wh24MOebWX8h6LOqlO1cOH6lLE2QZVooD5Lvz4eHU8b1wcTzNH55ZWDx7R3roOJASj2IIHLEoLIMVZxlxLJopKs0
    implements g9grDpgp9Q2L4fyYFWCzIBwHil9xF6vb7mzmmd03cP4YwRaNZn58LxrZPCtISHYOHFoge9IrFn06Wru29OLvzhbOMA4rf7o3nbza {
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-      vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 var1,
+   public void BatModClient(
+      CustomSpinner var1,
       gUyxxfEjXoDLNAgHHUnP1AMzZ8ioixY9BAypjiusQEsJz9UHusz3wCxRyuPTmNoGYvgKCMk4SmLTZozyxCaTcETlvh2e1rGmV1C var2
    ) {
-      var1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var2);
+      var1.BatModClient(var2);
    }
 }

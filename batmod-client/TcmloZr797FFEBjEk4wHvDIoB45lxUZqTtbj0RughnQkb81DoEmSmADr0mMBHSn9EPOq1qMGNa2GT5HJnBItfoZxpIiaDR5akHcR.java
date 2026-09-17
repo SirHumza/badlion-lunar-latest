@@ -1,3 +1,3 @@
 public interface TcmloZr797FFEBjEk4wHvDIoB45lxUZqTtbj0RughnQkb81DoEmSmADr0mMBHSn9EPOq1qMGNa2GT5HJnBItfoZxpIiaDR5akHcR {
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1, byte[] var2, Throwable var3);
+   void BatModClient(String var1, byte[] var2, Throwable var3);
 }

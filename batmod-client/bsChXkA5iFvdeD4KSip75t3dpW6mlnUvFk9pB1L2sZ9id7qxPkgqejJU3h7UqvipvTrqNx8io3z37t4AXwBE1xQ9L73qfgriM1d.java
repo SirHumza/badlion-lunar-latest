@@ -1,7 +1,7 @@
 public interface bsChXkA5iFvdeD4KSip75t3dpW6mlnUvFk9pB1L2sZ9id7qxPkgqejJU3h7UqvipvTrqNx8io3z37t4AXwBE1xQ9L73qfgriM1d {
-   double BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   double Button();
 
-   double vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5();
+   double CustomSpinner();
 
-   double PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u();
+   double ButtonAction();
 }

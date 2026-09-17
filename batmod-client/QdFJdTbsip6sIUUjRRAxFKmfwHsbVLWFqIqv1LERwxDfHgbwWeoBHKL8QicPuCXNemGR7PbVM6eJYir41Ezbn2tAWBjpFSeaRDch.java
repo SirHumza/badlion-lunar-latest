@@ -7,36 +7,36 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class QdFJdTbsip6sIUUjRRAxFKmfwHsbVLWFqIqv1LERwxDfHgbwWeoBHKL8QicPuCXNemGR7PbVM6eJYir41Ezbn2tAWBjpFSeaRDch {
-   private static Map lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ = new HashMap();
-   public static final String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = "User-Agent";
-   public static final String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = "Host";
-   public static final String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = "Accept";
-   public static final String PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = "Location";
-   public static final String uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = "Keep-Alive";
-   public static final String QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0 = "Connection";
-   public static final String kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ = "keep-alive";
-   public static final String y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY = "Transfer-Encoding";
-   public static final String sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 = "chunked";
+   private static Map IntegerSpinner = new HashMap();
+   public static final String BatModClient = "User-Agent";
+   public static final String Button = "Host";
+   public static final String CustomSpinner = "Accept";
+   public static final String ButtonAction = "Location";
+   public static final String Spinner = "Keep-Alive";
+   public static final String Checkbox = "Connection";
+   public static final String ProgressBar = "keep-alive";
+   public static final String BatModProgressBar = "Transfer-Encoding";
+   public static final String ColorChooser = "chunked";
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       String var0, sgDjnXfhDMnHJ6pEF7rIEGI4DPt1X6S7JigeijgcDumhYHN0G2EtzRS3QYynyt1YkXyOLat64ppIGdBAE3DnvV2xtTcyXuGhVzvF var1
    ) {
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, var1, Proxy.NO_PROXY);
+      BatModClient(var0, var1, Proxy.NO_PROXY);
    }
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       String var0, sgDjnXfhDMnHJ6pEF7rIEGI4DPt1X6S7JigeijgcDumhYHN0G2EtzRS3QYynyt1YkXyOLat64ppIGdBAE3DnvV2xtTcyXuGhVzvF var1, Proxy var2
    ) {
-      DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS var3 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS var3 = BatModClient(
          var0, var2
       );
       PZg8IgKp616m4F0gTaC6Adak1CCoNINvU1m7e319kLXgnkRPzGTw5WHgxH2xuDBxnzeCEB2SoISFIPOqEhhsgpE1Ga9WFtFP7sZ3 var4 = new PZg8IgKp616m4F0gTaC6Adak1CCoNINvU1m7e319kLXgnkRPzGTw5WHgxH2xuDBxnzeCEB2SoISFIPOqEhhsgpE1Ga9WFtFP7sZ3(
          var3, var1
       );
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var4);
+      BatModClient(var4);
    }
 
-   public static DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS BatModClient(
       String var0, Proxy var1
    ) {
       URL var2 = new URL(var0);
@@ -64,82 +64,82 @@ public class QdFJdTbsip6sIUUjRRAxFKmfwHsbVLWFqIqv1LERwxDfHgbwWeoBHKL8QicPuCXNemG
       );
    }
 
-   public static void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static void BatModClient(
       PZg8IgKp616m4F0gTaC6Adak1CCoNINvU1m7e319kLXgnkRPzGTw5WHgxH2xuDBxnzeCEB2SoISFIPOqEhhsgpE1Ga9WFtFP7sZ3 var0
    ) {
-      DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS var1 = var0.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+      DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS var1 = var0.BatModClient();
 
-      for (i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE var2 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-            var1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(),
-            var1.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(),
-            var1.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9()
+      for (i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE var2 = BatModClient(
+            var1.BatModClient(),
+            var1.Button(),
+            var1.ColorChooser()
          );
-         !var2.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0);
-         var2 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-            var1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(),
-            var1.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(),
-            var1.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9()
+         !var2.BatModClient(var0);
+         var2 = BatModClient(
+            var1.BatModClient(),
+            var1.Button(),
+            var1.ColorChooser()
          )
       ) {
-         Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-            var1.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(),
-            var1.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(),
-            var1.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9(),
+         BatModClient(
+            var1.BatModClient(),
+            var1.Button(),
+            var1.ColorChooser(),
             var2
          );
       }
    }
 
-   private static synchronized i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   private static synchronized i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE BatModClient(
       String var0, int var1, Proxy var2
    ) {
-      String var3 = BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var0, var1, var2);
-      i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE var4 = (i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE)lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ.get(
+      String var3 = Button(var0, var1, var2);
+      i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE var4 = (i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE)IntegerSpinner.get(
          var3
       );
       if (var4 == null) {
          var4 = new i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE(var0, var1, var2);
-         lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ.put(var3, var4);
+         IntegerSpinner.put(var3, var4);
       }
 
       return var4;
    }
 
-   private static synchronized void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   private static synchronized void BatModClient(
       String var0, int var1, Proxy var2, i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE var3
    ) {
-      String var4 = BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var0, var1, var2);
-      i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE var5 = (i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE)lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ.get(
+      String var4 = Button(var0, var1, var2);
+      i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE var5 = (i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE)IntegerSpinner.get(
          var4
       );
       if (var5 == var3) {
-         lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ.remove(var4);
+         IntegerSpinner.remove(var4);
       }
    }
 
-   private static String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0, int var1, Proxy var2) {
+   private static String Button(String var0, int var1, Proxy var2) {
       return var0 + ":" + var1 + "-" + var2;
    }
 
-   public static byte[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0) {
-      return BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var0, Proxy.NO_PROXY);
+   public static byte[] BatModClient(String var0) {
+      return Button(var0, Proxy.NO_PROXY);
    }
 
-   public static byte[] BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0, Proxy var1) {
-      DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS var2 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static byte[] Button(String var0, Proxy var1) {
+      DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS var2 = BatModClient(
          var0, var1
       );
-      XfPecFep61ZBzdk4gspvUeqsHUhhK1lUpLuDIigASeSJxX7FTLbfAamzE80cuvVAUxtYce77SOzCIzTawmktcknHHvZPlMMeaoS1 var3 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      XfPecFep61ZBzdk4gspvUeqsHUhhK1lUpLuDIigASeSJxX7FTLbfAamzE80cuvVAUxtYce77SOzCIzTawmktcknHHvZPlMMeaoS1 var3 = BatModClient(
          var2
       );
-      if (var3.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() / 100 != 2) {
-         throw new IOException("HTTP response: " + var3.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I());
+      if (var3.BatModClient() / 100 != 2) {
+         throw new IOException("HTTP response: " + var3.BatModClient());
       } else {
-         return var3.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u();
+         return var3.ButtonAction();
       }
    }
 
-   public static XfPecFep61ZBzdk4gspvUeqsHUhhK1lUpLuDIigASeSJxX7FTLbfAamzE80cuvVAUxtYce77SOzCIzTawmktcknHHvZPlMMeaoS1 Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static XfPecFep61ZBzdk4gspvUeqsHUhhK1lUpLuDIigASeSJxX7FTLbfAamzE80cuvVAUxtYce77SOzCIzTawmktcknHHvZPlMMeaoS1 BatModClient(
       DaQRUcjnGEWAwHApQcUxp4sZeHlGiCcxPfOgJiyjqgSaeICXTGCfcrUpDcBfTQjFv2GBWVbKjwTjGgEbu9k4O9rMM6A1ZhbviS var0
    ) {
       HashMap var1 = new HashMap();
@@ -152,7 +152,7 @@ public class QdFJdTbsip6sIUUjRRAxFKmfwHsbVLWFqIqv1LERwxDfHgbwWeoBHKL8QicPuCXNemG
          PZg8IgKp616m4F0gTaC6Adak1CCoNINvU1m7e319kLXgnkRPzGTw5WHgxH2xuDBxnzeCEB2SoISFIPOqEhhsgpE1Ga9WFtFP7sZ3 var6 = new PZg8IgKp616m4F0gTaC6Adak1CCoNINvU1m7e319kLXgnkRPzGTw5WHgxH2xuDBxnzeCEB2SoISFIPOqEhhsgpE1Ga9WFtFP7sZ3(
             var0, var4
          );
-         Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var6);
+         BatModClient(var6);
 
          try {
             var1.wait();
@@ -182,10 +182,10 @@ public class QdFJdTbsip6sIUUjRRAxFKmfwHsbVLWFqIqv1LERwxDfHgbwWeoBHKL8QicPuCXNemG
       }
    }
 
-   public static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      for (Object var1 : lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ.values()) {
+   public static boolean BatModClient() {
+      for (Object var1 : IntegerSpinner.values()) {
          if (((i7b36HtOiTen1scO7rIOyqWcDtLMq2SpoY9tsFuHbzj7oU3vsTmLlKJlMumynZ4DxX21HQPGQdD0JKdy61JSDQGnLw3hJmAFqYE)var1)
-            .kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ()) {
+            .ProgressBar()) {
             return true;
          }
       }

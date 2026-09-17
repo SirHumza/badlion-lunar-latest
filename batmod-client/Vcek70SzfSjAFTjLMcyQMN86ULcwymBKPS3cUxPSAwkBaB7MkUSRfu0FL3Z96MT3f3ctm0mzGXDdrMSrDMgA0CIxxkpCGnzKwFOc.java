@@ -9,7 +9,7 @@ import java.util.Map.Entry;
 
 public class Vcek70SzfSjAFTjLMcyQMN86ULcwymBKPS3cUxPSAwkBaB7MkUSRfu0FL3Z96MT3f3ctm0mzGXDdrMSrDMgA0CIxxkpCGnzKwFOc
    extends edUG7FYUKILmr1KaUjgCEQPb7AdbBVrk2aebEAHYLT8lzdGbdwX2S9ElQ4QzVLFdvod9EYPnPFD0f0arUeowYyrUnEXvjOgnnMi5 {
-   public hy8zOjTDPYxl3XHWAbtYssjHOaAiCuXiloKEUngjzcauJUtIBKBkwSqh20Og7jxzuio8HBsIwzdxH2ROPKM3pzviZGBpfL457JIO Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public hy8zOjTDPYxl3XHWAbtYssjHOaAiCuXiloKEUngjzcauJUtIBKBkwSqh20Og7jxzuio8HBsIwzdxH2ROPKM3pzviZGBpfL457JIO BatModClient(
       JsonElement var1, Type var2, JsonDeserializationContext var3
    ) {
       JsonObject var4 = var1.getAsJsonObject();
@@ -17,16 +17,16 @@ public class Vcek70SzfSjAFTjLMcyQMN86ULcwymBKPS3cUxPSAwkBaB7MkUSRfu0FL3Z96MT3f3c
 
       for (Entry var7 : var4.entrySet()) {
          String var8 = (String)var7.getKey();
-         JsonObject var9 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(
+         JsonObject var9 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Spinner(
             (JsonElement)var7.getValue(), "language"
          );
-         String var10 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0(
+         String var10 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Checkbox(
             var9, "region"
          );
-         String var11 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0(
+         String var11 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Checkbox(
             var9, "name"
          );
-         boolean var12 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+         boolean var12 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.BatModClient(
             var9, "bidirectional", false
          );
          if (var10.isEmpty()) {
@@ -46,7 +46,7 @@ public class Vcek70SzfSjAFTjLMcyQMN86ULcwymBKPS3cUxPSAwkBaB7MkUSRfu0FL3Z96MT3f3c
    }
 
    @Override
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public String BatModClient() {
       return "language";
    }
 }

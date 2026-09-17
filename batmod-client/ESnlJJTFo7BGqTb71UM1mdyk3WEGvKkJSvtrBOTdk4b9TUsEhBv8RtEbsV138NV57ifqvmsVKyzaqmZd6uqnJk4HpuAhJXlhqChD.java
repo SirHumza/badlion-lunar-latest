@@ -1,3 +1,3 @@
 public interface ESnlJJTFo7BGqTb71UM1mdyk3WEGvKkJSvtrBOTdk4b9TUsEhBv8RtEbsV138NV57ifqvmsVKyzaqmZd6uqnJk4HpuAhJXlhqChD {
-   String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var1);
+   String BatModClient(String var1);
 }

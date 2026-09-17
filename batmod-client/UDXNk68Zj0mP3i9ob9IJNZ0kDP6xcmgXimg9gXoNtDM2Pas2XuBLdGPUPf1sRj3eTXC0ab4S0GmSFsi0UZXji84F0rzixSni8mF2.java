@@ -5,6 +5,6 @@ final class UDXNk68Zj0mP3i9ob9IJNZ0kDP6xcmgXimg9gXoNtDM2Pas2XuBLdGPUPf1sRj3eTXC0
    }
 
    @Override
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(long var1) {
+   public void BatModClient(long var1) {
    }
 }

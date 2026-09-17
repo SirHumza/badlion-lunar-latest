@@ -50,7 +50,7 @@ public class Main {
          System.out.println("Completely ignored arguments: " + var24);
       }
 
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      BatModClient.BatModClient(
          var0, (String)var23.valueOf(var2)
       );
       String var25 = (String)var23.valueOf(var8);
@@ -65,10 +65,10 @@ public class Main {
       String var27 = (String)var23.valueOf(var10);
       String var28 = (String)var23.valueOf(var11);
       if (!var26.equals(Proxy.NO_PROXY)
-         && Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var27)
-         && Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var28)) {
+         && BatModClient(var27)
+         && BatModClient(var28)) {
          Authenticator.setDefault(
-            new net.minecraft.client.main.kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ(var27, var28)
+            new net.minecraft.client.main.ProgressBar(var27, var28)
          );
       }
 
@@ -91,31 +91,31 @@ public class Main {
       eIWjt9Txw5Ftl6kgo0YhggpT54ubA6Rq3Bb8vbG8e1xVxCXC58KLFe3CEqsOf50QOMp3Y2RKD4XJSTSPiY30R3v5gORmjBmgcGE var45 = new eIWjt9Txw5Ftl6kgo0YhggpT54ubA6Rq3Bb8vbG8e1xVxCXC58KLFe3CEqsOf50QOMp3Y2RKD4XJSTSPiY30R3v5gORmjBmgcGE(
          (String)var12.value(var23), var41, (String)var14.value(var23), (String)var21.value(var23)
       );
-      net.minecraft.client.main.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I var46 = new net.minecraft.client.main.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-         new net.minecraft.client.main.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0(
+      net.minecraft.client.main.BatModClient var46 = new net.minecraft.client.main.BatModClient(
+         new net.minecraft.client.main.Checkbox(
             var45, var36, var37, var26
          ),
-         new net.minecraft.client.main.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+         new net.minecraft.client.main.Button(
             var29, var30, var31, var32
          ),
-         new net.minecraft.client.main.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+         new net.minecraft.client.main.CustomSpinner(
             var38, var40, var39, var42
          ),
-         new net.minecraft.client.main.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(var33, var34),
-         new net.minecraft.client.main.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(var43, var44)
+         new net.minecraft.client.main.ButtonAction(var33, var34),
+         new net.minecraft.client.main.Spinner(var43, var44)
       );
       Runtime.getRuntime()
          .addShutdownHook(
-            new net.minecraft.client.main.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY(
+            new net.minecraft.client.main.BatModProgressBar(
                "Client Shutdown Thread"
             )
          );
       Thread.currentThread().setName("Client thread");
       new AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB(var46)
-         .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+         .BatModClient();
    }
 
-   private static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0) {
+   private static boolean BatModClient(String var0) {
       return var0 != null && !var0.isEmpty();
    }
 }

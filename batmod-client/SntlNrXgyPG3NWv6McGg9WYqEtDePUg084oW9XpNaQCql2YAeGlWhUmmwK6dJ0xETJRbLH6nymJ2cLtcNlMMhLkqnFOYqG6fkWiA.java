@@ -2,14 +2,14 @@ import java.lang.reflect.Field;
 
 public class SntlNrXgyPG3NWv6McGg9WYqEtDePUg084oW9XpNaQCql2YAeGlWhUmmwK6dJ0xETJRbLH6nymJ2cLtcNlMMhLkqnFOYqG6fkWiA
    implements jYJdYpK6CVfq9XDUpjPUhNmqGzu0C9yGRcfjPLnlZm4An8IWGX6E9SjbuM1BCRtez1Zt9JxDGo5YuinJZkbcogVhvRIU3BvuBo7 {
-   private Field Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   private Field BatModClient;
 
    public SntlNrXgyPG3NWv6McGg9WYqEtDePUg084oW9XpNaQCql2YAeGlWhUmmwK6dJ0xETJRbLH6nymJ2cLtcNlMMhLkqnFOYqG6fkWiA(Field var1) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+      this.BatModClient = var1;
    }
 
    @Override
-   public Field Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public Field BatModClient() {
+      return this.BatModClient;
    }
 }

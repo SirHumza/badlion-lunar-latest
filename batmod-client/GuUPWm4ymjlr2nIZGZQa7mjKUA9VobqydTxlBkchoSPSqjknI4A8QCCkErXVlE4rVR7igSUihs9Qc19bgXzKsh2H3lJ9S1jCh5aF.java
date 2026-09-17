@@ -8,17 +8,17 @@ import java.net.URL;
 import java.util.Map;
 
 public class GuUPWm4ymjlr2nIZGZQa7mjKUA9VobqydTxlBkchoSPSqjknI4A8QCCkErXVlE4rVR7igSUihs9Qc19bgXzKsh2H3lJ9S1jCh5aF {
-   public static final String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = "http://s.optifine.net";
-   public static final String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = "http://optifine.net";
+   public static final String BatModClient = "http://s.optifine.net";
+   public static final String Button = "http://optifine.net";
 
-   public static byte[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0) {
+   public static byte[] BatModClient(String var0) {
       HttpURLConnection var1 = null;
 
       byte[] var2;
       try {
          URL var3 = new URL(var0);
          var1 = (HttpURLConnection)var3.openConnection(
-            AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB.HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU()
+            AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB.BatModJson()
                .WkHLtxh0OBE988n6Z0s69VckSEH7sjJ2sJEkoBxEnB9TRCVCnrzX8qoWr1JeSS1QxNVIPsIB8QiJnFqynvUoIajlh0Sg8n21w13o()
          );
          var1.setDoInput(true);
@@ -26,7 +26,7 @@ public class GuUPWm4ymjlr2nIZGZQa7mjKUA9VobqydTxlBkchoSPSqjknI4A8QCCkErXVlE4rVR7
          var1.connect();
          if (var1.getResponseCode() / 100 != 2) {
             if (var1.getErrorStream() != null) {
-               xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+               xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.CustomSpinner(
                   var1.getErrorStream()
                );
             }
@@ -57,14 +57,14 @@ public class GuUPWm4ymjlr2nIZGZQa7mjKUA9VobqydTxlBkchoSPSqjknI4A8QCCkErXVlE4rVR7
       return var2;
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, Map var1, byte[] var2) {
+   public static String BatModClient(String var0, Map var1, byte[] var2) {
       HttpURLConnection var3 = null;
 
       String var4;
       try {
          URL var5 = new URL(var0);
          var3 = (HttpURLConnection)var5.openConnection(
-            AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB.HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU()
+            AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB.BatModJson()
                .WkHLtxh0OBE988n6Z0s69VckSEH7sjJ2sJEkoBxEnB9TRCVCnrzX8qoWr1JeSS1QxNVIPsIB8QiJnFqynvUoIajlh0Sg8n21w13o()
          );
          var3.setRequestMethod("POST");

@@ -1,5 +1,5 @@
 public interface DMOs92Zhg8N6diInPUlNW79q6yVUdYXaqwWgzumbHuhvl2a6pSck1xHqldSMBQR5zHtlcI3ESua48DCiGUjd7J1hcYL4fp8BGhlD {
-   String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW();
+   String Button();
 
    Ibgu3NUIYBBc6s3EWu2hIRSSyI1fhkukbKq2Tcv51OCVAH6AapdNHEHyH4veH4voo2KdtG0Doz1K73vVFStW8OO0WPVe252N5epM A_();
 }

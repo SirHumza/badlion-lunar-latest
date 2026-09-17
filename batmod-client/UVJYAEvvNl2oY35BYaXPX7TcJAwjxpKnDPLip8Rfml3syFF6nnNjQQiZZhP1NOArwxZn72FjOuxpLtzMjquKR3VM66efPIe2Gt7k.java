@@ -1,35 +1,35 @@
 public enum UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k {
-   Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(0, "options.chat.visibility.full"),
-   BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(1, "options.chat.visibility.system"),
-   vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(2, "options.chat.visibility.hidden");
+   BatModClient(0, "options.chat.visibility.full"),
+   Button(1, "options.chat.visibility.system"),
+   CustomSpinner(2, "options.chat.visibility.hidden");
 
-   private static final UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k[] PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = new UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k[values().length];
-   private final int uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590;
-   private final String QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0;
+   private static final UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k[] ButtonAction = new UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k[values().length];
+   private final int Spinner;
+   private final String Checkbox;
 
    UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k(int var3, String var4) {
-      this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = var3;
-      this.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0 = var4;
+      this.Spinner = var3;
+      this.Checkbox = var4;
    }
 
-   public int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590;
+   public int BatModClient() {
+      return this.Spinner;
    }
 
-   public static UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k BatModClient(
       int var0
    ) {
-      return PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u[var0
-         % PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u.length];
+      return ButtonAction[var0
+         % ButtonAction.length];
    }
 
-   public String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0;
+   public String Button() {
+      return this.Checkbox;
    }
 
    static {
       for (UVJYAEvvNl2oY35BYaXPX7TcJAwjxpKnDPLip8Rfml3syFF6nnNjQQiZZhP1NOArwxZn72FjOuxpLtzMjquKR3VM66efPIe2Gt7k var3 : values()) {
-         PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u[var3.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590] = var3;
+         ButtonAction[var3.Spinner] = var3;
       }
    }
 }

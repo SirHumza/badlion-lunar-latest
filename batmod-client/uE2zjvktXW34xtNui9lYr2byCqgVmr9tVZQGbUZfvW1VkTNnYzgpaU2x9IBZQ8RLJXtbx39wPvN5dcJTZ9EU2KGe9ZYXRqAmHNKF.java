@@ -1,6 +1,6 @@
 public interface uE2zjvktXW34xtNui9lYr2byCqgVmr9tVZQGbUZfvW1VkTNnYzgpaU2x9IBZQ8RLJXtbx39wPvN5dcJTZ9EU2KGe9ZYXRqAmHNKF
    extends aErciqm7PTGL48YFg2lrHSX5oQooUFfx8ilsSsNTG8Xw2hINMzr7be3HGzO7cXFCANEqFuhKkqvdlTWbigBxrDZo3RafCmvc282Y {
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   void BatModClient(
       dQzeRsa3fcaXtNWNPauml6R6nQvxrxCwaHAilgFEjrTnDgyNdDJiJ3WwXZXmxN4IyUmFs4BamJ8rvO1sXVaOybtfYqqZsAnOqRDR var1
    );
 }

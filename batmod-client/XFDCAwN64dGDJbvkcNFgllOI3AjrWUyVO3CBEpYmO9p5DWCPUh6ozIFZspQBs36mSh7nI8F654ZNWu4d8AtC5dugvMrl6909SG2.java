@@ -1,14 +1,14 @@
 public enum XFDCAwN64dGDJbvkcNFgllOI3AjrWUyVO3CBEpYmO9p5DWCPUh6ozIFZspQBs36mSh7nI8F654ZNWu4d8AtC5dugvMrl6909SG2 {
-   Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I("ON_GROUND", 0),
-   BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW("IN_AIR", 1),
-   vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5("IN_WATER", 2);
+   BatModClient("ON_GROUND", 0),
+   Button("IN_AIR", 1),
+   CustomSpinner("IN_WATER", 2);
 
-   private static final XFDCAwN64dGDJbvkcNFgllOI3AjrWUyVO3CBEpYmO9p5DWCPUh6ozIFZspQBs36mSh7nI8F654ZNWu4d8AtC5dugvMrl6909SG2[] PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = new XFDCAwN64dGDJbvkcNFgllOI3AjrWUyVO3CBEpYmO9p5DWCPUh6ozIFZspQBs36mSh7nI8F654ZNWu4d8AtC5dugvMrl6909SG2[]{
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I,
-      BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW,
-      vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5
+   private static final XFDCAwN64dGDJbvkcNFgllOI3AjrWUyVO3CBEpYmO9p5DWCPUh6ozIFZspQBs36mSh7nI8F654ZNWu4d8AtC5dugvMrl6909SG2[] ButtonAction = new XFDCAwN64dGDJbvkcNFgllOI3AjrWUyVO3CBEpYmO9p5DWCPUh6ozIFZspQBs36mSh7nI8F654ZNWu4d8AtC5dugvMrl6909SG2[]{
+      BatModClient,
+      Button,
+      CustomSpinner
    };
-   private static final String uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = "CL_00002255";
+   private static final String Spinner = "CL_00002255";
 
    XFDCAwN64dGDJbvkcNFgllOI3AjrWUyVO3CBEpYmO9p5DWCPUh6ozIFZspQBs36mSh7nI8F654ZNWu4d8AtC5dugvMrl6909SG2(String var3, int var4) {
    }

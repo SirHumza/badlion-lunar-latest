@@ -23,9 +23,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class pRqXsNXt8hLGcv0lcUd0C5FGxUO6Q9tSaZHpP5M5Dk3nGx8vnImEBleHG8XFl5i2HCC8VYGTIM6ESqEyHb0nk1IabDCfVds6py6w {
-   private static final Logger Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = LogManager.getLogger();
+   private static final Logger BatModClient = LogManager.getLogger();
 
-   public static SecretKey Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public static SecretKey BatModClient() {
       try {
          KeyGenerator var0 = KeyGenerator.getInstance("AES");
          var0.init(128);
@@ -35,23 +35,23 @@ public class pRqXsNXt8hLGcv0lcUd0C5FGxUO6Q9tSaZHpP5M5Dk3nGx8vnImEBleHG8XFl5i2HCC
       }
    }
 
-   public static KeyPair BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
+   public static KeyPair Button() {
       try {
          KeyPairGenerator var0 = KeyPairGenerator.getInstance("RSA");
          var0.initialize(1024);
          return var0.generateKeyPair();
       } catch (NoSuchAlgorithmException var1) {
          var1.printStackTrace();
-         Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.error("Key pair generation failed!");
+         BatModClient.error("Key pair generation failed!");
          return null;
       }
    }
 
-   public static byte[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static byte[] BatModClient(
       String var0, PublicKey var1, SecretKey var2
    ) {
       try {
-         return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+         return BatModClient(
             "SHA-1", var0.getBytes("ISO_8859_1"), var2.getEncoded(), var1.getEncoded()
          );
       } catch (UnsupportedEncodingException var4) {
@@ -60,7 +60,7 @@ public class pRqXsNXt8hLGcv0lcUd0C5FGxUO6Q9tSaZHpP5M5Dk3nGx8vnImEBleHG8XFl5i2HCC
       }
    }
 
-   private static byte[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, byte[]... var1) {
+   private static byte[] BatModClient(String var0, byte[]... var1) {
       try {
          MessageDigest var2 = MessageDigest.getInstance(var0);
 
@@ -75,7 +75,7 @@ public class pRqXsNXt8hLGcv0lcUd0C5FGxUO6Q9tSaZHpP5M5Dk3nGx8vnImEBleHG8XFl5i2HCC
       }
    }
 
-   public static PublicKey Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(byte[] var0) {
+   public static PublicKey BatModClient(byte[] var0) {
       try {
          X509EncodedKeySpec var1 = new X509EncodedKeySpec(var0);
          KeyFactory var2 = KeyFactory.getInstance("RSA");
@@ -84,25 +84,25 @@ public class pRqXsNXt8hLGcv0lcUd0C5FGxUO6Q9tSaZHpP5M5Dk3nGx8vnImEBleHG8XFl5i2HCC
       } catch (InvalidKeySpecException var4) {
       }
 
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.error("Public key reconstitute failed!");
+      BatModClient.error("Public key reconstitute failed!");
       return null;
    }
 
-   public static SecretKey Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(PrivateKey var0, byte[] var1) {
-      return new SecretKeySpec(BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var0, var1), "AES");
+   public static SecretKey BatModClient(PrivateKey var0, byte[] var1) {
+      return new SecretKeySpec(Button(var0, var1), "AES");
    }
 
-   public static byte[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Key var0, byte[] var1) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1, var0, var1);
+   public static byte[] BatModClient(Key var0, byte[] var1) {
+      return BatModClient(1, var0, var1);
    }
 
-   public static byte[] BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(Key var0, byte[] var1) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(2, var0, var1);
+   public static byte[] Button(Key var0, byte[] var1) {
+      return BatModClient(2, var0, var1);
    }
 
-   private static byte[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var0, Key var1, byte[] var2) {
+   private static byte[] BatModClient(int var0, Key var1, byte[] var2) {
       try {
-         return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, var1.getAlgorithm(), var1)
+         return BatModClient(var0, var1.getAlgorithm(), var1)
             .doFinal(var2);
       } catch (IllegalBlockSizeException var4) {
          var4.printStackTrace();
@@ -110,11 +110,11 @@ public class pRqXsNXt8hLGcv0lcUd0C5FGxUO6Q9tSaZHpP5M5Dk3nGx8vnImEBleHG8XFl5i2HCC
          var5.printStackTrace();
       }
 
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.error("Cipher data failed!");
+      BatModClient.error("Cipher data failed!");
       return null;
    }
 
-   private static Cipher Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var0, String var1, Key var2) {
+   private static Cipher BatModClient(int var0, String var1, Key var2) {
       try {
          Cipher var3 = Cipher.getInstance(var1);
          var3.init(var0, var2);
@@ -127,11 +127,11 @@ public class pRqXsNXt8hLGcv0lcUd0C5FGxUO6Q9tSaZHpP5M5Dk3nGx8vnImEBleHG8XFl5i2HCC
          var6.printStackTrace();
       }
 
-      Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.error("Cipher creation failed!");
+      BatModClient.error("Cipher creation failed!");
       return null;
    }
 
-   public static Cipher Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var0, Key var1) {
+   public static Cipher BatModClient(int var0, Key var1) {
       try {
          Cipher var2 = Cipher.getInstance("AES/CFB8/NoPadding");
          var2.init(var0, var1, new IvParameterSpec(var1.getEncoded()));

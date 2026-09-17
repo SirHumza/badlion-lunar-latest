@@ -2,36 +2,36 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy {
-   static final Gson Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = new GsonBuilder()
+   static final Gson BatModClient = new GsonBuilder()
       .registerTypeAdapter(
          Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy.class,
          new fozscDPgQGkHlJ06nm73hg1FpMF94ji1vDdPybdDQQHhH27TSbvwbWxjVItsVfhDK0MdDA47dnvnClm0tW8fWzJSBf2UNd7ukqv()
       )
       .create();
-   public float BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = 684.412F;
-   public float vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = 684.412F;
-   public float PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = 512.0F;
-   public float uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = 512.0F;
-   public float QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0 = 200.0F;
-   public float kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ = 200.0F;
-   public float y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY = 0.5F;
-   public float sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 = 80.0F;
-   public float lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ = 160.0F;
-   public float agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x = 80.0F;
-   public float uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk = 8.5F;
-   public float Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ = 12.0F;
+   public float Button = 684.412F;
+   public float CustomSpinner = 684.412F;
+   public float ButtonAction = 512.0F;
+   public float Spinner = 512.0F;
+   public float Checkbox = 200.0F;
+   public float ProgressBar = 200.0F;
+   public float BatModProgressBar = 0.5F;
+   public float ColorChooser = 80.0F;
+   public float IntegerSpinner = 160.0F;
+   public float TextField = 80.0F;
+   public float ColorTextPane = 8.5F;
+   public float BatModInstallerMain = 12.0F;
    public float aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA = 1.0F;
    public float LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN = 0.0F;
    public float G0rcuynoQrTk4Mlm1W4cvUs7IiESq1BrFuSO7kHX35743ulZsGy0aD8sXKTYCemKzVH381ngFOLPu19GPJvmjFGptlFYSbCdIcvr = 1.0F;
    public float iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF = 0.0F;
    public int bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ = 63;
    public boolean RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB = true;
-   public boolean J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40 = true;
-   public int zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t = 8;
+   public boolean Downloader = true;
+   public int InstallationLogger = 8;
    public boolean RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM = true;
    public boolean K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY = true;
-   public boolean CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl = true;
-   public boolean HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU = true;
+   public boolean ExitCode = true;
+   public boolean BatModJson = true;
    public boolean z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP = true;
    public boolean LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8 = true;
    public boolean xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa = true;
@@ -53,7 +53,7 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
    public int ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV = 33;
    public int fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i = 10;
    public int dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11 = 0;
-   public int lXnIKHX4LL4UVZqpHxViO6OjyXkTlTDY0epCVxu6ttLtuKke8pmpW0wcG0kcTCIzpgn9rnvQu9HzpRoIlINbDt0LmkQkzj7PO192 = 80;
+   public int GsonTypeAdapter = 80;
    public int mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv = 33;
    public int xYb9nF2jGaP2YVrbgJeVIqgthxK5HsfptD48p5v1PvM4CU5ywwZ7Z0u5y5fXFtP9EVWkjPoxqIy5PuE38hifTU4Jx0t7vTuytM02 = 10;
    public int kVSwPN5YPc7nU3ChYwQtBMffk4HNpHuscDQqSvPZGoac7kd6VRigFVEe0A1NEsd4k6qTKXBQ1UgcrbAuHLHPEye9s8kWvw7ksgcc = 0;
@@ -87,7 +87,7 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
    public int BGJk2IUiOBY8ec5KrYntsraFMINNKbNXHEIybI4nCnm7YXZ8HYrZYh6DNJsm4OOGik3A33iazvmTdVQYBSFyI7igcey5MxTDZkUv = 16;
    public int ujUvuz4WyO6KoH1kqyAYetKlhzPeqhJYrlcw4WEnxC5xzhepgcfvLGNVE3iaZoqsbxiWt1wSduLhMcgeZzoiKvZye9DJRdI2yr82 = 16;
 
-   public static Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy BatModClient(
       String var0
    ) {
       if (var0.length() == 0) {
@@ -95,7 +95,7 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
       }
 
       try {
-         return (Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy)Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.fromJson(
+         return (Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy)BatModClient.fromJson(
             var0, Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy.class
          );
       } catch (Exception var2) {
@@ -105,38 +105,38 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
 
    @Override
    public String toString() {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.toJson(this);
+      return BatModClient.toJson(this);
    }
 
    public Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmzpbEXFAr2R8j414byWkHyIsWvmhreCRHDy() {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+      this.BatModClient();
    }
 
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = 684.412F;
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = 684.412F;
-      this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u = 512.0F;
-      this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 = 512.0F;
-      this.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0 = 200.0F;
-      this.kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ = 200.0F;
-      this.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY = 0.5F;
-      this.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 = 80.0F;
-      this.lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ = 160.0F;
-      this.agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x = 80.0F;
-      this.uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk = 8.5F;
-      this.Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ = 12.0F;
+   public void BatModClient() {
+      this.Button = 684.412F;
+      this.CustomSpinner = 684.412F;
+      this.ButtonAction = 512.0F;
+      this.Spinner = 512.0F;
+      this.Checkbox = 200.0F;
+      this.ProgressBar = 200.0F;
+      this.BatModProgressBar = 0.5F;
+      this.ColorChooser = 80.0F;
+      this.IntegerSpinner = 160.0F;
+      this.TextField = 80.0F;
+      this.ColorTextPane = 8.5F;
+      this.BatModInstallerMain = 12.0F;
       this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA = 1.0F;
       this.LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN = 0.0F;
       this.G0rcuynoQrTk4Mlm1W4cvUs7IiESq1BrFuSO7kHX35743ulZsGy0aD8sXKTYCemKzVH381ngFOLPu19GPJvmjFGptlFYSbCdIcvr = 1.0F;
       this.iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF = 0.0F;
       this.bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ = 63;
       this.RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB = true;
-      this.J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40 = true;
-      this.zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t = 8;
+      this.Downloader = true;
+      this.InstallationLogger = 8;
       this.RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM = true;
       this.K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY = true;
-      this.CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl = true;
-      this.HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU = true;
+      this.ExitCode = true;
+      this.BatModJson = true;
       this.z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP = true;
       this.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8 = true;
       this.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa = true;
@@ -158,7 +158,7 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
       this.ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV = 33;
       this.fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i = 10;
       this.dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11 = 0;
-      this.lXnIKHX4LL4UVZqpHxViO6OjyXkTlTDY0epCVxu6ttLtuKke8pmpW0wcG0kcTCIzpgn9rnvQu9HzpRoIlINbDt0LmkQkzj7PO192 = 80;
+      this.GsonTypeAdapter = 80;
       this.mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv = 33;
       this.xYb9nF2jGaP2YVrbgJeVIqgthxK5HsfptD48p5v1PvM4CU5ywwZ7Z0u5y5fXFtP9EVWkjPoxqIy5PuE38hifTU4Jx0t7vTuytM02 = 10;
       this.kVSwPN5YPc7nU3ChYwQtBMffk4HNpHuscDQqSvPZGoac7kd6VRigFVEe0A1NEsd4k6qTKXBQ1UgcrbAuHLHPEye9s8kWvw7ksgcc = 0;
@@ -216,8 +216,8 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                               ? false
                               : (
                                  Float.compare(
-                                          var2.uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk,
-                                          this.uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk
+                                          var2.ColorTextPane,
+                                          this.ColorTextPane
                                        )
                                        != 0
                                     ? false
@@ -271,29 +271,29 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                           ? false
                                                                                           : (
                                                                                              Float.compare(
-                                                                                                      var2.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW,
-                                                                                                      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW
+                                                                                                      var2.Button,
+                                                                                                      this.Button
                                                                                                    )
                                                                                                    != 0
                                                                                                 ? false
                                                                                                 : (
                                                                                                    Float.compare(
-                                                                                                            var2.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY,
-                                                                                                            this.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY
+                                                                                                            var2.BatModProgressBar,
+                                                                                                            this.BatModProgressBar
                                                                                                          )
                                                                                                          != 0
                                                                                                       ? false
                                                                                                       : (
                                                                                                          Float.compare(
-                                                                                                                  var2.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0,
-                                                                                                                  this.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0
+                                                                                                                  var2.Checkbox,
+                                                                                                                  this.Checkbox
                                                                                                                )
                                                                                                                != 0
                                                                                                             ? false
                                                                                                             : (
                                                                                                                Float.compare(
-                                                                                                                        var2.kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ,
-                                                                                                                        this.kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ
+                                                                                                                        var2.ProgressBar,
+                                                                                                                        this.ProgressBar
                                                                                                                      )
                                                                                                                      != 0
                                                                                                                   ? false
@@ -346,8 +346,8 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                              != var2.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m
                                                                                                                                                                                           ? false
                                                                                                                                                                                           : (
-                                                                                                                                                                                             this.zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t
-                                                                                                                                                                                                   != var2.zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t
+                                                                                                                                                                                             this.InstallationLogger
+                                                                                                                                                                                                   != var2.InstallationLogger
                                                                                                                                                                                                 ? false
                                                                                                                                                                                                 : (
                                                                                                                                                                                                    this.OVft42XaDrpCid053XFq1EPZ8CkxDYortlwtRX4zTf4L5KT5wFCJrMIQs1I0or0K1OcKP82y3PpnybjZEMRPyyEezZIs1zuJDGFF
@@ -374,8 +374,8 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                                                                        != var2.fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i
                                                                                                                                                                                                                                     ? false
                                                                                                                                                                                                                                     : (
-                                                                                                                                                                                                                                       this.lXnIKHX4LL4UVZqpHxViO6OjyXkTlTDY0epCVxu6ttLtuKke8pmpW0wcG0kcTCIzpgn9rnvQu9HzpRoIlINbDt0LmkQkzj7PO192
-                                                                                                                                                                                                                                             != var2.lXnIKHX4LL4UVZqpHxViO6OjyXkTlTDY0epCVxu6ttLtuKke8pmpW0wcG0kcTCIzpgn9rnvQu9HzpRoIlINbDt0LmkQkzj7PO192
+                                                                                                                                                                                                                                       this.GsonTypeAdapter
+                                                                                                                                                                                                                                             != var2.GsonTypeAdapter
                                                                                                                                                                                                                                           ? false
                                                                                                                                                                                                                                           : (
                                                                                                                                                                                                                                              this.dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11
@@ -403,8 +403,8 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                                                                                                               ? false
                                                                                                                                                                                                                                                                               : (
                                                                                                                                                                                                                                                                                  Float.compare(
-                                                                                                                                                                                                                                                                                          var2.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5,
-                                                                                                                                                                                                                                                                                          this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5
+                                                                                                                                                                                                                                                                                          var2.CustomSpinner,
+                                                                                                                                                                                                                                                                                          this.CustomSpinner
                                                                                                                                                                                                                                                                                        )
                                                                                                                                                                                                                                                                                        != 0
                                                                                                                                                                                                                                                                                     ? false
@@ -446,29 +446,29 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                                                                                                                                                                           ? false
                                                                                                                                                                                                                                                                                                                                           : (
                                                                                                                                                                                                                                                                                                                                              Float.compare(
-                                                                                                                                                                                                                                                                                                                                                      var2.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590,
-                                                                                                                                                                                                                                                                                                                                                      this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590
+                                                                                                                                                                                                                                                                                                                                                      var2.Spinner,
+                                                                                                                                                                                                                                                                                                                                                      this.Spinner
                                                                                                                                                                                                                                                                                                                                                    )
                                                                                                                                                                                                                                                                                                                                                    != 0
                                                                                                                                                                                                                                                                                                                                                 ? false
                                                                                                                                                                                                                                                                                                                                                 : (
                                                                                                                                                                                                                                                                                                                                                    Float.compare(
-                                                                                                                                                                                                                                                                                                                                                            var2.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9,
-                                                                                                                                                                                                                                                                                                                                                            this.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9
+                                                                                                                                                                                                                                                                                                                                                            var2.ColorChooser,
+                                                                                                                                                                                                                                                                                                                                                            this.ColorChooser
                                                                                                                                                                                                                                                                                                                                                          )
                                                                                                                                                                                                                                                                                                                                                          != 0
                                                                                                                                                                                                                                                                                                                                                       ? false
                                                                                                                                                                                                                                                                                                                                                       : (
                                                                                                                                                                                                                                                                                                                                                          Float.compare(
-                                                                                                                                                                                                                                                                                                                                                                  var2.lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ,
-                                                                                                                                                                                                                                                                                                                                                                  this.lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ
+                                                                                                                                                                                                                                                                                                                                                                  var2.IntegerSpinner,
+                                                                                                                                                                                                                                                                                                                                                                  this.IntegerSpinner
                                                                                                                                                                                                                                                                                                                                                                )
                                                                                                                                                                                                                                                                                                                                                                != 0
                                                                                                                                                                                                                                                                                                                                                             ? false
                                                                                                                                                                                                                                                                                                                                                             : (
                                                                                                                                                                                                                                                                                                                                                                Float.compare(
-                                                                                                                                                                                                                                                                                                                                                                        var2.agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x,
-                                                                                                                                                                                                                                                                                                                                                                        this.agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x
+                                                                                                                                                                                                                                                                                                                                                                        var2.TextField,
+                                                                                                                                                                                                                                                                                                                                                                        this.TextField
                                                                                                                                                                                                                                                                                                                                                                      )
                                                                                                                                                                                                                                                                                                                                                                      != 0
                                                                                                                                                                                                                                                                                                                                                                   ? false
@@ -498,15 +498,15 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                                                                                                                                                                                                                                       ? false
                                                                                                                                                                                                                                                                                                                                                                                                       : (
                                                                                                                                                                                                                                                                                                                                                                                                          Float.compare(
-                                                                                                                                                                                                                                                                                                                                                                                                                  var2.Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ,
-                                                                                                                                                                                                                                                                                                                                                                                                                  this.Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ
+                                                                                                                                                                                                                                                                                                                                                                                                                  var2.BatModInstallerMain,
+                                                                                                                                                                                                                                                                                                                                                                                                                  this.BatModInstallerMain
                                                                                                                                                                                                                                                                                                                                                                                                                )
                                                                                                                                                                                                                                                                                                                                                                                                                != 0
                                                                                                                                                                                                                                                                                                                                                                                                             ? false
                                                                                                                                                                                                                                                                                                                                                                                                             : (
                                                                                                                                                                                                                                                                                                                                                                                                                Float.compare(
-                                                                                                                                                                                                                                                                                                                                                                                                                        var2.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u,
-                                                                                                                                                                                                                                                                                                                                                                                                                        this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u
+                                                                                                                                                                                                                                                                                                                                                                                                                        var2.ButtonAction,
+                                                                                                                                                                                                                                                                                                                                                                                                                        this.ButtonAction
                                                                                                                                                                                                                                                                                                                                                                                                                      )
                                                                                                                                                                                                                                                                                                                                                                                                                      != 0
                                                                                                                                                                                                                                                                                                                                                                                                                   ? false
@@ -515,8 +515,8 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                                                                                                                                                                                                                                                            != var2.RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB
                                                                                                                                                                                                                                                                                                                                                                                                                         ? false
                                                                                                                                                                                                                                                                                                                                                                                                                         : (
-                                                                                                                                                                                                                                                                                                                                                                                                                           this.J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40
-                                                                                                                                                                                                                                                                                                                                                                                                                                 != var2.J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40
+                                                                                                                                                                                                                                                                                                                                                                                                                           this.Downloader
+                                                                                                                                                                                                                                                                                                                                                                                                                                 != var2.Downloader
                                                                                                                                                                                                                                                                                                                                                                                                                               ? false
                                                                                                                                                                                                                                                                                                                                                                                                                               : (
                                                                                                                                                                                                                                                                                                                                                                                                                                  this.K3xIIKuansJDsNpUbxdGFQOW7ziqP9U19c78A63CpbBZjLSHxNriRDpAObixCLzkOrF62HK8YpIH3YDfQC1PdPMNAtRybku3jLjL
@@ -527,8 +527,8 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                                                                                                                                                                                                                                                                              != var2.GpDFKWkpAtoLQB0W2XCV5bHrfhV8v60U9eVAz8acb1obB7yclvZIoJJBby5GbawXebsAfQocYajpCi0D7X4qgixSfAmUGJnoMIBj
                                                                                                                                                                                                                                                                                                                                                                                                                                           ? false
                                                                                                                                                                                                                                                                                                                                                                                                                                           : (
-                                                                                                                                                                                                                                                                                                                                                                                                                                             this.CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl
-                                                                                                                                                                                                                                                                                                                                                                                                                                                   != var2.CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl
+                                                                                                                                                                                                                                                                                                                                                                                                                                             this.ExitCode
+                                                                                                                                                                                                                                                                                                                                                                                                                                                   != var2.ExitCode
                                                                                                                                                                                                                                                                                                                                                                                                                                                 ? false
                                                                                                                                                                                                                                                                                                                                                                                                                                                 : (
                                                                                                                                                                                                                                                                                                                                                                                                                                                    this.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8
@@ -539,8 +539,8 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
                                                                                                                                                                                                                                                                                                                                                                                                                                                                != var2.RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM
                                                                                                                                                                                                                                                                                                                                                                                                                                                             ? false
                                                                                                                                                                                                                                                                                                                                                                                                                                                             : (
-                                                                                                                                                                                                                                                                                                                                                                                                                                                               this.HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                     != var2.HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               this.BatModJson
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                     != var2.BatModJson
                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ? false
                                                                                                                                                                                                                                                                                                                                                                                                                                                                   : (
                                                                                                                                                                                                                                                                                                                                                                                                                                                                      this.z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP
@@ -639,73 +639,73 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
 
    @Override
    public int hashCode() {
-      int var1 = this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW != 0.0F
-         ? Float.floatToIntBits(this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW)
+      int var1 = this.Button != 0.0F
+         ? Float.floatToIntBits(this.Button)
          : 0;
       var1 = 31 * var1
          + (
-            this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 != 0.0F
-               ? Float.floatToIntBits(this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5)
+            this.CustomSpinner != 0.0F
+               ? Float.floatToIntBits(this.CustomSpinner)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u != 0.0F
-               ? Float.floatToIntBits(this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u)
+            this.ButtonAction != 0.0F
+               ? Float.floatToIntBits(this.ButtonAction)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590 != 0.0F
-               ? Float.floatToIntBits(this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590)
+            this.Spinner != 0.0F
+               ? Float.floatToIntBits(this.Spinner)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0 != 0.0F
-               ? Float.floatToIntBits(this.QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0)
+            this.Checkbox != 0.0F
+               ? Float.floatToIntBits(this.Checkbox)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ != 0.0F
-               ? Float.floatToIntBits(this.kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ)
+            this.ProgressBar != 0.0F
+               ? Float.floatToIntBits(this.ProgressBar)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY != 0.0F
-               ? Float.floatToIntBits(this.y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY)
+            this.BatModProgressBar != 0.0F
+               ? Float.floatToIntBits(this.BatModProgressBar)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 != 0.0F
-               ? Float.floatToIntBits(this.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9)
+            this.ColorChooser != 0.0F
+               ? Float.floatToIntBits(this.ColorChooser)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ != 0.0F
-               ? Float.floatToIntBits(this.lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ)
+            this.IntegerSpinner != 0.0F
+               ? Float.floatToIntBits(this.IntegerSpinner)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x != 0.0F
-               ? Float.floatToIntBits(this.agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x)
+            this.TextField != 0.0F
+               ? Float.floatToIntBits(this.TextField)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk != 0.0F
-               ? Float.floatToIntBits(this.uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk)
+            this.ColorTextPane != 0.0F
+               ? Float.floatToIntBits(this.ColorTextPane)
                : 0
          );
       var1 = 31 * var1
          + (
-            this.Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ != 0.0F
-               ? Float.floatToIntBits(this.Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ)
+            this.BatModInstallerMain != 0.0F
+               ? Float.floatToIntBits(this.BatModInstallerMain)
                : 0
          );
       var1 = 31 * var1
@@ -734,12 +734,12 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
          );
       var1 = 31 * var1 + this.bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ;
       var1 = 31 * var1 + (this.RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB ? 1 : 0);
-      var1 = 31 * var1 + (this.J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40 ? 1 : 0);
-      var1 = 31 * var1 + this.zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t;
+      var1 = 31 * var1 + (this.Downloader ? 1 : 0);
+      var1 = 31 * var1 + this.InstallationLogger;
       var1 = 31 * var1 + (this.RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM ? 1 : 0);
       var1 = 31 * var1 + (this.K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY ? 1 : 0);
-      var1 = 31 * var1 + (this.CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl ? 1 : 0);
-      var1 = 31 * var1 + (this.HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU ? 1 : 0);
+      var1 = 31 * var1 + (this.ExitCode ? 1 : 0);
+      var1 = 31 * var1 + (this.BatModJson ? 1 : 0);
       var1 = 31 * var1 + (this.z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP ? 1 : 0);
       var1 = 31 * var1 + (this.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8 ? 1 : 0);
       var1 = 31 * var1 + (this.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa ? 1 : 0);
@@ -761,7 +761,7 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
       var1 = 31 * var1 + this.ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV;
       var1 = 31 * var1 + this.fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i;
       var1 = 31 * var1 + this.dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11;
-      var1 = 31 * var1 + this.lXnIKHX4LL4UVZqpHxViO6OjyXkTlTDY0epCVxu6ttLtuKke8pmpW0wcG0kcTCIzpgn9rnvQu9HzpRoIlINbDt0LmkQkzj7PO192;
+      var1 = 31 * var1 + this.GsonTypeAdapter;
       var1 = 31 * var1 + this.mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv;
       var1 = 31 * var1 + this.xYb9nF2jGaP2YVrbgJeVIqgthxK5HsfptD48p5v1PvM4CU5ywwZ7Z0u5y5fXFtP9EVWkjPoxqIy5PuE38hifTU4Jx0t7vTuytM02;
       var1 = 31 * var1 + this.kVSwPN5YPc7nU3ChYwQtBMffk4HNpHuscDQqSvPZGoac7kd6VRigFVEe0A1NEsd4k6qTKXBQ1UgcrbAuHLHPEye9s8kWvw7ksgcc;
@@ -796,7 +796,7 @@ public class Eyn1902ZeZq4QD5Is1Rr8Al1xTt4FxJwtguNS7PJbJFecKhvDVnOPhld90nDwpOHPmz
       return 31 * var1 + this.ujUvuz4WyO6KoH1kqyAYetKlhzPeqhJYrlcw4WEnxC5xzhepgcfvLGNVE3iaZoqsbxiWt1wSduLhMcgeZzoiKvZye9DJRdI2yr82;
    }
 
-   public Ic9FlO72QGqeCvsfpSRFN6xNUXjvwNyBitwhRkRs28n2BEDCZW6q6TkjWiVyy7G1vPlWw1yKH0skCWSuL5n9PQ7GHmXUhk6zlt3t BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
+   public Ic9FlO72QGqeCvsfpSRFN6xNUXjvwNyBitwhRkRs28n2BEDCZW6q6TkjWiVyy7G1vPlWw1yKH0skCWSuL5n9PQ7GHmXUhk6zlt3t Button() {
       return new Ic9FlO72QGqeCvsfpSRFN6xNUXjvwNyBitwhRkRs28n2BEDCZW6q6TkjWiVyy7G1vPlWw1yKH0skCWSuL5n9PQ7GHmXUhk6zlt3t(this, null);
    }
 }

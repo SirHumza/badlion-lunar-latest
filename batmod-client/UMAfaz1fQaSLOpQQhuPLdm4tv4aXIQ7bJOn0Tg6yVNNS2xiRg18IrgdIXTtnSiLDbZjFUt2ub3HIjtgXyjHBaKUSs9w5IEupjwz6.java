@@ -5,18 +5,18 @@ class UMAfaz1fQaSLOpQQhuPLdm4tv4aXIQ7bJOn0Tg6yVNNS2xiRg18IrgdIXTtnSiLDbZjFUt2ub3
    UMAfaz1fQaSLOpQQhuPLdm4tv4aXIQ7bJOn0Tg6yVNNS2xiRg18IrgdIXTtnSiLDbZjFUt2ub3HIjtgXyjHBaKUSs9w5IEupjwz6(
       CSxVBFOpUPhmh7uPVSxCihmz5Al7yWXlb2ca9o7gEUibpKNvZA5hDkx1bFiPz5ZpAuYLsLg94ytHAPfqQF1hHVf5kTETbvbMwiO8 var1
    ) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+      this.BatModClient = var1;
    }
 
    @Override
-   public BufferedImage Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(BufferedImage var1) {
+   public BufferedImage BatModClient(BufferedImage var1) {
       return var1;
    }
 
    @Override
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      CSxVBFOpUPhmh7uPVSxCihmz5Al7yWXlb2ca9o7gEUibpKNvZA5hDkx1bFiPz5ZpAuYLsLg94ytHAPfqQF1hHVf5kTETbvbMwiO8.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
-         this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, true
+   public void BatModClient() {
+      CSxVBFOpUPhmh7uPVSxCihmz5Al7yWXlb2ca9o7gEUibpKNvZA5hDkx1bFiPz5ZpAuYLsLg94ytHAPfqQF1hHVf5kTETbvbMwiO8.Button(
+         this.BatModClient, true
       );
    }
 }

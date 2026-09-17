@@ -12,11 +12,11 @@ public class BdDErMOSLQyfA8iu2vGN04QNbOYdbSBsEwKnmZbjP4Sv409rKlS4jFIAm9w3Csz3lMx
       RSCEZN9kZucFqW87iqnc1RGxohJOluid2rGtCvplPAAJ4aRSZHNPeEgghGxqw7jq3bvw63R7N3WU3oxuGsZyuzpx0dojozZadmlD var5 = new RSCEZN9kZucFqW87iqnc1RGxohJOluid2rGtCvplPAAJ4aRSZHNPeEgghGxqw7jq3bvw63R7N3WU3oxuGsZyuzpx0dojozZadmlD(
          0, var2, (var3 << 4) + 2, (var4 << 4) + 2
       );
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I.add(var5);
-      var5.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-         var5, this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, var2
+      this.BatModClient.add(var5);
+      var5.BatModClient(
+         var5, this.BatModClient, var2
       );
-      this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u();
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var1, var2, 10);
+      this.ButtonAction();
+      this.BatModClient(var1, var2, 10);
    }
 }

@@ -10,8 +10,8 @@ public class iunaAhUGvC9UNVkxwVEQMdEsEVoq3q4uBDl20ydfQgr1XMO6Mdgwr695N97ptVVnOaN
       double var12
    ) {
       super(var1, var2, var4, var6);
-      this.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 = 0.04F;
-      this.uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk();
+      this.ColorChooser = 0.04F;
+      this.ColorTextPane();
       if (var10 == 0.0 && (var8 != 0.0 || var12 != 0.0)) {
          this.K3xIIKuansJDsNpUbxdGFQOW7ziqP9U19c78A63CpbBZjLSHxNriRDpAObixCLzkOrF62HK8YpIH3YDfQC1PdPMNAtRybku3jLjL = var8;
          this.sv3zyZxD3xWlWeYYLSruuAtLQlLVOZKZqSxLVzG6LIkZdnBFYCEMpWDCJcCIGmpZLZXeGEhykSNrDIB7ylGQaaBiJWzGovTp1Wyr = var10 + 0.1;

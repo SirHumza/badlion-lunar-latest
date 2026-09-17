@@ -7,7 +7,7 @@ final class i85v0JpA0R3zvHNuCMuirDJZnYsEIFdmIeub8erAzoPG8f0Jfyejcg8fTMDPuBRGLXCm
    }
 
    @Override
-   public boolean PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u() {
+   public boolean ButtonAction() {
       return false;
    }
 }

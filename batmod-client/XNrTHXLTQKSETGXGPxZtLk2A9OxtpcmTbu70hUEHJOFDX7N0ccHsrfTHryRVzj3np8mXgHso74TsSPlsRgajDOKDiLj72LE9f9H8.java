@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8mXgHso74TsSPlsRgajDOKDiLj72LE9f9H8 {
-   public static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static boolean BatModClient(
       String var0, String var1, char var2, char var3
    ) {
       if (var1 != null && var0 != null) {
          if (var1.indexOf(var2) < 0) {
             return var1.indexOf(var3) < 0
                ? var1.equals(var0)
-               : BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var0, var1, var3);
+               : Button(var0, var1, var3);
          }
 
          ArrayList var4 = new ArrayList();
@@ -29,12 +29,12 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
          }
 
          String var7 = (String)var4.get(0);
-         if (!PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(var0, var7, var3)) {
+         if (!ButtonAction(var0, var7, var3)) {
             return false;
          }
 
          String var8 = (String)var4.get(var4.size() - 1);
-         if (!vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(var0, var8, var3)) {
+         if (!CustomSpinner(var0, var8, var3)) {
             return false;
          }
 
@@ -43,7 +43,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
          for (int var10 = 0; var10 < var4.size(); var10++) {
             String var11 = (String)var4.get(var10);
             if (var11.length() > 0) {
-               int var12 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, var11, var9, var3);
+               int var12 = BatModClient(var0, var11, var9, var3);
                if (var12 < 0) {
                   return false;
                }
@@ -58,7 +58,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   private static boolean BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+   private static boolean Button(
       String var0, String var1, char var2
    ) {
       if (var0 != null && var1 != null) {
@@ -79,7 +79,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   private static int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   private static int BatModClient(
       String var0, String var1, int var2, char var3
    ) {
       if (var0 != null && var1 != null) {
@@ -90,7 +90,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
 
             for (int var4 = var2; var4 + var1.length() <= var0.length(); var4++) {
                String var5 = var0.substring(var4, var4 + var1.length());
-               if (BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var5, var1, var3)) {
+               if (Button(var5, var1, var3)) {
                   return var4;
                }
             }
@@ -104,7 +104,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   private static boolean vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+   private static boolean CustomSpinner(
       String var0, String var1, char var2
    ) {
       if (var0 != null && var1 != null) {
@@ -113,13 +113,13 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
          }
 
          String var3 = var0.substring(var0.length() - var1.length(), var0.length());
-         return BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var3, var1, var2);
+         return Button(var3, var1, var2);
       } else {
          return var0 == var1;
       }
    }
 
-   private static boolean PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(
+   private static boolean ButtonAction(
       String var0, String var1, char var2
    ) {
       if (var0 != null && var1 != null) {
@@ -128,18 +128,18 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
          }
 
          String var3 = var0.substring(0, var1.length());
-         return BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var3, var1, var2);
+         return Button(var3, var1, var2);
       } else {
          return var0 == var1;
       }
    }
 
-   public static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static boolean BatModClient(
       String var0, String[] var1, char var2
    ) {
       for (int var3 = 0; var3 < var1.length; var3++) {
          String var4 = var1[var3];
-         if (Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, var4, var2)) {
+         if (BatModClient(var0, var4, var2)) {
             return true;
          }
       }
@@ -147,7 +147,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       return false;
    }
 
-   public static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static boolean BatModClient(
       String var0, String var1, char var2
    ) {
       if (var1 != null && var0 != null) {
@@ -201,7 +201,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, String var1) {
+   public static String[] BatModClient(String var0, String var1) {
       if (var0 != null && var0.length() > 0) {
          if (var1 == null) {
             return new String[]{var0};
@@ -212,7 +212,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
 
          for (int var4 = 0; var4 < var0.length(); var4++) {
             char var5 = var0.charAt(var4);
-            if (Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var5, var1)) {
+            if (BatModClient(var5, var1)) {
                var2.add(var0.substring(var3, var4));
                var3 = var4 + 1;
             }
@@ -225,7 +225,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   private static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(char var0, String var1) {
+   private static boolean BatModClient(char var0, String var1) {
       for (int var2 = 0; var2 < var1.length(); var2++) {
          if (var1.charAt(var2) == var0) {
             return true;
@@ -235,7 +235,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       return false;
    }
 
-   public static boolean BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0, String var1) {
+   public static boolean Button(String var0, String var1) {
       if (var0 != null) {
          var0 = var0.trim();
       }
@@ -244,15 +244,15 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
          var1 = var1.trim();
       }
 
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I((Object)var0, (Object)var1);
+      return BatModClient((Object)var0, (Object)var1);
    }
 
-   public static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0) {
+   public static boolean BatModClient(String var0) {
       return var0 == null ? true : var0.trim().length() <= 0;
    }
 
-   public static String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0) {
-      int var1 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, -1);
+   public static String Button(String var0) {
+      int var1 = BatModClient(var0, -1);
       if (var1 == -1) {
          return "";
       }
@@ -260,10 +260,10 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       String var2 = "" + ++var1;
       return var2.length() > var0.length()
          ? ""
-         : Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I("" + var1, var0.length(), '0');
+         : BatModClient("" + var1, var0.length(), '0');
    }
 
-   public static int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, int var1) {
+   public static int BatModClient(String var0, int var1) {
       if (var0 == null) {
          return var1;
       }
@@ -275,11 +275,11 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static boolean vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(String var0) {
-      return !Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0);
+   public static boolean CustomSpinner(String var0) {
+      return !BatModClient(var0);
    }
 
-   public static String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(String var0, String var1) {
+   public static String CustomSpinner(String var0, String var1) {
       for (int var2 = 0; var2 < var1.length(); var2++) {
          if (var0.indexOf(var1.charAt(var2)) < 0) {
             var0 = var0 + var1.charAt(var2);
@@ -289,7 +289,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       return var0;
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, int var1, char var2) {
+   public static String BatModClient(String var0, int var1, char var2) {
       if (var0 == null) {
          var0 = "";
       }
@@ -307,7 +307,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       return var3.toString();
    }
 
-   public static String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0, int var1, char var2) {
+   public static String Button(String var0, int var1, char var2) {
       if (var0 == null) {
          var0 = "";
       }
@@ -325,11 +325,11 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       return var3.toString();
    }
 
-   public static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(Object var0, Object var1) {
+   public static boolean BatModClient(Object var0, Object var1) {
       return var0 == var1 ? true : (var0 != null && var0.equals(var1) ? true : var1 != null && var1.equals(var0));
    }
 
-   public static boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, String[] var1) {
+   public static boolean BatModClient(String var0, String[] var1) {
       if (var0 == null) {
          return false;
       }
@@ -348,7 +348,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       return false;
    }
 
-   public static boolean BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0, String[] var1) {
+   public static boolean Button(String var0, String[] var1) {
       if (var0 == null) {
          return false;
       }
@@ -367,7 +367,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       return false;
    }
 
-   public static String PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(String var0, String var1) {
+   public static String ButtonAction(String var0, String var1) {
       if (var0 != null && var1 != null) {
          if (var0.startsWith(var1)) {
             var0 = var0.substring(var1.length());
@@ -379,7 +379,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static String uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(String var0, String var1) {
+   public static String Spinner(String var0, String var1) {
       if (var0 != null && var1 != null) {
          if (var0.endsWith(var1)) {
             var0 = var0.substring(0, var0.length() - var1.length());
@@ -391,7 +391,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String BatModClient(
       String var0, String var1, String var2
    ) {
       if (var0 != null && var1 != null) {
@@ -409,7 +409,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String[] var0, String var1) {
+   public static int BatModClient(String[] var0, String var1) {
       if (var0 != null && var1 != null) {
          for (int var2 = 0; var2 < var0.length; var2++) {
             String var3 = var0[var2];
@@ -424,7 +424,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String[] var0, String var1) {
+   public static int Button(String[] var0, String var1) {
       if (var0 != null && var1 != null) {
          for (int var2 = 0; var2 < var0.length; var2++) {
             String var3 = var0[var2];
@@ -439,7 +439,7 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static String[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String[] BatModClient(
       String[] var0, int var1, int var2
    ) {
       if (var0 == null) {
@@ -466,13 +466,13 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(String var0, String[] var1) {
+   public static String CustomSpinner(String var0, String[] var1) {
       if (var0 != null && var1 != null) {
          int var2 = var0.length();
 
          for (int var3 = 0; var3 < var1.length; var3++) {
             String var4 = var1[var3];
-            var0 = uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(var0, var4);
+            var0 = Spinner(var0, var4);
             if (var0.length() != var2) {
                break;
             }
@@ -484,13 +484,13 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static String PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(String var0, String[] var1) {
+   public static String ButtonAction(String var0, String[] var1) {
       if (var0 != null && var1 != null) {
          int var2 = var0.length();
 
          for (int var3 = 0; var3 < var1.length; var3++) {
             String var4 = var1[var3];
-            var0 = PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(var0, var4);
+            var0 = ButtonAction(var0, var4);
             if (var0.length() != var2) {
                break;
             }
@@ -502,20 +502,20 @@ public class XNrTHXLTQKSETGXGPxZtLk2A9OxtpcmTbu70hUEHJOFDX7N0ccHsrfTHryRVzj3np8m
       }
    }
 
-   public static String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static String BatModClient(
       String var0, String[] var1, String[] var2
    ) {
-      var0 = PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(var0, var1);
-      return vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(var0, var2);
+      var0 = ButtonAction(var0, var1);
+      return CustomSpinner(var0, var2);
    }
 
-   public static String BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+   public static String Button(
       String var0, String var1, String var2
    ) {
-      return Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var0, new String[]{var1}, new String[]{var2});
+      return BatModClient(var0, new String[]{var1}, new String[]{var2});
    }
 
-   public static String vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(
+   public static String CustomSpinner(
       String var0, String var1, String var2
    ) {
       if (var0 != null && var1 != null && var2 != null) {

@@ -6,7 +6,7 @@ class dseoVlRW5lokcpBLLpM3VmKkTglUxLsnKFAdQFFa12o9y2A89ubGdHmGC9it61PGOJKh4estLf
    dseoVlRW5lokcpBLLpM3VmKkTglUxLsnKFAdQFFa12o9y2A89ubGdHmGC9it61PGOJKh4estLfPFEWKpmZO0e4p8F7CIspzmDe6d(
       UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q var1
    ) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+      this.BatModClient = var1;
    }
 
    // $VF: Unable to simplify switch on enum
@@ -17,24 +17,24 @@ class dseoVlRW5lokcpBLLpM3VmKkTglUxLsnKFAdQFFa12o9y2A89ubGdHmGC9it61PGOJKh4estLf
    ) {
       switch (var1) {
          case SKIN:
-            UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-               this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, var2
+            UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.BatModClient(
+               this.BatModClient, var2
             );
-            UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-               this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, var3.getMetadata("model")
+            UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.BatModClient(
+               this.BatModClient, var3.getMetadata("model")
             );
-            if (UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-                  this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
+            if (UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.BatModClient(
+                  this.BatModClient
                )
                == null) {
-               UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-                  this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, "default"
+               UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.BatModClient(
+                  this.BatModClient, "default"
                );
             }
             break;
          case CAPE:
-            UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
-               this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I, var2
+            UNer9EVZrBqhEMlLHeC0Z45aJlUcVIiGq5mjjppIx2yiOM2cTotzytwCMNkGBktP3mMfH5aX0DaM7R7FBZg3PvO9UjbGUTuk5p0Q.Button(
+               this.BatModClient, var2
             );
       }
    }

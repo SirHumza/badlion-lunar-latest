@@ -1,7 +1,7 @@
 import com.google.gson.JsonElement;
 
 public interface GB37CLEsuUx5EKhyli7onI2b2bej0WKCG9dd8K2cZtwlffkXphIJHyik5Z0hzrILtPJjIMJv1HcMmJ73Tkji1BdUZRrgF4hVa5Ca {
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(JsonElement var1);
+   void BatModClient(JsonElement var1);
 
-   JsonElement Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+   JsonElement BatModClient();
 }

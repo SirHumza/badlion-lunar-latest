@@ -7,9 +7,9 @@ class W3LKsM2L1ZYAbOrL9JTJtz9x6PPW7ZGDMklXsQUUNRlCKAjrcdQTIBvRtzL9rhFM0unDZXq4aN
    }
 
    @Override
-   public boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return ((x5BMUvtZ7PRfeZYqABPuU6QBDGl7rZMvLAduhRUVpcqGpZMJSqlaGfeCh1uIq4nTOZtGJ7BsA9ibKsPCGe9chmZMZBtBjeIuElY)this.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590)
+   public boolean BatModClient() {
+      return ((x5BMUvtZ7PRfeZYqABPuU6QBDGl7rZMvLAduhRUVpcqGpZMJSqlaGfeCh1uIq4nTOZtGJ7BsA9ibKsPCGe9chmZMZBtBjeIuElY)this.Spinner)
             .KsH0MwtfYAhEJlUF862jwiMy2pZEUv1ulZ8QRYVaiZ1gV0RKcoEhsFeba78SXzBSE7VWRpWjcjuUnvLs6Bwc1kNeIuoaH3Z1Yia8()
-         && super.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+         && super.BatModClient();
    }
 }

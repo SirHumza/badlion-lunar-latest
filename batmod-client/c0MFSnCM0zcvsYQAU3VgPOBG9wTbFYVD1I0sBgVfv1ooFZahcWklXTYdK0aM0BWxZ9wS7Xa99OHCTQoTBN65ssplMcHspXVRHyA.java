@@ -5,15 +5,15 @@ public class c0MFSnCM0zcvsYQAU3VgPOBG9wTbFYVD1I0sBgVfv1ooFZahcWklXTYdK0aM0BWxZ9w
    }
 
    @Override
-   public int[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1, int var2, int var3, int var4) {
-      int[] var5 = fmK8A1OVIw5UMnvTqEt388gJoF8bPb05nHiY2cTOrHEUqVJV1HzQOt4S6gOtpCfFUde1X6nnuBzcc6g4oTgpER9ZQckcB1SwceOc.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public int[] BatModClient(int var1, int var2, int var3, int var4) {
+      int[] var5 = fmK8A1OVIw5UMnvTqEt388gJoF8bPb05nHiY2cTOrHEUqVJV1HzQOt4S6gOtpCfFUde1X6nnuBzcc6g4oTgpER9ZQckcB1SwceOc.BatModClient(
          var3 * var4
       );
 
       for (int var6 = 0; var6 < var4; var6++) {
          for (int var7 = 0; var7 < var3; var7++) {
-            this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I((long)(var1 + var7), (long)(var2 + var6));
-            var5[var7 + var6 * var3] = this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(10) == 0
+            this.BatModClient((long)(var1 + var7), (long)(var2 + var6));
+            var5[var7 + var6 * var3] = this.BatModClient(10) == 0
                ? 1
                : 0;
          }

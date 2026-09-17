@@ -7,7 +7,7 @@ public class Mo8wPJCVRsqnSBPelB7GHUeTvnddess5De0JaYr2fvusClgbrpOWAIS8v8l1rjtGVv8
    }
 
    @Override
-   public int vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5(int var1) {
+   public int CustomSpinner(int var1) {
       return 7;
    }
 }

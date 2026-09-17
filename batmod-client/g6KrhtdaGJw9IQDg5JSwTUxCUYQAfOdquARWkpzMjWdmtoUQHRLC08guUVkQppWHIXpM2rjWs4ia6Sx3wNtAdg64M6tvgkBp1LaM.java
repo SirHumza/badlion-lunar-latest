@@ -4,8 +4,8 @@ public class g6KrhtdaGJw9IQDg5JSwTUxCUYQAfOdquARWkpzMjWdmtoUQHRLC08guUVkQppWHIXp
       super(var1, var2, 1.0F);
    }
 
-   public double Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u
-         / this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public double BatModClient() {
+      return this.ButtonAction
+         / this.Button;
    }
 }

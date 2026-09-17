@@ -3,29 +3,29 @@ import tv.twitch.broadcast.IngestServer;
 import tv.twitch.chat.ChatUserInfo;
 
 public interface IfuVVy7j7Fxc4PclUHf3sDym6TnZmpDD3AeABRHuf8vUbrANKTwVe6oF6H4nukcr3HQuLgF86OzqUBTXiT1nHdwdndTpJSmEblZd {
-   void QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0();
+   void Checkbox();
 
-   void kpjeuvirVi401rGj4cseffd4WxtSSMZm3fFgpSU28wbJZ50n48BdWMQa6TLB5qajxzarOlQ9OP0uFpV2DZPAvWuKoICgD6I2s6EQ();
+   void ProgressBar();
 
-   void y2krNqENIwvcAQpC7aEZZ39q1S0nt5TPQuQs5bZxt0oeE16df8TYXqOZWIMyXeuEAGix695aR2FH6YmGaAGEtKDfXbNRd8Gf2KuY();
+   void BatModProgressBar();
 
-   boolean sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9();
+   boolean ColorChooser();
 
-   boolean lupDZ2Cnh8fIgzDGHlnSYSWdtTyhGvQM8ySvPCDcouYi9MkHlLktznCZqsSuMBFSPFPFDsZ7NP0MqV4XGlOC2qxTDOCxMbPdCQAQ();
+   boolean IntegerSpinner();
 
-   boolean agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x();
+   boolean TextField();
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   void BatModClient(
       l4aKZYxvxMw2fci0nI6ETMviA2t0pHfj8vm7BK8qhJNotEJJbatsAXs9drWQaOmzvbM4dv2DwowpVJ6gr0ggT2jKAJBdD02ONoDk var1, long var2
    );
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   void BatModClient(
       l4aKZYxvxMw2fci0nI6ETMviA2t0pHfj8vm7BK8qhJNotEJJbatsAXs9drWQaOmzvbM4dv2DwowpVJ6gr0ggT2jKAJBdD02ONoDk var1, long var2, long var4
    );
 
-   boolean uwmpQe9Z6P5oVtJ4Fngiye6Go07tT1k7MmJWyeIyQZtqKkGtsgtF82QEuqeLijTB8aHZ8IbS8cVrh5MTgtKjKuehs0ISeEviQqHk();
+   boolean ColorTextPane();
 
-   void Av9NCLMFKmcdQyDh94IetGz0HVnvO8Z0B91SkuS2PyEokqZHrbzx6ixu4d4MQrtbtjm2ELsB9G7tkxOyYXbuQSU73b4KPQTV9equ();
+   void BatModInstallerMain();
 
    void aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA();
 
@@ -39,21 +39,21 @@ public interface IfuVVy7j7Fxc4PclUHf3sDym6TnZmpDD3AeABRHuf8vUbrANKTwVe6oF6H4nukc
 
    IngestServer[] RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB();
 
-   void J1VLLIBCcZYqsaZhGKUiJoLcHFU1EJaCZvLl4QFMTqn7fzHDGkkCKNDFKU4XbeFyk8njwMcgfY6j93jLeZs8jAC6Xw2vjgswnn40();
+   void Downloader();
 
-   nA9Swv5o7xchcGNov04Rc0EQOlLmcISyrrvTO5Q7JLj9uygdiTxWKxuEBGTannv9y4ccbH9j97suVd75z5jIIPrrkLPp9KGuidFx zYsFhXndsTXpBULV9SbQRAPo7Eko9Z3Zs5nhhj1ndgHpLTUagG4wFepuFXrzHesiyrTZAHxS9VR68lIK48usZWN38KwLp7RwGH1t();
+   nA9Swv5o7xchcGNov04Rc0EQOlLmcISyrrvTO5Q7JLj9uygdiTxWKxuEBGTannv9y4ccbH9j97suVd75z5jIIPrrkLPp9KGuidFx InstallationLogger();
 
    boolean RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM();
 
    int K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY();
 
-   boolean CLN0iQxTW30J248Fxg16Bugujy6a3ZiEgudmbjRU3IbkRT7YZU3jIYed7LCKoRRICKjJIVig9YZZItorQ2IeFMP2gWElNbTNVZgl();
+   boolean ExitCode();
 
-   String HEycvLXuxJtqnm1Q22Ov3jPFXiY9uV7PHxZL3mxyhegWr71nFjdNmThCqfwtAatIAo5zb7RQ0HbwXhvMNWmPD7lI7R6v8rrgROSU();
+   String BatModJson();
 
-   ChatUserInfo uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(String var1);
+   ChatUserInfo Spinner(String var1);
 
-   void QcHYSL1fJpPwS8I6lDMqHeG0PpI9KENOilkz5Zn7Mesbj9VY4zckGxbjAEO8XHoUDZ8CippSgxILNeARjCg07BQVJdCIm7SIrBC0(String var1);
+   void Checkbox(String var1);
 
    boolean z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP();
 
@@ -61,7 +61,7 @@ public interface IfuVVy7j7Fxc4PclUHf3sDym6TnZmpDD3AeABRHuf8vUbrANKTwVe6oF6H4nukc
 
    boolean xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa();
 
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(boolean var1);
+   void BatModClient(boolean var1);
 
    boolean o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4();
 

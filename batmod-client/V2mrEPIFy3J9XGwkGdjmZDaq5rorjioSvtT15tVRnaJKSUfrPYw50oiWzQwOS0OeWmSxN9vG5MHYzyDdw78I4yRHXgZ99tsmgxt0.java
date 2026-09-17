@@ -1,7 +1,7 @@
 final class V2mrEPIFy3J9XGwkGdjmZDaq5rorjioSvtT15tVRnaJKSUfrPYw50oiWzQwOS0OeWmSxN9vG5MHYzyDdw78I4yRHXgZ99tsmgxt0
    implements pqNtz6tr7WA8Z2jHAvdvp08XN1cUS0o5oDK7FpWNrZb3UmqGe5LZSp0uKbZBjf2E5L1UrJ8hwrfrPhBjVCj0bAwyn7tiueznSRx {
    @Override
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1) {
+   public String BatModClient(int var1) {
       double var2 = var1 / 20.0;
       double var4 = var2 / 60.0;
       double var6 = var4 / 60.0;

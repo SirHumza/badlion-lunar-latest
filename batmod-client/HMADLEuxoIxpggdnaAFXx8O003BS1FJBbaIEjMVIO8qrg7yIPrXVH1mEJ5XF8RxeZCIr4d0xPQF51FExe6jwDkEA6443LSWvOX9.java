@@ -1,3 +1,3 @@
 public interface HMADLEuxoIxpggdnaAFXx8O003BS1FJBbaIEjMVIO8qrg7yIPrXVH1mEJ5XF8RxeZCIr4d0xPQF51FExe6jwDkEA6443LSWvOX9 {
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(boolean var1);
+   void BatModClient(boolean var1);
 }

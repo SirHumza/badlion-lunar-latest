@@ -1,22 +1,22 @@
 public class xF6dsUqRO3jt3gHLPHeRHcTXzYwLKRp9v63DS1utJJciBtr2cOD4JKbHJvAqKpld4PieFq1GoI3rci687T5aOsqDzF7eqrx4v6VV {
-   private int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   private GB37CLEsuUx5EKhyli7onI2b2bej0WKCG9dd8K2cZtwlffkXphIJHyik5Z0hzrILtPJjIMJv1HcMmJ73Tkji1BdUZRrgF4hVa5Ca BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   private int BatModClient;
+   private GB37CLEsuUx5EKhyli7onI2b2bej0WKCG9dd8K2cZtwlffkXphIJHyik5Z0hzrILtPJjIMJv1HcMmJ73Tkji1BdUZRrgF4hVa5Ca Button;
 
-   public int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public int BatModClient() {
+      return this.BatModClient;
    }
 
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+   public void BatModClient(int var1) {
+      this.BatModClient = var1;
    }
 
-   public GB37CLEsuUx5EKhyli7onI2b2bej0WKCG9dd8K2cZtwlffkXphIJHyik5Z0hzrILtPJjIMJv1HcMmJ73Tkji1BdUZRrgF4hVa5Ca BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public GB37CLEsuUx5EKhyli7onI2b2bej0WKCG9dd8K2cZtwlffkXphIJHyik5Z0hzrILtPJjIMJv1HcMmJ73Tkji1BdUZRrgF4hVa5Ca Button() {
+      return this.Button;
    }
 
-   public void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public void BatModClient(
       GB37CLEsuUx5EKhyli7onI2b2bej0WKCG9dd8K2cZtwlffkXphIJHyik5Z0hzrILtPJjIMJv1HcMmJ73Tkji1BdUZRrgF4hVa5Ca var1
    ) {
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var1;
+      this.Button = var1;
    }
 }

@@ -20,20 +20,20 @@ public class Zi1kWU6x0lDNjklS1SeZPXcpwepmlt5E4D1SozVWTZtFKIgRYjFYIrquDaxgffRaABl
    }
 
    @Override
-   protected void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   protected void BatModClient(
       tr5q0GOmD0yw0kez9WIWiwusnJR8KXYXx5G1VkLWqLsRMTT9JhhAeVCOzwkc1jYFYNDNES03f87QEbOZZGRpGQfyo0cDCbDpqH var1
    ) {
-      if (var1.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u != null) {
+      if (var1.ButtonAction != null) {
          byte var2 = 0;
-         if (var1.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u instanceof Wjjv3Qo57I73xuFeZzfBwz1xyBax5fcXvknjxNfsQ9hZw3jObph9i6JDy3wCyifxIx8CHeFcllFp2G9j9uHlmFs7sVD58zcLn9Bo
+         if (var1.ButtonAction instanceof Wjjv3Qo57I73xuFeZzfBwz1xyBax5fcXvknjxNfsQ9hZw3jObph9i6JDy3wCyifxIx8CHeFcllFp2G9j9uHlmFs7sVD58zcLn9Bo
             )
           {
             var2 = 3;
          }
 
-         var1.PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u
-            .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
-               S6QOA0veBtaQqbw5zNdO2iSS8GpIIQZGJHYT0HHew5sBDAkVqCm4sSj05QIgyFsqi8mTQ0qLwdDYwqI3lSbIyBlfwz8s06tJV6k4.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+         var1.ButtonAction
+            .BatModClient(
+               S6QOA0veBtaQqbw5zNdO2iSS8GpIIQZGJHYT0HHew5sBDAkVqCm4sSj05QIgyFsqi8mTQ0qLwdDYwqI3lSbIyBlfwz8s06tJV6k4.BatModClient(
                   this, this.iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF()
                ),
                var2
@@ -42,7 +42,7 @@ public class Zi1kWU6x0lDNjklS1SeZPXcpwepmlt5E4D1SozVWTZtFKIgRYjFYIrquDaxgffRaABl
 
       for (int var3 = 0; var3 < 8; var3++) {
          this.K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY
-            .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            .BatModClient(
                bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI.GpDFKWkpAtoLQB0W2XCV5bHrfhV8v60U9eVAz8acb1obB7yclvZIoJJBby5GbawXebsAfQocYajpCi0D7X4qgixSfAmUGJnoMIBj,
                this.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8,
                this.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa,

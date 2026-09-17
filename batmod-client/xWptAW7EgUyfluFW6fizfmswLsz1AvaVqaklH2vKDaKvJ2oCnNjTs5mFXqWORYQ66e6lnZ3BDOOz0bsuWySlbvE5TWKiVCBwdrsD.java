@@ -1,5 +1,5 @@
 public interface xWptAW7EgUyfluFW6fizfmswLsz1AvaVqaklH2vKDaKvJ2oCnNjTs5mFXqWORYQ66e6lnZ3BDOOz0bsuWySlbvE5TWKiVCBwdrsD {
-   void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   void BatModClient(
       seh8dF7MVL4b5yxwwcAiszh8LXBDhUSdECTFRKjqLZLC7X2udGeJLCdlbKzxO8bVn3kwv0IUAU1jRBNRjsV0e2utdWrMnhWbUBRs var1
    );
 }

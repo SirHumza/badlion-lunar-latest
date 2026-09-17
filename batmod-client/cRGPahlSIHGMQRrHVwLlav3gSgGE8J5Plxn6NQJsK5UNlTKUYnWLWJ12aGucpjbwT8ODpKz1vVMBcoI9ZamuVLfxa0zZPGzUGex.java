@@ -1,10 +1,10 @@
 public class cRGPahlSIHGMQRrHVwLlav3gSgGE8J5Plxn6NQJsK5UNlTKUYnWLWJ12aGucpjbwT8ODpKz1vVMBcoI9ZamuVLfxa0zZPGzUGex {
-   private static final int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = 4096;
-   private static final Integer[] BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(
+   private static final int BatModClient = 4096;
+   private static final Integer[] Button = Button(
       4096
    );
 
-   private static Integer[] BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(int var0) {
+   private static Integer[] Button(int var0) {
       Integer[] var1 = new Integer[var0];
 
       for (int var2 = 0; var2 < var0; var2++) {
@@ -14,9 +14,9 @@ public class cRGPahlSIHGMQRrHVwLlav3gSgGE8J5Plxn6NQJsK5UNlTKUYnWLWJ12aGucpjbwT8O
       return var1;
    }
 
-   public static Integer Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var0) {
+   public static Integer BatModClient(int var0) {
       return var0 >= 0 && var0 < 4096
-         ? BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW[var0]
+         ? Button[var0]
          : new Integer(var0);
    }
 }

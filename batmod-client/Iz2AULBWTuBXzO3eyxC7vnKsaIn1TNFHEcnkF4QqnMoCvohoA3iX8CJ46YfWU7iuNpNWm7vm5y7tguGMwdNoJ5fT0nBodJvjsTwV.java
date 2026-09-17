@@ -4,22 +4,22 @@ public class Iz2AULBWTuBXzO3eyxC7vnKsaIn1TNFHEcnkF4QqnMoCvohoA3iX8CJ46YfWU7iuNpN
       long var1, yX1MwGTwG3GAnYDfRXfncoMYV0DXSQqM529d4i1QI810FiR1Q1bccyWZsgVv6SyP0ggnF4uD4FrMSIVO06H1Z1ksoirKWcsyfQLF var3
    ) {
       super(var1);
-      super.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var3;
+      super.BatModClient = var3;
    }
 
    @Override
-   public int[] Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1, int var2, int var3, int var4) {
+   public int[] BatModClient(int var1, int var2, int var3, int var4) {
       var1 -= 2;
       var2 -= 2;
       int var5 = var1 >> 2;
       int var6 = var2 >> 2;
       int var7 = (var3 >> 2) + 2;
       int var8 = (var4 >> 2) + 2;
-      int[] var9 = this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I
-         .Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var5, var6, var7, var8);
+      int[] var9 = this.BatModClient
+         .BatModClient(var5, var6, var7, var8);
       int var10 = var7 - 1 << 2;
       int var11 = var8 - 1 << 2;
-      int[] var12 = fmK8A1OVIw5UMnvTqEt388gJoF8bPb05nHiY2cTOrHEUqVJV1HzQOt4S6gOtpCfFUde1X6nnuBzcc6g4oTgpER9ZQckcB1SwceOc.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      int[] var12 = fmK8A1OVIw5UMnvTqEt388gJoF8bPb05nHiY2cTOrHEUqVJV1HzQOt4S6gOtpCfFUde1X6nnuBzcc6g4oTgpER9ZQckcB1SwceOc.BatModClient(
          var10 * var11
       );
 
@@ -30,36 +30,36 @@ public class Iz2AULBWTuBXzO3eyxC7vnKsaIn1TNFHEcnkF4QqnMoCvohoA3iX8CJ46YfWU7iuNpN
 
          while (var14 < var7 - 1) {
             double var17 = 3.6;
-            this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            this.BatModClient(
                (long)(var14 + var5 << 2), (long)(var13 + var6 << 2)
             );
-            double var19 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var19 = (this.BatModClient(1024) / 1024.0 - 0.5)
                * 3.6;
-            double var21 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var21 = (this.BatModClient(1024) / 1024.0 - 0.5)
                * 3.6;
-            this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            this.BatModClient(
                (long)(var14 + var5 + 1 << 2), (long)(var13 + var6 << 2)
             );
-            double var23 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var23 = (this.BatModClient(1024) / 1024.0 - 0.5)
                   * 3.6
                + 4.0;
-            double var25 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var25 = (this.BatModClient(1024) / 1024.0 - 0.5)
                * 3.6;
-            this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            this.BatModClient(
                (long)(var14 + var5 << 2), (long)(var13 + var6 + 1 << 2)
             );
-            double var27 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var27 = (this.BatModClient(1024) / 1024.0 - 0.5)
                * 3.6;
-            double var29 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var29 = (this.BatModClient(1024) / 1024.0 - 0.5)
                   * 3.6
                + 4.0;
-            this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            this.BatModClient(
                (long)(var14 + var5 + 1 << 2), (long)(var13 + var6 + 1 << 2)
             );
-            double var31 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var31 = (this.BatModClient(1024) / 1024.0 - 0.5)
                   * 3.6
                + 4.0;
-            double var33 = (this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(1024) / 1024.0 - 0.5)
+            double var33 = (this.BatModClient(1024) / 1024.0 - 0.5)
                   * 3.6
                + 4.0;
             int var35 = var9[var14 + 1 + (var13 + 0) * var7] & 0xFF;
@@ -91,7 +91,7 @@ public class Iz2AULBWTuBXzO3eyxC7vnKsaIn1TNFHEcnkF4QqnMoCvohoA3iX8CJ46YfWU7iuNpN
          }
       }
 
-      int[] var50 = fmK8A1OVIw5UMnvTqEt388gJoF8bPb05nHiY2cTOrHEUqVJV1HzQOt4S6gOtpCfFUde1X6nnuBzcc6g4oTgpER9ZQckcB1SwceOc.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+      int[] var50 = fmK8A1OVIw5UMnvTqEt388gJoF8bPb05nHiY2cTOrHEUqVJV1HzQOt4S6gOtpCfFUde1X6nnuBzcc6g4oTgpER9ZQckcB1SwceOc.BatModClient(
          var3 * var4
       );
 

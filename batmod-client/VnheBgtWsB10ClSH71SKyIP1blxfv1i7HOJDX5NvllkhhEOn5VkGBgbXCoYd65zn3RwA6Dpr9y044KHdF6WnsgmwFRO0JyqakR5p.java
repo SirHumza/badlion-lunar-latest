@@ -1,14 +1,14 @@
 public enum VnheBgtWsB10ClSH71SKyIP1blxfv1i7HOJDX5NvllkhhEOn5VkGBgbXCoYd65zn3RwA6Dpr9y044KHdF6WnsgmwFRO0JyqakR5p {
-   Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(0),
-   BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(2);
+   BatModClient(0),
+   Button(2);
 
-   private final int vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+   private final int CustomSpinner;
 
    VnheBgtWsB10ClSH71SKyIP1blxfv1i7HOJDX5NvllkhhEOn5VkGBgbXCoYd65zn3RwA6Dpr9y044KHdF6WnsgmwFRO0JyqakR5p(int var3) {
-      this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5 = var3;
+      this.CustomSpinner = var3;
    }
 
-   public int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return this.vjMnoQVt4KJAEVp97lU0HwLdy7vI4r5MxmeNwfyffktlSR8NdvLwWLz0si8lv3Mt2ZhfNkL73F1wQaifmFL7M5A4n7UNhBMXtDb5;
+   public int BatModClient() {
+      return this.CustomSpinner;
    }
 }

@@ -4,23 +4,23 @@ import javax.naming.directory.Attributes;
 import javax.naming.directory.InitialDirContext;
 
 public class eipDD87ptMYMOyi2DIJITpteR8q0zVlH52sF7kTntG5qb5krA29kDELJbmMLPJoBB1ohvQw8BwMTU0EQwj8uHqTXTUP10TbcYakQ {
-   private final String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
-   private final int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   private final String BatModClient;
+   private final int Button;
 
    private eipDD87ptMYMOyi2DIJITpteR8q0zVlH52sF7kTntG5qb5krA29kDELJbmMLPJoBB1ohvQw8BwMTU0EQwj8uHqTXTUP10TbcYakQ(String var1, int var2) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
-      this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW = var2;
+      this.BatModClient = var1;
+      this.Button = var2;
    }
 
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
-      return IDN.toASCII(this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I);
+   public String BatModClient() {
+      return IDN.toASCII(this.BatModClient);
    }
 
-   public int BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW() {
-      return this.BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW;
+   public int Button() {
+      return this.Button;
    }
 
-   public static eipDD87ptMYMOyi2DIJITpteR8q0zVlH52sF7kTntG5qb5krA29kDELJbmMLPJoBB1ohvQw8BwMTU0EQwj8uHqTXTUP10TbcYakQ Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public static eipDD87ptMYMOyi2DIJITpteR8q0zVlH52sF7kTntG5qb5krA29kDELJbmMLPJoBB1ohvQw8BwMTU0EQwj8uHqTXTUP10TbcYakQ BatModClient(
       String var0
    ) {
       if (var0 == null) {
@@ -47,17 +47,17 @@ public class eipDD87ptMYMOyi2DIJITpteR8q0zVlH52sF7kTntG5qb5krA29kDELJbmMLPJoBB1o
       }
 
       String var5 = var1[0];
-      int var6 = var1.length > 1 ? Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var1[1], 25565) : 25565;
+      int var6 = var1.length > 1 ? BatModClient(var1[1], 25565) : 25565;
       if (var6 == 25565) {
-         String[] var8 = BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(var5);
+         String[] var8 = Button(var5);
          var5 = var8[0];
-         var6 = Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var8[1], 25565);
+         var6 = BatModClient(var8[1], 25565);
       }
 
       return new eipDD87ptMYMOyi2DIJITpteR8q0zVlH52sF7kTntG5qb5krA29kDELJbmMLPJoBB1ohvQw8BwMTU0EQwj8uHqTXTUP10TbcYakQ(var5, var6);
    }
 
-   private static String[] BCAr50JktY88bne3gKpPhCi2ojs9Qz9CtuZ5qY1yf6DHnlHQpJN8xerjZR0doZLmrPDpizrnL5MVJWMiFh9rjXh2hU5qvQF1gSfW(String var0) {
+   private static String[] Button(String var0) {
       try {
          String var1 = "com.sun.jndi.dns.DnsContextFactory";
          Class.forName("com.sun.jndi.dns.DnsContextFactory");
@@ -74,7 +74,7 @@ public class eipDD87ptMYMOyi2DIJITpteR8q0zVlH52sF7kTntG5qb5krA29kDELJbmMLPJoBB1o
       }
    }
 
-   private static int Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(String var0, int var1) {
+   private static int BatModClient(String var0, int var1) {
       try {
          return Integer.parseInt(var0.trim());
       } catch (Exception var3) {

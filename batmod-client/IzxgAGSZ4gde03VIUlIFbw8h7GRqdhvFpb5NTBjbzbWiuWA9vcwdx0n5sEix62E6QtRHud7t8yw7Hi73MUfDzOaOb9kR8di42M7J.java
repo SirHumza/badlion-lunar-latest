@@ -7,7 +7,7 @@ import org.apache.commons.lang3.Validate;
 
 public class IzxgAGSZ4gde03VIUlIFbw8h7GRqdhvFpb5NTBjbzbWiuWA9vcwdx0n5sEix62E6QtRHud7t8yw7Hi73MUfDzOaOb9kR8di42M7J
    extends edUG7FYUKILmr1KaUjgCEQPb7AdbBVrk2aebEAHYLT8lzdGbdwX2S9ElQ4QzVLFdvod9EYPnPFD0f0arUeowYyrUnEXvjOgnnMi5 {
-   public zC3ZhroKA6yY2DxKsq5htCTALUkvrWp7XdVq55QpgwtpSpVRypEhY8SVQlCaW53MpEeeH5vjFDJUvYANFybIAvkUmYSwYr9avi1I Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   public zC3ZhroKA6yY2DxKsq5htCTALUkvrWp7XdVq55QpgwtpSpVRypEhY8SVQlCaW53MpEeeH5vjFDJUvYANFybIAvkUmYSwYr9avi1I BatModClient(
       JsonElement var1, Type var2, JsonDeserializationContext var3
    ) {
       JsonObject var4 = var1.getAsJsonObject();
@@ -29,15 +29,15 @@ public class IzxgAGSZ4gde03VIUlIFbw8h7GRqdhvFpb5NTBjbzbWiuWA9vcwdx0n5sEix62E6QtR
             }
 
             JsonObject var12 = var11.getAsJsonObject("default");
-            var8 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            var8 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.BatModClient(
                var12, "width", var8
             );
             Validate.inclusiveBetween(0.0, Float.MAX_VALUE, var8, "Invalid default width");
-            var9 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            var9 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.BatModClient(
                var12, "spacing", var9
             );
             Validate.inclusiveBetween(0.0, Float.MAX_VALUE, var9, "Invalid default spacing");
-            var10 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+            var10 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.BatModClient(
                var12, "left", var9
             );
             Validate.inclusiveBetween(0.0, Float.MAX_VALUE, var10, "Invalid default left");
@@ -49,18 +49,18 @@ public class IzxgAGSZ4gde03VIUlIFbw8h7GRqdhvFpb5NTBjbzbWiuWA9vcwdx0n5sEix62E6QtR
             float var15 = var9;
             float var16 = var10;
             if (var13 != null) {
-               JsonObject var17 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.uOh7QdAMca8nwYb0DkRvlOJ7ff6bkSfOnIYPiKRRS86HCLi5NONDp2LRBNxM7xnBSZGJJ08MXuR6ibgCZ3WlRP15xmemY7XgO590(
+               JsonObject var17 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Spinner(
                   var13, "characters[" + var18 + "]"
                );
-               var14 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+               var14 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.BatModClient(
                   var17, "width", var8
                );
                Validate.inclusiveBetween(0.0, Float.MAX_VALUE, var14, "Invalid width");
-               var15 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+               var15 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.BatModClient(
                   var17, "spacing", var9
                );
                Validate.inclusiveBetween(0.0, Float.MAX_VALUE, var15, "Invalid spacing");
-               var16 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+               var16 = QRGLTlIBns8b6qqQbJeeQvIuCEu2Qk1HcmIz0hT7TNrQMZsCnCH6bniJNOXIQAxoPQoPZjjMuMK8W3dGlG7NillS9cpb2P7W35fb.BatModClient(
                   var17, "left", var10
                );
                Validate.inclusiveBetween(0.0, Float.MAX_VALUE, var16, "Invalid left");
@@ -76,7 +76,7 @@ public class IzxgAGSZ4gde03VIUlIFbw8h7GRqdhvFpb5NTBjbzbWiuWA9vcwdx0n5sEix62E6QtR
    }
 
    @Override
-   public String Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public String BatModClient() {
       return "font";
    }
 }

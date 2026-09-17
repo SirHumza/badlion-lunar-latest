@@ -1,5 +1,5 @@
 public abstract class Zjte5hdvOi6rnQCysjMXjqYXaHxxnhcy28VSOAkXx7ae2BvgvvvbN8EHaZ4d3EcimBXtUVgYEiv36iCD6yjpas9r01WrZgX4JBAr {
-   public long Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I;
+   public long BatModClient;
 
-   public abstract void Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I();
+   public abstract void BatModClient();
 }

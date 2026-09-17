@@ -3,7 +3,7 @@ import com.batmod.gui.button.GuiKeyBindingButton;
 final class b4KmEzzl9MbF4jUAb2Z6l6JN0EIRbzQEPFWtSCAK3QmiDn7JtHvMDeGyGrqfrfZvyiYdmDdusyY6zPQh7jyEAD0dE169gAbeU5FT
    implements aErciqm7PTGL48YFg2lrHSX5oQooUFfx8ilsSsNTG8Xw2hINMzr7be3HGzO7cXFCANEqFuhKkqvdlTWbigBxrDZo3RafCmvc282Y {
    @Override
-   public dQzeRsa3fcaXtNWNPauml6R6nQvxrxCwaHAilgFEjrTnDgyNdDJiJ3WwXZXmxN4IyUmFs4BamJ8rvO1sXVaOybtfYqqZsAnOqRDR Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I() {
+   public dQzeRsa3fcaXtNWNPauml6R6nQvxrxCwaHAilgFEjrTnDgyNdDJiJ3WwXZXmxN4IyUmFs4BamJ8rvO1sXVaOybtfYqqZsAnOqRDR BatModClient() {
       return new GuiKeyBindingButton(1, "optionsShortcutKeyBinding");
    }
 }

@@ -1,15 +1,15 @@
 package net.minecraft.client.renderer;
 
-class agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x
+class TextField
    extends gPEIx5mG3EtdJLuXNaFxxtN2mtjIBg7MQ5YJf9Amb46dssqOCDY35SCz2vpDLZFx0aUmoGbkNXf5wy9UW1DPxfWXSNZKGlClIsFS {
-   agT8inGCbH8rayL8VsmaMaspbLMGTDlBxvqPNtSCjwfCRRGc6iLfpTSmirkhWw98WNUsLxy6fpx4xiEhjg3oGQ49nFAuKxcjw4x(
-      net.minecraft.client.renderer.sZrYAdOvyZNrQTQ3ZU8UOhdt4uTik3WKlaSKgnyMXjeCxz5oe8Mw0rtvMcjdpzjEHp0Gs48dlfFyZy3PJfJ9pOtzgSWW5nUaRf9 var1
+   TextField(
+      net.minecraft.client.renderer.ColorChooser var1
    ) {
-      this.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I = var1;
+      this.BatModClient = var1;
    }
 
    @Override
-   protected dHaQUo3gOuF3z3Ec5K2gahlPkAXnoV5IiHpWsWYlrdQehUakWAcbqyfbBtCOOcWpTaCPl6IQvlaN4r52VSgCgvqqK14HdrhWFJqI Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(
+   protected dHaQUo3gOuF3z3Ec5K2gahlPkAXnoV5IiHpWsWYlrdQehUakWAcbqyfbBtCOOcWpTaCPl6IQvlaN4r52VSgCgvqqK14HdrhWFJqI BatModClient(
       jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS var1
    ) {
       return new dHaQUo3gOuF3z3Ec5K2gahlPkAXnoV5IiHpWsWYlrdQehUakWAcbqyfbBtCOOcWpTaCPl6IQvlaN4r52VSgCgvqqK14HdrhWFJqI("dead_bush", "normal");

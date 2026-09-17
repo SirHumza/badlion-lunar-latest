@@ -5,7 +5,7 @@ final class lcnAymff3PqjKb0ivCpoFQhuFHyNlJTsrkK3CDolGJEMzEKYydoK4A8TDuMUv7vzCFQL
    }
 
    @Override
-   public boolean Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(int var1) {
-      return super.Vv68OIsnGeRqNfkWrhZ5USpiBlL6J6vQzYtytK46tvCioEQQMZcScI0HTaPI2crSli4YOR7j9Ki8oHHVOSkyhwKiCE22LhzzQg9I(var1) && var1 > 4;
+   public boolean BatModClient(int var1) {
+      return super.BatModClient(var1) && var1 > 4;
    }
 }

@@ -13,7 +13,7 @@ public abstract class kQaSglmtciuBOEhr1BglmA13pB5GNGdTzd5Rieq2oVRDxZ6zB2v431CbkN
    }
 
    @Override
-   protected boolean PMXj5cVzikOoAj6rXar9iuqRUvVsGZW5QkewwwasFBwKChzIbRifUEsJ1VyOgk4IaXktI6jr1braKR7tmjxMnghfQfQ7P5LNjT4u(
+   protected boolean ButtonAction(
       EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u var1
    ) {
       return false;

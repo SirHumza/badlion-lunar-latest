@@ -1,0 +1,23 @@
+import com.google.common.cache.CacheLoader;
+
+class J7Nfg1MsRpFkqeQmzopw0dmA5GRcoHZqWf19sd2oLFonu9H6UfWVhCJpt8k3eHyhenlERc26oSzPGnClTC2lsYmFcnowEhfG55l extends CacheLoader {
+   private final xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY BatModClient;
+   private final boolean Button;
+
+   public J7Nfg1MsRpFkqeQmzopw0dmA5GRcoHZqWf19sd2oLFonu9H6UfWVhCJpt8k3eHyhenlERc26oSzPGnClTC2lsYmFcnowEhfG55l(
+      xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1, boolean var2
+   ) {
+      this.BatModClient = var1;
+      this.Button = var2;
+   }
+
+   public dWIru0rKBp3toiECLZHaCpni74IRe7mOafB243BoMBEel87dZgdASPZipLUB4hVf7Feu5aZPTmP5LhPCVj4v9elWdnfyCaGF8t4C BatModClient(
+      q15Hrb7HPiXUZJsH3CBPEgtS2dBsU3MPPT72hjpoKm9nktzO32O8rewmFT7fqIM36QFgzptSfVW7TW1sEMV8VoaK1YvNABwRXVW var1
+   ) {
+      return new dWIru0rKBp3toiECLZHaCpni74IRe7mOafB243BoMBEel87dZgdASPZipLUB4hVf7Feu5aZPTmP5LhPCVj4v9elWdnfyCaGF8t4C(
+         this.BatModClient,
+         var1,
+         this.Button
+      );
+   }
+}

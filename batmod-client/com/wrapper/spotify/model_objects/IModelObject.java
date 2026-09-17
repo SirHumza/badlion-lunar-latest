@@ -1,42 +1,120 @@
 package com.wrapper.spotify.model_objects;
 
 import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonNull;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.wrapper.spotify.model_objects.specification.Cursor;
 import com.wrapper.spotify.model_objects.specification.Paging;
 import com.wrapper.spotify.model_objects.specification.PagingCursorbased;
+import java.lang.reflect.Array;
+import java.lang.reflect.ParameterizedType;
 
-public interface IModelObject {
-   IModelObject.Builder builder();
-
-   interface Builder {
-      IModelObject build();
+public abstract class AbstractModelObject implements IModelObject {
+   protected AbstractModelObject(AbstractModelObject.Builder builder) {
+      assert builder != null;
    }
 
-   interface IJsonUtil<T> {
-      boolean hasAndNotNull(JsonObject var1, String var2);
+   public abstract static class Builder implements IModelObject.Builder {
+   }
 
-      T createModelObject(JsonObject var1);
+   public abstract static class JsonUtil<T> implements IModelObject.IJsonUtil<T> {
+      @Override
+      public boolean hasAndNotNull(JsonObject jsonObject, String memberName) {
+         return jsonObject.has(memberName) && !jsonObject.get(memberName).isJsonNull();
+      }
 
-      T createModelObject(String var1);
+      @Override
+      public T createModelObject(String json) {
+         return json == null ? null : this.createModelObject(new JsonParser().parse(json).getAsJsonObject());
+      }
 
-      T[] createModelObjectArray(JsonArray var1);
+      @Override
+      public T[] createModelObjectArray(JsonArray jsonArray) {
+         T[] array = (T[])((Object[])Array.newInstance(
+            (Class<?>)((ParameterizedType)this.getClass().getGenericSuperclass()).getActualTypeArguments()[0], jsonArray.size()
+         ));
 
-      T[] createModelObjectArray(String var1);
+         for (int i = 0; i < jsonArray.size(); i++) {
+            JsonElement jsonElement = jsonArray.get(i);
+            if (jsonElement instanceof JsonNull) {
+               array[i] = null;
+            } else {
+               JsonObject jsonObject = jsonElement.getAsJsonObject();
+               array[i] = this.createModelObject(jsonObject);
+            }
+         }
 
-      T[] createModelObjectArray(String var1, String var2);
+         return array;
+      }
 
-      <X> X[] createModelObjectArray(JsonArray var1, Class<X> var2);
+      @Override
+      public T[] createModelObjectArray(String json) {
+         return this.createModelObjectArray(new JsonParser().parse(json).getAsJsonArray());
+      }
 
-      Paging<T> createModelObjectPaging(JsonObject var1);
+      @Override
+      public T[] createModelObjectArray(String json, String key) {
+         return this.createModelObjectArray(new JsonParser().parse(json).getAsJsonObject().get(key).getAsJsonArray());
+      }
 
-      Paging<T> createModelObjectPaging(String var1);
+      @Override
+      public <X> X[] createModelObjectArray(JsonArray jsonArray, Class<X> clazz) {
+         X[] array = (X[])Array.newInstance(clazz, jsonArray.size());
 
-      Paging<T> createModelObjectPaging(String var1, String var2);
+         for (int i = 0; i < jsonArray.size(); i++) {
+            JsonElement jsonElement = jsonArray.get(i);
+            JsonObject jsonObject = jsonElement.getAsJsonObject();
+            array[i] = (X)this.createModelObject(jsonObject);
+         }
 
-      PagingCursorbased<T> createModelObjectPagingCursorbased(JsonObject var1);
+         return array;
+      }
 
-      PagingCursorbased<T> createModelObjectPagingCursorbased(String var1);
+      @Override
+      public Paging<T> createModelObjectPaging(JsonObject jsonObject) {
+         return new Paging.Builder<T>()
+            .setHref(this.hasAndNotNull(jsonObject, "href") ? jsonObject.get("href").getAsString() : null)
+            .setItems(this.hasAndNotNull(jsonObject, "items") ? this.createModelObjectArray(jsonObject.getAsJsonArray("items")) : null)
+            .setLimit(this.hasAndNotNull(jsonObject, "limit") ? jsonObject.get("limit").getAsInt() : null)
+            .setNext(this.hasAndNotNull(jsonObject, "next") ? jsonObject.get("next").getAsString() : null)
+            .setOffset(this.hasAndNotNull(jsonObject, "offset") ? jsonObject.get("offset").getAsInt() : null)
+            .setPrevious(this.hasAndNotNull(jsonObject, "previous") ? jsonObject.get("previous").getAsString() : null)
+            .setTotal(this.hasAndNotNull(jsonObject, "total") ? jsonObject.get("total").getAsInt() : null)
+            .build();
+      }
 
-      PagingCursorbased<T> createModelObjectPagingCursorbased(String var1, String var2);
+      @Override
+      public Paging<T> createModelObjectPaging(String json) {
+         return this.createModelObjectPaging(new JsonParser().parse(json).getAsJsonObject());
+      }
+
+      @Override
+      public Paging<T> createModelObjectPaging(String json, String key) {
+         return this.createModelObjectPaging(new JsonParser().parse(json).getAsJsonObject().get(key).getAsJsonObject());
+      }
+
+      @Override
+      public PagingCursorbased<T> createModelObjectPagingCursorbased(JsonObject jsonObject) {
+         return new PagingCursorbased.Builder<T>()
+            .setHref(this.hasAndNotNull(jsonObject, "href") ? jsonObject.get("href").getAsString() : null)
+            .setItems(this.hasAndNotNull(jsonObject, "items") ? this.createModelObjectArray(jsonObject.getAsJsonArray("items")) : null)
+            .setLimit(this.hasAndNotNull(jsonObject, "limit") ? jsonObject.get("limit").getAsInt() : null)
+            .setNext(this.hasAndNotNull(jsonObject, "next") ? jsonObject.get("next").getAsString() : null)
+            .setCursors(this.hasAndNotNull(jsonObject, "cursors") ? new Cursor.JsonUtil().createModelObject(jsonObject.getAsJsonObject("cursors")) : null)
+            .setTotal(this.hasAndNotNull(jsonObject, "total") ? jsonObject.get("total").getAsInt() : null)
+            .build();
+      }
+
+      @Override
+      public PagingCursorbased<T> createModelObjectPagingCursorbased(String json) {
+         return this.createModelObjectPagingCursorbased(new JsonParser().parse(json).getAsJsonObject());
+      }
+
+      @Override
+      public PagingCursorbased<T> createModelObjectPagingCursorbased(String json, String key) {
+         return this.createModelObjectPagingCursorbased(new JsonParser().parse(json).getAsJsonObject().get(key).getAsJsonObject());
+      }
    }
 }
