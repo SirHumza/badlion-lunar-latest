@@ -1,70 +1,94 @@
 package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
 
 import java.io.Serializable;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Member;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.lang.reflect.Type;
 
-public final class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI extends IHHCHHHCRIHOOCOIOOCRIIICIOROIR {
-   private static final long OORCOCOOOCHRRRHOHOOCCCOCOCRHCO = 1L;
-   protected final Constructor<?> HRIHOHHIHCCCRRROOHRHCROIRRIORR;
-   protected RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OHHOCOCRRCHRORCCIRHHOOHRRCHIHI;
+public final class HICHRCOHCCRHOHCICOOCHOIHCCHIRI extends IHHCHHHCRIHOOCOIOOCRIIICIOROIR implements Serializable {
+   private static final long CCCOCRIOROHOROROHCRCORICHIHHCH = 1L;
+   protected final transient Method COHIIHHCCOOICHRIOOCCOHHCRIHHOH;
+   protected Class<?>[] RRCOCHHCOCRORIHRCCICRORIIORCCC;
+   protected HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH OOCCICORROOOICORHCOOIOOOIHRCIO;
 
-   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
-      RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, Constructor<?> var2, RHOCHHIRRCHHHOHOIRROIROHHHIHIO var3, RHOCHHIRRCHHHOHOIRROIROHHHIHIO[] var4
+   public HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+      RCIROOOOICRHCCRRCIORHHIRCOIIIC var1, Method var2, RHOCHHIRRCHHHOHOIRROIROHHHIHIO var3, RHOCHHIRRCHHHOHOIRROIROHHHIHIO[] var4
    ) {
       super(var1, var3, var4);
       if (var2 == null) {
-         throw new IllegalArgumentException("Null constructor not allowed");
+         throw new IllegalArgumentException("Cannot construct AnnotatedMethod with null Method");
       }
 
-      this.HRIHOHHIHCCCRRROOHRHCROIRRIORR = var2;
+      this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH = var2;
    }
 
-   protected RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
+   protected HICHRCOHCCRHOHCICOOCHOIHCCHIRI(HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1) {
       super(null, null, null);
-      this.HRIHOHHIHCCCRRROOHRHCROIRRIORR = null;
-      this.OHHOCOCRRCHRORCCIRHHOOHRRCHIHI = var1;
+      this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH = null;
+      this.OOCCICORROOOICORHCOOIOOOIHRCIO = var1;
    }
 
-   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RHOCHHIRRCHHHOHOIRROIROHHHIHIO var1) {
-      return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
-         this.IRIOIRIROIIOCRCIRHICCOCIOOHICO, this.HRIHOHHIHCCCRRROOHRHCROIRRIORR, var1, this.ORIRIOIRORIHCRCCRRCCOHIHROORCR
+   public HICHRCOHCCRHOHCICOOCHOIHCCHIRI CRRRICCRROCOHHOHIICIHORCOORRRH(RHOCHHIRRCHHHOHOIRROIROHHHIHIO var1) {
+      return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI(
+         this.IRIOIRIROIIOCRCIRHICCOCIOOHICO, this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH, var1, this.ORIRIOIRORIHCRCCRRCCOHIHROORCR
       );
    }
 
-   public Constructor<?> CRRRHCCRCHIHOIIHIOCROOHCIIOIHO() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR;
+   public Method IIIOCCHOOIHCOICCIICHCRRCIRIHOI() {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH;
    }
 
    @Override
    public int getModifiers() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getModifiers();
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getModifiers();
    }
 
    @Override
    public String getName() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getName();
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getName();
    }
 
    @Override
    public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI getType() {
-      return this.IRIOIRIROIIOCRCIRHICCOCIOOHICO.IIHRRHORCRCROCHHOHORCHCROCIHRO(this.getRawType());
+      return this.IRIOIRIROIIOCRCIRHICCOCIOOHICO.IIHRRHORCRCROCHHOHORCHCROCIHRO(this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getGenericReturnType());
    }
 
    @Override
    public Class<?> getRawType() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getDeclaringClass();
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getReturnType();
+   }
+
+   @Override
+   public final Object call() {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.invoke(null);
+   }
+
+   @Override
+   public final Object call(Object[] var1) {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.invoke(null, var1);
+   }
+
+   @Override
+   public final Object OHRCIORHOCHOORCRHHOHRRRCCOICCO(Object var1) {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.invoke(null, var1);
+   }
+
+   public final Object OOCHIIROORIOCCCCCOORRIRIOHOORH(Object var1) {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.invoke(var1, (Object[])null);
+   }
+
+   public final Object IIHRRHORCRCROCHHOHORCHCROCIHRO(Object var1, Object... var2) {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.invoke(var1, var2);
    }
 
    @Override
    public int CICHIHICOCHIIOCICRICIRRRIOCROO() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getParameterCount();
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getParameterCount();
    }
 
    @Override
    public Class<?> OICOOCHOORCCCIIIORHCRIRHOIIORI(int var1) {
-      Class[] var2 = this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getParameterTypes();
+      Class[] var2 = this.CIOHRROOOIHHIROHCRCRRIIRHOIORI();
       return var1 >= var2.length ? null : var2[var1];
    }
 
@@ -72,69 +96,104 @@ public final class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI extends IHHCHHHCRIHOOCOIOOCRII
    public com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.OCOHORHCROHICRRIHCIHHRRCIHICRI RCICCRIHIORCCCRCCORIROCOIIORHC(
       int var1
    ) {
-      Type[] var2 = this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getGenericParameterTypes();
+      Type[] var2 = this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getGenericParameterTypes();
       return var1 >= var2.length ? null : this.IRIOIRIROIIOCRCIRHICCOCIOOHICO.IIHRRHORCRCROCHHOHORCHCROCIHRO(var2[var1]);
    }
 
    @Deprecated
    @Override
    public Type CCHICRHRHOIHHRORCROCHHROIHOCHO(int var1) {
-      Type[] var2 = this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getGenericParameterTypes();
+      Type[] var2 = this.getGenericParameterTypes();
       return var1 >= var2.length ? null : var2[var1];
    }
 
    @Override
-   public final Object call() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.newInstance((Object[])null);
-   }
-
-   @Override
-   public final Object call(Object[] var1) {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.newInstance(var1);
-   }
-
-   @Override
-   public final Object OHRCIORHOCHOORCRHHOHRRRCCOICCO(Object var1) {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.newInstance(var1);
-   }
-
-   @Override
    public Class<?> getDeclaringClass() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getDeclaringClass();
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getDeclaringClass();
    }
 
-   @Override
-   public Member getMember() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR;
+   public Method getMember() {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH;
    }
 
    @Override
    public void HHIRHRHHRHIHRHOHCHRHIORRHIIHOR(Object var1, Object var2) {
-      throw new UnsupportedOperationException("Cannot call setValue() on constructor of " + this.getDeclaringClass().getName());
+      try {
+         this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.invoke(var1, var2);
+      } catch (IllegalAccessException | InvocationTargetException var4) {
+         throw new IllegalArgumentException(
+            "Failed to setValue() with method "
+               + this.getFullName()
+               + ": "
+               + com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IHIRRIIORRHORHRORIHOROIRCORCOO(
+                  var4
+               ),
+            var4
+         );
+      }
    }
 
    @Override
    public Object getValue(Object var1) {
-      throw new UnsupportedOperationException("Cannot call getValue() on constructor of " + this.getDeclaringClass().getName());
+      try {
+         return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.invoke(var1, (Object[])null);
+      } catch (IllegalAccessException | InvocationTargetException var3) {
+         throw new IllegalArgumentException(
+            "Failed to getValue() with method "
+               + this.getFullName()
+               + ": "
+               + com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IHIRRIIORRHORHRORIHOROIRCORCOO(
+                  var3
+               ),
+            var3
+         );
+      }
+   }
+
+   @Override
+   public String getFullName() {
+      String var1 = super.getFullName();
+      switch (this.CICHIHICOCHIIOCICRICIRRRIOCROO()) {
+         case 0:
+            return var1 + "()";
+         case 1:
+            return var1 + "(" + this.OICOOCHOORCCCIIIORHCRIRHOIIORI(0).getName() + ")";
+         default:
+            return String.format("%s(%d params)", super.getFullName(), this.CICHIHICOCHIIOCICRICIRRRIOCROO());
+      }
+   }
+
+   public Class<?>[] CIOHRROOOIHHIROHCRCRRIIRHOIORI() {
+      if (this.RRCOCHHCOCRORIHRCCICRORIIORCCC == null) {
+         this.RRCOCHHCOCRORIHRCCICRORIIORCCC = this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getParameterTypes();
+      }
+
+      return this.RRCOCHHCOCRORIHRCCICRORIIORCCC;
+   }
+
+   @Deprecated
+   public Type[] getGenericParameterTypes() {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getGenericParameterTypes();
+   }
+
+   public Class<?> HCOIRRHRCHIIORCOIROIHHRRCIIRIH() {
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getReturnType();
+   }
+
+   @Deprecated
+   public boolean hasReturnType() {
+      Class var1 = this.HCOIRRHRCHIIORCOIROIHHRRCIIRIH();
+      return var1 != void.class;
    }
 
    @Override
    public String toString() {
-      int var1 = this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getParameterCount();
-      return String.format(
-         "[constructor for %s (%d arg%s), annotations: %s",
-         com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.ROIHROCROORRCCOIRRIHHORCROOORO(
-            this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getDeclaringClass()
-         ),
-         var1,
-         var1 == 1 ? "" : "s",
-         this.IOCOHHCOHOCOIHOCHIIRORCIRCCCIC
-      );
+      return "[method " + this.getFullName() + "]";
    }
 
    @Override
    public int hashCode() {
-      return this.HRIHOHHIHCCCRRROOHRHCROIRRIORR.getName().hashCode();
+      return this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.getName().hashCode();
    }
 
    @Override
@@ -149,45 +208,42 @@ public final class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI extends IHHCHHHCRIHOOCOIOOCRII
          return false;
       }
 
-      RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var2 = (RIOOCHICIHRHOHCCCCCHOCCCOHCRHI)var1;
-      return var2.HRIHOHHIHCCCRRROOHRHCROIRRIORR == null
-         ? this.HRIHOHHIHCCCRRROOHRHCROIRRIORR == null
-         : var2.HRIHOHHIHCCCRRROOHRHCROIRRIORR.equals(this.HRIHOHHIHCCCRRROOHRHCROIRRIORR);
+      HICHRCOHCCRHOHCICOOCHOIHCCHIRI var2 = (HICHRCOHCCRHOHCICOOCHOIHCCHIRI)var1;
+      return var2.COHIIHHCCOOICHRIOOCCOHHCRIHHOH == null
+         ? this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH == null
+         : var2.COHIIHHCCOOICHRIOOCCOHHCRIHHOH.equals(this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH);
    }
 
    Object writeReplace() {
-      return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.HRIHOHHIHCCCRRROOHRHCROIRRIORR));
+      return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI(new HICHRCOHCCRHOHCICOOCHOIHCCHIRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(this.COHIIHHCCOOICHRIOOCCOHHCRIHHOH));
    }
 
    Object readResolve() {
-      Class var1 = this.OHHOCOCRRCHRORCCIRHHOOHRRCHIHI.clazz;
+      Class var1 = this.OOCCICORROOOICORHCOOIOOOIHRCIO.clazz;
 
       try {
-         Constructor var2 = var1.getDeclaredConstructor(this.OHHOCOCRRCHRORCCIRHHOOHRRCHIHI.HORIICIRCIHOCHHOHRIHCHOHOIRCOC);
+         Method var2 = var1.getDeclaredMethod(this.OOCCICORROOOICORHCOOIOOOIHRCIO.name, this.OOCCICORROOOICORHCOOIOOOIHRCIO.HORIICIRCIHOCHHOHRIHCHOHOIRCOC);
          if (!var2.isAccessible()) {
             com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIRHCHHOICHRICOOCRORCCIOOIHOIR.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
                var2, false
             );
          }
 
-         return new RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(null, var2, null, null);
+         return new HICHRCOHCCRHOHCICOOCHOIHCCHIRI(null, var2, null, null);
       } catch (Exception var3) {
-         throw new IllegalArgumentException(
-            "Could not find constructor with "
-               + this.OHHOCOCRRCHRORCCIRHHOOHRRCHIHI.HORIICIRCIHOCHHOHRIHCHOHOIRCOC.length
-               + " args from Class '"
-               + var1.getName()
-         );
+         throw new IllegalArgumentException("Could not find method '" + this.OOCCICORROOOICORHCOOIOOOIHRCIO.name + "' from Class '" + var1.getName());
       }
    }
 
    private static final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements Serializable {
-      private static final long CCOOHRHCOCCORHIHICHIIRIIRIICOH = 1L;
+      private static final long RHRRHOICICHOOOCOOHICHIORORHOOI = 1L;
       protected Class<?> clazz;
+      protected String name;
       protected Class<?>[] HORIICIRCIHOCHHOHRIHCHOHOIRCOC;
 
-      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Constructor<?> var1) {
+      public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Method var1) {
          this.clazz = var1.getDeclaringClass();
+         this.name = var1.getName();
          this.HORIICIRCIHOCHHOHRIHCHOHOIRCOC = var1.getParameterTypes();
       }
    }

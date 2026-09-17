@@ -4,32 +4,33 @@ import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRR
 import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RORCHCIIICOHIRROOORHOCCCCIOCCI;
 import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.IRRCCOICORICIHCHRHIHIHROIRHOCR;
 import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RHOCHHIRRCHHHOHOIRROIROHHHIHIO;
-import it.unimi.dsi.fastutil.objects.Object2BooleanOpenHashMap;
+import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
+import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
 import it.unimi.dsi.fastutil.objects.Object2DoubleOpenHashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 @com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
-public abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH<ID, Context>
-   extends IRCIIHHICIHRCOCRROCOICRIHHCCHH<ID, Context, com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRRRICCRROCOHHOHIICIHORCOORRRH<ID>> {
-   public HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+public abstract class CRRRICCRROCOHHOHIICIHORCOORRRH<ID, Context> extends IRCIIHHICIHRCOCRROCOICRIHHCCHH<ID, Context, RIOOCHICIHRHOHCCCCCHOCCCOHCRHI<ID>> {
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(
       com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1
    ) {
       super(var1);
    }
 
-   public com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRRRICCRROCOHHOHIICIHORCOORRRH<ID> IHHORCORCRCHIOCOOHHRCRCRCOIROI() {
-      return new com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.CRRRICCRROCOHHOHIICIHORCOORRRH<>(
+   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI<ID> HIIIIOHCIORHHCRCIOCRRIIOCOIRHO() {
+      return new com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH<>(
          this.OOHCCRCRRORIICIICRRRHOIOHIOHRO()
       );
    }
 
-   protected abstract boolean RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-      CRHROHHHCIHHCOHCOORCRIHHIICROR var1,
-      ID var2,
-      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var3
-   );
+   protected int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(RHOCHHIRRCHHHOHOIRROIROHHHIHIO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      return com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         var1
+      );
+   }
 
    @Override
    public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
@@ -42,83 +43,123 @@ public abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH<ID, Context>
    ) {
       if (!this.IIOIROIHIHHCCRICRCOOCHIICHRCOI(var1)) {
          if (!this.RCHICRHOICCIICRORRHIRRHOCIRCOO.isEmpty()) {
-            var2.bridge$pushPose();
-            RHOCHHIRRCHHHOHOIRROIROHHHIHIO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var12 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
-               .HRICOCOIOCCCICCIORHIIIIOROCOHC();
-            com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var11 = var12.RCIHOCCIROCOIOOCCOHICRIIRIIROI()
-               .bridge$copy();
-            var11.bridge$multiply(var2.bridge$last().bridge$pose());
-            CRHROHHHCIHHCOHCOORCRIHHIICROR var13 = this.HHOOICHICHHOIIRIIOOCHOOHICHRIO.HIOCRIRHCICROIHOHOCCRIRHRHICOR();
-            com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var14 = this.OOHCCRCRRORIICIICRRRHOIOHIOHRO();
-            Object var15 = var14.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var13);
-            this.CRCHCHIICCCOCOCIICRHIHRICCHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var13, (ID)var15);
-            Object2DoubleOpenHashMap var16 = new Object2DoubleOpenHashMap();
-            Object2BooleanOpenHashMap var17 = new Object2BooleanOpenHashMap();
+            com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var11 = this.HHOOICHICHHOIIRIIOOCHOOHICHRIO
+               .RHRIRHHIOCCHRIOHCIOHOCOIOHHIOI();
+            if (var11 != null) {
+               var2.bridge$pushPose();
+               RHOCHHIRRCHHHOHOIRROIROHHHIHIO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var13 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
+                  .HRICOCOIOCCCICCIORHIIIIOROCOHC();
+               com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var12 = var13.RCIHOCCIROCOIOOCCOHICRIIRIIROI()
+                  .bridge$copy();
+               var12.bridge$multiply(var2.bridge$last().bridge$pose());
+               CRHROHHHCIHHCOHCOORCRIHHIICROR var14 = this.HHOOICHICHHOIIRIIOOCHOOHICHRIO.HIOCRIRHCICROIHOHOCCRIRHRHICOR();
+               if (var14 != null) {
+                  com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var15 = this.OOHCCRCRRORIICIICRRRHOIOHIOHRO();
+                  Object var16 = var15.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var14);
+                  this.CRCHCHIICCCOCOCIICRHIHRICCHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var14, (ID)var16);
+                  com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI var17 = IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI()
+                     .bridge$getLevelRenderer();
+                  int var18 = this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var13);
+                  HashSet var19 = new HashSet();
 
-            for (Entry var19 : this.COCCRHRCOHCOOOIHCIRRHROOCIHRHO.entrySet()) {
-               Object var20 = var19.getKey();
-               com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var21 = (com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var19.getValue();
-               if (var21 == null) {
-                  var17.put(var20, false);
-               } else if (!var21.ICIRICHHROHIROORIHROCHHCIRCHRI()
-                  || !var17.computeIfAbsent(var20, var4 -> this.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var13, (ID)var15, var21.RIORHRCCRHRCRCOIOCHCHIIRHIIIRR()))) {
-                  this.HHOOICHICHHOIIRIIOOCHOOHICHRIO.RHRIRHHIOCCHRIOHCIOHOCOIOHHIOI().RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var21);
-               }
-            }
+                  for (Entry var21 : this.COCCRHRCOHCOOOIHCIRRHROOCIHRHO.entrySet()) {
+                     Object var22 = var21.getKey();
+                     com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var23 = (com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH)var21.getValue();
+                     if (var23 == null) {
+                        this.CRCHCHIICCCOCOCIICRHIHRICCHCHH.IHIIIRHOOCHRCCCCIORIROCOIRRHCC((ID)var22);
+                     } else if (!this.CRCHCHIICCCOCOCIICRHIHRICCHCHH.HRRHRCCOOIOIIIRORIOOORORHOORIH((ID)var22)) {
+                        if (var17 != null && var23.ICIRICHHROHIROORIHROCHHCIRCHRI()) {
+                           if (var15.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var17, var16, var23.RIORHRCCRHRCRCOIOCHCHIIRHIIIRR())) {
+                              var19.add(var22);
+                              continue;
+                           }
 
-            boolean var29 = this.IHOIOCORCICORROIHRHIORRIHRICCO();
-
-            for (Entry var31 : this.RCHICRHOICCIICRORRHIRRHOCIRCOO.entrySet()) {
-               IRRCCOICORICIHCHRHIHIHROIRHOCR var32 = (IRRCCOICORICIHCHRHIHIHROIRHOCR)var31.getKey();
-               boolean var22 = true;
-               Map var23 = (Map)var31.getValue();
-
-               for (Object var25 : this.CRCHCHIICCCOCOCIICRHIHRICCHCHH) {
-                  if (!var17.getBoolean(var25)) {
-                     com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var26 = (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var23.get(
-                        var25
-                     );
-                     if (var26 != null) {
-                        RORCHCIIICOHIRROOORHOCCCCIOCCI var27 = var14.IIOCHOIICCIORCOROIROHICCHIOHIC(var25);
-                        com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var28 = var11.bridge$copy();
-                        if (var29) {
-                           com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-                              var32,
-                              this.HHOOICHICHHOIIRIIOOCHOOHICHRIO.HRRRCROORHIIROROORICHCOHOOIHCO() ? var13 : null,
-                              var27,
-                              var26,
-                              () -> var16.computeIfAbsent(var25, var2xx -> {
-                                 RORCHCIIICOHIRROOORHOCCCCIOCCI var3xx = var14.IOIOHIORIROHRRCOOOHCROHORCOIIH(var2xx);
-                                 return var13.IIRHCHHOICHRICOOCRORCCIOOIHOIR(var3xx.bridge$getX(), var3xx.bridge$getY(), var3xx.bridge$getZ());
-                              }),
-                              var9,
-                              false,
-                              true
-                           );
+                           if (this.CRCHCHIICCCOCOCIICRHIHRICCHCHH
+                              .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                                 (ID)var22, var5x -> var15.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var17, var16, var23.RIORHRCCRHRCRCOIOCHCHIIRHIIIRR(), var18)
+                              )) {
+                              continue;
+                           }
                         }
 
-                        com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-                           var3, var5, var7, var27, var28
-                        );
-                        this.HHOOICHICHHOIIRIIOOCHOOHICHRIO
-                           .RHRIRHHIOCCHRIOHCIOHOCOIOHHIOI()
-                           .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-                              this.IHIRCORCCOCRCHRHIOIIRIOOROCCII(),
-                              var32,
-                              () -> com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-                                 var28, var32, var26
-                              ),
-                              var22
-                           );
-                        if (var22) {
-                           var22 = false;
+                        if (!this.HHCCIRHCCCIIRHCROHIORHIRHHIORH((ID)var22, (ID)var16)) {
+                           this.CRCHCHIICCCOCOCIICRHIHRICCHCHH.IHIIIRHOOCHRCCCCIORIROCOIRRHCC((ID)var22);
+                        } else {
+                           var11.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var23);
                         }
                      }
                   }
+
+                  Object2DoubleOpenHashMap var33 = new Object2DoubleOpenHashMap();
+                  boolean var34 = this.IHOIOCORCICORROIHRHIORRIHRICCO();
+
+                  for (Entry var36 : this.RCHICRHOICCIICRORRHIRRHOCIRCOO.entrySet()) {
+                     IRRCCOICORICIHCHRHIHIHROIRHOCR var24 = (IRRCCOICORICIHCHRHIHIHROIRHOCR)var36.getKey();
+                     boolean var25 = true;
+                     Map var26 = (Map)var36.getValue();
+
+                     for (Object var28 : this.CRCHCHIICCCOCOCIICRHIHRICCHCHH) {
+                        if (!var19.contains(var28)) {
+                           com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var29 = (com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.OHHRIOHROOIHOROCIRHCHORIHRRRRI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH)var26.get(
+                              var28
+                           );
+                           if (var29 != null) {
+                              RORCHCIIICOHIRROOORHOCCCCIOCCI var30 = var15.IIOCHOIICCIORCOROIROHICCHIOHIC(var28);
+                              com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var31 = var12.bridge$copy();
+                              if (var34) {
+                                 com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                                    var24,
+                                    this.HHOOICHICHHOIIRIIOOCHOOHICHRIO.HRRRCROORHIIROROORICHCOHOOIHCO() ? var14 : null,
+                                    var30,
+                                    var29,
+                                    () -> var33.computeIfAbsent(var28, var2xx -> {
+                                       RORCHCIIICOHIRROOORHOCCCCIOCCI var3xx = var15.IOIOHIORIROHRRCOOOHCROHORCOIIH(var2xx);
+                                       return var14.IIRHCHHOICHRICOOCRORCCIOOIHOIR(var3xx.bridge$getX(), var3xx.bridge$getY(), var3xx.bridge$getZ());
+                                    }),
+                                    var9,
+                                    false,
+                                    true
+                                 );
+                              }
+
+                              com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                                 var3, var5, var7, var30, var31
+                              );
+                              if (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 22) {
+                                 var11.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                                    this.IHIRCORCCOCRCHRHIOIIRIOOROCCII(),
+                                    var24,
+                                    () -> com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                                       var31, var24, var29
+                                    ),
+                                    var25
+                                 );
+                              } else {
+                                 com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var32 = com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+                                    var31
+                                 );
+                                 var11.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                                    this.IHIRCORCCOCRCHRHIOIIRIOOROCCII(),
+                                    var24,
+                                    () -> com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                                       var32, var31, var24, var29
+                                    ),
+                                    var25
+                                 );
+                              }
+
+                              if (var25) {
+                                 var25 = false;
+                              }
+                           }
+                        }
+                     }
+                  }
+
+                  var2.bridge$popPose();
+                  this.CRCHCHIICCCOCOCIICRHIHRICCHCHH.IHCHCOCCRRRCCHHCRHRRRHOIOROHCO();
                }
             }
-
-            var2.bridge$popPose();
          }
       }
    }

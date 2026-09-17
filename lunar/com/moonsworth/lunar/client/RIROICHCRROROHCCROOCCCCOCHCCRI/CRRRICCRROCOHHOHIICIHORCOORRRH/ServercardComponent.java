@@ -2,93 +2,147 @@ package com.moonsworth.lunar.client.RIROICHCRROROHCCROOCCCCOCHCCRI.CRRRICCRROCOH
 
 import com.google.gson.annotations.SerializedName;
 import com.lunarclient.websocket.serverdiscovery.v1.ServerCard;
-import com.lunarclient.websocket.serverdiscovery.v1.ServerSection;
+import com.moonsworth.lunar.client.util.CCHORHIOORICCIRIHRIIHIICORIORO;
 import java.util.ArrayList;
 import java.util.List;
+import org.jetbrains.annotations.Nullable;
 
-public record HRCHROOHRIHCRCRHRIIROCIRHOIRHH() {
-   @SerializedName("id")
-   private final String RCHHIRRIOOHCHCHIIRORCHORHRRRHC;
+public record CRRRICCRROCOHHOHIICIHORCOORRRH() {
+   @SerializedName("recommendationId")
+   private final String OOICCRHHRRCROHCIOHIICCHOIRCOII;
+   @SerializedName("serverMappingsId")
+   private final String CRHOCHORRCIHRRIOHCHRHHHHRHIICI;
    @SerializedName("name")
-   private final String CHRROCCIRICIORORIOHIRHOROOHIOR;
-   @SerializedName("icon")
-   private final int HICCOOIOCCIIHIRCOCHCRHORCOHCIR;
-   @SerializedName("showNotInterested")
-   private final boolean HHHROCHIIHIIRCORRCHORRCCCIOHIC;
-   @SerializedName("cardSize")
-   private final String COCIIRORCCORHHHRICROCCOORRICCC;
-   @SerializedName("cards")
-   private final List<CRRRICCRROCOHHOHIICIHORCOORRRH> OOHRCICOOOORRRCICHCOCCCIIHOHOH;
-   @SerializedName("description")
-   private final String HIHOHRHRORCCHCIHORRCHORRCHRCHO;
+   private final String IOHRRCCOIHOHHICRCROCOCOOOIROHR;
+   @SerializedName("logoUrl")
+   private final String OOCIOOHIIHHHHORCCCICCHRHHCCCCI;
+   @SerializedName("backgroundUrl")
+   private final String IRROHCIRROHOIHIHCCCCHRHCIHCOCC;
+   @SerializedName("primaryColor")
+   private final String IIRCHCOOROIHHIOROHORCHIOCCRHIH;
+   @SerializedName("primaryAddress")
+   private final String IRIIIORROIOHICRRRICRCIROROIOOH;
+   @SerializedName("badge")
+   private final String IIIORRIRIRCRIIORHOOHIIHHHHRCHO;
+   @SerializedName("lastJoined")
+   @Nullable
+   private final Long IRRIHOOOIIOHRHCCRICRHHORCHCCOC;
+   @SerializedName("gameTypes")
+   private final List<RRCRRCORICCHOHHIRCHIROOHIIOHCO> HHOHHRICHHCOCOIOOOCRCHIIHCOHHO;
+   @SerializedName("announcement")
+   @Nullable
+   private final RCIRROCCCIIHCIHCCRHHCCHOHHHCHH HHIHRHOCRIHROOOCROCRORRHHIORIH;
+   @SerializedName("regionCodes")
+   private final List<String> RRIHROHIORICICHHCORRICRRCOIHRC;
 
-   public HRCHROOHRIHCRCRHRIIROCIRHOIRHH(String var1, String var2, int var3, boolean var4, String var5, List<CRRRICCRROCOHHOHIICIHORCOORRRH> var6, String var7) {
-      this.RCHHIRRIOOHCHCHIIRORCHORHRRRHC = var1;
-      this.CHRROCCIRICIORORIOHIRHOROOHIOR = var2;
-      this.HICCOOIOCCIIHIRCOCHCRHORCOHCIR = var3;
-      this.HHHROCHIIHIIRCORRCHORRCCCIOHIC = var4;
-      this.COCIIRORCCORHHHRICROCCOORRICCC = var5;
-      this.OOHRCICOOOORRRCICHCOCCCIIHOHOH = var6;
-      this.HIHOHRHRORCCHCIHORRCHORRCHRCHO = var7;
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(
+      String var1,
+      String var2,
+      String var3,
+      String var4,
+      String var5,
+      String var6,
+      String var7,
+      String var8,
+      @Nullable Long var9,
+      List<RRCRRCORICCHOHHIRCHIROOHIIOHCO> var10,
+      @Nullable RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var11,
+      List<String> var12
+   ) {
+      this.OOICCRHHRRCROHCIOHIICCHOIRCOII = var1;
+      this.CRHOCHORRCIHRRIOHCHRHHHHRHIICI = var2;
+      this.IOHRRCCOIHOHHICRCROCOCOOOIROHR = var3;
+      this.OOCIOOHIIHHHHORCCCICCHRHHCCCCI = var4;
+      this.IRROHCIRROHOIHIHCCCCHRHCIHCOCC = var5;
+      this.IIRCHCOOROIHHIOROHORCHIOCCRHIH = var6;
+      this.IRIIIORROIOHICRRRICRCIROROIOOH = var7;
+      this.IIIORRIRIRCRIIORHOOHIIHHHHRCHO = var8;
+      this.IRRIHOOOIIOHRHCCRICRHHORCHCCOC = var9;
+      this.HHOHHRICHHCOCOIOOOCRCHIIHCOHHO = var10;
+      this.HHIHRHOCRIHROOOCROCRORRHHIORIH = var11;
+      this.RRIHROHIORICICHHCORRICRRCOIHRC = var12;
    }
 
-   public static HRCHROOHRIHCRCRHRIIROCIRHOIRHH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ServerSection var0) {
-      ArrayList var1 = new ArrayList();
-
-      for (ServerCard var3 : var0.getCardsList()) {
-         var1.add(CRRRICCRROCOHHOHIICIHORCOORRRH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3));
-      }
-
-      return new HRCHROOHRIHCRCRHRIIROCIRHOIRHH(
-         var0.getId(),
+   public static CRRRICCRROCOHHOHIICIHORCOORRRH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ServerCard var0) {
+      return new CRRRICCRROCOHHOHIICIHORCOORRRH(
+         var0.getRecommendationId(),
+         var0.getServerMappingsId(),
          var0.getName(),
-         RRCRRCORICCHOHHIRCHIROOHIIOHCO.ICOIRHOIORIIOIOHIOCRIIORHRRRRR(var0.getEmoji()),
-         var0.getShowNotInterested(),
-         RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0.getCardSize()),
-         var1,
-         var0.getDescription()
+         var0.getLogoUrl(),
+         var0.getBackgroundUrl(),
+         var0.hasPrimaryColor() ? IHCICHIIIHORHRIICHOHOHHOCHRORO(var0.getPrimaryColor().getColor()) : null,
+         var0.getPrimaryAddress(),
+         var0.getBadge().name(),
+         var0.hasLastJoined() ? CCHORHIOORICCIRIHRIIHIICORIORO.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0.getLastJoined()) : null,
+         var0.getGameTypesList().stream().map(RRCRRCORICCHOHHIRCHIROOHIIOHCO::RCIRROCCCIIHCIHCCRHHCCHOHHHCHH).toList(),
+         var0.hasAnnouncement() ? RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0.getAnnouncement()) : null,
+         new ArrayList<>(var0.getRegionCodesList())
       );
    }
 
-   private static String RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ServerSection.CardSize var0) {
-      return switch (var0) {
-         case CARD_SIZE_SMALL -> "sm";
-         default -> "md";
-      };
+   private static String IHCICHIIIHORHRIICHOHOHHOCHRORO(int var0) {
+      return String.format("#%06X", 16777215 & var0);
    }
 
-   @SerializedName("id")
-   public String id() {
-      return this.RCHHIRRIOOHCHCHIIRORCHORHRRRHC;
+   @SerializedName("recommendationId")
+   public String HOHCCCOOHOOIHHROIHIOCRCRIHCIOI() {
+      return this.OOICCRHHRRCROHCIOHIICCHOIRCOII;
+   }
+
+   @SerializedName("serverMappingsId")
+   public String HIOOCHHORHICICCORCOIRHHHRICICO() {
+      return this.CRHOCHORRCIHRRIOHCHRHHHHRHIICI;
    }
 
    @SerializedName("name")
    public String name() {
-      return this.CHRROCCIRICIORORIOHIRHOROOHIOR;
+      return this.IOHRRCCOIHOHHICRCROCOCOOOIROHR;
    }
 
-   @SerializedName("icon")
-   public int HOHHHIOHRHROCRICIROHICICCORHRO() {
-      return this.HICCOOIOCCIIHIRCOCHCRHORCOHCIR;
+   @SerializedName("logoUrl")
+   public String HHIHOOIIRHOCIRHHHOCCRHIOCHIIRI() {
+      return this.OOCIOOHIIHHHHORCCCICCHRHHCCCCI;
    }
 
-   @SerializedName("showNotInterested")
-   public boolean CRHIHICHRCOHHRRRRCCHOIHIRCRIHC() {
-      return this.HHHROCHIIHIIRCORRCHORRCCCIOHIC;
+   @SerializedName("backgroundUrl")
+   public String IRICRRICCHRHOIRHCOCOCIIRIHCCIH() {
+      return this.IRROHCIRROHOIHIHCCCCHRHCIHCOCC;
    }
 
-   @SerializedName("cardSize")
-   public String ROHHROOOCCOOROOCRRRICIIRCOOIOR() {
-      return this.COCIIRORCCORHHHRICROCCOORRICCC;
+   @SerializedName("primaryColor")
+   public String ROICOHCHRRHOIOIROIHHHRIHIOCIOO() {
+      return this.IIRCHCOOROIHHIOROHORCHIOCCRHIH;
    }
 
-   @SerializedName("cards")
-   public List<CRRRICCRROCOHHOHIICIHORCOORRRH> IOCCIORIRIROIIROORROOCIHRRIIHH() {
-      return this.OOHRCICOOOORRRCICHCOCCCIIHOHOH;
+   @SerializedName("primaryAddress")
+   public String IRRCRICHHIIRCRORCOIRHROCCICROH() {
+      return this.IRIIIORROIOHICRRRICRCIROROIOOH;
    }
 
-   @SerializedName("description")
-   public String description() {
-      return this.HIHOHRHRORCCHCIHORRCHORRCHRCHO;
+   @SerializedName("badge")
+   public String HIRHCICHIRHIHCIIRICOIHIOHRRCOH() {
+      return this.IIIORRIRIRCRIIORHOOHIIHHHHRCHO;
+   }
+
+   @SerializedName("lastJoined")
+   @Nullable
+   public Long OCIRICCIRORIOOIORCOHORROHOHIIO() {
+      return this.IRRIHOOOIIOHRHCCRICRHHORCHCCOC;
+   }
+
+   @SerializedName("gameTypes")
+   public List<RRCRRCORICCHOHHIRCHIROOHIIOHCO> HHOHIROIOORCHIICRRHHOHCCIIHORH() {
+      return this.HHOHHRICHHCOCOIOOOCRCHIIHCOHHO;
+   }
+
+   @SerializedName("announcement")
+   @Nullable
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH CIIHIIIIHIHIRCOCIOHCIHOHRRROOH() {
+      return this.HHIHRHOCRIHROOOCROCRORRHHIORIH;
+   }
+
+   @SerializedName("regionCodes")
+   public List<String> RHCCIOROOIRCHRIIIHRRCCHRHRIORO() {
+      return this.RRIHROHIORICICHHCORRICRRCOIHRC;
    }
 }

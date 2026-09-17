@@ -4,41 +4,35 @@ import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRR
 import com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
 import lombok.Generated;
 
-public class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI
+public class CRRRICCRROCOHHOHIICIHORCOORRRH
    extends com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH {
-   private static final RCIROOOOICRHCCRRCIORHHIRCOIIIC CHOHIHIICIHHHRHOORRCHRCORCIRIR = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
-      "lunar", "icons/assets/accept-16x16.png"
+   private static final RCIROOOOICRHCCRRCIORHHIRCOIIIC HHOCRIICHICOIRRHOHCIROCOHROHRI = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+      "lunar", "icons/assets/arrow-up-17x17-small.png"
    );
-   private static final RCIROOOOICRHCCRRCIORHHIRCOIIIC RCROOOHROIIHHCOHCIOHRHRHIRRCRI = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
-      "lunar", "icons/assets/deny-16x16.png"
+   private static final RCIROOOOICRHCCRRCIORHHIRCOIIIC ICHOOOIHRIRCOHIHIIOHIIRCICOROH = RCIROOOOICRHCCRRCIORHHIRCOIIIC.create(
+      "lunar", "icons/assets/arrow-down-17x17-small.png"
    );
    private String text;
-   private boolean state;
-   private final com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH ORCRHRHORIIRRCRHCHRRHRRORRRIHI;
-   private Runnable ICRCOHOHHHCHIIIOHHIHRIIHOIHRRO;
+   private Runnable RCOCHIOIIOIROIOCRHRRHRCIIHCCCC;
+   private Runnable RRIRORCOCHIHIRROORCRRCOHRHRIOC;
+   private boolean isFirst;
+   private boolean CCIHHCCCHHRRRHCOHHIORHHIIHHORC;
+   private final com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH OIOOOIIHRRRRRCROIHIORCOOCRROCI;
 
-   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(
       com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, String var2
    ) {
-      this(var1, var2, false);
+      this(var1, var2, CIOHHCORHRCCRICCCORIHCRHCCCRRR.IOIHCHOOHORCORHHHCHCORHORHCOOC());
    }
 
-   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
-      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, String var2, boolean var3
-   ) {
-      this(var1, var2, var3, CIOHHCORHRCCRICCCORIHCRHCCCRRR.IOIHCHOOHORCORHHHCHCORHORHCOOC());
-   }
-
-   public RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(
       com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1,
       String var2,
-      boolean var3,
-      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var4
+      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var3
    ) {
       super(var1);
       this.text = var2;
-      this.state = var3;
-      this.ORCRHRHORIIRRCRHCHRRHRRORRRIHI = var4;
+      this.OIOOOIIHRRRRRCROIHIORCOOCRROCI = var3;
    }
 
    @Override
@@ -55,21 +49,33 @@ public class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI
       com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
          var1, this.x, this.y, this.width, this.height, 0.5F, -820044001, -820175587
       );
-      com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
-         var1,
-         this.state ? CHOHIHIICIHHHRHOORRCHRCORCIRIR : RCROOOHROIIHHCOHCIOHRHRHIRRCRI,
-         this.x + 4.0F,
-         this.y + 4.0F,
-         this.height - 8.0F,
-         this.height - 8.0F,
-         this.state ? -863961216 : -855670656
-      );
-      this.ORCRHRHORIIRRCRHCHRRHRRORRRIHI
+      float var5 = this.height - 8.0F;
+      float var6 = this.y + 4.0F;
+      float var7 = this.x + 4.0F;
+      float var8 = this.x + this.height + 4.0F;
+      boolean var9 = !this.isFirst && var4 && var2.ICORIROICCORCRROCRCIRRRHHHOOIR() >= this.x && var2.ICORIROICCORCRROCRCIRRRHHHOOIR() < this.x + this.height;
+      boolean var10 = !this.CCIHHCCCHHRRRHCOHHIORHHIIHHORC
+         && var4
+         && var2.ICORIROICCORCRROCRCIRRRHHHOOIR() >= this.x + this.height
+         && var2.ICORIROICCORCRROCRCIRRRHHHOOIR() < this.x + 2.0F * this.height;
+      if (!this.isFirst) {
+         com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+            var1, HHOCRIICHICOIRRHOHCIROCOHROHRI, var7, var6, var5, var5, var9 ? -1 : -1342177281
+         );
+      }
+
+      if (!this.CCIHHCCCHHRRRHCOHHIORHHIIHHORC) {
+         com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+            var1, ICHOOOIHRIRCOHIHIIOHIIRCICOROH, var8, var6, var5, var5, var10 ? -1 : -1342177281
+         );
+      }
+
+      this.OIOOOIIHRRRRRCROIHIORCOOCRROCI
          .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
             var1,
             this.text,
-            this.x + this.height,
-            this.y + this.height / 2.0F - (this.ORCRHRHORIIRRCRHCHRRHRRORRRIHI.getHeight() + 4.0F) / 2.0F,
+            this.x + 2.0F * this.height + 4.0F,
+            this.y + this.height / 2.0F - (this.OIOOOIIHRRRRRCROIHIORCOOCRROCI.getHeight() + 4.0F) / 2.0F,
             var4 ? -1 : -1342177281
          );
    }
@@ -78,10 +84,23 @@ public class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI
    public boolean IHHCHHHCRIHOOCOIOOCRIIICIOROIR(
       com.moonsworth.lunar.client.IOHHOIIOCRHCHHCRORICCOHOHROOIH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1, int var2
    ) {
-      if (this.ICRCOHOHHHCHIIIOHHIHRIIHOIHRRO != null
-         && var1.COCCOIROHORRRHIHICORRHRRORIIIH() > this.x
-         && var1.COCCOIROHORRRHIHICORRHRRORIIIH() < this.x + this.width) {
-         this.ICRCOHOHHHCHIIIOHHIHRIIHOIHRRO.run();
+      if (!this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(var1)) {
+         return super.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1, var2);
+      }
+
+      if (!this.isFirst && var1.ICORIROICCORCRROCRCIRRRHHHOOIR() >= this.x && var1.ICORIROICCORCRROCRCIRRRHHHOOIR() < this.x + this.height) {
+         if (this.RCOCHIOIIOIROIOCRHRRHRCIIHCCCC != null) {
+            this.RCOCHIOIIOIROIOCRHRRHRCIIHCCCC.run();
+         }
+
+         return true;
+      } else if (!this.CCIHHCCCHHRRRHCOHHIORHHIIHHORC
+         && var1.ICORIROICCORCRROCRCIRRRHHHOOIR() >= this.x + this.height
+         && var1.ICORIROICCORCRROCRCIRRRHHHOOIR() < this.x + 2.0F * this.height) {
+         if (this.RRIRORCOCHIHIRROORCRRCOHRHRIOC != null) {
+            this.RRIRORCOCHIHIRROORCRRCOHRHRIOC.run();
+         }
+
          return true;
       } else {
          return super.IHHCHHHCRIHOOCOIOOCRIIICIOROIR(var1, var2);
@@ -99,27 +118,32 @@ public class RIOOCHICIHRHOHCCCCCHOCCCOHCRHI
    }
 
    @Generated
-   public void setText(String var1) {
-      this.text = var1;
-   }
-
-   @Generated
    public String getText() {
       return this.text;
    }
 
    @Generated
-   public boolean RROCCOHOIHHCCOHRHHOIRHIHOHOIIR() {
-      return this.state;
+   public void setText(String var1) {
+      this.text = var1;
    }
 
    @Generated
-   public void RCCRRRIHRRHCIIHRIOHHROHIOOCRIC(boolean var1) {
-      this.state = var1;
+   public void RRIRHHRRRHRRCRCRHCCOHOHHRCCOOO(Runnable var1) {
+      this.RCOCHIOIIOIROIOCRHRRHRCIIHCCCC = var1;
    }
 
    @Generated
-   public void ICICIOCHHHIHOCHCOHORIHRCOHHOCR(Runnable var1) {
-      this.ICRCOHOHHHCHIIIOHHIHRIIHOIHRRO = var1;
+   public void IHCRORHRORIICHRHRCHRRIRRHHOCOO(Runnable var1) {
+      this.RRIRORCOCHIHIRROORCRRCOHRHRIOC = var1;
+   }
+
+   @Generated
+   public void HHHRRIRIHIHRORCOHCRRCIOCRIORIR(boolean var1) {
+      this.isFirst = var1;
+   }
+
+   @Generated
+   public void IRCHOHHOOROOHIIHHROOOOIIHHOIIH(boolean var1) {
+      this.CCIHHCCCHHRRRHCOHHIORHHIIHHORC = var1;
    }
 }

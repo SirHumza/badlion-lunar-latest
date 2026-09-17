@@ -1,14 +1,29 @@
 package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HCHRIROHHHCORIOCROOCHRCIOROOCI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
 
 import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HCHRIROHHHCORIOCROOCHRCIOROOCI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI;
-import com.moonsworth.lunar.client.util.RHRIIOOOCRHIIOORCOCRCHRCCRRCIH;
 
-public class IRCIIHHICIHRCOCRROCOICRIHHCCHH implements RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
-   private final long start = System.nanoTime();
-   private final long CHHOOOOHHCORHHHCHOICOCRHHRROHI;
+public class CRRRICCRROCOHHOHIICIHORCOORRRH implements RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   private final long IRCHHHRIRRRHIHCHCCOHCORRRIICCH;
+   private long start;
+   private double OOIIOHCIICCIOCHHCOCOCRIICHRORC;
+   private boolean pressed;
 
-   public IRCIIHHICIHRCOCRROCOICRIHHCCHH(double var1) {
-      this.CHHOOOOHHCORHHHCHOICOCRHHRROHI = (long)(var1 * 1.0E9);
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(double var1) {
+      this.IRCHHHRIRRRHIHCHCCOHCORRRIICCH = (long)(var1 * 1.0E9);
+   }
+
+   @Override
+   public void HOIRIIORIIICHOOOHHCIOIICOHRROH() {
+      this.OOIIOHCIICCIOCHHCOCOCRIICHRORC = this.IROORRRIICOHCHRICIHCHICOIHRICO();
+      this.pressed = true;
+      this.start = System.nanoTime();
+   }
+
+   @Override
+   public void CIHIOIRCOOORICCICHCRCIICCCHIRR() {
+      this.OOIIOHCIICCIOCHHCOCOCRIICHRORC = 1.0 + (1.0F - this.IROORRRIICOHCHRICIHCHICOIHRICO());
+      this.pressed = false;
+      this.start = System.nanoTime();
    }
 
    @Override
@@ -24,16 +39,13 @@ public class IRCIIHHICIHRCOCRROCOICRIHHCCHH implements RIOOCHICIHRHOHCCCCCHOCCCO
    @Override
    public float ICRHCHCOCIIIHCCRCHRICOCROCCHCO() {
       long var1 = System.nanoTime() - this.start;
-      double var3 = (double)var1 / this.CHHOOOOHHCORHHHCHOICOCRHHRROHI;
+      double var3 = (double)var1 / this.IRCHHHRIRRRHIHCHCCOHCORRRIICCH;
       var3 *= 2.0;
-      return RHRIIOOOCRHIIOORCOCRCHRCCRRCIH.RIRHOCHIORCCIIOIIRHOCCCRHHCHHH((float)var3, 0.0F, 2.0F);
-   }
-
-   @Override
-   public void HOIRIIORIIICHOOOHHCIOIICOHRROH() {
-   }
-
-   @Override
-   public void CIHIOIRCOOORICCICHCRCIICCCHIRR() {
+      var3 += this.OOIIOHCIICCIOCHHCOCOCRIICHRORC;
+      if (var3 > 1.0 && this.pressed) {
+         return 1.0F;
+      } else {
+         return var3 > 2.0 ? 2.0F : (float)var3;
+      }
    }
 }

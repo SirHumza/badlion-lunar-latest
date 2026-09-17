@@ -1,7 +1,11 @@
 package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RICRIRRCOHRCOCRRHHCRHRROOIOHHR;
 
-public interface RRCRRCORICCHOHHIRCHIROOHIIOHCO {
-   IRCIIHHICIHRCOCRROCOICRIHHCCHH[][] getTileProperties();
+public interface IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   String[] bridge$getMatchTiles();
 
-   IRCIIHHICIHRCOCRROCOICRIHHCCHH[][] getBlockProperties();
+   String[] bridge$parseMatchBlocks();
+
+   String[] bridge$getTiles();
+
+   RCIRROCCCIIHCIHCCRHHCCHOHHHCHH bridge$getMethod();
 }

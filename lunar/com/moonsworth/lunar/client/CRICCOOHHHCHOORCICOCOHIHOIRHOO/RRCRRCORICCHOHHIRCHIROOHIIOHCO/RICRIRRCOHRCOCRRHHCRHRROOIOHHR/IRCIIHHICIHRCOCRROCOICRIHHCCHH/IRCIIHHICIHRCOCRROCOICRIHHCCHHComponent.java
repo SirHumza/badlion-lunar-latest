@@ -2,33 +2,32 @@ package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHO
 
 import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
 
-public class RRCRRCORICCHOHHIRCHIROOHIIOHCO extends IRCIIHHICIHRCOCRROCOICRIHHCCHH {
-   public RRCRRCORICCHOHHIRCHIROOHIIOHCO() {
-      super(OIHCCCHCIOIRROOIHIIRCRCCCCCOCI(), "Ping");
-      this.OIOROIRHRRIRCHIIORCCCCCCCHCHCO = 250;
-      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(19, "1.20.2");
-   }
+public class CRRRICCRROCOHHOHIICIHORCOORRRH extends IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private static final long ORIRCRRRIOCHHHCORCCOOROCIOIIOH = 100L;
+   public long CHOCHRICCRRICICHORORRICROCOIIO = 0L;
 
-   @Override
-   public String IHROCRRIRIROCCCRCRRROCRRCRIIHH(int var1) {
-      return var1 + "ms";
+   public CRRRICCRROCOHHOHIICIHORCOORRRH() {
+      super(240, "GPU");
+      this.OIOROIRHRRIRCHIIORCCCCCCCHCHCO = 100;
+      this.IRCIIHHICIHRCOCRROCOICRIHHCCHH(12, "1.19");
    }
 
    @Override
    protected int[] RCRIOCHCIOHHRICORCOOOIHIIRCRRH() {
       int var1 = this.CHICIOOHIRRHRICHOOHCHOHOIHICRR();
-      if (var1 > 4000) {
-         return new int[]{var1 / 2};
-      } else if (var1 > 2000) {
-         return new int[]{1000};
-      } else if (var1 > 1300) {
-         return new int[]{500, 1000};
-      } else {
-         return var1 > 600 ? new int[]{500} : new int[]{100};
-      }
+      return var1 >= 120 ? new int[]{100} : new int[]{25, 50};
    }
 
-   public static int OIHCCCHCIOIRROOIHIIRCRCCCCCOCI() {
-      return IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 19 ? 240 : 12;
+   @Override
+   public String IHROCRRIRIROCCCRCRRROCRRCRIIHH(int var1) {
+      return var1 + "%";
+   }
+
+   public void RHOOOOHOIOCIROHHCCRIHOIORROIOC() {
+      long var1 = System.currentTimeMillis();
+      if (var1 - this.CHOCHRICCRRICICHORORRICROCOIIO >= 100L) {
+         this.CHOCHRICCRRICICHORORRICROCOIIO = var1;
+         this.IOHOOIOHCHICOCHIICHCICCOHRCIII((int)IICCOOCHCHROORHHIIHROHCCRHRCOR.HHICOIRCIIRIRRICOOCROCCOHRCRRI().bridge$getGpuUtilization());
+      }
    }
 }

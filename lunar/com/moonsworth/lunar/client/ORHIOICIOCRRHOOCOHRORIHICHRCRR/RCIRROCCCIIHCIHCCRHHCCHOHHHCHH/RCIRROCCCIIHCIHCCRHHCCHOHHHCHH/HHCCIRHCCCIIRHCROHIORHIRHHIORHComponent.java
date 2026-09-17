@@ -1,66 +1,56 @@
 package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
 
-public class CORCOCICIRIOHROHROIIOOHICCHCRR implements HHCCIRHCCCIIRHCROHIORHIRHHIORH {
-   public HHCCIRHCCCIIRHCROHIORHIRHHIORH HIRHHIRRCCCCCORIOIOHHIORIHOOIO;
-   public HHCCIRHCCCIIRHCROHIORHIRHHIORH RCHRIHCRRHOHOOCHCOICHIIROHRIRH;
-   public HHCCIRHCCCIIRHCROHIORHIRHHIORH HORRCIOROHIHRROCCOOOOCHHCOHRRC;
-   private HHCCIRHCCCIIRHCROHIORHIRHHIORH HIHIRCICHRCIROHOOICCHOCCCHOCCR = new RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(0.0);
+public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   private double doubleValue;
+   private String HOHCOCIIHRIRHRRHRHRRICRHORICCR;
 
-   public CORCOCICIRIOHROHROIIOOHICCHCRR(HHCCIRHCCCIIRHCROHIORHIRHHIORH var1, HHCCIRHCCCIIRHCROHIORHIRHHIORH var2, HHCCIRHCCCIIRHCROHIORHIRHHIORH var3) {
-      this.HIRHHIRRCCCCCORIOIOHHIORIHOOIO = var1;
-      this.RCHRIHCRRHOHOOCHCOICHIIROHRIRH = var2;
-      this.HORRCIOROHIHRROCCOOOOCHHCOHRRC = var3;
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(double var1) {
+      this.doubleValue = var1;
+   }
+
+   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1) {
+      this.HOHCOCIIHRIRHRRHRHRRICRHORICCR = var1;
    }
 
    @Override
    public HHCCIRHCCCIIRHCROHIORHIRHHIORH HHORHRRICIIRIRRCRIORRCIHIOICIR() {
-      if (this.isNumber()) {
-         this.HIHIRCICHRCIROHOOICCHOCCCHOCCR.set(this.doubleValue());
-      } else {
-         this.HIHIRCICHRCIROHOOICCHOCCCHOCCR.set(this.stringValue());
-      }
-
-      return this.HIHIRCICHRCIROHOOICCHOCCCHOCCR;
+      return this;
    }
 
    @Override
    public boolean isNumber() {
-      return this.HORRCIOROHIHRROCCOOOOCHHCOHRRC.isNumber() || this.RCHRIHCRRHOHOOCHCOICHIIROHRIRH.isNumber();
+      return this.HOHCOCIIHRIRHRRHRHRRICRHORICCR == null;
    }
 
    @Override
    public void set(double var1) {
+      this.doubleValue = var1;
+      this.HOHCOCIIHRIRHRRHRHRRICRHORICCR = null;
    }
 
    @Override
    public void set(String var1) {
+      this.doubleValue = 0.0;
+      this.HOHCOCIIHRIRHRRHRHRRICRHORICCR = var1;
    }
 
    @Override
    public double doubleValue() {
-      return HRCHROOHRIHCRCRHRIIROCIRHOIRHH.isTrue(this.HIRHHIRRCCCCCORIOIOHHIORIHOOIO.doubleValue())
-         ? this.RCHRIHCRRHOHOOCHCOICHIIROHRIRH.doubleValue()
-         : this.HORRCIOROHIHRROCCOOOOCHHCOHRRC.doubleValue();
+      return this.doubleValue;
    }
 
    @Override
    public boolean ICRRRCOCRCCHCIIOHHORHORHRCOCIC() {
-      return HRCHROOHRIHCRCRHRIIROCIRHOIRHH.isTrue(this.doubleValue());
+      return this.isNumber() ? HRCHROOHRIHCRCRHRIIROCIRHOIRHH.isTrue(this.doubleValue) : this.HOHCOCIIHRIRHRRHRHRRICRHORICCR.equalsIgnoreCase("true");
    }
 
    @Override
    public String stringValue() {
-      return HRCHROOHRIHCRCRHRIIROCIRHOIRHH.isTrue(this.HIRHHIRRCCCCCORIOIOHHIORIHOOIO.doubleValue())
-         ? this.RCHRIHCRRHOHOOCHCOICHIIROHRIRH.stringValue()
-         : this.HORRCIOROHIHRROCCOOOOCHHCOHRRC.stringValue();
+      return this.HOHCOCIIHRIRHRRHRHRRICRHORICCR;
    }
 
    @Override
    public String toString() {
-      return this.HIRHHIRRCCCCCORIOIOHHIORIHOOIO.toString()
-         + " ? "
-         + this.RCHRIHCRRHOHOOCHCOICHIIROHRIRH.toString()
-         + " : "
-         + this.HORRCIOROHIHRROCCOOOOCHHCOHRRC.toString();
+      return this.HOHCOCIIHRIRHRRHRHRRICRHORICCR == null ? String.valueOf(this.doubleValue) : "\"" + this.HOHCOCIIHRIRHRRHRHRRICRHORICCR + "\"";
    }
 }

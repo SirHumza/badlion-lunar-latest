@@ -4,7 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-public class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
    @SerializedName("normal")
    @Expose
    private List<String> ROHOCIHOIRIOCIROCOROOCHHCCICIO = null;

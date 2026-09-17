@@ -2,24 +2,22 @@ package com.moonsworth.lunar.client.CCIHHRIOOOOCOHRCIHOHROOICIORCC.IRCIIHHICIHRC
 
 import com.google.gson.JsonPrimitive;
 
-public class IRCIIHHICIHRCOCRROCOICRIHHCCHH
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH
    implements com.moonsworth.lunar.client.CCIHHRIOOOOCOHRCIHOHROOICIORCC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH {
    @Override
    public boolean HHCCIRHCCCIIRHCROHIORHIRHHIORH(com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var1) {
-      return com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.getMinecraftVersion().OOICHHIHHIHROCCRRRIIIIRIRICCIH();
+      return com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.getMinecraftVersion().OCICRRCHRIRORHIRHIHOIRCCIHCHRH();
    }
 
    @Override
    public JsonPrimitive RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, JsonPrimitive var2) {
-      if (var1.startsWith("maxFps") && var2.getAsString().equals("0")) {
-         return new JsonPrimitive(60);
-      } else if (var1.startsWith("chatOpacity")) {
+      if (var1.startsWith("chatOpacity")) {
          return new JsonPrimitive(Math.max(0.4, var2.getAsFloat()));
       } else {
-         return var1.startsWith("key_") && var2.isNumber()
+         return var1.startsWith("key_") && var2.isString()
             ? new JsonPrimitive(
-               com.moonsworth.lunar.client.CCIHHRIOOOOCOHRCIHOHROOICIORCC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCCCHORORCCOIRIRHCRRHOIRHCCIH(
-                  var2.getAsInt()
+               com.moonsworth.lunar.client.CCIHHRIOOOOCOHRCIHOHROOICIORCC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRIIHHRHRORIIHOHIICRICCIICIICC(
+                  var2.getAsString()
                )
             )
             : var2;

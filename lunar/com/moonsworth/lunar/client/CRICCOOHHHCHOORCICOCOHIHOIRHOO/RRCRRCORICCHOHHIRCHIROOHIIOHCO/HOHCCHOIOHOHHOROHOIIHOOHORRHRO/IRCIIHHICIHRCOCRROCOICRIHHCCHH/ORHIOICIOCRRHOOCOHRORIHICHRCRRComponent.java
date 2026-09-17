@@ -3,9 +3,10 @@ package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHO
 import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.ORHIOICIOCRRHOOCOHRORIHICHRCRR;
 import lombok.Generated;
 
-public enum IRCIIHHICIHRCOCRROCOICRIHHCCHH implements ORHIOICIOCRRHOOCOHRORIHICHRCRR {
-   TIER("tier"),
-   RANK("rank");
+public enum HHCCIRHCCCIIRHCROHIORHIRHHIORH implements ORHIOICIOCRRHOOCOHRORIHICHRCRR {
+   SELECTED_ONLY("selectedOnly"),
+   HIGHEST_FALLBACK("highestFallback"),
+   HIGHEST_ALWAYS("highestAlways");
 
    private final String id;
 
@@ -20,7 +21,7 @@ public enum IRCIIHHICIHRCOCRROCOICRIHHCCHH implements ORHIOICIOCRRHOOCOHRORIHICH
    }
 
    @Generated
-   IRCIIHHICIHRCOCRROCOICRIHHCCHH(String var3) {
+   HHCCIRHCCCIIRHCROHIORHIRHHIORH(String var3) {
       this.id = var3;
    }
 }

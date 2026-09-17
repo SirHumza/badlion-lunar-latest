@@ -1,55 +1,8 @@
 package com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import java.util.concurrent.ThreadLocalRandom;
-import javax.vecmath.Matrix4f;
-import javax.vecmath.Quat4f;
-import javax.vecmath.Vector3f;
-import javax.vecmath.Vector4f;
 
-public class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
-   public com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH[] HIORRCCOOCRIOHRIICROIRHOIIHCIR = new com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH[]{
-      com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCICRRHIHHRIOIHCOOHCIRIIICCCH,
-      com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IORRCOHROOHHORCRCOOIRHRCORHHHH,
-      com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCICRRHIHHRIOIHCOOHCIRIIICCCH
-   };
-
-   @Override
-   public com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-      JsonElement var1, com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
-   ) {
-      if (!var1.isJsonObject()) {
-         return super.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2);
-      }
-
-      JsonObject var3 = var1.getAsJsonObject();
-      if (var3.has("plane_normal")) {
-         JsonArray var4 = var3.getAsJsonArray("plane_normal");
-         if (var4.size() >= 3) {
-            this.HIORRCCOOCRIOHRIICROIRHOIIHCIR[0] = var2.IHIRRIIORRHORHRORIHOROIRCORCOO(var4.get(0));
-            this.HIORRCCOOCRIOHRIICROIRHOIIHCIR[1] = var2.IHIRRIIORRHORHRORIHOROIRCORCOO(var4.get(1));
-            this.HIORRCCOOCRIOHRIICROIRHOIIHCIR[2] = var2.IHIRRIIORRHORHRORIHOROIRCORCOO(var4.get(2));
-         }
-      }
-
-      return super.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, var2);
-   }
-
-   @Override
-   public JsonElement RCHIIHHHCCIOHHRORHOORICCCRHOOI() {
-      JsonObject var1 = (JsonObject)super.RCHIIHHHCCIOHHRORHOORICCCRHOOI();
-      JsonArray var2 = new JsonArray();
-
-      for (com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var6 : this.HIORRCCOOCRIOHRIICROIRHOIIHCIR) {
-         var2.add(var6.RCHIIHHHCCIOHHRORHOORICCCRHOOI());
-      }
-
-      var1.add("plane_normal", var2);
-      return var1;
-   }
-
+public class CRRRICCRROCOHHOHIICIHORCOORRRH extends RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
    @Override
    public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
       com.moonsworth.lunar.client.ORHIOICIOCRRHOOCOHRORIHICHRCRR.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var1,
@@ -58,24 +11,34 @@ public class HHCCIRHCCCIIRHCROHIORHIRHHIORH extends RIOOCHICIHRHOHCCCCCHOCCCOHCR
       float var3 = (float)this.HIHRCCRRRIOIRCRCRHORICIRIRRCHI[0].get();
       float var4 = (float)this.HIHRCCRRRIOIRCRCRHORICIRIRRCHI[1].get();
       float var5 = (float)this.HIHRCCRRRIOIRCRCRHORICIRIRRCHI[2].get();
-      Vector3f var6 = new Vector3f(
-         (float)this.HIORRCCOOCRIOHRIICROIRHOIIHCIR[0].get(),
-         (float)this.HIORRCCOOCRIOHRIICROIRHOIIHCIR[1].get(),
-         (float)this.HIORRCCOOCRIOHRIICROIRHOIIHCIR[2].get()
-      );
-      var6.normalize();
-      Quat4f var7 = new Quat4f(var6.x, var6.y, var6.z, 1.0F);
-      Matrix4f var8 = new Matrix4f();
-      var8.set(var7);
-      ThreadLocalRandom var9 = ThreadLocalRandom.current();
-      Vector4f var10 = new Vector4f(var9.nextFloat() - 0.5F, 0.0F, var9.nextFloat() - 0.5F, 0.0F);
-      var10.normalize();
-      var8.transform(var10);
-      var10.scale((float)(this.RIHORIHORRHHHIHIIIRHCIIOOCRIRR.get() * (this.COIORHCHIHOHORCCHIOOIHRROOOCIR ? 1.0 : var9.nextDouble())));
-      var10.add(new Vector4f(var3, var4, var5, 0.0F));
-      var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.x = var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.x + var10.x;
-      var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.y = var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.y + var10.y;
-      var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.z = var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.z + var10.z;
+      float var6 = 0.0F;
+      float var7 = 0.0F;
+      if (var1.OOCCIORCOIOCOHCIIHCRRCCRORHICH != null) {
+         var6 = var1.OOCCIORCOIOCOHCIIHCRRCCRORHICH.bridge$getWidth();
+         var7 = var1.OOCCIORCOIOCOHCIIHCRRCCRORHICH.bridge$getEyeHeight();
+      }
+
+      ThreadLocalRandom var8 = ThreadLocalRandom.current();
+      var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.x = var3 + (var8.nextFloat() - 0.5F) * var6;
+      var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.y = var4 + (var8.nextFloat() - 0.5F) * var7;
+      var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.z = var5 + (var8.nextFloat() - 0.5F) * var6;
+      if (this.COIORHCHIHOHORCCHIOOIHRROOOCIR) {
+         int var9 = (int)(var8.nextDouble() * 6.0 * 100.0) % 6;
+         if (var9 == 0) {
+            var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.x = var3 + var6 / 2.0F;
+         } else if (var9 == 1) {
+            var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.x = var3 - var6 / 2.0F;
+         } else if (var9 == 2) {
+            var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.y = var4 + var7 / 2.0F;
+         } else if (var9 == 3) {
+            var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.y = var4 - var7 / 2.0F;
+         } else if (var9 == 4) {
+            var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.z = var5 + var6 / 2.0F;
+         } else if (var9 == 5) {
+            var2.OIIOCRRCOICIOOCHOCHHIRHRCORIRI.z = var5 - var6 / 2.0F;
+         }
+      }
+
       this.CRHOCRRHOORRIOOIHCOORCIHRCHIOR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2, var3, var4, var5);
    }
 }

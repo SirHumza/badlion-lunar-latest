@@ -1,15 +1,14 @@
 package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
 
-public enum IIRHCHHOICHRICOOCRORCCIOOIHOIR implements HICHRCOHCCRHOHCICOOCHOIHCCHIRI {
-   READ_NULL_PROPERTIES(true),
-   WRITE_NULL_PROPERTIES(true),
-   STRIP_TRAILING_BIGDECIMAL_ZEROES(true);
+public enum CIOHHCORHRCCRICCCORIHCRHCCCRRR implements HICHRCOHCCRHOHCICOOCHOIHCCHIRI {
+   READ_ENUM_KEYS_USING_INDEX(false),
+   WRITE_ENUMS_TO_LOWERCASE(false);
 
-   private static final int FEATURE_INDEX = 1;
+   private static final int FEATURE_INDEX = 0;
    private final boolean _enabledByDefault;
    private final int _mask;
 
-   IIRHCHHOICHRICOOCRORCCIOOIHOIR(boolean var3) {
+   CIOHHCORHRCCRICCCORIHCRHCCCRRR(boolean var3) {
       this._enabledByDefault = var3;
       this._mask = 1 << this.ordinal();
    }
@@ -31,6 +30,6 @@ public enum IIRHCHHOICHRICOOCRORCCIOOIHOIR implements HICHRCOHCCRHOHCICOOCHOIHCC
 
    @Override
    public int featureIndex() {
-      return 1;
+      return 0;
    }
 }

@@ -4,61 +4,40 @@ import com.moonsworth.lunar.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHC
 import java.net.URI;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
+import java.util.function.Supplier;
 
-public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements IRCIIHHICIHRCOCRROCOICRIHHCCHH {
-   private final String HHOIOCRIRIOCOIHHOOHICIOIIOHCOR;
-   private final String IOOCHIRHCRICHIHORCRCHCRHCICROH;
-   private String RHCHROORRHOOORICIHIOCRCOORCIRI;
-   private String HIHCHCORCCRCOHCRROHOHOOCHOROCC;
+public class CRRRICCRROCOHHOHIICIHORCOORRRH implements IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private final String scheme;
+   private Supplier<String> OCIHRICRHRRHIOHIIHIROCRIRHCCIR;
 
-   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(String var1, String var2) {
-      this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR = var1;
-      this.IOOCHIRHCRICHIHORCRCHCRHCICROH = var2;
+   public CRRRICCRROCOHHOHIICIHORCOORRRH(String var1) {
+      this.scheme = var1;
    }
 
-   public String getLocation() {
-      return this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR;
+   public String OOCHRIIIRIHRRCRIORHCROIIHCRRIC() {
+      return this.OCIHRICRHRRHIOHIIHIROCRIRHCCIR.get();
    }
 
-   public String RHRIIOOOCRHIIOORCOCRCHRCCRRCIH() {
-      return this.IOOCHIRHCRICHIHORCRCHCRHCICROH;
+   public void IRRCCOICORICIHCHRHIHIHROIRHOCR(String var1) {
+      this.OCIHRICRHRRHIOHIIHIROCRIRHCCIR = () -> var1;
    }
 
-   public String RRHOOOORORHHOOIHRCCHIIHHIIIIOH() {
-      return this.RHCHROORRHOOORICIHIOCRCOORCIRI;
-   }
-
-   public void CRICCOOHHHCHOORCICOCOHIHOIRHOO(String var1) {
-      this.RHCHROORRHOOORICIHIOCRCOORCIRI = var1;
-   }
-
-   public String HIHHOCRHHRORRHHRORRRIIHHORIHOC() {
-      return this.HIHCHCORCCRCOHCRROHOHOOCHOROCC;
-   }
-
-   public void HICHRCOHCCRHOHCICOOCHOIHCCHIRI(String var1) {
-      this.HIHCHCORCCRCOHCRROHOHOOCHOROCC = var1;
+   public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Supplier<String> var1) {
+      this.OCIHRICRHRRHIOHIIHIROCRIRHCCIR = var1;
    }
 
    @Override
    public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
       List<OOROOCCIRCCRHOIOIORIHCHHOOCCOR> var1, Map<String, String> var2, Map<String, String> var3, String var4, String var5, URI var6
    ) {
-      if (this.RHCHROORRHOOORICIHIOCRCOORCIRI != null) {
-         String var7;
-         if (this.HIHCHCORCCRCOHCRROHOHOOCHOROCC != null) {
-            var7 = this.HIHCHCORCCRCOHCRROHOHOOCHOROCC + " " + this.RHCHROORRHOOORICIHIOCRCOORCIRI;
-         } else {
-            var7 = this.RHCHROORRHOOORICIHIOCRCOORCIRI;
-         }
-
-         if ("query".equals(this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR)) {
-            var1.add(new OOROOCCIRCCRHOIOIORIHCHHOOCCOR(this.IOOCHIRHCRICHIHORCRCHCRHCICROH, var7));
-         } else if ("header".equals(this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR)) {
-            var2.put(this.IOOCHIRHCRICHIHORCRCHCRHCICROH, var7);
-         } else if ("cookie".equals(this.HHOIOCRIRIOCOIHHOOHICIOIIOHCOR)) {
-            var3.put(this.IOOCHIRHCRICHIHORCRCHCRHCICROH, var7);
-         }
+      String var7 = Optional.ofNullable(this.OCIHRICRHRRHIOHIIHIROCRIRHCCIR).map(Supplier::get).orElse(null);
+      if (var7 != null) {
+         var2.put("Authorization", (this.scheme != null ? RICRIRRCOHRCOCRRHHCRHRROOIOHHR(this.scheme) + " " : "") + var7);
       }
+   }
+
+   private static String RICRIRRCOHRCOCRRHHCRHRROOIOHHR(String var0) {
+      return "bearer".equalsIgnoreCase(var0) ? "Bearer" : var0;
    }
 }

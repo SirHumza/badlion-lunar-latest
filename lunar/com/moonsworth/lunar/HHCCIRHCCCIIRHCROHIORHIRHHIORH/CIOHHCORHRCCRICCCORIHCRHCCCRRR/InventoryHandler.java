@@ -1,17 +1,23 @@
 package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CIOHHCORHRCCRICCCORIHCRHCCCRRR;
 
-import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
+public interface HHCCIRHCCCIIRHCROHIORHIRHHIORH extends RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+   default CRRRICCRROCOHHOHIICIHORCOORRRH bridge$outputSlot() {
+      return null;
+   }
 
-public interface RRCRRCORICCHOHHIRCHIROOHIIOHCO {
-   IIRHCHHOICHRICOOCRORCCIOOIHOIR bridge$getItemStack();
+   String bridge$repairedItemName();
 
-   int bridge$getIndex();
+   default CRRRICCRROCOHHOHIICIHORCOORRRH bridge$inputSlots() {
+      return null;
+   }
 
-   int bridge$getNumber();
+   void bridge$setMaximumCost(int var1);
 
-   CRRRICCRROCOHHOHIICIHORCOORRRH bridge$getInventory();
+   void bridge$setMaterialCost(int var1);
 
-   int bridge$getXDisplayPosition();
+   com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CORCOCICIRIOHROHROIIOOHICCHCRR.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.HHCCIRHCCCIIRHCROHIORHIRHHIORH bridge$player();
 
-   int bridge$getYDisplayPosition();
+   int bridge$getMaximumCost();
+
+   void bridge$detectAndSendChanges();
 }

@@ -1,19 +1,16 @@
 package com.moonsworth.lunar.client.HICRRICCHCCROOHHCHOCOCCHOIHHOC;
 
-import java.util.Set;
+import java.util.Map;
 import lombok.Generated;
 
-public abstract class IRCIIHHICIHRCOCRROCOICRIHHCCHH<T> implements RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
-   protected final Set<T> CCCORCRCCRHOIRHRCHCCOHORIHOHIH;
+public abstract class HHCCIRHCCCIIRHCROHIORHIRHHIORH<T, V> implements RIOOCHICIHRHOHCCCCCHOCCCOHCRHI {
+   private final Map<T, V> ORHHIRCCHORRCRORHHRHOOICOIRCIC = this.HOIHRIHCOICOOORCIORHOCRCRRCRHI();
 
-   public IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
-      com.moonsworth.lunar.client.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
-         "Loading " + this.getClass().getSimpleName() + "..."
-      );
-      this.CCCORCRCCRHOIRHRCHCCOHORIHOHIH = this.ORRHHOHHRICCROHHICIOOHOOCRRRCC();
+   protected abstract Map<T, V> HOIHRIHCOICOOORCIORHOCRCRRCRHI();
+
+   public void clear() {
+      this.ORHHIRCCHORRCRORHHRHOOICOIRCIC.clear();
    }
-
-   protected abstract Set<T> ORRHHOHHRICCROHHICIOOHOOCRRRCC();
 
    @Override
    public void init() {
@@ -25,19 +22,13 @@ public abstract class IRCIIHHICIHRCOCRROCOICRIHHCCHH<T> implements RIOOCHICIHRHO
          ((com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)this)
             .HIHCHCHCHROIIHCIHCOCIORCHCOCRC()
             .forEach(var0 -> {
-               try {
-                  var0.HICCORIOHCOHCRRHHCIOIIIRCCROOC();
-                  var0.IIIICHHCICRICOCHRIHHHORICICOOC();
-               } catch (Exception var2) {
-                  var2.printStackTrace();
-               }
+               var0.HICCORIOHCOHCRRHHCIOIIIRCCROOC();
+               var0.IIIICHHCICRICOCHRIHHHORICICOOC();
             });
-         ((com.moonsworth.lunar.client.IIHRRHORCRCROCHHOHORCHCROCIHRO.CORCOCICIRIOHROHROIIOOHICCHCRR.IRCIIHHICIHRCOCRROCOICRIHHCCHH)this)
-            .CHRCORCHOCIOCIIIOCRIIOICHRHOCR();
       }
 
       com.moonsworth.lunar.client.RICRIRRCOHRCOCRRHHCRHRROOIOHHR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-         this.getClass().getSimpleName() + " loaded " + this.CCCORCRCCRHOIRHRCHCCOHORIHOHIH.size() + " items."
+         this.getClass().getSimpleName() + " loaded " + this.ORHHIRCCHORRCRORHHRHOOICOIRCIC.size() + " items."
       );
    }
 
@@ -46,7 +37,7 @@ public abstract class IRCIIHHICIHRCOCRROCOICRIHHCCHH<T> implements RIOOCHICIHRHO
    }
 
    @Generated
-   public Set<T> OHHRCRIOOCIORORHIOHRICRHHORCIH() {
-      return this.CCCORCRCCRHOIRHRCHCCOHORIHOHIH;
+   public Map<T, V> RHHCIRRROCHIIHOCRIIHIHOOCCCRCR() {
+      return this.ORHHIRCCHORRCRORHHRHOOICOIRCIC;
    }
 }

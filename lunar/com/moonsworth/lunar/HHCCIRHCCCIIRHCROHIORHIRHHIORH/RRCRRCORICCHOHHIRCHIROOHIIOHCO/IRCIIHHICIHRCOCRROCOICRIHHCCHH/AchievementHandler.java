@@ -2,9 +2,9 @@ package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHI
 
 import java.util.Optional;
 
-public interface RIOOCHICIHRHOHCCCCCHOCCCOHCRHI extends CORCOCICIRIOHROHROIIOOHICCHCRR {
+public interface HRCHROOHRIHCRCRHRIIROCIRHOIRHH extends CORCOCICIRIOHROHROIIOOHICCHCRR {
    @Override
    default Optional<String> RICCICOHIICIIORHCHCRCRHOOOCHIC() {
-      return Optional.of("Achievement");
+      return Optional.of("Achievements");
    }
 }

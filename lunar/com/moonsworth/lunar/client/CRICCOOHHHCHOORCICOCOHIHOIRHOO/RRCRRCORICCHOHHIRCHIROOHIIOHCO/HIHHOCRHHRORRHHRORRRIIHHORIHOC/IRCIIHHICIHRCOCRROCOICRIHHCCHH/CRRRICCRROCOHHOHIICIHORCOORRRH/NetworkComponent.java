@@ -1,130 +1,347 @@
 package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH;
 
+import java.io.EOFException;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.nio.ByteBuffer;
-import java.nio.channels.ClosedChannelException;
+import java.nio.ByteOrder;
 import java.nio.channels.FileChannel;
-import java.nio.channels.NonWritableChannelException;
-import java.nio.channels.SeekableByteChannel;
-import java.util.Objects;
+import java.nio.charset.StandardCharsets;
 
-public final class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements SeekableByteChannel {
-   private static final int ROROHCCOOICHOHCOICIOROCHOOCROI = 65536;
-   private static final int OIHCCIRROOHOROIHRRHCOIHRHRHHCH = 8192;
-   private final FileChannel RHOHCRHCRIORROHICICCIRHHHIHCCR;
-   private final long HIHROCORIHIHCOHCHCORHRCRROCHIR;
-   private final long size;
-   private long position;
-   private boolean open = true;
-   private final ByteBuffer IHHRIRCCOOOOOOROROOHOIIHCICOHH = ByteBuffer.allocateDirect(65536);
-   private long OHRIHRORRORCRCIHORIIRCIRIHIOCH = -1L;
-   private int bufferLength = 0;
-   private long HHHIHOIOOROCHROCHHIOOORHCOIRHC = -1L;
+public final class IRCIIHHICIHRCOCRROCOICRIHHCCHH {
+   private static final int IHHOIROHIOIHIHRHRIIRHCCCHCHRHR = 101010256;
+   private static final int CROHRRIHHHICROOOHRRHRIOIIRHOCC = 117853008;
+   private static final int RIOOCOIIOHIOCCRCCICICHOOROHCCH = 101075792;
+   private static final int HHROROIRCORRIRHOOROICHOHRRCCOC = 33639248;
+   private static final int RRIIRCCOCIRCIHHCHCICOHCOIOIOIC = 67324752;
+   private static final long OIHHRIRHOOCIHRRRIICIIRCOCOOHHR = 4294967295L;
+   private static final int RIHCCRIHORRHIHHRRHRIRHIRRRIHRO = 65535;
 
-   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(FileChannel var1, long var2, long var4) {
-      this.RHOHCRHCRIORROHICICCIRHHHIHCCR = Objects.requireNonNull(var1);
-      this.HIHROCORIHIHCOHCHCORHRCRROCHIR = var2;
-      this.size = var4;
-   }
-
-   @Override
-   public int read(ByteBuffer var1) {
-      this.ensureOpen();
-      if (this.position >= this.size) {
-         return -1;
+   public static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      FileChannel var0, String var1
+   ) {
+      long var2 = var0.size();
+      long var4 = CRRRICCRROCOHHOHIICIHORCOORRRH(var0, var2);
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH var6 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var0, var4
+      );
+      com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH var7;
+      if (var6.RHHOCOICRCOHCHRRHCOOIIOHHIOHOH()) {
+         var7 = IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0, var4);
+      } else {
+         var7 = new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var6.IOOOOCRRORRHORCOIOOHCHCCOIOCHR(), var6.HORICRHCICIRHHHIIRIIOIHCROCOIH(), var6.CRORIHIHICHOCHROORROOICHIOOCHC()
+         );
       }
 
-      if (this.OHRIHRORRORCRCIHORIIRCIRIHIOCH < 0L
-         || this.position < this.OHRIHRORRORCRCIHORIIRCIRIHIOCH
-         || this.position >= this.OHRIHRORRORCRCIHORIIRCIRIHIOCH + this.bufferLength) {
-         this.fill();
-         if (this.bufferLength == 0) {
-            return -1;
+      long var8 = var7.ICHICHRHOROIIHOHIHRRHHHHIIORHH();
+      long var10 = var7.ICHICHRHOROIIHOHIHRRHHHHIIORHH() + var7.size();
+
+      for (long var12 = 0L; var12 < var7.CCHCRHOOICHCCIHIHROCIRRCRRRCIR() && var8 < var10; var12++) {
+         ByteBuffer var14 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var8, 46);
+         if (IRCIIHHICIHRCOCRROCOICRIHHCCHH(var14, 0) != 33639248L) {
+            throw new IOException("Invalid central directory header at " + var8);
+         }
+
+         int var15 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var14, 10);
+         long var16 = IRCIIHHICIHRCOCRROCOICRIHHCCHH(var14, 20);
+         long var18 = IRCIIHHICIHRCOCRROCOICRIHHCCHH(var14, 24);
+         int var20 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var14, 28);
+         int var21 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var14, 30);
+         int var22 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var14, 32);
+         long var23 = IRCIIHHICIHRCOCRROCOICRIHHCCHH(var14, 42);
+         ByteBuffer var25 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var8 + 46L, var20);
+         String var26 = StandardCharsets.UTF_8.decode(var25).toString();
+         ByteBuffer var27 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var8 + 46L + var20, var21);
+         com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO var28 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+            var27, var18, var16, var23
+         );
+         var18 = var28.CROIRIOIROHIICCRIHIOCCCIIRIHOR();
+         var23 = var28.IHOCOCCHHICHHOOIHOCOCOOORCIOIR();
+         if (var26.equals(var1)) {
+            if (var15 != 0) {
+               throw new IOException(var1 + " is not STORED");
+            }
+
+            com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH var29 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+               var0, var23
+            );
+            long var30 = var23 + 30L + var29.RIIIHRCHHCCORHCCHHRICICHIRCHHH + var29.extraLength;
+            return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH(
+               var30, var18
+            );
+         }
+
+         var8 += 46L + var20 + var21 + var22;
+      }
+
+      throw new FileNotFoundException(var1);
+   }
+
+   private static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      FileChannel var0, long var1
+   ) {
+      ByteBuffer var3 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1, 22);
+      if (IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3, 0) != 101010256L) {
+         throw new IOException("Invalid EOCD at " + var1);
+      }
+
+      int var4 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, 10);
+      long var5 = IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3, 12);
+      long var7 = IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3, 16);
+      return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+         var4, var5, var7
+      );
+   }
+
+   private static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IRCIIHHICIHRCOCRROCOICRIHHCCHH(
+      FileChannel var0, long var1
+   ) {
+      long var3 = var1 - 20L;
+      if (var3 < 0L) {
+         throw new IOException("ZIP64 EOCD locator not found");
+      }
+
+      ByteBuffer var5 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var3, 20);
+      if (IRCIIHHICIHRCOCRROCOICRIHHCCHH(var5, 0) != 117853008L) {
+         throw new IOException("ZIP64 EOCD locator not found at " + var3);
+      }
+
+      long var6 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(var5, 8);
+      ByteBuffer var8 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var6, 56);
+      if (IRCIIHHICIHRCOCRROCOICRIHHCCHH(var8, 0) != 101075792L) {
+         throw new IOException("Invalid ZIP64 EOCD at " + var6);
+      }
+
+      long var9 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(var8, 32);
+      long var11 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(var8, 40);
+      long var13 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(var8, 48);
+      return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+         var9, var11, var13
+      );
+   }
+
+   private static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      ByteBuffer var0, long var1, long var3, long var5
+   ) {
+      boolean var7 = var1 == 4294967295L;
+      boolean var8 = var3 == 4294967295L;
+      boolean var9 = var5 == 4294967295L;
+      if (!var7 && !var8 && !var9) {
+         return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+            var1, var5
+         );
+      }
+
+      int var10 = 0;
+
+      while (var10 + 4 <= var0.limit()) {
+         int var11 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var10);
+         int var12 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var10 + 2);
+         int var13 = var10 + 4;
+         int var14 = var13 + var12;
+         if (var14 > var0.limit()) {
+            throw new IOException("Invalid ZIP extra field");
+         }
+
+         if (var11 == 1) {
+            int var15 = var13;
+            if (var7) {
+               RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var15, var14);
+               var1 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0, var15);
+               var15 += 8;
+            }
+
+            if (var8) {
+               RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var15, var14);
+               var15 += 8;
+            }
+
+            if (var9) {
+               RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var15, var14);
+               var5 = HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0, var15);
+            }
+
+            return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO(
+               var1, var5
+            );
+         }
+
+         var10 = var14;
+      }
+
+      throw new IOException("Required ZIP64 extra field missing");
+   }
+
+   private static void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ByteBuffer var0, int var1, int var2) {
+      if (var1 + 8 > var2) {
+         throw new IOException("Truncated ZIP64 extra field");
+      }
+   }
+
+   private static com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+      FileChannel var0, long var1
+   ) {
+      ByteBuffer var3 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var1, 30);
+      if (IRCIIHHICIHRCOCRROCOICRIHHCCHH(var3, 0) != 67324752L) {
+         throw new IOException("Invalid local file header at " + var1);
+      }
+
+      int var4 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, 26);
+      int var5 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var3, 28);
+      return new com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HIHHOCRHHRORRHHRORRRIIHHORIHOC.IRCIIHHICIHRCOCRROCOICRIHHCCHH.CRRRICCRROCOHHOHIICIHORCOORRRH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH(
+         var4, var5
+      );
+   }
+
+   private static long CRRRICCRROCOHHOHIICIHORCOORRRH(FileChannel var0, long var1) {
+      char var3 = '\uffff';
+      byte var4 = 22;
+      int var5 = (int)Math.min(var1, var4 + var3);
+      long var6 = var1 - var5;
+      ByteBuffer var8 = RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var6, var5);
+
+      for (int var9 = var5 - var4; var9 >= 0; var9--) {
+         if (IRCIIHHICIHRCOCRROCOICRIHHCCHH(var8, var9) == 101010256L) {
+            return var6 + var9;
          }
       }
 
-      int var2 = (int)(this.position - this.OHRIHRORRORCRCIHORIIRCIRIHIOCH);
-      int var3 = (int)Math.min(Math.min(this.bufferLength - var2, var1.remaining()), this.size - this.position);
-      ByteBuffer var4 = this.IHHRIRCCOOOOOOROROOHOIIHCICOHH.duplicate();
-      var4.position(var2).limit(var2 + var3);
-      var1.put(var4);
-      this.position += var3;
-      this.HHHIHOIOOROCHROCHHIOOORHCOIRHC = this.position;
-      return var3;
+      throw new IOException("Could not find ZIP end of central directory");
    }
 
-   private void fill() {
-      long var1;
-      if (this.position < this.HHHIHOIOOROCHROCHHIOOORHCOIRHC) {
-         var1 = Math.max(0L, this.position - 57344L);
-      } else {
-         var1 = this.position;
-      }
+   private static ByteBuffer RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(FileChannel var0, long var1, int var3) {
+      ByteBuffer var4 = ByteBuffer.allocate(var3);
+      var4.order(ByteOrder.LITTLE_ENDIAN);
 
-      int var3 = (int)Math.min(65536L, this.size - var1);
-      this.IHHRIRCCOOOOOOROROOHOIIHCICOHH.clear();
-      this.IHHRIRCCOOOOOOROROOHOIIHCICOHH.limit(var3);
-      int var4 = 0;
-
-      while (var4 < var3) {
-         int var5 = this.RHOHCRHCRIORROHICICCIRHHHIHCCR.read(this.IHHRIRCCOOOOOOROROOHOIIHCICOHH, this.HIHROCORIHIHCOHCHCORHRCRROCHIR + var1 + var4);
-         if (var5 <= 0) {
-            break;
+      while (var4.hasRemaining()) {
+         int var5 = var0.read(var4, var1 + var4.position());
+         if (var5 < 0) {
+            throw new EOFException();
          }
-
-         var4 += var5;
       }
 
-      this.OHRIHRORRORCRCIHORIIRCIRIHIOCH = var1;
-      this.bufferLength = var4;
+      var4.flip();
+      return var4;
    }
 
-   @Override
-   public int write(ByteBuffer var1) {
-      throw new NonWritableChannelException();
+   private static int RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(ByteBuffer var0, int var1) {
+      return Short.toUnsignedInt(var0.getShort(var1));
    }
 
-   @Override
-   public long position() {
-      this.ensureOpen();
-      return this.position;
+   private static long IRCIIHHICIHRCOCRROCOICRIHHCCHH(ByteBuffer var0, int var1) {
+      return Integer.toUnsignedLong(var0.getInt(var1));
    }
 
-   @Override
-   public SeekableByteChannel position(long var1) {
-      this.ensureOpen();
-      if (var1 >= 0L && var1 <= this.size) {
-         this.position = var1;
-         return this;
-      } else {
-         throw new IllegalArgumentException("Position out of bounds: " + var1);
+   private static long HHCCIRHCCCIIRHCROHIORHIRHHIORH(ByteBuffer var0, int var1) {
+      return var0.getLong(var1);
+   }
+
+   public record CRRRICCRROCOHHOHIICIHORCOORRRH() {
+      private final long dataOffset;
+      private final long COIHORIICHCRIHIRICOHICCHCCHCIO;
+
+      public CRRRICCRROCOHHOHIICIHORCOORRRH(long var1, long var3) {
+         this.dataOffset = var1;
+         this.COIHORIICHCRIHIRICOHICCHCCHCIO = var3;
+      }
+
+      public long OICIHCRIHRHICIIHIORRHIICHHCCHH() {
+         return this.dataOffset;
+      }
+
+      public long CROIRIOIROHIICCRIHIOCCCIIRIHOR() {
+         return this.COIHORIICHCRIHIRICOHICCHCCHCIO;
       }
    }
 
-   @Override
-   public long size() {
-      this.ensureOpen();
-      return this.size;
+   private record HHCCIRHCCCIIRHCROHIORHIRHHIORH() {
+      private final int RIIIHRCHHCCORHCCHHRICICHIRCHHH;
+      private final int extraLength;
+
+      private HHCCIRHCCCIIRHCROHIORHIRHHIORH(int var1, int var2) {
+         this.RIIIHRCHHCCORHCCHHRICICHIRCHHH = var1;
+         this.extraLength = var2;
+      }
+
+      public int OOORCRICOIIOOICIROIROOCHCHRHRH() {
+         return this.RIIIHRCHHCCORHCCHHRICICHIRCHHH;
+      }
+
+      public int CCHICROCCOHCHRRORHICCHHRRICHHH() {
+         return this.extraLength;
+      }
    }
 
-   @Override
-   public SeekableByteChannel truncate(long var1) {
-      throw new NonWritableChannelException();
+   private record IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
+      private final int ROIOOHRHCRCRCOCHICIHCICHIIHIOH;
+      private final long OIOIIRRHHHHRCCIIRCROICIOCIOCOC;
+      private final long RCOIRRIOHCRIOHIRHRHHHIOICRRCIO;
+
+      private IRCIIHHICIHRCOCRROCOICRIHHCCHH(int var1, long var2, long var4) {
+         this.ROIOOHRHCRCRCOCHICIHCICHIIHIOH = var1;
+         this.OIOIIRRHHHHRCCIIRCROICIOCIOCOC = var2;
+         this.RCOIRRIOHCRIOHIRHRHHHIOICRRCIO = var4;
+      }
+
+      boolean RHHOCOICRCOHCHRRHCOOIIOHHIOHOH() {
+         return this.ROIOOHRHCRCRCOCHICIHCICHIIHIOH == 65535
+            || this.OIOIIRRHHHHRCCIIRCROICIOCIOCOC == 4294967295L
+            || this.RCOIRRIOHCRIOHIRHRHHHIOICRRCIO == 4294967295L;
+      }
+
+      public int IOOOOCRRORRHORCOIOOHCHCCOIOCHR() {
+         return this.ROIOOHRHCRCRCOCHICIHCICHIIHIOH;
+      }
+
+      public long HORICRHCICIRHHHIIRIIOIHCROCOIH() {
+         return this.OIOIIRRHHHHRCCIIRCROICIOCIOCOC;
+      }
+
+      public long CRORIHIHICHOCHROORROOICHIOOCHC() {
+         return this.RCOIRRIOHCRIOHIRHRHHHIOICRRCIO;
+      }
    }
 
-   @Override
-   public boolean isOpen() {
-      return this.open && this.RHOHCRHCRIORROHICICCIRHHHIHCCR.isOpen();
+   private record RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+      private final long IOOIOCCCORIIRCCHRRRRCCHORHCOIC;
+      private final long HRIROHHRRCHCIRHCCIOCIOOIHOIIHR;
+      private final long RRHOOCRCCIHCOCOOIOIHICOOICRHOR;
+
+      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(long var1, long var3, long var5) {
+         this.IOOIOCCCORIIRCCHRRRRCCHORHCOIC = var1;
+         this.HRIROHHRRCHCIRHCCIOCIOOIHOIIHR = var3;
+         this.RRHOOCRCCIHCOCOOIOIHICOOICRHOR = var5;
+      }
+
+      public long CCHCRHOOICHCCIHIHROCIRRCRRRCIR() {
+         return this.IOOIOCCCORIIRCCHRRRRCCHORHCOIC;
+      }
+
+      public long size() {
+         return this.HRIROHHRRCHCIRHCCIOCIOOIHOIIHR;
+      }
+
+      public long ICHICHRHOROIIHOHIHRRHHHHIIORHH() {
+         return this.RRHOOCRCCIHCOCOOIOIHICOOICRHOR;
+      }
    }
 
-   @Override
-   public void close() {
-      this.open = false;
-      this.RHOHCRHCRIORROHICICCIRHHHIHCCR.close();
-   }
+   private record RRCRRCORICCHOHHIRCHIROOHIIOHCO() {
+      private final long IHIOICHHIOORHIIIIOIOIHRRRIORCH;
+      private final long RCRCHRCHHRRIRCHHHCICOCIRHROHOH;
 
-   private void ensureOpen() {
-      if (!this.isOpen()) {
-         throw new ClosedChannelException();
+      private RRCRRCORICCHOHHIRCHIROOHIIOHCO(long var1, long var3) {
+         this.IHIOICHHIOORHIIIIOIOIHRRRIORCH = var1;
+         this.RCRCHRCHHRRIRCHHHCICOCIRHROHOH = var3;
+      }
+
+      public long CROIRIOIROHIICCRIHIOCCCIIRIHOR() {
+         return this.IHIOICHHIOORHIIIIOIOIHRRRIORCH;
+      }
+
+      public long IHOCOCCHHICHHOOIHOCOCOOORCIOIR() {
+         return this.RCRCHRCHHRRIRCHHHCICOCIRHROHOH;
       }
    }
 }

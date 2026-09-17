@@ -1,29 +1,34 @@
 package com.moonsworth.lunar.client.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
 
-import com.google.gson.JsonObject;
+import com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService;
 import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
-import java.util.function.Consumer;
-import lombok.Generated;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.net.Proxy;
+import java.util.UUID;
 
-public class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
-   private String ORRHCORRCHOROORHHIORHIOCOICOHC;
+public class OOROOCCIRCCRHOIOIORIHCHHOOCCOR {
+   private static final Constructor<YggdrasilAuthenticationService> CRIRICHHRCIORIOHOHHICHROIHOCRR;
 
-   public void RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(String var1, Consumer<String> var2) {
-      JsonObject var3 = com.moonsworth.lunar.client.util.CRRRICCRROCOHHOHIICIHORCOORRRH.HCHCHOORHHOHHOCICRHICIRRIOHICR(this.ORRHCORRCHOROORHHIORHIOCOICOHC);
-      if (var3.has("exp")) {
-         if (System.currentTimeMillis() < var3.get("exp").getAsInt() * 1000L) {
-            var2.accept(this.ORRHCORRCHOROORHHIORHIOCOICOHC);
-         } else {
-            IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR().RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var1, var2x -> {
-               this.ORRHCORRCHOROORHHIORHIOCOICOHC = var2x;
-               var2.accept(var2x);
-            });
-         }
+   public static YggdrasilAuthenticationService COCOCCIORORHIIROHIOIOHIHCRIOOO() {
+      if (IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 19) {
+         return new YggdrasilAuthenticationService(Proxy.NO_PROXY);
+      }
+
+      try {
+         return CRIRICHHRCIORIOHOHHICHROIHOCRR.newInstance(Proxy.NO_PROXY, UUID.randomUUID().toString());
+      } catch (InstantiationException | InvocationTargetException | IllegalAccessException var1) {
+         throw new RuntimeException("Failed to create profile repository through reflection.", var1);
       }
    }
 
-   @Generated
-   public void CROCIHOHROHRCOHRHOCHICOCRIIIHO(String var1) {
-      this.ORRHCORRCHOROORHHIORHIOCOICOHC = var1;
+   static {
+      try {
+         CRIRICHHRCIORIOHOHHICHROIHOCRR = IICCOOCHCHROORHHIIHROHCCRHRCOR.MC_VERSION >= 19
+            ? null
+            : YggdrasilAuthenticationService.class.getDeclaredConstructor(Proxy.class, String.class);
+      } catch (NoSuchMethodException var1) {
+         throw new RuntimeException(var1);
+      }
    }
 }

@@ -1,34 +1,42 @@
 package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
 
 import com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.CRICCOOHHHCHOORCICOCOHIHOIRHOO;
-import com.moonsworth.lunar.lib.adventure.text.Component;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
+import org.cadixdev.bombe.provider.ClassProvider;
 import org.objectweb.asm.Type;
+import org.objectweb.asm.tree.ClassNode;
 import org.objectweb.asm.tree.InsnList;
 import org.objectweb.asm.tree.MethodInsnNode;
-import org.objectweb.asm.tree.TypeInsnNode;
+import org.objectweb.asm.tree.MethodNode;
 
-public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements CRRRICCRROCOHHOHIICIHORCOORRRH {
-   private static final String RIICOCRRRHIHCHHRICOCHRCRCIOIRO = Type.getType(
-         com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.class
-      )
-      .getInternalName();
-   private static final Type CIHHOOCCORHOIHRRRRCICIOIOIIHIH = Type.getType(
-      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRRCCOICORICIHCHRHIHIHROIRHOCR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.class
+public class OOROOCCIRCCRHOIOIORIHCHHOOCCOR implements CRRRICCRROCOHHOHIICIHORCOORRRH {
+   private static final String HRICROHCOIRHHHOOOCORRORHOIHIRC = Type.getInternalName(
+      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.class
    );
-   private static final String RCCICOORIOHOHOHOCCCOCICRCCHHHI = CIHHOOCCORHOIHRRRRCICIOIOIIHIH.getInternalName();
-   private static final Type OCOCOIHOCHCIOORHOCIRIHRCHICORO = Type.getType(Component.class);
-   private static final String HRICRCHIIHIIICIHCICRHOOCRCCHIO = OCOCOIHOCHCIOORHOCIRIHRCHICORO.getInternalName();
-   private static final Type IHRIHCICOCCIIIRRIIIROHHIROCOOO = Type.getType(String.class);
-   private static final String IIHOCOIHHIROCHIHHCCCORRCOHCHRC = IHRIHCICOCCIIIRRIIIROHHIROCOOO.getInternalName();
-   private final String IOCIRIRHOHROHOCOROIRHCHIRHIHRO;
+   private final Map<String, String> CCCCCICORIHCIHIOCOCIOHCCRHCORR = new HashMap<>();
 
-   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-      com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IIHRRHORCRCROCHHOHORCHCROCIHRO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var1,
-      com.moonsworth.lunar.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IRCIIHHICIHRCOCRROCOICRIHHCCHH var2
-   ) {
-      this.IOCIRIRHOHROHOCOROIRHCHIRHIHRO = var1.IRCIIHHICIHRCOCRROCOICRIHHCCHH(RCCICOORIOHOHOHOCCCOCICRCCHHHI, var2)
-         .orElseThrow()
-         .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var2);
+   public OOROOCCIRCCRHOIOIORIHCHHOOCCOR(ClassProvider var1) {
+      ClassNode var2 = var1.getAsNode(HRICROHCOIRHHHOOOCORRORHOIHIRC, 1);
+
+      for (MethodNode var4 : var2.methods) {
+         if ((var4.access & 8) != 0 && Type.getReturnType(var4.desc) != Type.VOID_TYPE && Type.getArgumentTypes(var4.desc).length == 1) {
+            String var5 = Objects.requireNonNullElse(var4.signature, var4.desc);
+            if (this.CCCCCICORIHCIHIOCOCIOHCCRHCORR.containsKey(var5)) {
+               throw new IllegalStateException(
+                  String.format(
+                     "Both %s and %s in TypeConversionUtil share the signature %s. Ensure only one method exists per signature!",
+                     this.CCCCCICORIHCIHIOCOCIOHCCRHCORR.get(var5),
+                     var4.name,
+                     var5
+                  )
+               );
+            }
+
+            this.CCCCCICORIHCIHIOCOCIOHCCRHCORR.put(var5, var4.name);
+         }
+      }
    }
 
    @Override
@@ -39,42 +47,14 @@ public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements CRRRICCRROCOHHOHIICIHORCO
    ) {
       CRICCOOHHHCHOORCICOCOHIHOIRHOO var4 = var1.IICRHRIOIROIOHRICHHHHHIHIOOICI();
       CRICCOOHHHCHOORCICOCOHIHOIRHOO var5 = var2.IICRHRIOIROIOHRICHHHHHIHIOOICI();
-      if (!(var4 instanceof com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH)
-         || !((com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH)var4).name().equals(HRICRCHIIHIIICIHCICRHOOCRCCHIO)) {
-         return var1;
-      }
-
-      if (!(var5 instanceof com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH)) {
-         return var1;
-      }
-
-      String var6 = ((com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH)var5).name();
-      if (var6.equals(IIHOCOIHHIROCHIHHCCCORRCOHCHRC)) {
-         var3.add(
-            new MethodInsnNode(
-               184,
-               RIICOCRRRHIHCHHRICOCHRCRCIOIRO,
-               "asLegacyString",
-               Type.getMethodDescriptor(IHRIHCICOCCIIIRRIIIROHHIROCOOO, new Type[]{OCOCOIHOCHCIOORHOCIRIHRCHICORO})
-            )
-         );
+      String var6 = "(" + var4.getDescriptor() + ")" + var5.getDescriptor();
+      String var7 = "(" + var1.toString() + ")" + var2;
+      if (this.CCCCCICORIHCIHIOCOCIOHCCRHCORR.containsKey(var7)) {
+         var3.add(new MethodInsnNode(184, HRICROHCOIRHHHOOOCORRORHOIHIRC, this.CCCCCICORIHCIHIOCOCIOHCCRHCORR.get(var7), var6));
+         return var2;
       } else {
-         if (!var6.equals(this.IOCIRIRHOHROHOCOROIRHCHIRHIHRO)) {
-            throw new UnsupportedOperationException("Don't know how to coerce type " + var1 + " to an Adventure component!");
-         }
-
-         var3.add(
-            new MethodInsnNode(
-               184,
-               RIICOCRRRHIHCHHRICOCHRCRCIOIRO,
-               "asBridge",
-               Type.getMethodDescriptor(CIHHOOCCORHOIHRRRRCICIOIOIIHIH, new Type[]{OCOCOIHOCHCIOORHOCIRIHRCHICORO})
-            )
-         );
-         var3.add(new TypeInsnNode(192, var6));
+         return var1;
       }
-
-      return var2;
    }
 
    @Override
@@ -85,38 +65,10 @@ public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements CRRRICCRROCOHHOHIICIHORCO
    ) {
       CRICCOOHHHCHOORCICOCOHIHOIRHOO var4 = var1.IICRHRIOIROIOHRICHHHHHIHIOOICI();
       CRICCOOHHHCHOORCICOCOHIHOIRHOO var5 = var2.IICRHRIOIROIOHRICHHHHHIHIOOICI();
-      if (!(var4 instanceof com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH)) {
-         return var2;
-      }
-
-      if (var5 instanceof com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH
-         && ((com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH)var5).name().equals(HRICRCHIIHIIICIHCICRHOOCRCCHIO)) {
-         String var6 = ((com.moonsworth.lunar.ichor.CRICCOOHHHCHOORCICOCOHIHOIRHOO.HHCCIRHCCCIIRHCROHIORHIRHHIORH)var4).name();
-         if (var6.equals(IIHOCOIHHIROCHIHHCCCORRCOHCHRC)) {
-            var3.add(
-               new MethodInsnNode(
-                  184,
-                  RIICOCRRRHIHCHHRICOCHRCRCIOIRO,
-                  "asAdventure",
-                  Type.getMethodDescriptor(OCOCOIHOCHCIOORHOCIRIHRCHICORO, new Type[]{IHRIHCICOCCIIIRRIIIROHHIROCOOO})
-               )
-            );
-         } else {
-            if (!var6.equals(this.IOCIRIRHOHROHOCOROIRHCHIRHIHRO)) {
-               throw new UnsupportedOperationException("Don't know how to coerce type " + var1 + " to an Adventure component!");
-            }
-
-            var3.add(new TypeInsnNode(192, RCCICOORIOHOHOHOCCCOCICRCCHHHI));
-            var3.add(
-               new MethodInsnNode(
-                  184,
-                  RIICOCRRRHIHCHHRICOCHRCRCIOIRO,
-                  "asAdventure",
-                  Type.getMethodDescriptor(OCOCOIHOCHCIOORHOCIRIHRCHICORO, new Type[]{CIHHOOCCORHOIHRRRRCICIOIOIIHIH})
-               )
-            );
-         }
-
+      String var6 = "(" + var4.getDescriptor() + ")" + var5.getDescriptor();
+      String var7 = "(" + var1.toString() + ")" + var2;
+      if (this.CCCCCICORIHCIHIOCOCIOHCCRHCORR.containsKey(var7)) {
+         var3.add(new MethodInsnNode(184, HRICROHCOIRHHHOOOCORRORHOIHIRC, this.CCCCCICORIHCIHIOCOCIOHCCRHCORR.get(var7), var6));
          return var1;
       } else {
          return var2;

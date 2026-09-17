@@ -1,48 +1,33 @@
 package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IIHRRHORCRCROCHHOHORCHCROCIHRO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
 
 import com.moonsworth.lunar.client.HHRIICOIOORCHCOIICOOIHIRHHICRI.ORHIOICIOCRRHOOCOHRORIHICHRCRR;
-import com.moonsworth.lunar.client.util.HIHCCHCCOCOHRICOICHRCOIHIIRIHO;
 import lombok.Generated;
 
-public enum RRCRRCORICCHOHHIRCHIROOHIIOHCO implements ORHIOICIOCRRHOOCOHRORIHICHRCRR {
-   DEFAULT("default", 0),
-   SMALL("small", 1),
-   NORMAL("normal", 2),
-   LARGE("large", 3);
+public enum RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements ORHIOICIOCRRHOOCOHRORIHICHRCRR {
+   COUNT_2(2),
+   COUNT_3(3),
+   COUNT_4(4),
+   COUNT_5(5);
 
-   private final String translationKey;
-   private final int scale;
-
-   RRCRRCORICCHOHHIRCHIROOHIIOHCO(
-      @HIHCCHCCOCOHRICOICHRCOIHIIRIHO(CHHOHHOIRCCRRCRIHCCOHHRCIHRHII = HIHCCHCCOCOHRICOICHRCOIHIIRIHO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.STORAGE_OVERLAY_INFO) String var3,
-      int var4
-   ) {
-      this.translationKey = var3;
-      this.scale = var4;
-   }
+   private final int chestsPerRow;
 
    @Override
    public String id() {
-      return this.translationKey;
-   }
-
-   @Override
-   public String getLanguagePath() {
-      return "features.STORAGE_OVERLAY.info";
+      return "chestsPerRow" + this.chestsPerRow;
    }
 
    @Override
    public String toString() {
-      return this.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI(this.id());
+      return String.valueOf(this.chestsPerRow);
    }
 
    @Generated
-   public String getTranslationKey() {
-      return this.translationKey;
+   RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var3) {
+      this.chestsPerRow = var3;
    }
 
    @Generated
-   public int getScale() {
-      return this.scale;
+   public int getChestsPerRow() {
+      return this.chestsPerRow;
    }
 }

@@ -1,9 +1,0 @@
-package com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.CORCOCICIRIOHROHROIIOOHICCHCRR.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
-
-public interface RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
-   boolean bridge$hasNoTime();
-
-   int bridge$getFrameTime();
-
-   int bridge$getFrameIndex();
-}

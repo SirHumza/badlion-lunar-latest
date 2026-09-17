@@ -1,56 +1,59 @@
 package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
 
+import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.CRRRICCRROCOHHOHIICIHORCOORRRH.OHHRIOHROOIHOROCIRHCHORIHRRRRI;
 import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.IIRHCHHOICHRICOOCRORCCIOOIHOIR;
-import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCRRHRCIRHIHIHROHCRRHIIHHHHCH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR;
-import lombok.Generated;
+import java.util.List;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-abstract class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH implements HRCHROOHRIHCRCRHRIIROCIRHOIRHH {
-   private IIRHCHHOICHRICOOCRORCCIOOIHOIR HRRIROORCROIOOCHHCIHRIHCIOOCCC = null;
-   private boolean RICHORHCIIIHIHCRIOOHRROIHHIIIR = false;
-
+class IIHRRHORCRCROCHHOHORCHCROCIHRO extends RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
    @Override
-   public boolean HHCCIRHCCCIIRHCROHIORHIRHHIORH(@NotNull HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
-      return this.HRRIROORCROIOOCHHCIHRIHCIOOCCC != null;
+   protected boolean IIHRRHORCRCROCHHOHORCHCROCIHRO(@NotNull IIRHCHHOICHRICOOCRORCCIOOIHOIR var1) {
+      return var1.bridge$getContainerItems() != null
+         || var1.bridge$getItem() instanceof com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IHHCHHHCRIHOOCOIOOCRIIICIOROIR.RRCRRCORICCHOHHIRCHIROOHIIOHCO var2
+            && var2.bridge$getBlockFromItem().orElse(null) instanceof OHHRIOHROOIHOROCIRHCHORIHRRRRI
+         || var1.bridge$getItem().bridge$isBundle();
    }
-
-   public boolean CRRRICCRROCOHHOHIICIHORCOORRRH(@NotNull HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
-      IIRHCHHOICHRICOOCRORCCIOOIHOIR var2 = var1.bridge$getItemInUse().orElse(null);
-      return var2 != null && var2 == this.HIROCOCHORRCHIOIIIOIIRHOIROOCH();
-   }
-
-   protected abstract boolean IIHRRHORCRCROCHHOHORCHCROCIHRO(@NotNull IIRHCHHOICHRICOOCRORCCIOOIHOIR var1);
 
    @Override
    public int OCIOOOOHCHCRHCICCCIHOOOORHIRHR() {
-      return this.HRRIROORCROIOOCHHCIHRIHCIOOCCC == null ? 0 : (this.RICHORHCIIIHIHCRIOOHRROIHHIIIR ? 0 : 1);
+      return 0;
    }
 
    @Override
-   public void RRCRRCORICCHOHHIRCHIROOHIIOHCO(@Nullable HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
-      this.HRRIROORCROIOOCHHCIHRIHCIOOCCC = null;
-      if (var1 != null) {
-         IIRHCHHOICHRICOOCRORCCIOOIHOIR var2 = var1.bridge$getEquipmentInSlot(IHHCHHHCRIHOOCOIOOCRIIICIOROIR.MAINHAND);
-         if (var2 != null && !var2.bridge$isEmpty() && this.IIHRRHORCRCROCHHOHORCHCROCIHRO(var2)) {
-            this.HRRIROORCROIOOCHHCIHRIHCIOOCCC = var2;
-            this.RICHORHCIIIHIHCRIOOHRROIHHIIIR = false;
-         } else {
-            var2 = var1.bridge$getEquipmentInSlot(IHHCHHHCRIHOOCOIOOCRIIICIOROIR.OFFHAND);
-            if (var2 != null && !var2.bridge$isEmpty() && this.IIHRRHORCRCROCHHOHORCHCROCIHRO(var2)) {
-               this.HRRIROORCROIOOCHHCIHRIHCIOOCCC = var2;
-               this.RICHORHCIIIHIHCRIOOHRROIHHIIIR = true;
+   public float HRCHROOHRIHCRCRHRIIROCIRHOIRHH(@NotNull HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      List var2 = this.HIROCOCHORRCHIOIIIOIIRHOIROOCH().bridge$getContainerItems();
+      if (var2 == null) {
+         return 0.0F;
+      }
+
+      boolean var3 = this.HIROCOCHORRCHIOIIIOIIRHOIROOCH().bridge$getItem().bridge$isBundle();
+      float var4 = var3 ? 64.0F : 27.0F;
+      float var5 = 0.0F;
+
+      for (int var6 = 0; var6 < var2.size(); var6++) {
+         IIRHCHHOICHRICOOCRORCCIOOIHOIR var7 = (IIRHCHHOICHRICOOCRORCCIOOIHOIR)var2.get(var6);
+         if (var7 != null && !var7.bridge$isEmpty()) {
+            int var8 = var7.bridge$getMaxStackSize();
+            if (var8 <= 0) {
+               var8 = 64;
             }
+
+            var5 += var3 ? var7.bridge$getStackSize() * (64.0F / var8) : (float)var7.bridge$getStackSize() / var8;
          }
       }
+
+      return Math.min(1.0F, var5 / var4);
    }
 
-   @Generated
-   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   @Override
+   public boolean CORCOCICIRIOHROHROIIOOHICCHCRR(@NotNull HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      return this.HIROCOCHORRCHIOIIIOIIRHOIROOCH() != null;
    }
 
-   @Generated
-   public IIRHCHHOICHRICOOCRORCCIOOIHOIR HIROCOCHORRCHIOIIIOIIRHOIROOCH() {
-      return this.HRRIROORCROIOOCHHCIHRIHCIOOCCC;
+   @Nullable
+   @Override
+   public IIRHCHHOICHRICOOCRORCCIOOIHOIR OOROOCCIRCCRHOIOIORIHCHHOOCCOR(@NotNull HHCCIRHCCCIIRHCROHIORHIRHHIORH var1) {
+      return this.HIROCOCHORRCHIOIIIOIIRHOIROOCH();
    }
 }

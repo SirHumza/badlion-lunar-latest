@@ -1,279 +1,136 @@
 package com.moonsworth.lunar.lib.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RIOOCHICIHRHOHCCCCCHOCCCOHCRHI.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.nio.charset.StandardCharsets;
 import java.util.NavigableMap;
 
-final class IIHRRHORCRCROCHHOHORCHCROCIHRO extends RRCRRCORICCHOHHIRCHIROOHIIOHCO {
-   public static final int CIRRRCHCRHHHRHRHCIIOCIIIIHIOOI = 1292782635;
-   public static final int IIHHOHRCRIRHCIIHIOCIORIRIRCORH = 32;
-   private static final long RHHRCHCRCCOOHHIRHIIHCCCROHRHIC = 2147483647L;
-   private static final int ROHCCHHRIHCOICIOROIRCHRHHIRIII = 1292782621;
+class IIRHCHHOICHRICOOCRORCCIOOIHOIR extends RRCRRCORICCHOHHIRCHIROOHIIOHCO {
+   public static final int HRIOIHIIRCRRCCIHCHHHICORORRCOR = 1292782622;
+   private static final int IOOORRIHHHOHHOHHIHRICRIIHCICOR = 646456993;
+   private static final int ICCHORCRICCCHRHIRRICHHOIOOIROC = 536870912;
 
-   public IIHRRHORCRCROCHHOHORCHCROCIHRO() {
-   }
-
-   public BigDecimal parseBigDecimalString(byte[] var1, int var2, int var3) {
+   public BigInteger parseBigIntegerLiteral(byte[] var1, int var2, int var3, int var4) {
       try {
-         if (var3 >= 32) {
-            return this.parseBigDecimalStringWithManyDigits(var1, var2, var3);
-         }
-
-         long var4 = 0L;
-         int var7 = -1;
-         int var9 = var2 + var3;
-         int var10 = var2;
-         byte var11 = charAt(var1, var10, var9);
-         boolean var12 = false;
-         boolean var13 = var11 == 45;
-         if (var13 || var11 == 43) {
-            var11 = charAt(var1, ++var10, var9);
-            if (var11 == 0) {
-               throw new NumberFormatException("illegal syntax");
-            }
-         }
-
-         int var6 = var10;
-
-         while (var10 < var9) {
-            var11 = var1[var10];
-            if (OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isDigit(var11)) {
-               var4 = 10L * var4 + var11 - 48L;
-            } else {
-               if (var11 != 46) {
-                  break;
-               }
-
-               var12 |= var7 >= 0;
-               var7 = var10;
-
-               while (var10 < var9 - 4) {
-                  int var14 = OOROOCCIRCCRHOIOIORIHCHHOOCCOR.tryToParseFourDigits(var1, var10 + 1);
-                  if (var14 < 0) {
-                     break;
-                  }
-
-                  var4 = 10000L * var4 + var14;
-                  var10 += 4;
+         int var5 = var2 + var3;
+         if (var2 >= 0 && var5 >= var2 && var5 <= var1.length && var3 <= 1292782622) {
+            int var10 = var2;
+            byte var7 = var1[var10];
+            boolean var8 = var7 == 45;
+            if (var8 || var7 == 43) {
+               var7 = charAt(var1, ++var10, var5);
+               if (var7 == 0) {
+                  throw new NumberFormatException("illegal syntax");
                }
             }
 
-            var10++;
-         }
-
-         int var15 = var10;
-         long var16;
-         int var23;
-         if (var7 < 0) {
-            var23 = var15 - var6;
-            var7 = var15;
-            var16 = 0L;
-         } else {
-            var23 = var15 - var6 - 1;
-            var16 = var7 - var15 + 1;
-         }
-
-         long var18 = 0L;
-         int var8;
-         if ((var11 | 32) == 101) {
-            var8 = var10++;
-            var11 = charAt(var1, var10, var9);
-            boolean var20 = var11 == 45;
-            if (var20 || var11 == 43) {
-               var11 = charAt(var1, ++var10, var9);
+            switch (var4) {
+               case 10:
+                  return this.parseDecDigits(var1, var10, var5, var8);
+               case 16:
+                  return this.parseHexDigits(var1, var10, var5, var8);
+               default:
+                  return new BigInteger(new String(var1, var2, var3, StandardCharsets.ISO_8859_1), var4);
             }
-
-            var12 |= !OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isDigit(var11);
-
-            do {
-               if (var18 < 2147483647L) {
-                  var18 = 10L * var18 + var11 - 48L;
-               }
-
-               var11 = charAt(var1, ++var10, var9);
-            } while (OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isDigit(var11));
-
-            if (var20) {
-               var18 = -var18;
-            }
-
-            var16 += var18;
          } else {
-            var8 = var9;
+            throw new IllegalArgumentException("offset < 0 or length > str.length");
          }
-
-         if (var12 || var10 < var9 || var23 == 0 || var23 > 1292782621) {
-            throw new NumberFormatException("illegal syntax");
-         } else if (var16 <= -2147483648L || var16 > 2147483647L) {
-            throw new NumberFormatException("value exceeds limits");
-         } else {
-            return var23 <= 18
-               ? new BigDecimal(var13 ? -var4 : var4).scaleByPowerOfTen((int)var16)
-               : this.valueOfBigDecimalString(var1, var6, var7, var7 + 1, var8, var13, (int)var16);
-         }
-      } catch (ArithmeticException var21) {
-         NumberFormatException var5 = new NumberFormatException("value exceeds limits");
-         var5.initCause(var21);
-         throw var5;
+      } catch (ArithmeticException var9) {
+         NumberFormatException var6 = new NumberFormatException("value exceeds limits");
+         var6.initCause(var9);
+         throw var6;
       }
    }
 
-   BigDecimal parseBigDecimalStringWithManyDigits(byte[] var1, int var2, int var3) {
-      if (var3 > 1292782635) {
+   private BigInteger parseDecDigits(byte[] var1, int var2, int var3, boolean var4) {
+      int var5 = var3 - var2;
+      if (var5 > 18) {
+         return this.parseManyDecDigits(var1, var2, var3, var4);
+      }
+
+      int var6 = var2 + (var5 & 7);
+      long var7 = OOROOCCIRCCRHOIOIORIHCHHOOCCOR.tryToParseUpTo7Digits(var1, var2, var6);
+      boolean var9 = var7 >= 0L;
+
+      for (int var11 = var6; var11 < var3; var11 += 8) {
+         int var10 = OOROOCCIRCCRHOIOIORIHCHHOOCCOR.tryToParseEightDigitsUtf8(var1, var11);
+         var9 &= var10 >= 0;
+         var7 = var7 * 100000000L + var10;
+      }
+
+      if (!var9) {
          throw new NumberFormatException("illegal syntax");
-      }
-
-      int var6 = -1;
-      int var7 = -1;
-      int var9 = var2 + var3;
-      int var10 = var2;
-      byte var11 = charAt(var1, var10, var9);
-      boolean var12 = false;
-      boolean var13 = var11 == 45;
-      if (var13 || var11 == 43) {
-         var11 = charAt(var1, ++var10, var9);
-         if (var11 == 0) {
-            throw new NumberFormatException("illegal syntax");
-         }
-      }
-
-      int var4 = var10;
-
-      while (var10 < var9 - 8 && OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isEightZeroes(var1, var10)) {
-         var10 += 8;
-      }
-
-      while (var10 < var9 && var1[var10] == 48) {
-         var10++;
-      }
-
-      int var5 = var10;
-
-      while (var10 < var9 - 8 && OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isEightDigits(var1, var10)) {
-         var10 += 8;
-      }
-
-      while (var10 < var9 && OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isDigit(var11 = var1[var10])) {
-         var10++;
-      }
-
-      if (var11 == 46) {
-         var6 = var10++;
-
-         while (var10 < var9 - 8 && OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isEightZeroes(var1, var10)) {
-            var10 += 8;
-         }
-
-         while (var10 < var9 && var1[var10] == 48) {
-            var10++;
-         }
-
-         var7 = var10;
-
-         while (var10 < var9 - 8 && OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isEightDigits(var1, var10)) {
-            var10 += 8;
-         }
-
-         while (var10 < var9 && OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isDigit(var11 = var1[var10])) {
-            var10++;
-         }
-      }
-
-      int var15 = var10;
-      int var14;
-      long var16;
-      if (var6 < 0) {
-         var14 = var15 - var5;
-         var6 = var15;
-         var7 = var15;
-         var16 = 0L;
       } else {
-         var14 = var5 == var6 ? var15 - var7 : var15 - var5 - 1;
-         var16 = var6 - var15 + 1;
+         return BigInteger.valueOf(var4 ? -var7 : var7);
+      }
+   }
+
+   private BigInteger parseHexDigits(byte[] var1, int var2, int var3, boolean var4) {
+      var2 = this.skipZeroes(var1, var2, var3);
+      int var5 = var3 - var2;
+      if (var5 <= 0) {
+         return BigInteger.ZERO;
       }
 
-      long var18 = 0L;
-      int var8;
-      if ((var11 | 32) == 101) {
-         var8 = var10++;
-         var11 = charAt(var1, var10, var9);
-         boolean var20 = var11 == 45;
-         if (var20 || var11 == 43) {
-            var11 = charAt(var1, ++var10, var9);
-         }
-
-         var12 = !OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isDigit(var11);
-
-         do {
-            if (var18 < 2147483647L) {
-               var18 = 10L * var18 + var11 - 48L;
-            }
-
-            var11 = charAt(var1, ++var10, var9);
-         } while (OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isDigit(var11));
-
-         if (var20) {
-            var18 = -var18;
-         }
-
-         var16 += var18;
-      } else {
-         var8 = var9;
-      }
-
-      if (var12 || var10 < var9) {
-         throw new NumberFormatException("illegal syntax");
-      } else if (var8 - var4 == 0) {
-         throw new NumberFormatException("illegal syntax");
-      } else if (var16 >= -2147483648L && var16 <= 2147483647L && var14 <= 1292782621) {
-         return this.valueOfBigDecimalString(var1, var5, var6, var7, var8, var13, (int)var16);
-      } else {
+      if (var5 > 536870912) {
          throw new NumberFormatException("value exceeds limits");
       }
+
+      byte[] var6 = new byte[(var5 + 1 >> 1) + 1];
+      int var7 = 1;
+      boolean var8 = false;
+      if ((var5 & 1) != 0) {
+         byte var9 = var1[var2++];
+         byte var10 = var9 < 0 ? -1 : RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HCOHICHIIHRHRRHHORRCHOHRHCROCI[var9];
+         var6[var7++] = (byte)var10;
+         var8 = var10 < 0;
+      }
+
+      for (int var15 = var2 + (var3 - var2 & 7); var2 < var15; var2 += 2) {
+         byte var16 = var1[var2];
+         byte var11 = var1[var2 + 1];
+         byte var12 = var16 < 0 ? -1 : RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HCOHICHIIHRHRRHHORRCHOHRHCROCI[var16];
+         byte var13 = var11 < 0 ? -1 : RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HCOHICHIIHRHRRHHORRCHOHRHCROCI[var11];
+         var6[var7++] = (byte)(var12 << 4 | var13);
+         var8 |= var12 < 0 || var13 < 0;
+      }
+
+      while (var2 < var3) {
+         long var17 = OOROOCCIRCCRHOIOIORIHCHHOOCCOR.tryToParseEightHexDigits(var1, var2);
+         OOROOCCIRCCRHOIOIORIHCHHOOCCOR.writeIntBE(var6, var7, (int)var17);
+         var8 |= var17 < 0L;
+         var2 += 8;
+         var7 += 4;
+      }
+
+      if (var8) {
+         throw new NumberFormatException("illegal syntax");
+      }
+
+      BigInteger var18 = new BigInteger(var6);
+      return var4 ? var18.negate() : var18;
    }
 
-   private BigDecimal valueOfBigDecimalString(byte[] var1, int var2, int var3, int var4, int var5, boolean var6, int var7) {
-      int var8 = var5 - var3 - 1;
-      int var9 = var5 - var4;
-      int var10 = var3 - var2;
-      NavigableMap var11 = null;
-      BigInteger var13;
-      if (var10 > 0) {
-         if (var10 > 400) {
-            var11 = CRICCOOHHHCHOORCICOCOHIHOIRHOO.createPowersOfTenFloor16Map();
-            CRICCOOHHHCHOORCICOCOHIHOIRHOO.fillPowersOfNFloor16Recursive(var11, var2, var3);
-            var13 = IHCRORHRORIICHRHRCHRRIRRHHOCOO.parseDigitsRecursive(var1, var2, var3, var11);
-         } else {
-            var13 = IHCRORHRORIICHRHRCHRRIRRHHOCOO.parseDigitsRecursive(var1, var2, var3, null);
-         }
-      } else {
-         var13 = BigInteger.ZERO;
+   private BigInteger parseManyDecDigits(byte[] var1, int var2, int var3, boolean var4) {
+      var2 = this.skipZeroes(var1, var2, var3);
+      int var5 = var3 - var2;
+      if (var5 > 646456993) {
+         throw new NumberFormatException("value exceeds limits");
       }
 
-      BigInteger var12;
-      if (var8 > 0) {
-         BigInteger var14;
-         if (var9 > 400) {
-            if (var11 == null) {
-               var11 = CRICCOOHHHCHOORCICOCOHIHOIRHOO.createPowersOfTenFloor16Map();
-            }
+      NavigableMap var6 = CRICCOOHHHCHOORCICOCOHIHOIRHOO.fillPowersOf10Floor16(var2, var3);
+      BigInteger var7 = IHCRORHRORIICHRHRCHRRIRRHHOCOO.parseDigitsRecursive(var1, var2, var3, var6);
+      return var4 ? var7.negate() : var7;
+   }
 
-            CRICCOOHHHCHOORCICOCOHIHOIRHOO.fillPowersOfNFloor16Recursive(var11, var4, var5);
-            var14 = IHCRORHRORIICHRHRCHRRIRRHHOCOO.parseDigitsRecursive(var1, var4, var5, var11);
-         } else {
-            var14 = IHCRORHRORIICHRHRCHRRIRRHHOCOO.parseDigitsRecursive(var1, var4, var5, null);
-         }
-
-         if (var13.signum() == 0) {
-            var12 = var14;
-         } else {
-            BigInteger var15 = CRICCOOHHHCHOORCICOCOHIHOIRHOO.computePowerOfTen(var11, var8);
-            var12 = HICHRCOHCCRHOHCICOOCHOIHCCHIRI.multiply(var13, var15).add(var14);
-         }
-      } else {
-         var12 = var13;
+   private int skipZeroes(byte[] var1, int var2, int var3) {
+      while (var2 < var3 - 8 && OOROOCCIRCCRHOIOIORIHCHHOOCCOR.isEightZeroes(var1, var2)) {
+         var2 += 8;
       }
 
-      return new BigDecimal(var6 ? var12.negate() : var12, -var7);
+      while (var2 < var3 && var1[var2] == 48) {
+         var2++;
+      }
+
+      return var2;
    }
 }

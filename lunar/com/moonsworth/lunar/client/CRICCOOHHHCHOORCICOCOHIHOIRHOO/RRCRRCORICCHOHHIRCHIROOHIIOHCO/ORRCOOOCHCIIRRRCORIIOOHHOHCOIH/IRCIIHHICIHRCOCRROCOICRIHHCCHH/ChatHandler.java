@@ -1,66 +1,67 @@
 package com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.IRCIIHHICIHRCOCRROCOICRIHHCCHH;
 
-import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HRCHROOHRIHCRCRHRIIROCIRHOIRHH;
+import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH;
 import com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RRCRRCORICCHOHHIRCHIROOHIIOHCO.ORRCOOOCHCIIRRRCORIIOOHHOHCOIH.CORCOCICIRIOHROHROIIOOHICCHCRR.IIHRRHORCRCROCHHOHORCHCROCIHRO.OCOHORHCROHICRRIHCIHHRRCIHICRI;
 import com.moonsworth.lunar.client.util.IICCOOCHCHROORHHIIHROHCCRHRCOR;
 import java.util.List;
-import org.jetbrains.annotations.Nullable;
+import java.util.Locale;
 
-public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH
+public class IRCIIHHICIHRCOCRROCOICRIHHCCHH
    extends com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
-   private static final List<String> HROORICIIROHOCCOHHROICIOCIHIOH = List.of("all", "party", "guild", "officer", "coop");
+   private static boolean ORHHHCROOIHIOOIRCOHRHOCOCHRCCC;
 
-   public RCIRROCCCIIHCIHCCRHHCCHOHHHCHH() {
+   public IRCIIHHICIHRCOCRROCOICRIHHCCHH() {
       super(
          com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.OCRHORIRHHHIIOCOOCHICOOCIHORCC(
-               "sendcoords"
+               "warp"
             )
-            .HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0 -> IOOHHIIIHHCRHCCCIIIROROOHIIIOR(null))
+            .HHCCIRHCCCIIRHCROHIORHIRHHIORH(var0 -> HOHOCIRCROOOROIOOHOHICORHIIOII(""))
             .HHCCIRHCCCIIRHCROHIORHIRHHIORH(
                com.moonsworth.lunar.client.CRICCOOHHHCHOORCICOCOHIHOIRHOO.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
-                     "mode", HRCHROOHRIHCRCRHRIIROCIRHOIRHH.CICHOCRIRRRRIHOIHRHIIRHHHHRCRH
+                     "destination", HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRIRCHROCIIIIIOROOOCCIIIICHHOR
                   )
-                  .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(HROORICIIROHOCCOHHROICIOCIHIOH)
-                  .IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0 -> IOOHHIIIHHCRHCCCIIIROROOHIIIOR(var0.getString("mode")))
+                  .RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+                     (var0, var1) -> {
+                        List var2 = IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+                           .HHCCIRORCRCHOIOHRRIRRRIORRCRRR()
+                           .IHIIROIOIHOHCHICOIIIHOHHCOIOCI()
+                           .ORICRIRORRCHHHRRHOORHIRCICHCCO()
+                           .OCCICCCIOIHHRROOCOCIIHRCORHICC();
+                        if (var2 != null) {
+                           String var3 = var1.CIHCOIIRIOOCOCRHHHHRCCIOHCRCCH().toLowerCase(Locale.ROOT);
+
+                           for (String var5 : var2) {
+                              if (var5.startsWith(var3)) {
+                                 var1.OHRCIORHOCHOORCRHHOHRRRCCOICCO(var5);
+                              }
+                           }
+                        }
+                     }
+                  )
+                  .IRCIIHHICIHRCOCRROCOICRIHHCCHH(var0 -> HOHOCIRCROOOROIOOHOHICORHIIOII(var0.getString("destination")))
             )
       );
    }
 
-   @Override
-   public boolean isEnabled() {
-      return OCOHORHCROHICRRIHCIHHRRCIHICRI.RRRCCHIOCICOIOIRRCOOIRHHCORCIH();
+   private static void HOHOCIRCROOOROIOOHOHICORHIIOII(String var0) {
+      ORHHHCROOIHIOOIRCOHRHOCOCHRCCC = true;
+      String var1 = var0.isEmpty() ? "/warp" : "/warp " + var0;
+
+      try {
+         IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH().bridge$sendChatMessage(var1);
+      } finally {
+         ORHHHCROOIHIOOIRCOHRHOCOCHRCCC = false;
+      }
    }
 
-   private static void IOOHHIIIHHCRHCCCIIIROROOHIIIOR(@Nullable String var0) {
-      String var10000;
-      if (var0 == null) {
-         var10000 = "";
-      } else {
-         switch (var0) {
-            case "all":
-               var10000 = "/ac ";
-               break;
-            case "party":
-               var10000 = "/pc ";
-               break;
-            case "guild":
-               var10000 = "/gc ";
-               break;
-            case "officer":
-               var10000 = "/oc ";
-               break;
-            case "coop":
-               var10000 = "/cc ";
-               break;
-            default:
-               var10000 = "";
-         }
-      }
-
-      String var1 = var10000;
-      IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH()
-         .bridge$sendChatMessage(
-            var1 + OCOHORHCROHICRRIHCIHHRRCIHICRI.RICRIRRCOHRCOCRRHHCRHRROOIOHHR(IICCOOCHCHROORHHIIHROHCCRHRCOR.OHORHCCCORHIRHHCROHIRORRROROOH())
-         );
+   @Override
+   public boolean isEnabled() {
+      return IICCOOCHCHROORHHIIHROHCCRHRCOR.ICORCRCHRIICOHOOIHHIHOIHIIRCOR()
+            .HHCCIRORCRCHOIOHRRIRRRIORRCRRR()
+            .IHIIROIOIHOHCHICOIIIHOHHCOIOCI()
+            .HIICCOCIRORHCOCHIIHCHCOROOORHC()
+            .get()
+         && !ORHHHCROOIHIOOIRCOHRHOCOCHRCCC
+         && OCOHORHCROHICRRIHCIHHRRCIHICRI.RRRCCHIOCICOIOIRRCOOIRHHCORCIH();
    }
 }
