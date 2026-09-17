@@ -1,230 +1,54 @@
-import java.awt.Color;
+import com.google.common.base.Predicates;
+import java.util.List;
 
-class LzoFDFWzJ0wRzfSwSwu37ZvsjEYAzdnKjlNsCx6JZ3YQgt5FRP1Vunkueyl7Ncr0b8xR25zorQEtCzC9qgtnrekKeYJttDgkYWZY
-   extends knyzFixQmG5VbXtSsmCB2LMaviGLpi3aT1TwXZXVXbSvMIUETJiZz7lWrD8HqqaIetiWeF5cd8G4jLteWo3DxFj3VhtaYCk8HYT3 {
-   private float ColorTextPane;
-   private long BatModInstallerMain;
-   private final chmqCA1Nj68N7DHD92MSPUwnBcLJoROCH70ogCuBq9PtmDaolmDKosHNDw0YSCyJJCJw30d27Iwk46gAJPnKtZLSiaAcT7TbRJUj aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA;
-   private final String LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN;
-   public float ColorChooser;
-   public boolean IntegerSpinner;
-
-   public LzoFDFWzJ0wRzfSwSwu37ZvsjEYAzdnKjlNsCx6JZ3YQgt5FRP1Vunkueyl7Ncr0b8xR25zorQEtCzC9qgtnrekKeYJttDgkYWZY(
-      T6tvZkpq0v6OTla4UFICBS7dkRkDPYTqGkdxLrGaAkKGhQ2VT6FVMwgclhxyPCqDPJXOnjSMF8CNcHSv7h33HYGVldKbq72EZv56 var1,
-      int var2,
-      int var3,
-      int var4,
-      chmqCA1Nj68N7DHD92MSPUwnBcLJoROCH70ogCuBq9PtmDaolmDKosHNDw0YSCyJJCJw30d27Iwk46gAJPnKtZLSiaAcT7TbRJUj var5,
-      boolean var6
+final class F9oo0BwMrWbps1hDGsbov7QG6LqKkpXuecXXzCGO2cqbsG1DXB70HXorBV1d62L5gWKMfceYkY0IYM7H90nWKZk53riGFPHTpufx
+   extends DtKAuXqfrlhwWh7ZugXwYOhQd88Bvkg5x3NIaDtk5j24J8faeKJDTLXmgDhpSwwvtA8zF3wfvGe07PqS3e6Y2Vm3qSMlLOVrNdgD {
+   @Override
+   protected k33yhS54VsUaLK6nSB7INIBmgwLgC1mJf55Nusrui954a0w74ZkYHHNokvenOdo4c65vY3YxmJit097jtJ6TFLqqeS5AarwF7q65 Button(
+      xeE4rJt6iPBQ65SmOmB5MX4KgMWiPop7Fo6NW81IMP3v8vSbml8yif4W7yiggQsundg2kdEVnyA3dve82C64rlM3PRiUBlbJnT2f var1,
+      k33yhS54VsUaLK6nSB7INIBmgwLgC1mJf55Nusrui954a0w74ZkYHHNokvenOdo4c65vY3YxmJit097jtJ6TFLqqeS5AarwF7q65 var2
    ) {
-      super(var2, var3, var4, var6 ? 310 : 150, 20, "");
-      this.TextField = var1;
-      this.ColorChooser = 1.0F;
-      this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA = var5;
-      this.LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN = rNwJ4I02OUAysDSPHru31rx6EAmfjS0D4tuupAIkr95xZWRMo0w98vizVfxup78guYqYVHssdUknEbQvin7dHl8cJfr1BY8hIU75.BatModClient(
-         "soundCategory." + var5.BatModClient()
+      q15Hrb7HPiXUZJsH3CBPEgtS2dBsU3MPPT72hjpoKm9nktzO32O8rewmFT7fqIM36QFgzptSfVW7TW1sEMV8VoaK1YvNABwRXVW var3 = var1.Spinner()
+         .BatModClient(
+            jKBzPy7AmWjNr4Pu2cWQpQPGYan4vt8GulBaovlBBU4LqlTJRYiLyD3ZfgBOueo2nLqDzrzBHk0SLe5NfmQqrrYzSfUamNyNizok.Spinner(
+               var1.Checkbox()
+            )
+         );
+      int var4 = var3.BatModProgressBar();
+      int var5 = var3.ColorChooser();
+      int var6 = var3.IntegerSpinner();
+      rMcDsHAGrjrEOCBuKEh0Q5LxfAC6cuZ85B6g60Fyy4MSniKFsCESPLCL6GD34AOxmg8xaf9PuIaEBFVwsyZnyXwpdCqNyuOZNaT var7 = new rMcDsHAGrjrEOCBuKEh0Q5LxfAC6cuZ85B6g60Fyy4MSniKFsCESPLCL6GD34AOxmg8xaf9PuIaEBFVwsyZnyXwpdCqNyuOZNaT(
+         var4, var5, var6, var4 + 1, var5 + 1, var6 + 1
       );
-      this.ButtonAction = this.LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN
-         + ": "
-         + var1.BatModClient(var5);
-      this.ColorChooser = T6tvZkpq0v6OTla4UFICBS7dkRkDPYTqGkdxLrGaAkKGhQ2VT6FVMwgclhxyPCqDPJXOnjSMF8CNcHSv7h33HYGVldKbq72EZv56.BatModClient(
-            var1
-         )
-         .BatModClient(var5);
-   }
-
-   @Override
-   protected int Button(boolean var1) {
-      return 0;
-   }
-
-   @Override
-   protected void CustomSpinner(
-      AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB var1, int var2, int var3
-   ) {
-      if (this.ProgressBar) {
-         if (this.IntegerSpinner) {
-            this.ColorChooser = (float)(
-                  var2 - (this.Button + 4)
-               )
-               / (this.width - 8);
-            this.ColorChooser = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BatModClient(
-               this.ColorChooser, 0.0F, 1.0F
-            );
-            var1.InstallationLogger
-               .BatModClient(
-                  this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA,
-                  this.ColorChooser
-               );
-            var1.InstallationLogger
-               .Button();
-            this.ButtonAction = this.LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN
-               + ": "
-               + this.TextField
-                  .BatModClient(
-                     this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA
-                  );
-         }
-
-         var1.OXiHn4yUSlOUP4kAV8kog6OFjXxn0PRuO4COz26Lq0ilLnotGRRNuaBnh7uhZgmQElMCcIzA31DVhxqMomb5cN7KXGc0anrqbaJt()
-            .BatModClient(
-               BatModClient
-            );
-         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.CustomSpinner(
-            1.0F, 1.0F, 1.0F, 1.0F
-         );
-         y7nyK90QGkgXFTGFecYiOnW86XbMfGB63AJ2PVnUllY3Hrib95HSIQWzoo2r9X2m5TnjgIUsK8PDk5Q5wrukHUGUhKSmiGhwR3dY var4 = BatModClient.BatModClient()
-            .ProgressBar();
-         if (var4.fancyButtons) {
-            if (this.Checkbox
-               && this.BatModProgressBar
-               && this.ColorTextPane < 5.0F) {
-               this.ColorTextPane = this.ColorTextPane
-                  + (float)(
-                        System.currentTimeMillis() - this.BatModInstallerMain
-                     )
-                     / 20.0F;
-               if (this.ColorTextPane > 5.0F) {
-                  this.ColorTextPane = 5.0F;
-               }
-            }
-
-            if ((
-                  !this.Checkbox
-                     || !this.BatModProgressBar
-               )
-               && this.ColorTextPane > 0.0F) {
-               this.ColorTextPane = this.ColorTextPane
-                  - (float)(
-                        System.currentTimeMillis() - this.BatModInstallerMain
-                     )
-                     / 20.0F;
-               if (this.ColorTextPane < 0.0F) {
-                  this.ColorTextPane = 0.0F;
-               }
-            }
-
-            this.BatModInstallerMain = System.currentTimeMillis();
-            int var5 = Integer.MAX_VALUE;
-            if (var4.fancyButtonsFading && 0.0F < this.ColorTextPane) {
-               Color var6 = new Color(Integer.MAX_VALUE, true);
-
-               for (int var7 = 0; var7 < (int)this.ColorTextPane; var7++) {
-                  var6 = var6.darker();
-               }
-
-               var5 = var6.getRGB();
-            }
-
-            float var10 = this.Button
-               + (int)(this.ColorChooser * (this.width - 8));
-            float var11 = this.CustomSpinner;
-            float var8 = 8.0F;
-            float var9 = 20.0F;
-            O4JzH5GMgUHGlKecm4hxPzaf3zuoPZnpuAM4mQgZh64rtjlZNDY1KXoH0lbMUXqC2UQPeWECQqnpwhpqHNTYtonTSyw0zwslrH.Button(
-               var10 + 1.0F, var11 + 1.0F, var10 + 8.0F - 1.0F, var11 + 20.0F - 1.0F, var5
-            );
-            O4JzH5GMgUHGlKecm4hxPzaf3zuoPZnpuAM4mQgZh64rtjlZNDY1KXoH0lbMUXqC2UQPeWECQqnpwhpqHNTYtonTSyw0zwslrH.BatModClient(
-               var10, var11 + 1.0F, var10 + 1.0F, var11 + var9 - 1.0F, -861756766
-            );
-            O4JzH5GMgUHGlKecm4hxPzaf3zuoPZnpuAM4mQgZh64rtjlZNDY1KXoH0lbMUXqC2UQPeWECQqnpwhpqHNTYtonTSyw0zwslrH.BatModClient(
-               var10 + 1.0F, var11, var10 + var8 - 1.0F, var11 + 1.0F, -861756766
-            );
-            O4JzH5GMgUHGlKecm4hxPzaf3zuoPZnpuAM4mQgZh64rtjlZNDY1KXoH0lbMUXqC2UQPeWECQqnpwhpqHNTYtonTSyw0zwslrH.BatModClient(
-               var10 + var8 - 1.0F, var11 + 1.0F, var10 + var8, var11 + var9 - 1.0F, -861756766
-            );
-            O4JzH5GMgUHGlKecm4hxPzaf3zuoPZnpuAM4mQgZh64rtjlZNDY1KXoH0lbMUXqC2UQPeWECQqnpwhpqHNTYtonTSyw0zwslrH.BatModClient(
-               var10 + 1.0F, var11 + var9 - 1.0F, var10 + var8 - 1.0F, var11 + var9, -861756766
-            );
-         } else {
-            this.Button(
-               this.Button
-                  + (int)(this.ColorChooser * (this.width - 8)),
-               this.CustomSpinner,
-               0,
-               66,
-               4,
-               20
-            );
-            this.Button(
-               this.Button
-                  + (int)(this.ColorChooser * (this.width - 8))
-                  + 4,
-               this.CustomSpinner,
-               196,
-               66,
-               4,
-               20
-            );
-         }
-      }
-   }
-
-   @Override
-   public boolean Button(
-      AKnHvCEvff0plRZMvivJHI1Y16hUOHf1ple94i52Q2QOBbkkTa9CdhlfxOJQmuqBGcGc4Btt3nXUKX1ypstf7VYEhFEpOcflQPhB var1, int var2, int var3
-   ) {
-      if (super.Button(var1, var2, var3)) {
-         this.ColorChooser = (float)(
-               var2 - (this.Button + 4)
+      List var8 = var1.BatModClient()
+         .BatModClient(
+            B8VluaHYQkPrm0MSgTEiIG0moKrZyV3SVKON7lYumKjWCHtPeWFtSQWKdPmgKNhRe1stPLbU4GTATRWfN8OYB1phO1ALYKttKG1R.class,
+            var7,
+            Predicates.and(
+               K2KPA4pfEqQGUxwgH4FOKySEldvUe4B7eFvOoEyLMDOD1bg7M9Ex8MKacJ4N4GMwLh5jsdUOa03oyeEeXmZI78vbWMhvYjiea49W.ButtonAction,
+               new vKNdPxeVSwIuUCbe8s3g9nDoX2ot3FG369VLWQkAmJw9Lghy741dY0amljFyfgFNOjBQWNNBt0bLMdG6YfZylnnGU9ILd8N43XOy(var2)
             )
-            / (this.width - 8);
-         this.ColorChooser = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.BatModClient(
-            this.ColorChooser, 0.0F, 1.0F
          );
-         var1.InstallationLogger
-            .BatModClient(
-               this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA,
-               this.ColorChooser
-            );
-         var1.InstallationLogger
-            .Button();
-         this.ButtonAction = this.LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN
-            + ": "
-            + this.TextField
-               .BatModClient(
-                  this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA
-               );
-         this.IntegerSpinner = true;
-         return true;
+      if (var8.size() > 0) {
+         B8VluaHYQkPrm0MSgTEiIG0moKrZyV3SVKON7lYumKjWCHtPeWFtSQWKdPmgKNhRe1stPLbU4GTATRWfN8OYB1phO1ALYKttKG1R var9 = (B8VluaHYQkPrm0MSgTEiIG0moKrZyV3SVKON7lYumKjWCHtPeWFtSQWKdPmgKNhRe1stPLbU4GTATRWfN8OYB1phO1ALYKttKG1R)var8.get(
+            0
+         );
+         int var10 = var9 instanceof EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u ? 1 : 0;
+         int var11 = it45MyBnm2IZZfPuRP66nD6SIdiJpqBCNKiOC2x6MO4Od0xAdGqRQUQFZBvu7XKXYghppBHFiQ7KJ2WG795NPnwzqu5fPMJ0fnuA.Button(
+            var2
+         );
+         k33yhS54VsUaLK6nSB7INIBmgwLgC1mJf55Nusrui954a0w74ZkYHHNokvenOdo4c65vY3YxmJit097jtJ6TFLqqeS5AarwF7q65 var12 = var2.IntegerSpinner();
+         var12.Button = 1;
+         var9.BatModClient(var11 - var10, var12);
+         if (var9 instanceof it45MyBnm2IZZfPuRP66nD6SIdiJpqBCNKiOC2x6MO4Od0xAdGqRQUQFZBvu7XKXYghppBHFiQ7KJ2WG795NPnwzqu5fPMJ0fnuA) {
+            ((it45MyBnm2IZZfPuRP66nD6SIdiJpqBCNKiOC2x6MO4Od0xAdGqRQUQFZBvu7XKXYghppBHFiQ7KJ2WG795NPnwzqu5fPMJ0fnuA)var9)
+               .BatModClient(var11, 2.0F);
+         }
+
+         var2.Button--;
+         return var2;
       } else {
-         return false;
+         return super.Button(var1, var2);
       }
-   }
-
-   @Override
-   public void BatModClient(
-      omlx0pF7bmKBPeOIQYt5GAFPmzI90wRLKQBvGkRdZAslUABfNQx644UnEYIQCviE5iDBzGqJnb9vGplA40J9mLbFxDvXOeJiE0xq var1
-   ) {
-   }
-
-   @Override
-   public void BatModClient(int var1, int var2) {
-      if (this.IntegerSpinner) {
-         if (this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA
-            == chmqCA1Nj68N7DHD92MSPUwnBcLJoROCH70ogCuBq9PtmDaolmDKosHNDw0YSCyJJCJw30d27Iwk46gAJPnKtZLSiaAcT7TbRJUj.BatModClient
-            )
-          {
-            float var3 = 1.0F;
-         } else {
-            T6tvZkpq0v6OTla4UFICBS7dkRkDPYTqGkdxLrGaAkKGhQ2VT6FVMwgclhxyPCqDPJXOnjSMF8CNcHSv7h33HYGVldKbq72EZv56.BatModClient(
-                  this.TextField
-               )
-               .BatModClient(
-                  this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA
-               );
-         }
-
-         this.TextField
-            .ColorChooser
-            .mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv()
-            .BatModClient(
-               CV0EZoWdhrRYDvOo6smFif8msBV9p0cOxv5q78CBboRaq4FY9IXRuv5BxwvAC7HBZQT1PFRhZcXKCjv2oRzSEylxDOw0VXijWtDu.BatModClient(
-                  new p7gEHzChZANgQTeNDHf2DAoeS21e8yfozPsoQrJSpLJJ9JfwEWgpYu5TcTH8c9gihFUypwDhyTu5lUWfPRwIg44Mb23hTD8FR2KD("gui.button.press"), 1.0F
-               )
-            );
-      }
-
-      this.IntegerSpinner = false;
    }
 }

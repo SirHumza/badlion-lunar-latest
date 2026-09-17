@@ -1,11 +1,36 @@
-final class Hj01nV799xaYAng0tb3wulXVDITW6ODhyBG8YDPciEzbUaM7ugd7ufJlFXx4dOy4EtIpQ1uKe9PxkZwYeSQeYLxUm41I5xJpV8Z6
-   extends umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt {
-   Hj01nV799xaYAng0tb3wulXVDITW6ODhyBG8YDPciEzbUaM7ugd7ufJlFXx4dOy4EtIpQ1uKe9PxkZwYeSQeYLxUm41I5xJpV8Z6(int var1, String var2) {
-      super(var1, var2);
-   }
+import tv.twitch.ErrorCode;
+import tv.twitch.chat.ChatRawMessage;
+import tv.twitch.chat.ChatTokenizedMessage;
+import tv.twitch.chat.ChatUserInfo;
 
-   @Override
-   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Spinner() {
-      return PQv5Bfmc3YgYFvAC2dTnUn4Di1xPI6iL6HyB7PFNLFxAoip71NusUPE2c3nBlPseU8qI9uFV111SHY6yVG0uWx8HL7qy9GXeQgzJ.kzTirpjGBxF6lMXnU3OtSQut8uc2l77qvnA8ubdIFDZhFGEdeA5pNXRls2AFRAdjJOPlXmmIolAi7gqMVppUpc9wEXGNY3nXOehO;
-   }
+public interface Cc735KLGG5A5t4ulwvpRDqONuAk4r1BKqFKhIhTd3M13fRUpiE0OGD8AlISF3IJvTd87wk77UwIhtyRKpTBStSNT6jndbC76Es {
+   void ButtonAction(ErrorCode var1);
+
+   void Spinner(ErrorCode var1);
+
+   void ButtonAction();
+
+   void Spinner();
+
+   void BatModClient(
+      K8kdtuqdgwZ5HqZHArQfmiyBqudd3v0hXzzY29eWxfWgIM1n2h3he8J0HGOCfpcfCR6S5TWhHq5OBPlgaWv3BmDMv49BbUaqZdmj var1
+   );
+
+   void BatModClient(String var1, ChatTokenizedMessage[] var2);
+
+   void BatModClient(String var1, ChatRawMessage[] var2);
+
+   void BatModClient(
+      String var1, ChatUserInfo[] var2, ChatUserInfo[] var3, ChatUserInfo[] var4
+   );
+
+   void BatModClient(String var1);
+
+   void Button(String var1);
+
+   void BatModClient(String var1, String var2);
+
+   void CustomSpinner(String var1);
+
+   void ButtonAction(String var1);
 }

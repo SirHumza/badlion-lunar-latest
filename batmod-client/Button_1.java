@@ -1,45 +1,13 @@
-public enum TlaUAntzzZBavaG8M7XKcyxnjnCO4SZZjTvWYm3oQ1t5EprCCLZaW4j4CepgAZw93Bwfe5Zv3P2GbUZWyZYj6Dp8L6dF0U32bb04
-   implements kL1nOQpXwDl2V9inoZyIUR90RLwre33st31iJQtjGIk6qqPNCyw4LG9FJl1wcZgCaI2jQzAJpgiSruoUWInPiMK7QcvluDLWntZ {
-   BatModClient(0, "dead_bush"),
-   Button(1, "tall_grass"),
-   CustomSpinner(2, "fern");
+public class VV7sJ8kFtjbma2cEnwf988h3yzt6tBv5LOBl9UBIrqb4CrBjpy9605zPiZCYYXJgYNeBg15RnTVF4wnl96l3tRLhwOIdIztlkZa8
+   extends gLB2ow59dvwp01jTByeC0JVoNcvtfE0PqBPv4PcBZYuwUJcEQuo19YGJTMUTBUIyXfz8nEbs4BA1xiIuS3we41ntyutIYeCgZPSE {
+   public final Zgcd9xUva6Y31NUIo9GrBj4bcvFq6wmBwzsENwf7ETQ1Ild1AMGhUQorHX3dWwlxc56bzJPZyd79rMu9ySru2cSleirJ9Ev2jkq BatModClient;
+   public final int Button;
 
-   private static final TlaUAntzzZBavaG8M7XKcyxnjnCO4SZZjTvWYm3oQ1t5EprCCLZaW4j4CepgAZw93Bwfe5Zv3P2GbUZWyZYj6Dp8L6dF0U32bb04[] ButtonAction = new TlaUAntzzZBavaG8M7XKcyxnjnCO4SZZjTvWYm3oQ1t5EprCCLZaW4j4CepgAZw93Bwfe5Zv3P2GbUZWyZYj6Dp8L6dF0U32bb04[values().length];
-   private final int Spinner;
-   private final String Checkbox;
-
-   TlaUAntzzZBavaG8M7XKcyxnjnCO4SZZjTvWYm3oQ1t5EprCCLZaW4j4CepgAZw93Bwfe5Zv3P2GbUZWyZYj6Dp8L6dF0U32bb04(int var3, String var4) {
-      this.Spinner = var3;
-      this.Checkbox = var4;
-   }
-
-   public int Button() {
-      return this.Spinner;
-   }
-
-   @Override
-   public String toString() {
-      return this.Checkbox;
-   }
-
-   public static TlaUAntzzZBavaG8M7XKcyxnjnCO4SZZjTvWYm3oQ1t5EprCCLZaW4j4CepgAZw93Bwfe5Zv3P2GbUZWyZYj6Dp8L6dF0U32bb04 BatModClient(
-      int var0
+   public VV7sJ8kFtjbma2cEnwf988h3yzt6tBv5LOBl9UBIrqb4CrBjpy9605zPiZCYYXJgYNeBg15RnTVF4wnl96l3tRLhwOIdIztlkZa8(
+      Zgcd9xUva6Y31NUIo9GrBj4bcvFq6wmBwzsENwf7ETQ1Ild1AMGhUQorHX3dWwlxc56bzJPZyd79rMu9ySru2cSleirJ9Ev2jkq var1, int var2
    ) {
-      if (var0 < 0 || var0 >= ButtonAction.length) {
-         var0 = 0;
-      }
-
-      return ButtonAction[var0];
-   }
-
-   @Override
-   public String BatModClient() {
-      return this.Checkbox;
-   }
-
-   static {
-      for (TlaUAntzzZBavaG8M7XKcyxnjnCO4SZZjTvWYm3oQ1t5EprCCLZaW4j4CepgAZw93Bwfe5Zv3P2GbUZWyZYj6Dp8L6dF0U32bb04 var3 : values()) {
-         ButtonAction[var3.Button()] = var3;
-      }
+      super(var1.Button());
+      this.BatModClient = var1;
+      this.Button = var2;
    }
 }

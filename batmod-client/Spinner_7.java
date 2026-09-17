@@ -1,11 +1,25 @@
-final class FX9c98CXtQY3fmQz3bVztGXDO2z0xlspDtj5VI8xmi2v6TxJL8Hz37iLAfCgJaajjr8re1OOHeJKw34Dey95ZyakHQejUyg7PkJs
-   extends umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt {
-   FX9c98CXtQY3fmQz3bVztGXDO2z0xlspDtj5VI8xmi2v6TxJL8Hz37iLAfCgJaajjr8re1OOHeJKw34Dey95ZyakHQejUyg7PkJs(int var1, String var2) {
-      super(var1, var2);
-   }
-
-   @Override
-   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Spinner() {
-      return PQv5Bfmc3YgYFvAC2dTnUn4Di1xPI6iL6HyB7PFNLFxAoip71NusUPE2c3nBlPseU8qI9uFV111SHY6yVG0uWx8HL7qy9GXeQgzJ.nuWP3Bei4rUZ6VCX2iWCHlHKiAsicTC9Ae69Jpwv4oZQMYPCTjiB0SikRnqAxZeaL93OS1vPuNC116DLDmI1tI2KbykrrH2Hg5n;
+public class Cc55iSFFNvfqlXedUlIW19umWCBSakWGHVqwhejWqrarwKLUrQWTV7BDhrTYXyTOjlQrFbXlGy89kFV7bY1dHLnBo5Usly48Ccq
+   extends l4aKZYxvxMw2fci0nI6ETMviA2t0pHfj8vm7BK8qhJNotEJJbatsAXs9drWQaOmzvbM4dv2DwowpVJ6gr0ggT2jKAJBdD02ONoDk {
+   public Cc55iSFFNvfqlXedUlIW19umWCBSakWGHVqwhejWqrarwKLUrQWTV7BDhrTYXyTOjlQrFbXlGy89kFV7bY1dHLnBo5Usly48Ccq(
+      DsQxVxAAKK7iQ72jkUmkc7zLEC04c6KtLJxjPyaBlexbxVF18hauCwOF0w3nlnRB5fVtGkv2pJfaQpEjKixi81ci7kPd4Ov2Q7F var1
+   ) {
+      super("achievement");
+      this.BatModClient(
+         "achievement_id", var1.Spinner
+      );
+      this.BatModClient(
+         "achievement_name",
+         var1.Spinner()
+            .BatModProgressBar()
+      );
+      this.BatModClient(
+         "achievement_description", var1.Checkbox()
+      );
+      this.BatModClient(
+         "Achievement '"
+            + var1.Spinner()
+               .BatModProgressBar()
+            + "' obtained!"
+      );
    }
 }

@@ -1,130 +1,111 @@
-import java.net.InetAddress;
-
-public class CustomSpinner {
-   private String BatModClient;
-   private int Button;
-   private boolean CustomSpinner = false;
-   private boolean ButtonAction = false;
-   private static S8GLXLm5KazhYzi6YG4eZRFbep3nPU8AfQS0GEyFo8GZV2b49sjJWYH9MohJFtlZesTTdbPjPReu6KiQcdERSN1d7jRRmIjb62g1 Spinner;
-   private jy6GtEzWsFxqrzHNTIpuJdqHeRM4SKooghxbC9wW9iihGrSyrFZPJQ03iXTbBAjCW0FWYBYMiG9O3UdGUxEXSxxLXp2XAZckX0DD Checkbox;
-
-   public CustomSpinner(String var1, int var2) {
-      this.BatModClient = var1;
-      this.Button = var2;
-      Spinner = new S8GLXLm5KazhYzi6YG4eZRFbep3nPU8AfQS0GEyFo8GZV2b49sjJWYH9MohJFtlZesTTdbPjPReu6KiQcdERSN1d7jRRmIjb62g1();
-      this.Spinner();
-   }
-
-   private void Spinner() {
-      this.BatModClient(0L);
-   }
-
-   private void BatModClient(long var1) {
-      new Thread(
-            () -> {
-               try {
-                  Thread.sleep(var1);
-               } catch (InterruptedException var5) {
-                  var5.printStackTrace();
-               }
-
-               try {
-                  BatModClient.BatModClient(
-                     "Connecting to server: "
-                        + this.BatModClient
-                        + ":"
-                        + this.Button
-                  );
-                  this.Checkbox = new jy6GtEzWsFxqrzHNTIpuJdqHeRM4SKooghxbC9wW9iihGrSyrFZPJQ03iXTbBAjCW0FWYBYMiG9O3UdGUxEXSxxLXp2XAZckX0DD(
-                     InetAddress.getByName(this.BatModClient),
-                     this.Button
-                  );
-                  this.CustomSpinner = false;
-               } catch (Exception var4) {
-                  BatModClient.Button(
-                     "Could not connect to server due to unknown host: "
-                        + this.BatModClient
-                        + ":"
-                        + this.Button
-                  );
-                  this.CustomSpinner = false;
-                  this.BatModClient(
-                     KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ.TextField
-                  );
-                  Thread.currentThread().stop();
-               }
-            },
-            "BatMod Server Connector"
-         )
-         .start();
-   }
-
-   public void BatModClient(
-      KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ var1
+public class E1Rh0OZI2tAySqW0LBOXRNNGcbhoMum3NoYOZTHRxtUhrf8O1NbOToCY1TpnDhEJq33ca8hEfVQTrobvvfpdeZMAyNn40hdKEFht
+   extends z8WgMQN3ExGKSKCMRAR7qPi7yEZwPPuPgfj5GGaozwm47GezPkbwOEkMyci4MFmp3pKIBROIhBwoorqgz0IqA1wqjBiyXLboggRG {
+   public E1Rh0OZI2tAySqW0LBOXRNNGcbhoMum3NoYOZTHRxtUhrf8O1NbOToCY1TpnDhEJq33ca8hEfVQTrobvvfpdeZMAyNn40hdKEFht(
+      it45MyBnm2IZZfPuRP66nD6SIdiJpqBCNKiOC2x6MO4Od0xAdGqRQUQFZBvu7XKXYghppBHFiQ7KJ2WG795NPnwzqu5fPMJ0fnuA var1,
+      xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var2
    ) {
-      this.Button(var1);
-      if (!this.CustomSpinner) {
-         this.CustomSpinner = true;
-         if (this.ButtonAction) {
-            BatModClient.BatModClient(
-               "Reconnecting to server cancelled (connection already killed by server)"
-            );
-         } else {
-            new Thread(
-                  () -> {
-                     BatModClient.BatModClient(
-                        "Reconnecting to server in 10 seconds..."
-                     );
-                     this.BatModClient(10000L);
-                  },
-                  "BatMod Server Connector"
+      super(var1, var2);
+   }
+
+   @Override
+   protected ZaGTxEj68NTAet5oPXTiGYCYFoiT9mRJE3DEKEQoOAfEUEIoTsEoGuXHYpHTluiHQUx4YcCylaa0xTeZKrTioQ61wnIo3njcRM8 BatModClient() {
+      return new ZaGTxEj68NTAet5oPXTiGYCYFoiT9mRJE3DEKEQoOAfEUEIoTsEoGuXHYpHTluiHQUx4YcCylaa0xTeZKrTioQ61wnIo3njcRM8(
+         new LNHYhOJQzNFpBu8lemJhiQRqXkJbAG8qzTzCX1QNW86mBnOtccnGRxtHe4VFEQXfQEBcj9TPCIcv8HSEqF3o0hbhWguzrHLgAXoF()
+      );
+   }
+
+   @Override
+   protected boolean ColorChooser() {
+      return this.IntegerSpinner();
+   }
+
+   @Override
+   protected qBIxC0AeCV9CVk1xko5Fd3619M30uxk84gK7ODtvoVZLg61w7Dg9edsCfVS3NGSZ1H2yJqQahNe93sMnJ3IwzcwzWHm14IwRhSuD BatModProgressBar() {
+      return new qBIxC0AeCV9CVk1xko5Fd3619M30uxk84gK7ODtvoVZLg61w7Dg9edsCfVS3NGSZ1H2yJqQahNe93sMnJ3IwzcwzWHm14IwRhSuD(
+         this.BatModClient.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8,
+         this.BatModClient.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa
+            + this.BatModClient.fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i
+               * 0.5,
+         this.BatModClient.o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4
+      );
+   }
+
+   @Override
+   protected void Spinner() {
+      qBIxC0AeCV9CVk1xko5Fd3619M30uxk84gK7ODtvoVZLg61w7Dg9edsCfVS3NGSZ1H2yJqQahNe93sMnJ3IwzcwzWHm14IwRhSuD var1 = this.BatModProgressBar();
+      float var2 = this.BatModClient.ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV
+         * this.BatModClient.ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV;
+      byte var3 = 6;
+      if (var1.ProgressBar(
+            this.CustomSpinner
+               .BatModClient(
+                  this.BatModClient,
+                  this.CustomSpinner
+                     .Spinner()
                )
-               .start();
+         )
+         < var2) {
+         this.CustomSpinner
+            .BatModClient();
+      }
+
+      for (int var4 = Math.min(
+            this.CustomSpinner
+                  .Spinner()
+               + var3,
+            this.CustomSpinner
+                  .ButtonAction()
+               - 1
+         );
+         var4
+            > this.CustomSpinner
+               .Spinner();
+         var4--
+      ) {
+         qBIxC0AeCV9CVk1xko5Fd3619M30uxk84gK7ODtvoVZLg61w7Dg9edsCfVS3NGSZ1H2yJqQahNe93sMnJ3IwzcwzWHm14IwRhSuD var5 = this.CustomSpinner
+            .BatModClient(
+               this.BatModClient, var4
+            );
+         if (var5.ProgressBar(var1) <= 36.0
+            && this.BatModClient(var1, var5, 0, 0, 0)) {
+            this.CustomSpinner
+               .CustomSpinner(var4);
+            break;
          }
       }
+
+      this.BatModClient(var1);
    }
 
-   public void BatModClient(
-      TwGyDnjIchVF0l2DPnylUfwFmpuX5QluyfslAcoyZKDd5hWYAc87NT6rLEbCFsiFEh7FhBYFtHRsxz9hcgl3tcdGWLwuka6ooUxJ var1
+   @Override
+   protected void TextField() {
+      super.TextField();
+   }
+
+   @Override
+   protected boolean BatModClient(
+      qBIxC0AeCV9CVk1xko5Fd3619M30uxk84gK7ODtvoVZLg61w7Dg9edsCfVS3NGSZ1H2yJqQahNe93sMnJ3IwzcwzWHm14IwRhSuD var1,
+      qBIxC0AeCV9CVk1xko5Fd3619M30uxk84gK7ODtvoVZLg61w7Dg9edsCfVS3NGSZ1H2yJqQahNe93sMnJ3IwzcwzWHm14IwRhSuD var2,
+      int var3,
+      int var4,
+      int var5
    ) {
-      if (this.BatModClient()) {
-         BatModClient.Button(
-            "Skipping packet: " + var1.getClass().getSimpleName()
+      tr5q0GOmD0yw0kez9WIWiwusnJR8KXYXx5G1VkLWqLsRMTT9JhhAeVCOzwkc1jYFYNDNES03f87QEbOZZGRpGQfyo0cDCbDpqH var6 = this.Button
+         .BatModClient(
+            var1,
+            new qBIxC0AeCV9CVk1xko5Fd3619M30uxk84gK7ODtvoVZLg61w7Dg9edsCfVS3NGSZ1H2yJqQahNe93sMnJ3IwzcwzWHm14IwRhSuD(
+               var2.BatModClient,
+               var2.Button
+                  + this.BatModClient.fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i
+                     * 0.5,
+               var2.CustomSpinner
+            ),
+            false,
+            true,
+            false
          );
-      } else {
-         this.Checkbox
-            .BatModClient(var1);
-      }
-   }
-
-   public void Button(
-      KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ var1
-   ) {
-      if (!this.BatModClient()) {
-         this.Checkbox
-            .BatModClient(
-               new AFZqwomB5IiIT5JcKtpFSLwJ0DUWrsDs2kcs3HqwmJXrB1Q2GCH2a6QYnXWLNJMRsyseQaZzgaog9wGINziifkVRBArINmlyLYF(var1)
-            );
-         this.Checkbox
-            .Button(var1);
-      }
-   }
-
-   public boolean BatModClient() {
-      return this.Checkbox == null
-         || !this.Checkbox
-            .ProgressBar();
-   }
-
-   public static S8GLXLm5KazhYzi6YG4eZRFbep3nPU8AfQS0GEyFo8GZV2b49sjJWYH9MohJFtlZesTTdbPjPReu6KiQcdERSN1d7jRRmIjb62g1 Button() {
-      return Spinner;
-   }
-
-   public jy6GtEzWsFxqrzHNTIpuJdqHeRM4SKooghxbC9wW9iihGrSyrFZPJQ03iXTbBAjCW0FWYBYMiG9O3UdGUxEXSxxLXp2XAZckX0DD CustomSpinner() {
-      return this.Checkbox;
-   }
-
-   public void ButtonAction() {
-      this.ButtonAction = true;
+      return var6 == null
+         || var6.BatModClient
+            == UywWVp5vXxoP0d8SqQiCv4pX37LqLO0dnJQDeqNxT3MI4ISVY9FZ3ftD7KL06zrJOY85R80pJlkheVAfR83wPKaLTqK78Fttb6bN.BatModClient;
    }
 }

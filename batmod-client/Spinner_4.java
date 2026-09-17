@@ -1,13 +1,19 @@
-final class H34xjAZEjYTEF02Te0U8KvhS0pP8AH5QGjJ9GRg4ziUVwnMhKU3nEfFP3EpAxZ4yFabNv2ITHCosdGyPMGe7QuUrk01Jdf9LEZfR
-   extends umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt {
-   H34xjAZEjYTEF02Te0U8KvhS0pP8AH5QGjJ9GRg4ziUVwnMhKU3nEfFP3EpAxZ4yFabNv2ITHCosdGyPMGe7QuUrk01Jdf9LEZfR(int var1, String var2) {
-      super(var1, var2);
-   }
+public class HTiR0ICbrKJcUn6NaW29MKQj54BwrLQYaGDASPtIsl5yVCIaq3MHvmPb7c7sLBu9nCDenGO3NlprjP8ZvTWhFloq0sUdlCueZNj0 {
+   public long BatModClient;
+   public boolean Button;
+   public byte[] CustomSpinner;
+   public hJiHEWTeE7VZQBF8v6uTUZhLe0vrKDIoUd825LDJ0J6um2BgJR1YwbJxpMfUw1XP1ZPXVlIlHDaCxJynAqp2wWF6E1sH8u88w6k7 ButtonAction;
+   public hJiHEWTeE7VZQBF8v6uTUZhLe0vrKDIoUd825LDJ0J6um2BgJR1YwbJxpMfUw1XP1ZPXVlIlHDaCxJynAqp2wWF6E1sH8u88w6k7 Spinner;
+   public hJiHEWTeE7VZQBF8v6uTUZhLe0vrKDIoUd825LDJ0J6um2BgJR1YwbJxpMfUw1XP1ZPXVlIlHDaCxJynAqp2wWF6E1sH8u88w6k7 Checkbox;
+   public byte[] ProgressBar;
+   public fBgyrZqC7DySyUjSO3nxOnJ0BzL00PKBwqY8KALx9wZReCahdBEevsWHA8oRs2ZWQWyUfvliHYs6B41jP69tZW126FxqK4Tef7nZ BatModProgressBar;
+   public fBgyrZqC7DySyUjSO3nxOnJ0BzL00PKBwqY8KALx9wZReCahdBEevsWHA8oRs2ZWQWyUfvliHYs6B41jP69tZW126FxqK4Tef7nZ ColorChooser;
+   public fBgyrZqC7DySyUjSO3nxOnJ0BzL00PKBwqY8KALx9wZReCahdBEevsWHA8oRs2ZWQWyUfvliHYs6B41jP69tZW126FxqK4Tef7nZ IntegerSpinner;
+   public final int TextField;
+   public final int ColorTextPane;
 
-   @Override
-   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Spinner() {
-      return q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2.BatModClient(
-         fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv
-      );
+   public HTiR0ICbrKJcUn6NaW29MKQj54BwrLQYaGDASPtIsl5yVCIaq3MHvmPb7c7sLBu9nCDenGO3NlprjP8ZvTWhFloq0sUdlCueZNj0(int var1, int var2) {
+      this.TextField = var1;
+      this.ColorTextPane = var2;
    }
 }

@@ -1,130 +1,62 @@
-public enum Kg3DE9FXxWO63VigjxXfYeR7ttzJlRMewq7f0rP3uiybPdqy3XOg7pnEk42nTgoW8LUpbV9IqSThZh4Ec9yNfrFI8yVmHpH4xhOI
-   implements kL1nOQpXwDl2V9inoZyIUR90RLwre33st31iJQtjGIk6qqPNCyw4LG9FJl1wcZgCaI2jQzAJpgiSruoUWInPiMK7QcvluDLWntZ {
-   BatModClient(
-      0,
-      "down_x",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.BatModClient
-   ),
-   Button(
-      1,
-      "east",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.Checkbox
-   ),
-   CustomSpinner(
-      2,
-      "west",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.Spinner
-   ),
-   ButtonAction(
-      3,
-      "south",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.ButtonAction
-   ),
-   Spinner(
-      4,
-      "north",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.CustomSpinner
-   ),
-   Checkbox(
-      5,
-      "up_z",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.Button
-   ),
-   ProgressBar(
-      6,
-      "up_x",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.Button
-   ),
-   BatModProgressBar(
-      7,
-      "down_z",
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.BatModClient
-   );
-
-   private static final Kg3DE9FXxWO63VigjxXfYeR7ttzJlRMewq7f0rP3uiybPdqy3XOg7pnEk42nTgoW8LUpbV9IqSThZh4Ec9yNfrFI8yVmHpH4xhOI[] ColorChooser = new Kg3DE9FXxWO63VigjxXfYeR7ttzJlRMewq7f0rP3uiybPdqy3XOg7pnEk42nTgoW8LUpbV9IqSThZh4Ec9yNfrFI8yVmHpH4xhOI[values().length];
-   private final int IntegerSpinner;
-   private final String TextField;
-   private final NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn ColorTextPane;
-
-   Kg3DE9FXxWO63VigjxXfYeR7ttzJlRMewq7f0rP3uiybPdqy3XOg7pnEk42nTgoW8LUpbV9IqSThZh4Ec9yNfrFI8yVmHpH4xhOI(
-      int var3, String var4, NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn var5
+public class Zi1kWU6x0lDNjklS1SeZPXcpwepmlt5E4D1SozVWTZtFKIgRYjFYIrquDaxgffRaABlQRDE2YoTdCr64iIqJQbyfVaKiSpADvUrf
+   extends zPo9BKJZ8Pd0LIf0Or6N72NtkKNCE9KnhdbC6OUUsatZVmSHNtCk6tnSnGsAzk3UlLSziegVxhLXvc0Tt19cbdSNJhVb8wxR4QKn {
+   public Zi1kWU6x0lDNjklS1SeZPXcpwepmlt5E4D1SozVWTZtFKIgRYjFYIrquDaxgffRaABlQRDE2YoTdCr64iIqJQbyfVaKiSpADvUrf(
+      xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1
    ) {
-      this.IntegerSpinner = var3;
-      this.TextField = var4;
-      this.ColorTextPane = var5;
+      super(var1);
    }
 
-   public int Button() {
-      return this.IntegerSpinner;
+   public Zi1kWU6x0lDNjklS1SeZPXcpwepmlt5E4D1SozVWTZtFKIgRYjFYIrquDaxgffRaABlQRDE2YoTdCr64iIqJQbyfVaKiSpADvUrf(
+      xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1,
+      B8VluaHYQkPrm0MSgTEiIG0moKrZyV3SVKON7lYumKjWCHtPeWFtSQWKdPmgKNhRe1stPLbU4GTATRWfN8OYB1phO1ALYKttKG1R var2
+   ) {
+      super(var1, var2);
    }
 
-   public NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn CustomSpinner() {
-      return this.ColorTextPane;
+   public Zi1kWU6x0lDNjklS1SeZPXcpwepmlt5E4D1SozVWTZtFKIgRYjFYIrquDaxgffRaABlQRDE2YoTdCr64iIqJQbyfVaKiSpADvUrf(
+      xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1, double var2, double var4, double var6
+   ) {
+      super(var1, var2, var4, var6);
    }
 
    @Override
-   public String toString() {
-      return this.TextField;
-   }
-
-   public static Kg3DE9FXxWO63VigjxXfYeR7ttzJlRMewq7f0rP3uiybPdqy3XOg7pnEk42nTgoW8LUpbV9IqSThZh4Ec9yNfrFI8yVmHpH4xhOI BatModClient(
-      int var0
+   protected void BatModClient(
+      tr5q0GOmD0yw0kez9WIWiwusnJR8KXYXx5G1VkLWqLsRMTT9JhhAeVCOzwkc1jYFYNDNES03f87QEbOZZGRpGQfyo0cDCbDpqH var1
    ) {
-      if (var0 < 0 || var0 >= ColorChooser.length) {
-         var0 = 0;
+      if (var1.ButtonAction != null) {
+         byte var2 = 0;
+         if (var1.ButtonAction instanceof Wjjv3Qo57I73xuFeZzfBwz1xyBax5fcXvknjxNfsQ9hZw3jObph9i6JDy3wCyifxIx8CHeFcllFp2G9j9uHlmFs7sVD58zcLn9Bo
+            )
+          {
+            var2 = 3;
+         }
+
+         var1.ButtonAction
+            .BatModClient(
+               S6QOA0veBtaQqbw5zNdO2iSS8GpIIQZGJHYT0HHew5sBDAkVqCm4sSj05QIgyFsqi8mTQ0qLwdDYwqI3lSbIyBlfwz8s06tJV6k4.BatModClient(
+                  this, this.iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF()
+               ),
+               var2
+            );
       }
 
-      return ColorChooser[var0];
-   }
-
-   // $VF: Unable to simplify switch on enum
-   // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
-   public static Kg3DE9FXxWO63VigjxXfYeR7ttzJlRMewq7f0rP3uiybPdqy3XOg7pnEk42nTgoW8LUpbV9IqSThZh4Ec9yNfrFI8yVmHpH4xhOI BatModClient(
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn var0,
-      NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn var1
-   ) {
-      switch (var0) {
-         case BatModClient:
-            switch (q6tivhyrA6sIN0iAJORWPQiQBqC6qk1hKcmNODsmgdku328e4apr6yaCtAKX0VrIQXAvjIXCN5cqmUL2QEnTCgY2mIAmKzgb12yt.CustomSpinner[var1.ColorTextPane()
-               .ordinal()]) {
-               case 1:
-                  return BatModClient;
-               case 2:
-                  return BatModProgressBar;
-               default:
-                  throw new IllegalArgumentException("Invalid entityFacing " + var1 + " for facing " + var0);
-            }
-         case Button:
-            switch (q6tivhyrA6sIN0iAJORWPQiQBqC6qk1hKcmNODsmgdku328e4apr6yaCtAKX0VrIQXAvjIXCN5cqmUL2QEnTCgY2mIAmKzgb12yt.CustomSpinner[var1.ColorTextPane()
-               .ordinal()]) {
-               case 1:
-                  return ProgressBar;
-               case 2:
-                  return Checkbox;
-               default:
-                  throw new IllegalArgumentException("Invalid entityFacing " + var1 + " for facing " + var0);
-            }
-         case CustomSpinner:
-            return Spinner;
-         case ButtonAction:
-            return ButtonAction;
-         case Spinner:
-            return CustomSpinner;
-         case Checkbox:
-            return Button;
-         default:
-            throw new IllegalArgumentException("Invalid facing: " + var0);
+      for (int var3 = 0; var3 < 8; var3++) {
+         this.K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY
+            .BatModClient(
+               bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI.GpDFKWkpAtoLQB0W2XCV5bHrfhV8v60U9eVAz8acb1obB7yclvZIoJJBby5GbawXebsAfQocYajpCi0D7X4qgixSfAmUGJnoMIBj,
+               this.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8,
+               this.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa,
+               this.o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4,
+               0.0,
+               0.0,
+               0.0
+            );
       }
-   }
 
-   @Override
-   public String BatModClient() {
-      return this.TextField;
-   }
-
-   static {
-      for (Kg3DE9FXxWO63VigjxXfYeR7ttzJlRMewq7f0rP3uiybPdqy3XOg7pnEk42nTgoW8LUpbV9IqSThZh4Ec9yNfrFI8yVmHpH4xhOI var3 : values()) {
-         ColorChooser[var3.Button()] = var3;
+      if (!this.K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY.z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP
+         )
+       {
+         this.EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj();
       }
    }
 }

@@ -1,50 +1,54 @@
-public enum GoHjIu7PJL1Sy6P2N6Y1EdaJVoghho0AqibvTMRU4Mbc3DVAmK75zAnpalyqOyyuNsxLZ0f4CNiGVblzw3JZksIOW69DeUxx0y6D
-   implements kL1nOQpXwDl2V9inoZyIUR90RLwre33st31iJQtjGIk6qqPNCyw4LG9FJl1wcZgCaI2jQzAJpgiSruoUWInPiMK7QcvluDLWntZ {
-   BatModClient(0, "cobblestone", "normal"),
-   Button(1, "mossy_cobblestone", "mossy");
-
-   private static final GoHjIu7PJL1Sy6P2N6Y1EdaJVoghho0AqibvTMRU4Mbc3DVAmK75zAnpalyqOyyuNsxLZ0f4CNiGVblzw3JZksIOW69DeUxx0y6D[] CustomSpinner = new GoHjIu7PJL1Sy6P2N6Y1EdaJVoghho0AqibvTMRU4Mbc3DVAmK75zAnpalyqOyyuNsxLZ0f4CNiGVblzw3JZksIOW69DeUxx0y6D[values().length];
-   private final int ButtonAction;
-   private final String Spinner;
-   private String Checkbox;
-
-   GoHjIu7PJL1Sy6P2N6Y1EdaJVoghho0AqibvTMRU4Mbc3DVAmK75zAnpalyqOyyuNsxLZ0f4CNiGVblzw3JZksIOW69DeUxx0y6D(int var3, String var4, String var5) {
-      this.ButtonAction = var3;
-      this.Spinner = var4;
-      this.Checkbox = var5;
-   }
-
-   public int Button() {
-      return this.ButtonAction;
-   }
-
-   @Override
-   public String toString() {
-      return this.Spinner;
-   }
-
-   public static GoHjIu7PJL1Sy6P2N6Y1EdaJVoghho0AqibvTMRU4Mbc3DVAmK75zAnpalyqOyyuNsxLZ0f4CNiGVblzw3JZksIOW69DeUxx0y6D BatModClient(
-      int var0
-   ) {
-      if (var0 < 0 || var0 >= CustomSpinner.length) {
-         var0 = 0;
+// $VF: synthetic class
+class QD2WhPUh0ttFQABvrX1kSbH2uC2kqLWDQr0aNBRiG9Jqsf3Iwl3ERqT2hdwbxqyZEMDtasw3h7Vx0kO1fWULXIZJld0HtsUfK2Ns {
+   static {
+      try {
+         Button[zjM9EmVJUh0kET4t3mVlKGIVAQZbnhJbjVK7BCIFfuR3JXhKTFxaETYdUxV0fUvw6xXu9jtnJPDJzqAKwLvz5MUR9K2Exmg7HwYV.BatModClient
+            .ordinal()] = 1;
+      } catch (NoSuchFieldError var8) {
       }
 
-      return CustomSpinner[var0];
-   }
+      try {
+         Button[zjM9EmVJUh0kET4t3mVlKGIVAQZbnhJbjVK7BCIFfuR3JXhKTFxaETYdUxV0fUvw6xXu9jtnJPDJzqAKwLvz5MUR9K2Exmg7HwYV.Button
+            .ordinal()] = 2;
+      } catch (NoSuchFieldError var7) {
+      }
 
-   @Override
-   public String BatModClient() {
-      return this.Spinner;
-   }
+      try {
+         Button[zjM9EmVJUh0kET4t3mVlKGIVAQZbnhJbjVK7BCIFfuR3JXhKTFxaETYdUxV0fUvw6xXu9jtnJPDJzqAKwLvz5MUR9K2Exmg7HwYV.CustomSpinner
+            .ordinal()] = 3;
+      } catch (NoSuchFieldError var6) {
+      }
 
-   public String CustomSpinner() {
-      return this.Checkbox;
-   }
+      try {
+         Button[zjM9EmVJUh0kET4t3mVlKGIVAQZbnhJbjVK7BCIFfuR3JXhKTFxaETYdUxV0fUvw6xXu9jtnJPDJzqAKwLvz5MUR9K2Exmg7HwYV.ButtonAction
+            .ordinal()] = 4;
+      } catch (NoSuchFieldError var5) {
+      }
 
-   static {
-      for (GoHjIu7PJL1Sy6P2N6Y1EdaJVoghho0AqibvTMRU4Mbc3DVAmK75zAnpalyqOyyuNsxLZ0f4CNiGVblzw3JZksIOW69DeUxx0y6D var3 : values()) {
-         CustomSpinner[var3.Button()] = var3;
+      BatModClient = new int[NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.values().length];
+
+      try {
+         BatModClient[NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.ButtonAction
+            .ordinal()] = 1;
+      } catch (NoSuchFieldError var4) {
+      }
+
+      try {
+         BatModClient[NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.Spinner
+            .ordinal()] = 2;
+      } catch (NoSuchFieldError var3) {
+      }
+
+      try {
+         BatModClient[NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.Checkbox
+            .ordinal()] = 3;
+      } catch (NoSuchFieldError var2) {
+      }
+
+      try {
+         BatModClient[NHdPV7EbBaVDxWqHTdOYYUetwLLQ90s6RiwdYGLFq46biS0BE3s5HgVDKtK2eE0r70IUVxhCka3tOW7Lk8ko3Ctp9Rv80MTaxFZn.CustomSpinner
+            .ordinal()] = 4;
+      } catch (NoSuchFieldError var1) {
       }
    }
 }

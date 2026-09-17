@@ -1,11 +1,38 @@
-final class Du6hn8tWDzXIlzxrIjKJgo1mXQ3AU9SiRIYpRCCsk3opH9gbPOMNZl1S87uy3pHf6H082EEMhI0hry9FKhIGepx70SApBzfu1f2o
-   extends umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt {
-   Du6hn8tWDzXIlzxrIjKJgo1mXQ3AU9SiRIYpRCCsk3opH9gbPOMNZl1S87uy3pHf6H082EEMhI0hry9FKhIGepx70SApBzfu1f2o(int var1, String var2) {
-      super(var1, var2);
-   }
-
-   @Override
-   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Spinner() {
-      return PQv5Bfmc3YgYFvAC2dTnUn4Di1xPI6iL6HyB7PFNLFxAoip71NusUPE2c3nBlPseU8qI9uFV111SHY6yVG0uWx8HL7qy9GXeQgzJ.fdWwz8f4KFCqAE9dJn6mau1WTLndFo20uW0xKGHrGzxKLLekdm6Au5JckJN97q44pOxYege3lGXnjUzxAOzU02jeru5UtgB2VOo4;
+public class NChnnfdff0slPz2mdo9L0rbunEY5WQgGgQSbLA1nedjzq5PiSVUZNaurPhTc8WO0ixMVK128RjmouEvkyF3Th6QDl0VIpVf2tRrm
+   extends iSXZf8FP3Yi0XQVB7SU0WPeThHvFQcuPOjySrMqYaltMwx62rwmCTue9PqmCmaCFfLAdqVEIqBvycnTHZUvzsXATLU8QcRmgJVHX {
+   public NChnnfdff0slPz2mdo9L0rbunEY5WQgGgQSbLA1nedjzq5PiSVUZNaurPhTc8WO0ixMVK128RjmouEvkyF3Th6QDl0VIpVf2tRrm() {
+      super(12, 0.0F);
+      this.BatModClient = new orPwXKfLSnVvAlH3rtllhSwaCzk3PInw1cwmL08aSh2jUGEUGxPWeOtkszv85SJeAFRvsF8UZCMoC4XEUtmZPWdr9eJnwrDkgZ(
+         this, 0, 0
+      );
+      this.BatModClient
+         .BatModClient(-4.0F, -4.0F, -6.0F, 8, 8, 6, 0.0F);
+      this.BatModClient
+         .BatModClient(0.0F, 4.0F, -8.0F);
+      this.BatModClient
+         .BatModClient(22, 0)
+         .BatModClient(-5.0F, -5.0F, -4.0F, 1, 3, 1, 0.0F);
+      this.BatModClient
+         .BatModClient(22, 0)
+         .BatModClient(4.0F, -5.0F, -4.0F, 1, 3, 1, 0.0F);
+      this.Button = new orPwXKfLSnVvAlH3rtllhSwaCzk3PInw1cwmL08aSh2jUGEUGxPWeOtkszv85SJeAFRvsF8UZCMoC4XEUtmZPWdr9eJnwrDkgZ(
+         this, 18, 4
+      );
+      this.Button
+         .BatModClient(-6.0F, -10.0F, -7.0F, 12, 18, 10, 0.0F);
+      this.Button
+         .BatModClient(0.0F, 5.0F, 2.0F);
+      this.Button
+         .BatModClient(52, 0)
+         .BatModClient(-2.0F, 2.0F, -8.0F, 4, 6, 1);
+      this.CustomSpinner.Spinner--;
+      this.ButtonAction.Spinner++;
+      this.CustomSpinner.ProgressBar += 0.0F;
+      this.ButtonAction.ProgressBar += 0.0F;
+      this.Spinner.Spinner--;
+      this.Checkbox.Spinner++;
+      this.Spinner.ProgressBar--;
+      this.Checkbox.ProgressBar--;
+      this.BatModProgressBar += 2.0F;
    }
 }

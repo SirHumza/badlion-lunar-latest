@@ -1,180 +1,110 @@
-import java.util.List;
-
-public class ColorChooser
-   implements fvKISyhjtidEfAo9GUDVyJzNehUtrdzsiGxY2s19EDEEk0tKuce6ztVZPAM3xilMlKOMBNJsgl2Spy2Ojw7DED3JNznNgMVQdCFM {
-   private int BatModClient;
-   private int Button;
-   private int CustomSpinner;
-   private int ButtonAction;
-   private int Spinner;
-   private int Checkbox;
-   private int ProgressBar;
-   private int BatModProgressBar;
-   private byte ColorChooser;
-   private byte IntegerSpinner;
-   private byte TextField;
-   private pxu2qAtU6onYKtDNhCwQQzjukGn4dChy0qfDrv3garRznLfuJ9sWqhwQW3zYBEEclJSUGofu4e0vhRE1lFwPYd96DQWmCDRpUvT ColorTextPane;
-   private List BatModInstallerMain;
-
-   public lu4W8aPyW7O3NRhnKDzETcQL8sye5k5Jyhzdr766jUxS5QmStfjKtEclBf8VbLh7JP4MKBIhQksUwgjdfnWst3EE7W3VhSszfcBP() {
-   }
-
-   public lu4W8aPyW7O3NRhnKDzETcQL8sye5k5Jyhzdr766jUxS5QmStfjKtEclBf8VbLh7JP4MKBIhQksUwgjdfnWst3EE7W3VhSszfcBP(
-      B8VluaHYQkPrm0MSgTEiIG0moKrZyV3SVKON7lYumKjWCHtPeWFtSQWKdPmgKNhRe1stPLbU4GTATRWfN8OYB1phO1ALYKttKG1R var1
+public class RSQQcxUkrMjjgtkOewiFsb8QCHLDrhduE7BEjTPqZtflLrvCP7eFbdU7jKXj6qP2SqivDCFDuJ90sJ5GVf2P0YMdGQ6bpzV8V7Wx {
+   public static void BatModClient(
+      fyZHvAc42MB0Bu0J2ogCjNyWdEgSTnpzdP2jvMzOaPsju8nPffPRDzLwKSnmA6lzZri3iNZGNWrbINOrUPalHNlLqHUVU6Zoy5hx var0,
+      xDjs4YCZLUvHVJGII20owVT8rXpk3nSu1jLsjzeLtjo7r8lq7RYaHZp1O5oLhmXPyqOR2Eev73tmbyPF4I049uP0lj5ZD5blgUPY var1
    ) {
-      this.BatModClient = var1.f4NjjuH3UAaMkYDKg4JjKVIV1PiNsOM4T4HUFyWQ5CaEXleTtHn67zbCvMaD8qyMLvZeLv4QkzyMQOIJpmOQimLZV283D81hMfb();
-      this.Button = (byte)hKPBOe3585WEzG4DP150uJQPNGxACsB5sNJBGIeVlmG7aFifjWp9gTp4sNfskpb6eHYTPSj8yHrMYptqaEgctEBusNqgap6lpZxA.BatModClient(
-         var1
-      );
-      this.CustomSpinner = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.CustomSpinner(
-         var1.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8 * 32.0
-      );
-      this.ButtonAction = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.CustomSpinner(
-         var1.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa * 32.0
-      );
-      this.Spinner = u4L2raCRW4IaxQDTMTkLSzlPPuZcdlIz0ZOemtSZ590eQlF5phhjcz9AjgDml3JLkKDI91FuMRnQzu4nUzDxPrtX19Vazyl9vOfr.CustomSpinner(
-         var1.o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4 * 32.0
-      );
-      this.ColorChooser = (byte)(
-         var1.OVft42XaDrpCid053XFq1EPZ8CkxDYortlwtRX4zTf4L5KT5wFCJrMIQs1I0or0K1OcKP82y3PpnybjZEMRPyyEezZIs1zuJDGFF * 256.0F / 360.0F
-      );
-      this.IntegerSpinner = (byte)(
-         var1.f4NjjuH3UAaMkYDKg4JjKVIV1PiNsOM4T4HUFyWQ5CaEXleTtHn67zbCvMaD8qyMLvZeLv4QkzyMQOIJpmOQimLZV283D81hMfb * 256.0F / 360.0F
-      );
-      this.TextField = (byte)(
-         var1.wX3R7BkV4rlSinjJGAkKzn2yEOJbq8aj8GAK5ELavlGRCoE6oBVtZlLxNm4q45YujY9xSJNINuti8I7BNZobS1sk7Ejc0kAcjA68 * 256.0F / 360.0F
-      );
-      double var2 = 3.9;
-      double var4 = var1.K3xIIKuansJDsNpUbxdGFQOW7ziqP9U19c78A63CpbBZjLSHxNriRDpAObixCLzkOrF62HK8YpIH3YDfQC1PdPMNAtRybku3jLjL;
-      double var6 = var1.sv3zyZxD3xWlWeYYLSruuAtLQlLVOZKZqSxLVzG6LIkZdnBFYCEMpWDCJcCIGmpZLZXeGEhykSNrDIB7ylGQaaBiJWzGovTp1Wyr;
-      double var8 = var1.GpDFKWkpAtoLQB0W2XCV5bHrfhV8v60U9eVAz8acb1obB7yclvZIoJJBby5GbawXebsAfQocYajpCi0D7X4qgixSfAmUGJnoMIBj;
-      if (var4 < -var2) {
-         var4 = -var2;
+      if (var0 != null) {
+         byte var2 = 3;
+         if (var0.avIx9Z1GrWIa0z1gxAQZthC65WWr6UkFWqtJD2718QqJTWUtPP69vneu2NglhF5gFqt2MCtxb16VXl2MgBqthLbKrCYpy2FClIlq) {
+            var2 = 1;
+         }
+
+         UCENYKH7F0x227OUCggfsnAPJxXYXT14wC0zE11MTpS2DM598hvLVpNcsB3ijvF99KS849Ziwp4JXYlkIDkT9eQMg4Xhfz2ax1EW.BatModClient(
+            fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.IntegerSpinner,
+            var2
+         );
+         UCENYKH7F0x227OUCggfsnAPJxXYXT14wC0zE11MTpS2DM598hvLVpNcsB3ijvF99KS849Ziwp4JXYlkIDkT9eQMg4Xhfz2ax1EW.BatModClient(
+            fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.ColorChooser,
+            var2
+         );
       }
 
-      if (var6 < -var2) {
-         var6 = -var2;
+      if (var1 != null) {
+         bAva0O5lvjKFS9u6Hmx1etuPcYsJC5HWM9TTHhZ49bFRnzKK87SKrkAolO24hZsAByXOhEQ6G5C6Y5DtqtkskDNVv5QXTYPWB4RM var25 = var1.xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa();
+         if (var25 != null) {
+            Ibgu3NUIYBBc6s3EWu2hIRSSyI1fhkukbKq2Tcv51OCVAH6AapdNHEHyH4veH4voo2KdtG0Doz1K73vVFStW8OO0WPVe252N5epM var3 = xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.TwGyDnjIchVF0l2DPnylUfwFmpuX5QluyfslAcoyZKDd5hWYAc87NT6rLEbCFsiFEh7FhBYFtHRsxz9hcgl3tcdGWLwuka6ooUxJ()
+               .FADAUWHNNvc5mYdDF7YdrF9AmOze4NuwJ3NivSAzsjyItTcM7ajimsBzoFCEBmmF58pGBtjJstkda9HiIkgMchNVE0K6LObhqwuV();
+            if (var3 != null) {
+               int var4 = (int)var3.LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8 / 16;
+               int var5 = (int)var3.o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4 / 16;
+               int var6 = var4 - 512;
+               int var7 = var4 + 512;
+               int var8 = var5 - 512;
+               int var9 = var5 + 512;
+               int var10 = 0;
+
+               for (int var11 = var6; var11 < var7; var11++) {
+                  for (int var12 = var8; var12 < var9; var12++) {
+                     if (var25.BatModClient(var11, var12)) {
+                        WFM9Cm1dG5UM75egPVZKJjH3pNRWEk1nnNZXHR3nmOshD2xHlIeqhy8gYUsp6Jq8ZYaCBjgFr5iPawSvAOR4XvcV98SmSU6NECpj var13 = var25.ButtonAction(
+                           var11, var12
+                        );
+                        if (var13 != null
+                           && !(var13 instanceof SFdSWn18k68PjnUIDGnJD9rCqPyDTY2CwEUnKPMMf5qbR9NB13jL88kJkGKelmUZfxL6ZCTeGKzqwgd8yA6bu0tOYwAJDv27rlfv)) {
+                           int var14 = var11 << 4;
+                           int var15 = var12 << 4;
+                           int var16 = var14 + 16;
+                           int var17 = var15 + 16;
+                           zYbiZxe9wZ1uMXtm6FLpkNfYVmZwD6IJi6Xw9TW3WwraKGLlnG7Fik3nRZpNHt3MXQTO1wFeNZ8w3oEB148uBV61GW9dNHYg4bDP var18 = new zYbiZxe9wZ1uMXtm6FLpkNfYVmZwD6IJi6Xw9TW3WwraKGLlnG7Fik3nRZpNHt3MXQTO1wFeNZ8w3oEB148uBV61GW9dNHYg4bDP(
+                              0, 0, 0
+                           );
+                           zYbiZxe9wZ1uMXtm6FLpkNfYVmZwD6IJi6Xw9TW3WwraKGLlnG7Fik3nRZpNHt3MXQTO1wFeNZ8w3oEB148uBV61GW9dNHYg4bDP var19 = new zYbiZxe9wZ1uMXtm6FLpkNfYVmZwD6IJi6Xw9TW3WwraKGLlnG7Fik3nRZpNHt3MXQTO1wFeNZ8w3oEB148uBV61GW9dNHYg4bDP(
+                              0, 0, 0
+                           );
+
+                           for (int var20 = var14; var20 < var16; var20++) {
+                              for (int var21 = var15; var21 < var17; var21++) {
+                                 var18.Button(var20, 0, var21);
+                                 q15Hrb7HPiXUZJsH3CBPEgtS2dBsU3MPPT72hjpoKm9nktzO32O8rewmFT7fqIM36QFgzptSfVW7TW1sEMV8VoaK1YvNABwRXVW var22 = var1.iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF(
+                                    var18
+                                 );
+
+                                 for (int var23 = 0;
+                                    var23 < var22.ColorChooser();
+                                    var23++
+                                 ) {
+                                    var19.Button(
+                                       var20, var23, var21
+                                    );
+                                    jfbpd0kp1QEJJMd5cKOo0MgyHaqrgeaYoTLTse3y0ldrAiXTN7OrPJfu5yBfixhCqmdWDYWOZidiavQVW5Qe7WjmXy5eN8CC8fSS var24 = var1.Button(
+                                       var19
+                                    );
+                                    if (var24.CustomSpinner()
+                                          .Checkbox()
+                                       == wrWzf43CgVtAVZ1fRw9f5EeOX2awWPqkiOOzM9NBeGOkKeHUGxJGSbBgaRlMmokj4Wr4yG2BsJj5tSd9CZ7IyeywOQ9MmPXeIbis.BatModProgressBar
+                                       )
+                                     {
+                                       var1.BatModClient(
+                                          var20,
+                                          var21,
+                                          var19.ColorChooser(),
+                                          var22.ColorChooser()
+                                       );
+                                       var10++;
+                                       break;
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+
+               if (var10 > 0) {
+                  String var26 = "server";
+                  if (xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModInstallerMain()
+                     )
+                   {
+                     var26 = "client";
+                  }
+
+                  xBYa9uNWziOSJdNzZI2TTXICLd4Bpw2tJDSeuOZv1cZbtJlLnXpVpRYSf6QHMBs0ZNE3u1OYk9qvdsAbuC49UFImqyyXHvohKe0q.BatModClient(
+                     "ClearWater (" + var26 + ") relighted " + var10 + " chunks"
+                  );
+               }
+            }
+         }
       }
-
-      if (var8 < -var2) {
-         var8 = -var2;
-      }
-
-      if (var4 > var2) {
-         var4 = var2;
-      }
-
-      if (var6 > var2) {
-         var6 = var2;
-      }
-
-      if (var8 > var2) {
-         var8 = var2;
-      }
-
-      this.Checkbox = (int)(var4 * 8000.0);
-      this.ProgressBar = (int)(var6 * 8000.0);
-      this.BatModProgressBar = (int)(var8 * 8000.0);
-      this.ColorTextPane = var1.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m();
-   }
-
-   @Override
-   public void BatModClient(
-      LfZTvlpvtfpqdXBRQcpwEVcD5DJAHNXLq1vR03uvcQx2UYuaKocglsNzIec4U3Pt8HvzbZYmVwW4qp97ksdsccBVU4wkiTErBbjx var1
-   ) {
-      this.BatModClient = var1.ButtonAction();
-      this.Button = var1.readByte() & 255;
-      this.CustomSpinner = var1.readInt();
-      this.ButtonAction = var1.readInt();
-      this.Spinner = var1.readInt();
-      this.ColorChooser = var1.readByte();
-      this.IntegerSpinner = var1.readByte();
-      this.TextField = var1.readByte();
-      this.Checkbox = var1.readShort();
-      this.ProgressBar = var1.readShort();
-      this.BatModProgressBar = var1.readShort();
-      this.BatModInstallerMain = pxu2qAtU6onYKtDNhCwQQzjukGn4dChy0qfDrv3garRznLfuJ9sWqhwQW3zYBEEclJSUGofu4e0vhRE1lFwPYd96DQWmCDRpUvT.Button(
-         var1
-      );
-   }
-
-   @Override
-   public void Button(
-      LfZTvlpvtfpqdXBRQcpwEVcD5DJAHNXLq1vR03uvcQx2UYuaKocglsNzIec4U3Pt8HvzbZYmVwW4qp97ksdsccBVU4wkiTErBbjx var1
-   ) {
-      var1.Button(
-         this.BatModClient
-      );
-      var1.writeByte(this.Button & 0xFF);
-      var1.writeInt(this.CustomSpinner);
-      var1.writeInt(this.ButtonAction);
-      var1.writeInt(this.Spinner);
-      var1.writeByte(this.ColorChooser);
-      var1.writeByte(this.IntegerSpinner);
-      var1.writeByte(this.TextField);
-      var1.writeShort(this.Checkbox);
-      var1.writeShort(this.ProgressBar);
-      var1.writeShort(this.BatModProgressBar);
-      this.ColorTextPane
-         .BatModClient(var1);
-   }
-
-   public void BatModClient(
-      iPTL23HOVfk0ZAY9Qu46G4HFkkITYltA3Ieh3ProSkQvVZWtbH7mm2IDojoNJzUk3Rv2BZV7QZXXv5ogbBO0Nplt0KTxGmS8hc var1
-   ) {
-      var1.BatModClient(this);
-   }
-
-   public List BatModClient() {
-      if (this.BatModInstallerMain == null) {
-         this.BatModInstallerMain = this.ColorTextPane
-            .CustomSpinner();
-      }
-
-      return this.BatModInstallerMain;
-   }
-
-   public int Button() {
-      return this.BatModClient;
-   }
-
-   public int CustomSpinner() {
-      return this.Button;
-   }
-
-   public int ButtonAction() {
-      return this.CustomSpinner;
-   }
-
-   public int Spinner() {
-      return this.ButtonAction;
-   }
-
-   public int Checkbox() {
-      return this.Spinner;
-   }
-
-   public int ProgressBar() {
-      return this.Checkbox;
-   }
-
-   public int BatModProgressBar() {
-      return this.ProgressBar;
-   }
-
-   public int ColorChooser() {
-      return this.BatModProgressBar;
-   }
-
-   public byte IntegerSpinner() {
-      return this.ColorChooser;
-   }
-
-   public byte TextField() {
-      return this.IntegerSpinner;
-   }
-
-   public byte ColorTextPane() {
-      return this.TextField;
    }
 }
