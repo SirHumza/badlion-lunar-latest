@@ -1,77 +1,60 @@
 package com.moonsworth.lunar.client.HICHRCOHCCRHOHCICOOCHOIHCCHIRI;
 
-import com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.RRCRRCORICCHOHHIRCHIROOHIIOHCO.OOROOCCIRCCRHOIOIORIHCHHOOCCOR.RHOCHHIRRCHHHOHOIRROIROHHHIHIO;
-import com.moonsworth.lunar.client.util.RIHOOCIHRICOCHRHCOOCCOIHOCHRCR;
-import java.nio.ByteBuffer;
-import org.lwjgl.opengl.ARBDirectStateAccess;
-import org.lwjgl.opengl.GL;
-import org.lwjgl.opengl.GL15C;
-import org.lwjgl.opengl.GL45C;
-import org.lwjgl.opengl.GLCapabilities;
+import java.nio.IntBuffer;
+import java.util.function.Consumer;
+import org.lwjgl.system.MemoryUtil;
 
-@com.moonsworth.lunar.ichor.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH.IRCIIHHICIHRCOCRROCOICRIHHCCHH(min = 8)
-public class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
-   private static final boolean ORHORRCIIHIRHCRROICICRIORHIRRO;
-   private static final boolean HIIIHIHROCOIHIHHHHICHOHCOIRCCI;
-   private static final boolean IS_LINUX = RIHOOCIHRICOCHRHCOOCCOIHOCHRCR.isLinux();
+public class HHCCIRHCCCIIRHCROHIORHIRHHIORH {
+   public static final HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH RHIHICRHRRRROCHHCHIRHHHOIRCCCR = new HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      10000
+   );
+   public static final HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH IIHOHOCOROCCIHCHOCIIHCOCRRCHRH = new HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      1000
+   );
+   public static final HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH ORHOHRIOIOOIHHRHRRRCHORIRCROIO = new HHCCIRHCCCIIRHCROHIORHIRHHIORH.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(
+      200
+   );
 
-   public static boolean HOROCIHRCICROORRIIOHICOROHCCCR() {
-      return ORHORRCIIHIRHCRROICICRIORHIRRO || HIIIHIHROCOIHIHHHHICHOHCOIRCCI;
-   }
+   public static class RCIRROCCCIIHCIHCCRHHCCHOHHHCHH {
+      private final int COHCCICIORRIIHRCHCHRCROCHIRRII;
+      private IntBuffer HOHORIICRICCHRHRIORORRHCIIHIRR = null;
 
-   public static int COOIOOHOHIIROORHIRROORORHIRHOI() {
-      return ORHORRCIIHIRHCRROICICRIORHIRRO
-         ? GL45C.glCreateBuffers()
-         : (
-            HIIIHIHROCOIHIHHHHICHOHCOIRCCI
-               ? ARBDirectStateAccess.glCreateBuffers()
-               : com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
-                  .HRICOCOIOCCCICCIORHIIIIOROCOHC()
-                  .RRHRHRIICRCRIIRHICRRRHROHRCOII()
-         );
-   }
-
-   public static void OHRRHHOCROROCCIRROIHOCCHCIHCIR(int var0, int var1) {
-      if (IS_LINUX) {
-         IHIRRIIORRHORHRORIHOROIRCORCOO(var0, var1, 35048);
+      private RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var1) {
+         this.COHCCICIORRIIHRCHCHRCROCHIRRII = var1;
       }
 
-      GL15C.glDeleteBuffers(var1);
-   }
+      private IntBuffer IIHOICHCRCORIRIHIOIHRRRHIIHOOO() {
+         if (this.HOHORIICRICCHRHRIORORRHCIIHIRR == null) {
+            this.HOHORIICRICCHRHRIORORRHCIIHIRR = MemoryUtil.memCallocInt(this.COHCCICIORRIIHRCHCHRCROCHIRRII);
+            this.HOHORIICRICCHRHRIORORRHCIIHIRR.position(this.COHCCICIORRIIHRCHCHRCROCHIRRII);
+         }
 
-   public static void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(int var0, int var1, ByteBuffer var2, int var3) {
-      if (ORHORRCIIHIRHCRROICICRIORHIRRO) {
-         GL45C.glNamedBufferData(var1, var2, var3);
-      } else if (HIIIHIHROCOIHIHHHHICHOHCOIRCCI) {
-         ARBDirectStateAccess.glNamedBufferData(var1, var2, var3);
-      } else {
-         RHOCHHIRRCHHHOHOIRROIROHHHIHIO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var4 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
-            .HRICOCOIOCCCICCIORHIIIIOROCOHC();
-         var4.ROIIHCCHROHOROOOOHOOHIHOIORCCC();
-         var4.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0, var1);
-         var4.RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(var0, var2, var3);
-         var4.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0, 0);
+         return this.HOHORIICRICCHRHRIORORRHCIIHIRR;
       }
-   }
 
-   public static void IHIRRIIORRHORHRORIHOROIRCORCOO(int var0, int var1, int var2) {
-      if (ORHORRCIIHIRHCRROICICRIORHIRRO) {
-         GL45C.glNamedBufferData(var1, 0L, var2);
-      } else if (HIIIHIHROCOIHIHHHHICHOHCOIRCCI) {
-         ARBDirectStateAccess.glNamedBufferData(var1, 0L, var2);
-      } else {
-         RHOCHHIRRCHHHOHOIRROIROHHHIHIO.HHCCIRHCCCIIRHCROHIORHIRHHIORH var3 = com.moonsworth.lunar.HHCCIRHCCCIIRHCROHIORHIRHHIORH.IRCIIHHICIHRCOCRROCOICRIHHCCHH.RHCHRCCRRHORIOCIOHHCRHCHICRIHH()
-            .HRICOCOIOCCCICCIORHIIIIOROCOHC();
-         var3.ROIIHCCHROHOROOOOHOOHIHOIORCCC();
-         var3.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0, var1);
-         var3.CRRRICCRROCOHHOHIICIHORCOORRRH(var0, 0, var2);
-         var3.HRCHROOHRIHCRCRHRIIROCIRHOIRHH(var0, 0);
+      public void RCIRROCCCIIHCIHCCRHHCCHOHHHCHH(Consumer<IntBuffer> var1, boolean var2) {
+         if (!var2 || this.HOHORIICRICCHRHRIORORRHCIIHIRR != null) {
+            IntBuffer var3 = this.IIHOICHCRCORIRIHIOIHRRRHIIHOOO();
+            int var4 = var3.position();
+            if (var4 != 0) {
+               var3.limit(var4);
+               var3.position(0);
+               var1.accept(var3);
+               var3.limit(var3.capacity());
+               var3.position(0);
+            }
+         }
       }
-   }
 
-   static {
-      GLCapabilities var0 = GL.getCapabilities();
-      ORHORRCIIHIRHCRROICICRIORHIRRO = var0.OpenGL45;
-      HIIIHIHROCOIHIHHHHICHOHCOIRCCI = var0.GL_ARB_direct_state_access;
+      public int OIHCOHRCICCCRHRCROOCIOIRRHHHIH(Consumer<IntBuffer> var1) {
+         IntBuffer var2 = this.IIHOICHCRCORIRIHIOIHRRRHIIHOOO();
+         if (!var2.hasRemaining()) {
+            var2.position(0);
+            var1.accept(var2);
+            var2.position(0);
+         }
+
+         return var2.get();
+      }
    }
 }
