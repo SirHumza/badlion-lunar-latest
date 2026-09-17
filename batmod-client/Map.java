@@ -1,71 +1,25 @@
 import com.google.common.collect.Maps;
-import java.util.Collection;
 import java.util.Map;
-import java.util.Set;
-import java.util.Map.Entry;
 
-public class nfUsbTb7fA25uhDMuNq8Tfoep3rMkMkh1BMuhtYOoADqBKWTjWEt2mtHBK07coPRxEG8yYE1JajEXprEAMZrbw9kDWOLMLJvEOa implements Map {
-   private final Map BatModClient = Maps.newLinkedHashMap();
-
-   @Override
-   public int size() {
-      return this.BatModClient.size();
-   }
+public class Y15j3TNWl00zs5oHPcuqQSvdU4nkt7wiZjpuXYERp3gLQceWXrssGzJIMLmUz7LGCK1AI3nSiAHhXixRpVx15sqjdNIHgjGTBej5
+   extends kIEmAXkGWrKa6WgAaD9RdUxNmBgFErVhqQxlhumSQcw69apmdFXdlXgb4cDsQ09Z872QbEqnhZQ8kH3N4EizIv89IiQWvxa1HJm3 {
+   private Map BatModClient;
 
    @Override
-   public boolean isEmpty() {
-      return this.BatModClient.isEmpty();
+   protected Map BatModClient() {
+      this.BatModClient = Maps.newHashMap();
+      return this.BatModClient;
    }
 
-   @Override
-   public boolean containsKey(Object var1) {
-      return this.BatModClient
-         .containsKey(var1.toString().toLowerCase());
+   public void BatModClient(
+      gBwphcSlyF4L1Lc89kT6tuZBooL0cHixPV7B0ySDBvYU4x0HvpmZ7tkFv9ud8PpIYpSap8G4nC9WsQiqsBRkGcd8QtYI8DBI4Pzz var1
+   ) {
+      this.BatModClient(
+         var1.ButtonAction(), var1
+      );
    }
 
-   @Override
-   public boolean containsValue(Object var1) {
-      return this.BatModClient.containsKey(var1);
-   }
-
-   @Override
-   public Object get(Object var1) {
-      return this.BatModClient.get(var1.toString().toLowerCase());
-   }
-
-   public Object BatModClient(String var1, Object var2) {
-      return this.BatModClient.put(var1.toLowerCase(), var2);
-   }
-
-   @Override
-   public Object remove(Object var1) {
-      return this.BatModClient.remove(var1.toString().toLowerCase());
-   }
-
-   @Override
-   public void putAll(Map var1) {
-      for (Entry var3 : var1.entrySet()) {
-         this.BatModClient((String)var3.getKey(), var3.getValue());
-      }
-   }
-
-   @Override
-   public void clear() {
+   public void Button() {
       this.BatModClient.clear();
-   }
-
-   @Override
-   public Set keySet() {
-      return this.BatModClient.keySet();
-   }
-
-   @Override
-   public Collection values() {
-      return this.BatModClient.values();
-   }
-
-   @Override
-   public Set entrySet() {
-      return this.BatModClient.entrySet();
    }
 }

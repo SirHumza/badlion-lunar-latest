@@ -1,19 +1,11 @@
-import java.awt.image.BufferedImage;
-
-class Spinner
-   implements net.minecraft.client.renderer.SVmetKctmg5Lm2zqsZSqcw7YNSPVjkttADUKnhKFcbxpTMy11LmW4T1UuO7yE0RmFHU4zMWdkyr2hzo1Ipx0bu4BfmWNP2SuRkBj {
-   Spinner(
-      ButtonAction var1
-   ) {
-      this.BatModClient = var1;
+final class Hj01nV799xaYAng0tb3wulXVDITW6ODhyBG8YDPciEzbUaM7ugd7ufJlFXx4dOy4EtIpQ1uKe9PxkZwYeSQeYLxUm41I5xJpV8Z6
+   extends umTPvphyejaMHRBvpr8ZhMidcsr5nJJ2CdHz7WOUb0w3zbjK2D7F5PjKQjeMMdZpyJJWrboix4KzpZija94ZtDNoMyPJopapBdbt {
+   Hj01nV799xaYAng0tb3wulXVDITW6ODhyBG8YDPciEzbUaM7ugd7ufJlFXx4dOy4EtIpQ1uKe9PxkZwYeSQeYLxUm41I5xJpV8Z6(int var1, String var2) {
+      super(var1, var2);
    }
 
    @Override
-   public BufferedImage BatModClient(BufferedImage var1) {
-      return var1;
-   }
-
-   @Override
-   public void BatModClient() {
+   public q6zOAdToZN7TAI74vSRTyYYq0gEOsY62OU4TS97eZ2nT1um0QNOTmHPkkr9sp0WCGrGJUIwKoSx3mDL4BlHBXG0xsXNf5tKvoZg2 Spinner() {
+      return PQv5Bfmc3YgYFvAC2dTnUn4Di1xPI6iL6HyB7PFNLFxAoip71NusUPE2c3nBlPseU8qI9uFV111SHY6yVG0uWx8HL7qy9GXeQgzJ.kzTirpjGBxF6lMXnU3OtSQut8uc2l77qvnA8ubdIFDZhFGEdeA5pNXRls2AFRAdjJOPlXmmIolAi7gqMVppUpc9wEXGNY3nXOehO;
    }
 }

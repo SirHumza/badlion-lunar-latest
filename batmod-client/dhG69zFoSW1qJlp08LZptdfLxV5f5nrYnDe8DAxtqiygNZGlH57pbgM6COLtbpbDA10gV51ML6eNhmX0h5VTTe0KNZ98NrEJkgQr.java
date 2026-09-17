@@ -1,140 +1,191 @@
-import com.google.gson.JsonParseException;
+import org.lwjgl.input.Keyboard;
 
-public class dhG69zFoSW1qJlp08LZptdfLxV5f5nrYnDe8DAxtqiygNZGlH57pbgM6COLtbpbDA10gV51ML6eNhmX0h5VTTe0KNZ98NrEJkgQr
-   extends gtGE6LocuFDdpGo7Ztit0jDTALhhsciqopFJRTnM4jMDQKQo2BnUicuyc16m8NUxtZTHbiL2EWn9Ed9RfL00fyp5LkUoYqAiVOVI {
-   public final WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY[] Spinner = new WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY[]{
-      new E2CgSq1b32QIHiGU1ign22OXmNS90IL1WGNCTiv4SdL7EzVWd66NSzSeKD8rm6JZqRkunqgdhWaRlFHGJlHuqdIrdPpJulQkRtvl(""),
-      new E2CgSq1b32QIHiGU1ign22OXmNS90IL1WGNCTiv4SdL7EzVWd66NSzSeKD8rm6JZqRkunqgdhWaRlFHGJlHuqdIrdPpJulQkRtvl(""),
-      new E2CgSq1b32QIHiGU1ign22OXmNS90IL1WGNCTiv4SdL7EzVWd66NSzSeKD8rm6JZqRkunqgdhWaRlFHGJlHuqdIrdPpJulQkRtvl(""),
-      new E2CgSq1b32QIHiGU1ign22OXmNS90IL1WGNCTiv4SdL7EzVWd66NSzSeKD8rm6JZqRkunqgdhWaRlFHGJlHuqdIrdPpJulQkRtvl("")
-   };
-   public int Checkbox = -1;
-   private boolean ProgressBar = true;
-   private EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u BatModProgressBar;
-   private final xeMyBhVggGCvVCWrJHq0hglLqe93TKHaXItqzxqydOQsgV7W6Bv5pNkq3JbGh5TCuiOeAWzBpKRWI6qMs8bMrT5KGH2QezKAFQAe ColorChooser = new xeMyBhVggGCvVCWrJHq0hglLqe93TKHaXItqzxqydOQsgV7W6Bv5pNkq3JbGh5TCuiOeAWzBpKRWI6qMs8bMrT5KGH2QezKAFQAe();
+public class WbnAkbXy0SzpHs8dljZNtrsmHBUDK2fko7F3qgBseh6ePJNFchTzt8i3KQEESUHcwAL1PwZvhwGOPeMEVV0MkDJ1MLeFtF1cH886
+   extends nlQHGb65ewaG8lYb63OqGLbjwXVQjbDax0OQ6gKd9gjqy8pJJvo1ENhVvU3iFRCZ36Ig1BqTq82T1H0S7nFuy0i5NH7R0lWnV000 {
+   private dhG69zFoSW1qJlp08LZptdfLxV5f5nrYnDe8DAxtqiygNZGlH57pbgM6COLtbpbDA10gV51ML6eNhmX0h5VTTe0KNZ98NrEJkgQr BatModClient;
+   private int Button;
+   private int CustomSpinner;
+   private knyzFixQmG5VbXtSsmCB2LMaviGLpi3aT1TwXZXVXbSvMIUETJiZz7lWrD8HqqaIetiWeF5cd8G4jLteWo3DxFj3VhtaYCk8HYT3 ButtonAction;
 
-   @Override
-   public void Button(
-      YuzfeXjeTK1T00vprZ5Ne0pbh8PiCRpNIxWseM8J5H635vwMw61pRxBVyA583AeqHHKDCmFTPf52sWq6aX7W62BMh6dFjmyF3IUm var1
+   public WbnAkbXy0SzpHs8dljZNtrsmHBUDK2fko7F3qgBseh6ePJNFchTzt8i3KQEESUHcwAL1PwZvhwGOPeMEVV0MkDJ1MLeFtF1cH886(
+      dhG69zFoSW1qJlp08LZptdfLxV5f5nrYnDe8DAxtqiygNZGlH57pbgM6COLtbpbDA10gV51ML6eNhmX0h5VTTe0KNZ98NrEJkgQr var1
    ) {
-      super.Button(var1);
-
-      for (int var2 = 0; var2 < 4; var2++) {
-         String var3 = nMK8kAcK1E9JGdO8NcNynr3pQa53houHGTxyYWhful1qkKBREVWm9tMddCyyPojSsrXSOoQhgceK0oqnECW6Gh5SeiFl65AYu3z.BatModClient(
-            this.Spinner[var2]
-         );
-         var1.BatModClient("Text" + (var2 + 1), var3);
-      }
-
-      this.ColorChooser
-         .Button(var1);
+      this.BatModClient = var1;
    }
 
    @Override
-   public void BatModClient(
-      YuzfeXjeTK1T00vprZ5Ne0pbh8PiCRpNIxWseM8J5H635vwMw61pRxBVyA583AeqHHKDCmFTPf52sWq6aX7W62BMh6dFjmyF3IUm var1
-   ) {
-      this.ProgressBar = false;
-      super.BatModClient(var1);
-      ldJYy5Uc8mFbX8Bv0VUIsj6ChxrdzeshHsyw7FXSeHgzEvAUwVMVnowxJaICHk48mkZ2dl26EjLluowCoZXM4BpcwWdNIXPitQWf var2 = new ldJYy5Uc8mFbX8Bv0VUIsj6ChxrdzeshHsyw7FXSeHgzEvAUwVMVnowxJaICHk48mkZ2dl26EjLluowCoZXM4BpcwWdNIXPitQWf(
-         this
-      );
-
-      for (int var3 = 0; var3 < 4; var3++) {
-         String var4 = var1.IntegerSpinner("Text" + (var3 + 1));
-
-         try {
-            WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY var5 = nMK8kAcK1E9JGdO8NcNynr3pQa53houHGTxyYWhful1qkKBREVWm9tMddCyyPojSsrXSOoQhgceK0oqnECW6Gh5SeiFl65AYu3z.BatModClient(
-               var4
-            );
-
-            try {
-               this.Spinner[var3] = HL6xPhSONRrHkumWMekPrPdF8FyKyvNfUK1ACMIAbtdhGAj814VWFp9eTg8lZWlW2slDvGflqEJUzrTglfkVvbF3aS0GhiuJ9P6j.BatModClient(
-                  var2, var5, (Ibgu3NUIYBBc6s3EWu2hIRSSyI1fhkukbKq2Tcv51OCVAH6AapdNHEHyH4veH4voo2KdtG0Doz1K73vVFStW8OO0WPVe252N5epM)null
-               );
-            } catch (idU6cKQRpAnHtyqFJvIb8hgPBjjUUYm6Ct9OSY6MQwB6XkEuP0uiQvo9DXNj2Csz9ZA9mb0z6YBVCZ72LpS1AOo81K4Sr2SCh9XO var7) {
-               this.Spinner[var3] = var5;
-            }
-         } catch (JsonParseException var8) {
-            this.Spinner[var3] = new E2CgSq1b32QIHiGU1ign22OXmNS90IL1WGNCTiv4SdL7EzVWd66NSzSeKD8rm6JZqRkunqgdhWaRlFHGJlHuqdIrdPpJulQkRtvl(
-               var4
-            );
-         }
-      }
-
-      this.ColorChooser
-         .BatModClient(var1);
-   }
-
-   @Override
-   public fvKISyhjtidEfAo9GUDVyJzNehUtrdzsiGxY2s19EDEEk0tKuce6ztVZPAM3xilMlKOMBNJsgl2Spy2Ojw7DED3JNznNgMVQdCFM aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA() {
-      WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY[] var1 = new WeTqa0g0NbkXZOZDrvSeeDCHHN7RPZ9gR2j4c4e9IpymEt17UQor6B2FDPaiPIcNX5cuF15DrhMPMyE1uzL2mO8ZpMjwpJby4mVY[4];
-      System.arraycopy(this.Spinner, 0, var1, 0, 4);
-      return new lfAUPPTmI4OkQgcT7XZysRtxpBfboy3rqSDM4f9QvIlTXhMmJcuHkFrVWkhGq3yxJS7eou99AdCwkOaQhYt8WZJBjvx41xz8QYx(
-         this.BatModClient,
-         this.Button,
-         var1
-      );
-   }
-
-   @Override
-   public boolean RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB() {
-      return true;
-   }
-
-   public boolean BatModClient() {
-      return this.ProgressBar;
-   }
-
-   public void BatModClient(boolean var1) {
-      this.ProgressBar = var1;
-      if (!var1) {
-         this.BatModProgressBar = null;
-      }
-   }
-
-   public void BatModClient(
-      EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u var1
-   ) {
-      this.BatModProgressBar = var1;
-   }
-
-   public EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u Button() {
-      return this.BatModProgressBar;
-   }
-
-   public boolean Button(
-      EiOGTpOuNvp5WsKk6jGR2jglsq9JaB2IWjuipLa7gU6vDDYOtqWblwLscEr9nhr3XGEIpYHMHSqPgq2F6xpysdofz60nmyg8x8u var1
-   ) {
-      e9TVovrLvHQGa9JbAvlhrLkSc91xX5T843hkaYgVXCbm1g06ussInhD7dMnRnzlRIMWGMpJB2BqdlJxituQRdVejF6QWyaN60Cwc var2 = new e9TVovrLvHQGa9JbAvlhrLkSc91xX5T843hkaYgVXCbm1g06ussInhD7dMnRnzlRIMWGMpJB2BqdlJxituQRdVejF6QWyaN60Cwc(
-         this, var1
-      );
-
-      for (int var3 = 0; var3 < this.Spinner.length; var3++) {
-         yl0mZb2L6LsYutskbvdy92R5O0ucwqxLdFRSY88HQHekYrPd9yTOSLXzu590OIVgg9Qk21zwAmAaGRt3c1ubj2k0ZmcBHYGMFHag var4 = this.Spinner[var3]
-               == null
-            ? null
-            : this.Spinner[var3]
-               .ProgressBar();
-         if (var4 != null && var4.BatModProgressBar() != null) {
-            sUvC6DSRzZAj19jnp0h772A60sCsZu1kbHJggxsCGGAr6DYaaHfPeSAFxrHmHIDcnU8urP7QoFZS0ZevVFIoxIQODtv2OpKPD14 var5 = var4.BatModProgressBar();
-            if (var5.BatModClient()
-               == it4ImSJ8BhIhaw8NuKj4J7yfinx3vXSb3XmnKbX9xYMrcBe1VYlipxoJbYADROpzTvfHPI57otj4v3YBoqaCBk24SpB76l15slgX.CustomSpinner
+   public void BatModClient() {
+      this.RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM.clear();
+      Keyboard.enableRepeatEvents(true);
+      this.RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM
+         .add(
+            this.ButtonAction = new knyzFixQmG5VbXtSsmCB2LMaviGLpi3aT1TwXZXVXbSvMIUETJiZz7lWrD8HqqaIetiWeF5cd8G4jLteWo3DxFj3VhtaYCk8HYT3(
+               0,
+               this.TextField / 2 - 100,
+               this.ColorTextPane / 4 + 120,
+               rNwJ4I02OUAysDSPHru31rx6EAmfjS0D4tuupAIkr95xZWRMo0w98vizVfxup78guYqYVHssdUknEbQvin7dHl8cJfr1BY8hIU75.BatModClient(
+                  "gui.done"
                )
-             {
-               TDI1rwhE6ftgpT0jnIkLxDzDc0kfx23fe5G5xeWfGWo1r95rLIJvkBpIvia4qynITY7zhShMOxrj3sgpclCo8KBYm5raxCQbPjtD.KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ()
-                  .OXiHn4yUSlOUP4kAV8kog6OFjXxn0PRuO4COz26Lq0ilLnotGRRNuaBnh7uhZgmQElMCcIzA31DVhxqMomb5cN7KXGc0anrqbaJt()
-                  .BatModClient(
-                     var2, var5.Button()
-                  );
-            }
-         }
-      }
-
-      return true;
+            )
+         );
+      this.BatModClient
+         .BatModClient(false);
    }
 
-   public xeMyBhVggGCvVCWrJHq0hglLqe93TKHaXItqzxqydOQsgV7W6Bv5pNkq3JbGh5TCuiOeAWzBpKRWI6qMs8bMrT5KGH2QezKAFQAe CustomSpinner() {
-      return this.ColorChooser;
+   @Override
+   public void q_() {
+      Keyboard.enableRepeatEvents(false);
+      sYESI7x8PrBOF8pwN0WBJg1JhCvRljufbvVxDX5I3tc9M9KZgVQC1Afn4IlG8PRFnSra0FuIn16DivLeZEZE76Zi62xWREluDJYu var1 = this.ColorChooser
+         .InstallationLogger();
+      if (var1 != null) {
+         var1.BatModClient(
+            new f4wB1zMgquPajCvGJCsiCm3aSPkkhy4OEWXPIy4LJ6hGIEZ9yUoSGTmpOT3BlYSFmfvWKxiWVXWMt4GP8blacz6ppYoBVRyNhMc(
+               this.BatModClient
+                  .ColorTextPane(),
+               this.BatModClient.Spinner
+            )
+         );
+      }
+
+      this.BatModClient
+         .BatModClient(true);
+   }
+
+   @Override
+   public void a_() {
+      this.Button++;
+   }
+
+   @Override
+   protected void BatModClient(
+      knyzFixQmG5VbXtSsmCB2LMaviGLpi3aT1TwXZXVXbSvMIUETJiZz7lWrD8HqqaIetiWeF5cd8G4jLteWo3DxFj3VhtaYCk8HYT3 var1
+   ) {
+      if (var1.Checkbox
+         && var1.Spinner == 0) {
+         this.BatModClient
+            .z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP();
+         this.ColorChooser
+            .BatModClient(
+               (nlQHGb65ewaG8lYb63OqGLbjwXVQjbDax0OQ6gKd9gjqy8pJJvo1ENhVvU3iFRCZ36Ig1BqTq82T1H0S7nFuy0i5NH7R0lWnV000)null
+            );
+      }
+   }
+
+   @Override
+   protected void BatModClient(char var1, int var2) {
+      if (var2 == 200) {
+         this.CustomSpinner = this.CustomSpinner
+               - 1
+            & 3;
+      }
+
+      if (var2 == 208 || var2 == 28 || var2 == 156) {
+         this.CustomSpinner = this.CustomSpinner
+               + 1
+            & 3;
+      }
+
+      String var3 = this.BatModClient.Spinner[this.CustomSpinner]
+         .BatModProgressBar();
+      if (var2 == 14 && var3.length() > 0) {
+         var3 = var3.substring(0, var3.length() - 1);
+      }
+
+      if (LV83e4PkCLynUoB0CpHO33tgGAOiNCV2cw5xMJngE1eOJAXXcOeXqaj1f8hNTWRXYrbjNZwgwYRfr7wRZBs6IxjsJsEQFbmQuTj0.BatModClient(
+            var1
+         )
+         && this.BatModJson
+               .BatModClient(var3 + var1)
+            <= 90) {
+         var3 = var3 + var1;
+      }
+
+      this.BatModClient.Spinner[this.CustomSpinner] = new E2CgSq1b32QIHiGU1ign22OXmNS90IL1WGNCTiv4SdL7EzVWd66NSzSeKD8rm6JZqRkunqgdhWaRlFHGJlHuqdIrdPpJulQkRtvl(
+         var3
+      );
+      if (var2 == 1) {
+         this.BatModClient(
+            this.ButtonAction
+         );
+      }
+   }
+
+   @Override
+   public void BatModClient(int var1, int var2, float var3) {
+      this.aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA();
+      this.BatModClient(
+         this.BatModJson,
+         rNwJ4I02OUAysDSPHru31rx6EAmfjS0D4tuupAIkr95xZWRMo0w98vizVfxup78guYqYVHssdUknEbQvin7dHl8cJfr1BY8hIU75.BatModClient(
+            "sign.edit"
+         ),
+         this.TextField / 2,
+         40,
+         16777215
+      );
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.CustomSpinner(
+         1.0F, 1.0F, 1.0F, 1.0F
+      );
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m();
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+         this.TextField / 2, 0.0F, 50.0F
+      );
+      float var4 = 93.75F;
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.BatModClient(
+         -var4, -var4, -var4
+      );
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+         180.0F, 0.0F, 1.0F, 0.0F
+      );
+      c2oMn9P79Sau4CuYIA2cLQLt3KoM1Y67PHvtoBgPr2g6Oy5HzqcC9jfK5sgjIn7nXpGQhcd6OIXsJWNXSgt47agiqfonfVYpqz1G var5 = this.BatModClient
+         .BatModInstallerMain();
+      if (var5
+         == fjTmmqSsZED0Quce5L2uiRkXlUvTxobqZQQLKtQCEfpkCpo2EBl8Znhs2ME7pKps4B0QFBco0DiLYL8M5rwIsjvXbiKu69mgXWo.gUyxxfEjXoDLNAgHHUnP1AMzZ8ioixY9BAypjiusQEsJz9UHusz3wCxRyuPTmNoGYvgKCMk4SmLTZozyxCaTcETlvh2e1rGmV1C
+         )
+       {
+         float var6 = this.BatModClient
+                  .IntegerSpinner()
+               * 360
+            / 16.0F;
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+            var6, 0.0F, 1.0F, 0.0F
+         );
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+            0.0F, -1.0625F, 0.0F
+         );
+      } else {
+         int var8 = this.BatModClient
+            .IntegerSpinner();
+         float var7 = 0.0F;
+         if (var8 == 2) {
+            var7 = 180.0F;
+         }
+
+         if (var8 == 4) {
+            var7 = 90.0F;
+         }
+
+         if (var8 == 5) {
+            var7 = -90.0F;
+         }
+
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+            var7, 0.0F, 1.0F, 0.0F
+         );
+         net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.Button(
+            0.0F, -1.0625F, 0.0F
+         );
+      }
+
+      if (this.Button / 6 % 2 == 0) {
+         this.BatModClient.Checkbox = this.CustomSpinner;
+      }
+
+      ySqnn3rMFjRw9JNsF7PHra7O7KEjUG7mQxCvdRfXV2S8n9x4OAdGir42U37tSxn9hNlfFKDbK7kgh2Wb8GZFNci6Dzjkhhkksdss.BatModClient
+         .BatModClient(
+            this.BatModClient, -0.5, -0.75, -0.5, 0.0F
+         );
+      this.BatModClient.Checkbox = -1;
+      net.minecraft.client.renderer.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m.N5r9mmyiJl9qupxUc6jnbCbAi8OipFTHPUatcuhJZKK1QroIswJzBmJGD2jp3T7EQQmX6UJR9N33K8bXoQt1sEEcM5TBuaKTmmHl();
+      super.BatModClient(var1, var2, var3);
    }
 }

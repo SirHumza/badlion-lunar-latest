@@ -1,114 +1,149 @@
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import java.util.ArrayList;
-import java.util.Map;
+public class L8cw7BwwjaycvmbCRY1jomapqMooyDHPS1vNKcMZwPvIoqI5ZshWy96QOnVdU5MfXLwrMHppkaY7szBBL1JtK8zvXNJpqfsxfqtd
+   implements fvKISyhjtidEfAo9GUDVyJzNehUtrdzsiGxY2s19EDEEk0tKuce6ztVZPAM3xilMlKOMBNJsgl2Spy2Ojw7DED3JNznNgMVQdCFM {
+   private bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI BatModClient;
+   private float Button;
+   private float CustomSpinner;
+   private float ButtonAction;
+   private float Spinner;
+   private float Checkbox;
+   private float ProgressBar;
+   private float BatModProgressBar;
+   private int ColorChooser;
+   private boolean IntegerSpinner;
+   private int[] TextField;
 
-public enum bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI {
-   BatModClient("explode", 0, true),
-   Button("largeexplode", 1, true),
-   CustomSpinner("hugeexplosion", 2, true),
-   ButtonAction("fireworksSpark", 3, false),
-   Spinner("bubble", 4, false),
-   Checkbox("splash", 5, false),
-   ProgressBar("wake", 6, false),
-   BatModProgressBar("suspended", 7, false),
-   ColorChooser("depthsuspend", 8, false),
-   IntegerSpinner("crit", 9, false),
-   TextField("magicCrit", 10, false),
-   ColorTextPane("smoke", 11, false),
-   BatModInstallerMain("largesmoke", 12, false),
-   aHV8Pc8fKaYoTFVjg5nNPReU6wuKOE57VLPQA1JDXf6oEySyuPy65TWgIpLNrB3svE7ygGUPECsf6pZWPobt6CeAnVJt70ekjPGA("spell", 13, false),
-   LU8Huv8dNJpML2JB8fJWzj9J43KolrD8eyRsYcSdQZ3KH8jshbGfdwvq3RpIPDuukZZv21DROpftzYXoq05vVeGAMsPHlkNSkgtN("instantSpell", 14, false),
-   G0rcuynoQrTk4Mlm1W4cvUs7IiESq1BrFuSO7kHX35743ulZsGy0aD8sXKTYCemKzVH381ngFOLPu19GPJvmjFGptlFYSbCdIcvr("mobSpell", 15, false),
-   iqUTQzLcr4G7USt8ebV7HMxRVMQTEhVv1BlKhZ05FrJWtrkI4tRVE2dUtW1rbbFBZXTBxCSqbCdWhG7174B3Wp0lQbulAtm3IxpF("mobSpellAmbient", 16, false),
-   bSALqmlxUoCEmKEx0a3lwGaLLejprOUkOjofxF0C0KpuhqUxhXAQfVMVMmCuFk2RMebQ12SqEyYOMBErHDyC9L41L7WH5mqOh2XJ("witchMagic", 17, false),
-   RJxtuOpLMN8mSKJWtvecVUwMWfHoALW9TctPAw3uJN6reYIN8yZ86a1E9HvVWiWyP17F4DFZZEtdTXh6yUvuiQW9Qn21bMtOriEB("dripWater", 18, false),
-   Downloader("dripLava", 19, false),
-   InstallationLogger("angryVillager", 20, false),
-   RModJZEOhhjT4uPKAuLskN6fUYKpGeXWlTKMKzVCotnh8IDpnUM8zKUPyM7irhoYqhF5jIRt2a397vXyAe9gezlx1K6YataCwKwM("happyVillager", 21, false),
-   K8fgK6SJTLD5kNdQl59F9Js9gC8cN1NCeb1mW2tUoSWhxfq1ilNyZ38fRHDneEOE3UTXU8PslB1j8FjHqFAL6e5Iaxq178LZtxuY("townaura", 22, false),
-   ExitCode("note", 23, false),
-   BatModJson("portal", 24, false),
-   z7lTVWrJFQErSVaWQUypzdDKtRsB8j4hFRVFYaes8wFA6xkO90K8wzhwgYCkNyaHlSSd7Xrxdd1Dom3qC2bkkQ787ofxVXSEbugP("enchantmenttable", 25, false),
-   LWeUCrSXI0X1TUSj3kdgMZPNXDQMtGVdjYlcuoX3IGlg52ZVXAu55sn6CTBfNGVXG21VO7VkvZoUJZJcydbKeN99pg7F35Nxhf8("flame", 26, false),
-   xCcvUDSp5KiPSF2iTiVGJefIchpG9vXsmGR8kcgRaeZeGBmaNItWp46MocozUb0pEBosC5pJ23qOcHVFIRQUBWcsIz7jZSWmtuGa("lava", 27, false),
-   o9J5ygGImNI5Ws5L9s4ppy1zSfK22KkGYNOpS82I0raEIiSJMfxzEaEXlpHB7PQt4MvV6jd06TVrtRsToMod2AlaZlRNnI6veuC4("footstep", 28, false),
-   K3xIIKuansJDsNpUbxdGFQOW7ziqP9U19c78A63CpbBZjLSHxNriRDpAObixCLzkOrF62HK8YpIH3YDfQC1PdPMNAtRybku3jLjL("cloud", 29, false),
-   sv3zyZxD3xWlWeYYLSruuAtLQlLVOZKZqSxLVzG6LIkZdnBFYCEMpWDCJcCIGmpZLZXeGEhykSNrDIB7ylGQaaBiJWzGovTp1Wyr("reddust", 30, false),
-   GpDFKWkpAtoLQB0W2XCV5bHrfhV8v60U9eVAz8acb1obB7yclvZIoJJBby5GbawXebsAfQocYajpCi0D7X4qgixSfAmUGJnoMIBj("snowballpoof", 31, false),
-   OVft42XaDrpCid053XFq1EPZ8CkxDYortlwtRX4zTf4L5KT5wFCJrMIQs1I0or0K1OcKP82y3PpnybjZEMRPyyEezZIs1zuJDGFF("snowshovel", 32, false),
-   f4NjjuH3UAaMkYDKg4JjKVIV1PiNsOM4T4HUFyWQ5CaEXleTtHn67zbCvMaD8qyMLvZeLv4QkzyMQOIJpmOQimLZV283D81hMfb("slime", 33, false),
-   fDoAJ9W9bXAT89550qV528PlQ3xBSnLnpyVbFpWqc5e8BN9pOqCYta3tS7TuKU1dJl7tt01b3fzVmBCmYvz5SizTFbmamdEnbpee("heart", 34, false),
-   z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m("barrier", 35, false),
-   N5r9mmyiJl9qupxUc6jnbCbAi8OipFTHPUatcuhJZKK1QroIswJzBmJGD2jp3T7EQQmX6UJR9N33K8bXoQt1sEEcM5TBuaKTmmHl("iconcrack_", 36, false, 2),
-   EqJOiVUYvxDiM8gkwzd1iAfp2jiTGASKxdvBdBMco7cmruIFNVOcqHRMTIOkziggLeP5CAxJrERCwdMX8uh2BleTLP9S00DEbPcj("blockcrack_", 37, false, 1),
-   KJBpBZrx7SYvQE6hwF79jvgDw9Qlz9lGaNqke5SLNyatfks2bDEP2RzrTdcCxGBVUCKpMn0F6Yj3QA8UgwBq9umx3CDU4lw8R1rQ("blockdust_", 38, false, 1),
-   WkHLtxh0OBE988n6Z0s69VckSEH7sjJ2sJEkoBxEnB9TRCVCnrzX8qoWr1JeSS1QxNVIPsIB8QiJnFqynvUoIajlh0Sg8n21w13o("droplet", 39, false),
-   OXiHn4yUSlOUP4kAV8kog6OFjXxn0PRuO4COz26Lq0ilLnotGRRNuaBnh7uhZgmQElMCcIzA31DVhxqMomb5cN7KXGc0anrqbaJt("take", 40, false),
-   vc1vcQvCMb57ohl4fnHncmfADNI2HiLhnbvKDKbyboq1tjQYZTJWWhxnvRflDZG2Ua8cyVLVIyIjEdfHKjYk6i05W15bM39R7XzP("mobappearance", 41, true);
-
-   private final String ajjr7Ni2EHRE1u7yRvYCgdpdiULiyx9X9XJNVVs4B4DzQKYyKiXERSDVF9iR5GLEXGUwZen2M6GVpVpve4n5zSvVjjNeyHxMfxu;
-   private final int ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV;
-   private final boolean fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i;
-   private final int dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11;
-   private static final Map GsonTypeAdapter = Maps.newHashMap();
-   private static final String[] mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv;
-
-   bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI(String var3, int var4, boolean var5, int var6) {
-      this.ajjr7Ni2EHRE1u7yRvYCgdpdiULiyx9X9XJNVVs4B4DzQKYyKiXERSDVF9iR5GLEXGUwZen2M6GVpVpve4n5zSvVjjNeyHxMfxu = var3;
-      this.ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV = var4;
-      this.fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i = var5;
-      this.dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11 = var6;
+   public L8cw7BwwjaycvmbCRY1jomapqMooyDHPS1vNKcMZwPvIoqI5ZshWy96QOnVdU5MfXLwrMHppkaY7szBBL1JtK8zvXNJpqfsxfqtd() {
    }
 
-   bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI(String var3, int var4, boolean var5) {
-      this(var3, var4, var5, 0);
-   }
-
-   public static String[] BatModClient() {
-      return mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv;
-   }
-
-   public String Button() {
-      return this.ajjr7Ni2EHRE1u7yRvYCgdpdiULiyx9X9XJNVVs4B4DzQKYyKiXERSDVF9iR5GLEXGUwZen2M6GVpVpve4n5zSvVjjNeyHxMfxu;
-   }
-
-   public int CustomSpinner() {
-      return this.ww31cPhIzaBGCu7C6N9NLUlcKVAo5KLtAV5pEaRayswjNp6ENrQSkaNKjj9WE47YcT5DbyyiazfM1ex0Mp9CnKjyju3jPzOVeaxV;
-   }
-
-   public int ButtonAction() {
-      return this.dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11;
-   }
-
-   public boolean Spinner() {
-      return this.fez8AdP0jZfhB7lOIa9sS59KIuwi3YNx1M2p0aMHKri55lbVVbxnvGDY6kCd6lzwl9tAxTxZusJ5gNakHQVVByOcQttcc1sIoC0i;
-   }
-
-   public boolean Checkbox() {
-      return this.dt1RCwtidkkY41F4ZY7G1aeJE8wTlGMPusya4jQ85B0YQr9TNzFbJB2Kin7CtBGtJ5yBTgb8BBgW8FMAh09eULomEIdKZYJ6eW11 > 0;
-   }
-
-   public static bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI BatModClient(
-      int var0
+   public L8cw7BwwjaycvmbCRY1jomapqMooyDHPS1vNKcMZwPvIoqI5ZshWy96QOnVdU5MfXLwrMHppkaY7szBBL1JtK8zvXNJpqfsxfqtd(
+      bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI var1,
+      boolean var2,
+      float var3,
+      float var4,
+      float var5,
+      float var6,
+      float var7,
+      float var8,
+      float var9,
+      int var10,
+      int... var11
    ) {
-      return (bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI)GsonTypeAdapter.get(
-         var0
-      );
+      this.BatModClient = var1;
+      this.IntegerSpinner = var2;
+      this.Button = var3;
+      this.CustomSpinner = var4;
+      this.ButtonAction = var5;
+      this.Spinner = var6;
+      this.Checkbox = var7;
+      this.ProgressBar = var8;
+      this.BatModProgressBar = var9;
+      this.ColorChooser = var10;
+      this.TextField = var11;
    }
 
-   static {
-      ArrayList var0 = Lists.newArrayList();
-
-      for (bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI var4 : values()) {
-         GsonTypeAdapter.put(
-            var4.CustomSpinner(), var4
-         );
-         if (!var4.Button().endsWith("_")) {
-            var0.add(var4.Button());
-         }
+   @Override
+   public void BatModClient(
+      LfZTvlpvtfpqdXBRQcpwEVcD5DJAHNXLq1vR03uvcQx2UYuaKocglsNzIec4U3Pt8HvzbZYmVwW4qp97ksdsccBVU4wkiTErBbjx var1
+   ) {
+      this.BatModClient = bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI.BatModClient(
+         var1.readInt()
+      );
+      if (this.BatModClient == null) {
+         this.BatModClient = bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI.z9XArWABEqRRKMkN8RxcNAPyZ3rqye0J7ObmPJZOV3a3QxwGkekbC4XPNvly0sMMXUMhsGrJQsUrRONf93Yw0SNKiIme3EpGeO2m;
       }
 
-      mT4H8qpjr3K6mhbf9Pam0AP2YP1sTYGnvPD3wfHgfFZVvGjpI2ZdBsqiFfs9Rv0oFLlyx4nZpP6TITqRmJak428iQhhocwQiV8qv = var0.toArray(new String[var0.size()]);
+      this.IntegerSpinner = var1.readBoolean();
+      this.Button = var1.readFloat();
+      this.CustomSpinner = var1.readFloat();
+      this.ButtonAction = var1.readFloat();
+      this.Spinner = var1.readFloat();
+      this.Checkbox = var1.readFloat();
+      this.ProgressBar = var1.readFloat();
+      this.BatModProgressBar = var1.readFloat();
+      this.ColorChooser = var1.readInt();
+      int var2 = this.BatModClient
+         .ButtonAction();
+      this.TextField = new int[var2];
+
+      for (int var3 = 0; var3 < var2; var3++) {
+         this.TextField[var3] = var1.ButtonAction();
+      }
+   }
+
+   @Override
+   public void Button(
+      LfZTvlpvtfpqdXBRQcpwEVcD5DJAHNXLq1vR03uvcQx2UYuaKocglsNzIec4U3Pt8HvzbZYmVwW4qp97ksdsccBVU4wkiTErBbjx var1
+   ) {
+      var1.writeInt(
+         this.BatModClient
+            .CustomSpinner()
+      );
+      var1.writeBoolean(this.IntegerSpinner);
+      var1.writeFloat(this.Button);
+      var1.writeFloat(this.CustomSpinner);
+      var1.writeFloat(this.ButtonAction);
+      var1.writeFloat(this.Spinner);
+      var1.writeFloat(this.Checkbox);
+      var1.writeFloat(this.ProgressBar);
+      var1.writeFloat(this.BatModProgressBar);
+      var1.writeInt(this.ColorChooser);
+      int var2 = this.BatModClient
+         .ButtonAction();
+
+      for (int var3 = 0; var3 < var2; var3++) {
+         var1.Button(
+            this.TextField[var3]
+         );
+      }
+   }
+
+   public bqktTrhqNeUUmZPZfzUoRuX7dYKrygZ4FhCjqPxLbarsoXXSEqX7P1VISvjg9LXpKiPPnNKnKFfBv1wcZ5u2xzVFXz5CuBu3R6OI BatModClient() {
+      return this.BatModClient;
+   }
+
+   public boolean Button() {
+      return this.IntegerSpinner;
+   }
+
+   public double CustomSpinner() {
+      return this.Button;
+   }
+
+   public double ButtonAction() {
+      return this.CustomSpinner;
+   }
+
+   public double Spinner() {
+      return this.ButtonAction;
+   }
+
+   public float Checkbox() {
+      return this.Spinner;
+   }
+
+   public float ProgressBar() {
+      return this.Checkbox;
+   }
+
+   public float BatModProgressBar() {
+      return this.ProgressBar;
+   }
+
+   public float ColorChooser() {
+      return this.BatModProgressBar;
+   }
+
+   public int IntegerSpinner() {
+      return this.ColorChooser;
+   }
+
+   public int[] TextField() {
+      return this.TextField;
+   }
+
+   public void BatModClient(
+      iPTL23HOVfk0ZAY9Qu46G4HFkkITYltA3Ieh3ProSkQvVZWtbH7mm2IDojoNJzUk3Rv2BZV7QZXXv5ogbBO0Nplt0KTxGmS8hc var1
+   ) {
+      var1.BatModClient(this);
    }
 }
